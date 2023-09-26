@@ -168,6 +168,10 @@
 /obj/item/folder/sec,
 /obj/item/paper_bin,
 /obj/item/pen,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 4;
+	pixel_y = -24
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/brig)
 "bu" = (
@@ -212,6 +216,7 @@
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 9
 	},
+/obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/dorm)
 "bF" = (
@@ -306,8 +311,12 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
 /turf/simulated/floor,
 /area/ship/kasf_corvette/forehall)
 "ci" = (
@@ -633,6 +642,8 @@
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 6
 	},
+/obj/item/clothing/accessory/stethoscope,
+/obj/item/clothing/glasses/hud/health,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/dorm)
 "ey" = (
@@ -1000,13 +1011,9 @@
 /obj/item/reagent_containers/glass/beaker/large{
 	pixel_x = 9
 	},
-/obj/item/storage/box/gloves{
-	pixel_x = -8;
-	pixel_y = 16
-	},
 /obj/machinery/reagentgrinder{
-	pixel_x = -4;
-	pixel_y = 2
+	pixel_x = -8;
+	pixel_y = 4
 	},
 /obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/white,
@@ -1105,7 +1112,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/structure/closet/crate/freezer/rations,
+/obj/structure/closet/crate/freezer,
 /obj/item/storage/overloader/tranquil,
 /obj/item/storage/overloader/tranquil,
 /obj/item/storage/overloader/rainbow,
@@ -1340,6 +1347,10 @@
 "iS" = (
 /obj/structure/table/stone/marble,
 /obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour{
+	pixel_x = -4;
+	pixel_y = -2
+	},
 /obj/item/material/kitchen/rollingpin{
 	pixel_x = 6;
 	pixel_y = 10
@@ -1366,14 +1377,6 @@
 	pixel_y = 6
 	},
 /obj/item/storage/toolbox/electrical,
-/obj/item/storage/box/lights/mixed{
-	pixel_y = -12;
-	pixel_x = -6
-	},
-/obj/item/reagent_containers/weldpack{
-	pixel_y = -12;
-	pixel_x = 6
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -1798,16 +1801,10 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/forehall)
 "mu" = (
-/obj/machinery/door/airlock/command{
-	dir = 4;
-	name = "Captain's Quarters"
-	},
 /obj/machinery/door/firedoor/noid,
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1817,6 +1814,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/machinery/door/airlock/command/gold{
+	dir = 4;
+	name = "Captain's Quarters"
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/captain)
@@ -2080,9 +2081,6 @@
 /obj/effect/floor_decal/industrial/loading/yellow{
 	dir = 4
 	},
-/obj/structure/sign/nosmoking_1{
-	pixel_y = -24
-	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/kasf_corvette/medbay)
 "nZ" = (
@@ -2223,9 +2221,6 @@
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 10
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/mess)
 "oP" = (
@@ -2323,9 +2318,6 @@
 	},
 /obj/machinery/alarm/west{
 	req_one_access = null
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/forehall)
@@ -2858,20 +2850,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/porthangarfoyer)
-"sJ" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/crate/freezer/rations,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/turf/simulated/floor/tiled/dark/full,
-/area/ship/kasf_corvette/porthangarfoyer)
 "sQ" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -3265,7 +3243,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/structure/flora/pottedplant/orchid,
+/obj/structure/flora/pottedplant/unusual,
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/forehall)
 "vn" = (
@@ -3463,6 +3441,7 @@
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 10
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/mess)
 "wO" = (
@@ -3495,6 +3474,7 @@
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 9
 	},
+/obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/dorm)
 "wU" = (
@@ -3631,10 +3611,6 @@
 "xX" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/door/firedoor/noid,
-/obj/item/toy/desk/fan{
-	pixel_x = -8;
-	pixel_y = 4
-	},
 /obj/item/reagent_containers/food/condiment/shaker/salt{
 	pixel_y = 14;
 	pixel_x = 3
@@ -3642,6 +3618,14 @@
 /obj/item/reagent_containers/food/condiment/shaker/peppermill{
 	pixel_y = 14;
 	pixel_x = 9
+	},
+/obj/item/reagent_containers/food/condiment/shaker/spacespice{
+	pixel_x = -4;
+	pixel_y = 16
+	},
+/obj/item/toy/desk/fan{
+	pixel_x = -8;
+	pixel_y = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/kasf_corvette/mess)
@@ -4860,6 +4844,14 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/item/reagent_containers/weldpack{
+	pixel_y = 14;
+	pixel_x = 6
+	},
+/obj/item/storage/box/lights/mixed{
+	pixel_y = 12;
+	pixel_x = -6
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/engie)
 "Fa" = (
@@ -4878,9 +4870,6 @@
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 10
 	},
-/obj/machinery/light{
-	dir = 8
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -4896,37 +4885,45 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/item/roller{
-	pixel_y = -2
-	},
-/obj/item/roller{
-	pixel_y = -2
-	},
-/obj/item/bodybag/cryobag{
-	pixel_y = -2
-	},
-/obj/item/bodybag/cryobag{
-	pixel_y = -2
-	},
-/obj/item/bodybag/cryobag{
-	pixel_y = -2
-	},
-/obj/item/vitals_monitor{
-	pixel_y = -2
-	},
-/obj/item/vitals_monitor{
-	pixel_y = -2
-	},
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = 8;
 	pixel_y = 10
 	},
-/obj/item/clothing/accessory/stethoscope{
-	pixel_x = -8
+/obj/item/storage/box/bodybags{
+	pixel_y = -6;
+	pixel_x = -6
 	},
-/obj/item/clothing/glasses/hud/health{
-	pixel_x = -8;
-	pixel_y = 8
+/obj/item/storage/box/sharps{
+	pixel_y = 6;
+	pixel_x = -6
+	},
+/obj/item/roller{
+	pixel_y = -2;
+	pixel_x = 4
+	},
+/obj/item/roller{
+	pixel_y = -2;
+	pixel_x = 4
+	},
+/obj/item/bodybag/cryobag{
+	pixel_y = -2;
+	pixel_x = 4
+	},
+/obj/item/bodybag/cryobag{
+	pixel_y = -2;
+	pixel_x = 4
+	},
+/obj/item/bodybag/cryobag{
+	pixel_y = -2;
+	pixel_x = 4
+	},
+/obj/item/vitals_monitor{
+	pixel_y = -2;
+	pixel_x = 4
+	},
+/obj/item/vitals_monitor{
+	pixel_y = -2;
+	pixel_x = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/kasf_corvette/medbay)
@@ -5025,6 +5022,7 @@
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 9
 	},
+/obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/dorm)
 "FO" = (
@@ -5133,19 +5131,14 @@
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "Gp" = (
-/obj/structure/railing/mapped{
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 9
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/structure/closet/crate/freezer/rations,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/obj/item/reagent_containers/food/drinks/dry_ramen,
-/turf/simulated/floor/tiled/dark/full,
-/area/ship/kasf_corvette/starboardhangarfoyer)
+/turf/simulated/floor/tiled,
+/area/ship/kasf_corvette/forehall)
 "Gq" = (
 /obj/effect/decal/cleanable/blood/drip/oil,
 /turf/simulated/floor,
@@ -5300,42 +5293,6 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/kasf_corvette/starboardthrust)
 "HF" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/storage/box/produce{
-	layer = 2.99
-	},
-/obj/item/storage/box/fancy/egg_box,
-/obj/item/storage/box/fancy/egg_box,
-/obj/item/reagent_containers/food/drinks/carton/milk,
-/obj/item/reagent_containers/food/drinks/carton/milk,
-/obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_x = -9;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_x = -9;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_x = -9;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_x = -9;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_x = -9;
-	pixel_y = 5
-	},
 /obj/effect/floor_decal/spline/plain/beige{
 	dir = 10
 	},
@@ -5347,6 +5304,32 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/flour,
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/item/reagent_containers/food/snacks/meat,
+/obj/item/reagent_containers/food/snacks/meat,
+/obj/item/reagent_containers/food/snacks/meat,
+/obj/item/reagent_containers/food/snacks/fish/fishfillet,
+/obj/item/reagent_containers/food/snacks/fish/fishfillet,
+/obj/item/reagent_containers/food/snacks/fish/fishfillet,
+/obj/item/reagent_containers/food/snacks/meat/chicken,
+/obj/item/reagent_containers/food/snacks/meat/chicken,
+/obj/item/storage/box/produce{
+	layer = 2.99
+	},
+/obj/item/storage/box/produce{
+	layer = 2.99
+	},
+/obj/item/storage/box/fancy/egg_box,
+/obj/item/storage/box/fancy/egg_box,
+/obj/item/reagent_containers/food/drinks/carton/cream,
+/obj/item/reagent_containers/food/drinks/carton/milk,
+/obj/item/reagent_containers/food/drinks/carton/milk,
+/obj/item/reagent_containers/food/drinks/carton/soymilk,
+/obj/item/reagent_containers/food/drinks/carton/soymilk,
+/obj/item/reagent_containers/food/condiment/enzyme{
+	pixel_x = -9;
+	pixel_y = 5
+	},
 /turf/simulated/floor/lino,
 /area/ship/kasf_corvette/mess)
 "HH" = (
@@ -5571,7 +5554,9 @@
 /turf/simulated/floor,
 /area/ship/kasf_corvette/atmos)
 "IW" = (
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = null
+	},
 /obj/effect/floor_decal/spline/plain/red,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -5736,15 +5721,13 @@
 /turf/simulated/floor,
 /area/ship/kasf_corvette/cic)
 "JO" = (
-/obj/machinery/door/airlock/glass{
-	name = "Fore Hallway"
-	},
 /obj/machinery/door/firedoor/noid,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/forehall)
 "JR" = (
@@ -5960,6 +5943,9 @@
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "Lj" = (
 /obj/machinery/appliance/cooker/stove,
+/obj/structure/sink/kitchen{
+	pixel_y = 30
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/kasf_corvette/mess)
 "Ll" = (
@@ -6188,10 +6174,8 @@
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "MG" = (
-/obj/machinery/door/airlock/glass{
-	name = "Fore Hallway"
-	},
 /obj/machinery/door/firedoor/noid,
+/obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/forehall)
 "MK" = (
@@ -6399,6 +6383,9 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/forehall)
 "NT" = (
@@ -6477,15 +6464,6 @@
 /obj/structure/bed/stool/chair/office/bridge,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/kasf_corvette/starboardwep)
-"OO" = (
-/obj/effect/floor_decal/corner_wide/dark_blue{
-	dir = 9
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/ship/kasf_corvette/forehall)
 "OR" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = null
@@ -6555,9 +6533,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/forehall)
@@ -6785,6 +6761,9 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/industrial/outline/medical,
+/obj/structure/sign/nosmoking_1{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/kasf_corvette/medbay)
 "QP" = (
@@ -6833,6 +6812,12 @@
 	},
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 5
+	},
+/obj/item/device/radio/off{
+	pixel_y = 10
+	},
+/obj/item/device/radio/off{
+	pixel_y = 10
 	},
 /obj/item/device/binoculars,
 /obj/item/device/binoculars{
@@ -6968,6 +6953,17 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/closet/crate/freezer/rations,
+/obj/item/reagent_containers/food/snacks/seaweed,
+/obj/item/reagent_containers/food/snacks/seaweed,
+/obj/item/reagent_containers/food/snacks/seaweed,
+/obj/item/reagent_containers/food/snacks/seaweed,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/porthangarfoyer)
 "RJ" = (
@@ -7745,6 +7741,17 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/closet/crate/freezer/rations,
+/obj/item/reagent_containers/food/snacks/seaweed,
+/obj/item/reagent_containers/food/snacks/seaweed,
+/obj/item/reagent_containers/food/snacks/seaweed,
+/obj/item/reagent_containers/food/snacks/seaweed,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
+/obj/item/reagent_containers/food/drinks/dry_ramen,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "Xl" = (
@@ -38994,7 +39001,7 @@ Qq
 ZD
 ip
 ga
-Gp
+ga
 DN
 Sw
 Ir
@@ -41334,9 +41341,9 @@ Fs
 JO
 YF
 dP
-ji
+Gp
 pP
-OO
+ji
 Dh
 ji
 vb
@@ -44134,7 +44141,7 @@ Sx
 cU
 PE
 Ea
-sJ
+Ea
 uI
 Sw
 Ir

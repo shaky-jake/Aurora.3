@@ -91,8 +91,8 @@
 	designation = "WIP DESGN"
 	desc = "WIP SHUTTLE DESC"
 	shuttle = "KASF Shuttle"
-	icon_state = "pod"
-	moving_state = "pod_moving"
+	icon_state = "shuttle"
+	moving_state = "shuttle_moving"
 	colors = list("#8492fd", "#4d61fc")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS

@@ -93,8 +93,8 @@
 	designation = "Himar"
 	desc = "Making an efficient use of space to offer a compact yet capable transport craft for smaller vessels in the Elyran Navy, the Huriya-class is slated to replace the Elyran Navy's aging fleet of Dromedary-class light transport craft. However, due to its introduction being so recent, replacement parts are often in short supply when these crafts are damaged, proving maintenance to be more difficult and costly than its predecessor for now."
 	shuttle = "Elyran Naval Shuttle"
-	icon_state = "pod"
-	moving_state = "pod_moving"
+	icon_state = "shuttle"
+	moving_state = "shuttle_moving"
 	colors = list("#ffae17", "#ffcd70")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS

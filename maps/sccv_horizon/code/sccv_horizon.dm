@@ -127,7 +127,8 @@
 		/datum/shuttle/autodock/overmap/kataphract_transport,
 		/datum/shuttle/autodock/overmap/iac_shuttle,
 		/datum/shuttle/autodock/overmap/elyran_shuttle,
-		/datum/shuttle/autodock/overmap/kasf_shuttle
+		/datum/shuttle/autodock/overmap/kasf_shuttle,
+		/datum/shuttle/autodock/overmap/ipc_refugee_shuttle
 	)
 
 	evac_controller_type = /datum/evacuation_controller/starship
