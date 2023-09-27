@@ -1656,7 +1656,8 @@
 	icon_state = "hardhat_yellow_he";
 	dir = 8;
 	pixel_y = 20;
-	name = "Hardhat"
+	name = "Hardhat";
+	layer = 3.01
 	},
 /obj/effect/decal/fake_object{
 	icon = 'icons/obj/meteor.dmi';
@@ -3125,10 +3126,10 @@
 /area/ship/ipc_refugee/dock)
 "Al" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/ore{
-	pixel_x = 14
+/obj/structure/closet/crate/trashcart/shark{
+	pixel_y = 10;
+	pixel_x = -4
 	},
-/obj/item/material/shard/shrapnel,
 /turf/simulated/floor/airless,
 /area/ship/ipc_refugee/cargopod_b)
 "Am" = (
@@ -4748,6 +4749,7 @@
 	},
 /obj/effect/decal/cleanable/blood/oil/streak,
 /obj/effect/decal/cleanable/blood/gibs/robot,
+/obj/item/material/shard/shrapnel,
 /turf/simulated/floor/airless,
 /area/ship/ipc_refugee/cargopod_b)
 "PW" = (
@@ -4783,6 +4785,14 @@
 "Ql" = (
 /obj/structure/lattice,
 /obj/item/stack/rods,
+/obj/item/ore{
+	pixel_x = -5;
+	pixel_y = -9
+	},
+/obj/item/melee/baton/cattleprod{
+	pixel_x = -27;
+	pixel_y = -4
+	},
 /turf/simulated/floor/airless,
 /area/ship/ipc_refugee/cargopod_b)
 "Qm" = (
