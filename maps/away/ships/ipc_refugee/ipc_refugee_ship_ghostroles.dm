@@ -53,7 +53,7 @@
 	uses_species_whitelist = FALSE // TRUE FOR FINAL PRODUCT
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
-	assigned_role = "Passenger"
+	assigned_role = "Freighter Passenger"
 	special_role = "IPC Refugee"
 
 

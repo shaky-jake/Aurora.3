@@ -45,7 +45,7 @@
 	invisible_until_ghostrole_spawn = TRUE
 
 /obj/effect/overmap/visitable/ship/ipc_refugee_ship/New()
-	designation = "[pick("Help Us", "PLS NO MORE PIRATES", "give fuel i beg", "Spare Change", "Fix Me", "Need Directions, Starmap Broken", "KONYANG HERE WE COME", "we dont have shit i swear", "010100110100111101010011", "how's my flying", "ignore the bullet holes", "(insert designation)", "Press Any Key to Start", "Don't Tell Mom I'm In Burzsia")]" // ADD NAMES
+	designation = "[pick("HELP", "PLS NO MORE PIRATES", "Need Fuel, Air, n' Repairs", "Spare Change?", "Fix Me", "Need Directions, Starmap Broken", "KONYANG HERE WE COME", "Can't Have Sh!t", "010100110100111101010011", "How's My Flying", "Ignore The Bullet Holes", "(insert designation)", "Press Any Key to Start", "Don't Tell Mom I'm In Burzsia", "SNAFU")]"
 	..()
 
 /obj/effect/overmap/visitable/ship/ipc_refugee_ship/get_skybox_representation()
@@ -131,8 +131,9 @@
 	landmark_tag = "nav_transit_ipc_refugee_shuttle"
 	base_turf = /turf/space/transit/north
 
-// custom stuff
 
+
+// custom stuff for sovl :]
 
 /obj/structure/closet/crate/trashcart/shark
   name = "DO NOT OPEN!!!"
@@ -141,50 +142,70 @@
 /obj/structure/closet/crate/trashcart/shark/fill()
   new /mob/living/simple_animal/hostile/carp/shark(src)
 
-/*
-/obj/item/paper/ipc_refugee_ship/Initialize()
-    . = ..()
-	info = parsepencode(
 
-	)
-	icon_state = "paper_words"
-*/
+/obj/item/paper/ipc_refugee_ship
+	name = "/obj/item/paper/ipc_refugee_ship/ parent object"
+	desc = DESC_PARENT
 
 /obj/item/paper/ipc_refugee_ship/weapons
-    name = "JIM SUCKS AT SALVAGE"
-	// icon_state = "paper_words"
-    info = {"I'm not great with guns i could swear one of these is a fucking pest gun, not a laser carbine. when i said we need to find real weapons, I MEANT SOMETHING THAT COULD KILL THE NEXT PIRATES THAT FUCK WITH US, ASSHOLE!!!
-	PS. I accidentally fired the pistol and almost blinded myself, NORMAL BULLETS DON'T DO THAT, JIM! At least the shotgun has the real deal. Right? RIGHT, JIM?"}
+    name = "NEED BETTER WEAPONS"
+    info = "\
+		JIM YOU SUCK AT SALVAGE <br>\
+		<br>\
+		I'm not great with guns I could swear one of these is a fucking pest gun, NOT a laser carbine like you said. <br>\
+		<br>\
+		When I said we need to find real weapons, I MEANT SOMETHING THAT COULD KILL THE NEXT PIRATES THAT SCREW WITH US, ASSHOLE!!! <br>\
+		<br>\
+		I accidentally fired the pistol and almost blinded myself... <br>\
+		NORMAL BULLETS DON'T DO THAT, JIM! <br>\
+		<br>\
+		At least the shotgun has the real deal. Right? <br>\
+		RIGHT, JIM? <br>\
+		"
 
 /obj/item/paper/ipc_refugee_ship/reactor
-    name = "NEW REACTOR INSTRUCTIONS"
-	// icon_state = "paper_words"
-    info = {"Okay, so as you know, those damn pirates blew a nice new hole in our ship, and blew all our fucking coolant out into the void along with it. So please please pleaaase with a cherry on top do not set it much higher than like, *two*, and DEFINITELY DO NOT SET IT TO FUCKING SIX OR HIGHER FOR THE LOVE OF ALL THAT IS GOOD
-
-	If you leave this bad boy on six, you'll just blow a hole bigger than you've seen into the ship, knock out all hopes of anymore power and thrust, and worst of all, finish those asshole's job for them. **SO DON'T PUT IT TO SIX OR HIGHER!!!** Just take it nice and easy.
-
-	Oh, also the tritiums just on the table over there. What's left, anyway.
-
-	(there's a crude smiley face drawn at the bottom, accompanied by what seems to be a crossed out doodle of a ship exploding)"}
+    name = "READ ME"
+    info = "\
+		Okay, so as you know, those damn pirates blew a nice new hole in our ship, and blew all our fucking coolant out into the void along with it. <br>\
+		So please please pleaaase with a cherry on top do not set it much higher than around two? or so? <br>\
+		AND DEFINITELY DO NOT SET IT TO FUCKING SIX OR HIGHER FOR THE LOVE OF ALL THAT IS GOOD <br>\
+		<br>\
+		If you leave this bad boy on six, it WILL blow a hole clean through the ship the ship, destroy all hopes and dreams, and worst of all, finish those asshole's job for them. <br>\
+		SO DON'T PUT IT TO SIX OR HIGHER!!! <br>\
+		Just take it nice and easy. <br>\
+		<br>\
+		Oh, also the tritium is just on the table over there. What's left, anyway. <br>\
+		<br>\
+		"
 
 /obj/item/paper/ipc_refugee_ship/wishlist
-    name = "SHOPPING LIST FOR SANTA OR SOMEBODY"
-	// icon_state = "paper_words"
-    info = {"- FUEL
-	- MORE FUEL
-	- AIR
-	- A LOT OF AIR
-	- I MEAN A LOOOOT OF AIR
-	- FOOD
-	- OVERLOADERS
-	- HIGH CAPACITY POWER CELLS
-	- BETTER SUIT COOLERS, PLEASE NO MISSING SCREWS ON THE PANELS
-	- (incoherent scribbling)
-	- FUCKING EVERYTHING
-	respectfully, the crew :)"}
+    name = "DEAR GOD OR SANTA OR RICH PEOPLE"
+    info = "\
+		WISHLIST <br>\
+		<br>\
+		- FUEL <br>\
+		- RGB GAMEHELM SETUP <br>\
+		- MORE FUEL <br>\
+		- AIR <br>\
+		- A LOT OF AIR <br>\
+		- I MEAN A LOOOOT OF AIR <br>\
+		- FOOD? MAYBE <br>\
+		- OVERLOADERS <br>\
+		- HIGH CAPACITY POWER CELLS <br>\
+		- BETTER SUIT COOLERS <br>\
+		- FUCKING EVERYTHING <br>\
+		<br>\
+		respectfully, the crew <br>\
+		"
 
 /obj/item/paper/ipc_refugee_ship/comms
     name = "COMMUNICATIONS"
-	// icon_state = "paper_words"
-    info = "So... yeah. Telecomms got hit. Just what the break we needed, right? All we got left are these dinky shortwaves, so just remember, 146.3 is the hailing frequency. Also remember, these shortwaves only pick up whatever frequency its set to. Keep track of that."
-
+	// desc = "A crinkly handwritten note."
+    info = "\
+		So... yeah. Telecomms got hit. <br>\
+		Just what the break we needed, right? <br>\
+		<br>\
+		All we got left are these dinky shortwaves, so just remember, 146.3 is the hailing frequency. <br>\
+		<br>\
+		Also remember, these shortwaves only pick up whatever frequency its set to. Keep track of that. <br>\
+		"
