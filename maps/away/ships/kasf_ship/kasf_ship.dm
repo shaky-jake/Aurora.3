@@ -2,6 +2,7 @@
 	name = "KASF Corvette"
 	description = "WIP CORVETTE DESC"
 	suffixes = list("ships/kasf_ship/kasf_ship.dmm")
+	// sectors = list(SECTOR_HANEUNIM)
 	sectors = list(ALL_POSSIBLE_SECTORS) // CHANGE THIS FOR FINAL PRODUCT
 	spawn_weight = 1
 	ship_cost = 1

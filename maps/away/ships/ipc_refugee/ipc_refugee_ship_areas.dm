@@ -1,5 +1,5 @@
 /area/ship/ipc_refugee
-	name = "Refugee Ship"
+	name = "Decrepit Freighter"
 	requires_power = TRUE
 	dynamic_lighting = TRUE
 	no_light_control = FALSE
@@ -7,47 +7,47 @@
 	flags = RAD_SHIELDED
 
 /area/ship/ipc_refugee/engie
-	name = "Refugee Ship - Engineering"
+	name = "Decrepit Freighter - Engineering"
 	ambience = AMBIENCE_FOREBODING
 
 /area/ship/ipc_refugee/atmos
-	name = "Refugee Ship - Atmospherics"
+	name = "Decrepit Freighter - Atmospherics"
 	ambience = AMBIENCE_FOREBODING
 
 /area/ship/ipc_refugee/dock
-	name = "Refugee Ship - Docking Port"
+	name = "Decrepit Freighter - Docking Port"
 	ambience = AMBIENCE_MAINTENANCE
 
 /area/ship/ipc_refugee/mainhall
-	name = "Refugee Ship - Main Hallway"
+	name = "Decrepit Freighter - Main Hallway"
 	ambience = AMBIENCE_MAINTENANCE
 
 /area/ship/ipc_refugee/forehall
-	name = "Refugee Ship - Fore Hallway"
+	name = "Decrepit Freighter - Fore Hallway"
 	ambience = AMBIENCE_FOREBODING
 
 /area/ship/ipc_refugee/cargopod_a
-	name = "Refugee Ship - Cargo Pod A"
+	name = "Decrepit Freighter - Cargo Pod A"
 	ambience = AMBIENCE_MAINTENANCE
 
 /area/ship/ipc_refugee/cargopod_b
-	name = "Refugee Ship - Cargo Pod B"
+	name = "Decrepit Freighter - Cargo Pod B"
 	ambience = AMBIENCE_MAINTENANCE
 
 /area/ship/ipc_refugee/crew
-	name = "Refugee Ship - Crew Quarters"
+	name = "Decrepit Freighter - Crew Quarters"
 	ambience = AMBIENCE_GENERIC
 
 /area/ship/ipc_refugee/captain
-	name = "Refugee Ship - Captain's Quarters"
+	name = "Decrepit Freighter - Captain's Quarters"
 	ambience = AMBIENCE_MAINTENANCE
 
 /area/ship/ipc_refugee/bridge
-	name = "Refugee Ship - Bridge"
+	name = "Decrepit Freighter - Bridge"
 	ambience = AMBIENCE_GENERIC
 
 // Shuttle
 /area/shuttle/ipc_refugee_shuttle
 	requires_power = TRUE
-	name = "IPC Refugee Shuttle"
+	name = "Decrepit Cargo Tug"
 	icon_state = "shuttle2"

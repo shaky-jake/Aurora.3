@@ -2,6 +2,7 @@
 	name = "IPC Refugee Ship"
 	description = "The Akers-class freighter is an ancient design, dating back nearly two hundred years. It was considered a reliable freighter for its time, but is completely obsolete by modern standards, making it a rare sight outside of ship graveyards. Scans indicate this vessel in particular to be exceptionally run down, bearing severe structural damage across the whole ship. Damage appears to be from a mix of both meteors and ballistic armaments. Despite this, power signatures seem to indicate the vessel is still somehow operable."
 	suffixes = list("ships/ipc_refugee/ipc_refugee_ship.dmm")
+	// sectors = list(SECTOR_HANEUNIM, SECTOR_LIBERTYS_CRADLE)
 	sectors = list(ALL_POSSIBLE_SECTORS) // CHANGE FOR FINAL PRODUCT
 	spawn_weight = 1
 	ship_cost = 1
@@ -55,25 +56,25 @@
 	return skybox_image
 
 /obj/effect/shuttle_landmark/ipc_refugee_ship/nav1
-	name = "IPC Refugee Ship - Port Side"
+	name = "Port Navpoint"
 	landmark_tag = "nav_ipc_refugee_ship_1"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/ipc_refugee_ship/nav2
-	name = "IPC Refugee Ship - Fore End"
+	name = "Fore Navpoint"
 	landmark_tag = "nav_ipc_refugee_ship_2"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/ipc_refugee_ship/nav3
-	name = "IPC Refugee Ship - Starboard Side"
+	name = "Starboard Navpoint"
 	landmark_tag = "nav_ipc_refugee_ship_3"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/ipc_refugee_ship/nav4
-	name = "IPC Refugee Ship - Aft End"
+	name = "Aft Navpoint"
 	landmark_tag = "nav_ipc_refugee_ship_4"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
@@ -119,7 +120,7 @@
 	defer_initialisation = TRUE
 
 /obj/effect/shuttle_landmark/ipc_refugee_shuttle/hangar
-	name = "IPC Refugee Shuttle Hangar"
+	name = "Cargo Tug Dock"
 	landmark_tag = "nav_hangar_ipc_refugee"
 	docking_controller = "ipc_refugee_ship_aft_airlock"
 	base_area = /area/ship/ipc_refugee
@@ -148,11 +149,12 @@
 	desc = DESC_PARENT
 
 /obj/item/paper/ipc_refugee_ship/weapons
-    name = "NEED BETTER WEAPONS"
-    info = "\
+	name = "NEED BETTER WEAPONS"
+	desc = "A crinkly handwritten note."
+	info = "\
 		JIM YOU SUCK AT SALVAGE <br>\
 		<br>\
-		I'm not great with guns I could swear one of these is a fucking pest gun, NOT a laser carbine like you said. <br>\
+		I'm not great with guns but I could swear one of these is a fucking pest gun, NOT a laser carbine like you said. <br>\
 		<br>\
 		When I said we need to find real weapons, I MEANT SOMETHING THAT COULD KILL THE NEXT PIRATES THAT SCREW WITH US, ASSHOLE!!! <br>\
 		<br>\
@@ -164,13 +166,14 @@
 		"
 
 /obj/item/paper/ipc_refugee_ship/reactor
-    name = "READ ME"
-    info = "\
+	name = "READ ME"
+	desc = "A handwritten note."
+	info = "\
 		Okay, so as you know, those damn pirates blew a nice new hole in our ship, and blew all our fucking coolant out into the void along with it. <br>\
 		So please please pleaaase with a cherry on top do not set it much higher than around two? or so? <br>\
-		AND DEFINITELY DO NOT SET IT TO FUCKING SIX OR HIGHER FOR THE LOVE OF ALL THAT IS GOOD <br>\
+		AND DEFINITELY DO NOT SET IT TO SIX OR HIGHER FOR THE LOVE OF ALL THAT IS GOOD <br>\
 		<br>\
-		If you leave this bad boy on six, it WILL blow a hole clean through the ship the ship, destroy all hopes and dreams, and worst of all, finish those asshole's job for them. <br>\
+		If you leave this bad boy on six, it WILL blow a hole clean through the ship in a matter of minutes, destroy all our hopes and dreams, and worst of all, finish those asshole's job for them. <br>\
 		SO DON'T PUT IT TO SIX OR HIGHER!!! <br>\
 		Just take it nice and easy. <br>\
 		<br>\
@@ -179,8 +182,9 @@
 		"
 
 /obj/item/paper/ipc_refugee_ship/wishlist
-    name = "DEAR GOD OR SANTA OR RICH PEOPLE"
-    info = "\
+	name = "DEAR GOD OR SANTA OR RICH PEOPLE"
+	desc = "A crinkly handwritten note."
+	info = "\
 		WISHLIST <br>\
 		<br>\
 		- FUEL <br>\
@@ -199,13 +203,24 @@
 		"
 
 /obj/item/paper/ipc_refugee_ship/comms
-    name = "COMMUNICATIONS"
-	// desc = "A crinkly handwritten note."
-    info = "\
+	name = "COMMUNICATIONS"
+	desc = "A handwritten note."
+	info = "\
 		So... yeah. Telecomms got hit. <br>\
-		Just what the break we needed, right? <br>\
+		Just the break we needed, right? <br>\
 		<br>\
 		All we got left are these dinky shortwaves, so just remember, 146.3 is the hailing frequency. <br>\
 		<br>\
-		Also remember, these shortwaves only pick up whatever frequency its set to. Keep track of that. <br>\
+		Also remember, these shortwaves only pick up whatever frequency it's set to. Keep track of that. <br>\
+		"
+
+/obj/item/paper/ipc_refugee_ship/overloaders
+	name = "THIS SHIT IS WHAT KILLED GLORSH"
+	desc = "A handwritten note."
+	info = "\
+		YEAH THAT'S RIGHT, WE FINALLY FOUND SOME OVERLOADERS! <br>\
+		<br>\
+		You guys don't know how lucky this was, I just was picking through some trash on the last stop we made, and there was this crate with a canvas thrown over it just FILLED with these shits! <br>\
+		<br>\
+		Sure, they're not labeled, but I'm at least 70% they're perfectly fine, and those are some pretty good odds when we're talking free overloaders! <br>\
 		"
