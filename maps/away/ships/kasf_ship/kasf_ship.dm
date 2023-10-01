@@ -57,25 +57,25 @@
 	return skybox_image
 
 /obj/effect/shuttle_landmark/kasf_corvette/nav1
-	name = "KASF Corvette - Port Side"
+	name = "Port Navpoint"
 	landmark_tag = "nav_kasf_corvette_1"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/kasf_corvette/nav2
-	name = "KASF Corvette - Fore End"
+	name = "Fore Navpoint"
 	landmark_tag = "nav_kasf_corvette_2"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/kasf_corvette/nav3
-	name = "KASF Corvette - Starboard Side"
+	name = "Starboard Navpoint"
 	landmark_tag = "nav_kasf_corvette_3"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/kasf_corvette/nav4
-	name = "KASF Corvette - Aft End"
+	name = "Aft Navpoint"
 	landmark_tag = "nav_kasf_corvette_4"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
