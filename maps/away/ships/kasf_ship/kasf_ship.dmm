@@ -347,6 +347,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/mainhall)
+"cn" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/item/hullbeacon/red,
+/turf/simulated/floor,
+/area/ship/kasf_corvette/engie)
 "cq" = (
 /obj/structure/table/rack,
 /obj/item/ship_ammunition/francisca/frag,
@@ -546,6 +554,23 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/kasf_corvette/starboardthrust)
+"dK" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/external{
+	dir = 4;
+	frequency = 1379;
+	icon_state = "door_locked";
+	locked = 1;
+	id_tag = "kasf_port_airlock_out"
+	},
+/obj/machinery/access_button{
+	pixel_y = -25;
+	frequency = 1379;
+	master_tag = "kasf_port_airlock";
+	command = "cycle_exterior"
+	},
+/turf/simulated/floor/tiled/full,
+/area/ship/kasf_corvette/mainhall)
 "dP" = (
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 9
@@ -579,7 +604,7 @@
 	id = "mechbay_shutters";
 	name = "Mechbay Garage Shutters"
 	},
-/mob/living/heavy_vehicle/premade/combat,
+/mob/living/heavy_vehicle/premade/light/recon,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/kasf_corvette/engie)
 "ea" = (
@@ -889,6 +914,26 @@
 	},
 /turf/simulated/floor/wood,
 /area/ship/kasf_corvette/captain)
+"fM" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	dir = 4;
+	frequency = 1379;
+	icon_state = "door_locked";
+	locked = 1;
+	id_tag = "kasf_starboard_airlock_in"
+	},
+/obj/machinery/access_button{
+	pixel_y = -25;
+	frequency = 1379;
+	master_tag = "kasf_starboard_airlock";
+	command = "cycle_interior"
+	},
+/turf/simulated/floor/tiled/full,
+/area/ship/kasf_corvette/mainhall)
 "fN" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/door/firedoor/noid,
@@ -1437,12 +1482,14 @@
 	name = "Starboard Hangar Foyer"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor/noid,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor/multi_tile{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "jJ" = (
@@ -1542,6 +1589,23 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/forehall)
+"kK" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/external{
+	dir = 4;
+	frequency = 1379;
+	icon_state = "door_locked";
+	locked = 1;
+	id_tag = "kasf_starboard_airlock_out"
+	},
+/obj/machinery/access_button{
+	pixel_y = -25;
+	frequency = 1379;
+	master_tag = "kasf_starboard_airlock";
+	command = "cycle_exterior"
+	},
+/turf/simulated/floor/tiled/full,
+/area/ship/kasf_corvette/mainhall)
 "kP" = (
 /obj/machinery/computer/ship/helm{
 	dir = 1
@@ -2489,7 +2553,9 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor/noid,
+/obj/machinery/door/firedoor/multi_tile{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/porthangarfoyer)
 "qN" = (
@@ -3184,7 +3250,6 @@
 /turf/simulated/floor,
 /area/ship/kasf_corvette/atmos)
 "uS" = (
-/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/medbay)
 "uT" = (
@@ -3575,9 +3640,13 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/portwep)
 "xQ" = (
-/obj/effect/map_effect/airlock/w_to_e,
-/turf/simulated/wall/shuttle/space_ship/mercenary,
-/area/ship/kasf_corvette/mainhall)
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/item/hullbeacon/red,
+/turf/simulated/floor,
+/area/ship/kasf_corvette/atmos)
 "xR" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood,
@@ -3650,6 +3719,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/atmos)
 "yh" = (
@@ -3752,7 +3822,6 @@
 	dir = 2;
 	name = "Medical Bay"
 	},
-/obj/machinery/door/firedoor/noid,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -3761,6 +3830,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/machinery/door/firedoor/multi_tile{
+	req_one_access = null;
+	dir = 2
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/medbay)
@@ -3944,7 +4017,6 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/kasf_corvette/engie)
 "zK" = (
-/obj/machinery/door/firedoor/noid,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/hangar)
@@ -4654,7 +4726,6 @@
 /area/ship/kasf_corvette/engie)
 "DP" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "DQ" = (
@@ -4798,6 +4869,7 @@
 /obj/item/grenade/chem_grenade/metalfoam,
 /obj/item/grenade/chem_grenade/metalfoam,
 /obj/item/grenade/chem_grenade/metalfoam,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/atmos)
 "EB" = (
@@ -4816,6 +4888,25 @@
 "EQ" = (
 /obj/machinery/light/small/emergency{
 	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	frequency = 1379;
+	dir = 4;
+	id_tag = "kasf_starboard_airlock_pump"
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	pixel_y = -25;
+	pixel_x = 6;
+	id_tag = "kasf_starboard_airlock";
+	tag_airpump = "kasf_starboard_airlock_pump";
+	tag_chamber_sensor = "kasf_starboard_airlock_sensor";
+	tag_exterior_door = "kasf_starboard_airlock_out";
+	tag_interior_door = "kasf_starboard_airlock_in"
+	},
+/obj/machinery/airlock_sensor{
+	pixel_y = -25;
+	pixel_x = -6;
+	id_tag = "kasf_starboard_airlock_sensor"
 	},
 /turf/simulated/floor,
 /area/ship/kasf_corvette/mainhall)
@@ -5105,9 +5196,10 @@
 /turf/simulated/floor,
 /area/ship/kasf_corvette/forehall)
 "Gd" = (
-/obj/effect/map_effect/airlock/e_to_w,
-/turf/simulated/wall/shuttle/space_ship/mercenary,
-/area/ship/kasf_corvette/mainhall)
+/obj/structure/lattice/catwalk,
+/obj/item/hullbeacon/red,
+/turf/simulated/floor/airless,
+/area/space)
 "Gl" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -5166,7 +5258,6 @@
 /area/shuttle/kasf_shuttle)
 "GD" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor/noid,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -5470,6 +5561,22 @@
 /area/ship/kasf_corvette/hangar)
 "Ir" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	dir = 4;
+	frequency = 1379;
+	icon_state = "door_locked";
+	locked = 1;
+	id_tag = "kasf_port_airlock_in"
+	},
+/obj/machinery/access_button{
+	pixel_y = -25;
+	frequency = 1379;
+	master_tag = "kasf_port_airlock";
+	command = "cycle_interior"
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/mainhall)
 "Is" = (
@@ -5954,6 +6061,31 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/kasf_corvette/portthrust)
+"Lm" = (
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	frequency = 1379;
+	dir = 8;
+	id_tag = "kasf_port_airlock_pump"
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	pixel_y = -25;
+	pixel_x = -6;
+	id_tag = "kasf_port_airlock";
+	tag_airpump = "kasf_port_airlock_pump";
+	tag_chamber_sensor = "kasf_port_airlock_sensor";
+	tag_exterior_door = "kasf_port_airlock_out";
+	tag_interior_door = "kasf_port_airlock_in"
+	},
+/obj/machinery/airlock_sensor{
+	pixel_y = -25;
+	pixel_x = 6;
+	id_tag = "kasf_port_airlock_sensor"
+	},
+/turf/simulated/floor,
+/area/ship/kasf_corvette/mainhall)
 "Lq" = (
 /obj/structure/sign/nosmoking_2{
 	pixel_x = 32
@@ -6230,8 +6362,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/firedoor/noid,
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor/multi_tile{
+	req_one_access = null;
+	dir = 2
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/hangar)
 "MZ" = (
@@ -6692,7 +6827,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/firedoor/noid,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/hangar)
@@ -6749,8 +6883,11 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/firedoor/noid,
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor/multi_tile{
+	req_one_access = null;
+	dir = 2
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/kasf_corvette/hangar)
 "QL" = (
@@ -39004,8 +39141,8 @@ ga
 ga
 DN
 Sw
-Ir
-Gd
+kK
+Sw
 zJ
 QP
 an
@@ -39518,7 +39655,7 @@ DN
 DN
 DN
 Sw
-Ir
+fM
 Sw
 Sw
 zJ
@@ -39533,7 +39670,7 @@ zJ
 zJ
 ih
 ih
-ih
+cn
 FY
 Is
 Is
@@ -40524,7 +40661,7 @@ Is
 Is
 Is
 Is
-DH
+Gd
 be
 YM
 oj
@@ -42580,7 +42717,7 @@ Is
 Is
 Is
 Is
-DH
+Gd
 be
 Bm
 RP
@@ -43631,7 +43768,7 @@ uI
 uI
 Sw
 Ir
-xQ
+Sw
 Sw
 ns
 ns
@@ -43645,7 +43782,7 @@ ns
 ns
 qd
 qd
-qd
+xQ
 vd
 Is
 Is
@@ -43887,7 +44024,7 @@ SH
 eS
 uI
 Sw
-EQ
+Lm
 Sw
 ns
 ns
@@ -44144,7 +44281,7 @@ Ea
 Ea
 uI
 Sw
-Ir
+dK
 Sw
 ns
 Nx
