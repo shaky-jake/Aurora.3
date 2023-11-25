@@ -212,10 +212,10 @@
 /obj/item/clothing/accessory/holster/thigh,
 /obj/item/clothing/accessory/storage/black_vest,
 /obj/item/clothing/accessory/storage/pouches/black,
-/obj/item/storage/belt/military,
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 9
 	},
+/obj/item/storage/belt/security,
 /obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/tiled/dark,
 /area/ship/kasf_corvette/dorm)
@@ -764,8 +764,8 @@
 /area/ship/kasf_corvette/cic)
 "eS" = (
 /obj/machinery/light,
-/obj/effect/floor_decal/industrial/outline/red,
-/obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/porthangarfoyer)
 "eU" = (
@@ -968,7 +968,8 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "gc" = (
@@ -1337,7 +1338,12 @@
 /area/ship/kasf_corvette/hangar)
 "ip" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/floor_decal/corner_wide/yellow/full,
+/obj/effect/floor_decal/corner_wide/yellow{
+	dir = 9
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "it" = (
@@ -2531,11 +2537,14 @@
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "qD" = (
-/obj/effect/floor_decal/corner_wide/yellow/full{
-	dir = 4
+/obj/effect/floor_decal/corner_wide/yellow{
+	dir = 6
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
 	},
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/starboardhangarfoyer)
@@ -2944,8 +2953,8 @@
 /area/ship/kasf_corvette/mainhall)
 "sR" = (
 /obj/machinery/light,
-/obj/effect/floor_decal/industrial/outline/red,
-/obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "tb" = (
@@ -3553,10 +3562,10 @@
 /obj/item/clothing/accessory/holster/thigh,
 /obj/item/clothing/accessory/storage/black_vest,
 /obj/item/clothing/accessory/storage/pouches/black,
-/obj/item/storage/belt/military,
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 9
 	},
+/obj/item/storage/belt/security,
 /obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/tiled/dark,
 /area/ship/kasf_corvette/dorm)
@@ -3586,9 +3595,10 @@
 /turf/simulated/floor/lino,
 /area/ship/kasf_corvette/mess)
 "xf" = (
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/machinery/portable_atmospherics/powered/pump/filled,
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/corner_wide/yellow/full{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "xg" = (
 /obj/structure/bed/stool/chair/office/bridge,
@@ -3978,9 +3988,14 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/starboardthrust)
 "zn" = (
-/obj/effect/floor_decal/corner_wide/yellow/full,
+/obj/effect/floor_decal/corner_wide/yellow{
+	dir = 9
+	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
 	},
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/porthangarfoyer)
@@ -4780,7 +4795,8 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/porthangarfoyer)
 "Ec" = (
@@ -5137,10 +5153,10 @@
 /obj/item/clothing/accessory/holster/thigh,
 /obj/item/clothing/accessory/storage/black_vest,
 /obj/item/clothing/accessory/storage/pouches/black,
-/obj/item/storage/belt/military,
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 9
 	},
+/obj/item/storage/belt/security,
 /obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/tiled/dark,
 /area/ship/kasf_corvette/dorm)
@@ -5995,9 +6011,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/porthangarfoyer)
 "KU" = (
@@ -6324,12 +6338,10 @@
 /obj/effect/floor_decal/corner_wide/yellow{
 	dir = 6
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "MG" = (
@@ -7316,9 +7328,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/kasf_corvette/engie)
 "SH" = (
-/obj/machinery/portable_atmospherics/powered/pump/filled,
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/corner_wide/yellow/full,
+/turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/porthangarfoyer)
 "SI" = (
 /obj/effect/floor_decal/corner_wide/dark_blue{
@@ -8383,12 +8394,7 @@
 /turf/template_noop,
 /area/space)
 "ZD" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner_wide/yellow{
-	dir = 9
-	},
+/obj/effect/floor_decal/corner_wide/yellow/full,
 /turf/simulated/floor/tiled,
 /area/ship/kasf_corvette/starboardhangarfoyer)
 "ZE" = (
@@ -8415,6 +8421,10 @@
 "ZK" = (
 /obj/structure/closet,
 /obj/item/clothing/accessory/badge/passcard/konyang,
+/obj/item/clothing/accessory/holster/thigh,
+/obj/item/clothing/accessory/storage/pouches/black,
+/obj/item/storage/belt/security,
+/obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/carpet/fancybrown,
 /area/ship/kasf_corvette/captain)
 "ZO" = (
@@ -33768,7 +33778,7 @@ Is
 Is
 Is
 Is
-ZC
+Is
 Is
 Is
 Is
@@ -35816,7 +35826,7 @@ Is
 Is
 Is
 Is
-Is
+ZC
 Is
 Is
 Is
@@ -39161,9 +39171,9 @@ bn
 UG
 Qq
 Qq
-ZD
+Qq
 ip
-ga
+ZD
 ga
 DN
 Sw
@@ -41438,11 +41448,11 @@ Is
 Is
 Is
 Is
+Is
+Is
+Is
+Is
 ZI
-Is
-Is
-Is
-Is
 Is
 Is
 Is
@@ -41788,11 +41798,11 @@ Is
 Is
 Is
 Is
-Is
-Is
-Is
-Is
 rR
+Is
+Is
+Is
+Is
 Is
 Is
 Is
@@ -44301,9 +44311,9 @@ HA
 gI
 Sx
 Sx
+Sx
 cU
 PE
-Ea
 Ea
 uI
 Sw
@@ -47638,7 +47648,7 @@ Is
 Is
 Is
 Is
-Is
+Lw
 Is
 Is
 Is
@@ -49959,7 +49969,7 @@ Is
 Is
 Is
 Is
-Lw
+Is
 Is
 Is
 Is

@@ -23,8 +23,8 @@
 /datum/outfit/admin/kasf_crewman
 	name = "KASF Crewman"
 	// this is just the ranger outfit (for now)
-	uniform = /obj/item/clothing/under/tactical
-	shoes = /obj/item/clothing/shoes/workboots/dark
+	uniform = /obj/item/clothing/under/rank/konyang/space
+	shoes = /obj/item/clothing/shoes/jackboots
 	back = /obj/item/storage/backpack/satchel
 
 	id = /obj/item/card/id/kasf_corvette
@@ -62,7 +62,8 @@
 /datum/outfit/admin/kasf_crewman/officer
 	name = "KASF Officer"
 
-	accessory = /obj/item/clothing/accessory/sash/red
+	uniform = /obj/item/clothing/under/rank/konyang/space/officer
+	head = /obj/item/clothing/head/konyang/space
 
 /obj/item/card/id/kasf_corvette
 	name = "kasf corvette id"
