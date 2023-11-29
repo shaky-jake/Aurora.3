@@ -16,7 +16,7 @@
 
 /obj/effect/overmap/visitable/ship/kasf_corvette
 	name = "KASF Corvette"
-	class = "FPBS" // CHANGE THIS
+	class = "KASFV" // CHANGE THIS
 	desc = "WIP CORVETTE DESC"
 	icon_state = "xansan"
 	moving_state = "xansan_moving"
@@ -88,8 +88,8 @@
 //shuttle stuff
 /obj/effect/overmap/visitable/ship/landable/kasf_shuttle
 	name = "KASF Shuttle"
-	class = "KASFV" // CHANGE THIS
-	designation = "WIP DESGN"
+	class = "KASFV"
+	designation = "Hachidori"
 	desc = "WIP SHUTTLE DESC"
 	shuttle = "KASF Shuttle"
 	icon_state = "shuttle"

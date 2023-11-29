@@ -22,7 +22,6 @@
 
 /datum/outfit/admin/kasf_crewman
 	name = "KASF Crewman"
-	// this is just the ranger outfit (for now)
 	uniform = /obj/item/clothing/under/rank/konyang/space
 	shoes = /obj/item/clothing/shoes/jackboots
 	back = /obj/item/storage/backpack/satchel
@@ -39,7 +38,7 @@
 		H.equip_or_collect(new /obj/item/storage/pill_bottle/rmt, slot_in_backpack)
 
 /datum/outfit/admin/kasf_crewman/get_id_access()
-	return list(access_external_airlocks)
+	return list(access_konyang, access_external_airlocks)
 
 // kasf officer
 /datum/ghostspawner/human/kasf_crewman/officer
@@ -67,4 +66,4 @@
 
 /obj/item/card/id/kasf_corvette
 	name = "kasf corvette id"
-	access = list(access_external_airlocks)
+	access = list(access_konyang, access_external_airlocks)
