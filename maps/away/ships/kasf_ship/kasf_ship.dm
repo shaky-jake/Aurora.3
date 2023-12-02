@@ -1,6 +1,6 @@
 /datum/map_template/ruin/away_site/kasf_corvette
 	name = "KASF Corvette"
-	description = "WIP CORVETTE DESC"
+	description = "An older design of patrol corvette that saw it's fair share of service in it's golden days among the Xanu fleets, the Sai-class corvette would be considered obsolete by modern standards were it not retrofitted with newer weaponry, sensors, and other ship systems. In recent decades this class of ship has largely been mothballed by Xanu, but a large number were reactivated and donated when Konyang declared independence from Sol and joined the Coalition of Colonies. Now it serves an important role in the KASF, commonly seen combatting pirates and controlling the flow of refugees from the Wildlands."
 	suffixes = list("ships/kasf_ship/kasf_ship.dmm")
 	// sectors = list(SECTOR_HANEUNIM)
 	sectors = list(ALL_POSSIBLE_SECTORS) // CHANGE THIS FOR FINAL PRODUCT
@@ -12,18 +12,18 @@
 
 /singleton/submap_archetype/elyran_corvette
 	map = "KASF Corvette"
-	descriptor = "WIP CORVETTE DESC"
+	descriptor = "An older design of patrol corvette that saw it's fair share of service in it's golden days among the Xanu fleets, the Sai-class corvette would be considered obsolete by modern standards were it not retrofitted with newer weaponry, sensors, and other ship systems. In recent decades this class of ship has largely been mothballed by Xanu, but a large number were reactivated and donated when Konyang declared independence from Sol and joined the Coalition of Colonies. Now it serves an important role in the KASF, commonly seen combatting pirates and controlling the flow of refugees from the Wildlands."
 
 /obj/effect/overmap/visitable/ship/kasf_corvette
 	name = "KASF Corvette"
-	class = "KASFV" // CHANGE THIS
-	desc = "WIP CORVETTE DESC"
+	class = "KASFV"
+	desc = "An older design of patrol corvette that saw it's fair share of service in it's golden days among the Xanu fleets, the Sai-class corvette would be considered obsolete by modern standards were it not retrofitted with newer weaponry, sensors, and other ship systems. In recent decades this class of ship has largely been mothballed by Xanu, but a large number were reactivated and donated when Konyang declared independence from Sol and joined the Coalition of Colonies. Now it serves an important role in the KASF, commonly seen combatting pirates and controlling the flow of refugees from the Wildlands."
 	icon_state = "xansan"
 	moving_state = "xansan_moving"
 	colors = list("#8492fd", "#4d61fc")
 	scanimage = "ranger.png"
-	designer = "WIP INFO"
-	volume = "WIP INFO"
+	designer = "Coalition of Colonies, Xanu Prime"
+	volume = "54 meters length, 36 meters beam/width, 17 meters vertical height"
 	drive = "Low-Speed Warp Acceleration FTL Drive"
 	weapons = "Dual extruding fore-mounted medium caliber ballistic armament, aft obscured flight craft bay"
 	sizeclass = "Sai-class Corvette"
@@ -47,8 +47,8 @@
 	invisible_until_ghostrole_spawn = TRUE
 
 /obj/effect/overmap/visitable/ship/kasf_corvette/New()
-	designation = "[pick("Argia sa Mar", "Kuenoi", "Xansan", "Greentree", "Rautakaivos Kaupunki", "Dorshafen", "Inverkeithing", "Uusi Viipuri", "Horner Station", "Commander Ashia Patvardhan", "Sevaschaiv", "Rahe", "Czsari", "Suwon", "Kamoga", "Jagalaw", "Dalakyhr", "Gurmori", "Ohdker", "Dainshu", "Boch-Zivir", "Kill Emperor Boleslaw", "Expletive Sol", "Letter of Marque", "Free Fisanduh", "Gaucho", "Treaty of Xansan", "Pirates Beware", "Moroz Here We Come!", "This Ship Kills Privateers", "Lower The Black Flag", "Frontier Spirit", "Freedom", "Independence", "Self-Determination", "Let's Have A Second Collapse", "Send More Solarians", "You Can Run But You Can't Hide", "Frontier Alliance", "Here's To You, Governor Hawkins", "Remember Jamestown", "Good Riddance to Kambiz Entezam", "We're Coming For You In Hell, Terrence Hopper", "Warpway Safari Company", "Badlands Gun Club", "Light's Edge Light Foot", "Now Entering Free Xanu", "Weeping Stars, Weep No More", "Rebel's Reach Outreach Program", "Rugged Individualism", "Don't Tread On Me", "Snake In The Grass", "Konyang Yacht Club", "Ranger Ship")]"
-	..() // GET A NEW LIST OF NAMES FOR THESE SHIPS
+	designation = "[pick("Jiyu", "Fuchin", "Luren", "Pyeongon", "Kikai", "Fenjin", "Arashi", "Saikuron", "Senpo", "Suwon", "Kuenoi", "Kyung-Sun", "Nageune", "Singijeon", "Hyeopdo", "Dangpa")]"
+	..()
 
 /obj/effect/overmap/visitable/ship/kasf_corvette/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "ranger")
@@ -89,8 +89,8 @@
 /obj/effect/overmap/visitable/ship/landable/kasf_shuttle
 	name = "KASF Shuttle"
 	class = "KASFV"
-	designation = "Hachidori"
-	desc = "WIP SHUTTLE DESC"
+	designation = "Kuoyu"
+	desc = "Somewhat bulky by modern standards, the aging Stalwart-class transport is a vessel being phased out of service in Xanu fleets to make way for newer, more efficient transports. Though considered obsolete compared to it's successor shuttles, this transport is still reliable enough that it's seen extensive use by Konyang's Aerospace Forces in recent years."
 	shuttle = "KASF Shuttle"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
@@ -100,10 +100,10 @@
 	vessel_mass = 3000 //very inefficient pod
 	fore_dir = NORTH
 	vessel_size = SHIP_SIZE_TINY
-	designer = "WIP INFO"
-	volume = "WIP INFO"
-	sizeclass = "WIP INFO"
-	shiptype = "WIP INFO"
+	designer = "Coalition of Colonies, Xanu Prime"
+	volume = "12 meters length, 7 meters beam/width, 4 meters vertical height"
+	sizeclass = "Stalwart-class Transport Craft"
+	shiptype = "All-environment troop transport"
 
 /obj/machinery/computer/shuttle_control/explore/kasf_shuttle
 	name = "shuttle control console"

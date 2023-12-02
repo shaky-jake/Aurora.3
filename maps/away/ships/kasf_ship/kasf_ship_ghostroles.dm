@@ -3,7 +3,7 @@
 /datum/ghostspawner/human/kasf_crewman
 	short_name = "kasf_crewman"
 	name = "KASF Crewman"
-	desc = "WIP DESC"
+	desc = "Crew the Konyang Aerospace Forces corvette. Protect the Haneunim System from pirates and police the influx of refugees from the Human Wildlands in accordance to Konyang's strict immigration laws."
 	tags = list("External")
 	mob_name_prefix = "PO3. " // WIP
 
@@ -44,7 +44,7 @@
 /datum/ghostspawner/human/kasf_crewman/officer
 	short_name = "kasf_crewman_officer"
 	name = "KASF Officer"
-	desc = "WIP DESC"
+	desc = "Command the Konyang Aerospace Forces corvette. Protect the Haneunim System from pirates and police the influx of refugees from the Human Wildlands in accordance to Konyang's strict immigration laws."
 	mob_name_prefix = "LT. " // CHANGE?
 
 	spawnpoints = list("kasf_crewman_officer")
