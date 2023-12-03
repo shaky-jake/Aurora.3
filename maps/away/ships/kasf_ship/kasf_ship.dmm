@@ -540,10 +540,19 @@
 /obj/item/device/robotanalyzer{
 	pixel_y = -8
 	},
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
-/obj/item/stack/nanopaste,
 /obj/structure/table/standard,
+/obj/item/stack/nanopaste{
+	pixel_y = 10;
+	pixel_x = 6
+	},
+/obj/item/stack/nanopaste{
+	pixel_y = 10;
+	pixel_x = 6
+	},
+/obj/item/stack/nanopaste{
+	pixel_y = 10;
+	pixel_x = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/kasf_corvette/medbay)
 "dC" = (
@@ -680,6 +689,7 @@
 	},
 /obj/item/clothing/accessory/stethoscope,
 /obj/item/clothing/glasses/hud/health,
+/obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/tiled/dark,
 /area/ship/kasf_corvette/dorm)
 "ey" = (
@@ -3238,6 +3248,19 @@
 	},
 /turf/simulated/floor,
 /area/ship/kasf_corvette/starboardhangarfoyer)
+"uy" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/black,
+/obj/structure/curtain/open/bed,
+/obj/effect/ghostspawpoint{
+	identifier = "kasf_engineer";
+	name = "igs - kasf engineer"
+	},
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/kasf_corvette/dorm)
 "uA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
@@ -3295,6 +3318,7 @@
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 6
 	},
+/obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/tiled/dark,
 /area/ship/kasf_corvette/dorm)
 "uO" = (
@@ -4828,8 +4852,8 @@
 /obj/item/clothing/accessory/flagpatch/konyang,
 /obj/item/tank/emergency_oxygen/double,
 /obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/coalition,
-/obj/item/clothing/head/helmet/space/void/coalition,
+/obj/item/clothing/suit/space/void/sol/konyang,
+/obj/item/clothing/head/helmet/space/void/sol/konyang,
 /obj/item/device/gps,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/kasf_corvette/armory)
@@ -5454,6 +5478,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/item/deck/cards{
+	pixel_x = -5;
+	pixel_y = 1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/atmos)
 "Hz" = (
@@ -5770,6 +5798,15 @@
 /obj/item/device/flash,
 /obj/item/grenade/flashbang,
 /obj/item/grenade/flashbang,
+/obj/item/gun/energy/rifle/ionrifle,
+/obj/machinery/button/remote/airlock{
+	id = "kasf_brig_bolts";
+	name = "Brig Bolts";
+	pixel_y = -19;
+	req_one_access = list(218);
+	specialfunctions = 4;
+	pixel_x = -6
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/kasf_corvette/brig)
 "Jc" = (
@@ -5796,8 +5833,8 @@
 /obj/item/clothing/accessory/flagpatch/konyang,
 /obj/item/tank/emergency_oxygen/double,
 /obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/coalition,
-/obj/item/clothing/head/helmet/space/void/coalition,
+/obj/item/clothing/suit/space/void/sol/konyang,
+/obj/item/clothing/head/helmet/space/void/sol/konyang,
 /obj/item/device/gps,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/kasf_corvette/armory)
@@ -5938,7 +5975,8 @@
 "JY" = (
 /obj/machinery/door/airlock/glass_security{
 	name = "Holding Area";
-	req_one_access = list(218)
+	req_one_access = list(218);
+	id_tag = "kasf_brig_bolts"
 	},
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6114,8 +6152,8 @@
 /obj/item/clothing/accessory/flagpatch/konyang,
 /obj/item/tank/emergency_oxygen/double,
 /obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/coalition,
-/obj/item/clothing/head/helmet/space/void/coalition,
+/obj/item/clothing/suit/space/void/sol/konyang,
+/obj/item/clothing/head/helmet/space/void/sol/konyang,
 /obj/item/device/gps,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/kasf_corvette/armory)
@@ -6959,8 +6997,8 @@
 /obj/item/bedsheet/black,
 /obj/structure/curtain/open/bed,
 /obj/effect/ghostspawpoint{
-	identifier = "kasf_crewman";
-	name = "igs - kasf crewman"
+	identifier = "kasf_corpsman";
+	name = "igs - kasf corpsman"
 	},
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 6
@@ -7217,8 +7255,8 @@
 /obj/item/clothing/accessory/flagpatch/konyang,
 /obj/item/tank/emergency_oxygen/double,
 /obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/coalition,
-/obj/item/clothing/head/helmet/space/void/coalition,
+/obj/item/clothing/suit/space/void/sol/konyang,
+/obj/item/clothing/head/helmet/space/void/sol/konyang,
 /obj/item/device/gps,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/kasf_corvette/armory)
@@ -8497,6 +8535,9 @@
 /obj/item/clothing/accessory/storage/pouches/black,
 /obj/item/storage/belt/security,
 /obj/item/melee/energy/sword/knife/sol,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/gun/projectile/colt/super,
 /turf/simulated/floor/carpet/brown,
 /area/ship/kasf_corvette/captain)
 "ZO" = (
@@ -41059,7 +41100,7 @@ Sa
 Sa
 uK
 Ku
-Qs
+uy
 uN
 Qs
 ev
