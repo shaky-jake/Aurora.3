@@ -37,7 +37,7 @@
 		H.equip_or_collect(new /obj/item/storage/pill_bottle/rmt, slot_in_backpack)
 
 /datum/outfit/admin/kasf_crewman/get_id_access()
-	return list(access_konyang, access_external_airlocks)
+	return list(access_konyang_police, access_external_airlocks)
 
 // kasf engineer
 /datum/ghostspawner/human/kasf_crewman/engineer
@@ -103,4 +103,4 @@
 
 /obj/item/card/id/kasf_corvette
 	name = "kasf corvette id"
-	access = list(access_konyang, access_external_airlocks)
+	access = list(access_konyang_police, access_external_airlocks)
