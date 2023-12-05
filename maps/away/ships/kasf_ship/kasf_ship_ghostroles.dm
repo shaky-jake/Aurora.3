@@ -10,7 +10,7 @@
 	max_count = 3
 
 	outfit = /datum/outfit/admin/kasf_crewman
-	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_IPC, SPECIES_IPC_SHELL, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_XION)
+	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_IPC, SPECIES_IPC_SHELL, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP)
 	uses_species_whitelist = FALSE // TRUE FOR FINAL PRODUCT
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
@@ -88,8 +88,6 @@
 	max_count = 1
 
 	outfit = /datum/outfit/admin/kasf_crewman/officer
-	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_IPC, SPECIES_IPC_SHELL, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU)
-	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
 	assigned_role = "KASF Officer"
 	special_role = "KASF Offcier"
