@@ -1,7 +1,32 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"as" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable,
+/obj/machinery/power/apc/east{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
 "az" = (
-/obj/structure/sink/kitchen{
-	pixel_y = 23
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/undies_wardrobe{
+	density = 0;
+	pixel_y = 26
+	},
+/obj/machinery/button/remote/airlock{
+	specialfunctions = 4;
+	id = "washroom";
+	name = "Door Bolt Control";
+	dir = 4;
+	pixel_x = 24;
+	pixel_y = 16
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/mainhall)
@@ -21,40 +46,159 @@
 	dir = 8;
 	pixel_x = -7
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/crew)
+"aF" = (
+/obj/effect/floor_decal/spline/plain/red{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/red,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
 "aQ" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4524;
+	master_tag = "airlock_sadar_scout_port_2";
+	name = "airlock_sadar_scout_port_2"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/sign/vacuum{
+	pixel_y = 28
+	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"aY" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/plain/red{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
 "ba" = (
 /obj/machinery/portable_atmospherics/hydroponics,
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/corner_wide/lime{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
+"bg" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_x = 28
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
 "bo" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
+"bp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/light/floor/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/eva)
 "bA" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped,
 /obj/machinery/shipsensors/weak{
 	pixel_y = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/airless,
 /area/ship/sadar_scout/bridge)
+"bG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
+	},
+/obj/machinery/power/apc/north{
+	req_access = null
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/floor_decal/corner_wide/orange{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/solars)
 "bS" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Fore Hallway"
 	},
-/turf/simulated/floor/plating,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/forehall)
+"cb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/solars)
+"ch" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -28
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
 "cp" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 4
 	},
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 1;
+	pixel_y = -22;
+	pixel_x = -6
+	},
+/obj/machinery/airlock_sensor{
+	dir = 1;
+	pixel_y = -22;
+	pixel_x = 6
+	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4525;
+	master_tag = "airlock_sadar_scout_starboard_3";
+	name = "airlock_sadar_scout_starboard_3"
+	},
+/obj/structure/lattice/catwalk/indoor,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/mainhall)
 "cE" = (
@@ -64,12 +208,60 @@
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/med)
+"cG" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/obj/machinery/power/smes/buildable/main_engine{
+	charge = 2.5e+006
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/solars)
+"cI" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "sadar_crew";
+	name = "igs - usf crewman"
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/crew)
 "cK" = (
 /obj/machinery/biogenerator{
 	icon_state = "biogen-empty"
 	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/service,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
+"cN" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/atmos)
 "cO" = (
 /obj/machinery/bodyscanner{
 	dir = 4
@@ -84,10 +276,33 @@
 /obj/machinery/door/window/southleft,
 /turf/simulated/floor/grass,
 /area/ship/sadar_scout/hydro)
+"cS" = (
+/obj/machinery/light/floor/decayed{
+	dir = 8
+	},
+/obj/machinery/power/apc/west{
+	req_access = null
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/mainhall)
+"cT" = (
+/obj/structure/lattice/catwalk,
+/turf/simulated/floor/airless,
+/area/space)
 "ds" = (
-/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
-/turf/simulated/wall/shuttle/space_ship/mercenary,
-/area/ship/sadar_scout/hydro)
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/space,
+/area/space)
+"dG" = (
+/obj/structure/grille,
+/turf/space,
+/area/space)
 "dI" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -95,30 +310,119 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/forehall)
+"dY" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/black,
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/sadar_scout/thrusters)
 "eb" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
 "en" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/sadar_scout/bridge)
+"eB" = (
+/obj/machinery/power/solar_control/autostart{
+	dir = 8;
+	id = "portsadarsolar";
+	name = "Port Solar Control"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/solars)
 "eE" = (
-/obj/machinery/door/airlock/hatch,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Engineering"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/sadar_scout/eva)
 "eT" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/obj/machinery/door/blast/regular/open{
+	id = "sadar_bridge_blast"
+	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/bridge)
+"fd" = (
+/obj/machinery/atmospherics/binary/passive_gate/on{
+	target_pressure = 250;
+	name = "Air Supply to Distro"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/atmos)
+"fr" = (
+/obj/machinery/power/solar{
+	id = "starboardsadarsolar";
+	name = "Starboard Solar Array"
+	},
+/obj/structure/cable/yellow,
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
+"fw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
 "fS" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/mainhall)
 "fW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/eva)
@@ -135,12 +439,20 @@
 	pixel_x = 9;
 	pixel_y = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
+"gk" = (
+/obj/effect/shuttle_landmark/sadar_scout/nav4,
+/turf/template_noop,
+/area/space)
 "gr" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/forehall)
+"gu" = (
+/obj/structure/lattice,
+/turf/space,
+/area/space)
 "gA" = (
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = 17;
@@ -164,8 +476,94 @@
 	pixel_y = -2
 	},
 /obj/effect/floor_decal/corner_wide/paleblue/full,
+/obj/machinery/light/colored/decayed,
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
+"gG" = (
+/obj/machinery/air_sensor{
+	frequency = 1441;
+	id_tag = "sadar_co2_sensor"
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/ship/sadar_scout/thrusters)
+"gJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/light/floor/decayed,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/atmos)
+"gM" = (
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/blue{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
+"gO" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/tools)
+"gX" = (
+/obj/machinery/power/apc/north{
+	req_access = null
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/atmos)
+"hi" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1;
+	pixel_y = 11
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/utility)
+"hl" = (
+/obj/machinery/alarm/north{
+	req_one_access = null
+	},
+/obj/machinery/light/floor/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/med)
+"hC" = (
+/obj/effect/floor_decal/spline/plain/red{
+	dir = 4
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 10
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
+"hD" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
 "hK" = (
 /obj/effect/step_trigger/teleporter,
 /turf/space/transit/north,
@@ -175,14 +573,116 @@
 	dir = 6
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"hP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
+"hW" = (
+/obj/machinery/vending/engivend{
+	req_access = null
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/tools)
+"hX" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/corner_wide/paleblue/full{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/power/apc/north{
+	req_access = null
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -21
+	},
+/turf/simulated/floor/tiled/white,
+/area/ship/sadar_scout/med)
+"ik" = (
+/obj/machinery/atmospherics/binary/pump/on{
+	dir = 1;
+	name = "Scrubbers to Waste"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/atmos)
+"im" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	frequency = 1441;
+	id = "sadar_co2_in";
+	use_power = 1
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/ship/sadar_scout/thrusters)
+"ip" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"is" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
 "it" = (
 /obj/machinery/door/airlock/external{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4526;
+	master_tag = "airlock_sadar_scout_port_3";
+	name = "airlock_sadar_scout_port_3"
+	},
+/obj/machinery/access_button{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = 28
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
+"iE" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
 "iG" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/sadar_scout/mainhall)
@@ -190,11 +690,111 @@
 /obj/structure/bed/stool/chair{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/sadar_scout/mess)
 "jm" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/sadar_scout/crew)
+"jn" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/forehall)
+"js" = (
+/obj/machinery/power/apc/north{
+	req_access = null
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
+"jt" = (
+/obj/structure/lattice,
+/obj/structure/bed/handrail{
+	dir = 8
+	},
+/turf/space,
+/area/space)
+"jF" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 8
+	},
+/obj/machinery/access_button{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = -28
+	},
+/obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4524;
+	master_tag = "airlock_sadar_scout_port_2";
+	name = "airlock_sadar_scout_port_2"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/eva)
+"jI" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/atmos)
+"ki" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_wide/orange{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/solars)
+"ko" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/obj/machinery/power/smes/buildable/main_engine{
+	charge = 2.5e+006
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/solars)
+"kF" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped,
+/turf/space,
+/area/space)
+"lr" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/pipedispenser,
+/obj/item/pipewrench,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/utility)
 "lt" = (
 /obj/machinery/body_scanconsole{
 	dir = 8
@@ -208,89 +808,478 @@
 /obj/machinery/computer/ship/sensors/terminal{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/bridge)
+"lL" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/forehall)
 "lO" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/bridge)
+"lT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/solars)
+"lV" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable/yellow,
+/turf/simulated/floor/airless,
+/area/space)
 "lX" = (
 /obj/structure/dispenser/oxygen,
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"mc" = (
+/obj/machinery/atmospherics/unary/engine,
+/turf/simulated/floor/reinforced/airless,
+/area/ship/sadar_scout/thrusters)
+"md" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/alarm/east{
+	req_one_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/forehall)
+"mj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
+"mk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/tools)
+"mq" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 1;
+	pixel_y = -22;
+	pixel_x = -6
+	},
+/obj/machinery/airlock_sensor{
+	dir = 1;
+	pixel_y = -22;
+	pixel_x = 6
+	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4521;
+	master_tag = "airlock_sadar_scout_starboard_1";
+	name = "airlock_sadar_scout_starboard_1"
+	},
+/obj/structure/lattice/catwalk/indoor,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
+"mB" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk,
+/turf/simulated/floor/airless,
+/area/space)
+"nb" = (
+/obj/structure/closet/crate,
+/obj/item/stack/material/plasteel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/glass/reinforced/full,
+/obj/item/stack/rods/full,
+/obj/item/storage/bag/inflatable,
+/obj/item/storage/bag/inflatable,
+/obj/item/grenade/chem_grenade/metalfoam,
+/obj/item/grenade/chem_grenade/metalfoam,
+/obj/machinery/light/colored/decayed,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/utility)
+"nh" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/hydro)
+"nk" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/forehall)
+"nl" = (
+/obj/effect/map_effect/window_spawner/full/borosilicate/reinforced/firedoor,
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
+"nq" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/airless,
+/area/space)
 "nr" = (
 /obj/machinery/appliance/cooker/stove,
-/turf/simulated/floor/plating,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
+"nt" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
 "nB" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
 	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4524;
+	master_tag = "airlock_sadar_scout_port_2";
+	name = "airlock_sadar_scout_port_2"
+	},
+/obj/structure/lattice/catwalk/indoor,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
 "nO" = (
 /obj/machinery/computer/ship/targeting/terminal{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/bridge)
 "oh" = (
-/obj/structure/curtain/open/bed,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/spline/plain/red{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/mainhall)
+"ok" = (
+/obj/machinery/power/apc/west{
+	req_access = null
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/structure/railing/mapped{
+	dir = 1;
+	pixel_y = 11
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/utility)
 "oz" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
 	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4523;
+	master_tag = "airlock_sadar_scout_starboard_2";
+	name = "airlock_sadar_scout_starboard_2"
+	},
+/obj/structure/lattice/catwalk/indoor,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"oB" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/access_button{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 28
+	},
+/obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4522;
+	master_tag = "airlock_sadar_scout_port_1";
+	name = "airlock_sadar_scout_port_1"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/solars)
 "oD" = (
 /turf/space/transit/north,
 /area/space)
 "oK" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/railing/mapped{
-	dir = 8
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/obj/machinery/door/blast/regular/open{
+	id = "sadar_bridge_blast";
+	dir = 4
 	},
-/turf/simulated/floor/airless,
-/area/space)
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/bridge)
+"oL" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/sadar_scout/mess)
 "oQ" = (
-/obj/structure/railing/mapped,
-/obj/structure/lattice/catwalk,
-/turf/template_noop,
-/area/space)
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
+/area/ship/sadar_scout/mess)
+"oY" = (
+/obj/machinery/alarm/west{
+	req_one_access = null
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/eva)
 "pa" = (
 /obj/structure/bed/stool/chair{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/alarm/south{
+	req_one_access = null
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "sadar_crew";
+	name = "igs - usf crewman"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/crew)
+"pd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/sadar_scout/mess)
+"pf" = (
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
+	},
+/obj/structure/closet/walllocker/emerglocker/north,
+/obj/machinery/light/floor/decayed{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/med)
+"pD" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/alarm/east{
+	req_one_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/hydro)
+"pI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/obj/structure/railing/mapped{
+	dir = 8;
+	pixel_x = -2
+	},
+/obj/machinery/light/floor/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
+"pZ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped,
+/turf/space,
+/area/space)
 "qf" = (
 /obj/structure/mirror{
 	pixel_x = -26
 	},
 /obj/structure/table/steel,
-/obj/item/reagent_containers/toothbrush,
+/obj/item/reagent_containers/toothbrush{
+	pixel_x = 5;
+	pixel_y = 3
+	},
 /obj/item/reagent_containers/toothpaste{
 	pixel_y = 9
 	},
+/obj/machinery/light/colored/decayed,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/mainhall)
+"qh" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/atmos)
 "qm" = (
-/obj/structure/curtain/open/bed,
-/turf/simulated/floor/plating,
+/obj/structure/curtain/open/bed{
+	name = "curtain"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/bridge)
 "qr" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
-/area/space)
+/area/ship/sadar_scout/thrusters)
+"qt" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/forehall)
 "qG" = (
-/obj/machinery/iv_drip,
-/obj/effect/floor_decal/corner_wide/paleblue/full{
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/white,
-/area/ship/sadar_scout/med)
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"qJ" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/telecomms/allinone/ship,
+/obj/machinery/alarm/north{
+	req_one_access = null
+	},
+/turf/simulated/floor/redgrid,
+/area/ship/sadar_scout/utility)
 "qK" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/surgery{
@@ -316,27 +1305,110 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
 "qM" = (
-/obj/machinery/door/airlock/hatch{
-	dir = 4;
-	name = "Medbay"
-	},
+/obj/structure/table/rack,
+/obj/item/tank/jetpack/carbondioxide,
+/obj/item/clothing/shoes/magboots,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/item/clothing/suit/space/void/merc,
+/obj/item/clothing/head/helmet/space/void/merc,
 /turf/simulated/floor/plating,
-/area/ship/sadar_scout/med)
+/area/ship/sadar_scout/eva)
+"qR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/sadar_scout/mess)
 "ra" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/mainhall)
 "rf" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/machinery/access_button{
+	pixel_x = 26
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_sadar_scout_dock_fore";
+	master_tag = "airlock_sadar_scout_dock_fore";
+	name = "airlock_sadar_scout_dock_fore"
+	},
+/obj/effect/shuttle_landmark/sadar_scout/dock/fore{
+	dir = 1
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/forehall)
 "rj" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/hydro)
+"ro" = (
+/turf/space,
+/area/space)
+"rt" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
 "rN" = (
 /obj/structure/table/rack,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/obj/item/material/twohanded/baseballbat/metal,
+/obj/item/material/hatchet/machete/steel{
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/obj/item/material/knife/tacknife{
+	pixel_x = 4;
+	pixel_y = -2
+	},
+/obj/item/material/knife/butterfly/switchblade{
+	pixel_y = -1;
+	pixel_x = 10
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
+"rS" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4523;
+	master_tag = "airlock_sadar_scout_starboard_2";
+	name = "airlock_sadar_scout_starboard_2"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/sign/vacuum{
+	pixel_y = 28
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
+"sb" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
 "sd" = (
 /obj/machinery/door/airlock/external{
 	dir = 4
@@ -344,26 +1416,168 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/access_button{
+	dir = 4;
+	pixel_x = 12;
+	pixel_y = -28
+	},
+/obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4523;
+	master_tag = "airlock_sadar_scout_starboard_2";
+	name = "airlock_sadar_scout_starboard_2"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/eva)
+"sg" = (
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/sadar_scout/solars)
+"sk" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
 "sl" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1
 	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4524;
+	master_tag = "airlock_sadar_scout_port_2";
+	name = "airlock_sadar_scout_port_2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/airlock_sensor{
+	dir = 8;
+	pixel_x = 20
+	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"sn" = (
+/obj/effect/floor_decal/spline/plain/blue{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/blue,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
 "sv" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/sadar_scout/forehall)
+"sE" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4524;
+	master_tag = "airlock_sadar_scout_port_2";
+	name = "airlock_sadar_scout_port_2"
+	},
+/obj/structure/lattice/catwalk/indoor,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
+"sM" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/loot,
+/turf/simulated/floor/airless,
+/area/space)
+"sV" = (
+/obj/machinery/power/solar{
+	id = "starboardsadarsolar";
+	name = "Starboard Solar Array"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow,
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
 "tp" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"tq" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "sadar_crew_captain";
+	name = "igs - usf captain"
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/crew)
 "ts" = (
 /obj/structure/lattice/catwalk,
-/turf/template_noop,
+/turf/space,
 /area/space)
+"tt" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/bed/handrail,
+/turf/simulated/floor/airless,
+/area/space)
+"tu" = (
+/obj/machinery/meter{
+	name = "Air Distro Line Meter"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/universal,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet/east,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/atmos)
+"tI" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/extinguisher_cabinet/north,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
+"uf" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/bed/handrail,
+/turf/simulated/floor/airless,
+/area/space)
+"un" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4523;
+	master_tag = "airlock_sadar_scout_starboard_2";
+	name = "airlock_sadar_scout_starboard_2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/airlock_sensor{
+	dir = 4;
+	pixel_x = -20
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
+"uo" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/blue{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
 "uq" = (
 /obj/structure/bed/padded{
 	name = "bottom bunk"
@@ -380,7 +1594,7 @@
 	dir = 4;
 	pixel_x = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/crew)
 "uD" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -394,64 +1608,338 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/forehall)
+"uE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/alarm/south{
+	req_one_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
+"uP" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/hydro)
+"uW" = (
+/obj/machinery/vending/tool,
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 28
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/tools)
 "va" = (
 /obj/structure/bed/stool/chair,
-/turf/simulated/floor/plating,
+/obj/machinery/power/apc/west{
+	req_access = null
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/ghostspawpoint{
+	identifier = "sadar_crew";
+	name = "igs - usf crewman"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/crew)
+"vf" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
+"vi" = (
+/obj/machinery/light/floor/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/mainhall)
 "vt" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2;
 	door_color = "#4e5170";
 	name = "Messhall"
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/door/firedoor/multi_tile{
+	dir = 2;
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mess)
+"vw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 9
+	},
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/sadar_scout/thrusters)
 "vG" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2;
 	door_color = "#4e5170";
 	name = "Hydroponics"
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/door/firedoor/multi_tile{
+	dir = 2;
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/hydro)
 "vH" = (
-/obj/effect/floor_decal/corner_wide/paleblue{
-	dir = 6
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	name = "Mass Driver Interior Blast Door";
+	id = "mass_driver_interior"
 	},
-/turf/simulated/floor/tiled/white,
+/obj/machinery/door/window/southleft{
+	name = "Mass Driver Interior Windoor"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/med)
-"vT" = (
-/obj/structure/closet/secure_closet/guncabinet,
-/turf/simulated/floor/plating,
+"vI" = (
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/mainhall)
+"vJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
+"vK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/mainhall)
+"vM" = (
+/obj/machinery/power/solar{
+	id = "portsadarsolar";
+	name = "Port Solar Array"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow,
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
+"vT" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = null
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/item/gun/energy/laser,
+/obj/item/gun/projectile/automatic/mini_uzi,
+/obj/item/gun/projectile/shotgun/doublebarrel/pellet,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/grenade/frag,
+/obj/item/grenade/smokebomb,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/mainhall)
+"vX" = (
+/obj/machinery/power/apc/north{
+	req_access = null
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/light/floor/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/forehall)
 "wc" = (
 /obj/machinery/appliance/cooker/oven,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
+"wi" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/forehall)
+"ww" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4523;
+	master_tag = "airlock_sadar_scout_starboard_2";
+	name = "airlock_sadar_scout_starboard_2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 8;
+	pixel_x = 20
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
+"wA" = (
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/sadar_scout/tools)
+"wK" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_y = 24;
+	pixel_x = 8
+	},
+/obj/effect/floor_decal/spline/plain/red{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/mainhall)
+"wL" = (
+/obj/machinery/door/airlock/hatch{
+	dir = 4;
+	name = "Utility Storage"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/utility)
 "wQ" = (
 /obj/machinery/optable,
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 5
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
 "wR" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/ship/sadar_scout/atmos)
+"wS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner_wide/orange{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/solars)
 "wX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/mainhall)
 "xa" = (
 /obj/machinery/hologram/holopad/long_range,
 /obj/effect/overmap/visitable/ship/sadar_scout,
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/bridge)
+"xt" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/atmos)
+"xy" = (
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/atmos)
+"xF" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/forehall)
 "xH" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
@@ -462,20 +1950,152 @@
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/mainhall)
+"xN" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/mess)
+"xV" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/utility)
 "yf" = (
 /obj/machinery/door/airlock/external{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
-/area/ship/sadar_scout/eva)
-"yz" = (
-/obj/machinery/seed_storage/garden,
+/obj/machinery/access_button{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = -28
+	},
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4523;
+	master_tag = "airlock_sadar_scout_starboard_2";
+	name = "airlock_sadar_scout_starboard_2"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
-/area/ship/sadar_scout/hydro)
-"zD" = (
-/obj/machinery/door/airlock/hatch{
+/area/ship/sadar_scout/eva)
+"yg" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"yi" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/atmos)
+"yp" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk,
+/obj/structure/bed/handrail,
+/turf/simulated/floor/airless,
+/area/space)
+"yz" = (
+/obj/machinery/seed_storage/garden,
+/obj/effect/floor_decal/industrial/outline/service,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/hydro)
+"yL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/space,
+/area/space)
+"yM" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/tools)
+"zc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
+"zi" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/turf/simulated/floor/tiled,
+/area/ship/sadar_scout/mess)
+"zl" = (
+/obj/machinery/power/solar{
+	id = "portsadarsolar";
+	name = "Port Solar Array"
+	},
+/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
+"zv" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet/west,
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/forehall)
+"zw" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_sadar_scout_dock_fore";
+	master_tag = "airlock_sadar_scout_dock_fore";
+	name = "airlock_sadar_scout_dock_fore"
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/forehall)
+"zD" = (
+/obj/machinery/door/airlock/hatch{
+	dir = 4;
+	name = "Washroom";
+	id_tag = "washroom"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
 "zR" = (
@@ -483,40 +2103,238 @@
 	dir = 5
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"zW" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
 "Aj" = (
 /obj/structure/bed/stool/chair{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/sadar_scout/mess)
 "Au" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/alarm/south{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/mainhall)
-"Bh" = (
-/obj/structure/closet/secure_closet/personal/cabinet,
+"AI" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
+"AT" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/power/apc/east{
+	req_access = null
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/hydro)
+"AW" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/black{
+	dir = 8
+	},
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/sadar_scout/thrusters)
+"Bb" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/forehall)
+"Bg" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/mainhall)
+"Bh" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/structure/closet/cabinet{
+	name = "Clothing Cabinet"
+	},
+/obj/item/clothing/mask/offworlder{
+	color = "#800000"
+	},
+/obj/item/clothing/accessory/offworlder{
+	color = "4F2A04"
+	},
+/obj/item/clothing/accessory/offworlder/bracer{
+	color = "400000"
+	},
+/obj/item/clothing/accessory/offworlder/bracer/neckbrace{
+	color = "400000"
+	},
+/obj/item/clothing/mask/offworlder{
+	color = "#006600"
+	},
+/obj/item/clothing/accessory/offworlder{
+	color = "333300"
+	},
+/obj/item/clothing/accessory/offworlder/bracer{
+	color = "333300"
+	},
+/obj/item/clothing/accessory/offworlder/bracer/neckbrace{
+	color = "333300"
+	},
+/obj/item/clothing/mask/offworlder{
+	color = "#5B015B"
+	},
+/obj/item/clothing/accessory/offworlder{
+	color = "292929"
+	},
+/obj/item/clothing/accessory/offworlder/bracer{
+	color = "333333"
+	},
+/obj/item/clothing/accessory/offworlder/bracer/neckbrace{
+	color = "292929"
+	},
+/obj/item/clothing/mask/offworlder{
+	color = "#495681"
+	},
+/obj/item/clothing/accessory/offworlder{
+	color = "4D4D4D"
+	},
+/obj/item/clothing/accessory/offworlder/bracer{
+	color = "5F5F5F"
+	},
+/obj/item/clothing/accessory/offworlder/bracer/neckbrace{
+	color = "777777"
+	},
+/obj/item/clothing/suit/storage/toggle/leather_jacket/military,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/military/old/alt,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/designer,
+/obj/item/clothing/suit/storage/toggle/bomber,
+/obj/item/clothing/under/pants/tacticool,
+/obj/item/clothing/under/pants/track,
+/obj/item/clothing/under/pants/jeansblack,
+/obj/item/clothing/under/pants/designer,
+/obj/item/clothing/gloves/fingerless,
+/obj/item/clothing/gloves/fingerless,
+/obj/item/clothing/gloves/brown,
+/obj/item/clothing/gloves/brown,
+/obj/item/clothing/accessory/storage/pouches/black,
+/obj/item/clothing/accessory/storage/pouches/black,
+/obj/item/clothing/accessory/storage/pouches/brown,
+/obj/item/clothing/accessory/storage/pouches/brown,
+/turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/crew)
 "Bj" = (
 /obj/machinery/vending/hydronutrients,
+/obj/effect/floor_decal/industrial/outline/service,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/hydro)
 "Bk" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/sadar_scout/atmos)
 "BF" = (
 /obj/machinery/vending/medical{
-	pixel_x = -32
+	pixel_x = -32;
+	req_access = null;
+	density = 0
 	},
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
+"BW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
+"BX" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Engineering"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/atmos)
 "Cd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner_wide/red{
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -529,9 +2347,97 @@
 /obj/machinery/door/window/eastleft,
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/mainhall)
-"Cu" = (
+"Cj" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating,
+/area/ship/sadar_scout/atmos)
+"Cl" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
+"Co" = (
+/obj/effect/shuttle_landmark/sadar_scout/nav3,
+/turf/template_noop,
+/area/space)
+"Cs" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/space,
+/area/space)
+"Cu" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/hydro)
+"Cv" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4522;
+	master_tag = "airlock_sadar_scout_port_1";
+	name = "airlock_sadar_scout_port_1"
+	},
+/obj/machinery/access_button{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = 28
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/solars)
+"CB" = (
+/obj/structure/closet/walllocker/medical/secure{
+	pixel_x = 30;
+	name = "O- Blood Locker";
+	req_access = null
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/ship/sadar_scout/med)
 "CC" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/atmospherics/portables_connector{
@@ -542,20 +2448,202 @@
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"CN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
+"CP" = (
+/obj/machinery/door/airlock/hatch{
+	dir = 4;
+	name = "Tool Storage"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/tools)
 "CR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
 "CU" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
+"Da" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 8
+	},
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/machinery/access_button{
+	dir = 4;
+	pixel_x = 12;
+	pixel_y = -28
+	},
+/obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4525;
+	master_tag = "airlock_sadar_scout_starboard_3";
+	name = "airlock_sadar_scout_starboard_3"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/mainhall)
+"De" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet/east,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
+"Dq" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 1;
+	pixel_y = -22;
+	pixel_x = -6
+	},
+/obj/machinery/airlock_sensor{
+	dir = 1;
+	pixel_y = -22;
+	pixel_x = 6
+	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4522;
+	master_tag = "airlock_sadar_scout_port_1";
+	name = "airlock_sadar_scout_port_1"
+	},
+/obj/structure/lattice/catwalk/indoor,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
+"Ds" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/space,
+/area/space)
+"DB" = (
+/obj/structure/bed/handrail,
+/obj/structure/lattice/catwalk,
+/turf/space,
+/area/space)
+"DK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
 "DP" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/sadar_scout/med)
+"DS" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/forehall)
 "Ea" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/sadar_scout/eva)
+"Eq" = (
+/obj/effect/map_effect/window_spawner/full/borosilicate/reinforced/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
+"Es" = (
+/obj/machinery/computer/general_air_control/large_tank_control/terminal{
+	input_tag = "sadar_co2_in";
+	output_tag = "sadar_co2_out";
+	sensors = list("sadar_co2_sensor"="Tank");
+	name = "Carbon Dioxide Supply Monitor"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/thrusters)
+"EE" = (
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/sadar_scout/utility)
+"Ff" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/machinery/alarm/south{
+	req_one_access = null
+	},
+/obj/effect/floor_decal/corner_wide/orange{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/solars)
 "Fl" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
 "Fn" = (
@@ -571,14 +2659,154 @@
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
-"GJ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
+"Fq" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"Ft" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
+"Fv" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/eva)
-"GX" = (
+"Fw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/atmos)
+"FH" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/bed/handrail{
+	dir = 4
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"FY" = (
+/obj/structure/lattice,
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"Gg" = (
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/ship/sadar_scout/med)
+"Gm" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/black{
+	dir = 4
+	},
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/sadar_scout/thrusters)
+"Gq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/utility)
+"GF" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
+/area/ship/sadar_scout/forehall)
+"GJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/eva)
+"GN" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"GR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
+"GS" = (
+/obj/structure/table/steel,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 5
+	},
+/obj/item/storage/toolbox/electrical,
+/obj/item/clothing/gloves/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/tools)
+"GX" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/mainhall)
 "Hi" = (
 /obj/structure/table/standard,
@@ -589,10 +2817,13 @@
 	pixel_x = 8;
 	pixel_y = -3
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/bridge)
 "Hj" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/crew)
 "Hn" = (
 /obj/item/material/hatchet,
@@ -600,18 +2831,305 @@
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/wirecutters/clippers,
 /obj/structure/closet/crate/hydroponics,
+/obj/effect/floor_decal/corner_wide/lime{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
+"Hq" = (
+/obj/machinery/power/solar{
+	id = "starboardsadarsolar";
+	name = "Starboard Solar Array"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
+"Hy" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"HY" = (
+/obj/structure/sign/drop{
+	desc = "A warning sign which reads 'DANGER: MASS EJECTOR PATH ON THIS SIGN'.";
+	name = "\improper DANGER: MASS EJECTOR PATH sign"
+	},
+/obj/structure/lattice/catwalk,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"Ii" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light/floor/decayed{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
+"Ik" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/alarm/east{
+	req_one_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/mainhall)
+"Iq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/button/remote/blast_door{
+	pixel_x = 2;
+	pixel_y = -20;
+	id = "mass_driver_exterior";
+	name = "Mass Driver Exterior Blast Door"
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_x = -9;
+	pixel_y = -20;
+	id = "mass_driver_interior";
+	name = "Mass Driver Interior Blast Door"
+	},
+/obj/machinery/button/remote/driver{
+	dir = 4;
+	pixel_x = 11;
+	pixel_y = -21;
+	id = "mass_driver";
+	name = "Mass Driver Ejection"
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/med)
+"Is" = (
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
+"IC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/space,
+/area/space)
+"Jr" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/autolathe,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/utility)
+"Js" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/loading/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
 "JC" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 8
 	},
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 1;
+	pixel_y = -22;
+	pixel_x = -6
+	},
+/obj/machinery/airlock_sensor{
+	dir = 1;
+	pixel_y = -22;
+	pixel_x = 6
+	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4526;
+	master_tag = "airlock_sadar_scout_port_3";
+	name = "airlock_sadar_scout_port_3"
+	},
+/obj/structure/lattice/catwalk/indoor,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/mainhall)
+"JD" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/light/floor/decayed,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/atmos)
+"JZ" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4524;
+	master_tag = "airlock_sadar_scout_port_2";
+	name = "airlock_sadar_scout_port_2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 4;
+	pixel_x = -20
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
 "Kb" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/mess)
+"Ke" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/turf/simulated/floor/tiled,
+/area/ship/sadar_scout/mess)
+"Kh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/sadar_scout/mess)
+"Kj" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped,
+/turf/space,
+/area/space)
+"Kq" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/mainhall)
+"KE" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"KF" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Propulsion"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/solars)
+"KL" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"KN" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/bed/handrail{
+	dir = 1
+	},
+/turf/space,
+/area/space)
+"KP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/thrusters)
+"KU" = (
+/obj/effect/shuttle_landmark/sadar_scout/nav2,
+/turf/template_noop,
+/area/space)
+"KZ" = (
+/obj/structure/table/rack,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/obj/item/storage/box/shotgunshells,
+/obj/item/ammo_magazine/c45uzi,
+/obj/item/ammo_magazine/c45uzi,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/mainhall)
+"La" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/crew)
 "Ld" = (
 /obj/structure/flora/ausbushes/sparsegrass{
 	layer = 2
@@ -619,6 +3137,12 @@
 /obj/item/reagent_containers/glass/bucket{
 	pixel_y = 6;
 	pixel_x = 6
+	},
+/obj/machinery/light/floor/decayed{
+	dir = 1
+	},
+/obj/structure/sink/kitchen{
+	pixel_y = 28
 	},
 /turf/simulated/floor/grass,
 /area/ship/sadar_scout/hydro)
@@ -632,6 +3156,25 @@
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"Lw" = (
+/obj/machinery/power/apc/north{
+	req_access = null
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/bridge)
+"Lx" = (
+/obj/effect/shuttle_landmark/sadar_scout/nav1,
+/turf/template_noop,
+/area/space)
 "Ly" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/airless,
@@ -643,63 +3186,270 @@
 /mob/living/simple_animal/hakhma,
 /turf/simulated/floor/grass,
 /area/ship/sadar_scout/hydro)
+"LH" = (
+/obj/structure/table/standard,
+/obj/machinery/light/colored/decayed,
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/turf/simulated/floor/tiled,
+/area/ship/sadar_scout/mess)
 "LM" = (
-/obj/structure/closet/walllocker/medical/secure{
-	pixel_x = 32;
-	name = "O- Blood Locker";
-	req_access = null
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
 	},
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/effect/floor_decal/corner_wide/paleblue{
-	dir = 6
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
 /area/ship/sadar_scout/med)
+"Me" = (
+/obj/structure/lattice,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/space,
+/area/space)
 "Mt" = (
 /obj/structure/reagent_dispensers/watertank,
+/obj/effect/floor_decal/corner_wide/lime{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
+"MB" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/machinery/access_button{
+	dir = 4;
+	pixel_x = 12;
+	pixel_y = -28
+	},
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4524;
+	master_tag = "airlock_sadar_scout_port_2";
+	name = "airlock_sadar_scout_port_2"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/eva)
+"Ni" = (
+/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/light/colored/decayed,
+/obj/effect/floor_decal/corner_wide/lime{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/hydro)
+"NJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"NV" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4521;
+	master_tag = "airlock_sadar_scout_starboard_1";
+	name = "airlock_sadar_scout_starboard_1"
+	},
+/obj/machinery/access_button{
+	dir = 8;
+	pixel_x = -10;
+	pixel_y = 28
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/solars)
 "NW" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/machinery/access_button{
+	pixel_x = 26;
+	pixel_y = 10
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_sadar_scout_dock_fore";
+	master_tag = "airlock_sadar_scout_dock_fore";
+	name = "airlock_sadar_scout_dock_fore"
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/forehall)
 "NX" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/hydro)
+"On" = (
+/obj/machinery/meter{
+	name = "Air Distro Line Meter"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/universal,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -28
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/atmos)
+"Oo" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/mainhall)
+"Oq" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/atmos)
 "OF" = (
 /obj/machinery/computer/ship/helm/terminal{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/bridge)
+"OG" = (
+/obj/effect/floor_decal/spline/plain/blue{
+	dir = 8
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 6
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
 "OM" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Fore Hallway"
 	},
-/turf/simulated/floor/plating,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
+"OQ" = (
+/obj/machinery/vending/engineering{
+	req_access = null
+	},
+/obj/machinery/alarm/north{
+	req_one_access = null
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/tools)
 "OS" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/eva)
+"Pc" = (
+/obj/machinery/door/airlock/hatch{
+	dir = 4;
+	name = "Medbay"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor/noid,
+/obj/structure/sign/greencross{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/med)
 "Ph" = (
 /obj/machinery/computer/ship/navigation/terminal{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8
+	},
+/obj/machinery/alarm/north{
+	req_one_access = null
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/bridge)
 "Pi" = (
 /obj/machinery/computer/ship/engines/terminal{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/bridge)
+"Pm" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/machinery/door/window/eastleft,
+/obj/structure/window/reinforced,
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
+"Px" = (
+/obj/effect/floor_decal/industrial/outline/emergency_closet,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/powered/pump/filled,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
 "PL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
@@ -707,13 +3457,65 @@
 /obj/machinery/door/airlock/external{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/access_button{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = -28
+	},
+/obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4526;
+	master_tag = "airlock_sadar_scout_port_3";
+	name = "airlock_sadar_scout_port_3"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
+"PT" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume,
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4523;
+	master_tag = "airlock_sadar_scout_starboard_2";
+	name = "airlock_sadar_scout_starboard_2"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
 "PV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"PW" = (
+/obj/machinery/power/solar_control/autostart{
+	dir = 4;
+	id = "starboardsadarsolar";
+	name = "Starboard Solar Control"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/solars)
 "Qi" = (
 /obj/structure/table/stone/marble,
 /obj/item/reagent_containers/food/condiment/flour,
@@ -725,18 +3527,57 @@
 	pixel_x = 6;
 	pixel_y = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
 "Qp" = (
 /obj/machinery/door/airlock/hatch{
 	dir = 4;
 	name = "Bridge"
 	},
-/turf/simulated/floor/plating,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/bridge)
 "Qu" = (
 /obj/effect/shuttle_landmark/sadar_shuttle/transit,
 /turf/space/transit/north,
+/area/space)
+"QE" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/tools)
+"QL" = (
+/obj/machinery/power/solar{
+	id = "portsadarsolar";
+	name = "Port Solar Array"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
+"QT" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/space,
 /area/space)
 "QU" = (
 /obj/structure/flora/ausbushes/sparsegrass{
@@ -748,50 +3589,263 @@
 "Rq" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/sadar_scout/mess)
+"RA" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume,
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4524;
+	master_tag = "airlock_sadar_scout_port_2";
+	name = "airlock_sadar_scout_port_2"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
+"RB" = (
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/ship/sadar_scout/thrusters)
+"RY" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/red{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
 "Sa" = (
 /obj/structure/table/standard,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_x = -3;
+	pixel_y = -10
+	},
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_x = 3;
+	pixel_y = -10
+	},
+/turf/simulated/floor/tiled,
 /area/ship/sadar_scout/mess)
 "Sf" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Main Hallway"
 	},
-/turf/simulated/floor/plating,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
+"Sl" = (
+/obj/structure/lattice,
+/obj/structure/bed/handrail{
+	dir = 4
+	},
+/turf/space,
+/area/space)
+"Sm" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/bridge)
+"SH" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/power/portgen/basic,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/item/stack/material/graphite{
+	amount = 30;
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 28
+	},
+/turf/simulated/floor/redgrid,
+/area/ship/sadar_scout/utility)
 "ST" = (
 /obj/machinery/door/airlock/hatch{
 	dir = 4;
 	name = "Crew Quarters"
 	},
-/turf/simulated/floor/plating,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/crew)
+"SX" = (
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/sadar_scout/atmos)
+"Tn" = (
+/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
+	frequency = 1441;
+	id_tag = "sadar_co2_out"
+	},
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/ship/sadar_scout/thrusters)
+"To" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4525;
+	master_tag = "airlock_sadar_scout_starboard_3";
+	name = "airlock_sadar_scout_starboard_3"
+	},
+/obj/machinery/access_button{
+	dir = 8;
+	pixel_x = -10;
+	pixel_y = 28
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/mainhall)
+"Tq" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/access_button{
+	dir = 4;
+	pixel_x = 12;
+	pixel_y = 28
+	},
+/obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4521;
+	master_tag = "airlock_sadar_scout_starboard_1";
+	name = "airlock_sadar_scout_starboard_1"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/solars)
+"TA" = (
+/obj/machinery/light/floor/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/forehall)
 "TG" = (
 /obj/machinery/vending/dinnerware{
 	density = 0;
-	pixel_x = 23
+	pixel_x = 32;
+	pixel_y = -6
 	},
-/turf/simulated/floor/plating,
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 22
+	},
+/turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
 "TJ" = (
-/obj/structure/table/standard,
 /obj/item/device/binoculars,
 /obj/item/device/binoculars{
 	pixel_y = 6
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/structure/table/steel,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/bridge)
 "TV" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1
 	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = 6
+	},
+/obj/machinery/airlock_sensor{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = -6
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_sadar_scout_dock_fore";
+	master_tag = "airlock_sadar_scout_dock_fore";
+	name = "airlock_sadar_scout_dock_fore"
+	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/forehall)
+"Ue" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"Uk" = (
+/obj/machinery/computer/ship/engines/terminal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/thrusters)
 "Un" = (
 /obj/structure/closet/crate/bin,
-/turf/simulated/floor/plating,
+/obj/machinery/power/apc/west{
+	req_access = null
+	},
+/obj/structure/cable,
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/sadar_scout/mess)
+"Uw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 5
+	},
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/sadar_scout/thrusters)
+"UB" = (
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	name = "Mass Driver Exterior Blast Door";
+	id = "mass_driver_exterior"
+	},
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/ship/sadar_scout/med)
 "UX" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/structure/closet/secure_closet/freezer/fridge{
+	anchored = 1
+	},
 /obj/item/reagent_containers/food/condiment/enzyme{
 	pixel_x = -9;
 	pixel_y = 5
@@ -808,15 +3862,30 @@
 /obj/item/storage/box/produce{
 	layer = 2.99
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/alarm/west{
+	req_one_access = null
+	},
+/turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
+"Vc" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
 "Ve" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped,
 /obj/machinery/iff_beacon{
 	pixel_y = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/airless,
 /area/ship/sadar_scout/bridge)
 "Vj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -824,10 +3893,93 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/sadar_scout/forehall)
+"Vx" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/obj/structure/railing/mapped{
+	dir = 4;
+	pixel_x = 2
+	},
+/obj/machinery/light/floor/decayed{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
+"VG" = (
+/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner_wide/lime{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/hydro)
+"VH" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 8;
+	name = "Pump to Waste"
+	},
+/obj/machinery/alarm/north{
+	req_one_access = null
+	},
+/obj/effect/floor_decal/spline/plain/red{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
+"VN" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
+"VO" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/utility)
 "VX" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/airless,
 /area/ship/sadar_scout/eva)
+"VZ" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/mainhall)
+"Wi" = (
+/obj/machinery/power/apc/east{
+	req_access = null
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/tools)
 "Wr" = (
 /obj/structure/table/steel,
 /obj/item/storage/box/bodybags{
@@ -838,10 +3990,81 @@
 /obj/effect/floor_decal/corner_wide/paleblue/full{
 	dir = 4
 	},
+/obj/machinery/alarm/south{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
+"Wt" = (
+/obj/machinery/atmospherics/pipe/tank/air{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/emergency_closet,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/atmos)
+"Wu" = (
+/obj/machinery/power/solar{
+	id = "portsadarsolar";
+	name = "Port Solar Array"
+	},
+/obj/structure/cable/yellow,
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
+"Wy" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light/floor/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
+"WB" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/forehall)
+"WL" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/empty{
+	name = "waste canister"
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/atmos)
+"WM" = (
+/obj/structure/table/steel,
+/obj/machinery/light/colored/decayed,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/cell_charger{
+	pixel_y = 10
+	},
+/obj/item/gun/energy/plasmacutter{
+	pixel_x = 15
+	},
+/obj/random/powercell,
+/obj/random/powercell,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/tools)
 "WN" = (
 /obj/machinery/seed_extractor,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/service,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
 "WP" = (
@@ -855,59 +4078,262 @@
 /obj/machinery/computer/cryopod{
 	pixel_y = 28
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/crew)
+"WV" = (
+/obj/machinery/light/floor/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/eva)
+"WZ" = (
+/obj/machinery/power/solar{
+	id = "starboardsadarsolar";
+	name = "Starboard Solar Array"
+	},
+/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/airless{
+	icon_state = "solarpanel"
+	},
+/area/space)
+"Xa" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/machinery/door/window/westright,
+/obj/structure/window/reinforced,
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/solars)
 "Xb" = (
 /obj/structure/bed/stool/chair/office/bridge/generic,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/bridge)
+"Xm" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/table/rack,
+/obj/random/toolbox,
+/obj/random/tool,
+/obj/random/tool,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/utility)
+"Xt" = (
+/obj/structure/lattice,
+/obj/structure/bed/handrail,
+/turf/space,
+/area/space)
+"Xw" = (
+/obj/machinery/alarm/north{
+	req_one_access = null
+	},
+/obj/effect/floor_decal/spline/plain/blue{
+	dir = 1
+	},
+/obj/machinery/atmospherics/binary/pump{
+	dir = 8;
+	name = "Pump to Waste"
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/sadar_scout/atmos)
+"Xx" = (
+/obj/machinery/atmospherics/pipe/tank{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/atmos)
+"XG" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = null
+	},
+/obj/machinery/alarm/east{
+	req_one_access = null
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/item/gun/energy/retro,
+/obj/item/gun/energy/blaster/revolver,
+/obj/item/gun/projectile/colt,
+/obj/item/gun/projectile/revolver/lemat,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/mainhall)
 "XJ" = (
 /obj/structure/table/rack,
 /obj/item/tank/jetpack/carbondioxide,
-/obj/random/voidsuit/freebooter,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/suit/space/void/freelancer,
+/obj/item/clothing/head/helmet/space/void/freelancer,
+/obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
 "XX" = (
-/obj/structure/table/standard,
 /obj/machinery/button/distress{
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = 6
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/alarm/north{
+	req_one_access = null
+	},
+/obj/structure/table/steel,
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_x = -4;
+	id = "sadar_bridge_blast";
+	name = "Bridge Blast Shield";
+	pixel_y = 8
+	},
+/obj/item/device/radio/intercom/hailing{
+	dir = 1;
+	pixel_y = -10
+	},
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/bridge)
+"XY" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/bed/handrail{
+	dir = 8
+	},
+/turf/simulated/floor/airless,
+/area/space)
 "Yc" = (
+/obj/structure/lattice,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/airless,
+/turf/space,
 /area/space)
 "Yz" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/forehall)
+"YG" = (
+/obj/machinery/alarm/west{
+	req_one_access = null
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/eva)
+"YI" = (
+/obj/machinery/mass_driver{
+	id = "mass_driver"
+	},
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/window/southleft{
+	name = "Mass Driver Exterior Windoor"
+	},
+/turf/simulated/floor/reinforced,
+/area/ship/sadar_scout/med)
+"Zg" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/tools)
 "Zj" = (
 /obj/structure/table/steel,
 /obj/item/deck/cards,
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/crew)
 "Zo" = (
 /turf/template_noop,
 /area/space)
+"Zt" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/eva)
 "Zv" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/sadar_scout/hydro)
+"ZB" = (
+/obj/machinery/door/airlock/hatch{
+	dir = 4;
+	name = "Medbay"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor/noid,
+/obj/structure/sign/greencross{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/sadar_scout/med)
 "ZC" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/obj/effect/map_effect/marker/airlock{
+	frequency = 4523;
+	master_tag = "airlock_sadar_scout_starboard_2";
+	name = "airlock_sadar_scout_starboard_2"
+	},
+/obj/structure/lattice/catwalk/indoor,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
+"ZO" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/hydro)
 "ZV" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/mainhall)
 "ZZ" = (
 /obj/structure/bed/stool/chair/office/bridge/generic{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/bridge)
 
 (1,1,1) = {"
@@ -22105,7 +25531,7 @@ Zo
 Zo
 Zo
 Zo
-Zo
+Co
 Zo
 Zo
 Zo
@@ -25422,18 +28848,18 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+dG
+dG
+dG
+gu
+dG
+dG
+gu
+dG
+dG
+dG
+gu
 Zo
 Zo
 Zo
@@ -25678,20 +29104,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 Zo
 Zo
 Zo
@@ -25934,22 +29360,22 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
 Zo
 Zo
 Zo
@@ -26191,22 +29617,22 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+IC
+IC
+ts
+ts
+ts
+ts
+ts
+ts
+ts
+ts
+ts
+ts
+ts
+ts
+IC
+IC
 Zo
 Zo
 Zo
@@ -26449,20 +29875,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+Hq
+sV
+nq
+fr
+Hq
+nq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -26706,20 +30132,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -26963,20 +30389,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -27220,20 +30646,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -27477,20 +30903,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -27734,20 +31160,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -27991,20 +31417,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -28248,20 +31674,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+ro
 Zo
 Zo
 Zo
@@ -28505,20 +31931,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+ro
 Zo
 Zo
 Zo
@@ -28762,20 +32188,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+ts
+gu
 Zo
 Zo
 Zo
@@ -29019,20 +32445,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+gu
+gu
+iE
+ts
+ts
+NJ
+yg
+yg
+yg
+lV
+gu
 Zo
 Zo
 Zo
@@ -29276,20 +32702,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+FY
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+ts
+gu
 Zo
 Zo
 Zo
@@ -29533,20 +32959,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+ro
 Zo
 Zo
 Zo
@@ -29790,20 +33216,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+ro
 Zo
 Zo
 Zo
@@ -30047,20 +33473,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -30304,20 +33730,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -30561,6 +33987,20 @@ Zo
 Zo
 Zo
 Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -30572,24 +34012,10 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -30818,6 +34244,20 @@ Zo
 Zo
 Zo
 Zo
+dG
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -30829,24 +34269,10 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -31075,6 +34501,35 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -31089,43 +34544,14 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+Ds
+ds
+ds
+ds
+ds
+ds
+ds
+pZ
 Zo
 Zo
 Zo
@@ -31313,6 +34739,7 @@ Zo
 Zo
 Zo
 Zo
+gk
 Zo
 Zo
 Zo
@@ -31331,6 +34758,20 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -31342,6 +34783,10 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -31355,35 +34800,16 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+QT
+ts
+gu
+gu
+gu
+gu
+gu
+gu
+ts
+pZ
 Zo
 Zo
 Zo
@@ -31589,6 +35015,20 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+gu
+Hq
+sV
+Fq
+fr
+Hq
+Fq
+WZ
+fr
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -31600,6 +35040,10 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -31608,40 +35052,22 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+Ds
+ds
+ds
+ds
+ds
+ts
+gu
+DP
+DP
+DP
+DP
+DP
+DP
+jt
+ts
+pZ
 Zo
 Zo
 Zo
@@ -31846,6 +35272,20 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+ts
+ts
+ts
+KE
+yg
+nq
+ip
+gu
+gu
+gu
+ts
+gu
 Zo
 Zo
 Zo
@@ -31857,48 +35297,34 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+Ds
+ds
+ds
+ts
+gu
+gu
+gu
+gu
+gu
+jt
+DP
+hX
+BF
+cO
+cE
+DP
+DP
+gu
+kF
 Zo
 Zo
 Zo
@@ -32103,59 +35529,59 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zv
-Zv
+gu
+yL
+wA
+QE
+QE
+wA
+ts
+mB
+ts
+ts
+ts
+ts
+ts
+gu
 ds
 ds
 ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ds
+ts
+ts
+ds
+ds
+ds
+ds
+ds
+ds
+ts
+gu
+gu
+jt
 Zv
 Zv
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+NX
+NX
+NX
+Zv
+Zv
+wQ
+bo
+lt
+eb
+gA
+DP
+gu
+kF
 Zo
 Zo
 Zo
@@ -32356,63 +35782,63 @@ Zo
 Zo
 Zo
 Zo
+qr
+qr
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+qr
+wA
+hW
+yM
+wA
+sg
+yp
+SX
+SX
+SX
+SX
+SX
+Xt
+gu
+gu
+gu
+gu
+gu
+XY
+cT
+cT
+gu
+Yc
+Yc
 ts
-Zo
-Zo
+gu
+gu
 ts
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+Yc
+gu
+gu
+gu
+jt
+gu
 iG
 NX
-NX
 Zv
-ba
-ba
-ba
-ba
-ba
 Zv
+VG
+ba
+ba
+ba
+Ni
+Zv
+qK
+Gg
+CB
+Fn
+Wr
 DP
-DP
-DP
-DP
-DP
-Zo
-Zo
-Zo
+gu
+kF
 Zo
 Zo
 Zo
@@ -32613,28 +36039,28 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+mc
+Uw
+qr
+qr
+qr
+qr
+OQ
+Zg
+gO
+WM
+sg
+NV
+SX
+Px
+OG
+Wt
+SX
+dG
+dG
+dG
+dG
+dG
 Ea
 Ea
 yf
@@ -32642,13 +36068,13 @@ Ea
 Ea
 Ly
 Ly
-oQ
 ts
+Yc
+Yc
 ts
-ts
-oK
+Ly
 iG
-ts
+tt
 iG
 iG
 iG
@@ -32657,19 +36083,19 @@ LB
 cQ
 rj
 rj
-rj
-rj
+uP
+uP
 rj
 rj
 Zv
-qG
-BF
-cO
-cE
+DP
+Pc
 DP
 DP
-Zo
-Zo
+DP
+DP
+gu
+kF
 Zo
 Zo
 Zo
@@ -32870,42 +36296,42 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+mc
+dY
+Wy
+ch
+hD
+qr
+uW
+Wi
+mk
+GS
+sg
+mq
+SX
+Xw
+uo
+Wt
+SX
+gu
+gu
+gu
+gu
+gu
 Ea
-aQ
+PT
 oz
-sl
+un
 Ea
+sM
 Ly
-Ly
-oQ
-Ly
+kF
+sM
 Ly
 ts
-Ly
+sM
 iG
-it
+To
 iG
 Ch
 qf
@@ -32913,20 +36339,20 @@ iG
 Ld
 QU
 Hn
-rj
+nh
 cK
 WN
-rj
+ZO
 yz
 Zv
-wQ
-bo
-lt
-eb
-gA
+pf
+Iq
 DP
-Zo
-Zo
+DP
+DP
+DB
+gu
+ts
 Zo
 Zo
 Zo
@@ -33127,39 +36553,39 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+mc
+Gm
+is
+zc
+rt
+qr
+wA
+wA
+CP
+wA
+sg
+Tq
+SX
+gM
+sn
+SX
+SX
+SX
 Ea
 Ea
 Ea
 Ea
-aQ
+Ea
+rS
 ZC
-sl
+ww
 Ea
 Ea
 Ea
 Ea
 Ly
-Ly
-ts
+sM
+KN
 iG
 iG
 cp
@@ -33170,20 +36596,20 @@ iG
 LB
 QU
 Mt
-rj
+AT
+Cl
 CR
-CR
-rj
+pD
 Bj
 Zv
-qK
+hl
 LM
 vH
-Fn
-Wr
-DP
-Zo
-Zo
+YI
+UB
+qG
+Js
+HY
 Zo
 Zo
 Zo
@@ -33383,28 +36809,28 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
 qr
 qr
+qr
+qr
+js
+Vx
+Vc
+sg
+Pm
+vJ
+PW
+ko
+lT
+SX
+SX
+xy
+fd
+On
+gJ
 Ea
-XJ
+Ea
+qM
 XJ
 Ea
 Ea
@@ -33419,7 +36845,7 @@ VX
 VX
 iG
 iG
-PL
+Da
 iG
 iG
 zD
@@ -33434,11 +36860,11 @@ Zv
 Zv
 Zv
 DP
-DP
-qM
-DP
+ZB
 DP
 DP
+DP
+sv
 sv
 sv
 Zo
@@ -33640,64 +37066,64 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Bk
 qr
-OS
-OS
-OS
-OS
-OS
+gG
+im
+Eq
+GR
+Es
+uE
+sg
+bG
+hP
+ki
+wS
+Ff
+SX
+gX
+Bk
+qh
+jI
+Fw
+Ea
+oY
+Zt
+Fv
+WV
+oY
 fW
 GJ
-GJ
+bp
 Cd
 OS
-OS
-OS
-OS
+YG
+WV
+Fv
 OS
 iG
 xH
 ZV
 ra
-ra
-ra
-ra
-ra
+cS
+vK
+Bg
+vi
 iG
+TA
+DS
+Bb
 Yz
-Yz
-Yz
-Yz
-Yz
+TA
 sv
-Yz
-Yz
-Yz
-Yz
-Yz
+vX
+DS
+lL
+zv
+TA
 uD
 Vj
-TV
-rf
+zw
+sv
 Zo
 Zo
 Zo
@@ -33897,59 +37323,59 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+qr
+RB
+Tn
+nl
+sk
+Uk
+Ft
+KF
+DK
+BW
+CN
+mj
+fw
+BX
+Cj
+Oq
+yi
+xt
 wR
 eE
 Fl
+AI
+nt
 Fl
-Fl
-Fl
-Fl
+as
 hM
 PV
 PV
 zR
 Fl
+De
 Fl
-Fl
-Fl
+nt
 Fl
 Sf
-fS
+Kq
 wX
 fS
-fS
-fS
-fS
-fS
+Oo
+VZ
+Ik
+Kq
 OM
-gr
-gr
-gr
-gr
-gr
+jn
+xF
+nk
+GF
+jn
 bS
-gr
-gr
-gr
-gr
+WB
+wi
+qt
+md
 gr
 dI
 NW
@@ -34154,32 +37580,32 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
 qr
 qr
+qr
+qr
+tI
+pI
+vf
+sg
+Xa
+vJ
+eB
+cG
+cb
+SX
+SX
+cN
+ik
+tu
+JD
+Ea
 Ea
 XJ
-XJ
+qM
 Ea
 Ea
-sd
+jF
 Ea
 Ea
 Lm
@@ -34192,14 +37618,14 @@ iG
 iG
 PL
 iG
-oh
+wK
 oh
 iG
 iG
 iG
 Rq
 Rq
-CU
+xN
 vt
 Rq
 jm
@@ -34412,63 +37838,63 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+mc
+AW
+is
+KP
+rt
+qr
+EE
+EE
+wL
+EE
+sg
+oB
+SX
+aY
+aF
+SX
+SX
+SX
+Ea
 Ea
 Ea
 Ea
 Ea
 aQ
-ZC
-sl
+sE
+JZ
 Ea
 Ea
 Ea
 Ea
 Ly
-Ly
-ts
+sM
+KN
 iG
 iG
 JC
 iG
+vI
 GX
-GX
-rN
+KZ
 iG
 ga
 Qi
 UX
-CU
-CU
+Kh
+Ke
 Un
 jm
 uq
-Hj
+cI
 va
 Zj
 en
 Ve
-Zo
-Zo
-Zo
+ro
+Sl
+ts
 Zo
 Zo
 Zo
@@ -34669,36 +38095,36 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+mc
+dY
+Ii
+bg
+sb
+qr
+SH
+ok
+Gq
+Xm
+sg
+Dq
+SX
+VH
+RY
+Xx
+SX
+gu
+gu
+gu
+gu
+gu
 Ea
-aQ
+RA
 nB
 sl
 Ea
 Ly
-Ly
-oQ
+sM
+kF
 Ly
 Ly
 ts
@@ -34707,25 +38133,25 @@ iG
 it
 iG
 vT
-vT
+XG
 rN
 iG
 nr
 CU
 CU
-CU
+pd
 iL
 iL
 jm
 WP
-Hj
+La
 Hj
 pa
 en
 bA
-Zo
-Zo
-Zo
+ro
+gu
+ts
 Zo
 Zo
 Zo
@@ -34926,42 +38352,42 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+mc
+vw
+qr
+qr
+qr
+qr
+qJ
+hi
+xV
+nb
+sg
+Cv
+SX
+Is
+hC
+WL
+SX
+dG
+dG
+dG
+dG
+dG
 Ea
 Ea
-yf
+MB
 Ea
 Ea
+sM
 Ly
+ts
+Me
+Me
+ts
 Ly
-oQ
-ts
-ts
-ts
-Yc
 iG
-ts
+tt
 iG
 iG
 iG
@@ -34969,20 +38395,20 @@ iG
 iG
 wc
 TG
-CU
-CU
+oQ
+qR
 Sa
-Sa
+LH
 jm
 aC
-Hj
+tq
 Bh
 jm
 en
-en
-en
-Zo
-Zo
+eT
+oK
+gu
+kF
 Zo
 Zo
 Zo
@@ -35183,51 +38609,51 @@ Zo
 Zo
 Zo
 Zo
+qr
+qr
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+qr
+EE
+Jr
+lr
+EE
+sg
+uf
+SX
+SX
+SX
+SX
+SX
+Xt
+gu
+gu
+gu
+gu
+gu
+FH
+cT
+cT
+gu
+Me
+Me
 ts
-Zo
-Zo
+gu
+gu
 ts
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+Me
+gu
+gu
+gu
+Sl
+gu
 iG
 iG
 Rq
 Rq
-CU
-CU
+oL
+zi
 Aj
 Aj
 en
@@ -35239,7 +38665,7 @@ TJ
 Pi
 eT
 eT
-Zo
+kF
 Zo
 Zo
 Zo
@@ -35444,44 +38870,44 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+EE
+VO
+VO
+EE
+ts
+iE
+ts
+ts
+ts
+ts
+ts
+gu
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+ts
+ts
+IC
+IC
+IC
+IC
+IC
+IC
+ts
+gu
+gu
+Sl
 Rq
 Rq
 Kb
@@ -35489,14 +38915,14 @@ Kb
 Rq
 en
 Hi
-lO
+Sm
 lO
 qm
 xa
 Xb
 OF
-eT
-Zo
+oK
+kF
 Zo
 Zo
 Zo
@@ -35701,6 +39127,20 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+ts
+ts
+ts
+Hy
+yg
+VN
+Ue
+gu
+gu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -35712,48 +39152,34 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+Cs
+IC
+IC
+ts
+gu
+gu
+gu
+gu
+gu
 en
 en
-lO
+Lw
 ZZ
 en
 XX
 lI
 eT
 eT
-Zo
+kF
 Zo
 Zo
 Zo
@@ -35958,6 +39384,20 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -35969,6 +39409,10 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -35977,38 +39421,22 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+Cs
+IC
+IC
+IC
+IC
+ts
+Sl
 en
 Ph
 nO
 en
 en
-en
-en
+eT
+oK
+gu
+kF
 Zo
 Zo
 Zo
@@ -36025,9 +39453,7 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
+KU
 Zo
 Zo
 Zo
@@ -36215,6 +39641,35 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -36228,46 +39683,17 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+yL
+gu
 en
 eT
 eT
 en
-Zo
-Zo
-Zo
-Zo
-Zo
+Sl
+gu
+gu
+ts
+Kj
 Zo
 Zo
 Zo
@@ -36472,6 +39898,35 @@ Zo
 Zo
 Zo
 Zo
+gu
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -36485,45 +39940,16 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+Cs
+ts
+gu
+gu
+gu
+gu
+gu
+ts
+IC
+Kj
 Zo
 Zo
 Zo
@@ -36729,6 +40155,35 @@ Zo
 Zo
 Zo
 Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -36743,42 +40198,13 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+Cs
+IC
+IC
+IC
+IC
+IC
+Kj
 Zo
 Zo
 Zo
@@ -36986,6 +40412,20 @@ Zo
 Zo
 Zo
 Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -36997,24 +40437,10 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+kF
+gu
 Zo
 Zo
 Zo
@@ -37243,20 +40669,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -37500,20 +40926,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -37757,20 +41183,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+ro
 Zo
 Zo
 Zo
@@ -38014,20 +41440,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+ro
 Zo
 Zo
 Zo
@@ -38271,20 +41697,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+ts
+gu
 Zo
 Zo
 Zo
@@ -38528,20 +41954,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+gu
+gu
+iE
+ts
+ts
+GN
+yg
+yg
+yg
+lV
+gu
 Zo
 Zo
 Zo
@@ -38785,20 +42211,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+ts
+gu
 Zo
 Zo
 Zo
@@ -39042,20 +42468,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+ro
 Zo
 Zo
 Zo
@@ -39299,20 +42725,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+ro
 Zo
 Zo
 Zo
@@ -39556,20 +42982,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -39813,20 +43239,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -40070,20 +43496,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -40327,20 +43753,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+dG
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -40584,20 +44010,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -40841,20 +44267,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+QL
+vM
+zW
+Wu
+QL
+zW
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -41098,20 +44524,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+yL
+gu
+QL
+vM
+KL
+Wu
+QL
+KL
+zl
+Wu
+gu
+kF
+gu
 Zo
 Zo
 Zo
@@ -41354,22 +44780,22 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+ds
+ds
+ts
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+ts
+ds
+ds
 Zo
 Zo
 Zo
@@ -41611,22 +45037,22 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
 Zo
 Zo
 Zo
@@ -41869,20 +45295,20 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
+gu
 Zo
 Zo
 Zo
@@ -42127,18 +45553,18 @@ Zo
 Zo
 Zo
 Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
-Zo
+gu
+dG
+dG
+dG
+gu
+dG
+dG
+gu
+dG
+dG
+dG
+gu
 Zo
 Zo
 Zo
@@ -44207,7 +47633,7 @@ Zo
 Zo
 Zo
 Zo
-Zo
+Lx
 Zo
 Zo
 Zo

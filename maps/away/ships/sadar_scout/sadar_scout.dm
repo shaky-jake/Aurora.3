@@ -18,8 +18,8 @@
 	name = "United Sadar Fleet Scout"
 	class = "ICV"
 	desc = "WIP Description"
-	icon_state = "corvette"
-	moving_state = "corvette_moving"
+	icon_state = "freighter"
+	moving_state = "freighter_moving"
 	colors = list("#ffae17", "#ffcd70")
 	scanimage = "elyran_corvette.png"
 	designer = "WIP Designer"
@@ -41,17 +41,18 @@
 		"nav_sadar_scout_1",
 		"nav_sadar_scout_2",
 		"nav_sadar_scout_3",
-		"nav_sadar_scout_4"
+		"nav_sadar_scout_4",
+		"nav_sadar_scout_dock_fore"
 	)
 
 	invisible_until_ghostrole_spawn = TRUE
 
 /obj/effect/overmap/visitable/ship/sadar_scout/New()
-	designation = "[pick("Released", "Sadar")]"
+	designation = "[pick("Released", "Sadar", "New Dawn")]"
 	..()
 
 /obj/effect/overmap/visitable/ship/sadar_scout/get_skybox_representation()
-	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "elyran_corvette")
+	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "ranger")
 	skybox_image.pixel_x = rand(0,64)
 	skybox_image.pixel_y = rand(128,256)
 	return skybox_image
@@ -81,6 +82,12 @@
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
+/obj/effect/shuttle_landmark/sadar_scout/dock/fore
+	name = "Sadar Scout - Fore Dock"
+	landmark_tag = "nav_sadar_scout_dock_fore"
+	docking_controller = "airlock_sadar_scout_dock_fore"
+	base_turf = /turf/space
+	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/transit
 	name = "In transit"
@@ -135,3 +142,31 @@
 	name = "In transit"
 	landmark_tag = "nav_transit_sadar_shuttle"
 	base_turf = /turf/space/transit/north
+
+// custom stuff
+/obj/machinery/light/floor/decayed
+	brightness_color = "#fabd6d"
+	randomize_color = FALSE
+
+/obj/item/stack/tile/circuit_red
+    name = "circuit tile"
+    singular_name = "circuit tile"
+    desc = "An advanced tile covered in various circuitry and wiring."
+    icon_state = "tile_rcircuit"
+    force = 6.0
+    matter = list(DEFAULT_WALL_MATERIAL = 468, MATERIAL_GLASS = 468)
+    throwforce = 15.0
+    throw_speed = 5
+    throw_range = 20
+    obj_flags = OBJ_FLAG_CONDUCTABLE
+
+/singleton/flooring/reinforced/circuit/red
+    name = "processing strata"
+    icon_base = "rcircuit"
+    build_type = /obj/item/stack/tile/circuit_red
+
+/turf/simulated/floor/redgrid
+	name = "mainframe floor"
+	icon = 'icons/turf/flooring/circuit.dmi'
+	icon_state = "rcircuit"
+	initial_flooring = /singleton/flooring/reinforced/circuit/red
