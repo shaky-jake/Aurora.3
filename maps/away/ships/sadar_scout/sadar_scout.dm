@@ -21,7 +21,7 @@
 	icon_state = "freighter"
 	moving_state = "freighter_moving"
 	colors = list("#ffae17", "#ffcd70")
-	scanimage = "elyran_corvette.png"
+	scanimage = "ranger.png"
 	designer = "WIP Designer"
 	volume = "WIP Volume"
 	drive = "Low-Speed Warp Acceleration FTL Drive"
@@ -117,13 +117,19 @@
 /obj/machinery/computer/shuttle_control/explore/sadar_shuttle
 	name = "shuttle control console"
 	shuttle_tag = "United Sadar Fleet Shuttle"
+	// density = 0
+	icon = 'icons/obj/machinery/modular_terminal.dmi'
+	icon_state = "computer"
+	icon_screen = "helm"
+	icon_keyboard = "security_key"
+	// circuit = null
 
 /datum/shuttle/autodock/overmap/sadar_shuttle
 	name = "United Sadar Fleet Shuttle"
 	move_time = 20
 	shuttle_area = list(/area/shuttle/sadar_shuttle)
 	current_location = "nav_hangar_sadar_scout"
-	dock_target = "sadar_shuttle"
+	// dock_target = "sadar_shuttle"
 	landmark_transition = "nav_transit_sadar_shuttle"
 	range = 1
 	fuel_consumption = 2
