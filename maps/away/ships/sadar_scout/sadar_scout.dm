@@ -2,7 +2,6 @@
 	name = "United Sadar Fleet Scout"
 	description = "WIP Description"
 	suffixes = list("ships/sadar_scout/sadar_scout.dmm")
-	// sectors = list(SECTOR_VALLEY_HALE, SECTOR_BADLANDS, SECTOR_NEW_ANKARA, SECTOR_AEMAQ)
 	sectors = list(ALL_POSSIBLE_SECTORS) // CHANGE THIS FOR FINAL PRODUCT
 	spawn_weight = 1
 	ship_cost = 1
@@ -148,12 +147,10 @@
 /obj/machinery/computer/shuttle_control/explore/sadar_shuttle
 	name = "shuttle control console"
 	shuttle_tag = "United Sadar Fleet Shuttle"
-	// density = 0
 	icon = 'icons/obj/machinery/modular_terminal.dmi'
 	icon_state = "computer"
 	icon_screen = "helm"
 	icon_keyboard = "security_key"
-	// circuit = null
 
 /datum/shuttle/autodock/overmap/sadar_shuttle
 	name = "United Sadar Fleet Shuttle"
@@ -180,7 +177,8 @@
 	landmark_tag = "nav_transit_sadar_shuttle"
 	base_turf = /turf/space/transit/north
 
-// custom stuff
+
+// CUSTOM STUFF
 // yellow floor light
 /obj/machinery/light/floor/decayed
 	brightness_color = "#fabd6d"
@@ -209,3 +207,13 @@
 	icon = 'icons/turf/flooring/circuit.dmi'
 	icon_state = "rcircuit"
 	initial_flooring = /singleton/flooring/reinforced/circuit/red
+
+// removed combat chem dispenser for balance
+/*
+/obj/item/rig/light/offworlder/frontier/bootleg
+	initial_modules = list(
+		/obj/item/rig_module/device/healthscanner/vitalscanner,
+		/obj/item/rig_module/chem_dispenser/offworlder,
+		/obj/item/rig_module/actuators/combat
+		)
+*/

@@ -1,4 +1,12 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"al" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2
+	},
+/obj/structure/window/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/grass,
+/area/ship/sadar_scout/hydro)
 "as" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/structure/cable{
@@ -148,10 +156,13 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/atmos)
 "ba" = (
-/obj/machinery/portable_atmospherics/hydroponics,
 /obj/effect/floor_decal/corner_wide/lime{
 	dir = 9
 	},
+/obj/machinery/portable_atmospherics/hydroponics{
+	closed_system = 1
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
 "bg" = (
@@ -274,12 +285,18 @@
 /area/ship/sadar_scout/wep)
 "cf" = (
 /obj/structure/table/steel,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/clothing/ears/earmuffs{
-	pixel_y = 2
-	},
 /obj/machinery/light/small/emergency{
 	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 4
+	},
+/obj/item/storage/firstaid{
+	pixel_y = 5
+	},
+/obj/item/clothing/ears/earmuffs{
+	pixel_y = 2
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/wep)
@@ -327,6 +344,7 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/wep)
 "cs" = (
@@ -334,6 +352,8 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/shuttle/sadar_shuttle)
 "cE" = (
@@ -378,6 +398,15 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/crew)
+"cJ" = (
+/obj/effect/floor_decal/corner_wide/lime{
+	dir = 9
+	},
+/obj/machinery/portable_atmospherics/hydroponics{
+	closed_system = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/hydro)
 "cK" = (
 /obj/machinery/biogenerator{
 	icon_state = "biogen-empty"
@@ -487,6 +516,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/forehall)
 "dY" = (
@@ -594,6 +625,7 @@
 /obj/machinery/door/blast/regular/open{
 	id = "sadar_cic_lockdown"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/cic)
 "eM" = (
@@ -619,6 +651,7 @@
 	dir = 8
 	},
 /obj/structure/lattice/catwalk/indoor,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/shuttle/sadar_shuttle)
 "fd" = (
@@ -685,6 +718,7 @@
 /obj/structure/bed/handrail{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/mainhall)
 "fW" = (
@@ -849,6 +883,7 @@
 	dir = 10
 	},
 /obj/structure/bed/handrail,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/med)
 "hC" = (
@@ -897,6 +932,8 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
 "hO" = (
@@ -1189,6 +1226,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/atmos)
+"jK" = (
+/obj/structure/table/rack,
+/obj/item/tank/jetpack/carbondioxide,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/suit/space/void/freelancer,
+/obj/item/clothing/head/helmet/space/void/freelancer,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating,
+/area/ship/sadar_scout/eva)
 "kh" = (
 /obj/machinery/atmospherics/unary/engine,
 /obj/effect/landmark/entry_point/aft{
@@ -1211,7 +1258,6 @@
 "kl" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/structure/bed/handrail{
-	base_icon = "table handrail";
 	pixel_y = 7;
 	name = "table handrail"
 	},
@@ -1369,6 +1415,7 @@
 /obj/structure/bed/handrail{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/solars)
 "lV" = (
@@ -1379,6 +1426,7 @@
 "lX" = (
 /obj/structure/dispenser/oxygen,
 /obj/effect/floor_decal/industrial/outline/blue,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
 "lY" = (
@@ -1503,10 +1551,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1
 	},
-/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	dir = 8;
-	pixel_x = 20
-	},
 /obj/structure/bed/handrail{
 	dir = 1
 	},
@@ -1517,6 +1561,10 @@
 	frequency = 4527;
 	master_tag = "airlock_sadar_scout_cic";
 	name = "airlock_sadar_scout_cic"
+	},
+/obj/machinery/airlock_sensor{
+	dir = 8;
+	pixel_x = 20
 	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/cic)
@@ -1708,6 +1756,7 @@
 /obj/structure/bed/handrail{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
 /area/shuttle/sadar_shuttle)
 "os" = (
@@ -2050,7 +2099,6 @@
 	},
 /obj/structure/bed/handrail{
 	dir = 1;
-	base_icon = "table handrail";
 	pixel_y = -3;
 	name = "table handrail"
 	},
@@ -2097,6 +2145,7 @@
 	shuttle_tag = "United Sadar Fleet Shuttle"
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/sadar_shuttle)
 "rf" = (
@@ -2191,6 +2240,7 @@
 /obj/structure/bed/handrail{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/thrusters)
 "sd" = (
@@ -2221,6 +2271,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/eva)
 "sg" = (
@@ -2272,6 +2323,11 @@
 /obj/effect/floor_decal/corner_wide/red{
 	dir = 6
 	},
+/obj/machinery/vending/wallmed1{
+	req_access = null;
+	pixel_x = 24
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/sadar_shuttle)
 "sE" = (
@@ -2391,6 +2447,7 @@
 /obj/structure/bed/handrail{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
 "tY" = (
@@ -2476,6 +2533,7 @@
 	dir = 5
 	},
 /obj/structure/bed/handrail,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/sadar_shuttle)
 "uD" = (
@@ -2544,9 +2602,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/structure/bed/handrail{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/thrusters)
 "vi" = (
@@ -2562,6 +2617,7 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/mech_recharger,
 /mob/living/heavy_vehicle/premade/ripley/loader,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/wep)
 "vt" = (
@@ -2720,6 +2776,7 @@
 /area/ship/sadar_scout/forehall)
 "wc" = (
 /obj/machinery/appliance/cooker/oven,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
 "wi" = (
@@ -2855,6 +2912,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/mainhall)
 "xa" = (
@@ -2929,6 +2988,7 @@
 	},
 /obj/machinery/door/window/southleft,
 /obj/effect/floor_decal/industrial/outline,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/mainhall)
 "xN" = (
@@ -3016,6 +3076,7 @@
 "yz" = (
 /obj/machinery/seed_storage/garden,
 /obj/effect/floor_decal/industrial/outline/service,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/hydro)
 "yB" = (
@@ -3385,6 +3446,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
 /area/shuttle/sadar_shuttle)
 "BW" = (
@@ -3541,6 +3603,7 @@
 	dir = 4
 	},
 /mob/living/heavy_vehicle/premade/ripley/loader,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/sadar_shuttle)
 "CA" = (
@@ -3637,6 +3700,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
 "CU" = (
@@ -3783,6 +3847,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/thrusters)
 "EE" = (
@@ -3806,6 +3871,7 @@
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /obj/structure/cable/yellow,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/sadar_shuttle)
 "Fd" = (
@@ -3826,6 +3892,7 @@
 	shuttle_tag = "United Sadar Fleet Shuttle"
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
 /area/shuttle/sadar_shuttle)
 "Ff" = (
@@ -3992,6 +4059,7 @@
 /obj/effect/floor_decal/corner_wide/red{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/eva)
 "GN" = (
@@ -4062,6 +4130,7 @@
 /obj/effect/floor_decal/corner_wide/lime{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
 "Ho" = (
@@ -4185,6 +4254,7 @@
 	dir = 8
 	},
 /obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/atmos)
 "IA" = (
@@ -4231,6 +4301,7 @@
 	id = "sadar_utility_blast";
 	name = "Utility Storage Window Shutters"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/utility)
 "Js" = (
@@ -4283,6 +4354,16 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/atmos)
+"JK" = (
+/obj/machinery/light/floor/decayed{
+	dir = 8
+	},
+/obj/structure/bed/handrail{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/forehall)
 "JL" = (
 /obj/structure/grille,
 /turf/template_noop,
@@ -4390,6 +4471,8 @@
 /obj/structure/bed/handrail{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
 "Kn" = (
@@ -4493,6 +4576,7 @@
 /obj/item/ammo_magazine/c38,
 /obj/item/ammo_magazine/c45m,
 /obj/item/ammo_magazine/c45m,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
 "La" = (
@@ -4508,7 +4592,7 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/structure/bed/handrail{
 	pixel_y = 2;
-	base_icon = "cryopod handrail"
+	name = "cryopod handrail"
 	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/crew)
@@ -4614,6 +4698,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/med)
 "LN" = (
@@ -4644,6 +4729,14 @@
 	},
 /turf/space,
 /area/space)
+"Mi" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/thrusters)
 "Mt" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/floor_decal/corner_wide/lime{
@@ -4709,7 +4802,7 @@
 "MT" = (
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/hatch{
-	name = "Main Hallway"
+	name = "Primary Armament"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4719,19 +4812,18 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/cic)
 "Ni" = (
-/obj/machinery/portable_atmospherics/hydroponics,
 /obj/machinery/light/colored/decayed,
 /obj/effect/floor_decal/corner_wide/lime{
 	dir = 9
+	},
+/obj/machinery/portable_atmospherics/hydroponics{
+	closed_system = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
 "No" = (
 /obj/structure/bed/stool/chair/office/bridge/generic{
 	dir = 1
-	},
-/obj/machinery/alarm/west{
-	req_one_access = null
 	},
 /obj/effect/floor_decal/spline/plain/red{
 	dir = 9
@@ -5085,6 +5177,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
 "PW" = (
@@ -5126,6 +5219,7 @@
 	pixel_x = 6;
 	pixel_y = 10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
 "Qn" = (
@@ -5163,6 +5257,9 @@
 /obj/effect/floor_decal/corner_wide/red{
 	dir = 6
 	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/sadar_shuttle)
 "QE" = (
@@ -5175,6 +5272,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/tools)
+"QI" = (
+/obj/machinery/alarm/west{
+	req_one_access = null
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/eva)
 "QL" = (
 /obj/machinery/power/solar{
 	id = "portsadarsolar";
@@ -5309,6 +5416,7 @@
 	pixel_x = 3;
 	pixel_y = -10
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
 /area/ship/sadar_scout/mess)
 "Sf" = (
@@ -5359,6 +5467,7 @@
 /obj/structure/sign/nosmoking_1{
 	pixel_y = 28
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/redgrid,
 /area/ship/sadar_scout/utility)
 "SO" = (
@@ -5580,6 +5689,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/floor_decal/corner_wide/brown/diagonal,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
 /area/ship/sadar_scout/mess)
 "Up" = (
@@ -5599,6 +5709,9 @@
 /area/ship/sadar_scout/thrusters)
 "Uz" = (
 /obj/machinery/computer/ship/targeting/terminal,
+/obj/machinery/alarm/west{
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/cic)
 "UB" = (
@@ -5660,6 +5773,7 @@
 /obj/machinery/alarm/west{
 	req_one_access = null
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/lino,
 /area/ship/sadar_scout/mess)
 "Vc" = (
@@ -5671,9 +5785,6 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
-	},
-/obj/structure/bed/handrail{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/thrusters)
@@ -5720,16 +5831,20 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/airless,
 /area/shuttle/sadar_shuttle)
 "VG" = (
-/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/portable_atmospherics/hydroponics{
+	closed_system = 1
+	},
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
 /obj/effect/floor_decal/corner_wide/lime{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
 "VH" = (
@@ -5834,12 +5949,15 @@
 /obj/item/storage/box/bodybags{
 	pixel_y = 7
 	},
-/obj/item/roller,
-/obj/item/roller,
 /obj/effect/floor_decal/corner_wide/paleblue/full{
 	dir = 4
 	},
 /obj/machinery/light/colored/decayed,
+/obj/item/storage/box/sharps{
+	pixel_x = 10
+	},
+/obj/item/roller,
+/obj/item/roller,
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
 "Wt" = (
@@ -5940,6 +6058,14 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/crew)
+"WT" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2
+	},
+/mob/living/simple_animal/hakhma,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/grass,
+/area/ship/sadar_scout/hydro)
 "WV" = (
 /obj/machinery/light/floor/decayed{
 	dir = 8
@@ -5970,6 +6096,7 @@
 /obj/machinery/door/window/westright,
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/industrial/outline,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/solars)
 "Xb" = (
@@ -6053,6 +6180,7 @@
 /obj/item/gun/energy/blaster/revolver,
 /obj/item/gun/projectile/colt,
 /obj/item/gun/projectile/revolver/lemat,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
 "XJ" = (
@@ -6068,10 +6196,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1
 	},
-/obj/machinery/airlock_sensor{
-	dir = 4;
-	pixel_x = -20
-	},
 /obj/structure/bed/handrail{
 	dir = 1
 	},
@@ -6082,6 +6206,10 @@
 	frequency = 4527;
 	master_tag = "airlock_sadar_scout_cic";
 	name = "airlock_sadar_scout_cic"
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 4;
+	pixel_x = -20
 	},
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/cic)
@@ -6153,6 +6281,7 @@
 /obj/structure/bed/handrail{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/shuttle/sadar_shuttle)
 "Yz" = (
@@ -6184,6 +6313,7 @@
 /obj/machinery/door/window/southleft{
 	name = "Mass Driver Exterior Windoor"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/reinforced,
 /area/ship/sadar_scout/med)
 "YU" = (
@@ -6201,9 +6331,16 @@
 /area/ship/sadar_scout/tools)
 "Zj" = (
 /obj/structure/table/steel,
-/obj/item/deck/cards,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/item/storage/pill_bottle/dice{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/deck/cards{
+	pixel_x = 2
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/crew)
@@ -6286,6 +6423,7 @@
 /obj/effect/floor_decal/corner_wide/red{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/mainhall)
 "ZZ" = (
@@ -35991,8 +36129,8 @@ FY
 dG
 dG
 dG
+dG
 gu
-Zo
 Zo
 Zo
 Zo
@@ -36247,7 +36385,7 @@ kF
 gu
 gu
 gu
-dG
+gu
 dG
 dG
 dG
@@ -36503,12 +36641,12 @@ gu
 kF
 Zo
 Zo
+Zo
 gu
 gu
 gu
 gu
-gu
-gu
+dG
 Ds
 ds
 ds
@@ -37007,12 +37145,12 @@ fO
 lc
 fO
 fO
-Zo
-Zo
+gu
+gu
 jh
-Zo
-Zo
-Zo
+gu
+gu
+gu
 gu
 kF
 Zo
@@ -37791,8 +37929,8 @@ NX
 Zv
 Zv
 VG
-ba
-ba
+cJ
+cJ
 ba
 Ni
 Zv
@@ -38302,7 +38440,7 @@ Ch
 qf
 iG
 Ld
-QU
+al
 Hn
 nh
 cK
@@ -38520,7 +38658,7 @@ Zo
 Zo
 mc
 Gm
-is
+Mi
 zc
 rt
 qr
@@ -38558,7 +38696,7 @@ iG
 az
 Au
 iG
-LB
+WT
 QU
 Mt
 AT
@@ -39051,7 +39189,7 @@ qh
 jI
 Fw
 Ea
-oY
+QI
 Zt
 Fv
 WV
@@ -39084,7 +39222,7 @@ vX
 DS
 lL
 zv
-TA
+JK
 uD
 Vj
 zw
@@ -39566,7 +39704,7 @@ tu
 JD
 Ea
 Ea
-XJ
+jK
 qM
 Ea
 Ea
@@ -41900,7 +42038,7 @@ gu
 kF
 Zo
 Zo
-gu
+Zo
 gu
 gu
 gu
@@ -42158,7 +42296,7 @@ kF
 gu
 gu
 gu
-dG
+gu
 dG
 dG
 Ax
@@ -42416,8 +42554,8 @@ gu
 dG
 dG
 dG
+dG
 gu
-Zo
 Zo
 Zo
 Zo
