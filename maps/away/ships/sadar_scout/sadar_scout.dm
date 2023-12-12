@@ -41,7 +41,13 @@
 		"nav_sadar_scout_2",
 		"nav_sadar_scout_3",
 		"nav_sadar_scout_4",
-		"nav_sadar_scout_dock_fore"
+		"nav_sadar_scout_dock_fore",
+		"nav_sadar_scout_dock_fore_port",
+		"nav_sadar_scout_dock_fore_starboard",
+		"nav_sadar_scout_dock_aft_port",
+		"nav_sadar_scout_dock_aft_starboard",
+		"nav_sadar_scout_dock_port",
+		"nav_sadar_scout_dock_starboard"
 	)
 
 	invisible_until_ghostrole_spawn = TRUE
