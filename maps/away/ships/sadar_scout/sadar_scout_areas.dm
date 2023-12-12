@@ -46,8 +46,8 @@
 /area/ship/sadar_scout/bridge
 	name = "USF Scout - Bridge"
 
-/area/ship/sadar_scout/cargo
-	name = "USF Scout - External Cargo Housing"
+/area/ship/sadar_scout/cic
+	name = "USF Scout - Auxillary Bridge"
 
 /area/ship/sadar_scout/wep
 	name = "USF Scout - Ship Armament"
@@ -55,6 +55,6 @@
 // Shuttle
 /area/shuttle/sadar_shuttle
 	requires_power = TRUE
-	name = "USF Shuttle"
+	name = "United Sadar Fleet Shuttle"
 	icon_state = "shuttle2"
 	has_gravity = FALSE

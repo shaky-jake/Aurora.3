@@ -20,7 +20,7 @@
 	desc = "WIP Description"
 	icon_state = "freighter"
 	moving_state = "freighter_moving"
-	colors = list("#ffae17", "#ffcd70")
+	colors = list("#5b015b", "#8a0f8a")
 	scanimage = "ranger.png"
 	designer = "WIP Designer"
 	volume = "WIP Volume"
@@ -89,10 +89,41 @@
 	base_turf = /turf/space
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/sadar_scout/transit
-	name = "In transit"
-	landmark_tag = "nav_transit_sadar_scout"
-	base_turf = /turf/space/transit/north
+/obj/effect/shuttle_landmark/sadar_scout/dock/fore_port
+	name = "Sadar Scout - Solar Dock Fore Port"
+	landmark_tag = "nav_sadar_scout_dock_fore_port"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/sadar_scout/dock/fore_starboard
+	name = "Sadar Scout - Solar Dock Fore Starboard"
+	landmark_tag = "nav_sadar_scout_dock_fore_starboard"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/sadar_scout/dock/aft_port
+	name = "Sadar Scout - Solar Dock Aft Port"
+	landmark_tag = "nav_sadar_scout_dock_aft_port"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/sadar_scout/dock/aft_starboard
+	name = "Sadar Scout - Solar Dock Aft Starboard"
+	landmark_tag = "nav_sadar_scout_dock_aft_starboard"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/sadar_scout/dock/port
+	name = "Sadar Scout - Solar Dock Port"
+	landmark_tag = "nav_sadar_scout_dock_port"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/sadar_scout/dock/starboard
+	name = "Sadar Scout - Solar Dock Starboard"
+	landmark_tag = "nav_sadar_scout_dock_starboard"
+	base_turf = /turf/space
+	base_area = /area/space
 
 //shuttle stuff
 /obj/effect/overmap/visitable/ship/landable/sadar_shuttle
@@ -103,7 +134,7 @@
 	shuttle = "United Sadar Fleet Shuttle"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
-	colors = list("#ffae17", "#ffcd70")
+	colors = list("#8a0f8a", "#5b015b")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000 //very inefficient pod
@@ -129,7 +160,7 @@
 	move_time = 20
 	shuttle_area = list(/area/shuttle/sadar_shuttle)
 	current_location = "nav_hangar_sadar_scout"
-	// dock_target = "sadar_shuttle"
+	dock_target = "airlock_sadar_shuttle"
 	landmark_transition = "nav_transit_sadar_shuttle"
 	range = 1
 	fuel_consumption = 2
@@ -150,10 +181,12 @@
 	base_turf = /turf/space/transit/north
 
 // custom stuff
+// yellow floor light
 /obj/machinery/light/floor/decayed
 	brightness_color = "#fabd6d"
 	randomize_color = FALSE
 
+// red processing strata
 /obj/item/stack/tile/circuit_red
     name = "circuit tile"
     singular_name = "circuit tile"

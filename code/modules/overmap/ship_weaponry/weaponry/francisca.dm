@@ -13,6 +13,13 @@
 	name = "compact francisca rotary gun"
 	icon = 'icons/obj/machinery/ship_guns/francisca_compact.dmi'
 
+/obj/machinery/ship_weapon/francisca/flipped // Regular francisca but mirrored
+	icon = 'icons/obj/machinery/ship_guns/francisca_flipped.dmi'
+
+/obj/machinery/ammunition_loader/francisca/flipped // Francisca loader but mirrored to fit fliipped gun
+	name = "francisca ammunition loader"
+	icon_state = "ammo_loader_flipped"
+
 /obj/machinery/ammunition_loader/francisca
 	name = "francisca ammunition loader"
 
