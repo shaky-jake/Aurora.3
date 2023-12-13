@@ -61,7 +61,6 @@
 
 /datum/outfit/admin/sadar_crew/captain
 	name = "United Sadar Fleet Captain"
-	//back = /obj/item/rig/light/offworlder/frontier/bootleg
 
 /obj/item/card/id/sadar_scout
 	name = "united sadar fleet id"

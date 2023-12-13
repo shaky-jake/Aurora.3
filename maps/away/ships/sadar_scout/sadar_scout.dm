@@ -2,7 +2,8 @@
 	name = "United Sadar Fleet Scout"
 	description = "WIP Description"
 	suffixes = list("ships/sadar_scout/sadar_scout.dmm")
-	sectors = list(ALL_POSSIBLE_SECTORS) // CHANGE THIS FOR FINAL PRODUCT
+	//sectors = list(ALL_COALITION_SECTORS)
+	sectors = list(ALL_POSSIBLE_SECTORS)
 	spawn_weight = 1
 	ship_cost = 1
 	id = "sadar_scout"
@@ -192,7 +193,7 @@
 	brightness_power = 0.3
 
 /obj/machinery/light/colored/decayed/dimmed
-	brightness_power = 0.3
+	brightness_power = 0.2
 
 // red processing strata
 /obj/item/stack/tile/circuit_red
@@ -217,13 +218,3 @@
 	icon = 'icons/turf/flooring/circuit.dmi'
 	icon_state = "rcircuit"
 	initial_flooring = /singleton/flooring/reinforced/circuit/red
-
-// removed combat chem dispenser for balance
-/*
-/obj/item/rig/light/offworlder/frontier/bootleg
-	initial_modules = list(
-		/obj/item/rig_module/device/healthscanner/vitalscanner,
-		/obj/item/rig_module/chem_dispenser/offworlder,
-		/obj/item/rig_module/actuators/combat
-		)
-*/
