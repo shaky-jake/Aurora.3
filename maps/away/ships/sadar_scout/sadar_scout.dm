@@ -185,10 +185,14 @@
 
 
 // CUSTOM STUFF
-// yellow floor light
+// lights
 /obj/machinery/light/floor/decayed
 	brightness_color = "#fabd6d"
 	randomize_color = FALSE
+	brightness_power = 0.3
+
+/obj/machinery/light/colored/decayed/dimmed
+	brightness_power = 0.3
 
 // red processing strata
 /obj/item/stack/tile/circuit_red

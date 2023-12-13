@@ -560,14 +560,14 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/machinery/light/colored/decayed{
-	dir = 4
-	},
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
+	},
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 4
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/solars)
@@ -654,6 +654,9 @@
 	},
 /obj/structure/lattice/catwalk/indoor,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/sadar_shuttle)
 "fd" = (
@@ -899,11 +902,11 @@
 /obj/effect/floor_decal/spline/plain/red{
 	dir = 4
 	},
-/obj/machinery/light/colored/decayed{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 10
+	},
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 4
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/atmos)
@@ -1579,10 +1582,10 @@
 /obj/item/storage/bag/inflatable,
 /obj/item/grenade/chem_grenade/metalfoam,
 /obj/item/grenade/chem_grenade/metalfoam,
-/obj/machinery/light/colored/decayed,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
+/obj/machinery/light/colored/decayed/dimmed,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/utility)
 "nh" = (
@@ -1621,7 +1624,7 @@
 /area/space)
 "nr" = (
 /obj/machinery/appliance/cooker/stove,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/colored/decayed/dimmed{
 	dir = 1
 	},
 /turf/simulated/floor/lino,
@@ -1971,11 +1974,11 @@
 /obj/item/reagent_containers/toothpaste{
 	pixel_y = 9
 	},
-/obj/machinery/light/colored/decayed,
 /obj/structure/sink{
 	dir = 8;
 	pixel_x = -12
 	},
+/obj/machinery/light/colored/decayed/dimmed,
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/mainhall)
 "qh" = (
@@ -2068,7 +2071,7 @@
 /obj/effect/floor_decal/corner_wide/paleblue/full{
 	dir = 1
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/colored/decayed/dimmed{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -2673,11 +2676,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/med)
 "vI" = (
-/obj/machinery/light/colored/decayed{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
+	},
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/mainhall)
@@ -3113,7 +3116,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/colored/decayed/dimmed{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -3324,9 +3327,6 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/machinery/light/colored/decayed{
-	dir = 4
-	},
 /obj/structure/closet/cabinet{
 	name = "Clothing Cabinet"
 	},
@@ -3394,6 +3394,9 @@
 /obj/item/clothing/accessory/storage/pouches/black,
 /obj/item/clothing/accessory/storage/pouches/brown,
 /obj/item/clothing/accessory/storage/pouches/brown,
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/crew)
 "Bj" = (
@@ -3413,9 +3416,6 @@
 	icon_state = "0-2"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/light/colored/decayed{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/sadar_shuttle)
 "BF" = (
@@ -3526,9 +3526,6 @@
 	dir = 8
 	},
 /obj/structure/lattice/catwalk/indoor,
-/obj/machinery/light/colored/decayed{
-	dir = 4
-	},
 /turf/simulated/floor/plating,
 /area/shuttle/sadar_shuttle)
 "Cl" = (
@@ -3602,12 +3599,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/mech_recharger,
-/obj/machinery/light/colored/decayed{
-	dir = 4
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 1
 	},
-/mob/living/heavy_vehicle/premade/ripley/loader,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/mech_recharger,
 /obj/effect/decal/cleanable/dirt,
+/mob/living/heavy_vehicle/premade/ripley/loader,
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/sadar_shuttle)
 "CA" = (
@@ -3871,7 +3869,8 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/west{
-	req_access = null
+	req_access = null;
+	night_mode = 1
 	},
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /obj/structure/cable/yellow,
@@ -4125,15 +4124,15 @@
 	pixel_x = 8;
 	pixel_y = -3
 	},
-/obj/machinery/light/colored/decayed{
-	dir = 1
-	},
 /obj/machinery/button/remote/blast_door{
 	dir = 8;
 	pixel_x = -23;
 	id = "sadar_cic_lockdown";
 	name = "Auxillary CIC Airlock Lockdown";
 	pixel_y = 13
+	},
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/bridge)
@@ -4727,8 +4726,8 @@
 /area/ship/sadar_scout/eva)
 "LH" = (
 /obj/structure/table/standard,
-/obj/machinery/light/colored/decayed,
 /obj/effect/floor_decal/corner_wide/brown/diagonal,
+/obj/machinery/light/colored/decayed/dimmed,
 /turf/simulated/floor/tiled,
 /area/ship/sadar_scout/mess)
 "LM" = (
@@ -4856,9 +4855,6 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk/indoor,
-/obj/machinery/light/colored/decayed{
-	dir = 8
-	},
 /turf/simulated/floor/plating,
 /area/shuttle/sadar_shuttle)
 "MT" = (
@@ -4903,13 +4899,13 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/cic)
 "Ni" = (
-/obj/machinery/light/colored/decayed,
 /obj/effect/floor_decal/corner_wide/lime{
 	dir = 9
 	},
 /obj/machinery/portable_atmospherics/hydroponics{
 	closed_system = 1
 	},
+/obj/machinery/light/colored/decayed/dimmed,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
 "No" = (
@@ -5064,11 +5060,11 @@
 /obj/effect/floor_decal/spline/plain/blue{
 	dir = 8
 	},
-/obj/machinery/light/colored/decayed{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
 	dir = 6
+	},
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 8
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/atmos)
@@ -5280,14 +5276,14 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/machinery/light/colored/decayed{
-	dir = 8
-	},
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
+	},
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 8
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/solars)
@@ -5706,9 +5702,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/machinery/light/colored/decayed{
-	dir = 8
-	},
 /obj/structure/table/steel,
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 4
@@ -5747,6 +5740,9 @@
 	name = "Hallway Window Shutters";
 	pixel_x = 10;
 	pixel_y = 33
+	},
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 8
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/bridge)
@@ -5949,13 +5945,13 @@
 /obj/machinery/portable_atmospherics/hydroponics{
 	closed_system = 1
 	},
-/obj/machinery/light/colored/decayed{
-	dir = 1
-	},
 /obj/effect/floor_decal/corner_wide/lime{
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/hydro)
 "VH" = (
@@ -6063,12 +6059,12 @@
 /obj/effect/floor_decal/corner_wide/paleblue/full{
 	dir = 4
 	},
-/obj/machinery/light/colored/decayed,
 /obj/item/storage/box/sharps{
 	pixel_x = 10
 	},
 /obj/item/roller,
 /obj/item/roller,
+/obj/machinery/light/colored/decayed/dimmed,
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
 "Wt" = (
@@ -6134,7 +6130,6 @@
 /area/ship/sadar_scout/atmos)
 "WM" = (
 /obj/structure/table/steel,
-/obj/machinery/light/colored/decayed,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
@@ -6146,6 +6141,7 @@
 	},
 /obj/random/powercell,
 /obj/random/powercell,
+/obj/machinery/light/colored/decayed/dimmed,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/tools)
 "WN" = (
@@ -6321,9 +6317,6 @@
 	req_one_access = null
 	},
 /obj/structure/table/steel,
-/obj/machinery/light/colored/decayed{
-	dir = 4
-	},
 /obj/machinery/button/remote/blast_door{
 	pixel_x = -4;
 	id = "sadar_bridge_blast";
