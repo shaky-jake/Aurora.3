@@ -1,7 +1,7 @@
 /datum/ghostspawner/human/sadar_crew
 	short_name = "sadar_crew"
 	name = "United Sadar Fleet Crewman"
-	desc = "WIP Description"
+	desc = "You are part of a small but tightly-knit crew onboard a scouting vessel of the United Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon your brothers or sisters in need, and it just so happens the fleet needs all the supplies it can get right now."
 	tags = list("External")
 
 	spawnpoints = list("sadar_crew")
@@ -17,6 +17,9 @@
 	assigned_role = "Independent Spacer"
 	special_role = "United Sadar Fleet Crewman"
 	respawn_flag = null
+
+	culture_restriction = list(/singleton/origin_item/culture/coalition)
+	origin_restriction = list(/singleton/origin_item/origin/coa_spacer)
 
 
 /datum/outfit/admin/sadar_crew
@@ -46,7 +49,7 @@
 /datum/ghostspawner/human/sadar_crew/captain
 	short_name = "sadar_crew_captain"
 	name = "United Sadar Fleet Captain"
-	desc = "WIP Description"
+	desc = "You command a small but tightly-knit crew onboard a scouting vessel of the United Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon your brothers or sisters in need, and it just so happens the fleet needs all the supplies it can get right now."
 
 	spawnpoints = list("sadar_crew_captain")
 	max_count = 1

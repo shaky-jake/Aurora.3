@@ -1,8 +1,8 @@
 /datum/map_template/ruin/away_site/sadar_scout
 	name = "United Sadar Fleet Scout"
-	description = "WIP Description"
+	description = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 	suffixes = list("ships/sadar_scout/sadar_scout.dmm")
-	//sectors = list(ALL_COALITION_SECTORS)
+	//sectors = list(SECTOR_WEEPING_STARS, SECTOR_COALITION, SECTOR_LIBERTYS_CRADLE, SECTOR_ARUSHA)
 	sectors = list(ALL_POSSIBLE_SECTORS)
 	spawn_weight = 1
 	ship_cost = 1
@@ -12,22 +12,22 @@
 
 /singleton/submap_archetype/sadar_scout
 	map = "United Sadar Fleet Scout"
-	descriptor = "WIP Description"
+	descriptor = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 
 /obj/effect/overmap/visitable/ship/sadar_scout
 	name = "United Sadar Fleet Scout"
 	class = "ICV"
-	desc = "WIP Description"
+	desc = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 	icon_state = "freighter"
 	moving_state = "freighter_moving"
 	colors = list("#5b015b", "#8a0f8a")
 	scanimage = "ranger.png"
-	designer = "WIP Designer"
-	volume = "WIP Volume"
+	designer = "Einstein Engines"
+	volume = "62 meters length, 28 meters beam/width, 12 meters vertical height"
 	drive = "Low-Speed Warp Acceleration FTL Drive"
-	weapons = "WIP Weapons"
-	sizeclass = "WIP-class ship"
-	shiptype = "WIP Shiptype"
+	weapons = "Extruding starboard-mounted improvised medium caliber armament, port external flight craft bay"
+	sizeclass = "Boreas-class Expeditionary Vessel"
+	shiptype = "Long-term expeditionary utility"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
 	vessel_mass = 5000
@@ -65,79 +65,79 @@
 
 
 /obj/effect/shuttle_landmark/sadar_scout/nav1
-	name = "Sadar Scout - Port Navpoint"
+	name = "Port Navpoint"
 	landmark_tag = "nav_sadar_scout_1"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/nav2
-	name = "Sadar Scout - Fore Navpoint"
+	name = "Fore Navpoint"
 	landmark_tag = "nav_sadar_scout_2"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/nav3
-	name = "Sadar Scout - Starboard Navpoint"
+	name = "Starboard Navpoint"
 	landmark_tag = "nav_sadar_scout_3"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/nav4
-	name = "Sadar Scout - Aft Navpoint"
+	name = "Aft Navpoint"
 	landmark_tag = "nav_sadar_scout_4"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/dock/fore
-	name = "Sadar Scout - Fore Dock"
+	name = "Fore Dock"
 	landmark_tag = "nav_sadar_scout_dock_fore"
 	docking_controller = "airlock_sadar_scout_dock_fore"
 	base_turf = /turf/space
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/dock/fore_port
-	name = "Sadar Scout - Solar Dock Fore Port"
+	name = "Solar Dock Fore - Portside"
 	landmark_tag = "nav_sadar_scout_dock_fore_port"
 	base_turf = /turf/space
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/dock/fore_starboard
-	name = "Sadar Scout - Solar Dock Fore Starboard"
+	name = "Solar Dock Fore - Starboardside"
 	landmark_tag = "nav_sadar_scout_dock_fore_starboard"
 	base_turf = /turf/space
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/dock/aft_port
-	name = "Sadar Scout - Solar Dock Aft Port"
+	name = "Solar Dock Aft - Portside"
 	landmark_tag = "nav_sadar_scout_dock_aft_port"
 	base_turf = /turf/space
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/dock/aft_starboard
-	name = "Sadar Scout - Solar Dock Aft Starboard"
+	name = "Solar Dock Aft - Starboardside"
 	landmark_tag = "nav_sadar_scout_dock_aft_starboard"
 	base_turf = /turf/space
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/dock/port
-	name = "Sadar Scout - Solar Dock Port"
+	name = "Solar Dock Port"
 	landmark_tag = "nav_sadar_scout_dock_port"
 	base_turf = /turf/space
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sadar_scout/dock/starboard
-	name = "Sadar Scout - Solar Dock Starboard"
+	name = "Solar Dock Starboard"
 	landmark_tag = "nav_sadar_scout_dock_starboard"
 	base_turf = /turf/space
 	base_area = /area/space
 
 //shuttle stuff
 /obj/effect/overmap/visitable/ship/landable/sadar_shuttle
-	name = "United Sadar Fleet Shuttle"
+	name = "Modified Salvage Skiff"
 	class = "ICV"
-	designation = "WIP NAME"
-	desc = "WIP DESC"
-	shuttle = "United Sadar Fleet Shuttle"
+	designation = "Trodder"
+	desc = "An ancient design of salvage skiff, the Monax-class once was a common sight in industrial sectors a couple hundred years ago. This one has been heavily modified from the original design - most notably the gravity generator stripped away, and a rotary canon mounted where a remote manipulator system once should have been."
+	shuttle = "Modified Salvage Skiff"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
 	colors = list("#8a0f8a", "#5b015b")
@@ -146,21 +146,22 @@
 	vessel_mass = 3000 //very inefficient pod
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
-	designer = "WIP DESIGNER"
-	volume = "WIP VOLUME"
-	sizeclass = "WIP-class ship"
-	shiptype = "WIP SHIPTYPE"
+	designer = "Einstein Engines"
+	volume = "11 meters length, 8 meters beam/width, 4 meters vertical height"
+	weapons = "Port-mounted extruding low-caliber rotary ballistic armament"
+	sizeclass = "Monax-class Salvage Skiff"
+	shiptype = "Salvage & Construction Utility"
 
 /obj/machinery/computer/shuttle_control/explore/sadar_shuttle
 	name = "shuttle control console"
-	shuttle_tag = "United Sadar Fleet Shuttle"
+	shuttle_tag = "Modified Salvage Skiff"
 	icon = 'icons/obj/machinery/modular_terminal.dmi'
 	icon_state = "computer"
 	icon_screen = "helm"
 	icon_keyboard = "security_key"
 
 /datum/shuttle/autodock/overmap/sadar_shuttle
-	name = "United Sadar Fleet Shuttle"
+	name = "Modified Salvage Skiff"
 	move_time = 20
 	shuttle_area = list(/area/shuttle/sadar_shuttle)
 	current_location = "nav_hangar_sadar_scout"
@@ -172,7 +173,7 @@
 	defer_initialisation = TRUE
 
 /obj/effect/shuttle_landmark/sadar_shuttle/hangar
-	name = "USF Shuttle Dock"
+	name = "Raiding Skiff Dock"
 	landmark_tag = "nav_hangar_sadar_scout"
 	docking_controller = "sadar_shuttle_dock"
 	base_area = /area/space

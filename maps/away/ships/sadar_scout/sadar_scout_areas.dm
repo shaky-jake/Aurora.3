@@ -1,5 +1,5 @@
 /area/ship/sadar_scout
-	name = "USF Scout"
+	name = "Ancient Expeditionary Vessel"
 	requires_power = TRUE
 	dynamic_lighting = TRUE
 	no_light_control = FALSE
@@ -7,54 +7,58 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	has_gravity = FALSE
 
+/area/ship/sadar_scout/exterior
+	name = "Ancient Expeditionary Vessel - Exterior"
+	requires_power = FALSE
+
 /area/ship/sadar_scout/thrusters
-	name = "USF Scout - Propulsion"
+	name = "Ancient Expeditionary Vessel - Propulsion"
 
 /area/ship/sadar_scout/solars
-	name = "USF Scout - Solar Access"
+	name = "Ancient Expeditionary Vessel - Solar Access"
 
 /area/ship/sadar_scout/tools
-	name = "USF Scout - Tool Storage"
+	name = "Ancient Expeditionary Vessel - Tool Storage"
 
 /area/ship/sadar_scout/utility
-	name = "USF Scout - Utility Storage"
+	name = "Ancient Expeditionary Vessel - Utility Storage"
 
 /area/ship/sadar_scout/atmos
-	name = "USF Scout - Atmospherics"
+	name = "Ancient Expeditionary Vessel - Atmospherics"
 
 /area/ship/sadar_scout/mainhall
-	name = "USF Scout - Main Hallway"
+	name = "Ancient Expeditionary Vessel - Main Hallway"
 
 /area/ship/sadar_scout/forehall
-	name = "USF Scout - Fore Hallway"
+	name = "Ancient Expeditionary Vessel - Fore Hallway"
 
 /area/ship/sadar_scout/eva
-	name = "USF Scout - EVA"
+	name = "Ancient Expeditionary Vessel - EVA"
 
 /area/ship/sadar_scout/hydro
-	name = "USF Scout - Hydroponics"
+	name = "Ancient Expeditionary Vessel - Hydroponics"
 
 /area/ship/sadar_scout/mess
-	name = "USF Scout - Messhall"
+	name = "Ancient Expeditionary Vessel - Messhall"
 
 /area/ship/sadar_scout/med
-	name = "USF Scout - Medbay"
+	name = "Ancient Expeditionary Vessel - Medbay"
 
 /area/ship/sadar_scout/crew
-	name = "USF Scout - Crew Quarters"
+	name = "Ancient Expeditionary Vessel - Crew Quarters"
 
 /area/ship/sadar_scout/bridge
-	name = "USF Scout - Bridge"
+	name = "Ancient Expeditionary Vessel - Bridge"
 
 /area/ship/sadar_scout/cic
-	name = "USF Scout - Auxillary Bridge"
+	name = "Ancient Expeditionary Vessel - Auxillary Bridge"
 
 /area/ship/sadar_scout/wep
-	name = "USF Scout - Ship Armament"
+	name = "Ancient Expeditionary Vessel - Ship Armament"
 
 // Shuttle
 /area/shuttle/sadar_shuttle
 	requires_power = TRUE
-	name = "United Sadar Fleet Shuttle"
+	name = "Modified Salvage Skiff"
 	icon_state = "shuttle2"
 	has_gravity = FALSE
