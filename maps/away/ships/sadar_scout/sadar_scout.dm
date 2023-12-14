@@ -34,7 +34,7 @@
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_SMALL
 	initial_restricted_waypoints = list(
-		"United Sadar Fleet Shuttle" = list("nav_hangar_sadar_scout")
+		"Modified Salvage Skiff" = list("nav_hangar_sadar_scout")
 	)
 
 	initial_generic_waypoints = list(
@@ -140,7 +140,7 @@
 	shuttle = "Modified Salvage Skiff"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
-	colors = list("#8a0f8a", "#5b015b")
+	colors = list("#5b015b", "#8a0f8a")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000 //very inefficient pod
@@ -219,3 +219,13 @@
 	icon = 'icons/turf/flooring/circuit.dmi'
 	icon_state = "rcircuit"
 	initial_flooring = /singleton/flooring/reinforced/circuit/red
+
+// accessories
+/obj/item/clothing/accessory/offworlder/bracer/grey
+	color = "#5f5f5f"
+
+/obj/item/clothing/accessory/offworlder/dark_red
+	color = "#300000"
+
+/obj/item/clothing/accessory/offworlder/bracer/neckbrace/dark_red
+	color = "#300000"

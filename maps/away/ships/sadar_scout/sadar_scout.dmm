@@ -854,10 +854,6 @@
 /turf/space,
 /area/space)
 "gA" = (
-/obj/item/reagent_containers/spray/cleaner{
-	pixel_x = 18;
-	pixel_y = 3
-	},
 /obj/structure/table/steel,
 /obj/item/storage/firstaid/o2{
 	pixel_x = -8;
@@ -2276,6 +2272,7 @@
 	name = "fore, docking port"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/forehall)
 "rj" = (
@@ -2308,23 +2305,26 @@
 	master_tag = "sadar_shuttle_dock";
 	name = "sadar_shuttle_dock"
 	},
+/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/eva)
 "rN" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/engineering,
-/obj/item/material/twohanded/baseballbat/metal,
 /obj/item/material/hatchet/machete/steel{
 	pixel_y = 4;
-	pixel_x = -4
+	pixel_x = -1
+	},
+/obj/item/material/knife/bayonet{
+	pixel_y = 5;
+	pixel_x = -5
+	},
+/obj/item/material/knife/trench{
+	pixel_y = -4;
+	pixel_x = 6
 	},
 /obj/item/material/knife/tacknife{
-	pixel_x = 4;
-	pixel_y = -2
-	},
-/obj/item/material/knife/butterfly/switchblade{
-	pixel_y = -1;
-	pixel_x = 10
+	pixel_x = 3
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
@@ -2867,16 +2867,18 @@
 	req_access = null
 	},
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/item/gun/energy/laser,
+/obj/machinery/recharger/wallcharger{
+	pixel_y = 24;
+	pixel_x = 4
+	},
+/obj/item/gun/energy/rifle{
+	item_state = "eriflekill"
+	},
 /obj/item/gun/projectile/automatic/mini_uzi,
 /obj/item/gun/projectile/shotgun/doublebarrel/pellet,
 /obj/item/gun/projectile/shotgun/pump/rifle,
 /obj/item/grenade/frag,
 /obj/item/grenade/smokebomb,
-/obj/machinery/recharger/wallcharger{
-	pixel_y = 24;
-	pixel_x = 4
-	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
 "vX" = (
@@ -3106,6 +3108,7 @@
 	master_tag = "sadar_shuttle_dock";
 	name = "sadar_shuttle_dock"
 	},
+/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/eva)
 "xF" = (
@@ -3495,52 +3498,16 @@
 	name = "Clothing Cabinet"
 	},
 /obj/item/clothing/mask/offworlder{
-	color = "#800000"
-	},
-/obj/item/clothing/accessory/offworlder{
-	color = "4F2A04"
-	},
-/obj/item/clothing/accessory/offworlder/bracer{
-	color = "400000"
-	},
-/obj/item/clothing/accessory/offworlder/bracer/neckbrace{
-	color = "400000"
+	color = "#400000"
 	},
 /obj/item/clothing/mask/offworlder{
-	color = "#006600"
-	},
-/obj/item/clothing/accessory/offworlder{
-	color = "333300"
-	},
-/obj/item/clothing/accessory/offworlder/bracer{
-	color = "333300"
-	},
-/obj/item/clothing/accessory/offworlder/bracer/neckbrace{
-	color = "333300"
+	color = "#333300"
 	},
 /obj/item/clothing/mask/offworlder{
-	color = "#5B015B"
-	},
-/obj/item/clothing/accessory/offworlder{
-	color = "292929"
-	},
-/obj/item/clothing/accessory/offworlder/bracer{
-	color = "333333"
-	},
-/obj/item/clothing/accessory/offworlder/bracer/neckbrace{
-	color = "292929"
+	color = "#4b2d41"
 	},
 /obj/item/clothing/mask/offworlder{
-	color = "#495681"
-	},
-/obj/item/clothing/accessory/offworlder{
-	color = "4D4D4D"
-	},
-/obj/item/clothing/accessory/offworlder/bracer{
-	color = "5F5F5F"
-	},
-/obj/item/clothing/accessory/offworlder/bracer/neckbrace{
-	color = "777777"
+	color = "#373746"
 	},
 /obj/item/clothing/suit/storage/toggle/leather_jacket/military,
 /obj/item/clothing/suit/storage/toggle/leather_jacket/military/old/alt,
@@ -4786,17 +4753,19 @@
 "KZ" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/engineering,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/shotgunshells,
 /obj/item/storage/box/shotgunshells,
 /obj/item/ammo_magazine/c45uzi,
 /obj/item/ammo_magazine/c45uzi,
 /obj/item/ammo_magazine/boltaction,
 /obj/item/ammo_magazine/boltaction,
 /obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
 /obj/item/ammo_magazine/c38,
 /obj/item/ammo_magazine/c38,
 /obj/item/ammo_magazine/c45m,
 /obj/item/ammo_magazine/c45m,
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
 "La" = (
@@ -5153,6 +5122,7 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/forehall)
 "NX" = (
@@ -5612,6 +5582,7 @@
 	master_tag = "sadar_shuttle_dock";
 	name = "sadar_shuttle_dock"
 	},
+/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/eva)
 "Rq" = (
@@ -5734,6 +5705,7 @@
 	master_tag = "sadar_shuttle_dock";
 	name = "sadar_shuttle_dock"
 	},
+/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/eva)
 "RY" = (
@@ -6312,6 +6284,14 @@
 /obj/item/roller,
 /obj/item/roller,
 /obj/machinery/light/colored/decayed/dimmed,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -14;
+	pixel_y = 10
+	},
+/obj/item/storage/pill_bottle/rmt{
+	pixel_x = -14;
+	pixel_y = -2
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/med)
 "Wt" = (
