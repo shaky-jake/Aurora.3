@@ -2,8 +2,8 @@
 	name = "Unified Sadar Fleet Scout"
 	description = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 	suffixes = list("ships/sadar_scout/sadar_scout.dmm")
-	//sectors = list(SECTOR_WEEPING_STARS, SECTOR_COALITION, SECTOR_LIBERTYS_CRADLE, SECTOR_ARUSHA)
-	sectors = list(ALL_POSSIBLE_SECTORS)
+	sectors = list(ALL_COALITION_SECTORS)
+	sectors_blacklist = list(SECTOR_HANEUNIM, SECTOR_BURZSIA)
 	spawn_weight = 1
 	ship_cost = 1
 	id = "sadar_scout"
@@ -20,7 +20,7 @@
 	desc = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 	icon_state = "freighter"
 	moving_state = "freighter_moving"
-	colors = list("#5b015b", "#8a0f8a")
+	colors = list("#720272", "#8a0f8a")
 	scanimage = "ranger.png"
 	designer = "Einstein Engines"
 	volume = "62 meters length, 28 meters beam/width, 12 meters vertical height"
@@ -54,7 +54,7 @@
 	invisible_until_ghostrole_spawn = TRUE
 
 /obj/effect/overmap/visitable/ship/sadar_scout/New()
-	designation = "[pick("Released", "Sadar", "New Dawn")]"
+	designation = "[pick("Released", "New Dawn", "Exodus", "Shiwuniket", "Nitaniket", "Legitimate Salvage", "Beloved Hakhma", "Fortuitous Omen", "Tujmansaal", "Hard Won Bliss", "Spare Wrench", "Dim Eyes", "Screw Gravity")]"
 	..()
 
 /obj/effect/overmap/visitable/ship/sadar_scout/get_skybox_representation()
@@ -140,7 +140,7 @@
 	shuttle = "Modified Salvage Skiff"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
-	colors = list("#5b015b", "#8a0f8a")
+	colors = list("#8a0f8a", "#a201a2")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000 //very inefficient pod
@@ -187,7 +187,7 @@
 
 
 // CUSTOM STUFF
-// lights
+// dimmed yellow lights
 /obj/machinery/light/floor/decayed
 	brightness_color = "#fabd6d"
 	randomize_color = FALSE
@@ -196,7 +196,7 @@
 /obj/machinery/light/colored/decayed/dimmed
 	brightness_power = 0.2
 
-// red processing strata
+// red processing strata for telecomms
 /obj/item/stack/tile/circuit_red
     name = "circuit tile"
     singular_name = "circuit tile"

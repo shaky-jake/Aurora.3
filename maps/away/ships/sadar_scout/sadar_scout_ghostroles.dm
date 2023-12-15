@@ -1,7 +1,7 @@
 /datum/ghostspawner/human/sadar_crew
 	short_name = "sadar_crew"
 	name = "Unified Sadar Fleet Crewman"
-	desc = "You are part of a small but tightly-knit crew onboard a scouting vessel of the Unified Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon another Sadar in need, and it just so happens the fleet needs all the supplies it can get right now."
+	desc = "You are part of a small but tightly-knit crew onboard a scouting vessel of the Unified Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon another Sadar in need, and it just so happens the fleet needs a whole lot of everything."
 	tags = list("External")
 
 	spawnpoints = list("sadar_crew")
@@ -42,19 +42,14 @@
 		/obj/item/clothing/accessory/offworlder/dark_red = 1,
 		/obj/item/clothing/accessory/offworlder/bracer/neckbrace/dark_red = 1
 	)
-/*
-/datum/outfit/admin/sadar_crew/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	. = ..()
-	if(isoffworlder(H))
-		H.equip_or_collect(new /obj/item/storage/pill_bottle/rmt, slot_in_backpack)
-*/
+
 /datum/outfit/admin/sadar_crew/get_id_access()
 	return list(access_external_airlocks)
 
 /datum/ghostspawner/human/sadar_crew/captain
 	short_name = "sadar_crew_captain"
 	name = "Unified Sadar Fleet Captain"
-	desc = "You command a small but tightly-knit crew onboard a scouting vessel of the Unified Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon another Sadar in need, and it just so happens the fleet needs all the supplies it can get right now."
+	desc = "You command a small but tightly-knit crew onboard a scouting vessel of the Unified Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon another Sadar in need, and it just so happens the fleet needs a whole lot of everything."
 
 	spawnpoints = list("sadar_crew_captain")
 	max_count = 1
