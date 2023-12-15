@@ -38,6 +38,7 @@
 	pixel_x = 24;
 	pixel_y = 16
 	},
+/obj/machinery/disposal/small/west,
 /turf/simulated/floor/tiled/white,
 /area/ship/sadar_scout/mainhall)
 "aC" = (
@@ -1213,6 +1214,12 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/sadar_scout/wep)
+"jd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/turf/simulated/wall/shuttle/space_ship,
+/area/shuttle/sadar_shuttle)
 "jg" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -1323,10 +1330,13 @@
 /area/ship/sadar_scout/atmos)
 "jK" = (
 /obj/structure/table/rack,
-/obj/item/tank/jetpack/carbondioxide,
-/obj/item/clothing/shoes/magboots,
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/tank/jetpack/carbondioxide,
+/obj/item/clothing/glasses/spiffygogs/offworlder{
+	color = "#4d4d4d"
+	},
+/obj/item/clothing/shoes/magboots,
 /obj/item/clothing/mask/breath/offworlder/jagmask,
 /obj/item/clothing/suit/space/void/freelancer,
 /obj/item/clothing/head/helmet/space/void/freelancer,
@@ -1837,10 +1847,22 @@
 /area/ship/sadar_scout/utility)
 "om" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/bed/handrail{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/handrail{
+	dir = 1
+	},
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 4
+	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_sadar_shuttle";
+	name = "airlock_sadar_shuttle";
+	req_one_access = null;
+	shuttle_tag = "United Sadar Fleet Shuttle"
+	},
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume,
 /turf/simulated/floor/airless,
 /area/shuttle/sadar_shuttle)
 "os" = (
@@ -2194,9 +2216,12 @@
 /area/ship/sadar_scout/med)
 "qM" = (
 /obj/structure/table/rack,
-/obj/item/tank/jetpack/carbondioxide,
-/obj/item/clothing/shoes/magboots,
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/item/tank/jetpack/carbondioxide,
+/obj/item/clothing/glasses/spiffygogs/offworlder{
+	color = "#4d4d4d"
+	},
+/obj/item/clothing/shoes/magboots,
 /obj/item/clothing/mask/breath/offworlder/jagmask,
 /obj/item/clothing/suit/space/void/merc,
 /obj/item/clothing/head/helmet/space/void/merc,
@@ -2311,20 +2336,20 @@
 "rN" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/engineering,
-/obj/item/material/hatchet/machete/steel{
-	pixel_y = 4;
-	pixel_x = -1
-	},
 /obj/item/material/knife/bayonet{
 	pixel_y = 5;
 	pixel_x = -5
 	},
-/obj/item/material/knife/trench{
-	pixel_y = -4;
-	pixel_x = 6
-	},
 /obj/item/material/knife/tacknife{
 	pixel_x = 3
+	},
+/obj/item/material/hatchet/machete/deluxe{
+	pixel_y = 3;
+	pixel_x = -1
+	},
+/obj/item/material/knife/bayonet{
+	pixel_y = -4;
+	pixel_x = 6
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
@@ -2871,9 +2896,7 @@
 	pixel_y = 24;
 	pixel_x = 4
 	},
-/obj/item/gun/energy/rifle{
-	item_state = "eriflekill"
-	},
+/obj/item/gun/energy/rifle,
 /obj/item/gun/projectile/automatic/mini_uzi,
 /obj/item/gun/projectile/shotgun/doublebarrel/pellet,
 /obj/item/gun/projectile/shotgun/pump/rifle,
@@ -2983,6 +3006,16 @@
 /obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/utility)
+"wM" = (
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_wide/brown/diagonal,
+/obj/structure/sign/poster{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled,
+/area/ship/sadar_scout/mess)
 "wN" = (
 /obj/machinery/ammunition_loader/blaster{
 	weapon_id = "USF Scout Blaster"
@@ -4859,6 +4892,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
 	},
+/obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/eva)
 "LB" = (
@@ -5765,7 +5799,9 @@
 /area/ship/sadar_scout/bridge)
 "SH" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/machinery/power/portgen/basic,
+/obj/machinery/power/portgen/basic{
+	anchored = 1
+	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
@@ -5964,8 +6000,8 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/sadar_scout/bridge)
 "TT" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 1
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
 	},
 /turf/simulated/wall/shuttle/space_ship,
 /area/shuttle/sadar_shuttle)
@@ -6658,6 +6694,9 @@
 	},
 /obj/item/deck/cards{
 	pixel_x = 2
+	},
+/obj/structure/sign/poster{
+	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/crew)
@@ -38733,7 +38772,7 @@ Op
 BL
 hV
 yZ
-Ly
+sM
 Ly
 iG
 To
@@ -41060,7 +41099,7 @@ Rq
 oL
 zi
 Aj
-Aj
+wM
 en
 en
 Qp
@@ -42327,7 +42366,7 @@ Zo
 Zo
 VD
 om
-XB
+jd
 BZ
 PU
 XB

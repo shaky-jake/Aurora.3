@@ -1,5 +1,5 @@
 /datum/map_template/ruin/away_site/sadar_scout
-	name = "United Sadar Fleet Scout"
+	name = "Unified Sadar Fleet Scout"
 	description = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 	suffixes = list("ships/sadar_scout/sadar_scout.dmm")
 	//sectors = list(SECTOR_WEEPING_STARS, SECTOR_COALITION, SECTOR_LIBERTYS_CRADLE, SECTOR_ARUSHA)
@@ -11,11 +11,11 @@
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED // REMOVE THIS FOR FINAL PRODUCT
 
 /singleton/submap_archetype/sadar_scout
-	map = "United Sadar Fleet Scout"
+	map = "Unified Sadar Fleet Scout"
 	descriptor = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 
 /obj/effect/overmap/visitable/ship/sadar_scout
-	name = "United Sadar Fleet Scout"
+	name = "Unified Sadar Fleet Scout"
 	class = "ICV"
 	desc = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 	icon_state = "freighter"
