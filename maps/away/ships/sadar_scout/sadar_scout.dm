@@ -20,7 +20,7 @@
 	desc = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 	icon_state = "freighter"
 	moving_state = "freighter_moving"
-	colors = list("#720272", "#8a0f8a")
+	colors = list("#8a0f8a", "#a201a2")
 	scanimage = "ranger.png"
 	designer = "Einstein Engines"
 	volume = "62 meters length, 28 meters beam/width, 12 meters vertical height"
@@ -159,6 +159,10 @@
 	icon_state = "computer"
 	icon_screen = "helm"
 	icon_keyboard = "security_key"
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /datum/shuttle/autodock/overmap/sadar_shuttle
 	name = "Modified Salvage Skiff"

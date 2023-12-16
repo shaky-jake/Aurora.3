@@ -1,11 +1,12 @@
 /datum/ghostspawner/human/sadar_crew
 	short_name = "sadar_crew"
 	name = "Unified Sadar Fleet Crewman"
-	desc = "You are part of a small but tightly-knit crew onboard a scouting vessel of the Unified Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon another Sadar in need, and it just so happens the fleet needs a whole lot of everything."
+	desc = "Crew the Unified Sadar Fleet Scout vessel and be a scarab pirate!"
+	welcome_message = "You are part of a small but tightly-knit crew onboard a scouting vessel of the Unified Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon another Sadar in need, and it just so happens the fleet needs a whole lot of everything. (OOC Note: You are not an antagonist, any conflict must be escalated reasonably)"
 	tags = list("External")
 
 	spawnpoints = list("sadar_crew")
-	max_count = 3
+	max_count = 4
 
 	mob_name_suffix = " Sadar"
 	mob_name_pick_message = "Enter ONLY a first name."
@@ -49,7 +50,8 @@
 /datum/ghostspawner/human/sadar_crew/captain
 	short_name = "sadar_crew_captain"
 	name = "Unified Sadar Fleet Captain"
-	desc = "You command a small but tightly-knit crew onboard a scouting vessel of the Unified Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon another Sadar in need, and it just so happens the fleet needs a whole lot of everything."
+	desc = "Command the Unified Sadar Fleet Scout vessel and be a scarab pirate!"
+	welcome_message = "You command a small but tightly-knit crew onboard a scouting vessel of the Unified Sadar Fleet. Some may call you pirates, but truly your only goal is to keep you and your fleet of fellow outcasts supplied to survive no matter what it takes. The ends always justify the means, just don't be stupid. You've sworn to never abandon another Sadar in need, and it just so happens the fleet needs a whole lot of everything. (OOC Note: You are not an antagonist, any conflict must be escalated reasonably)"
 
 	spawnpoints = list("sadar_crew_captain")
 	max_count = 1
