@@ -122,12 +122,12 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/elyran_shuttle)
 "as" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/colored/decayed{
 	dir = 4
+	},
+/obj/effect/floor_decal/corner/beige/full{
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/porthallway)
@@ -166,7 +166,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass_mining{
+/obj/machinery/door/airlock/mining{
+	req_access = list(207);
 	dir = 4;
 	name = "Messhall"
 	},
@@ -319,9 +320,8 @@
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
 	},
-/obj/item/towel_flat{
-	pixel_y = 6;
-	color = "#592720"
+/obj/item/towel_flat/prayer{
+	pixel_y = 6
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/prayerhall)
@@ -402,7 +402,7 @@
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "bR" = (
 /obj/machinery/alarm/east{
@@ -521,13 +521,14 @@
 /turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/briefing)
 "cx" = (
-/obj/structure/sign/poster{
-	pixel_y = -32
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
 	},
-/obj/structure/bed/stool/padded/red{
-	dir = 1
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "cz" = (
@@ -688,7 +689,7 @@
 /area/ship/elyran_corvette/portthrust)
 "cZ" = (
 /obj/effect/floor_decal/spline/plain/beige{
-	dir = 4
+	dir = 5
 	},
 /obj/effect/floor_decal/spline/plain/corner/beige{
 	dir = 8
@@ -846,14 +847,15 @@
 /turf/simulated/floor,
 /area/ship/elyran_corvette/portthrust)
 "eD" = (
-/obj/structure/bed/stool/padded/red{
-	dir = 8
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
 	},
-/obj/machinery/alarm/north{
-	req_access = list(207);
-	req_one_access = null
+/obj/machinery/button/remote/blast_door{
+	pixel_y = 32;
+	id = "elyran_corvette_kitchen_viewing";
+	dir = 1;
+	name = "Kitchen Window Shutters"
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "eI" = (
@@ -894,13 +896,13 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/portwep)
 "eX" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/effect/floor_decal/corner/beige{
+	dir = 9
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/full,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/starboardhallway)
 "eY" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
@@ -920,11 +922,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/hatch{
 	req_access = list(207);
-	name = "Engineering Foyer";
-	door_color = "#4e5170";
-	stripe_color = "#ffc443"
+	name = "Engineering Foyer"
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/elyran_corvette/portthrust)
@@ -945,7 +945,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "fi" = (
@@ -1828,16 +1830,14 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/washroom)
 "ju" = (
-/obj/machinery/button/remote/blast_door{
-	pixel_y = 32;
-	id = "elyran_corvette_kitchen_viewing";
-	dir = 1;
-	name = "Kitchen Window Shutters"
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 8
 	},
-/obj/structure/bed/stool/padded/red{
-	dir = 4
+/obj/machinery/media/jukebox{
+	anchored = 1;
+	density = 0;
+	pixel_y = 23
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "jy" = (
@@ -2103,11 +2103,12 @@
 	pixel_x = -9;
 	pixel_y = 5
 	},
-/obj/effect/floor_decal/spline/plain/beige{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/lino,
+/obj/machinery/alarm/north{
+	req_access = list(207);
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "la" = (
 /obj/machinery/appliance/cooker/fryer,
@@ -2130,20 +2131,16 @@
 /turf/simulated/floor/airless,
 /area/space)
 "ln" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/beige/full{
+	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/full,
-/area/ship/elyran_corvette/mainhallway)
+/turf/simulated/floor/tiled,
+/area/ship/elyran_corvette/porthallway)
 "lu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -2270,9 +2267,8 @@
 	dir = 7
 	},
 /obj/machinery/light/colored/decayed,
-/obj/item/towel_flat{
-	pixel_y = 6;
-	color = "#592720"
+/obj/item/towel_flat/prayer{
+	pixel_y = 6
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/prayerhall)
@@ -2877,17 +2873,14 @@
 /turf/simulated/floor/reinforced/airless,
 /area/ship/elyran_corvette/portthrust)
 "pC" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
-	},
 /obj/machinery/light/colored/decayed{
-	dir = 4
+	dir = 8
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
+/obj/effect/floor_decal/corner/beige/full{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/ship/elyran_corvette/porthallway)
+/area/ship/elyran_corvette/starboardhallway)
 "pE" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
@@ -2900,16 +2893,16 @@
 	pixel_x = -20
 	},
 /obj/effect/floor_decal/spline/plain/beige,
+/obj/effect/floor_decal/spline/plain/beige{
+	dir = 1
+	},
 /turf/simulated/floor/lino,
 /area/ship/elyran_corvette/messhall)
 "pH" = (
-/obj/structure/table/standard,
-/obj/item/reagent_containers/food/condiment/shaker/peppermill{
-	pixel_y = 4;
-	pixel_x = -12
+/obj/structure/bed/stool/padded/red{
+	dir = 8
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "pK" = (
@@ -3484,6 +3477,13 @@
 	},
 /turf/simulated/floor/marble/dark,
 /area/ship/elyran_corvette/prayerhall)
+"tC" = (
+/obj/structure/bed/stool/padded/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/ship/elyran_corvette/messhall)
 "tH" = (
 /obj/machinery/ammunition_loader/grauwolf{
 	weapon_id = "Elyran Grauwolf Flak Battery"
@@ -3542,11 +3542,7 @@
 /area/ship/elyran_corvette/starboardhallway)
 "tW" = (
 /obj/structure/table/standard,
-/obj/item/reagent_containers/food/condiment/shaker/salt{
-	pixel_y = 4;
-	pixel_x = 12
-	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
@@ -3578,9 +3574,8 @@
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
-/obj/item/towel_flat{
-	pixel_y = 6;
-	color = "#592720"
+/obj/item/towel_flat/prayer{
+	pixel_y = 6
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/prayerhall)
@@ -3906,14 +3901,15 @@
 /obj/structure/sign/fire{
 	desc = "A caution sign which reads 'PORT PROPULSION'.";
 	name = "\improper PORT THRUSTERS sign";
-	pixel_y = 32
+	pixel_y = 4;
+	pixel_x = 32
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/effect/floor_decal/industrial/outline,
 /obj/machinery/atmospherics/portables_connector,
 /obj/structure/railing/mapped,
 /obj/machinery/light/small/emergency{
-	dir = 4
+	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/portthrust)
@@ -3941,20 +3937,20 @@
 /turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/mainhallway)
 "wx" = (
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
 /obj/machinery/alarm/east{
 	req_access = list(207);
 	req_one_access = null
 	},
-/turf/simulated/floor,
+/obj/effect/floor_decal/corner/beige{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/starboardhallway)
 "wy" = (
 /obj/structure/table/steel,
@@ -4019,7 +4015,7 @@
 /obj/machinery/power/apc/north{
 	req_access = list(207)
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/starboardthrust)
 "wT" = (
 /obj/effect/floor_decal/corner/beige{
@@ -4163,10 +4159,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/starboardwep)
 "xt" = (
-/obj/structure/bed/stool/padded/red{
-	dir = 1
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "xv" = (
@@ -4352,9 +4347,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 7
 	},
-/obj/item/towel_flat{
-	pixel_y = 6;
-	color = "#592720"
+/obj/item/towel_flat/prayer{
+	pixel_y = 6
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/prayerhall)
@@ -4408,14 +4402,6 @@
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/elyran_corvette/starboardhallway)
-"yR" = (
-/obj/machinery/power/apc/south{
-	req_access = list(207)
-	},
-/obj/structure/cable,
-/obj/effect/floor_decal/corner/yellow/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/ship/elyran_corvette/messhall)
 "za" = (
 /obj/structure/railing/mapped,
 /obj/structure/table/rack,
@@ -4559,7 +4545,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/portthrust)
 "zJ" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/firedoor,
@@ -4791,7 +4777,6 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/porthallway)
 "AV" = (
@@ -4964,17 +4949,6 @@
 /obj/effect/shuttle_landmark/elyran_shuttle/transit,
 /turf/space/transit/north,
 /area/space)
-"BT" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor/noid,
-/obj/machinery/door/airlock/glass{
-	req_access = list(207);
-	name = "Engineering Foyer";
-	door_color = "#4e5170";
-	stripe_color = "#ffc443"
-	},
-/turf/simulated/floor/tiled/full,
-/area/ship/elyran_corvette/starboardthrust)
 "BV" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -5088,10 +5062,13 @@
 /turf/simulated/floor,
 /area/shuttle/elyran_shuttle)
 "CY" = (
-/obj/machinery/media/jukebox{
-	anchored = 1
+/obj/effect/floor_decal/corner/yellow/full,
+/obj/structure/cable,
+/obj/machinery/power/apc/south{
+	req_access = list(207)
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/structure/closet/crate/bin,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "CZ" = (
@@ -5148,15 +5125,15 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/elyran_corvette/medbay)
 "Dp" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/beige/full{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/starboardhallway)
 "Dq" = (
@@ -5214,15 +5191,17 @@
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/elyran_shuttle)
 "DD" = (
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/sign/greencross{
 	pixel_x = -32
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor,
 /area/ship/elyran_corvette/porthallway)
 "DG" = (
@@ -5400,11 +5379,10 @@
 /turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/briefing)
 "EO" = (
-/obj/structure/bed/stool/padded/red{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "ER" = (
@@ -5801,8 +5779,17 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/bed/stool/padded/red,
-/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/structure/table/standard,
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_y = 4;
+	pixel_x = 4
+	},
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "Hn" = (
@@ -6046,9 +6033,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	layer = 2.71
 	},
-/obj/machinery/light/small/emergency{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/hangar)
 "IB" = (
@@ -6113,7 +6097,7 @@
 	req_access = list(207)
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/portthrust)
 "IR" = (
 /obj/effect/shuttle_landmark/elyran_corvette/nav4,
@@ -6175,7 +6159,7 @@
 /obj/effect/floor_decal/industrial/outline/engineering,
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/red,
+/obj/machinery/light/small/emergency,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/starboardthrust)
 "Jt" = (
@@ -6386,6 +6370,8 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor,
 /area/ship/elyran_corvette/mainhallway)
 "Kr" = (
@@ -6550,9 +6536,11 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/sign/greencross{
 	pixel_x = 32
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor,
 /area/ship/elyran_corvette/starboardhallway)
@@ -6730,12 +6718,17 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/item/towel_flat{
-	pixel_y = 6;
-	color = "#592720"
+/obj/item/towel_flat/prayer{
+	pixel_y = 6
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/prayerhall)
+"Ms" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white,
+/area/ship/elyran_corvette/messhall)
 "MB" = (
 /obj/structure/ship_weapon_dummy,
 /obj/effect/floor_decal/industrial/warning{
@@ -6829,9 +6822,12 @@
 /turf/simulated/wall/shuttle/space_ship,
 /area/ship/elyran_corvette/cic)
 "Nh" = (
-/obj/structure/table/standard,
-/obj/effect/floor_decal/corner/yellow/diagonal,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "Ni" = (
@@ -7069,13 +7065,12 @@
 /turf/simulated/wall/shuttle/space_ship,
 /area/ship/elyran_corvette/brig)
 "Oi" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
 	},
-/obj/structure/bed/stool/padded/red{
-	dir = 4
+/obj/structure/sign/poster{
+	pixel_y = -32
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "Oj" = (
@@ -7110,7 +7105,9 @@
 /area/ship/elyran_corvette/hangar)
 "Ov" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "Ow" = (
@@ -7416,9 +7413,11 @@
 /obj/item/flag/elyra/l,
 /obj/item/grenade/chem_grenade/large/phoroncleaner,
 /obj/item/melee/telebaton,
-/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m/stendo,
+/obj/item/ammo_magazine/c45m/stendo,
 /obj/item/gun/projectile/colt/super,
 /obj/item/clothing/accessory/holster/thigh,
+/obj/item/storage/belt/military,
 /obj/item/clothing/head/beret/elyra,
 /turf/simulated/floor/carpet/brown,
 /area/ship/elyran_corvette/captain)
@@ -7467,7 +7466,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/portthrust)
 "PZ" = (
 /obj/structure/bed/stool/chair{
@@ -7722,7 +7721,13 @@
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 4
+	},
+/obj/machinery/alarm/south{
+	req_access = list(207);
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "Ro" = (
@@ -8078,12 +8083,15 @@
 /turf/simulated/floor,
 /area/shuttle/elyran_shuttle)
 "SX" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/structure/bed/stool/padded/red{
+	dir = 4
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "Tm" = (
@@ -8212,16 +8220,17 @@
 /obj/structure/sign/fire{
 	desc = "A caution sign which reads 'STARBOARD PROPULSION'.";
 	name = "\improper STARBOARD THRUSTERS sign";
-	pixel_y = 32
+	pixel_y = 4;
+	pixel_x = -32
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/effect/floor_decal/industrial/outline,
 /obj/machinery/atmospherics/portables_connector,
 /obj/structure/railing/mapped,
-/obj/machinery/light/small/red{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/starboardthrust)
 "TV" = (
@@ -8229,7 +8238,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/starboardthrust)
 "TX" = (
 /obj/effect/landmark/entry_point/starboard{
@@ -8302,15 +8311,14 @@
 /area/ship/elyran_corvette/mainhallway)
 "Uo" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor/noid,
-/obj/machinery/door/airlock/glass{
-	req_access = list(207);
-	name = "Engineering Foyer";
-	door_color = "#4e5170";
-	stripe_color = "#ffc443"
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/full,
-/area/ship/elyran_corvette/portthrust)
+/area/ship/elyran_corvette/starboardhallway)
 "Uw" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/corner/beige{
@@ -8441,16 +8449,13 @@
 /area/ship/elyran_corvette/dorm)
 "Vp" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 9
-	},
-/obj/machinery/light/colored/decayed{
-	dir = 8
+	dir = 6
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/ship/elyran_corvette/starboardhallway)
+/area/ship/elyran_corvette/porthallway)
 "Vr" = (
 /turf/simulated/wall/shuttle/space_ship,
 /area/shuttle/elyran_shuttle)
@@ -8673,11 +8678,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/hatch{
 	req_access = list(207);
-	name = "Engineering Foyer";
-	door_color = "#4e5170";
-	stripe_color = "#ffc443"
+	name = "Engineering Foyer"
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/elyran_corvette/starboardthrust)
@@ -8694,7 +8697,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/starboardthrust)
 "WP" = (
 /obj/structure/table/wood,
@@ -8780,7 +8783,9 @@
 /turf/simulated/floor/reinforced,
 /area/ship/elyran_corvette/starboardwep)
 "Xg" = (
-/obj/effect/floor_decal/corner/yellow/diagonal,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "Xm" = (
@@ -8807,6 +8812,18 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/elyran_corvette/starboardwep)
+"Xy" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/bed/stool/padded/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/ship/elyran_corvette/messhall)
 "Xz" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /obj/machinery/door/blast/regular/open{
@@ -8826,8 +8843,9 @@
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/yellow/diagonal,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/elyran_corvette/messhall)
 "XE" = (
@@ -8855,19 +8873,19 @@
 /turf/simulated/floor/reinforced/airless,
 /area/ship/elyran_corvette/starboardwep)
 "XN" = (
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
-	},
 /obj/machinery/alarm/west{
 	req_one_access = null;
 	req_access = list(207)
 	},
-/turf/simulated/floor,
+/obj/effect/floor_decal/corner/beige{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/porthallway)
 "XO" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -37840,7 +37858,7 @@ HK
 HK
 HK
 HK
-rO
+HK
 rO
 xC
 xC
@@ -39127,8 +39145,8 @@ Qy
 Pw
 ju
 Xg
-Xg
-Xg
+cx
+Nh
 CY
 gW
 Wm
@@ -39382,11 +39400,11 @@ cc
 An
 qJ
 Pw
-Nh
-Xg
+Ms
+tC
 SX
-Oi
-yR
+tC
+xt
 gW
 iP
 qS
@@ -39640,10 +39658,10 @@ nH
 WP
 Pw
 eD
-Xg
+tW
 Hk
 tW
-xt
+Oi
 gW
 id
 Tv
@@ -39896,11 +39914,11 @@ Uy
 aA
 ez
 pW
-Xg
-Xg
-Hk
+Ms
 pH
-cx
+Xy
+pH
+xt
 gW
 nh
 Kf
@@ -40657,18 +40675,18 @@ wL
 ZR
 WM
 TV
-BT
-Ni
+DZ
+pC
 tU
 GT
 kP
 Ni
 tU
 aE
+tU
 Qb
-tU
-Vp
-tU
+Ni
+eX
 aE
 lX
 Ni
@@ -40922,8 +40940,8 @@ Qt
 Ro
 HE
 UQ
-eX
 SR
+Uo
 wx
 Li
 ex
@@ -41444,7 +41462,7 @@ qW
 iz
 vA
 qm
-ln
+St
 Sh
 yu
 yu
@@ -44513,15 +44531,15 @@ wl
 Hy
 dO
 fb
-rN
+ln
 Hc
 jX
 Fd
 VM
 UL
 AU
-il
 rN
+il
 XN
 DD
 SD
@@ -44769,7 +44787,7 @@ IP
 et
 PY
 zG
-Uo
+yI
 as
 WA
 vv
@@ -44777,10 +44795,10 @@ XJ
 rp
 mn
 PL
+mn
 Qu
-mn
-pC
-mn
+rp
+Vp
 cF
 Zr
 rp
@@ -47606,7 +47624,7 @@ HK
 HK
 HK
 HK
-rO
+HK
 rO
 ll
 ll

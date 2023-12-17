@@ -164,3 +164,9 @@
 /obj/item/melee/energy/sword/knife/elyra/activate(mob/living/user)
 	..()
 	icon_state = "edagger1"
+
+// prayer rug
+/obj/item/towel_flat/prayer
+	name = "prayer rug"
+	desc = "A simply decorated rug used in prayer."
+	color = "#592720"

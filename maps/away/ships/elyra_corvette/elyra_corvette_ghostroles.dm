@@ -1,5 +1,4 @@
 // naval infantry
-
 /datum/ghostspawner/human/elyran_navy_crewman
 	short_name = "elyran_navy_crewman"
 	name = "Elyran Naval Infantryman"
@@ -38,25 +37,6 @@
 /datum/outfit/admin/elyran_navy_crewman/get_id_access()
 	return list(access_elyran_naval_infantry_ship, access_external_airlocks)
 
-// officer
-/datum/ghostspawner/human/elyran_navy_crewman/officer
-	short_name = "elyran_navy_crewman_officer"
-	name = "Elyran Navy Officer"
-	desc = "Command the Elyran Corvette. Ensure the integrity and safety of the Serene Republic of Elyra's borders."
-	mob_name_prefix = "LT. "
-
-	spawnpoints = list("elyran_navy_crewman_officer")
-	max_count = 1
-
-	outfit = /datum/outfit/admin/elyran_navy_crewman/officer
-
-	assigned_role = "Elyran Navy Officer"
-	special_role = "Elyran Navy Officer"
-
-
-/datum/outfit/admin/elyran_navy_crewman/officer
-	name = "Elyran Navy Officer"
-	uniform = /obj/item/clothing/under/rank/elyran_fatigues/commander
 
 // senior crewman
 /datum/ghostspawner/human/elyran_navy_crewman/nco
@@ -115,8 +95,27 @@
 /datum/outfit/admin/elyran_navy_crewman/corpsman
 	name = "Elyran Navy Corpsman"
 
-//items
+// officer
+/datum/ghostspawner/human/elyran_navy_crewman/officer
+	short_name = "elyran_navy_crewman_officer"
+	name = "Elyran Navy Officer"
+	desc = "Command the Elyran Corvette, and keep the crew on track. Ensure the integrity and safety of the Serene Republic of Elyra's borders."
+	mob_name_prefix = "LT. "
 
+	spawnpoints = list("elyran_navy_crewman_officer")
+	max_count = 1
+
+	outfit = /datum/outfit/admin/elyran_navy_crewman/officer
+
+	assigned_role = "Elyran Navy Officer"
+	special_role = "Elyran Navy Officer"
+
+
+/datum/outfit/admin/elyran_navy_crewman/officer
+	name = "Elyran Navy Officer"
+	uniform = /obj/item/clothing/under/rank/elyran_fatigues/commander
+
+//items
 /obj/item/card/id/elyran_corvette
 	name = "elyran corvette id"
 	access = list(access_elyran_naval_infantry_ship, access_external_airlocks)
