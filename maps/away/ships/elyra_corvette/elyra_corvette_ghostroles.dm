@@ -3,7 +3,7 @@
 /datum/ghostspawner/human/elyran_navy_crewman
 	short_name = "elyran_navy_crewman"
 	name = "Elyran Naval Infantryman"
-	desc = "Crew the Elyran Corvette, and serve as the frontline in any combat situations. Assist in any ship operations as needed. Ensure the integrity and safety of the Serene Republic of Elyra's borders. (OOC Note: All characters must be of Elyran ethnic origin and background, this is enforceable by admin/moderator action.)"
+	desc = "Crew the Elyran Corvette, and serve as the frontline in any combat situations. Assist in any ship operations as needed. Ensure the integrity and safety of the Serene Republic of Elyra's borders."
 	tags = list("External")
 	mob_name_prefix = "RFLMN. " //Rifleman
 
@@ -42,7 +42,7 @@
 /datum/ghostspawner/human/elyran_navy_crewman/officer
 	short_name = "elyran_navy_crewman_officer"
 	name = "Elyran Navy Officer"
-	desc = "Command the Elyran Corvette. Ensure the integrity and safety of the Serene Republic of Elyra's borders. (OOC Note: All characters must be of Elyran ethnic origin and background, this is enforceable by admin/moderator action.)"
+	desc = "Command the Elyran Corvette. Ensure the integrity and safety of the Serene Republic of Elyra's borders."
 	mob_name_prefix = "LT. "
 
 	spawnpoints = list("elyran_navy_crewman_officer")
@@ -62,7 +62,7 @@
 /datum/ghostspawner/human/elyran_navy_crewman/nco
 	short_name = "elyran_navy_crewman_nco"
 	name = "Elyran Navy Senior Crewman"
-	desc = "Crew the Elyran Corvette, and serve as the ship's second-in-command. Keep the rest of the crew in check. Ensure the integrity and safety of the Serene Republic of Elyra's borders. (OOC Note: All characters must be of Elyran ethnic origin and background, this is enforceable by admin/moderator action.)"
+	desc = "Crew the Elyran Corvette, and serve as the ship's second-in-command. Keep the rest of the crew in check. Ensure the integrity and safety of the Serene Republic of Elyra's borders."
 	mob_name_prefix = "CPO. "
 
 	spawnpoints = list("elyran_navy_crewman_nco")
@@ -81,7 +81,7 @@
 /datum/ghostspawner/human/elyran_navy_crewman/engineer
 	short_name = "elyran_navy_crewman_engineer"
 	name = "Elyran Naval Engineer"
-	desc = "Crew the Elyran Corvette, and maintain the ship. You serve as the ship's engineer, as well as a combat engineer. Ensure the integrity and safety of the Serene Republic of Elyra's borders. (OOC Note: All characters must be of Elyran ethnic origin and background, this is enforceable by admin/moderator action.)"
+	desc = "Crew the Elyran Corvette, and maintain the ship. You serve as the ship's engineer, as well as a combat engineer. Ensure the integrity and safety of the Serene Republic of Elyra's borders."
 	mob_name_prefix = "PO3. "
 
 	spawnpoints = list("elyran_navy_crewman_engineer")
@@ -100,7 +100,7 @@
 /datum/ghostspawner/human/elyran_navy_crewman/corpsman
 	short_name = "elyran_navy_crewman_corpsman"
 	name = "Elyran Navy Corpsman"
-	desc = "Crew the Elyran Corvette, and man the ship's medbay. You serve as the ship's doctor, as well as a combat medic. Ensure the integrity and safety of the Serene Republic of Elyra's borders. (OOC Note: All characters must be of Elyran ethnic origin and background, this is enforceable by admin/moderator action.)"
+	desc = "Crew the Elyran Corvette, and man the ship's medbay. You serve as the ship's doctor, as well as a combat medic. Ensure the integrity and safety of the Serene Republic of Elyra's borders."
 	mob_name_prefix = "PO2. "
 
 	spawnpoints = list("elyran_navy_crewman_corpsman")
