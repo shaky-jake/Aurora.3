@@ -9,6 +9,7 @@
 	id = "elyran_corvette"
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/elyran_shuttle)
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED // REMOVE THIS FOR FINAL PRODUCT
+	unit_test_groups = list(3)
 
 /singleton/submap_archetype/elyran_corvette
 	map = "Elyran Corvette"
@@ -41,7 +42,9 @@
 		"nav_elyran_corvette_1",
 		"nav_elyran_corvette_2",
 		"nav_elyran_corvette_3",
-		"nav_elyran_corvette_4"
+		"nav_elyran_corvette_4",
+		"nav_elyran_corvette_dock_port",
+		"nav_elyran_corvette_dock_starboard"
 	)
 
 	invisible_until_ghostrole_spawn = TRUE
@@ -58,34 +61,42 @@
 
 
 /obj/effect/shuttle_landmark/elyran_corvette/nav1
-	name = "Elyran Corvette - Port Side"
+	name = "Port Navpoint"
 	landmark_tag = "nav_elyran_corvette_1"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/elyran_corvette/nav2
-	name = "Elyran Corvette - Fore End"
+	name = "Fore Navpoint"
 	landmark_tag = "nav_elyran_corvette_2"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/elyran_corvette/nav3
-	name = "Elyran Corvette - Starboard Side"
+	name = "Starboard Navpoint"
 	landmark_tag = "nav_elyran_corvette_3"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/elyran_corvette/nav4
-	name = "Elyran Corvette - Aft End"
+	name = "Aft Navpoint"
 	landmark_tag = "nav_elyran_corvette_4"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
+/obj/effect/shuttle_landmark/elyran_corvette/dock/port
+	name = "Port Dock"
+	landmark_tag = "nav_elyran_corvette_dock_port"
+	docking_controller = "airlock_elyran_corvette_dock_port"
+	base_turf = /turf/space
+	base_area = /area/space
 
-/obj/effect/shuttle_landmark/elyran_corvette/transit
-	name = "In transit"
-	landmark_tag = "nav_transit_elyran_corvette"
-	base_turf = /turf/space/transit/north
+/obj/effect/shuttle_landmark/elyran_corvette/dock/starboard
+	name = "Starboard Dock"
+	landmark_tag = "nav_elyran_corvette_dock_starboard"
+	docking_controller = "airlock_elyran_corvette_dock_starboard"
+	base_turf = /turf/space
+	base_area = /area/space
 
 //shuttle stuff
 /obj/effect/overmap/visitable/ship/landable/elyran_shuttle
@@ -136,3 +147,20 @@
 	name = "In transit"
 	landmark_tag = "nav_transit_elyran_shuttle"
 	base_turf = /turf/space/transit/north
+
+// custom stuff
+// beret
+/obj/item/clothing/head/beret/elyra
+	name = "elyran navy beret"
+	desc = "A navy blue beret bearing a golden hawk and star insignia resembling the Elyran flag. Issued to those in service of the Serene Republic of Elyra's Navy."
+	icon_state = "beret_hos"
+	item_state = "beret_hos"
+
+// energy dagger
+/obj/item/melee/energy/sword/knife/elyra
+	name = "elyran energy dagger"
+	desc = "A relatively inexpensive energy blade, branded at the hilt with the emblem of the Elyran Armed Forces."
+
+/obj/item/melee/energy/sword/knife/elyra/activate(mob/living/user)
+	..()
+	icon_state = "edagger1"

@@ -18,6 +18,8 @@
 	special_role = "Elyran Naval Infantryman"
 	respawn_flag = null
 
+	culture_restriction = list(/singleton/origin_item/culture/elyran)
+
 
 /datum/outfit/admin/elyran_navy_crewman
 	name = "Elyran Naval Infantryman"

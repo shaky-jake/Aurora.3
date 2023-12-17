@@ -9,6 +9,7 @@
 	id = "sadar_scout"
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/sadar_shuttle)
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED // REMOVE THIS FOR FINAL PRODUCT
+	unit_test_groups = list(3)
 
 /singleton/submap_archetype/sadar_scout
 	map = "Unified Sadar Fleet Scout"
@@ -202,21 +203,21 @@
 
 // red processing strata for telecomms
 /obj/item/stack/tile/circuit_red
-    name = "circuit tile"
-    singular_name = "circuit tile"
-    desc = "An advanced tile covered in various circuitry and wiring."
-    icon_state = "tile_rcircuit"
-    force = 6.0
-    matter = list(DEFAULT_WALL_MATERIAL = 468, MATERIAL_GLASS = 468)
-    throwforce = 15.0
-    throw_speed = 5
-    throw_range = 20
-    obj_flags = OBJ_FLAG_CONDUCTABLE
+	name = "circuit tile"
+	singular_name = "circuit tile"
+	desc = "An advanced tile covered in various circuitry and wiring."
+	icon_state = "tile_rcircuit"
+	force = 6.0
+	matter = list(DEFAULT_WALL_MATERIAL = 468, MATERIAL_GLASS = 468)
+	throwforce = 15.0
+	throw_speed = 5
+	throw_range = 20
+	obj_flags = OBJ_FLAG_CONDUCTABLE
 
 /singleton/flooring/reinforced/circuit/red
-    name = "processing strata"
-    icon_base = "rcircuit"
-    build_type = /obj/item/stack/tile/circuit_red
+	name = "processing strata"
+	icon_base = "rcircuit"
+	build_type = /obj/item/stack/tile/circuit_red
 
 /turf/simulated/floor/redgrid
 	name = "mainframe floor"
