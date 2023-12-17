@@ -1215,6 +1215,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/sadar_scout/mess)
+"iO" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/obj/machinery/alarm/west{
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/sadar_scout/forehall)
 "iQ" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2640,10 +2652,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/atmos)
 "tH" = (
-/obj/structure/ship_weapon_dummy,
-/obj/machinery/ship_weapon/francisca/flipped{
-	pixel_x = -32;
+/obj/machinery/ship_weapon/francisca{
 	pixel_y = -160;
+	pixel_x = -32;
+	dir = 8;
 	weapon_id = "Raiding Skiff Francisca Rotary Gun"
 	},
 /obj/machinery/door/firedoor/noid,
@@ -2658,6 +2670,7 @@
 /obj/machinery/door/blast/regular/open{
 	id = "sadar_shuttle_shutters"
 	},
+/obj/structure/ship_weapon_dummy,
 /turf/simulated/floor/plating,
 /area/shuttle/sadar_shuttle)
 "tI" = (
@@ -3425,8 +3438,9 @@
 /area/ship/sadar_scout/eva)
 "za" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/machinery/ammunition_loader/francisca/flipped{
-	weapon_id = "Raiding Skiff Francisca Rotary Gun"
+/obj/machinery/ammunition_loader/francisca{
+	weapon_id = "Raiding Skiff Francisca Rotary Gun";
+	dir = 8
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/sadar_shuttle)
@@ -39739,7 +39753,7 @@ Bg
 vi
 iG
 fX
-DS
+iO
 Bb
 Yz
 TA

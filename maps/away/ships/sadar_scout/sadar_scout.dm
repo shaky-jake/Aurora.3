@@ -3,7 +3,7 @@
 	description = "The Boreas-class is a small and ancient class of expeditionary vessels dating back a couple hundreds years to when it was commissioned by the Solarian Department of Colonization for Colony Fleet SFE-528-RFS - better known now as the Scarab Fleet. Like most scarab ships, this one has been heavily modified with much of necessary equipment retrofitted and superfluous components stripped away. It bears all the hallmarks of a scarab vessel, with the exception of the transponder registering it as independent rather than associated with the Scarab Fleet."
 	suffixes = list("ships/sadar_scout/sadar_scout.dmm")
 	sectors = list(ALL_COALITION_SECTORS)
-	sectors_blacklist = list(SECTOR_HANEUNIM, SECTOR_BURZSIA)
+	// sectors_blacklist = list(SECTOR_HANEUNIM, SECTOR_BURZSIA)
 	spawn_weight = 1
 	ship_cost = 1
 	id = "sadar_scout"
