@@ -896,14 +896,16 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/portwep)
 "eX" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 9
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/beige/full{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/ship/elyran_corvette/starboardhallway)
+/area/ship/elyran_corvette/porthallway)
 "eY" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /obj/effect/landmark/entry_point/port{
@@ -2131,16 +2133,15 @@
 /turf/simulated/floor/airless,
 /area/space)
 "ln" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/corner/beige/full{
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/ship/elyran_corvette/porthallway)
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/full,
+/area/ship/elyran_corvette/starboardhallway)
 "lu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -2161,10 +2162,6 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/engineering)
 "lw" = (
-/obj/machinery/alarm/east{
-	req_one_access = null;
-	req_access = list(207)
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -2873,11 +2870,11 @@
 /turf/simulated/floor/reinforced/airless,
 /area/ship/elyran_corvette/portthrust)
 "pC" = (
-/obj/machinery/light/colored/decayed{
-	dir = 8
+/obj/effect/floor_decal/corner/beige{
+	dir = 9
 	},
-/obj/effect/floor_decal/corner/beige/full{
-	dir = 8
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/starboardhallway)
@@ -3914,10 +3911,6 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/elyran_corvette/portthrust)
 "wl" = (
-/obj/machinery/alarm/west{
-	req_access = list(207);
-	req_one_access = null
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -4545,6 +4538,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/machinery/alarm/south{
+	req_access = list(207);
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/portthrust)
 "zJ" = (
@@ -4949,6 +4946,15 @@
 /obj/effect/shuttle_landmark/elyran_shuttle/transit,
 /turf/space/transit/north,
 /area/space)
+"BT" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/beige/full{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/elyran_corvette/starboardhallway)
 "BV" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -5159,10 +5165,6 @@
 "Dv" = (
 /obj/effect/floor_decal/corner/beige{
 	dir = 5
-	},
-/obj/machinery/alarm/north{
-	req_one_access = null;
-	req_access = list(207)
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -6811,6 +6813,12 @@
 /obj/effect/floor_decal/corner/brown/full,
 /turf/simulated/floor/tiled,
 /area/ship/elyran_corvette/dorm)
+"MZ" = (
+/obj/effect/landmark{
+	name = "carpspawn"
+	},
+/turf/template_noop,
+/area/space)
 "Nd" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8;
@@ -8238,6 +8246,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/machinery/alarm/south{
+	req_access = list(207);
+	req_one_access = null
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/starboardthrust)
 "TX" = (
@@ -8310,15 +8322,14 @@
 /turf/simulated/floor,
 /area/ship/elyran_corvette/mainhallway)
 "Uo" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/effect/floor_decal/corner/beige{
+	dir = 6
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/full,
-/area/ship/elyran_corvette/starboardhallway)
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/elyran_corvette/porthallway)
 "Uw" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/corner/beige{
@@ -8447,15 +8458,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/elyran_corvette/dorm)
-"Vp" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/ship/elyran_corvette/porthallway)
 "Vr" = (
 /turf/simulated/wall/shuttle/space_ship,
 /area/shuttle/elyran_shuttle)
@@ -31433,9 +31435,9 @@ HK
 HK
 HK
 HK
-hy
 HK
 HK
+MZ
 HK
 HK
 HK
@@ -32964,7 +32966,7 @@ HK
 HK
 HK
 HK
-HK
+hy
 HK
 HK
 HK
@@ -33510,7 +33512,7 @@ HK
 HK
 HK
 HK
-HK
+MZ
 HK
 HK
 HK
@@ -33718,7 +33720,7 @@ HK
 HK
 HK
 HK
-HK
+MZ
 HK
 HK
 HK
@@ -37126,7 +37128,7 @@ HK
 HK
 HK
 HK
-HK
+MZ
 HK
 HK
 HK
@@ -38332,7 +38334,7 @@ HK
 HK
 HK
 HK
-HK
+MZ
 HK
 HK
 HK
@@ -40178,7 +40180,7 @@ EO
 Rn
 gW
 Dv
-Kf
+XX
 yb
 YG
 uz
@@ -40676,7 +40678,7 @@ ZR
 WM
 TV
 DZ
-pC
+BT
 tU
 GT
 kP
@@ -40686,7 +40688,7 @@ aE
 tU
 Qb
 Ni
-eX
+pC
 aE
 lX
 Ni
@@ -40941,7 +40943,7 @@ Ro
 HE
 UQ
 SR
-Uo
+ln
 wx
 Li
 ex
@@ -42189,7 +42191,7 @@ HK
 HK
 HK
 HK
-IR
+HK
 HK
 HK
 HK
@@ -42702,7 +42704,7 @@ HK
 HK
 HK
 HK
-HK
+IR
 HK
 HK
 HK
@@ -42781,7 +42783,7 @@ HK
 HK
 HK
 HK
-HK
+Rs
 HK
 HK
 HK
@@ -43811,7 +43813,7 @@ HK
 HK
 HK
 HK
-Rs
+HK
 HK
 HK
 HK
@@ -44531,7 +44533,7 @@ wl
 Hy
 dO
 fb
-ln
+eX
 Hc
 jX
 Fd
@@ -44798,7 +44800,7 @@ PL
 mn
 Qu
 rp
-Vp
+Uo
 cF
 Zr
 rp
@@ -45318,7 +45320,7 @@ Zg
 qU
 ve
 Dv
-Kf
+XX
 Od
 PN
 iK
@@ -46043,7 +46045,7 @@ HK
 HK
 HK
 HK
-HK
+MZ
 HK
 HK
 HK
@@ -48948,7 +48950,7 @@ HK
 HK
 HK
 HK
-HK
+MZ
 HK
 HK
 HK
@@ -50169,7 +50171,7 @@ HK
 HK
 HK
 HK
-HK
+MZ
 HK
 HK
 HK
@@ -51725,7 +51727,7 @@ HK
 HK
 HK
 HK
-HK
+Nr
 HK
 HK
 HK
@@ -53297,7 +53299,7 @@ HK
 HK
 HK
 HK
-HK
+MZ
 HK
 HK
 HK
@@ -54049,7 +54051,7 @@ HK
 HK
 HK
 HK
-HK
+MZ
 HK
 HK
 HK
@@ -54306,7 +54308,7 @@ HK
 HK
 HK
 HK
-Nr
+HK
 HK
 HK
 HK
