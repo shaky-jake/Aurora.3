@@ -42,6 +42,12 @@
 /area/ship/tirakqi_smuggler/starboard_hall
 	name = "Ti'Rakqi Freighter - Starboard Hallway"
 
+/area/ship/tirakqi_smuggler/port_arm
+	name = "Ti'Rakqi Freighter - Port Docking Arm"
+
+/area/ship/tirakqi_smuggler/starboard_arm
+	name = "Ti'Rakqi Freighter - Starboard Docking Arm"
+
 /area/ship/tirakqi_smuggler/port_wep
 	name = "Ti'Rakqi Freighter - Port Armament"
 
