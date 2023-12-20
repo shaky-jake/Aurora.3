@@ -143,3 +143,12 @@
 	name = "In transit"
 	landmark_tag = "nav_transit_tirakqi_smuggler_shuttle"
 	base_turf = /turf/space/transit/north
+
+// custom stuff
+/obj/machinery/door/airlock/hatch/tirakqi
+	door_color = "#704470"
+	stripe_color = "#382972"
+
+/obj/machinery/door/airlock/glass/tirakqi
+	door_color = "#704470"
+	stripe_color = "#382972"
