@@ -56,6 +56,18 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/starboard_hall)
+"at" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/floor_decal/industrial/loading/yellow,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "ax" = (
 /obj/machinery/alarm/north{
 	req_one_access = null
@@ -216,6 +228,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/tirakqi_smuggler/cargo)
+"cn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "co" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced/firedoor,
@@ -255,7 +272,8 @@
 	master_tag = "airlock_tirakqi_smuggler_dock_port";
 	name = "airlock_tirakqi_smuggler_dock_port"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/port_hall)
 "cJ" = (
 /obj/item/clothing/suit/space/void/skrell/black,
@@ -303,6 +321,13 @@
 	color = "#6e2c6e"
 	},
 /area/ship/tirakqi_smuggler/starboard_hall)
+"dl" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/alarm/west{
+	req_one_access = null
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "dm" = (
 /obj/structure/closet/secure_closet/freezer/kitchen{
 	req_access = null;
@@ -389,6 +414,7 @@
 	master_tag = "airlock_tirakqi_smuggler_shuttle_dock";
 	name = "airlock_tirakqi_smuggler_shuttle_dock"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/tirakqi_smuggler/starboard_arm)
 "dZ" = (
@@ -397,6 +423,10 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/tirakqi_smuggler/bridge)
+"eb" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "ec" = (
 /obj/machinery/computer/ship/sensors{
 	dir = 1
@@ -651,6 +681,7 @@
 /obj/effect/shuttle_landmark/tirakqi_smuggler_shuttle/hangar{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/tirakqi_smuggler/starboard_arm)
 "fm" = (
@@ -837,7 +868,8 @@
 	master_tag = "airlock_tirakqi_smuggler_aft_starboard";
 	name = "airlock_tirakqi_smuggler_aft_starboard"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/atmos)
 "gQ" = (
 /obj/structure/lattice/catwalk,
@@ -873,6 +905,9 @@
 /obj/effect/floor_decal/spline/plain/corner/black{
 	dir = 4
 	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "hw" = (
@@ -891,6 +926,22 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/port_hall)
+"hR" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/plain/black,
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "hT" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -923,6 +974,7 @@
 	master_tag = "airlock_tirakqi_smuggler_shuttle_dock";
 	name = "airlock_tirakqi_smuggler_shuttle_dock"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/tirakqi_smuggler/starboard_arm)
 "if" = (
@@ -936,7 +988,8 @@
 	master_tag = "airlock_tirakqi_smuggler_fore_port";
 	name = "airlock_tirakqi_smuggler_fore_port"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/hall)
 "ik" = (
 /obj/structure/railing/mapped{
@@ -951,7 +1004,11 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/spline/plain/black,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/skrell,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "ip" = (
 /obj/structure/table/skrell,
@@ -964,6 +1021,14 @@
 /obj/effect/floor_decal/spline/plain/corner/black,
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/port_hall)
+"it" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
+	},
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#4e4378"
+	},
+/area/shuttle/tirakqi_smuggler_shuttle)
 "iv" = (
 /obj/machinery/door/airlock/external{
 	dir = 1
@@ -976,7 +1041,8 @@
 	master_tag = "airlock_tirakqi_smuggler_dock_port";
 	name = "airlock_tirakqi_smuggler_dock_port"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/port_hall)
 "iy" = (
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced/firedoor,
@@ -1062,6 +1128,14 @@
 	color = "#6e2c6e"
 	},
 /area/ship/tirakqi_smuggler/starboard_arm)
+"jb" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "jc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced/firedoor,
@@ -1082,6 +1156,24 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/mess)
+"jp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/random/junk,
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
+"jr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/random/contraband,
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "jt" = (
 /obj/machinery/computer/ship/engines{
 	dir = 1
@@ -1144,7 +1236,8 @@
 	master_tag = "airlock_tirakqi_smuggler_dock_port";
 	name = "airlock_tirakqi_smuggler_dock_port"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/port_hall)
 "jL" = (
 /obj/machinery/alarm/west{
@@ -1197,6 +1290,18 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/engi)
+"jZ" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/machinery/alarm/east{
+	req_one_access = null
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "ke" = (
 /obj/structure/table/skrell,
 /turf/simulated/floor/lino,
@@ -1206,7 +1311,10 @@
 /area/ship/tirakqi_smuggler/hall)
 "ks" = (
 /obj/machinery/door/firedoor/noid,
-/turf/simulated/floor/tiled/full,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/simulated/floor/shuttle/skrell,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "kv" = (
 /obj/structure/cable{
@@ -1273,6 +1381,10 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "kS" = (
@@ -1312,7 +1424,7 @@
 	},
 /obj/machinery/light/skrell,
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/tirakqi_smuggler/atmos)
 "ls" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -1368,6 +1480,9 @@
 /area/ship/tirakqi_smuggler/crew)
 "lK" = (
 /obj/machinery/hologram/holopad/long_range,
+/obj/effect/overmap/visitable/ship/landable/tirakqi_smuggler_shuttle,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/shuttle/skrell,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "lN" = (
@@ -1472,6 +1587,14 @@
 	},
 /turf/simulated/floor/beach/water/pool,
 /area/ship/tirakqi_smuggler/wash)
+"mq" = (
+/obj/machinery/atmospherics/pipe/tank/air{
+	start_pressure = 1500
+	},
+/obj/effect/floor_decal/industrial/outline,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "mw" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1509,6 +1632,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/tirakqi_smuggler/cargo)
+"mP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/turf/simulated/floor/airless,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "mX" = (
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 1;
@@ -1565,6 +1696,9 @@
 	dir = 1
 	},
 /obj/structure/bed/stool/chair/office/hover/command,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "nm" = (
@@ -1665,6 +1799,14 @@
 	color = "#695391"
 	},
 /area/ship/tirakqi_smuggler/mess)
+"oL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume,
+/turf/simulated/floor/airless,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "oR" = (
 /obj/machinery/light/skrell{
 	dir = 8
@@ -1684,6 +1826,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/tirakqi_smuggler_shuttle)
+"oV" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "pa" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1695,6 +1848,14 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/hall)
+"pd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
+	},
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#4e4378"
+	},
+/area/shuttle/tirakqi_smuggler_shuttle)
 "ph" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
@@ -1836,14 +1997,18 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/tirakqi_smuggler/med)
 "pW" = (
-/obj/machinery/door/airlock/multi_tile/glass{
-	dir = 2
-	},
 /obj/machinery/door/firedoor/multi_tile{
 	req_one_access = null;
 	dir = 2
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 2
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "qb" = (
 /obj/machinery/vending/engivend{
@@ -1865,6 +2030,16 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/mess)
+"qo" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "qr" = (
 /turf/simulated/wall/shuttle/palepurple,
 /area/ship/tirakqi_smuggler/capt)
@@ -1894,7 +2069,8 @@
 	master_tag = "airlock_tirakqi_smuggler_dock_starboard";
 	name = "airlock_tirakqi_smuggler_dock_starboard"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/starboard_hall)
 "qD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -1905,6 +2081,14 @@
 "qI" = (
 /turf/simulated/wall/shuttle/skrell,
 /area/space)
+"qQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
+	},
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#4e4378"
+	},
+/area/shuttle/tirakqi_smuggler_shuttle)
 "ra" = (
 /obj/structure/table/skrell,
 /obj/item/reagent_containers/food/condiment/flour{
@@ -1944,7 +2128,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/tirakqi_smuggler/atmos)
 "rq" = (
 /obj/machinery/door/airlock/skrell,
@@ -2103,6 +2287,12 @@
 /obj/structure/bed/stool/hover,
 /turf/simulated/floor/shuttle/skrell,
 /area/space)
+"tl" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#4e4378"
+	},
+/area/shuttle/tirakqi_smuggler_shuttle)
 "tC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -2148,6 +2338,9 @@
 "tQ" = (
 /obj/structure/bed/stool/chair/office/hover/command{
 	dir = 4
+	},
+/obj/machinery/alarm/north{
+	req_one_access = null
 	},
 /turf/simulated/floor/shuttle/skrell,
 /area/shuttle/tirakqi_smuggler_shuttle)
@@ -2202,6 +2395,12 @@
 /obj/effect/floor_decal/spline/plain/corner/black,
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/port_arm)
+"ui" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/random/junk,
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "ur" = (
 /obj/structure/bed/roller/hover,
 /turf/simulated/floor/shuttle/skrell,
@@ -2302,6 +2501,12 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/tirakqi_smuggler/engi)
+"vw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/random/contraband,
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "vC" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 8
@@ -2332,6 +2537,14 @@
 /obj/effect/shuttle_landmark/tirakqi_smuggler_shuttle/transit,
 /turf/space/transit/north,
 /area/space)
+"wc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 8
+	},
+/obj/machinery/meter,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "wg" = (
 /obj/machinery/light/skrell{
 	dir = 1
@@ -2414,6 +2627,9 @@
 /obj/effect/floor_decal/spline/plain/corner/black{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "wH" = (
@@ -2437,7 +2653,8 @@
 	master_tag = "airlock_tirakqi_smuggler_dock_starboard";
 	name = "airlock_tirakqi_smuggler_dock_starboard"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/starboard_hall)
 "wM" = (
 /obj/structure/bed/stool/hover{
@@ -2493,6 +2710,7 @@
 "xy" = (
 /obj/machinery/hologram/holopad/long_range,
 /obj/effect/floor_decal/industrial/outline/blue,
+/obj/effect/overmap/visitable/ship/tirakqi_smuggler,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/bridge)
 "xF" = (
@@ -2567,7 +2785,8 @@
 	master_tag = "airlock_tirakqi_smuggler_fore_starboard";
 	name = "airlock_tirakqi_smuggler_fore_starboard"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/hall)
 "yg" = (
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced/firedoor,
@@ -2688,6 +2907,18 @@
 /obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/engi)
+"zb" = (
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/railing/mapped,
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "zg" = (
 /turf/simulated/wall/shuttle/palepurple,
 /area/ship/tirakqi_smuggler/hall)
@@ -2706,7 +2937,8 @@
 	master_tag = "airlock_tirakqi_smuggler_aft_starboard";
 	name = "airlock_tirakqi_smuggler_aft_starboard"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/atmos)
 "zq" = (
 /obj/structure/bed/stool/chair/office/hover/command,
@@ -2721,6 +2953,19 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/atmos)
+"zs" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/spline/plain/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "zu" = (
 /obj/machinery/power/apc/super/west{
 	req_access = null
@@ -2813,7 +3058,8 @@
 	master_tag = "airlock_tirakqi_smuggler_dock_starboard";
 	name = "airlock_tirakqi_smuggler_dock_starboard"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/starboard_hall)
 "Aa" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -2847,7 +3093,8 @@
 	master_tag = "airlock_tirakqi_smuggler_dock_starboard";
 	name = "airlock_tirakqi_smuggler_dock_starboard"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/starboard_hall)
 "Ad" = (
 /turf/simulated/wall/shuttle/space_ship{
@@ -2926,6 +3173,31 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/tirakqi_smuggler/starboard_hall)
+"AS" = (
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#8c2b8c"
+	},
+/area/ship/tirakqi_smuggler/port_hall)
+"BB" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
+/area/shuttle/tirakqi_smuggler_shuttle)
+"BC" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/full,
+/area/ship/tirakqi_smuggler/port_arm)
 "BE" = (
 /obj/structure/closet/secure_closet/guncabinet,
 /obj/effect/floor_decal/spline/plain/black{
@@ -2951,6 +3223,19 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/atmos)
+"BR" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/spline/plain/black,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "BW" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/machinery/light/skrell{
@@ -3001,6 +3286,14 @@
 "Ch" = (
 /turf/simulated/wall/shuttle/palepurple,
 /area/ship/tirakqi_smuggler/bridge)
+"Ci" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#4e4378"
+	},
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Ck" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -3207,6 +3500,16 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/starboard_arm)
+"DB" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/obj/structure/bed/stool/chair/office/hover/command,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/skrell/blue,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "DD" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/alarm/east{
@@ -3280,7 +3583,8 @@
 	master_tag = "airlock_tirakqi_smuggler_aft_port";
 	name = "airlock_tirakqi_smuggler_aft_port"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/engi)
 "DZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -3306,6 +3610,21 @@
 /obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/hall)
+"Eo" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Ev" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -3346,6 +3665,7 @@
 	master_tag = "airlock_tirakqi_smuggler_shuttle_dock";
 	name = "airlock_tirakqi_smuggler_shuttle_dock"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/tirakqi_smuggler/starboard_arm)
 "EU" = (
@@ -3405,6 +3725,15 @@
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/starboard_arm)
 "FL" = (
+/obj/machinery/power/smes/buildable/third_party_shuttle,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
+"FP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
+	dir = 9
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "FQ" = (
@@ -3418,6 +3747,33 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/mess)
+"FS" = (
+/obj/machinery/atmospherics/binary/passive_gate/supply{
+	target_pressure = 250;
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
+"Gc" = (
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 4;
+	name = "Fuel to Thrusters"
+	},
+/obj/structure/fuel_port/phoron{
+	pixel_y = 32
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Gi" = (
 /obj/machinery/door/firedoor/noid,
 /obj/effect/floor_decal/spline/plain/black{
@@ -3460,6 +3816,13 @@
 	},
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/engi)
+"GQ" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/power/apc/super/south{
+	req_access = null
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "GV" = (
 /obj/structure/table/skrell,
 /obj/item/skrell_projector{
@@ -3538,6 +3901,11 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/hall)
+"Ic" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Ih" = (
 /obj/machinery/vending/tool,
 /obj/effect/floor_decal/industrial/outline/engineering,
@@ -3666,6 +4034,12 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "Jw" = (
@@ -3692,6 +4066,9 @@
 "JP" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/simulated/floor/airless,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "JZ" = (
@@ -3782,11 +4159,23 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/ship/tirakqi_smuggler/cargo)
+"KS" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "KT" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/light/skrell{
 	dir = 1
 	},
+/obj/structure/closet/skrell,
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/capt)
 "KW" = (
@@ -3813,6 +4202,13 @@
 	},
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/bridge)
+"Lt" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Lu" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
@@ -3832,13 +4228,26 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/tirakqi_smuggler/cargo)
+"LM" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/spline/plain/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "LN" = (
 /turf/simulated/floor/beach/water/pool,
 /area/ship/tirakqi_smuggler/crew)
 "LS" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /obj/effect/floor_decal/industrial/outline/emergency_closet,
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/tirakqi_smuggler/atmos)
 "LT" = (
 /turf/simulated/floor/shuttle/skrell,
@@ -3871,6 +4280,20 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/port_arm)
+"Mr" = (
+/obj/machinery/door/firedoor/noid,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
+"Mz" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "MB" = (
 /obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/shuttle/skrell/blue,
@@ -3924,6 +4347,10 @@
 /obj/machinery/door/airlock/external{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "Ng" = (
@@ -4018,6 +4445,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/airless,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "Ok" = (
@@ -4057,8 +4485,9 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/starboard_arm)
 "Oz" = (
-/obj/structure/bookcase/manuals/medical,
-/turf/simulated/floor/plating,
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#5e4e9c"
+	},
 /area/ship/tirakqi_smuggler/med)
 "OD" = (
 /obj/machinery/light/skrell,
@@ -4155,6 +4584,13 @@
 	},
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/bridge)
+"Pk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/red,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/random/contraband,
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Pm" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped,
@@ -4194,6 +4630,11 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/airless,
 /area/space)
+"PC" = (
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#8c2b8c"
+	},
+/area/ship/tirakqi_smuggler/starboard_hall)
 "PD" = (
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced/firedoor,
 /turf/simulated/floor/tiled/full,
@@ -4223,7 +4664,8 @@
 	master_tag = "airlock_tirakqi_smuggler_dock_port";
 	name = "airlock_tirakqi_smuggler_dock_port"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/port_hall)
 "PR" = (
 /obj/structure/cable{
@@ -4269,6 +4711,13 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/bridge)
+"Qb" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Qe" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4319,7 +4768,8 @@
 	master_tag = "airlock_tirakqi_smuggler_fore_starboard";
 	name = "airlock_tirakqi_smuggler_fore_starboard"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/hall)
 "Qz" = (
 /obj/structure/table/skrell,
@@ -4394,6 +4844,17 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/hall)
+"Rq" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Rr" = (
 /obj/structure/table/skrell,
 /obj/effect/floor_decal/spline/plain/corner/black{
@@ -4430,7 +4891,8 @@
 	master_tag = "airlock_tirakqi_smuggler_fore_port";
 	name = "airlock_tirakqi_smuggler_fore_port"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/hall)
 "RH" = (
 /obj/structure/cable{
@@ -4446,6 +4908,12 @@
 /obj/structure/closet/crate/loot,
 /turf/simulated/floor/plating,
 /area/ship/tirakqi_smuggler/cargo)
+"RN" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#4e4378"
+	},
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Si" = (
 /obj/machinery/light/skrell,
 /obj/machinery/iv_drip,
@@ -4454,9 +4922,6 @@
 /area/ship/tirakqi_smuggler/med)
 "Sq" = (
 /obj/machinery/door/firedoor/noid,
-/obj/effect/floor_decal/spline/plain/black{
-	dir = 1
-	},
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/med)
@@ -4577,6 +5042,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/tirakqi_smuggler/hall)
+"Uh" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/spline/plain/corner/black,
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/skrell,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Ut" = (
 /turf/simulated/wall/shuttle/space_ship{
 	color = "#6e2c6e"
@@ -4660,6 +5142,16 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/bridge)
+"UV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/machinery/meter,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "UY" = (
 /obj/effect/floor_decal/industrial/loading/yellow{
 	dir = 8
@@ -4760,9 +5252,34 @@
 /turf/simulated/floor/lino,
 /area/ship/tirakqi_smuggler/mess)
 "Wc" = (
-/obj/effect/floor_decal/spline/plain/cee/black,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/med)
+"Wq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/red,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/random/contraband,
+/obj/random/contraband,
+/turf/simulated/floor/plating,
+/area/shuttle/tirakqi_smuggler_shuttle)
+"Wr" = (
+/obj/machinery/computer/ship/engines{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Wu" = (
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
 	frequency = 1441;
@@ -4795,6 +5312,9 @@
 /obj/structure/bed/stool/chair/office/hover/command{
 	dir = 8
 	},
+/obj/machinery/vending/wallmed1{
+	pixel_y = 32
+	},
 /turf/simulated/floor/shuttle/skrell,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "WY" = (
@@ -4806,6 +5326,12 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/capt)
+"Xl" = (
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#5e4e9c";
+	can_open = 1
+	},
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Xv" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4888,6 +5414,13 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/bridge)
+"Yj" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Yl" = (
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 6
@@ -5030,6 +5563,12 @@
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/med)
+"Zq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/wall/shuttle/space_ship{
+	color = "#4e4378"
+	},
+/area/shuttle/tirakqi_smuggler_shuttle)
 "Zs" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -5112,7 +5651,8 @@
 	master_tag = "airlock_tirakqi_smuggler_aft_port";
 	name = "airlock_tirakqi_smuggler_aft_port"
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/engi)
 "ZP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -5140,6 +5680,13 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/med)
+"ZW" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/tirakqi_smuggler_shuttle)
 
 (1,1,1) = {"
 Ar
@@ -30418,10 +30965,10 @@ Ar
 Ar
 Ar
 Ar
-qI
-ou
-SW
-wo
+Ar
+Ar
+Ar
+Ar
 Ar
 Ar
 Ar
@@ -30675,10 +31222,10 @@ Ar
 Ar
 Ar
 Ar
-aD
-PS
-ur
-tj
+Ar
+Ar
+Ar
+Ar
 Ar
 Ar
 Ar
@@ -30932,10 +31479,10 @@ Ar
 Ar
 Ar
 Ar
-rq
-IT
-lx
-GC
+Ar
+Ar
+Ar
+Ar
 Ar
 Ar
 Ar
@@ -31188,12 +31735,12 @@ Ar
 Ar
 Ar
 Ar
-cf
-Tg
-wY
-nd
-wZ
-nW
+Ar
+Ar
+Ar
+Ar
+Ar
+Ar
 Ar
 Ar
 Ar
@@ -31222,7 +31769,7 @@ dj
 dj
 lt
 lt
-dj
+PC
 AN
 WE
 wK
@@ -31446,10 +31993,10 @@ Ar
 Ar
 Ar
 Ar
-SU
-Aq
-Aq
-Aq
+Ar
+Ar
+Ar
+Ar
 Ar
 Ar
 Ar
@@ -31703,10 +32250,10 @@ Ar
 Ar
 Ar
 Ar
-cJ
-TG
-Aq
-Ds
+Ar
+Ar
+Ar
+Ar
 Ar
 Ar
 Ar
@@ -31958,12 +32505,12 @@ Ar
 Ar
 Ar
 Ar
-Vn
 Ar
-PG
-GN
-Aq
-ao
+Ar
+Ar
+Ar
+Ar
+Ar
 Ar
 Ar
 Ar
@@ -32477,10 +33024,10 @@ Ar
 Ar
 Ar
 Ar
-Ar
-Ar
-Ar
-Ar
+qI
+ou
+SW
+wo
 Ar
 Ar
 Ar
@@ -32734,10 +33281,10 @@ Ar
 Ar
 Ar
 Ar
-Ar
-Ar
-Ar
-Ar
+aD
+PS
+ur
+tj
 Ar
 Ar
 Ar
@@ -32991,10 +33538,10 @@ Ar
 Ar
 Ar
 Ar
-Ar
-Ar
-Ar
-Ar
+rq
+IT
+lx
+GC
 Ar
 Ar
 Ar
@@ -33246,13 +33793,13 @@ Ar
 Ar
 Ar
 Ar
-Ar
-Ar
-Ar
-Ar
-Ar
-Ar
-Ar
+Vn
+cf
+Tg
+wY
+nd
+wZ
+nW
 Ar
 Ar
 Ar
@@ -33505,10 +34052,10 @@ Ar
 Ar
 Ar
 Ar
-Ar
-Ar
-Ar
-Ar
+SU
+Aq
+Aq
+Aq
 Ar
 Ar
 Ar
@@ -33762,10 +34309,10 @@ Ar
 Ar
 Ar
 Ar
-Ar
-Ar
-Ar
-Ar
+cJ
+TG
+Aq
+Ds
 Ar
 Ar
 Ar
@@ -34019,10 +34566,10 @@ Ar
 Ar
 Ar
 Ar
-Ar
-Ar
-Ar
-Ar
+PG
+GN
+Aq
+ao
 Ar
 Ar
 Ar
@@ -36860,14 +37407,14 @@ Ar
 Ar
 Ar
 Ar
-Ob
-Fl
-Fl
+oL
+Zq
+it
 Nf
 kR
-Fl
-Fl
-JP
+it
+Zq
+mP
 px
 px
 px
@@ -37373,16 +37920,16 @@ Fl
 Fl
 Fl
 Fl
-FL
-FL
+jp
+vw
 Fl
 kG
 es
 YP
 wH
 Fl
-FL
-FL
+vw
+Pk
 Ut
 Ut
 lQ
@@ -37629,16 +38176,16 @@ Ar
 Ar
 Ar
 MS
+Zq
+qQ
+Xl
 Fl
+pd
+jb
+BB
+Ci
 Fl
-Fl
-Fl
-Fl
-Nf
-kR
-Fl
-Fl
-FL
+Xl
 Ut
 Ut
 ZI
@@ -37887,19 +38434,19 @@ Ar
 Ar
 Ar
 MS
+RN
+zb
+Wr
 Fl
-FL
-FL
-FL
-FL
+Qb
 il
-FL
-FL
-FL
+Yj
+dl
+Lt
 Ut
 tQ
 rb
-nh
+DB
 hC
 lQ
 px
@@ -38144,17 +38691,17 @@ Ar
 Ar
 Ar
 MS
-Fl
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-FL
+RN
+Gc
+Eo
+Mr
+oV
+Uh
+at
+KS
+Rq
 ks
-rb
+cn
 lK
 Jt
 zM
@@ -38401,15 +38948,15 @@ Ar
 Ar
 Ar
 MS
+tl
+UV
+jZ
 Fl
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-FL
+FS
+zs
+Mz
+eb
+ZW
 Ut
 WX
 rb
@@ -38657,16 +39204,16 @@ Ar
 Ar
 Ar
 MS
+Zq
+Ci
+Xl
 Fl
 Fl
+wc
+LM
+GQ
 Fl
 Fl
-FL
-FL
-FL
-FL
-Fl
-FL
 Ut
 Ut
 sy
@@ -38915,16 +39462,16 @@ Fl
 Fl
 Fl
 Fl
-FL
-FL
+jr
+ui
 Fl
-FL
-FL
-FL
-FL
-Fl
-FL
-FL
+mq
+FP
+BR
+eb
+Xl
+ui
+Wq
 Ut
 Ut
 lQ
@@ -39176,9 +39723,9 @@ Fl
 Fl
 Fl
 FL
-FL
-FL
-FL
+qo
+hR
+eb
 Fl
 Fl
 Fl
@@ -39431,12 +39978,12 @@ Ar
 Ar
 Ar
 Ob
-Fl
-Fl
-FL
+Zq
+Zq
+Ic
 pW
-Fl
-Fl
+Zq
+Zq
 JP
 px
 px
@@ -39690,8 +40237,8 @@ Ar
 PL
 Vw
 Vw
-yP
-yP
+BC
+BC
 Vw
 PL
 px
@@ -45100,7 +45647,7 @@ Ad
 Ad
 VK
 VK
-Ad
+AS
 bS
 pn
 iv
