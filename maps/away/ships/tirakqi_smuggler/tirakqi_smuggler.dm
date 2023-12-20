@@ -152,3 +152,13 @@
 /obj/machinery/door/airlock/glass/tirakqi
 	door_color = "#704470"
 	stripe_color = "#382972"
+
+/turf/simulated/wall/shuttle/space_ship/tirakqi_shuttle/cockpit
+	color = "#6e2c6e"
+
+/turf/simulated/wall/shuttle/space_ship/tirakqi_shuttle/main
+	color = "#4e4378"
+
+/turf/simulated/wall/shuttle/space_ship/tirakqi_shuttle/main/fake
+	can_open = TRUE
+	color = "#5e4e9c"
