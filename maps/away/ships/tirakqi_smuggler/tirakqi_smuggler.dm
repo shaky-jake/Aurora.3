@@ -43,7 +43,9 @@
 		"nav_tirakqi_smuggler_1",
 		"nav_tirakqi_smuggler_2",
 		"nav_tirakqi_smuggler_3",
-		"nav_tirakqi_smuggler_4"
+		"nav_tirakqi_smuggler_4",
+		"nav_tirakqi_smuggler_dock_starboard",
+		"nav_tirakqi_smuggler_dock_port"
 	)
 
 	invisible_until_ghostrole_spawn = TRUE
@@ -82,6 +84,20 @@
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
+/obj/effect/shuttle_landmark/tirakqi_smuggler/dock/starboard
+	name = "Starboard Docking Port"
+	landmark_tag = "nav_tirakqi_smuggler_dock_starboard"
+	docking_controller = "airlock_tirakqi_smuggler_dock_starboard"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/tirakqi_smuggler/dock/port
+	name = "Port Docking Port"
+	landmark_tag = "nav_tirakqi_smuggler_dock_port"
+	docking_controller = "airlock_tirakqi_smuggler_dock_port"
+	base_turf = /turf/space
+	base_area = /area/space
+
 //shuttle stuff
 /obj/effect/overmap/visitable/ship/landable/tirakqi_smuggler_shuttle
 	name = "Ti'Rakqi Shuttle"
@@ -118,7 +134,7 @@
 /obj/effect/shuttle_landmark/tirakqi_smuggler_shuttle/hangar
 	name = "Ti'Rakqi Shuttle Hangar"
 	landmark_tag = "nav_hangar_tirakqi_shuttle"
-	docking_controller = "tirakqi_smuggler_shuttle_dock"
+	docking_controller = "airlock_tirakqi_smuggler_shuttle_dock"
 	base_area = /area/space
 	base_turf = /turf/space
 	movable_flags = MOVABLE_FLAG_EFFECTMOVE
