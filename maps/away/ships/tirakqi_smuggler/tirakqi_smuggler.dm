@@ -153,6 +153,9 @@
 	door_color = "#704470"
 	stripe_color = "#382972"
 
+/obj/machinery/door/airlock/multi_tile/glass/tirakqi
+	door_color = "#704470"
+
 /turf/simulated/wall/shuttle/space_ship/tirakqi_shuttle/cockpit
 	color = "#6e2c6e"
 
