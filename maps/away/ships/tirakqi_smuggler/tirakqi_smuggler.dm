@@ -145,17 +145,27 @@
 	base_turf = /turf/space/transit/north
 
 // custom stuff
+// doors
 /obj/machinery/door/airlock/hatch/tirakqi
 	door_color = "#704470"
 	stripe_color = "#382972"
+	req_access = list(access_skrell)
 
 /obj/machinery/door/airlock/glass/tirakqi
 	door_color = "#704470"
 	stripe_color = "#382972"
+	req_access = list(access_skrell)
+
+/obj/machinery/door/airlock/tirakqi
+	door_color = "#704470"
+	stripe_color = "#382972"
+	req_access = list(access_skrell)
 
 /obj/machinery/door/airlock/multi_tile/glass/tirakqi
 	door_color = "#704470"
+	req_access = list(access_skrell)
 
+// walls
 /turf/simulated/wall/shuttle/space_ship/tirakqi_shuttle/cockpit
 	color = "#6e2c6e"
 
@@ -165,3 +175,21 @@
 /turf/simulated/wall/shuttle/space_ship/tirakqi_shuttle/main/fake
 	can_open = TRUE
 	color = "#5e4e9c"
+
+// paper
+/obj/item/paper/tirakqi_smuggler/cache_list
+	name = "IMPORTANT!"
+	desc = "A handwritten note."
+	info = "\
+		Okay, here's the deal. There's a few hidden compartments around the ship, that's where we hide all the actually important stuff if we get selected for inspection. <br>\
+		<br>\
+		All of these spots are hidden behind fake walls - they look like the real deal, but they have plenty of give if you just push a little. <br>\
+		<br>\
+		First, we have some phoron we picked up tucked away in a compartments behind the vacuum warning signs in each of the wing docking ports. <br>\
+		<br>\
+		Second, we have a little backup stash in medical, just behind the wall between the sleeper and the IV stand. <br>\
+		<br>\
+		Third, there's a bunch of compartments in the shuttle, all marked by the no smoking signs. <br>\
+		<br>\
+		VERY IMPORTANT - If we do get boarded, burn this paper immediately, and stash all the important stuff in these caches. Better hope you remember all this. <br>\
+		"
