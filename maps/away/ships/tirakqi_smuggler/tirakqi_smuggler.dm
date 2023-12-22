@@ -176,6 +176,45 @@
 	can_open = TRUE
 	color = "#5e4e9c"
 
+// clothing
+/obj/item/clothing/under/skrell/wetsuit/tirakqi/cyan
+	color = "#587a7a"
+	accent_color = "#6bbfbf"
+
+/obj/item/clothing/under/skrell/wetsuit/tirakqi/pink
+	color = "#735d70"
+	accent_color = "#6e2c6e"
+
+/obj/item/clothing/under/skrell/wetsuit/tirakqi/purple
+	color = "#6a5f96"
+	accent_color = "#3b398d"
+
+/obj/item/clothing/under/skrell/wetsuit/tirakqi/engineer
+	color = "#4e555d"
+	accent_color = "#cccc33"
+
+/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/cyan
+	color = "#cef5f5"
+
+/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/pink
+	color = "#fad9f6"
+
+/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/purple
+	color = "#c8bbfc"
+
+/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/captain
+	color = "#604baa"
+
+/obj/item/clothing/ears/skrell/workcap/tirakqi/cyan
+	color = "#cef5f5"
+
+/obj/item/clothing/ears/skrell/workcap/tirakqi/pink
+	color = "#fad9f6"
+
+/obj/item/clothing/ears/skrell/workcap/tirakqi/purple
+	color = "#c8bbfc"
+
+
 // paper
 /obj/item/paper/tirakqi_smuggler/cache_list
 	name = "IMPORTANT!"
@@ -189,7 +228,7 @@
 		<br>\
 		Second, we have a little backup stash in medical, just behind the wall between the sleeper and the IV stand. <br>\
 		<br>\
-		Third, there's a bunch of compartments in the shuttle, all marked by the no smoking signs. <br>\
+		Third, there's a bunch of compartments in the shuttle, all marked by the no smoking signs. Access to the main compartment's loading bay is behind the Traverse flag in the port docking arm. <br>\
 		<br>\
 		VERY IMPORTANT - If we do get boarded, burn this paper immediately, and stash all the important stuff in these caches. Better hope you remember all this. <br>\
 		"

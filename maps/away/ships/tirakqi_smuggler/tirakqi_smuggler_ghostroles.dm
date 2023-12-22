@@ -5,7 +5,7 @@
 	tags = list("External")
 
 	spawnpoints = list("tirakqi_crew")
-	max_count = 3
+	max_count = 2
 
 	outfit = /datum/outfit/admin/tirakqi_crew
 	possible_species = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
@@ -21,58 +21,34 @@
 	name = "Ti'Rakqi Qu'fup"
 
 	uniform = list(
-		/obj/item/clothing/under/service_overalls,
-		/obj/item/clothing/under/color/brown,
-		/obj/item/clothing/under/syndicate/tracksuit,
-		/obj/item/clothing/under/pants/jeans,
-		/obj/item/clothing/under/pants/camo,
-		/obj/item/clothing/under/pants/khaki,
-		/obj/item/clothing/under/pants/mustang,
-		/obj/item/clothing/under/rank/miner,
-		/obj/item/clothing/under/suit_jacket/tan,
-		/obj/item/clothing/under/tactical,
-		/obj/item/clothing/under/waiter
+		/obj/item/clothing/under/skrell/nralakk/ox/service,
+		/obj/item/clothing/under/skrell/nralakk/ox/engineer,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/cyan,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/pink,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/purple
 		)
 
 	suit = list(
-		/obj/item/clothing/suit/pirate,
-		/obj/item/clothing/suit/storage/toggle/bomber,
-		/obj/item/clothing/accessory/poncho,
-		/obj/item/clothing/accessory/overalls/random,
-		/obj/item/clothing/suit/ianshirt,
-		/obj/item/clothing/suit/storage/hooded/wintercoat/hoodie/random,
-		/obj/item/clothing/suit/storage/hooded/wintercoat,
-		/obj/item/clothing/suit/storage/hooded/wintercoat/red,
-		/obj/item/clothing/suit/storage/hooded/wintercoat/miner,
-		/obj/item/clothing/suit/storage/leathercoat,
-		/obj/item/clothing/suit/storage/toggle/flannel,
-		/obj/item/clothing/suit/storage/toggle/flannel/gray,
-		/obj/item/clothing/suit/storage/toggle/flannel/red,
-		/obj/item/clothing/suit/storage/toggle/leather_vest,
-		/obj/item/clothing/suit/storage/toggle/leather_jacket,
-		/obj/item/clothing/suit/storage/toggle/leather_jacket/biker,
-		/obj/item/clothing/suit/storage/toggle/leather_jacket/flight,
 		/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/green,
 		/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/white,
-		/obj/item/clothing/suit/storage/toggle/leather_jacket/designer/red,
-		/obj/item/clothing/suit/storage/toggle/leather_jacket/military,
-		/obj/item/clothing/suit/storage/toggle/leather_jacket/military/old,
-		/obj/item/clothing/suit/storage/toggle/leather_jacket/military/tan,
-		/obj/item/clothing/suit/storage/toggle/trench,
-		/obj/item/clothing/suit/storage/toggle/trench/grey,
-		/obj/item/clothing/suit/storage/toggle/trench/colorable/random
+		/obj/item/clothing/suit/storage/toggle/highvis,
+		/obj/item/clothing/suit/storage/toggle/skrell/ox/service,
+		/obj/item/clothing/suit/storage/toggle/skrell/ox/engineer
 	)
 
 	shoes = list(
 		/obj/item/clothing/shoes/jackboots,
 		/obj/item/clothing/shoes/workboots,
-		/obj/item/clothing/shoes/combat,
-		/obj/item/clothing/shoes/cowboy,
-		/obj/item/clothing/shoes/jackboots,
-		/obj/item/clothing/shoes/winter,
-		/obj/item/clothing/shoes/sneakers/hitops/black,
-		/obj/item/clothing/shoes/sneakers/black,
-		/obj/item/clothing/shoes/sneakers/brown
+		/obj/item/clothing/shoes/combat
+	)
+
+	head = list(
+		/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/cyan,
+		/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/pink,
+		/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/purple,
+		/obj/item/clothing/ears/skrell/workcap/tirakqi/cyan,
+		/obj/item/clothing/ears/skrell/workcap/tirakqi/pink,
+		/obj/item/clothing/ears/skrell/workcap/tirakqi/purple
 	)
 
 	back = /obj/item/storage/backpack/satchel
@@ -127,15 +103,14 @@
 	name = "Ti'Rakqi Qu'fup"
 
 	uniform = list(
-		/obj/item/clothing/under/service_overalls,
-		/obj/item/clothing/under/captainformal,
-		/obj/item/clothing/under/pants/jeans,
-		/obj/item/clothing/under/pants/camo,
-		/obj/item/clothing/under/pants/khaki,
-		/obj/item/clothing/under/pants/mustang,
-		/obj/item/clothing/under/suit_jacket/tan,
-		/obj/item/clothing/under/tactical
+		/obj/item/clothing/under/tactical,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/cyan,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/pink,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/purple
 		)
+
+	head = /obj/item/clothing/head/skrell/skrell_bandana/tirakqi/captain
+	suit = /obj/item/clothing/suit/storage/toggle/skrell/starcoat
 
 
 /datum/ghostspawner/human/tirakqi_medic
@@ -187,7 +162,7 @@
 /datum/outfit/admin/tirakqi_crew/engineer
 	name = "Ti'Rakqi Engineer"
 
-	uniform = /obj/item/clothing/under/service_overalls
-	suit = /obj/item/clothing/accessory/storage/overalls
+	uniform = /obj/item/clothing/under/skrell/wetsuit/tirakqi/engineer
+	suit = /obj/item/clothing/suit/storage/toggle/highvis_alt
 	belt = /obj/item/storage/belt/utility/full
 	gloves = /obj/item/clothing/gloves/yellow
