@@ -177,24 +177,35 @@
 	color = "#5e4e9c"
 
 // clothing
-/obj/item/clothing/under/skrell/wetsuit/tirakqi/cyan
-	color = "#587a7a"
-	accent_color = "#6bbfbf"
+/obj/item/clothing/under/skrell/wetsuit/tirakqi/teal
+	color = "#5c9681"
+	accent_color = "#1d6148"
+
+/obj/item/clothing/under/skrell/wetsuit/tirakqi/blue
+	color = "#60899e"
+	accent_color = "#1f4e66"
 
 /obj/item/clothing/under/skrell/wetsuit/tirakqi/pink
-	color = "#735d70"
-	accent_color = "#6e2c6e"
+	color = "#945a8c"
+	accent_color = "#66205d"
 
 /obj/item/clothing/under/skrell/wetsuit/tirakqi/purple
 	color = "#6a5f96"
-	accent_color = "#3b398d"
+	accent_color = "#2f2069"
 
 /obj/item/clothing/under/skrell/wetsuit/tirakqi/engineer
+	color = "#403148"
+	accent_color = "#ffb500"
+
+/obj/item/clothing/under/skrell/wetsuit/tirakqi/star
 	color = "#4e555d"
 	accent_color = "#cccc33"
 
-/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/cyan
-	color = "#cef5f5"
+/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/teal
+	color = "#c9ffec"
+
+/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/blue
+	color = "#cceeff"
 
 /obj/item/clothing/head/skrell/skrell_bandana/tirakqi/pink
 	color = "#fad9f6"
@@ -226,7 +237,7 @@
 		<br>\
 		First, we have some phoron we picked up tucked away in a compartments behind the vacuum warning signs in each of the wing docking ports. <br>\
 		<br>\
-		Second, we have a little backup stash in medical, just behind the wall between the sleeper and the IV stand. <br>\
+		Second, we have a little backup stash in medical, just behind the freezer. <br>\
 		<br>\
 		Third, there's a bunch of compartments in the shuttle, all marked by the no smoking signs. Access to the main compartment's loading bay is behind the Traverse flag in the port docking arm. <br>\
 		<br>\

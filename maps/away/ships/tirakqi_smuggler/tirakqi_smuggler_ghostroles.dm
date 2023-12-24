@@ -23,7 +23,8 @@
 	uniform = list(
 		/obj/item/clothing/under/skrell/nralakk/ox/service,
 		/obj/item/clothing/under/skrell/nralakk/ox/engineer,
-		/obj/item/clothing/under/skrell/wetsuit/tirakqi/cyan,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/teal,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/blue,
 		/obj/item/clothing/under/skrell/wetsuit/tirakqi/pink,
 		/obj/item/clothing/under/skrell/wetsuit/tirakqi/purple
 		)
@@ -38,12 +39,13 @@
 
 	shoes = list(
 		/obj/item/clothing/shoes/jackboots,
-		/obj/item/clothing/shoes/workboots,
+		/obj/item/clothing/shoes/workboots/brown,
 		/obj/item/clothing/shoes/combat
 	)
 
 	head = list(
-		/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/cyan,
+		/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/teal,
+		/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/blue,
 		/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/pink,
 		/obj/item/clothing/head/skrell/skrell_bandana/tirakqi/purple,
 		/obj/item/clothing/ears/skrell/workcap/tirakqi/cyan,
@@ -104,7 +106,8 @@
 
 	uniform = list(
 		/obj/item/clothing/under/tactical,
-		/obj/item/clothing/under/skrell/wetsuit/tirakqi/cyan,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/teal,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/blue,
 		/obj/item/clothing/under/skrell/wetsuit/tirakqi/pink,
 		/obj/item/clothing/under/skrell/wetsuit/tirakqi/purple
 		)
