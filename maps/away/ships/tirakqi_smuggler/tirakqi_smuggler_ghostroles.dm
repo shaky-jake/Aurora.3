@@ -104,13 +104,7 @@
 /datum/outfit/admin/tirakqi_crew/captain
 	name = "Ti'Rakqi Qu'fup"
 
-	uniform = list(
-		/obj/item/clothing/under/tactical,
-		/obj/item/clothing/under/skrell/wetsuit/tirakqi/teal,
-		/obj/item/clothing/under/skrell/wetsuit/tirakqi/blue,
-		/obj/item/clothing/under/skrell/wetsuit/tirakqi/pink,
-		/obj/item/clothing/under/skrell/wetsuit/tirakqi/purple
-		)
+	uniform = /obj/item/clothing/under/skrell/wetsuit/tirakqi/star
 
 	head = /obj/item/clothing/head/skrell/skrell_bandana/tirakqi/captain
 	suit = /obj/item/clothing/suit/storage/toggle/skrell/starcoat
@@ -138,7 +132,11 @@
 /datum/outfit/admin/tirakqi_crew/medic
 	name = "Ti'Rakqi Medic"
 
-	uniform = /obj/item/clothing/under/rank/medical/surgeon
+	uniform = list(
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/teal,
+		/obj/item/clothing/under/skrell/wetsuit/tirakqi/blue
+		)
+
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	glasses = /obj/item/clothing/glasses/hud/health
 
