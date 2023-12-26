@@ -144,7 +144,15 @@
 	landmark_tag = "nav_transit_tirakqi_smuggler_shuttle"
 	base_turf = /turf/space/transit/north
 
-// custom stuff
+
+// ==== CUSTOM STUFF ====
+// wall nav console
+/obj/machinery/computer/ship/navigation/wall
+	icon = 'icons/obj/modular_telescreen.dmi'
+	icon_state = "telescreen"
+	icon_screen = "command"
+	density = FALSE
+
 // doors
 /obj/machinery/door/airlock/hatch/tirakqi
 	door_color = "#704470"
@@ -165,7 +173,7 @@
 	door_color = "#704470"
 	req_access = list(access_skrell)
 
-// walls
+// walls for shuttle
 /turf/simulated/wall/shuttle/space_ship/tirakqi_shuttle/cockpit
 	color = "#6e2c6e"
 
@@ -175,6 +183,18 @@
 /turf/simulated/wall/shuttle/space_ship/tirakqi_shuttle/main/fake
 	can_open = TRUE
 	color = "#5e4e9c"
+
+// floor for cosmozoan cage
+/turf/simulated/floor/holofloor/tirakqi_cosmocage
+	icon = 'icons/turf/space.dmi'
+	name = "\proper holospace"
+	icon_state = "void"
+	footstep_sound = null
+	plane = PLANE_SPACE_BACKGROUND
+	dynamic_lighting = 0
+
+/turf/simulated/floor/holofloor/tirakqi_cosmocage/update_dirt()
+	return	// Space doesn't become dirty
 
 // clothing
 /obj/item/clothing/under/skrell/wetsuit/tirakqi/teal
@@ -193,11 +213,11 @@
 	color = "#6a5f96"
 	accent_color = "#2f2069"
 
-/obj/item/clothing/under/skrell/wetsuit/tirakqi/engineer
+/obj/item/clothing/under/skrell/wetsuit/tirakqi/star
 	color = "#403148"
 	accent_color = "#ffb500"
 
-/obj/item/clothing/under/skrell/wetsuit/tirakqi/star
+/obj/item/clothing/under/skrell/wetsuit/tirakqi/engineer
 	color = "#4e555d"
 	accent_color = "#cccc33"
 
@@ -225,7 +245,6 @@
 /obj/item/clothing/ears/skrell/workcap/tirakqi/purple
 	color = "#c8bbfc"
 
-
 // paper
 /obj/item/paper/tirakqi_smuggler/cache_list
 	name = "IMPORTANT!"
@@ -239,7 +258,9 @@
 		<br>\
 		Second, we have a little backup stash in medical, just behind the freezer. <br>\
 		<br>\
-		Third, there's a bunch of compartments in the shuttle, all marked by the no smoking signs. Access to the main compartment's loading bay is behind the Traverse flag in the port docking arm. <br>\
+		Third, there's a bunch of compartments in the shuttle, all marked by the no smoking signs. <br>\
+		<br>\
+		Fourth, the last and largest compartment is hidden behind a traverse flag in the portside shuttle dock arm, aft of the cargo bay. <br>\
 		<br>\
 		VERY IMPORTANT - If we do get boarded, burn this paper immediately, and stash all the important stuff in these caches. Better hope you remember all this. <br>\
 		"

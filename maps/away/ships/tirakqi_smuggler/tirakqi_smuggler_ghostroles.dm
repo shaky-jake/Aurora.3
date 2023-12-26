@@ -1,6 +1,6 @@
 /datum/ghostspawner/human/tirakqi_crew
 	short_name = "tirakqi_crew"
-	name = "Ti'Rakqi Qu'fup"
+	name = "Ti'Rakqi Lu'fup"
 	desc = "You crew the ship, mop the floors, cook the meals, and shoot whoever gets too close to the goods. Try to show some initiative!"
 	tags = list("External")
 
@@ -11,14 +11,14 @@
 	possible_species = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
-	assigned_role = "Ti'Rakqi Qu'fup"
-	special_role = "Ti'Rakqi Qu'fup"
+	assigned_role = "Ti'Rakqi Lu'fup"
+	special_role = "Ti'Rakqi Lu'fup"
 	respawn_flag = null
 
 	uses_species_whitelist = FALSE
 
 /datum/outfit/admin/tirakqi_crew
-	name = "Ti'Rakqi Qu'fup"
+	name = "Ti'Rakqi Lu'fup"
 
 	uniform = list(
 		/obj/item/clothing/under/skrell/nralakk/ox/service,
@@ -84,8 +84,8 @@
 
 /datum/ghostspawner/human/tirakqi_captain
 	short_name = "tirakqi_captain"
-	name = "Ti'Rakqi Qu'oot"
-	desc = "Lead the Qu'fup under your command. Smuggle, cheat, lie, and profit. You've got a crew and a ship to maintain."
+	name = "Ti'Rakqi Qu'qrot"
+	desc = "Lead the Lu'fup and Qu'oot under your command. Smuggle, cheat, lie, and profit. You've got a crew and a ship to maintain."
 	tags = list("External")
 
 	spawnpoints = list("tirakqi_captain")
@@ -95,14 +95,14 @@
 	possible_species = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
-	assigned_role = "Ti'Rakqi Qu'oot"
-	special_role = "Ti'Rakqi Qu'oot"
+	assigned_role = "Ti'Rakqi Qu'qrot"
+	special_role = "Ti'Rakqi Qu'qrot"
 	respawn_flag = null
 
 	uses_species_whitelist = TRUE
 
 /datum/outfit/admin/tirakqi_crew/captain
-	name = "Ti'Rakqi Qu'fup"
+	name = "Ti'Rakqi Qu'qrot"
 
 	uniform = /obj/item/clothing/under/skrell/wetsuit/tirakqi/star
 
@@ -113,7 +113,7 @@
 /datum/ghostspawner/human/tirakqi_medic
 	short_name = "tirakqi_medic"
 	name = "Ti'Rakqi Medic"
-	desc = "You're a trained doctor serving with the Ti'Rakqi! Try to keep the crew alive or you may find yourself stranded in space."
+	desc = "You're a trained doctor serving as a Qu'oot with the Ti'Rakqi! Try to keep the crew alive or you may find yourself stranded in space."
 	tags = list("External")
 
 	spawnpoints = list("tirakqi_medic")
@@ -144,7 +144,7 @@
 /datum/ghostspawner/human/tirakqi_engineer
 	short_name = "tirakqi_engineer"
 	name = "Ti'Rakqi Engineer"
-	desc = "You're a trained engineer serving with the Ti'Rakqi! Try to keep the ship functioning or you may find yourself stranded in space."
+	desc = "You're a trained engineer serving as a Qu'oot with the Ti'Rakqi! Try to keep the ship functioning or you may find yourself stranded in space."
 	tags = list("External")
 
 	spawnpoints = list("tirakqi_engineer")

@@ -8,9 +8,11 @@
 
 /area/ship/tirakqi_smuggler/engi
 	name = "Ti'Rakqi Freighter - Engineering"
+	ambience = AMBIENCE_ENGINEERING
 
 /area/ship/tirakqi_smuggler/atmos
 	name = "Ti'Rakqi Freighter - Atmospherics"
+	ambience = AMBIENCE_ATMOS
 
 /area/ship/tirakqi_smuggler/med
 	name = "Ti'Rakqi Freighter - Medbay"
@@ -29,30 +31,31 @@
 
 /area/ship/tirakqi_smuggler/bridge
 	name = "Ti'Rakqi Freighter - Bridge"
+	ambience = AMBIENCE_HIGHSEC
 
 /area/ship/tirakqi_smuggler/cargo
 	name = "Ti'Rakqi Freighter - Cargo Bay"
+	ambience = AMBIENCE_GENERIC
 
 /area/ship/tirakqi_smuggler/hall
 	name = "Ti'Rakqi Freighter - Main Hallway"
+	ambience = AMBIENCE_GENERIC
 
 /area/ship/tirakqi_smuggler/port_hall
 	name = "Ti'Rakqi Freighter - Port Hallway"
+	ambience = AMBIENCE_GENERIC
 
 /area/ship/tirakqi_smuggler/starboard_hall
 	name = "Ti'Rakqi Freighter - Starboard Hallway"
+	ambience = AMBIENCE_GENERIC
 
 /area/ship/tirakqi_smuggler/port_arm
 	name = "Ti'Rakqi Freighter - Port Docking Arm"
+	ambience = AMBIENCE_HANGAR
 
 /area/ship/tirakqi_smuggler/starboard_arm
 	name = "Ti'Rakqi Freighter - Starboard Docking Arm"
-
-/area/ship/tirakqi_smuggler/port_wep
-	name = "Ti'Rakqi Freighter - Port Armament"
-
-/area/ship/tirakqi_smuggler/starboard_wep
-	name = "Ti'Rakqi Freighter - Starboard Armament"
+	ambience = AMBIENCE_HANGAR
 
 /area/shuttle/tirakqi_smuggler_shuttle
 	name = "Ti'Rakqi Shuttle"
