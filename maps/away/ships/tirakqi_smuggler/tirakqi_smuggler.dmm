@@ -2996,13 +2996,12 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/tirakqi_smuggler/capt)
 "ro" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/obj/structure/window/borosilicate/reinforced/skrell{
+/obj/effect/floor_decal/industrial/outline/emergency_closet,
+/obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
-/obj/machinery/light/skrell,
-/obj/effect/floor_decal/industrial/outline/firefighting_closet,
-/turf/simulated/floor/tiled/dark/full,
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/atmos)
 "rA" = (
 /obj/effect/floor_decal/spline/plain/black{
@@ -3122,7 +3121,7 @@
 	icon_state = "projector_light";
 	color = "#00D6FF";
 	alpha = 100;
-	name = "projector light";
+	name = "Projector Light";
 	pixel_y = 2
 	},
 /obj/effect/decal/fake_object{
@@ -3811,6 +3810,16 @@
 	icon_state = "pool"
 	},
 /area/ship/tirakqi_smuggler/crew)
+"wt" = (
+/obj/effect/floor_decal/industrial/outline/emergency_closet,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/tank/air{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/skrell/blue,
+/area/ship/tirakqi_smuggler/atmos)
 "ww" = (
 /obj/effect/floor_decal/spline/plain{
 	color = "#b6efe1"
@@ -3826,6 +3835,9 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/emergency_closet,
+/obj/machinery/alarm/south{
+	req_one_access = list(208)
+	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/atmos)
 "wy" = (
@@ -4146,7 +4158,7 @@
 	req_access = list(208)
 	},
 /obj/effect/floor_decal/industrial/warning{
-	dir = 10
+	dir = 8
 	},
 /turf/simulated/floor/shuttle/skrell,
 /area/ship/tirakqi_smuggler/atmos)
@@ -7347,15 +7359,12 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/tirakqi_smuggler/med)
 "UA" = (
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 6
-	},
 /obj/machinery/meter,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/machinery/alarm/west{
-	req_one_access = list(208)
+/obj/machinery/atmospherics/pipe/manifold/visible/blue{
+	dir = 1
 	},
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ship/tirakqi_smuggler/atmos)
@@ -8279,6 +8288,17 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/med)
+"ZT" = (
+/obj/machinery/portable_atmospherics/powered/pump/filled,
+/obj/effect/floor_decal/industrial/outline/emergency_closet,
+/obj/structure/window/borosilicate/reinforced/skrell{
+	dir = 1
+	},
+/obj/machinery/light/skrell{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/tirakqi_smuggler/atmos)
 "ZW" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -35404,7 +35424,7 @@ bw
 bw
 bw
 dr
-LS
+ZT
 Nz
 bw
 bw
@@ -35662,8 +35682,8 @@ XR
 zO
 fd
 LS
-ro
-bw
+Nz
+wt
 bw
 bw
 lw
@@ -36178,7 +36198,7 @@ AH
 VK
 AO
 Gw
-wx
+ro
 bw
 bw
 fA
