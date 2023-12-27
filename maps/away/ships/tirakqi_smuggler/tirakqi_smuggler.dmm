@@ -2475,6 +2475,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/medical,
+/obj/machinery/alarm/west{
+	req_one_access = list(208)
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/tirakqi_smuggler/med)
 "nW" = (
@@ -2915,6 +2918,9 @@
 	dir = 4
 	},
 /obj/random/junk,
+/obj/machinery/alarm/west{
+	req_one_access = list(208)
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "qQ" = (
@@ -3684,6 +3690,9 @@
 	dir = 4
 	},
 /obj/random/junk,
+/obj/machinery/alarm/west{
+	req_one_access = list(208)
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/tirakqi_smuggler_shuttle)
 "vy" = (
@@ -4722,6 +4731,9 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 4
 	},
+/obj/machinery/alarm/south{
+	req_one_access = list(208)
+	},
 /turf/simulated/floor/exoplanet/water/shallow{
 	icon_state = "pool"
 	},
@@ -4783,7 +4795,7 @@
 	pixel_x = -9;
 	dir = 8
 	},
-/obj/item/paper/tirakqi_smuggler/cache_list{
+/obj/item/paper/tirakqi_smuggler{
 	pixel_x = 4;
 	pixel_y = 10
 	},
@@ -4842,9 +4854,6 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/tirakqi_smuggler/med)
 "Cu" = (
-/obj/machinery/alarm/east{
-	req_one_access = list(208)
-	},
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 1
 	},
@@ -5484,8 +5493,11 @@
 /obj/item/stack/material/plasteel/full,
 /obj/item/stack/material/steel/full,
 /obj/item/stack/material/glass/reinforced/full,
-/obj/item/stack/rods/full,
 /obj/effect/floor_decal/industrial/outline/engineering,
+/obj/item/stack/material/glass{
+	amount = 25
+	},
+/obj/item/stack/rods/full,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/tirakqi_smuggler/engi)
 "GL" = (
@@ -7906,9 +7918,6 @@
 /obj/machinery/seed_storage/garden{
 	pixel_y = 23;
 	density = 0
-	},
-/obj/machinery/alarm/west{
-	req_one_access = list(208)
 	},
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 4

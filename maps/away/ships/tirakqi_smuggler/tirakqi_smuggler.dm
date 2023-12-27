@@ -1,6 +1,6 @@
 /datum/map_template/ruin/away_site/tirakqi_smuggler
 	name = "Ti'Rakqi Smuggler"
-	description = "WIP Desc"
+	description = "Featuring a respectable cargo bay, light frame, and large thruster nacelles, the Xroquv-class is one of the fastest federation freighters of this size. This one in particular appears to be refitted with expanded thruster nacelles and minor structural modifications. This one's transponder identifies it as belonging to an independent freighter."
 	suffixes = list("ships/tirakqi_smuggler/tirakqi_smuggler.dmm")
 	// sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH, SECTOR_CORP_ZONE, SECTOR_VALLEY_HALE, SECTOR_BADLANDS)
 	sectors = list(ALL_POSSIBLE_SECTORS)
@@ -13,27 +13,28 @@
 
 /singleton/submap_archetype/tirakqi_smuggler
 	map = "Ti'Rakqi Smuggler"
-	descriptor = "WIP Desc"
+	descriptor = "Featuring a respectable cargo bay, light frame, and large thruster nacelles, the Xroquv-class is one of the fastest federation freighters of this size. This one in particular appears to be refitted with expanded thruster nacelles and minor structural modifications. This one's transponder identifies it as belonging to an independent freighter."
 
 //ship stuff
 
 /obj/effect/overmap/visitable/ship/tirakqi_smuggler
 	name = "Ti'Rakqi Smuggler"
-	desc = "WIP Desc"
+	desc = "Featuring a respectable cargo bay, light frame, and large thruster nacelles, the Xroquv-class is one of the fastest federation freighters of this size. This one in particular appears to be refitted with expanded thruster nacelles and minor structural modifications. This one's transponder identifies it as belonging to an independent freighter."
 	icon_state = "tirakqi"
 	moving_state = "tirakqi_moving"
 	colors = list("#27e4ee", "#4febbf")
 	scanimage = "skrell_freighter.png"
 	designer = "Nralakk Federation"
-	volume = "WIP Volume"
-	drive = "Low-Speed Warp Acceleration FTL Drive"
-	weapons = "No visible armament, starboard obscured flight craft bay"
-	sizeclass = "Unidentified-type Retrofitted Federation Freighter"
+	volume = "37 meters length, 61 meters beam/width, 19 meters vertical height"
+	drive = "Mid-Speed Warp Acceleration FTL Drive"
+	weapons = "No visible armament, aft external flight craft bay"
+	sizeclass = "Xroquv-class Federation Freighter"
+	shiptype = "Luxupi Freighter"
 	class = "ISV"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
 	vessel_mass = 5000
-	fore_dir = NORTH
+	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_SMALL
 	initial_restricted_waypoints = list(
 		"Ti'Rakqi Shuttle" = list("nav_hangar_tirakqi_shuttle")
@@ -103,7 +104,7 @@
 	name = "Ti'Rakqi Shuttle"
 	class = "ISV"
 	designation = "Ku'ku"
-	desc = "WIP Desc"
+	desc = "Made to complement the Xroquv-class freighter, the Jloqup-class shuttle is a cargo transport designed to neatly into the aft shuttle bay of its parent ship. While faster than most shuttles of similar class, it finds a shortcoming in fuel efficiency, meaning it usually can't go far on its own. This one's transponder identifies it as belonging to an independent freighter."
 	shuttle = "Ti'Rakqi Shuttle"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
@@ -111,8 +112,12 @@
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000
-	fore_dir = NORTH
+	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
+	designer = "Nralakk Federation"
+	volume = "18 meters length, 10 meters beam/width, 4 meters vertical height"
+	sizeclass = "Jloqup-class Cargo Transport"
+	shiptype = "All-environment cargo transport"
 
 /obj/machinery/computer/shuttle_control/explore/tirakqi_smuggler_shuttle
 	name = "shuttle control console"
@@ -145,7 +150,9 @@
 	base_turf = /turf/space/transit/north
 
 
-// ==== CUSTOM STUFF ====
+
+// ====\/==== CUSTOM STUFF ====\/====
+
 // wall nav console
 /obj/machinery/computer/ship/navigation/wall
 	icon = 'icons/obj/modular_telescreen.dmi'
@@ -246,7 +253,7 @@
 	color = "#c8bbfc"
 
 // paper
-/obj/item/paper/tirakqi_smuggler/cache_list
+/obj/item/paper/tirakqi_smuggler
 	name = "IMPORTANT!"
 	desc = "A handwritten note."
 	info = "\
@@ -264,3 +271,10 @@
 		<br>\
 		VERY IMPORTANT - If we do get boarded, burn this paper immediately, and stash all the important stuff in these caches. Better hope you remember all this. <br>\
 		"
+
+/obj/item/paper/tirakqi_smuggler/Initialize()
+	. = ..()
+	var/languagetext = "\[lang=k\]"
+	languagetext += "[info]\[/lang\]"
+	info = parsepencode(languagetext)
+	icon_state = "paper_words"
