@@ -1,122 +1,126 @@
-/datum/map_template/ruin/away_site/kasf_corvette
-	name = "KASF Corvette"
-	description = "An older design of patrol corvette that saw its fair share of service in its golden days among the Xanu fleets, the Sai-class corvette would be considered obsolete by modern standards were it not retrofitted with newer weaponry, sensors, and other ship systems. In recent decades this class of ship has largely been mothballed by Xanu, but a large number were reactivated and donated when Konyang declared independence from Sol and joined the Coalition of Colonies. Now it serves an important role in the KASF, commonly seen combatting pirates and controlling the flow of refugees from the Wildlands."
-	suffixes = list("ships/konyang/kasf_ship/kasf_ship.dmm")
-	sectors = list(SECTOR_HANEUNIM)
+/datum/map_template/ruin/away_site/combat_destroyer
+	name = "Military Destroyer"
+	description = "WIP DESC"
+	suffixes = list("ships/adminspawn/combat_destroyer/combat_destroyer.dmm")
+	sectors = list(ALL_POSSIBLE_SECTORS)
 	spawn_weight = 1
 	ship_cost = 1
-	id = "kasf_corvette"
-	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/kasf_shuttle)
-
+	id = "combat_destroyer"
+	// shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/kasf_shuttle)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 	unit_test_groups = list(3)
 
-/singleton/submap_archetype/kasf_corvette
-	map = "KASF Corvette"
-	descriptor = "An older design of patrol corvette that saw its fair share of service in its golden days among the Xanu fleets, the Sai-class corvette would be considered obsolete by modern standards were it not retrofitted with newer weaponry, sensors, and other ship systems. In recent decades this class of ship has largely been mothballed by Xanu, but a large number were reactivated and donated when Konyang declared independence from Sol and joined the Coalition of Colonies. Now it serves an important role in the KASF, commonly seen combatting pirates and controlling the flow of refugees from the Wildlands."
+/singleton/submap_archetype/combat_destroyer
+	map = "Military Destroyer"
+	descriptor = "WIP DESC"
 
-/obj/effect/overmap/visitable/ship/kasf_corvette
-	name = "KASF Corvette"
-	class = "KASFV"
-	desc = "An older design of patrol corvette that saw its fair share of service in its golden days among the Xanu fleets, the Sai-class corvette would be considered obsolete by modern standards were it not retrofitted with newer weaponry, sensors, and other ship systems. In recent decades this class of ship has largely been mothballed by Xanu, but a large number were reactivated and donated when Konyang declared independence from Sol and joined the Coalition of Colonies. Now it serves an important role in the KASF, commonly seen combatting pirates and controlling the flow of refugees from the Wildlands."
+/obj/effect/overmap/visitable/ship/combat_destroyer
+	name = "Military Destroyer"
+	class = "MFV"
+	desc = "WIP DESC"
 	icon_state = "xansan"
 	moving_state = "xansan_moving"
 	colors = list("#8492fd", "#4d61fc")
 	scanimage = "ranger.png"
-	designer = "Coalition of Colonies, Xanu Prime"
-	volume = "54 meters length, 36 meters beam/width, 17 meters vertical height"
-	drive = "Low-Speed Warp Acceleration FTL Drive"
+	designer = "WIP DESIGNER"
+	volume = "WIP VOLUME"
+	drive = "Mid-Speed Warp Acceleration FTL Drive"
 	weapons = "Dual extruding fore-mounted medium caliber ballistic armament, aft obscured flight craft bay"
-	sizeclass = "Sai-class Corvette"
-	shiptype = "Military patrol and combat utility"
+	sizeclass = "WIP-CLASS DESTROYER"
+	shiptype = "WIP COMBAT UTILITY"
+	// Maybe increase speed and burn delay?
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
-	vessel_mass = 5000
+	// Large ship - Maybe make it 15000?
+	vessel_mass = 10000
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_SMALL
+	/*
 	initial_restricted_waypoints = list(
 		"KASF Shuttle" = list("nav_hangar_kasf")
 	)
-
+	*/
 	initial_generic_waypoints = list(
-		"nav_kasf_corvette_1",
-		"nav_kasf_corvette_2",
-		"nav_kasf_corvette_3",
-		"nav_kasf_corvette_4",
-		"nav_kasf_corvette_5",
-		"nav_kasf_corvette_6",
-		"nav_kasf_dock_starboard",
-		"nav_kasf_dock_port"
+		"nav_combat_destroyer_1",
+		"nav_combat_destroyer_2",
+		"nav_combat_destroyer_3",
+		"nav_combat_destroyer_4",
+		"nav_combat_destroyer_5",
+		"nav_combat_destroyer_6",
+		"nav_combat_destroyer_dock_starboard",
+		"nav_combat_destroyer_dock_port"
 	)
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/kasf_corvette/New()
-	designation = "[pick("Jiyu", "Fuchin", "Luren", "Pyeongon", "Kikai", "Fenjin", "Arashi", "Saikuron", "Senpo", "Suwon", "Kuenoi", "Kyung-Sun", "Nageune", "Singijeon", "Hyeopdo", "Dangpa")]"
+/obj/effect/overmap/visitable/ship/combat_destroyer/New()
+	designation = "[pick("WIP", "W-I-P")]"
 	..()
 
-/obj/effect/overmap/visitable/ship/kasf_corvette/get_skybox_representation()
+/obj/effect/overmap/visitable/ship/combat_destroyer/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "ranger")
 	skybox_image.pixel_x = rand(0,64)
 	skybox_image.pixel_y = rand(128,256)
 	return skybox_image
 
-/obj/effect/shuttle_landmark/kasf_corvette/nav1
+/obj/effect/shuttle_landmark/combat_destroyer/nav1
 	name = "Port Navpoint"
-	landmark_tag = "nav_kasf_corvette_1"
+	landmark_tag = "nav_combat_destroyer_1"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/kasf_corvette/nav2
+/obj/effect/shuttle_landmark/combat_destroyer/nav2
 	name = "Fore Navpoint"
-	landmark_tag = "nav_kasf_corvette_2"
+	landmark_tag = "nav_combat_destroyer_2"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/kasf_corvette/nav3
+/obj/effect/shuttle_landmark/combat_destroyer/nav3
 	name = "Starboard Navpoint"
-	landmark_tag = "nav_kasf_corvette_3"
+	landmark_tag = "nav_combat_destroyer_3"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/kasf_corvette/nav4
+/obj/effect/shuttle_landmark/combat_destroyer/nav4
 	name = "Aft Navpoint"
-	landmark_tag = "nav_kasf_corvette_4"
+	landmark_tag = "nav_combat_destroyer_4"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/kasf_corvette/nav5
+/obj/effect/shuttle_landmark/combat_destroyer/nav5
 	name = "Far Port Navpoint"
-	landmark_tag = "nav_kasf_corvette_5"
+	landmark_tag = "nav_combat_destroyer_5"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/kasf_corvette/nav6
+/obj/effect/shuttle_landmark/combat_destroyer/nav6
 	name = "Far Starboard Navpoint"
-	landmark_tag = "nav_kasf_corvette_6"
+	landmark_tag = "nav_combat_destroyer_6"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/kasf_corvette/transit
+/obj/effect/shuttle_landmark/combat_destroyer/transit
 	name = "In transit"
-	landmark_tag = "nav_transit_kasf_corvette"
+	landmark_tag = "nav_transit_combat_destroyer"
 	base_turf = /turf/space/transit/north
 
-/obj/effect/shuttle_landmark/kasf_corvette/starboard_dock
-	name = "KASF Starboard Dock"
-	landmark_tag = "nav_kasf_dock_starboard"
-	docking_controller = "airlock_kasf_dock_starboard"
+/obj/effect/shuttle_landmark/combat_destroyer/starboard_dock
+	name = "Military Destroyer Starboard Dock"
+	landmark_tag = "nav_combat_destroyer_dock_starboard"
+	docking_controller = "airlock_combat_destroyer_dock_starboard"
 	base_turf = /turf/space
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/kasf_corvette/port_dock
-	name = "KASF Port Dock"
-	landmark_tag = "nav_kasf_dock_port"
-	docking_controller = "airlock_kasf_dock_port"
+/obj/effect/shuttle_landmark/combat_destroyer/port_dock
+	name = "Military Destroyer Port Dock"
+	landmark_tag = "nav_combat_destroyer_dock_port"
+	docking_controller = "airlock_combat_destroyer_dock_port"
 	base_turf = /turf/space
 	base_area = /area/space
 
 
 //shuttle stuff
+/*
 /obj/effect/overmap/visitable/ship/landable/kasf_shuttle
 	name = "KASF Shuttle"
 	class = "KASFV"
@@ -164,3 +168,5 @@
 	name = "In transit"
 	landmark_tag = "nav_transit_kasf_shuttle"
 	base_turf = /turf/space/transit/north
+
+*/
