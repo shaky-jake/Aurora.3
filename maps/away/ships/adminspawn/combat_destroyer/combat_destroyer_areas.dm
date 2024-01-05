@@ -46,6 +46,15 @@
 /area/ship/combat_destroyer/docking_port_aft
 	name = "Combat Destroyer - Aft Docking Port Access"
 
+/area/ship/combat_destroyer/docking_port_aft_exterior_port
+	name = "Combat Destroyer - Aft Port Exterior Docking Port"
+
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard
+	name = "Combat Destroyer - Aft Starboard Exterior Docking Port"
+
+/area/ship/combat_destroyer/atmos
+	name = "Combat Destroyer - Atmospherics"
+
 /area/ship/combat_destroyer/fuel_bay_port
 	name = "Combat Destroyer - Port Fuel Bay"
 
@@ -82,8 +91,16 @@
 /area/ship/combat_destroyer/range
 	name = "Combat Destroyer - Firing Range"
 
+/area/ship/combat_destroyer/sec
+	name = "Combat Destroyer - Security"
+
+/area/ship/combat_destroyer/brig
+	name = "Combat Destroyer - Holding Cells"
+
 /area/ship/combat_destroyer/atmos
 	name = "Combat Destroyer - Atmospherics"
+
+
 
 
 // Central Section

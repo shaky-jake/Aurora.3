@@ -67,8 +67,9 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
 "aA" = (
+/obj/machinery/door/airlock/glass_security,
 /turf/simulated/floor/tiled/full,
-/area/space)
+/area/ship/combat_destroyer/sec)
 "aB" = (
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 1
@@ -145,6 +146,15 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_fighter)
+"aU" = (
+/turf/simulated/wall/r_wall,
+/area/ship/combat_destroyer/sec)
+"aY" = (
+/obj/machinery/power/apc/high/east{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/fuel_bay_starboard)
 "aZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -164,6 +174,12 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_port_hall_1)
+"bd" = (
+/obj/machinery/power/apc/high/west{
+	req_access = null
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/combat_destroyer/hangar_port)
 "bg" = (
 /obj/effect/landmark/entry_point/port{
 	name = "port, cockpit"
@@ -225,6 +241,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/engie)
+"bv" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/firedoor,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "bx" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/eva)
@@ -298,6 +318,9 @@
 /area/ship/combat_destroyer/fuel_bay_port)
 "bN" = (
 /obj/effect/floor_decal/industrial/warning,
+/obj/machinery/power/apc/super/critical/east{
+	req_access = null
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_port_maints_1)
 "bP" = (
@@ -312,6 +335,12 @@
 	},
 /turf/simulated/floor/reinforced/oxygen,
 /area/ship/combat_destroyer/atmos)
+"bQ" = (
+/obj/machinery/power/apc/high/west{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/fuel_bay_port)
 "bS" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
@@ -357,6 +386,9 @@
 "cl" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
+	},
+/obj/machinery/power/apc/high/east{
+	req_access = null
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/port_engie_maints)
@@ -411,7 +443,7 @@
 "cx" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/plating,
-/area/space)
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "cy" = (
 /obj/machinery/door/airlock{
 	dir = 4
@@ -444,6 +476,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/cic)
+"cI" = (
+/obj/structure/closet/secure_closet/brig,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "cJ" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/firedoor,
 /obj/machinery/door/blast/shutters{
@@ -461,6 +497,10 @@
 /obj/structure/table/wood,
 /turf/simulated/floor/wood,
 /area/space)
+"cO" = (
+/obj/machinery/door/airlock/external,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "cQ" = (
 /obj/effect/map_effect/map_helper/ruler_tiles_3,
 /turf/template_noop,
@@ -680,6 +720,12 @@
 	},
 /turf/simulated/floor/airless,
 /area/ship/combat_destroyer/fuel_bay_port)
+"eo" = (
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
+"eq" = (
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "et" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 1
@@ -696,6 +742,13 @@
 "eB" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/cic)
+"eC" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/alarm/south{
+	req_one_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/thruster_port_maints_2)
 "eD" = (
 /turf/simulated/wall/shuttle/space_ship,
 /area/ship/combat_destroyer/docking_port_starboard)
@@ -779,12 +832,21 @@
 	},
 /turf/simulated/floor/airless,
 /area/ship/combat_destroyer/fuel_bay_port)
+"fd" = (
+/obj/structure/table/reinforced/steel,
+/obj/machinery/door/window/desk/southright,
+/obj/machinery/door/blast/shutters/open,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "fe" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/yellow,
 /turf/simulated/wall/shuttle/space_ship,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "fg" = (
 /obj/effect/floor_decal/industrial/warning,
+/obj/machinery/power/apc/super/critical/west{
+	req_access = null
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "fn" = (
@@ -931,6 +993,9 @@
 	},
 /turf/simulated/floor/reinforced/airmix,
 /area/ship/combat_destroyer/atmos)
+"gq" = (
+/turf/simulated/wall/shuttle/space_ship,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "gr" = (
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
 	frequency = 1441;
@@ -968,6 +1033,13 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
+"gC" = (
+/obj/structure/table/rack,
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/reinforced,
+/area/ship/combat_destroyer/ammo_grau)
 "gD" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped{
@@ -989,12 +1061,12 @@
 "gH" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/plating,
-/area/space)
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "gN" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
 	},
-/obj/machinery/power/apc/critical/north{
+/obj/machinery/power/apc/super/critical/north{
 	req_access = null
 	},
 /turf/simulated/floor/tiled/dark,
@@ -1002,6 +1074,18 @@
 "gQ" = (
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_starboard)
+"gR" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_port_hall_2)
+"gS" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "gT" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/dark,
@@ -1014,6 +1098,12 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_port)
+"gW" = (
+/obj/machinery/power/apc/high/west{
+	req_access = null
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "gY" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped{
@@ -1060,6 +1150,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/combat_destroyer_fighter)
+"hf" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/obj/machinery/door/blast/regular/open{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "hg" = (
 /obj/machinery/computer/ship/navigation/terminal,
 /turf/simulated/floor/plating,
@@ -1191,6 +1288,15 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_port)
+"hG" = (
+/obj/structure/table/reinforced/steel,
+/obj/machinery/door/window/desk/southleft,
+/obj/machinery/door/firedoor/multi_tile{
+	req_one_access = null
+	},
+/obj/machinery/door/blast/shutters/open,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "hK" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/plating,
@@ -1225,6 +1331,12 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/cic)
+"hX" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/docking_port_starboard)
 "ic" = (
 /turf/unsimulated/wall/fakepdoor,
 /area/ship/combat_destroyer/hangar_starboard)
@@ -1407,6 +1519,18 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_fighter)
+"jJ" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/cargo)
+"jK" = (
+/obj/machinery/computer/ship/navigation/terminal{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "jL" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
@@ -1419,6 +1543,20 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/atmos)
+"jU" = (
+/obj/structure/table/rack,
+/obj/item/shield/riot,
+/obj/item/shield/riot,
+/obj/item/clothing/suit/armor/carrier/riot,
+/obj/item/clothing/suit/armor/carrier/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/window/brigdoor/southright,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "jY" = (
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 1
@@ -1568,6 +1706,14 @@
 "lg" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/hangar_starboard)
+"ln" = (
+/obj/structure/table/steel,
+/obj/item/deck/cards,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
+"lo" = (
+/turf/simulated/wall/shuttle/space_ship,
+/area/ship/combat_destroyer/sec)
 "lp" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -1764,6 +1910,12 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_transport)
+"mw" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_port_hall_1)
 "mx" = (
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
 /obj/structure/closet/firecloset,
@@ -1823,6 +1975,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_port)
+"mN" = (
+/turf/simulated/wall/r_wall,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "mQ" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/tank_wall/carbon_dioxide{
@@ -1855,6 +2010,12 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_fighter)
+"nc" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/janitor)
 "nd" = (
 /obj/structure/lattice/catwalk,
 /obj/item/hullbeacon/red,
@@ -1911,11 +2072,13 @@
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/ship/combat_destroyer/fuel_bay_port)
 "ny" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 6
+/obj/machinery/vending/security{
+	pixel_y = 24;
+	density = 0;
+	req_access = null
 	},
 /turf/simulated/floor/plating,
-/area/ship/combat_destroyer/thruster_starboard_maints_2)
+/area/ship/combat_destroyer/sec)
 "nB" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/storage/toolbox/mechanical,
@@ -1924,6 +2087,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
+"nI" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/central_hall_maints)
 "nJ" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped{
@@ -1980,6 +2150,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fuel_bay_port)
+"nZ" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/machinery/alarm/south{
+	req_one_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/thruster_starboard_maints_2)
 "oa" = (
 /obj/machinery/computer/general_air_control/large_tank_control/terminal{
 	input_tag = "combat_destroyer_starboard_co2_in";
@@ -1992,6 +2169,12 @@
 "oc" = (
 /obj/structure/table/reinforced/steel,
 /turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/eva)
+"oi" = (
+/obj/machinery/power/apc/high/east{
+	req_access = null
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/eva)
 "oj" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -2009,6 +2192,9 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_starboard)
+"ox" = (
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "oC" = (
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_port_hall_2)
@@ -2243,12 +2429,32 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
+"qc" = (
+/obj/structure/table/rack,
+/obj/item/shield/riot,
+/obj/item/shield/riot,
+/obj/item/clothing/suit/armor/carrier/riot,
+/obj/item/clothing/suit/armor/carrier/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor/southleft,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "qd" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/engie)
+"qi" = (
+/obj/machinery/computer/ship/navigation/terminal{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "qk" = (
 /obj/structure/platform_deco{
 	layer = 2.7;
@@ -2286,7 +2492,7 @@
 /obj/effect/floor_decal/industrial/outline,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /turf/simulated/floor/carpet/rubber,
-/area/space)
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "qq" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/tank_wall/carbon_dioxide{
@@ -2333,6 +2539,12 @@
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/ship/combat_destroyer/fuel_bay_starboard)
+"qO" = (
+/obj/structure/bed/stool/chair/plastic{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "qP" = (
 /obj/machinery/atmospherics/binary/pump/fuel{
 	dir = 8
@@ -2396,6 +2608,9 @@
 /obj/machinery/computer/ship/engines/terminal,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
+"rr" = (
+/turf/simulated/wall/r_wall,
+/area/ship/combat_destroyer/brig)
 "rw" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood,
@@ -2597,6 +2812,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
+/obj/machinery/power/apc/high/west{
+	req_access = null
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/starboard_engie_maints)
 "tc" = (
@@ -2708,6 +2926,12 @@
 "tJ" = (
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/range)
+"tO" = (
+/obj/structure/bed/stool{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "tU" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -2778,6 +3002,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
+"ul" = (
+/obj/machinery/power/apc/high/south{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hallway_port)
 "un" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -2824,6 +3054,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
+"ut" = (
+/obj/machinery/door/airlock/glass_security{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "uy" = (
 /obj/structure/tank_wall/carbon_dioxide{
 	icon_state = "co2-8"
@@ -2881,6 +3117,10 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
+"uM" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "uN" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -2900,6 +3140,28 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/cic)
+"uS" = (
+/obj/structure/table/rack,
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/reinforced,
+/area/ship/combat_destroyer/ammo_long)
+"uW" = (
+/obj/machinery/atmospherics/pipe/simple/visible/blue{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/power/apc/super/critical/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/atmos)
 "vb" = (
 /obj/machinery/computer/ship/navigation/terminal,
 /turf/simulated/floor/plating,
@@ -2978,6 +3240,9 @@
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
+"vq" = (
+/turf/simulated/floor/tiled/full,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "vt" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -3089,6 +3354,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_fighter)
+"vV" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/docking_port_port)
 "vW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -3172,8 +3443,9 @@
 /obj/machinery/atmospherics/binary/pump/fuel{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/hatch/yellow{
-	color = "#b19664"
+/obj/effect/floor_decal/industrial/loading{
+	color = "#b19664";
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
@@ -3218,6 +3490,12 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
+"wV" = (
+/obj/structure/bed/stool/chair/plastic{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "wX" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1
@@ -3254,6 +3532,9 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_fighter)
+"xf" = (
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "xm" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/atmos)
@@ -3332,6 +3613,10 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
+"xG" = (
+/obj/machinery/door/airlock/glass_security,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "xI" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
@@ -3422,9 +3707,23 @@
 "yt" = (
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fuel_bay_starboard)
+"yu" = (
+/obj/machinery/power/apc/high/west{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hangar_hallway_port)
+"yv" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/blue,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "yw" = (
 /obj/structure/sign/radiation{
 	pixel_x = -32
+	},
+/obj/machinery/power/apc/super/critical/south{
+	req_access = null
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/engie)
@@ -3502,6 +3801,12 @@
 	},
 /turf/simulated/floor/reinforced/airmix,
 /area/ship/combat_destroyer/atmos)
+"yO" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "yP" = (
 /obj/structure/bed/stool/chair/office/bridge/pilot,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -3527,6 +3832,9 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_transport)
+"yU" = (
+/turf/simulated/wall/shuttle/space_ship,
+/area/ship/combat_destroyer/brig)
 "yW" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/full,
@@ -3581,7 +3889,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/ship/combat_destroyer/sec)
 "zu" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
@@ -3608,6 +3916,10 @@
 /obj/structure/table/wood,
 /turf/simulated/floor/wood,
 /area/space)
+"zF" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "zH" = (
 /obj/structure/platform{
 	dir = 4
@@ -3625,6 +3937,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/atmos)
+"zP" = (
+/obj/structure/closet/walllocker/emerglocker/north,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "zQ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -3726,6 +4042,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/space)
+"AH" = (
+/obj/machinery/power/apc/super/critical/east{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/thruster_port_maints_2)
 "AI" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet,
@@ -3734,6 +4056,11 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
+"AL" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/obj/machinery/door/blast/regular/open,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "AM" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/blue{
 	dir = 8
@@ -3805,6 +4132,15 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_port)
+"Bc" = (
+/turf/simulated/wall/r_wall,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
+"Bd" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hallway)
 "Bf" = (
 /obj/structure/table/reinforced/steel,
 /turf/simulated/floor/tiled/dark/full,
@@ -3830,6 +4166,9 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_transport)
+"Bn" = (
+/turf/simulated/wall/shuttle/space_ship,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "Bp" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
@@ -3918,8 +4257,9 @@
 /obj/machinery/atmospherics/binary/pump/fuel{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/hatch/yellow{
-	color = "#b19664"
+/obj/effect/floor_decal/industrial/loading{
+	color = "#b19664";
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_port)
@@ -3957,6 +4297,12 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_port_hall_2)
+"Cy" = (
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "CD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
@@ -4167,6 +4513,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
+"DS" = (
+/obj/structure/closet/secure_closet/contraband{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "DU" = (
 /obj/structure/platform_stairs/full/east_west_cap{
 	dir = 8
@@ -4177,6 +4529,12 @@
 "DY" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
+"Ec" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_1)
 "Ef" = (
 /obj/structure/platform_deco{
 	dir = 8;
@@ -4191,10 +4549,20 @@
 "Ek" = (
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/cargo)
+"Em" = (
+/obj/machinery/door/airlock/external,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "Eo" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
 /turf/simulated/wall/shuttle/space_ship,
 /area/ship/combat_destroyer/thruster_port_maints_1)
+"Er" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/thruster_starboard_maints_2)
 "Et" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/bodybags,
@@ -4319,6 +4687,9 @@
 	},
 /turf/simulated/floor/redgrid,
 /area/ship/combat_destroyer/engie)
+"Fe" = (
+/turf/simulated/wall/shuttle/space_ship,
+/area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "Fg" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -4329,12 +4700,24 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/disposals)
+"Fn" = (
+/obj/machinery/power/apc/high/south{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hallway_starboard)
 "Fs" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fuel_bay_starboard)
+"Fv" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/range)
 "Fw" = (
 /obj/structure/platform{
 	pixel_y = 7
@@ -4423,6 +4806,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/atmos)
+"Gc" = (
+/obj/machinery/power/apc/super/critical/west{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/thruster_starboard_maints_2)
 "Gf" = (
 /obj/structure/table/standard,
 /obj/item/roller,
@@ -4980,6 +5369,13 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/eva)
+"JS" = (
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/obj/structure/table/standard,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/brig)
 "JV" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2
@@ -5105,6 +5501,12 @@
 /obj/machinery/computer/ship/engines/terminal,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
+"Kz" = (
+/obj/structure/bed/stool{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "KD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 5
@@ -5181,6 +5583,14 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_fighter)
+"Lb" = (
+/obj/effect/floor_decal/industrial/outline,
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "Ld" = (
 /obj/machinery/power/portgen/basic/fusion,
 /obj/machinery/light/small/emergency,
@@ -5212,6 +5622,9 @@
 /obj/machinery/atmospherics/portables_connector/fuel,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fuel_bay_starboard)
+"Lr" = (
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "Lt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /obj/machinery/meter,
@@ -5445,6 +5858,9 @@
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
+"MU" = (
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/combat_destroyer/brig)
 "MW" = (
 /obj/structure/bed/stool/chair/shuttle,
 /obj/machinery/atmospherics/unary/vent_pump/on,
@@ -5542,6 +5958,16 @@
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft)
+"Ns" = (
+/obj/machinery/papershredder{
+	pixel_x = -6
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "Nx" = (
 /obj/effect/decal/fake_object{
 	icon = 'icons/obj/machinery/fusion.dmi';
@@ -5757,6 +6183,9 @@
 	},
 /turf/simulated/floor/reinforced/oxygen,
 /area/ship/combat_destroyer/atmos)
+"OT" = (
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "OW" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/dark/full,
@@ -6173,6 +6602,17 @@
 "Rx" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/mechbay)
+"Ry" = (
+/obj/machinery/power/apc/high/east{
+	req_access = null
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/combat_destroyer/hangar_starboard)
+"RA" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/obj/machinery/door/blast/regular/open,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "RB" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
@@ -6393,6 +6833,17 @@
 /obj/machinery/light/small/emergency,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/combat_destroyer_transport)
+"SS" = (
+/obj/machinery/door/airlock/external,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/docking_port_aft_exterior_port)
+"SV" = (
+/turf/simulated/wall/shuttle/space_ship,
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
+"SX" = (
+/obj/structure/bed/stool/chair/office/dark,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "Td" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner_wide/paleblue{
@@ -6575,6 +7026,9 @@
 /obj/structure/bed/stool/chair/office/bridge/generic,
 /turf/simulated/floor/wood,
 /area/space)
+"TT" = (
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "TU" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
@@ -6734,13 +7188,19 @@
 "US" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/firedoor,
 /turf/simulated/floor/plating,
-/area/space)
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "UX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
+"UY" = (
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "Vb" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 5
@@ -6799,7 +7259,7 @@
 /obj/effect/floor_decal/industrial/outline,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /turf/simulated/floor/carpet/rubber,
-/area/space)
+/area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "Vo" = (
 /obj/structure/tank_wall/nitrogen{
 	icon_state = "n8"
@@ -7032,6 +7492,10 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_aft)
+"WZ" = (
+/obj/structure/reagent_dispensers/keg/beerkeg,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "Xa" = (
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
@@ -7074,6 +7538,12 @@
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/eva)
+"Xl" = (
+/obj/machinery/power/apc/high/east{
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hangar_hallway_starboard)
 "Xn" = (
 /obj/structure/tank_wall/air{
 	density = 0;
@@ -7364,6 +7834,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_starboard)
+"Zc" = (
+/turf/simulated/floor/tiled/full,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "Zh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -7397,6 +7870,9 @@
 /obj/effect/map_effect/marker_helper/airlock/out,
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
+"Zr" = (
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/combat_destroyer/sec)
 "Zs" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1
@@ -29369,8 +29845,8 @@ QT
 QT
 QT
 QT
-rJ
-eF
+gq
+Bc
 Vc
 Vc
 wC
@@ -29626,8 +30102,8 @@ QT
 QT
 QT
 QT
-rJ
-eF
+gq
+Bc
 Vc
 Vc
 wC
@@ -29883,9 +30359,9 @@ QT
 QT
 QT
 QT
-rJ
-rJ
-eF
+gq
+gq
+Bc
 wC
 wC
 wC
@@ -30131,18 +30607,18 @@ wC
 wC
 tk
 Gp
-rJ
-rJ
-rJ
-rJ
-Jj
-Jj
-Jj
+SV
+SV
+SV
+SV
+ox
+ox
+ox
 QT
 QT
-QT
-rJ
-eF
+qi
+gq
+Bc
 wC
 wC
 wC
@@ -30388,18 +30864,18 @@ wC
 cQ
 tk
 Gp
-rJ
-YR
-YR
-rJ
-YR
-YR
+SV
+eo
+eo
+SV
+eo
+eo
 US
 QT
 QT
-QT
-rJ
-eF
+qi
+gq
+Bc
 wC
 wC
 wC
@@ -30646,18 +31122,18 @@ wC
 tk
 Vc
 cx
-YR
-YR
+eo
+eo
 cx
-YR
-YR
+eo
+eo
 gH
 QT
 QT
-Jj
-rJ
-rJ
-eF
+Lr
+gq
+gq
+Bc
 wC
 wC
 wC
@@ -30902,19 +31378,19 @@ wC
 wC
 tk
 Gp
-rJ
-YR
-YR
-rJ
+SV
+eo
+eo
+SV
 qp
 qp
-Jj
+ox
 QT
 QT
-Jj
-YR
-rJ
-eF
+Lr
+WZ
+gq
+Bc
 wC
 wC
 wC
@@ -31159,20 +31635,20 @@ wC
 cQ
 gD
 lO
-rJ
-rJ
-rJ
-rJ
-rJ
-rJ
-Jj
+SV
+SV
+SV
+SV
+SV
+SV
+ox
+aR
+aR
+Lr
 QT
-QT
-Jj
-YR
-rJ
-rJ
-eF
+Kz
+gq
+Bc
 wC
 wC
 wC
@@ -31415,21 +31891,21 @@ wC
 wC
 wC
 KX
-eF
-rJ
-rJ
-YR
-YR
-YR
-YR
-Jj
-aR
-aR
-Jj
-YR
-YR
-rJ
-eF
+rr
+yU
+eq
+yv
+MU
+eq
+yv
+MU
+QT
+QT
+Lr
+QT
+ln
+gq
+Bc
 wC
 wC
 wC
@@ -31672,21 +32148,21 @@ wC
 wC
 wC
 nd
-eF
-rJ
-YR
-YR
-YR
-YR
-YR
-Jj
+rr
+yU
+zP
+cI
+MU
+zP
+cI
+MU
+gS
 QT
+Zc
 QT
-Jj
-YR
-YR
-rJ
-eF
+tO
+gq
+Bc
 wC
 wC
 wC
@@ -31928,22 +32404,22 @@ wC
 wC
 wC
 cQ
-wC
-eF
-rJ
-Jj
-Jj
-YR
-YR
-Jj
-Jj
+rr
+rr
+yU
+ut
+AL
+MU
+ut
+MU
+MU
 QT
 QT
-Jj
-rJ
-rJ
-rJ
-rJ
+Lr
+gq
+gq
+gq
+gq
 wC
 wC
 wC
@@ -32185,22 +32661,22 @@ wC
 wC
 wC
 wC
-eF
-rJ
-rJ
-YR
-YR
-YR
-YR
-Jj
+rr
+yU
+JS
+eq
+eq
+eq
+eq
+MU
 QT
 QT
 QT
 QT
-rJ
-YR
-YR
-rJ
+gq
+QT
+QT
+gq
 wC
 wC
 wC
@@ -32442,22 +32918,22 @@ wC
 Sn
 wC
 wC
-eF
-rJ
-YR
-YR
-YR
-YR
-YR
-Jj
+rr
+yU
+uM
+eq
+eq
+eq
+wV
+hf
 QT
 QT
 QT
 QT
-cx
-YR
-YR
-cx
+Em
+QT
+QT
+Em
 wC
 wC
 wC
@@ -32698,23 +33174,23 @@ wC
 wC
 wC
 wC
-eF
-rJ
-rJ
-YR
-YR
-YR
-YR
-YR
-Jj
+aU
+lo
+lo
+RA
+RA
+eq
+eq
+uM
+hf
 QT
 QT
 vp
 vp
-rJ
-YR
-YR
-rJ
+gq
+QT
+QT
+gq
 wC
 wC
 wC
@@ -32955,24 +33431,24 @@ wC
 wC
 wC
 wC
-eF
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
-Jj
+aU
+lo
+qc
+xf
+xG
+eq
+eq
+qO
+hf
 QT
 QT
 Pp
 Pp
 qS
 qS
-rJ
-rJ
-rJ
+Mu
+Mu
+Mu
 wC
 wC
 wC
@@ -33212,15 +33688,15 @@ wC
 wC
 wC
 wC
-eF
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
-Jj
+aU
+lo
+jU
+xf
+lo
+lo
+lo
+lo
+Zr
 vP
 aZ
 Pp
@@ -33468,15 +33944,15 @@ wC
 wC
 wC
 wC
-eF
-rJ
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
+aU
+lo
+lo
+ny
+xf
+xG
+xf
+xf
+xf
 aA
 vP
 QT
@@ -33725,20 +34201,20 @@ wC
 wC
 wC
 wC
-eF
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-Jj
+aU
+lo
+DS
+xf
+xf
+lo
+yO
+xf
+Cy
+Zr
 vP
 sL
 Pp
-Un
+uS
 Un
 Pp
 BW
@@ -33981,17 +34457,17 @@ wC
 wC
 wC
 wC
-eF
-rJ
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-Jj
+aU
+lo
+lo
+DS
+xf
+SX
+hG
+xf
+xf
+Cy
+Zr
 aR
 aR
 Pp
@@ -34238,17 +34714,17 @@ wC
 wC
 wC
 wC
-eF
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-Jj
+aU
+lo
+lo
+Ns
+xf
+xf
+fd
+UY
+xf
+Cy
+Zr
 mD
 mD
 mD
@@ -34502,10 +34978,10 @@ XK
 XK
 XK
 XK
-rJ
-Jj
+lo
 zs
-Jj
+Zr
+Zr
 mD
 mD
 mD
@@ -34757,11 +35233,11 @@ Rb
 Rb
 XK
 Rb
-Rb
+Gc
 Rb
 XK
-ny
 gB
+Er
 DY
 DY
 WG
@@ -34795,7 +35271,7 @@ Ew
 sC
 CV
 lg
-gQ
+hX
 sz
 Af
 IB
@@ -35024,7 +35500,7 @@ Di
 WG
 mD
 sD
-dk
+Fv
 dk
 dk
 dk
@@ -36310,7 +36786,7 @@ mD
 Lj
 Lj
 Lj
-mD
+Ec
 mD
 ct
 wM
@@ -36814,7 +37290,7 @@ wC
 mE
 XK
 Rb
-gB
+nZ
 Nz
 oa
 Fs
@@ -37110,7 +37586,7 @@ NG
 HN
 xC
 cT
-xC
+Fn
 bx
 Xk
 Xk
@@ -37591,7 +38067,7 @@ Lo
 qT
 Fs
 Nz
-yt
+aY
 yt
 yt
 Lj
@@ -37614,7 +38090,7 @@ lg
 NG
 YZ
 sS
-NG
+Ry
 YZ
 sS
 NG
@@ -37886,7 +38362,7 @@ OW
 Dz
 yA
 yA
-yA
+oi
 yA
 yA
 yA
@@ -38379,7 +38855,7 @@ HH
 HH
 HH
 HH
-HH
+Xl
 HH
 II
 HH
@@ -39182,7 +39658,7 @@ Jj
 Jj
 Jj
 Jj
-Ix
+gW
 JF
 Ix
 Jj
@@ -39646,7 +40122,7 @@ dN
 Hh
 lK
 xm
-jZ
+uW
 VL
 xm
 vD
@@ -39946,7 +40422,7 @@ Id
 Fw
 rH
 eB
-tm
+Bd
 cU
 tm
 KQ
@@ -41977,7 +42453,7 @@ le
 le
 le
 le
-le
+yu
 le
 WH
 le
@@ -41999,7 +42475,7 @@ eB
 eB
 eB
 eB
-Hz
+nc
 Hz
 Hz
 Ou
@@ -42731,7 +43207,7 @@ pR
 Jc
 HB
 Oo
-oG
+bQ
 oG
 oG
 bU
@@ -42754,7 +43230,7 @@ vd
 MD
 Fg
 yI
-MD
+bd
 Fg
 yI
 MD
@@ -43028,7 +43504,7 @@ UO
 SO
 SO
 SO
-wj
+nI
 Pw
 SO
 cU
@@ -43278,7 +43754,7 @@ MD
 LY
 uJ
 Ms
-uJ
+ul
 SO
 wj
 wj
@@ -43496,7 +43972,7 @@ wC
 Qo
 AQ
 JC
-UJ
+eC
 Oo
 Px
 HB
@@ -44020,7 +44496,7 @@ nn
 bU
 bU
 bU
-nn
+mw
 nn
 Po
 wd
@@ -45304,7 +45780,7 @@ Oi
 xI
 nn
 Au
-Ek
+jJ
 Qv
 Qv
 Qv
@@ -45551,7 +46027,7 @@ JC
 JC
 AQ
 JC
-JC
+AH
 JC
 AQ
 xD
@@ -45589,7 +46065,7 @@ LY
 kO
 Pb
 vd
-Xw
+vV
 cu
 PZ
 QR
@@ -46588,7 +47064,7 @@ Xy
 AN
 xz
 FT
-Ti
+gC
 Ti
 FT
 Ek
@@ -47615,12 +48091,12 @@ Qh
 yW
 oC
 oC
+Lb
+Lb
+Bn
 oC
 oC
-rJ
-YR
-YR
-rJ
+Bn
 wC
 wC
 wC
@@ -47874,10 +48350,10 @@ oC
 oC
 oC
 oC
-cx
-YR
-YR
-cx
+cO
+oC
+oC
+cO
 wC
 wC
 wC
@@ -48121,7 +48597,7 @@ wC
 wC
 Ps
 uc
-uc
+Qh
 Qh
 Qh
 Qh
@@ -48131,10 +48607,10 @@ oC
 oC
 oC
 oC
-rJ
-YR
-YR
-rJ
+Bn
+oC
+oC
+Bn
 wC
 wC
 wC
@@ -48376,7 +48852,7 @@ wC
 wC
 wC
 cQ
-wC
+Ps
 Ps
 uc
 Rx
@@ -48387,11 +48863,11 @@ Rx
 Rx
 oC
 oC
-Jj
-rJ
-rJ
-rJ
-rJ
+YY
+Bn
+Bn
+Bn
+Bn
 wC
 wC
 wC
@@ -48642,13 +49118,13 @@ Qh
 Qh
 Qh
 Rx
-Ct
-Ct
-Jj
-YR
-YR
-rJ
-eF
+gR
+oC
+vq
+oC
+oC
+Bn
+mN
 wC
 wC
 wC
@@ -48901,11 +49377,11 @@ Qh
 Rx
 oC
 oC
-Jj
-YR
-YR
-rJ
-eF
+YY
+oC
+oC
+Bn
+mN
 wC
 wC
 wC
@@ -49149,20 +49625,20 @@ wC
 cQ
 Wz
 Xo
-rJ
-rJ
-rJ
-rJ
-rJ
-rJ
-Jj
+Fe
+Fe
+Fe
+Fe
+Fe
+Fe
+TT
+Ct
+Ct
+YY
 oC
-oC
-Jj
-YR
-rJ
-rJ
-eF
+Bn
+Bn
+mN
 wC
 wC
 wC
@@ -49406,19 +49882,19 @@ wC
 wC
 tk
 Gp
-rJ
-YR
-YR
-rJ
+Fe
+OT
+OT
+Fe
 Vl
 Vl
-Jj
+TT
 oC
 oC
-Jj
-YR
-rJ
-eF
+YY
+oC
+Bn
+mN
 wC
 wC
 wC
@@ -49663,19 +50139,19 @@ wC
 wC
 tk
 Vc
-cx
-YR
-YR
-cx
-YR
-YR
-gH
+SS
+OT
+OT
+SS
+OT
+OT
+zF
 oC
 oC
-Jj
-rJ
-rJ
-eF
+YY
+Bn
+Bn
+mN
 wC
 wC
 wC
@@ -49920,18 +50396,18 @@ wC
 cQ
 tk
 Gp
-rJ
-YR
-YR
-rJ
-YR
-YR
-US
+Fe
+OT
+OT
+Fe
+OT
+OT
+bv
 oC
 oC
-oC
-rJ
-eF
+jK
+Bn
+mN
 wC
 wC
 wC
@@ -50177,18 +50653,18 @@ wC
 wC
 tk
 Gp
-rJ
-rJ
-rJ
-rJ
-Jj
-Jj
-Jj
+Fe
+Fe
+Fe
+Fe
+TT
+TT
+TT
 oC
 oC
-oC
-rJ
-eF
+jK
+Bn
+mN
 wC
 wC
 wC
@@ -50443,9 +50919,9 @@ oC
 oC
 oC
 oC
-rJ
-rJ
-eF
+Bn
+Bn
+mN
 wC
 wC
 wC
@@ -50700,8 +51176,8 @@ oC
 oC
 oC
 oC
-rJ
-eF
+Bn
+mN
 Vc
 Vc
 wC
@@ -50957,8 +51433,8 @@ oC
 oC
 oC
 oC
-rJ
-eF
+Bn
+mN
 Vc
 Vc
 wC
