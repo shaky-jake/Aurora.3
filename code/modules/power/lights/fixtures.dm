@@ -80,6 +80,26 @@
 	fitting_has_empty_icon = TRUE
 	fitting_is_on_floor = TRUE
 
+/obj/machinery/light/floor/decayed
+	brightness_color = LIGHT_COLOR_DECAYED
+	randomize_color = FALSE
+
+/obj/machinery/light/floor/decayed/dimmed
+	name = "floor lighting fixture"
+	brightness_power = 0.3
+
+/obj/machinery/light/floor/blue
+	brightness_color = LIGHT_COLOR_BLUE
+	randomize_color = FALSE
+
+/obj/machinery/light/floor/cyan
+	brightness_color = LIGHT_COLOR_CYAN
+	randomize_color = FALSE
+
+/obj/machinery/light/floor/red
+	brightness_color = LIGHT_COLOR_RED
+	randomize_color = FALSE
+
 // the smaller bulb light fixture
 
 /obj/machinery/light/small
@@ -126,6 +146,10 @@
 /obj/machinery/light/colored/decayed
 	brightness_color = LIGHT_COLOR_DECAYED
 	randomize_color = FALSE
+
+/obj/machinery/light/colored/decayed/dimmed
+	name = "light fixture"
+	brightness_power = 0.2
 
 /obj/machinery/light/colored/dying
 	brightness_color = LIGHT_COLOR_DYING

@@ -6,7 +6,7 @@
 	spawn_weight = 1
 	ship_cost = 1
 	id = "combat_destroyer"
-	// shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/kasf_shuttle)
+	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/combat_destroyer_transport, /datum/shuttle/autodock/overmap/combat_destroyer_fighter)
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 	unit_test_groups = list(3)
 
@@ -35,11 +35,12 @@
 	vessel_mass = 20000
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_LARGE
-	/*
+
 	initial_restricted_waypoints = list(
-		"KASF Shuttle" = list("nav_hangar_kasf")
+		"Troop Transport" = list("nav_hangar_combat_destroyer_transport"),
+		"Space Superiority Fighter" = list("nav_hangar_combat_destroyer_Fighter")
 	)
-	*/
+
 	initial_generic_waypoints = list(
 		"nav_combat_destroyer_1",
 		"nav_combat_destroyer_2",
@@ -119,63 +120,104 @@
 	base_area = /area/space
 
 
-//shuttle stuff
-/*
-/obj/effect/overmap/visitable/ship/landable/kasf_shuttle
-	name = "KASF Shuttle"
-	class = "KASFV"
+//shuttle - transport
+
+/obj/effect/overmap/visitable/ship/landable/combat_destroyer_transport
+	name = "Troop Transport"
+	class = "MFV"
 	designation = "Kuoyu"
-	desc = "Somewhat bulky by modern standards, the aging Stalwart-class transport is a vessel being phased out of service in Xanu fleets to make way for newer, more efficient transports. Though considered obsolete compared to its successor shuttles, this transport is still reliable enough that it's seen extensive use by Konyang's Aerospace Forces in recent years."
-	shuttle = "KASF Shuttle"
+	desc = "WIP DESC"
+	shuttle = "Troop Transport"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
 	colors = list("#8492fd", "#4d61fc")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000 //very inefficient pod
-	fore_dir = NORTH
+	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
-	designer = "Coalition of Colonies, Xanu Prime"
-	volume = "12 meters length, 7 meters beam/width, 4 meters vertical height"
-	sizeclass = "Stalwart-class Transport Craft"
+	designer = "WIP DESIGNER"
+	volume = "WIP VOLUME"
+	sizeclass = "WIP Transport Craft"
 	shiptype = "All-environment troop transport"
 
-/obj/machinery/computer/shuttle_control/explore/terminal/kasf_shuttle
+/obj/machinery/computer/shuttle_control/explore/terminal/combat_destroyer_transport
 	name = "shuttle control console"
-	shuttle_tag = "KASF Shuttle"
+	shuttle_tag = "Troop Transport"
 
-/datum/shuttle/autodock/overmap/kasf_shuttle
-	name = "KASF Shuttle"
+/datum/shuttle/autodock/overmap/combat_destroyer_transport
+	name = "Troop Transport"
 	move_time = 20
-	shuttle_area = list(/area/shuttle/kasf_shuttle)
-	current_location = "nav_hangar_kasf"
-	dock_target = "airlock_kasf_shuttle"
-	landmark_transition = "nav_transit_kasf_shuttle"
+	shuttle_area = list(/area/shuttle/combat_destroyer_transport)
+	current_location = "nav_hangar_combat_destroyer_transport"
+	dock_target = "airlock_combat_destroyer_transport"
+	landmark_transition = "nav_transit_combat_destroyer_transport"
 	range = 1
 	fuel_consumption = 2
-	logging_home_tag = "nav_hangar_kasf"
+	logging_home_tag = "nav_hangar_combat_destroyer_transport"
 	defer_initialisation = TRUE
 
-/obj/effect/shuttle_landmark/kasf_shuttle/hangar
-	name = "KASF Shuttle Hangar"
-	landmark_tag = "nav_hangar_kasf"
-	docking_controller = "kasf_shuttle_dock"
-	base_area = /area/ship/kasf_corvette/hangar
-	base_turf = /turf/simulated/floor
+/obj/effect/shuttle_landmark/combat_destroyer_transport/hangar
+	name = "Troop Transport Hangar"
+	landmark_tag = "nav_hangar_combat_destroyer_transport"
+	docking_controller = "combat_destroyer_transport_dock"
+	base_area = /area/shuttle/combat_destroyer_transport
+	base_turf = /turf/simulated/floor/plating
 	movable_flags = MOVABLE_FLAG_EFFECTMOVE
 
-/obj/effect/shuttle_landmark/kasf_shuttle/transit
+/obj/effect/shuttle_landmark/combat_destroyer_transport/transit
 	name = "In transit"
-	landmark_tag = "nav_transit_kasf_shuttle"
+	landmark_tag = "nav_transit_combat_destroyer_transport"
 	base_turf = /turf/space/transit/north
 
-*/
 
-// custom stuff
-/obj/machinery/light/floor/blue
-	brightness_color = "#6496FA"
-	randomize_color = FALSE
+// shuttle - fighter
 
-/obj/machinery/light/floor/red
-	brightness_color = "#FA8282"
-	randomize_color = FALSE
+/obj/effect/overmap/visitable/ship/landable/combat_destroyer_fighter
+	name = "Space Superiority Fighter"
+	class = "MFV"
+	designation = "Kuoyu"
+	desc = "WIP DESC"
+	shuttle = "Space Superiority Fighter"
+	icon_state = "shuttle"
+	moving_state = "shuttle_moving"
+	colors = list("#8492fd", "#4d61fc")
+	max_speed = 1/(3 SECONDS)
+	burn_delay = 2 SECONDS
+	vessel_mass = 3000 //very inefficient pod
+	fore_dir = SOUTH
+	vessel_size = SHIP_SIZE_TINY
+	designer = "WIP DESIGNER"
+	volume = "WIP VOLUME"
+	sizeclass = "WIP Transport Craft"
+	shiptype = "All-environment troop transport"
+
+/obj/machinery/computer/shuttle_control/explore/terminal/combat_destroyer_fighter
+	name = "shuttle control console"
+	shuttle_tag = "Space Superiority Fighter"
+
+/datum/shuttle/autodock/overmap/combat_destroyer_fighter
+	name = "Space Superiority Fighter"
+	move_time = 20
+	shuttle_area = list(/area/shuttle/combat_destroyer_fighter)
+	current_location = "nav_hangar_combat_destroyer_fighter"
+	dock_target = "airlock_combat_destroyer_fighter"
+	landmark_transition = "nav_transit_combat_destroyer_fighter"
+	range = 1
+	fuel_consumption = 2
+	logging_home_tag = "nav_hangar_combat_destroyer_fighter"
+	defer_initialisation = TRUE
+
+/obj/effect/shuttle_landmark/combat_destroyer_fighter/hangar
+	name = "Space Superiority Fighter Hangar"
+	landmark_tag = "nav_hangar_combat_destroyer_fighter"
+	docking_controller = "combat_destroyer_fighter_dock"
+	base_area = /area/shuttle/combat_destroyer_fighter
+	base_turf = /turf/simulated/floor/plating
+	movable_flags = MOVABLE_FLAG_EFFECTMOVE
+
+/obj/effect/shuttle_landmark/combat_destroyer_fighter/transit
+	name = "In transit"
+	landmark_tag = "nav_transit_combat_destroyer_fighter"
+	base_turf = /turf/space/transit/north
+

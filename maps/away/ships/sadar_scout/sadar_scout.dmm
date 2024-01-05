@@ -134,14 +134,14 @@
 /area/shuttle/sadar_shuttle)
 "aX" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/light/floor/decayed{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
 /obj/structure/bed/handrail{
 	dir = 8
+	},
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/wep)
@@ -528,14 +528,14 @@
 /turf/simulated/floor/grass,
 /area/ship/sadar_scout/hydro)
 "cS" = (
-/obj/machinery/light/floor/decayed{
-	dir = 8
-	},
 /obj/machinery/power/apc/west{
 	req_access = null
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
+	},
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/mainhall)
@@ -832,14 +832,14 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/eva)
 "fX" = (
-/obj/machinery/light/floor/decayed{
-	dir = 8
-	},
 /obj/structure/bed/handrail{
 	dir = 4
 	},
 /obj/structure/closet/walllocker/emerglocker/north,
 /obj/item/storage/bag/inflatable/emergency,
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/forehall)
 "ga" = (
@@ -921,13 +921,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/obj/machinery/light/floor/decayed,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /obj/structure/bed/handrail{
 	dir = 4
 	},
+/obj/machinery/light/floor/decayed/dimmed,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/atmos)
 "gM" = (
@@ -971,14 +971,14 @@
 /obj/machinery/alarm/north{
 	req_one_access = null
 	},
-/obj/machinery/light/floor/decayed{
-	dir = 1
-	},
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 10
 	},
 /obj/structure/bed/handrail,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/med)
 "hn" = (
@@ -2101,16 +2101,13 @@
 	dir = 10
 	},
 /obj/structure/closet/walllocker/emerglocker/north,
-/obj/machinery/light/floor/decayed{
+/obj/item/storage/bag/inflatable/emergency,
+/obj/machinery/light/floor/decayed/dimmed{
 	dir = 1
 	},
-/obj/item/storage/bag/inflatable/emergency,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/med)
 "po" = (
-/obj/machinery/light/floor/decayed{
-	dir = 8
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -2118,6 +2115,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/light/floor/decayed/dimmed{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
@@ -2147,14 +2147,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/obj/machinery/light/floor/decayed{
-	dir = 8
-	},
 /obj/structure/bed/handrail{
 	dir = 4;
 	pixel_x = -3;
 	name = "terminal handrail";
 	pixel_y = 2
+	},
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/thrusters)
@@ -2857,11 +2857,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/thrusters)
 "vi" = (
-/obj/machinery/light/floor/decayed{
-	dir = 8
-	},
 /obj/structure/bed/handrail{
 	dir = 4
+	},
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/mainhall)
@@ -2895,14 +2895,6 @@
 	color = "#BCA77E"
 	},
 /area/ship/sadar_scout/wep)
-"vA" = (
-/obj/structure/bed/handrail,
-/obj/machinery/light/floor/decayed{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
-/area/ship/sadar_scout/eva)
 "vF" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/structure/cable{
@@ -3023,11 +3015,11 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/machinery/light/floor/decayed{
-	dir = 8
-	},
 /obj/structure/bed/handrail{
 	dir = 4
+	},
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/forehall)
@@ -4528,11 +4520,11 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/light/floor/decayed{
-	dir = 4
-	},
 /obj/structure/bed/handrail,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/thrusters)
 "Ik" = (
@@ -4692,7 +4684,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/obj/machinery/light/floor/decayed,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
@@ -4700,16 +4691,17 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/decayed/dimmed,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/atmos)
 "JK" = (
-/obj/machinery/light/floor/decayed{
-	dir = 8
-	},
 /obj/structure/bed/handrail{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/forehall)
 "JL" = (
@@ -4976,11 +4968,11 @@
 	pixel_y = 6;
 	pixel_x = 6
 	},
-/obj/machinery/light/floor/decayed{
-	dir = 1
-	},
 /obj/structure/sink/kitchen{
 	pixel_y = 28
+	},
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 1
 	},
 /turf/simulated/floor/grass,
 /area/ship/sadar_scout/hydro)
@@ -6101,11 +6093,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/solars)
 "TA" = (
-/obj/machinery/light/floor/decayed{
-	dir = 8
-	},
 /obj/structure/bed/handrail{
 	dir = 4
+	},
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/forehall)
@@ -6389,14 +6381,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
-/obj/machinery/light/floor/decayed{
-	dir = 4
-	},
 /obj/structure/bed/handrail{
 	dir = 8;
 	pixel_x = 3;
 	name = "terminal handrail";
 	pixel_y = 2
+	},
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/thrusters)
@@ -6562,10 +6554,10 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/light/floor/decayed{
+/obj/structure/bed/handrail,
+/obj/machinery/light/floor/decayed/dimmed{
 	dir = 8
 	},
-/obj/structure/bed/handrail,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/thrusters)
 "WB" = (
@@ -6648,11 +6640,11 @@
 /turf/simulated/floor/grass,
 /area/ship/sadar_scout/hydro)
 "WV" = (
-/obj/machinery/light/floor/decayed{
-	dir = 8
-	},
 /obj/structure/bed/handrail{
 	dir = 4
+	},
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/eva)
@@ -6685,11 +6677,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/bridge)
 "Xe" = (
-/obj/machinery/light/floor/decayed{
-	dir = 1
-	},
 /obj/structure/bed/handrail,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/decayed/dimmed{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/eva)
 "Xl" = (
@@ -6767,10 +6759,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/sadar_scout/mainhall)
 "XJ" = (
-/obj/machinery/light/floor/decayed{
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/decayed/dimmed{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/cic)
 "XN" = (
@@ -6964,10 +6956,10 @@
 /turf/simulated/floor/plating,
 /area/ship/sadar_scout/eva)
 "ZD" = (
-/obj/machinery/light/floor/decayed{
+/obj/structure/bed/handrail,
+/obj/machinery/light/floor/decayed/dimmed{
 	dir = 1
 	},
-/obj/structure/bed/handrail,
 /turf/simulated/floor/tiled/dark,
 /area/ship/sadar_scout/cic)
 "ZO" = (
@@ -38473,7 +38465,7 @@ ro
 Ea
 Uz
 Ea
-vA
+Xe
 nj
 Ea
 Vj
