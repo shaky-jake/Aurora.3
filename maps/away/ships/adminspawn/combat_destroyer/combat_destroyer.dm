@@ -175,3 +175,7 @@
 /obj/machinery/light/floor/blue
 	brightness_color = "#6496FA"
 	randomize_color = FALSE
+
+/obj/machinery/light/floor/red
+	brightness_color = "#FA8282"
+	randomize_color = FALSE
