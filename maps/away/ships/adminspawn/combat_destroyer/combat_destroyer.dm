@@ -31,10 +31,10 @@
 	// Maybe increase speed and burn delay?
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
-	// Large ship - Maybe make it 15000?
-	vessel_mass = 15000
+	// very large ship
+	vessel_mass = 20000
 	fore_dir = SOUTH
-	vessel_size = SHIP_SIZE_SMALL
+	vessel_size = SHIP_SIZE_LARGE
 	/*
 	initial_restricted_waypoints = list(
 		"KASF Shuttle" = list("nav_hangar_kasf")
@@ -170,3 +170,8 @@
 	base_turf = /turf/space/transit/north
 
 */
+
+// custom stuff
+/obj/machinery/light/floor/blue
+	brightness_color = "#6496FA"
+	randomize_color = FALSE
