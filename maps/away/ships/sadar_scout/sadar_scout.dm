@@ -8,7 +8,7 @@
 	ship_cost = 1
 	id = "sadar_scout"
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/sadar_shuttle)
-	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
+
 	unit_test_groups = list(3)
 
 /singleton/submap_archetype/sadar_scout
