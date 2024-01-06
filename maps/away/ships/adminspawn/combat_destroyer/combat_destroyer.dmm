@@ -70,13 +70,10 @@
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
 	},
-/obj/machinery/power/apc/super/critical/north{
-	req_access = null
+/obj/machinery/light/floor{
+	dir = 8
 	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled,
 /area/space)
 "am" = (
 /obj/effect/decal/fake_object{
@@ -220,21 +217,8 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_port_maints_2)
 "aC" = (
-/obj/effect/decal/fake_object{
-	icon_state = "bus";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "bus mainframe";
-	density = 1;
-	layer = 2.96;
-	pixel_y = 6
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/structure/bed/stool/bar,
+/turf/simulated/floor/plating,
 /area/space)
 "aD" = (
 /obj/structure/tank_wall/carbon_dioxide{
@@ -315,15 +299,9 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_port)
 "aM" = (
-/obj/effect/decal/fake_object{
-	icon_state = "processor";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "input processor";
-	density = 1;
-	pixel_x = -6;
-	layer = 2.9
-	},
-/turf/template_noop,
+/obj/effect/map_effect/window_spawner/full/mercernary,
+/obj/structure/grille/over,
+/turf/simulated/floor/plating,
 /area/space)
 "aN" = (
 /obj/machinery/computer/ship/engines/terminal{
@@ -364,37 +342,16 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_fighter)
 "aU" = (
-/obj/machinery/telecomms/allinone/ship{
-	pixel_y = 0;
-	layer = 2.99;
-	pixel_x = -1
-	},
-/obj/effect/decal/fake_object{
-	density = 1;
-	desc = "A bland air conditioning unit.";
-	icon = 'icons/effects/city.dmi';
-	icon_state = "ac";
-	name = "AC unit";
-	pixel_y = 22;
-	pixel_x = -1;
-	layer = 2.98
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/simulated/floor/wood,
 /area/space)
 "aV" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
+/obj/machinery/door/firedoor/noid{
+	dir = 4
 	},
-/obj/structure/extinguisher_cabinet/north{
-	pixel_y = 28
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "aW" = (
 /obj/structure/cable{
@@ -478,6 +435,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/cic)
+"bj" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/shuttle_landmark{
+	dir = 1
+	},
+/turf/template_noop,
+/area/space)
 "bk" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/atmospherics/binary/pump/on{
@@ -944,11 +908,13 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "cA" = (
-/obj/machinery/computer/ship/navigation/terminal{
-	dir = 4;
-	light_color = "#6496FA"
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
 	},
-/turf/simulated/floor/carpet/rubber,
+/obj/machinery/light/floor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "cB" = (
 /obj/effect/floor_decal/corner/red{
@@ -1230,16 +1196,11 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/hallway_port)
 "dB" = (
-/obj/structure/table/rack,
-/obj/item/tank/jetpack/carbondioxide,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/freelancer,
-/obj/item/clothing/head/helmet/space/void/freelancer,
-/obj/machinery/alarm/north{
-	req_one_access = null
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
 	},
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/carpet/rubber,
+/obj/effect/floor_decal/industrial/outline/emergency_closet,
+/turf/simulated/floor/tiled,
 /area/space)
 "dC" = (
 /obj/structure/lattice/catwalk,
@@ -1322,20 +1283,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/atmos)
 "dO" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
-/obj/machinery/light/floor/red{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "dP" = (
 /obj/structure/cable{
@@ -1365,13 +1316,8 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_port)
 "dR" = (
-/obj/effect/decal/fake_object{
-	icon = 'icons/obj/machinery/fusion.dmi';
-	icon_state = "core";
-	name = "Coolant Tubes";
-	dir = 4
-	},
-/turf/template_noop,
+/obj/effect/floor_decal/industrial/outline/firefighting_closet,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "dS" = (
 /obj/effect/floor_decal/corner/beige{
@@ -1608,8 +1554,9 @@
 /turf/simulated/floor/airless,
 /area/ship/combat_destroyer/fuel_bay_starboard)
 "eF" = (
-/turf/simulated/wall/r_wall,
-/area/space)
+/obj/structure/bed/stool,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "eG" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1682,10 +1629,16 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/cic)
 "eO" = (
-/obj/effect/floor_decal/industrial/loading/security{
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/structure/railing/mapped,
+/obj/machinery/shipsensors/strong{
+	pixel_y = 16;
+	pixel_x = -1
+	},
+/turf/simulated/floor/airless,
 /area/space)
 "eP" = (
 /obj/structure/cable{
@@ -1714,7 +1667,10 @@
 	dir = 8;
 	light_color = "#6496FA"
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/hallway_port)
 "eU" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -1799,25 +1755,21 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "fh" = (
-/obj/structure/table/reinforced/steel{
-	pixel_x = 3
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.95;
+	dir = 4
+	},
+/obj/machinery/cryopod{
+	layer = 2.94
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "fj" = (
-/obj/structure/platform{
-	dir = 1
+/obj/effect/floor_decal/corner/green{
+	dir = 5
 	},
-/obj/machinery/light/floor,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled,
 /area/space)
 "fl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
@@ -1906,16 +1858,12 @@
 /turf/simulated/floor/airless,
 /area/ship/combat_destroyer/fuel_bay_starboard)
 "fw" = (
-/obj/structure/lattice/catwalk/indoor/grate/dark,
-/obj/structure/cable{
-	icon_state = "1-8"
+/obj/structure/table/standard,
+/obj/item/storage/box/fancy/tray,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 6
 	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "fy" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -1943,9 +1891,13 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/docking_port_aft)
 "fK" = (
-/obj/structure/dispenser/oxygen,
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/carpet/rubber,
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "fL" = (
 /obj/machinery/ship_weapon/francisca/compact{
@@ -2087,19 +2039,8 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
 "gk" = (
-/obj/structure/platform_deco{
-	layer = 2.7
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/structure/table/standard,
+/turf/simulated/floor/plating,
 /area/space)
 "gm" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2221,7 +2162,7 @@
 	},
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/glass/destroyer,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "gJ" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -2283,8 +2224,13 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
 "gP" = (
-/obj/effect/map_effect/window_spawner/full/borosilicate/reinforced/firedoor,
-/turf/simulated/floor/tiled/full,
+/obj/machinery/door/airlock/multi_tile/glass{
+	door_color = "#475057"
+	},
+/obj/machinery/door/firedoor/multi_tile{
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "gQ" = (
 /turf/simulated/floor/plating,
@@ -2418,10 +2364,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/disposals)
 "hc" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/space)
 "hd" = (
 /obj/structure/bed/stool/chair/office/bridge/generic{
@@ -2436,21 +2382,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/combat_destroyer_fighter)
 "hf" = (
-/obj/effect/decal/fake_object{
-	icon_state = "comm_server";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "telecommunications server";
-	density = 1;
-	pixel_x = 2;
-	pixel_y = -1
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "hg" = (
 /obj/machinery/computer/ship/navigation/terminal{
@@ -2496,13 +2429,14 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/atmos)
 "hl" = (
-/obj/effect/decal/fake_object{
-	icon_state = "tech_processor";
-	icon = 'icons/obj/machinery/research.dmi';
-	name = "quantum processor";
-	density = 1
+/obj/machinery/door/firedoor/noid{
+	dir = 4
 	},
-/turf/template_noop,
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
 /area/space)
 "hm" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -2579,16 +2513,14 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "hx" = (
-/obj/structure/cable{
-	icon_state = "2-8"
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "hy" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -2626,19 +2558,8 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/cic)
 "hC" = (
-/obj/structure/table/reinforced/steel,
-/obj/machinery/cell_charger{
-	pixel_y = 8;
-	pixel_x = 1
-	},
-/obj/item/storage/bag/inflatable{
-	pixel_y = -8;
-	pixel_x = -2
-	},
-/obj/item/storage/bag/inflatable{
-	pixel_y = -4;
-	pixel_x = 2
-	},
+/obj/structure/cryofeed/pipes,
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "hD" = (
@@ -2854,15 +2775,8 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/port_engie_maints)
 "io" = (
-/obj/structure/lattice/catwalk/indoor/grate/dark,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -2911,10 +2825,10 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_port)
 "iu" = (
-/obj/effect/floor_decal/corner/blue{
+/obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "ix" = (
 /obj/effect/decal/fake_object{
@@ -3040,13 +2954,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_starboard)
 "iP" = (
-/obj/effect/decal/fake_object{
-	icon_state = "broadcast receiver";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "broadcast reciever";
-	density = 1
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
 	},
-/turf/template_noop,
+/turf/simulated/floor/reinforced,
 /area/space)
 "iQ" = (
 /obj/effect/map_effect/window_spawner/full/mercernary,
@@ -3072,23 +2984,20 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/eva)
 "iV" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
+/obj/machinery/door/firedoor/noid{
+	dir = 4
 	},
-/obj/effect/floor_decal/corner/red{
-	dir = 6
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
-/area/space)
+/turf/simulated/floor/tiled/full,
+/area/ship/combat_destroyer/hallway_starboard)
 "iX" = (
-/obj/effect/decal/fake_object{
-	icon_state = "comm_server";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "telecommunications server";
-	density = 1;
-	pixel_x = -14
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/firedoor/noid{
+	dir = 4
 	},
-/turf/template_noop,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "iY" = (
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -3100,16 +3009,11 @@
 /turf/simulated/floor/tiled/full,
 /area/space)
 "iZ" = (
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "server";
-	density = 1;
-	pixel_y = 20;
-	layer = 2;
-	pixel_x = -2
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
 	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "ja" = (
 /obj/effect/decal/fake_object{
@@ -3245,13 +3149,19 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "jr" = (
-/turf/simulated/wall/shuttle/space_ship,
-/area/ship/combat_destroyer/docking_port_port)
-"js" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 6
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/light/floor{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"js" = (
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
 /area/space)
 "ju" = (
 /obj/machinery/computer/ship/sensors/terminal{
@@ -3287,19 +3197,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hangar_starboard)
 "jD" = (
-/obj/effect/decal/fake_object{
-	icon_state = "blackbox";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "blackbox";
-	density = 1
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/simulated/floor/plating,
 /area/space)
 "jE" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -3359,7 +3260,10 @@
 	dir = 1;
 	light_color = "#6496FA"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_port_hall_2)
 "jL" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -3381,45 +3285,21 @@
 /turf/simulated/floor/airless,
 /area/space)
 "jN" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/obj/machinery/disposal/small/north,
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/loading/security{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/plating,
 /area/space)
 "jQ" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/cargo)
 "jR" = (
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "server";
-	density = 1;
-	pixel_y = 20;
-	layer = 2;
-	pixel_x = -11
+/obj/machinery/door/firedoor/noid{
+	dir = 4
 	},
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "server";
-	density = 1;
-	pixel_y = 20;
-	layer = 2;
-	pixel_x = 12
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4
 	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "jT" = (
 /obj/structure/tank_wall/nitrogen{
@@ -3477,12 +3357,8 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_port)
 "kc" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/recharge_station,
-/turf/simulated/floor/plating,
-/area/space)
+/turf/simulated/floor/tiled/dark,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "kg" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3754,13 +3630,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "kY" = (
-/obj/structure/table/rack,
-/obj/item/tank/jetpack/carbondioxide,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/freelancer,
-/obj/item/clothing/head/helmet/space/void/freelancer,
-/obj/effect/floor_decal/industrial/outline/security,
-/turf/simulated/floor/carpet/rubber,
+/obj/effect/map_effect/window_spawner/full/mercernary,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "lb" = (
 /obj/structure/cable{
@@ -3785,11 +3656,8 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_port)
 "lf" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/effect/floor_decal/corner/red{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/map_effect/window_spawner/full/mercernary,
+/turf/simulated/floor/plating,
 /area/space)
 "lg" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
@@ -3831,21 +3699,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "lo" = (
-/obj/effect/decal/fake_object{
-	icon_state = "bus";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "bus mainframe";
-	density = 1;
-	pixel_y = 14;
-	layer = 2.97
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 8
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/simulated/floor/tiled,
 /area/space)
 "lp" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -3974,20 +3831,14 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "lE" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/obj/machinery/disposal/small/north,
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/loading/yellow{
+/obj/machinery/door/airlock/glass/destroyer{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "lH" = (
 /obj/machinery/computer/ship/targeting/terminal{
@@ -4027,14 +3878,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "lN" = (
-/obj/machinery/power/apc/high/east{
-	req_access = null
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
-/obj/structure/cable,
-/obj/effect/floor_decal/corner/red{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/reinforced,
 /area/space)
 "lO" = (
 /obj/structure/lattice/catwalk,
@@ -4115,14 +3963,8 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "lY" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/space)
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "lZ" = (
 /obj/effect/landmark/entry_point/starboard{
 	name = "starboard, fuel compartment"
@@ -4176,10 +4018,9 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_port)
 "mo" = (
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/starboard_engie_maints)
 "mp" = (
 /obj/structure/tank_wall/air{
@@ -4297,19 +4138,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/aft_starboard_hall_1)
 "mE" = (
-/obj/effect/decal/fake_object{
-	icon_state = "processor";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "input processor";
-	density = 1
+/obj/effect/floor_decal/corner/blue{
+	dir = 8
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/simulated/floor/tiled,
 /area/space)
 "mF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
@@ -4381,8 +4213,13 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "mN" = (
-/turf/simulated/wall/r_wall,
-/area/ship/combat_destroyer/aft_port_hall_2)
+/obj/structure/table/standard,
+/obj/item/storage/box/fancy/tray,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "mQ" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/tank_wall/carbon_dioxide{
@@ -4412,10 +4249,10 @@
 /turf/simulated/floor/reinforced/oxygen,
 /area/ship/combat_destroyer/atmos)
 "mU" = (
-/obj/effect/floor_decal/corner/red{
+/obj/effect/floor_decal/corner/dark_blue/full{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled,
 /area/space)
 "mV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4475,9 +4312,14 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_fighter)
 "nh" = (
-/obj/machinery/suit_cycler/freelancer,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/carpet/rubber,
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "mil_crewman";
+	name = "igs - usf crewman"
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "nn" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -4511,25 +4353,17 @@
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
 "nt" = (
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "server";
-	density = 1;
-	pixel_y = 20;
-	layer = 2;
-	pixel_x = 12
+/obj/structure/closet/crate/freezer{
+	name = "Fridge"
 	},
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "server";
-	density = 1;
-	pixel_y = 20;
-	layer = 2;
-	pixel_x = -11
+/obj/item/storage/box/freezer/organcooler,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
 	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "nu" = (
 /obj/structure/disposalpipe/segment,
@@ -4590,11 +4424,12 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "nB" = (
-/obj/structure/table/reinforced/steel,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/belt/utility{
-	pixel_y = 14
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.91;
+	dir = 4
 	},
+/obj/machinery/cryopod,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "nD" = (
@@ -4829,20 +4664,15 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_port)
 "op" = (
-/obj/structure/platform_deco{
-	layer = 2.7;
-	dir = 1
+/obj/machinery/door/firedoor/multi_tile{
+	req_one_access = null;
+	dir = 2
 	},
-/obj/structure/cable{
-	icon_state = "2-8"
+/obj/machinery/door/airlock/multi_tile/glass{
+	door_color = "#475057";
+	dir = 2
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "oq" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -4860,31 +4690,23 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_starboard)
 "ot" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/effect/floor_decal/corner/red/full{
+/obj/effect/floor_decal/spline/plain/paleblue{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "ou" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hangar_port)
 "ov" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
-/obj/machinery/light/floor/cyan{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/door/firedoor/noid,
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "ow" = (
 /obj/structure/disposalpipe/segment{
@@ -4913,14 +4735,14 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "oA" = (
-/obj/structure/platform{
-	dir = 8;
-	pixel_x = 4
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
 	},
-/obj/machinery/computer/ship/sensors/terminal{
-	light_color = "#6496FA"
+/obj/effect/ghostspawpoint{
+	identifier = "mil_crewman";
+	name = "igs - usf crewman"
 	},
-/turf/simulated/floor/carpet/rubber,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "oB" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
@@ -5083,13 +4905,11 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "pc" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 4
 	},
-/obj/effect/floor_decal/corner/blue{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/template_noop,
 /area/space)
 "pd" = (
 /obj/machinery/atmospherics/binary/passive_gate/on{
@@ -5140,19 +4960,8 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway)
 "ph" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 9
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/door/airlock/external,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "pi" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
@@ -5263,11 +5072,7 @@
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_transport)
 "py" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/firedoor/noid,
-/obj/machinery/door/airlock/glass/destroyer,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/full,
 /area/space)
 "pz" = (
@@ -5315,13 +5120,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "pF" = (
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "server";
-	density = 1
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
-/turf/template_noop,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "pH" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -5508,7 +5310,10 @@
 	dir = 1;
 	light_color = "#6496FA"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "qj" = (
 /obj/effect/floor_decal/industrial/hatch/red,
@@ -5627,19 +5432,8 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "qx" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/blue{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "qz" = (
 /obj/effect/floor_decal/industrial/hatch/red,
@@ -5663,16 +5457,13 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "qB" = (
-/obj/structure/table/rack,
-/obj/item/tank/jetpack/carbondioxide,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/freelancer,
-/obj/item/clothing/head/helmet/space/void/freelancer,
-/obj/effect/floor_decal/industrial/outline/security,
-/obj/machinery/alarm/north{
-	req_one_access = null
+/obj/structure/mirror{
+	pixel_y = 32
 	},
-/turf/simulated/floor/carpet/rubber,
+/obj/structure/sink{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "qC" = (
 /obj/structure/cable{
@@ -5767,31 +5558,12 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/atmos)
 "qS" = (
-/obj/effect/decal/fake_object{
-	icon_state = "processor";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "input processor";
-	density = 1;
-	pixel_x = -6;
-	layer = 2.9;
-	pixel_y = -2
+/obj/machinery/optable,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
 	},
-/obj/effect/decal/fake_object{
-	icon_state = "relay";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "comm relay";
-	density = 1;
-	pixel_x = 12;
-	layer = 2.99;
-	pixel_y = -1
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "qT" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -5809,6 +5581,32 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
+"qV" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/sharps{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	icon_state = "sterilesprayblue";
+	name = "surgery cleaner";
+	pixel_y = 12;
+	pixel_x = 10
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/storage/box/masks{
+	pixel_x = -1;
+	pixel_y = 8
+	},
+/obj/effect/floor_decal/corner_wide/paleblue/full{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "qX" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
@@ -5825,13 +5623,14 @@
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_fighter)
 "qZ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.91
 	},
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
+/obj/machinery/cryopod{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "ra" = (
 /obj/machinery/light/floor/red,
@@ -5881,32 +5680,13 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "rr" = (
-/obj/effect/decal/fake_object{
-	density = 1;
-	desc = "A bland air conditioning unit.";
-	icon = 'icons/effects/city.dmi';
-	icon_state = "ac";
-	layer = 2.7;
-	name = "AC unit"
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "ru" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	pixel_y = 0
-	},
-/obj/machinery/light/floor/red,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/dark_blue/full,
+/turf/simulated/floor/tiled,
 /area/space)
 "rw" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -6031,13 +5811,17 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/cic)
 "rI" = (
-/obj/effect/decal/fake_object{
-	icon = 'icons/obj/machinery/fusion.dmi';
-	icon_state = "injector-emitting";
-	name = "Coolant Tubes";
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/obj/machinery/light/floor{
 	dir = 4
 	},
-/turf/template_noop,
+/obj/effect/ghostspawpoint{
+	identifier = "mil_crewman";
+	name = "igs - usf crewman"
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "rJ" = (
 /turf/simulated/wall/shuttle/space_ship,
@@ -6067,8 +5851,10 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_starboard_hall_1)
 "rP" = (
-/obj/structure/table/reinforced/steel,
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "rQ" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
@@ -6140,13 +5926,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
 "rW" = (
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "comm hub";
-	density = 1
+/obj/effect/floor_decal/spline/plain/corner/blue{
+	dir = 4
 	},
-/turf/template_noop,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "rY" = (
 /obj/effect/floor_decal/industrial/hatch/red,
@@ -6256,12 +6039,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_port)
 "so" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/firedoor/noid,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/glass/destroyer,
-/turf/simulated/floor/tiled/full,
+/obj/structure/cryofeed/pipes{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "sp" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -6284,10 +6066,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/engie)
 "sr" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 9
+/obj/structure/bed/stool/bar{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/space)
 "ss" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -6445,29 +6227,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_starboard)
 "sU" = (
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "comm hub";
-	density = 1;
-	layer = 2.95;
-	pixel_y = -2
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
 	},
-/obj/effect/decal/fake_object{
-	icon_state = "broadcast receiver";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "broadcast reciever";
-	density = 1;
-	pixel_y = 13;
-	layer = 2.9
-	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/simulated/floor/tiled,
 /area/space)
 "sV" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -6741,13 +6504,8 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "tI" = (
-/obj/effect/decal/fake_object{
-	icon_state = "blackbox";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "blackbox";
-	density = 1
-	},
-/turf/template_noop,
+/obj/structure/undies_wardrobe,
+/turf/simulated/floor/carpet/rubber,
 /area/space)
 "tJ" = (
 /obj/structure/cable{
@@ -6775,7 +6533,7 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "tM" = (
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hallway)
 "tN" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -6847,15 +6605,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/atmos)
 "tY" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/machinery/door/blast/odin/open{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/firedoor/noid,
 /turf/simulated/floor/tiled/full,
 /area/space)
@@ -7115,8 +6865,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_fighter)
 "uI" = (
-/obj/machinery/light/floor/red,
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/door/firedoor/noid,
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/simulated/floor/plating,
 /area/space)
 "uJ" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -7276,25 +7028,7 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/brig)
 "vg" = (
-/obj/structure/table/reinforced/steel,
-/obj/item/device/gps{
-	pixel_x = 7;
-	pixel_y = 8
-	},
-/obj/item/device/gps{
-	pixel_y = 8
-	},
-/obj/item/device/gps{
-	pixel_x = -7;
-	pixel_y = 8
-	},
-/obj/item/device/gps{
-	pixel_x = 7
-	},
-/obj/item/device/gps,
-/obj/item/device/gps{
-	pixel_x = -7
-	},
+/obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "vh" = (
@@ -7584,19 +7318,21 @@
 /turf/simulated/wall/shuttle/space_ship,
 /area/ship/combat_destroyer/docking_port_aft)
 "wc" = (
-/obj/structure/platform{
-	dir = 8
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.89
 	},
-/obj/structure/railing/mapped{
-	dir = 4
+/obj/machinery/cryopod{
+	dir = 4;
+	layer = 2.88
 	},
-/obj/structure/lattice/catwalk/indoor/grate/dark,
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/structure/cryofeed/pipes{
+	layer = 2.87
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/obj/machinery/computer/cryopod{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "wd" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -7782,8 +7518,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_hall_1)
 "wP" = (
-/obj/effect/floor_decal/corner/red,
-/turf/simulated/floor/tiled/dark,
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
 /area/space)
 "wQ" = (
 /obj/structure/cable{
@@ -7897,19 +7635,13 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "xj" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+/obj/effect/floor_decal/spline/plain/paleblue{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/red{
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "xl" = (
 /obj/machinery/light/floor/decayed,
@@ -8028,10 +7760,8 @@
 /turf/simulated/floor/reinforced/nitrogen,
 /area/ship/combat_destroyer/atmos)
 "xC" = (
-/obj/machinery/computer/ship/targeting/terminal{
-	light_color = "#FA8282"
-	},
-/turf/simulated/floor/carpet/rubber,
+/obj/effect/floor_decal/corner/dark_blue,
+/turf/simulated/floor/tiled,
 /area/space)
 "xD" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -8104,10 +7834,12 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fuel_bay_starboard)
 "xL" = (
-/obj/effect/floor_decal/industrial/loading/yellow{
+/obj/effect/floor_decal/industrial/outline,
+/obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/turf/simulated/floor/carpet/rubber,
 /area/space)
 "xM" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -8168,19 +7900,11 @@
 /turf/template_noop,
 /area/space)
 "xU" = (
-/obj/effect/decal/fake_object{
-	icon_state = "broadcast receiver";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "broadcast reciever";
-	density = 1
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "xV" = (
 /obj/structure/cable{
@@ -8240,26 +7964,14 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hallway_starboard)
 "ye" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 5
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 1
 	},
-/obj/structure/filingcabinet/filingcabinet{
-	pixel_x = 10;
-	pixel_y = 1
-	},
-/obj/machinery/papershredder{
-	pixel_x = -6
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "yh" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/bed/stool/chair,
+/turf/simulated/floor/plating,
 /area/space)
 "yi" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -8282,20 +7994,8 @@
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/ship/combat_destroyer/fuel_bay_port)
 "yk" = (
-/obj/structure/platform{
-	dir = 4
-	},
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/lattice/catwalk/indoor/grate/dark,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
-/area/space)
+/turf/simulated/floor/tiled/dark,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "yl" = (
 /obj/machinery/light/colored/red,
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -8483,7 +8183,7 @@
 /obj/machinery/alarm/south{
 	req_one_access = null
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "yO" = (
 /obj/machinery/power/apc/high/north{
@@ -8531,30 +8231,10 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_starboard)
 "yU" = (
-/obj/effect/decal/fake_object{
-	icon_state = "blackbox";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "blackbox";
-	density = 1;
-	pixel_y = 1
+/obj/effect/floor_decal/corner/green{
+	dir = 9
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/obj/effect/decal/fake_object{
-	density = 1;
-	desc = "A bland air conditioning unit.";
-	icon = 'icons/effects/city.dmi';
-	icon_state = "ac";
-	name = "AC unit";
-	pixel_y = 22;
-	pixel_x = -1;
-	layer = 2.98
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/simulated/floor/tiled,
 /area/space)
 "yV" = (
 /obj/structure/cable{
@@ -8767,7 +8447,7 @@
 	},
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/glass/destroyer,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "zH" = (
 /obj/structure/platform{
@@ -8857,21 +8537,14 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/fuel_bay_port)
 "zT" = (
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "comm hub";
-	density = 1
+/obj/machinery/computer/ship/navigation/terminal{
+	dir = 4;
+	light_color = "#6496FA"
 	},
-/obj/effect/decal/fake_object{
-	icon_state = "broadcast receiver";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "broadcast reciever";
-	density = 1;
-	pixel_y = 14;
-	layer = 2.9
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 4
 	},
-/turf/template_noop,
+/turf/simulated/floor/carpet/rubber,
 /area/space)
 "zU" = (
 /obj/machinery/door/firedoor/noid{
@@ -9267,23 +8940,8 @@
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_fighter)
 "AU" = (
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/structure/railing/mapped,
-/obj/machinery/light/floor/red{
-	dir = 1;
-	pixel_y = 4
-	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/carpet/rubber,
 /area/space)
 "AV" = (
 /obj/machinery/computer/ship/engines/terminal{
@@ -9309,8 +8967,14 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_port)
 "Bc" = (
-/turf/simulated/wall/r_wall,
-/area/ship/combat_destroyer/aft_starboard_hall_2)
+/obj/machinery/computer/operating/terminal{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_wide/paleblue/full{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "Bd" = (
 /obj/machinery/power/apc/high/north{
 	req_access = null
@@ -9324,14 +8988,14 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway)
 "Be" = (
-/obj/machinery/telecomms/allinone/ship,
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	dir = 4
 	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/machinery/cryopod{
+	layer = 2.98
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Bf" = (
 /obj/structure/table/reinforced/steel{
@@ -9545,16 +9209,8 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hallway_starboard)
 "BS" = (
-/obj/structure/platform_deco{
-	dir = 8;
-	layer = 2.7;
-	pixel_x = 4
-	},
-/obj/structure/platform_deco{
-	layer = 2.7;
-	pixel_x = 4
-	},
-/turf/simulated/floor/carpet/rubber,
+/obj/machinery/door/airlock/external,
+/turf/simulated/floor/plating,
 /area/space)
 "BT" = (
 /obj/structure/cable{
@@ -9612,8 +9268,11 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/docking_port_port)
 "Ca" = (
-/turf/simulated/wall/shuttle/space_ship,
-/area/ship/combat_destroyer/hangar_starboard)
+/obj/effect/floor_decal/corner/green{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "Cb" = (
 /turf/simulated/floor/tiled/full,
 /area/space)
@@ -9695,7 +9354,8 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "Cs" = (
-/turf/simulated/floor/bluegrid/cooled,
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "Ct" = (
 /obj/effect/floor_decal/industrial/hatch/red,
@@ -9705,17 +9365,14 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_port_hall_2)
 "Cv" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 5
+/obj/structure/cryofeed{
+	pixel_y = -9
 	},
-/obj/structure/reagent_dispensers/water_cooler{
-	pixel_x = -9
+/obj/machinery/cryopod{
+	dir = 4;
+	layer = 2.98
 	},
-/obj/structure/closet/crate/bin{
-	name = "trashbin";
-	pixel_x = 8
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Cw" = (
 /obj/structure/cable{
@@ -9847,10 +9504,9 @@
 /turf/simulated/floor/reinforced/nitrogen,
 /area/ship/combat_destroyer/atmos)
 "CM" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/obj/machinery/portable_atmospherics/hydroponics,
+/obj/effect/floor_decal/industrial/outline/service,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "CN" = (
 /obj/structure/bed/handrail{
@@ -10050,15 +9706,10 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway)
 "Dr" = (
-/obj/effect/decal/fake_object{
-	icon_state = "tech_processor";
-	icon = 'icons/obj/machinery/research.dmi';
-	name = "quantum processor";
-	density = 1;
-	pixel_y = 0;
-	pixel_x = -3
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 8
 	},
-/turf/template_noop,
+/turf/simulated/floor/tiled,
 /area/space)
 "Ds" = (
 /turf/unsimulated/wall/fakepdoor,
@@ -10079,18 +9730,11 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_port_maints_2)
 "Dy" = (
-/obj/structure/platform_stairs/full/east_west_cap{
-	pixel_x = 4
+/obj/machinery/computer/operating/terminal{
+	dir = 4
 	},
-/obj/structure/platform/cutout{
-	dir = 8;
-	pixel_x = 4
-	},
-/obj/structure/platform{
-	dir = 1;
-	pixel_x = 4
-	},
-/turf/simulated/floor/carpet/rubber,
+/obj/effect/floor_decal/corner_wide/paleblue/full,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "Dz" = (
 /turf/simulated/floor/tiled/dark/full,
@@ -10149,11 +9793,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "DH" = (
-/obj/machinery/computer/ship/sensors/terminal{
-	dir = 8;
-	light_color = "#6496FA"
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 4
 	},
-/turf/simulated/floor/carpet/rubber,
+/turf/simulated/floor/tiled,
 /area/space)
 "DI" = (
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -10254,7 +9897,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "DU" = (
 /obj/structure/platform_stairs/full/east_west_cap{
@@ -10343,11 +9986,16 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "En" = (
-/obj/machinery/computer/ship/navigation/terminal{
-	dir = 1;
-	light_color = "#6496FA"
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 8
 	},
-/turf/simulated/floor/carpet/rubber,
+/obj/structure/railing/mapped,
+/obj/machinery/iff_beacon/name_change{
+	pixel_x = 1;
+	pixel_y = 16
+	},
+/turf/simulated/floor/airless,
 /area/space)
 "Eo" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
@@ -10397,7 +10045,10 @@
 /obj/machinery/alarm/east{
 	req_one_access = null
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/hallway_port)
 "Ey" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -10597,19 +10248,15 @@
 /turf/simulated/floor/redgrid,
 /area/ship/combat_destroyer/engie)
 "Fe" = (
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "comm hub";
-	density = 1
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.93
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
+/obj/machinery/cryopod{
+	dir = 4;
+	layer = 2.92
 	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Fg" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -10838,7 +10485,10 @@
 /obj/machinery/alarm/west{
 	req_one_access = null
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/hallway_starboard)
 "FX" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/firedoor,
@@ -11020,10 +10670,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "Gw" = (
-/obj/machinery/computer/ship/navigation/terminal{
-	dir = 4
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 1
 	},
-/turf/simulated/floor/carpet/rubber,
+/turf/simulated/floor/tiled,
 /area/space)
 "GA" = (
 /obj/machinery/light/floor/red{
@@ -11066,13 +10716,9 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hangar_hallway_port)
 "GL" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/machinery/door/firedoor/noid,
+/turf/simulated/floor/plating,
 /area/space)
 "GN" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -11187,13 +10833,15 @@
 /turf/simulated/floor/bluegrid/cooled,
 /area/ship/combat_destroyer/cic)
 "Hb" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.97;
+	dir = 4
 	},
-/obj/effect/floor_decal/corner/red{
-	dir = 9
+/obj/machinery/cryopod{
+	layer = 2.96
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Hc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
@@ -11392,15 +11040,8 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "HM" = (
-/obj/effect/decal/fake_object{
-	density = 1;
-	desc = "A bland air conditioning unit.";
-	icon = 'icons/effects/city.dmi';
-	icon_state = "ac";
-	layer = 2.7;
-	name = "AC unit"
-	},
-/turf/template_noop,
+/obj/structure/table/stone/marble,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "HN" = (
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -11707,11 +11348,13 @@
 /turf/simulated/floor/tiled/full,
 /area/shuttle/combat_destroyer_transport)
 "IG" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/effect/floor_decal/corner/blue{
-	dir = 5
+/obj/structure/toilet{
+	pixel_y = 16
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "IH" = (
 /obj/effect/decal/fake_object{
@@ -11736,13 +11379,12 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "IK" = (
-/obj/structure/platform{
+/obj/machinery/computer/ship/navigation/terminal{
 	dir = 8;
-	pixel_x = 4
+	light_color = "#6496FA"
 	},
-/obj/machinery/computer/ship/engines/terminal{
-	dir = 1;
-	light_color = "#FABD6D"
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/space)
@@ -12285,8 +11927,10 @@
 /turf/simulated/wall/shuttle/space_ship,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "Kq" = (
-/obj/effect/floor_decal/corner/blue,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "Kr" = (
 /obj/effect/floor_decal/corner/red{
@@ -12318,11 +11962,12 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "Kz" = (
-/obj/structure/bed/stool{
-	dir = 4
+/obj/machinery/door/window/northleft,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/turf/simulated/floor/plating,
-/area/ship/combat_destroyer/aft_starboard_hall_2)
+/turf/simulated/floor/tiled/white,
+/area/space)
 "KC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 8
@@ -12375,10 +12020,30 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "KJ" = (
-/obj/machinery/computer/ship/sensors/terminal{
+/obj/structure/table/standard,
+/obj/item/storage/box/sharps{
+	pixel_x = -8;
+	pixel_y = -2
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	icon_state = "sterilesprayblue";
+	name = "surgery cleaner";
+	pixel_y = 12;
+	pixel_x = -10
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/storage/box/masks{
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/floor_decal/corner_wide/paleblue/full{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/rubber,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "KK" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -12496,16 +12161,15 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_fighter)
 "KZ" = (
-/obj/effect/decal/fake_object{
-	icon_state = "hub";
-	icon = 'icons/obj/stationobjs.dmi';
-	name = "server";
-	density = 1;
-	pixel_y = 20;
-	layer = 2;
-	pixel_x = 3
+/obj/structure/window/reinforced{
+	dir = 1
 	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/machinery/shower{
+	dir = 1;
+	pixel_y = -8
+	},
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "La" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -12709,23 +12373,12 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/atmos)
 "LS" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/corner/red{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/lattice/catwalk/indoor,
+/turf/simulated/floor/plating,
 /area/space)
 "LT" = (
-/obj/effect/decal/fake_object{
-	icon_state = "processor";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "input processor";
-	density = 1
-	},
-/turf/template_noop,
-/area/space)
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "LU" = (
 /obj/machinery/atmospherics/pipe/tank/carbon_dioxide{
 	dir = 8
@@ -12944,13 +12597,9 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hallway_port)
 "Mu" = (
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/template_noop,
+/obj/machinery/door/firedoor/noid,
+/obj/machinery/door/airlock/freezer,
+/turf/simulated/floor/tiled/full,
 /area/space)
 "My" = (
 /obj/machinery/atmospherics/binary/passive_gate/supply{
@@ -13251,31 +12900,14 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_starboard)
 "Nz" = (
-/obj/effect/decal/fake_object{
-	icon_state = "processor";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "input processor";
-	density = 1;
-	pixel_x = 6;
-	layer = 2.9;
-	pixel_y = -2
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 5
 	},
-/obj/effect/decal/fake_object{
-	icon_state = "relay";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "comm relay";
-	density = 1;
-	pixel_x = -11;
-	layer = 2.99;
-	pixel_y = -1
+/obj/machinery/disposal/small/west,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "NA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -13295,13 +12927,22 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_starboard)
 "NE" = (
-/obj/structure/table/rack,
-/obj/item/tank/jetpack/carbondioxide,
-/obj/item/clothing/shoes/magboots,
-/obj/item/clothing/suit/space/void/freelancer,
-/obj/item/clothing/head/helmet/space/void/freelancer,
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/carpet/rubber,
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.89;
+	dir = 4
+	},
+/obj/machinery/cryopod{
+	layer = 2.88
+	},
+/obj/structure/cryofeed/pipes{
+	layer = 2.87;
+	dir = 4
+	},
+/obj/machinery/computer/cryopod{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "NF" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
@@ -13570,19 +13211,11 @@
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/ship/combat_destroyer/fuel_bay_port)
 "Ox" = (
-/obj/effect/decal/fake_object{
-	icon_state = "comm_server";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "telecommunications server";
-	density = 1
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped{
+	dir = 8
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
-	},
-/turf/simulated/floor/bluegrid/cooled,
+/turf/template_noop,
 /area/space)
 "OA" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -13599,13 +13232,14 @@
 /obj/machinery/alarm/south{
 	req_one_access = null
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_port_hall_2)
 "OF" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/industrial/outline/firefighting_closet,
+/turf/simulated/floor/tiled,
 /area/space)
 "OG" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -13617,7 +13251,7 @@
 "OI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "OJ" = (
 /obj/structure/cable{
@@ -13965,8 +13599,15 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/eva)
 "PL" = (
-/obj/machinery/telecomms/allinone/ship,
-/turf/template_noop,
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.97
+	},
+/obj/machinery/cryopod{
+	dir = 4;
+	layer = 2.96
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "PM" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -13985,7 +13626,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/aft_port_hall_2)
 "PQ" = (
 /obj/structure/table/rack,
@@ -14028,8 +13669,8 @@
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_fighter)
 "PU" = (
-/obj/machinery/light/floor/cyan,
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/door/airlock/glass/destroyer,
+/turf/simulated/floor/plating,
 /area/space)
 "PW" = (
 /obj/structure/table/reinforced/steel{
@@ -14159,7 +13800,10 @@
 	dir = 4;
 	light_color = "#6496FA"
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/hallway_starboard)
 "Qr" = (
 /obj/structure/bed/stool/chair/shuttle,
@@ -14174,8 +13818,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/combat_destroyer_transport)
 "Qu" = (
-/obj/structure/bed/stool/chair/office/bridge/generic,
-/turf/simulated/floor/carpet/rubber,
+/turf/simulated/floor/tiled/freezer,
 /area/space)
 "Qv" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -14251,9 +13894,8 @@
 /area/ship/combat_destroyer/hallway)
 "QH" = (
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4
+	dir = 1
 	},
-/obj/machinery/recharge_station,
 /turf/simulated/floor/plating,
 /area/space)
 "QK" = (
@@ -14270,15 +13912,14 @@
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/ship/combat_destroyer/fuel_bay_starboard)
 "QN" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+/obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	pixel_y = 0
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
-/area/space)
+/turf/simulated/floor/tiled/full,
+/area/ship/combat_destroyer/hallway_port)
 "QO" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/reinforced/airless,
@@ -14338,13 +13979,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "QZ" = (
-/obj/effect/decal/fake_object{
-	icon_state = "comm_server";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "telecommunications server";
-	density = 1
+/obj/machinery/door/airlock/external,
+/obj/effect/shuttle_landmark{
+	dir = 1
 	},
-/turf/template_noop,
+/turf/simulated/floor/plating,
 /area/space)
 "Rb" = (
 /turf/simulated/floor/plating,
@@ -14411,13 +14050,15 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_transport)
 "Rl" = (
-/obj/effect/decal/fake_object{
-	icon_state = "server";
-	icon = 'icons/obj/machinery/research.dmi';
-	name = "messaging server";
-	density = 1
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.95
 	},
-/turf/template_noop,
+/obj/machinery/cryopod{
+	dir = 4;
+	layer = 2.94
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Rn" = (
 /obj/machinery/light/floor/red{
@@ -14431,9 +14072,8 @@
 /area/ship/combat_destroyer/disposals)
 "Rp" = (
 /obj/machinery/door/firedoor/noid,
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/port_engie_maints)
 "Rq" = (
 /obj/structure/cable{
@@ -14490,10 +14130,17 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_port_hall_1)
 "Rv" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
+/obj/machinery/washing_machine{
+	pixel_x = -8
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/washing_machine{
+	pixel_x = 8
+	},
+/obj/structure/bedsheetbin{
+	pixel_y = 14;
+	pixel_x = 4
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/space)
 "Rx" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
@@ -14624,14 +14271,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hangar_starboard)
 "RR" = (
-/obj/machinery/power/apc/high/east{
-	req_access = null
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
-/obj/structure/cable,
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/carpet/rubber,
 /area/space)
 "RS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -14687,6 +14330,15 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/fuel_bay_starboard)
+"Sf" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	door_color = "#475057"
+	},
+/obj/machinery/door/firedoor/multi_tile{
+	req_one_access = null
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "Sh" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -14711,10 +14363,6 @@
 /obj/structure/bed/stool/chair/office/bridge/generic,
 /obj/effect/decal/exterior_stairs/half{
 	pixel_y = 7
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "mil_crewman";
-	name = "igs - usf crewman"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/cic)
@@ -14747,13 +14395,17 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_hallway_port)
 "Sp" = (
-/obj/machinery/door/firedoor/noid{
+/obj/structure/closet/crate/freezer{
+	name = "Fridge"
+	},
+/obj/item/storage/box/freezer/organcooler,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/paleblue{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass/destroyer{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/full,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "Sr" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -14821,8 +14473,8 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_transport)
 "Sy" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/effect/floor_decal/spline/plain/blue{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
@@ -15088,7 +14740,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "Tl" = (
 /obj/structure/table/steel,
@@ -15252,30 +14904,23 @@
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
 "TA" = (
-/obj/effect/decal/fake_object{
-	icon_state = "bus";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "bus mainframe";
-	density = 1
+/obj/structure/bed/stool/chair{
+	dir = 4
 	},
-/turf/template_noop,
+/turf/simulated/floor/plating,
 /area/space)
 "TB" = (
-/obj/effect/decal/fake_object{
-	icon_state = "comm_server";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "telecommunications server";
-	density = 1;
-	pixel_x = -2;
-	pixel_y = -1
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
 	},
-/obj/effect/decal/fake_object/light_source/invisible{
-	color = "#34caff";
-	light_range = 2.5;
-	light_color = "#34caff";
-	light_power = 2
+/obj/machinery/light/floor{
+	dir = 8
 	},
-/turf/simulated/floor/bluegrid/cooled,
+/obj/effect/ghostspawpoint{
+	identifier = "mil_crewman";
+	name = "igs - usf crewman"
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "TD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/supply{
@@ -15341,13 +14986,15 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/docking_port_port)
 "TP" = (
-/obj/effect/decal/fake_object{
-	icon = 'icons/obj/machinery/fusion.dmi';
-	icon_state = "injector-emitting";
-	name = "Coolant Tubes";
-	dir = 8
+/obj/structure/cryofeed{
+	pixel_y = -9;
+	layer = 2.93;
+	dir = 4
 	},
-/turf/template_noop,
+/obj/machinery/cryopod{
+	layer = 2.92
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "TQ" = (
 /obj/structure/cable{
@@ -15461,7 +15108,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "Uj" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -15587,9 +15234,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_port)
 "UF" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/carpet/rubber,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "UG" = (
 /turf/simulated/floor/reinforced/oxygen,
@@ -15696,11 +15344,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "UV" = (
-/obj/effect/floor_decal/corner/dark_blue/full{
-	dir = 8
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
 	},
-/obj/structure/table/reinforced/steel,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled,
 /area/space)
 "UX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -15781,13 +15428,8 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/atmos)
 "Vi" = (
-/obj/effect/decal/fake_object{
-	icon_state = "relay";
-	icon = 'icons/obj/machinery/telecomms.dmi';
-	name = "comm relay";
-	density = 1
-	},
-/turf/template_noop,
+/obj/effect/floor_decal/industrial/outline/emergency_closet,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Vj" = (
 /obj/structure/lattice/catwalk,
@@ -15862,16 +15504,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_port)
+"Vs" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "Vt" = (
-/obj/effect/floor_decal/corner/dark_blue/full{
-	dir = 1
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
 	},
-/obj/structure/table/reinforced/steel,
-/obj/machinery/photocopier/faxmachine{
-	pixel_y = 4;
-	req_one_access = null
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/space)
 "Vu" = (
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -16128,13 +15771,14 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_port_hall_1)
 "Wi" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 9
 	},
-/obj/machinery/alarm/north{
-	req_one_access = null
+/obj/machinery/disposal/small/east,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "Wj" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -16450,17 +16094,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/mechbay)
 "Xd" = (
-/obj/structure/platform{
-	dir = 1
-	},
+/obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/structure/bed/handrail,
+/turf/template_noop,
 /area/space)
 "Xe" = (
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -16486,16 +16123,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_hallway_port)
 "Xi" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/machinery/door/blast/odin/open{
-	dir = 4
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "Xj" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -16614,14 +16245,12 @@
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
 "XF" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/effect/floor_decal/corner/blue{
-	dir = 1
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
 	},
-/obj/machinery/light/floor/cyan{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "XG" = (
 /obj/structure/cable{
@@ -16697,10 +16326,6 @@
 /area/ship/combat_destroyer/hangar_starboard)
 "XS" = (
 /obj/structure/bed/stool/chair/office/bridge/generic,
-/obj/effect/ghostspawpoint{
-	identifier = "mil_crewman";
-	name = "igs - usf crewman"
-	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/cic)
 "XT" = (
@@ -17166,12 +16791,7 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_port)
 "Ze" = (
-/obj/structure/bed/stool/chair/office/bridge/generic,
-/obj/effect/ghostspawpoint{
-	identifier = "mil_crewman_officer";
-	name = "igs - mil captain"
-	},
-/turf/simulated/floor/carpet/rubber,
+/turf/simulated/floor/tiled,
 /area/space)
 "Zh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -17302,8 +16922,8 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
 "ZE" = (
-/turf/simulated/wall/shuttle/space_ship,
-/area/ship/combat_destroyer/hangar_port)
+/turf/simulated/floor/carpet/rubber,
+/area/space)
 "ZG" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -23659,12 +23279,12 @@ wC
 wC
 wC
 wC
-Jj
-Jj
-Jj
-Jj
-Jj
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -23916,12 +23536,12 @@ wC
 wC
 wC
 wC
-Jj
-rr
-mE
-Ox
-xU
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -24173,12 +23793,12 @@ wC
 wC
 wC
 wC
-Jj
-Fe
-gP
-gP
-gP
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -24430,12 +24050,12 @@ wC
 wC
 wC
 wC
-Jj
-Be
-gP
-UV
-IY
-IY
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -24687,12 +24307,12 @@ wC
 wC
 wC
 wC
-Jj
-Jj
-Jj
-Cv
-gk
-wc
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -24944,12 +24564,12 @@ wC
 wC
 wC
 wC
-ph
-Jj
-al
-lY
-Xd
-cA
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -25201,12 +24821,12 @@ wC
 wC
 wC
 wC
-hx
-tY
-fw
-io
-AU
-Ze
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -25458,12 +25078,12 @@ wC
 wC
 wC
 wC
-js
-Jj
-Wi
-GL
-Xd
-DH
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -25715,12 +25335,12 @@ wC
 wC
 wC
 wC
-Jj
-Jj
-Jj
-ye
-op
-yk
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -25972,12 +25592,12 @@ wC
 wC
 wC
 wC
-Jj
-jD
-gP
-Vt
-Rv
-Rv
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -26229,12 +25849,12 @@ wC
 wC
 wC
 wC
-Jj
-Fe
-gP
-gP
-gP
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -26486,12 +26106,12 @@ wC
 wC
 wC
 wC
-Jj
-rr
-mE
-Ox
-xU
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -26743,43 +26363,43 @@ wC
 wC
 wC
 wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+Jj
+Jj
+Jj
+ZS
+uG
 Jj
 Jj
 Jj
 Jj
-Jj
-Jj
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
 wC
 wC
 wC
@@ -26988,55 +26608,55 @@ wC
 wC
 wC
 wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 Jj
+Et
+RC
+Mi
+Mi
+XT
+VI
+Gf
 Jj
-Jj
-Jj
-Jj
-Jj
-wC
-wC
-wC
-wC
-wC
-wC
-Jj
-Jj
-Jj
-Jj
-Jj
-Jj
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
 wC
 wC
 wC
@@ -27245,55 +26865,55 @@ wC
 wC
 wC
 wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 Jj
-iZ
-Cs
-Cs
-Cs
-Jj
-wC
-wC
-wC
-wC
-wC
-wC
-Jj
-sU
-aC
-lo
-aU
-Jj
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jk
+up
+up
+up
+up
+up
+PR
+Pj
 wC
 wC
 wC
@@ -27502,55 +27122,55 @@ wC
 wC
 wC
 wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 Jj
-nt
-gP
-gP
-gP
-Jj
-wC
-pF
-wC
-rI
-wC
-wC
-Jj
-qS
-gP
-gP
-gP
-Jj
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Nn
+Aq
+Aq
+fy
+up
+up
+PR
+ZS
 wC
 wC
 wC
@@ -27759,55 +27379,55 @@ wC
 wC
 wC
 wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 Jj
-KZ
-gP
-UV
-IY
-IY
-wC
-tI
-wC
-TP
-Dr
-wC
+rU
+YF
+kW
+JZ
+pQ
+hN
+ri
 Jj
-hf
-gP
-UV
-IY
-IY
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
 wC
 wC
 wC
@@ -28016,55 +27636,55 @@ wC
 wC
 wC
 wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+Jj
+hs
+Pz
+dS
 Jj
 Jj
-Jj
-Cv
-gk
-wc
-wC
-HM
-wC
-dR
-wC
-wC
+Dh
 Jj
 Jj
-Jj
-Cv
-gk
-wc
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
 wC
 wC
 wC
@@ -28273,55 +27893,55 @@ wC
 wC
 wC
 wC
-ph
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 Jj
-al
-lY
-Xd
-Gw
-wC
-rW
-wC
-wC
-wC
-Mu
-ph
 Jj
-al
-lY
-Xd
-Gw
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+Jj
+JA
+SL
+zk
+Jj
 wC
 wC
 wC
@@ -28530,24 +28150,6 @@ wC
 wC
 wC
 wC
-hx
-Xi
-fw
-io
-fj
-Ze
-wC
-LT
-wC
-wC
-PL
-Mu
-hx
-Xi
-fw
-io
-fj
-Ze
 wC
 wC
 wC
@@ -28579,6 +28181,24 @@ wC
 wC
 wC
 wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+Jj
+XO
+CN
+YK
+Jj
 wC
 wC
 wC
@@ -28787,55 +28407,55 @@ wC
 wC
 wC
 wC
-js
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 Jj
-aV
-GL
-Xd
-KJ
-wC
-QZ
-wC
-wC
-wC
-Mu
-js
+vM
+Td
+oN
 Jj
-aV
-GL
-Xd
-KJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
 wC
 wC
 wC
@@ -29044,55 +28664,55 @@ wC
 wC
 wC
 wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 Jj
 Jj
 Jj
-ye
-op
-yk
-wC
-iP
-wC
-wC
-wC
-wC
 Jj
 Jj
-Jj
-ye
-op
-yk
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
 wC
 wC
 wC
@@ -29301,24 +28921,6 @@ wC
 wC
 wC
 wC
-Jj
-iZ
-gP
-Vt
-Rv
-Rv
-wC
-TA
-Rl
-wC
-wC
-wC
-Jj
-TB
-gP
-Vt
-Rv
-Rv
 wC
 wC
 wC
@@ -29333,35 +28935,53 @@ wC
 wC
 wC
 wC
-Jj
-Jj
-Jj
-ZS
-uG
-Jj
-Jj
-Jj
-Jj
 wC
-Jj
-Jj
-Jj
-Sp
-Jj
-Jj
-Jj
-Jj
-Jj
 wC
-Jj
-Jj
-Jj
-Sp
-Jj
-Jj
-Jj
-Jj
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -29558,24 +29178,6 @@ wC
 wC
 wC
 wC
-Jj
-jR
-gP
-gP
-gP
-Jj
-wC
-Vi
-hl
-wC
-wC
-wC
-Jj
-Nz
-gP
-gP
-gP
-Jj
 wC
 wC
 wC
@@ -29590,35 +29192,53 @@ wC
 wC
 wC
 wC
-Jj
-Et
-RC
-Mi
-Mi
-XT
-VI
-Gf
-Jj
 wC
-Jj
-NE
-NE
-ZS
-NE
-NE
-NE
-NE
-Jj
 wC
-Jj
-kY
-kY
-ZS
-kY
-kY
-kY
-kY
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -29815,24 +29435,6 @@ wC
 wC
 wC
 wC
-Jj
-KZ
-Cs
-Cs
-Cs
-Jj
-wC
-wC
-wC
-wC
-wC
-wC
-Jj
-sU
-aC
-lo
-yU
-Jj
 wC
 wC
 wC
@@ -29847,35 +29449,53 @@ wC
 wC
 wC
 wC
-Jj
-Jk
-up
-up
-up
-up
-up
-PR
-Pj
 wC
-Jj
-dB
-wP
-js
-js
-js
-js
-mU
-Jj
 wC
-Jj
-qB
-Kq
-OF
-OF
-OF
-OF
-iu
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -30072,24 +29692,6 @@ wC
 wC
 wC
 wC
-Jj
-Jj
-Jj
-Jj
-Jj
-Jj
-wC
-wC
-wC
-wC
-zT
-wC
-Jj
-Jj
-Jj
-Jj
-Jj
-Jj
 wC
 wC
 wC
@@ -30104,35 +29706,53 @@ wC
 wC
 wC
 wC
-Jj
-Nn
-Aq
-Aq
-fy
-up
-up
-PR
-ZS
 wC
-Jj
-NE
-uI
-rP
-hC
-vg
-nB
-dO
-so
 wC
-Jj
-kY
-PU
-rP
-hC
-vg
-nB
-ov
-so
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -30339,7 +29959,6 @@ wC
 wC
 wC
 wC
-aM
 wC
 wC
 wC
@@ -30361,35 +29980,36 @@ wC
 wC
 wC
 wC
-Jj
-rU
-YF
-kW
-JZ
-pQ
-hN
-ri
-Jj
 wC
-py
-Sy
-LS
-Hb
-lN
-sr
-sr
-xj
-Jj
 wC
-py
-Sy
-pc
-yh
-RR
-hc
-hc
-qx
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -30596,7 +30216,6 @@ wC
 wC
 wC
 wC
-iX
 wC
 wC
 wC
@@ -30618,35 +30237,36 @@ wC
 wC
 wC
 wC
-Jj
-hs
-Pz
-dS
-Jj
-Jj
-Dh
-Jj
-Jj
 wC
-Jj
-fK
-UF
-nh
-Jj
-Jj
-xL
-lE
-Jj
 wC
-Jj
-fK
-UF
-nh
-Jj
-Jj
-eO
-jN
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -30875,35 +30495,35 @@ wC
 wC
 wC
 wC
-Jj
-Jj
-Jj
-Jj
-Jj
-JA
-SL
-zk
-Jj
 wC
-Jj
-Jj
-Jj
-Jj
-Jj
-NE
-lf
-ru
-Jj
 wC
-Jj
-Jj
-Jj
-Jj
-Jj
-kY
-IG
-QN
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -31136,31 +30756,31 @@ wC
 wC
 wC
 wC
-Jj
-XO
-CN
-YK
-Jj
 wC
-Jj
-xC
-Qu
-En
-Jj
-NE
-ot
-iV
-Jj
 wC
-Jj
-xC
-Qu
-En
-Jj
-kY
-XF
-qZ
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -31393,31 +31013,31 @@ wC
 wC
 wC
 wC
-Jj
-vM
-Td
-oN
-Jj
 wC
-Jj
-oA
-BS
-IK
-Jj
-NE
-NE
-NE
-Jj
 wC
-Jj
-oA
-BS
-IK
-Jj
-kY
-kY
-kY
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -31650,31 +31270,31 @@ wC
 wC
 wC
 wC
-Jj
-Jj
-Jj
-Jj
-Jj
 wC
-Jj
-fh
-Dy
-fh
-Jj
-Jj
-Jj
-Jj
-Jj
 wC
-Jj
-fh
-Dy
-fh
-Jj
-Jj
-Jj
-Jj
-Jj
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 wC
 wC
 wC
@@ -39058,14 +38678,14 @@ wC
 wC
 wC
 wC
-eF
 rJ
 rJ
 rJ
 rJ
 rJ
 rJ
-eF
+rJ
+rJ
 Vc
 Vc
 wC
@@ -39315,14 +38935,14 @@ MY
 KX
 KX
 KX
-Bc
 gq
-QT
-QT
-QT
-QT
+Lr
+yk
+YP
+yk
+yk
+Lr
 gq
-Bc
 Vc
 Vc
 wC
@@ -39571,16 +39191,16 @@ Vc
 wq
 wC
 wC
-Bc
 gq
 gq
-QT
-QT
-QT
-QT
+Lr
+yk
+YP
+YP
+YP
+Lr
 gq
-Bc
-Vc
+rJ
 Vc
 wC
 wC
@@ -39828,16 +39448,16 @@ Vc
 wq
 KX
 KX
-Bc
 gq
 Lr
-QT
-QT
-QT
-QT
+Lr
+yk
+yk
+yk
+YP
+Lr
+Lr
 gq
-gq
-Bc
 wC
 wC
 wC
@@ -40090,11 +39710,11 @@ ox
 ox
 ox
 ox
-QT
-QT
+yk
+YP
 qi
+Lr
 gq
-Bc
 wC
 wC
 wC
@@ -40345,14 +39965,14 @@ eo
 eo
 ox
 hP
-eo
+LT
 US
-QT
-QT
+yk
+YP
 qi
+Lr
 gq
-Bc
-wC
+rJ
 wC
 wC
 wC
@@ -40607,9 +40227,9 @@ gH
 Tj
 yM
 Lr
+Lr
+Lr
 gq
-gq
-Bc
 wC
 wC
 wC
@@ -40865,9 +40485,9 @@ WV
 YP
 Lr
 WZ
+Lr
 gq
-Bc
-wC
+rJ
 wC
 wC
 wC
@@ -41122,9 +40742,9 @@ qe
 aR
 Lr
 Aj
-Kz
+Lr
+Lr
 gq
-Bc
 wC
 wC
 wC
@@ -41163,7 +40783,7 @@ wC
 wC
 wC
 wC
-wC
+Lx
 wC
 wC
 wC
@@ -41378,10 +40998,10 @@ MU
 WV
 YP
 Lr
-QT
+eF
 ln
+Lr
 gq
-Bc
 wC
 wC
 wC
@@ -41637,8 +41257,8 @@ YP
 Zc
 QT
 tO
+Lr
 gq
-Bc
 KX
 wC
 wC
@@ -41677,9 +41297,9 @@ wC
 wC
 wC
 wC
+Wu
 wC
-wC
-wC
+SG
 wC
 wC
 wC
@@ -42153,7 +41773,7 @@ Lr
 QT
 QT
 Lr
-Vc
+Xd
 wC
 wC
 wC
@@ -42410,7 +42030,7 @@ Em
 QT
 QT
 Em
-Vc
+wq
 wC
 wC
 wC
@@ -42452,8 +42072,8 @@ rJ
 rJ
 rJ
 rJ
-wC
-wC
+rJ
+rJ
 wC
 wC
 wC
@@ -42667,7 +42287,7 @@ Lr
 QT
 QT
 Lr
-Vc
+Xd
 wC
 wC
 wC
@@ -42705,16 +42325,16 @@ wC
 wC
 rJ
 rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+ZS
+ZS
+ZS
+ZS
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -42947,11 +42567,11 @@ wC
 wC
 wC
 nd
-eD
-eD
+qs
+qs
 os
 eD
-eD
+qs
 nd
 wC
 wC
@@ -42961,6 +42581,22 @@ wC
 rJ
 rJ
 rJ
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -42997,26 +42633,10 @@ wC
 wC
 wC
 wC
+Sn
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Sn
 wC
 wC
 wC
@@ -43204,11 +42824,11 @@ gY
 Nk
 wC
 KX
-eD
+qs
 gQ
 gQ
 gQ
-eD
+qs
 KX
 wC
 wC
@@ -43216,29 +42836,29 @@ wC
 rJ
 rJ
 rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+jN
+hv
+QH
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -43459,18 +43079,48 @@ Ds
 Ds
 Ds
 Ds
-Ca
+lg
 KX
-eD
+qs
 gQ
 gQ
 gQ
-eD
+qs
 KX
 wC
 rJ
 rJ
 rJ
+Jj
+Jj
+Jj
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+jN
+hv
+hc
+Mz
+Jj
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -43495,37 +43145,7 @@ wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
@@ -43716,55 +43336,55 @@ as
 as
 as
 as
-Ca
-Ca
-eD
-eD
+lg
+lg
+qs
+qs
 wH
-eD
-eD
+qs
+qs
 rJ
 rJ
 rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+Jj
+Mz
+Mz
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+hl
+Jj
+Jj
+Jj
+ZS
+ZS
+ZS
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -43980,54 +43600,54 @@ pk
 to
 pk
 qs
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+Jj
+Jj
+hv
+hv
+hv
+hv
+ov
+ZS
+ZS
+ZS
+ZS
+ZS
+ov
+hv
+hv
+hv
+hv
+ov
+ZS
+ZS
+ZS
+Cb
+ZS
+ZS
+ZS
+ZS
+Jj
+Mz
+Mz
+Mz
+Mz
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -44238,11 +43858,56 @@ KP
 NA
 qs
 qs
+jN
+hv
+hv
+hv
+io
+CT
+CT
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+hv
+io
+CT
+CT
+Jj
+ZS
+ZS
+ZS
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+hv
+hv
+hv
+hv
+hv
+uI
+hv
+hv
+hv
+hv
+QH
 Jj
 Jj
 Jj
 Jj
 Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -44251,52 +43916,7 @@ wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
@@ -44448,7 +44068,7 @@ wC
 wC
 XK
 XK
-XK
+DY
 DY
 DY
 DY
@@ -44495,59 +44115,59 @@ ZR
 Af
 Ny
 qs
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+hl
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+hv
+Jj
+Jj
+Jj
+Jj
+ZS
+ZS
+ZS
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+hv
+io
+CT
+CT
+Jj
+Jj
+Jj
+Jj
+Jj
+hv
+hc
+Mz
+Jj
+Mz
+Mz
+Mz
+Mz
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -44752,61 +44372,61 @@ dv
 ub
 IB
 qs
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+jN
+hv
+QH
+Jj
+lN
+lN
+Jj
+ZS
+ZS
+ZS
+Jj
+YR
+jN
+hv
+hv
+Jj
+Vi
+dR
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+iu
+Jj
+Jj
+Jj
+jR
+Jj
+Jj
+Jj
+Jj
+zT
+zT
+zT
+Jj
+hv
+hv
+hv
+uI
+hv
+hv
+hv
+hv
+hv
+QH
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -45009,65 +44629,65 @@ sz
 Vd
 NT
 qs
+jN
+hv
+QH
+Jj
+LS
+LS
+rr
+ZS
+ZS
+ZS
+Jj
+YR
+jN
+hv
+io
+Jj
+lo
+BB
+al
+BB
+tY
+BB
+al
+BB
+BB
+BB
+al
+BB
+BB
+BB
+al
+pu
+BB
+BB
+BB
+ru
+Jj
+CT
+CT
+CT
+Jj
+CT
+CT
+CT
+Vt
+hv
+QH
+Jj
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
@@ -45266,64 +44886,64 @@ nv
 qG
 qs
 qs
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+jN
+hv
+QH
+Jj
+iP
+iP
+Jj
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+jR
+Jj
+Jj
+UF
+ZS
+ZS
+ZS
+tY
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+pu
+ZS
+ZS
+ZS
+sU
 Jj
 Jj
 Jj
 Jj
 Jj
 Jj
-rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+Jj
+jR
+Jj
+Jj
+ZS
+ZS
+ZS
+Jj
+Vi
+Jj
+Jj
+Jj
+Jj
+Jj
 wC
 wC
 wC
@@ -45522,9 +45142,9 @@ qz
 ax
 qz
 qs
-wC
-wC
-wC
+YR
+jN
+hv
 Jj
 Jj
 Jj
@@ -45536,51 +45156,51 @@ Jj
 Jj
 BB
 BB
+BB
+BB
+BB
+rP
+ZS
+xC
+ck
+tY
+ck
+ck
+ck
+DH
+ZS
+xC
+ck
+ck
+ck
+ck
+pu
+ck
+DH
+ZS
+Dr
+BB
+al
+BB
+BB
+BB
+al
+BB
+pu
+BB
+BB
+BB
+al
+BB
+BB
+BB
+al
+BB
+RR
+Jj
 YR
 YR
-YR
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
 wC
 wC
 wC
@@ -45781,7 +45401,7 @@ Hp
 NX
 NX
 NX
-NX
+iV
 NX
 Qq
 FW
@@ -45795,49 +45415,49 @@ va
 va
 OI
 OI
+ZS
+ZS
+ZS
+sU
+Jj
+Jj
+Jj
+Jj
+Jj
+jr
+ZS
+sU
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+jr
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+pu
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+RR
+BS
 YR
-rJ
 YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+QZ
 wC
 wC
 wC
@@ -46049,52 +45669,52 @@ bn
 tl
 pu
 ck
+cA
 ck
+ck
+ck
+cA
+ck
+mU
+Jj
+KJ
+mN
+Dy
+Jj
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+Gw
+ck
+ck
+ck
+ck
+ck
+ck
+ck
+ck
+ck
+pu
+ck
+ck
+ck
+cA
+ck
+ck
+ck
+cA
+ck
+RR
+Jj
 YR
 YR
-YR
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
 wC
 wC
 wC
@@ -46308,51 +45928,51 @@ Jj
 Jj
 Jj
 Jj
+Cb
+op
 Jj
 Jj
-rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+ye
+up
+qS
+Jj
+lE
+lE
+lE
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+iu
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+jR
+Jj
+Jj
+ZS
+ZS
+ZS
+Jj
+Vi
+Jj
+Jj
+Jj
+Jj
+Jj
+cQ
 wC
 wC
 wC
@@ -46562,52 +46182,52 @@ qa
 tl
 Ug
 Jj
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+up
+up
+up
+up
+up
+up
+up
+up
+py
+ot
+Xi
+XF
+Jj
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+Mz
+Mz
+Mz
+jD
+hv
+QH
+Jj
+ZE
+AU
+AU
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -46819,50 +46439,50 @@ uE
 eh
 Jj
 Jj
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+up
+up
+up
+up
+up
+up
+up
+up
+Jj
+Nz
+xj
+Sp
+Jj
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ov
+hv
+hv
+hv
+hv
+hv
+QH
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -47076,54 +46696,54 @@ pg
 tm
 tM
 iY
-YR
-YR
-YR
-YR
-YR
+up
+up
+up
+up
+up
+up
+up
+up
+Jj
+Jj
+Jj
+Jj
+Jj
+jr
+ZS
+sU
+Cs
+ZS
+ZS
+ZS
+ZS
+Cs
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+CT
+CT
+CT
+CT
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
@@ -47333,49 +46953,49 @@ CA
 TZ
 tM
 Cb
-YR
-YR
-YR
-YR
-YR
+up
+up
+up
+up
+up
+up
+up
+up
+Jj
+Wi
+fK
+nt
+Jj
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+Sn
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Sn
 wC
 wC
 wC
@@ -47590,42 +47210,42 @@ dJ
 wg
 Jj
 Jj
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+up
+up
+up
+up
+up
+up
+up
+up
+py
+hx
+Xi
+XF
+Jj
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -47846,55 +47466,55 @@ bx
 tB
 Do
 Jj
-YR
-YR
-YR
-YR
-YR
-YR
+up
+up
+up
+up
+up
+up
+up
+up
+up
+Jj
+ye
+up
+qS
+Jj
+UF
+ZS
+sU
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+Ir
+eO
 wC
 wC
+KX
+wq
 wC
-wC
-YR
-YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
 wC
 wC
+wC
+wC
+wC
+wC
+cQ
 wC
 wC
 wC
@@ -48103,28 +47723,34 @@ bx
 pg
 tm
 Jj
+up
+up
+up
+up
+up
+up
+up
+up
+up
+Jj
+qV
+fw
+Bc
+Jj
+jr
+ZS
+Dr
+BB
+OF
+Jj
+xL
+xL
+Jj
 YR
 YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-YR
-YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
+Jj
+KX
+wq
 wC
 wC
 wC
@@ -48132,14 +47758,8 @@ wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+KX
+wq
 wC
 wC
 wC
@@ -48364,28 +47984,39 @@ Jj
 Jj
 Jj
 Jj
+aV
 Jj
 Jj
 Jj
 Jj
 Jj
-wC
+Jj
+Jj
+Jj
+Jj
+UF
+ZS
+ZS
+ZS
+ZS
+PU
+ZS
+RR
+ph
 YR
 YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
+ph
+Vc
+wq
 wC
 wC
 wC
 wC
+wC
+wC
+wC
+KX
+wq
 wC
 wC
 wC
@@ -48399,21 +48030,10 @@ wC
 wC
 wC
 wC
+Sn
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Sn
 wC
 wC
 wC
@@ -48625,20 +48245,26 @@ hv
 xA
 hv
 hv
-fW
-wC
+GL
+hv
+hv
+hv
+hv
+GL
+UF
+ZS
+xC
+ck
+dB
+lf
+ZS
+RR
+Jj
 YR
 YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
+Jj
+KX
+wq
 wC
 wC
 wC
@@ -48646,16 +48272,10 @@ wC
 wC
 wC
 wC
+KX
+wq
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
@@ -48875,7 +48495,7 @@ HY
 tm
 wI
 Jj
-kc
+CT
 Jj
 Jj
 Jj
@@ -48883,27 +48503,25 @@ Jj
 Jj
 CT
 Jj
-wC
-YR
-YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+CT
+CT
+CT
+CT
+Jj
+iX
+iX
+iX
+rJ
+rJ
+rJ
+rJ
+rJ
+Jj
+Jj
+Jj
+Jj
+Jj
+wq
 wC
 wC
 wC
@@ -48911,6 +48529,8 @@ wC
 wC
 wC
 wC
+KX
+wq
 wC
 wC
 wC
@@ -49140,35 +48760,35 @@ IY
 Jj
 Jj
 Jj
-wC
+Jj
+Jj
+Jj
+Jj
+Jj
+UF
+ZS
+sU
+rJ
+YR
+yh
+gk
+js
 YR
 YR
 YR
-wC
 YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+aM
+Vc
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Ox
+Vc
+wq
+nd
 wC
 wC
 wC
@@ -49395,38 +49015,38 @@ SB
 kC
 Kh
 ZS
-MA
-wC
-wC
+Jj
+CM
+fj
+hv
+CM
+kY
+lo
+rP
+ZS
+sU
+rJ
+YR
+yh
+gk
+js
 YR
 YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+sr
+sr
+aM
+KX
+KX
+KX
+KX
+KX
+KX
+KX
+KX
+KX
+wq
+KX
+cQ
 wC
 wC
 wC
@@ -49653,20 +49273,26 @@ cN
 mf
 Ix
 Jj
-wC
-wC
+CM
+fj
+hv
+CM
+kY
+jr
+ZS
+ZS
+rJ
+rJ
 YR
+yh
+gk
+js
 YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
+aC
+gk
+gk
+rJ
+rJ
 wC
 wC
 wC
@@ -49674,15 +49300,9 @@ wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+KX
+wq
+KX
 wC
 wC
 wC
@@ -49909,21 +49529,27 @@ Qm
 cN
 rw
 Ix
-KQ
-wC
-wC
+Jj
+CM
+fj
+hv
+Ca
+Jj
+UF
+ZS
+sU
+rJ
 YR
 YR
 YR
-wC
 YR
 YR
 YR
-YR
-YR
-YR
-YR
-YR
+aC
+gk
+aU
+aU
+aM
 wC
 wC
 wC
@@ -49931,15 +49557,9 @@ wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+KX
+Vc
+Ox
 wC
 wC
 wC
@@ -50166,21 +49786,27 @@ AD
 cN
 mf
 cD
-KQ
-wC
-wC
+Jj
+ZS
+fj
+ZS
+ZS
+Cb
+UF
+ZS
+sU
+Cb
 YR
 YR
 YR
-wC
 YR
 YR
 YR
-YR
-YR
-YR
-YR
-YR
+aC
+gk
+aU
+aU
+aM
 wC
 wC
 wC
@@ -50188,15 +49814,9 @@ wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+KX
+Vc
+bj
 wC
 wC
 wC
@@ -50423,21 +50043,27 @@ Qm
 cN
 rw
 Ix
-KQ
-wC
-wC
+Jj
+CM
+fj
+hv
+yU
+Jj
+UF
+ZS
+sU
+rJ
 YR
 YR
+TA
+TA
+TA
 YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
+aC
+gk
+aU
+aU
+aM
 wC
 wC
 wC
@@ -50445,15 +50071,9 @@ wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+KX
+Vc
+pc
 wC
 wC
 wC
@@ -50681,20 +50301,26 @@ cN
 mf
 Ix
 Jj
-wC
-wC
+CM
+fj
+hv
+CM
+kY
+jr
+ZS
+ZS
+rJ
+rJ
+YR
+gk
+gk
+gk
 YR
 YR
 YR
-wC
 YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
+rJ
+rJ
 wC
 wC
 wC
@@ -50702,16 +50328,10 @@ wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+KX
+wq
+KX
+cQ
 wC
 wC
 wC
@@ -50937,37 +50557,37 @@ oE
 gh
 Py
 ZS
-MA
-wC
-wC
+Jj
+CM
+fj
+hv
+CM
+kY
+Gw
+DH
+ZS
+sU
+rJ
+YR
+wP
+wP
+wP
 YR
 YR
 YR
-wC
 YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+aM
+KX
+KX
+KX
+KX
+KX
+KX
+KX
+KX
+KX
+wq
+KX
 wC
 wC
 wC
@@ -51196,35 +50816,35 @@ qt
 Jj
 Jj
 Jj
-wC
+Jj
+Jj
+Jj
+Jj
+Jj
+UF
+ZS
+sU
+rJ
 YR
 YR
 YR
-wC
 YR
 YR
+sr
+sr
 YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+aM
+Vc
+pc
+pc
+pc
+pc
+pc
+pc
+pc
+Vc
+wq
+nd
 wC
 wC
 wC
@@ -51445,7 +51065,7 @@ Ng
 tm
 wI
 Jj
-QH
+Mz
 Jj
 Jj
 Jj
@@ -51453,27 +51073,25 @@ Jj
 Jj
 Mz
 Jj
-wC
-YR
-YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Mz
+Mz
+Mz
+Mz
+Jj
+iX
+iX
+iX
+rJ
+rJ
+Cb
+rJ
+rJ
+HM
+HM
+HM
+rJ
+rJ
+wq
 wC
 wC
 wC
@@ -51481,8 +51099,10 @@ wC
 wC
 wC
 wC
+KX
+wq
 wC
-wC
+cQ
 wC
 wC
 wC
@@ -51709,28 +51329,26 @@ hv
 AK
 hv
 hv
-fW
-wC
-YR
-YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+GL
+hv
+hv
+hv
+hv
+GL
+UF
+ZS
+sU
+dR
+rJ
+Qu
+Qu
+rJ
+up
+up
+up
+rJ
+KX
+wq
 wC
 wC
 wC
@@ -51738,8 +51356,8 @@ wC
 wC
 wC
 wC
-wC
-wC
+KX
+wq
 wC
 wC
 wC
@@ -51753,8 +51371,10 @@ wC
 wC
 wC
 wC
+Sn
 wC
 wC
+Sn
 wC
 wC
 wC
@@ -51962,31 +51582,30 @@ Jj
 Jj
 Jj
 Jj
+aV
 Jj
 Jj
 Jj
 Jj
 Jj
-wC
-YR
-YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+Jj
+Jj
+UF
+ZS
+sU
+ZS
+rJ
+Qu
+Qu
+Cb
+up
+up
+up
+rJ
+KX
+wq
 wC
 wC
 wC
@@ -51994,7 +51613,8 @@ wC
 wC
 wC
 wC
-wC
+KX
+wq
 wC
 wC
 wC
@@ -52215,39 +51835,34 @@ Ou
 Ei
 tm
 Jj
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-YR
-YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+tI
+Sy
+Kq
+pF
+up
+Jj
+wc
+qZ
+Fe
+Rl
+PL
+Cv
+hC
+Jj
+jr
+ZS
+sU
+Vi
+rJ
+Qu
+Qu
+rJ
+up
+up
+up
+rJ
+KX
+wq
 wC
 wC
 wC
@@ -52255,6 +51870,10 @@ wC
 wC
 wC
 wC
+KX
+wq
+wC
+cQ
 wC
 wC
 wC
@@ -52264,6 +51883,7 @@ wC
 wC
 wC
 wC
+cQ
 wC
 wC
 wC
@@ -52472,43 +52092,43 @@ SO
 zY
 Do
 Jj
-YR
-YR
-YR
-YR
-YR
-YR
+Rv
+Sy
+Kq
+pF
+up
+gP
+oA
+rI
+oA
+oA
+oA
+rI
+xU
+iY
+UF
+ZS
+sU
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+gY
+En
 wC
 wC
-wC
-wC
-YR
-YR
-YR
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+KX
+wq
 wC
 wC
 wC
@@ -52730,49 +52350,49 @@ QG
 wg
 Jj
 Jj
+rW
+Kq
+pF
+up
+Ze
+nh
+TB
+nh
+nh
+nh
+TB
+iZ
+Cb
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
 rJ
-YR
-YR
-YR
-YR
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
+Sn
 wC
 wC
-wC
-wC
-wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Sn
 wC
 wC
 wC
@@ -52986,12 +52606,46 @@ SO
 rQ
 TZ
 tM
-YR
+Sf
+ZS
+Kq
+pF
+up
+Jj
+NE
+nB
+TP
+fh
+Hb
+Be
+so
+Jj
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
 rJ
-YR
-YR
-YR
-YR
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -53000,41 +52654,7 @@ wC
 wC
 wC
 wC
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
@@ -53244,48 +52864,48 @@ Ei
 tm
 tM
 YR
+ZS
+Kq
+Vs
+Aq
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+jr
+ZS
+sU
+Cs
+ZS
+ZS
+ZS
+ZS
+Cs
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+Mz
+Mz
+Mz
+jD
+Jj
+Jj
+Jj
+Jj
 rJ
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -53501,50 +53121,50 @@ DD
 OY
 Jj
 Jj
+ZS
+mE
+UV
+UV
+UV
+UV
+UV
+UV
+Mu
+UV
+UV
+UV
+Mu
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ov
+hv
+hv
+hv
+hv
+hv
+QH
+Jj
+Jj
+Jj
+Jj
+Jj
 rJ
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+rJ
+rJ
 wC
 wC
 wC
@@ -53758,54 +53378,54 @@ Yd
 HV
 eI
 Jj
-YR
-YR
-YR
-YR
-YR
+vg
+vg
+vg
+qx
+qx
+vg
+vg
+vg
+Jj
+IG
+dO
+dO
+Jj
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+CT
+CT
+CT
+Vt
+hv
+QH
+Jj
+ZE
+AU
+AU
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
@@ -54020,48 +53640,48 @@ Jj
 Jj
 Jj
 Jj
-rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+Jj
+Jj
+qB
+up
+Kz
+Jj
+lE
+lE
+lE
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+iu
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+jR
+Jj
+Jj
+ZS
+ZS
+ZS
+Jj
+Vi
+Jj
+Jj
+Jj
+Jj
+Jj
 wC
 wC
 wC
@@ -54273,52 +53893,52 @@ iN
 HV
 pu
 BB
+al
 BB
+BB
+BB
+al
+BB
+ru
+Jj
+hf
+up
+KZ
+Jj
+UF
+ZS
+sU
+Jj
+ZS
+ZS
+ZS
+ZS
+Jj
+lo
+BB
+BB
+BB
+BB
+BB
+BB
+BB
+BB
+BB
+pu
+BB
+BB
+BB
+al
+BB
+BB
+BB
+al
+BB
+RR
+Jj
 YR
 YR
-YR
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
 wC
 wC
 wC
@@ -54519,7 +54139,7 @@ uJ
 dy
 dy
 dy
-dy
+QN
 dy
 eT
 Ex
@@ -54531,51 +54151,51 @@ rR
 kS
 pC
 pC
-CM
-CM
+pC
+pC
+ZS
+ZS
+ZS
+sU
+Jj
+Jj
+Jj
+Jj
+Jj
+jr
+ZS
+sU
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+jr
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+pu
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+RR
+BS
 YR
-rJ
 YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+QZ
 wC
 wC
 wC
@@ -54774,9 +54394,9 @@ BZ
 TO
 BZ
 uz
-wC
-wC
-wC
+YR
+jN
+hv
 Jj
 Jj
 Jj
@@ -54788,51 +54408,51 @@ Jj
 Jj
 ck
 ck
+ck
+ck
+ck
+DH
+ZS
+Dr
+BB
+tY
+BB
+BB
+BB
+rP
+ZS
+Dr
+BB
+BB
+BB
+BB
+pu
+BB
+rP
+ZS
+xC
+ck
+cA
+ck
+ck
+ck
+cA
+ck
+pu
+ck
+ck
+ck
+cA
+ck
+ck
+ck
+cA
+ck
+RR
+Jj
 YR
 YR
-YR
-rJ
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
 wC
 wC
 wC
@@ -55032,65 +54652,65 @@ yp
 MM
 uz
 uz
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+jN
+hv
+QH
+Jj
+lN
+lN
+Jj
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+jR
+Jj
+Jj
+UF
+ZS
+ZS
+ZS
+tY
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+pu
+ZS
+ZS
+ZS
+sU
 Jj
 Jj
 Jj
 Jj
 Jj
 Jj
-rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+Jj
+jR
+Jj
+Jj
+ZS
+ZS
+ZS
+Jj
+Vi
+Jj
+Jj
+Jj
+Jj
+Jj
+cQ
 wC
 wC
 wC
@@ -55289,63 +54909,63 @@ dQ
 pZ
 ZL
 uz
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+jN
+hv
+QH
+Jj
+LS
+LS
+rr
+ZS
+ZS
+ZS
+Jj
+YR
+jN
+hv
+hc
+Jj
+Gw
+ck
+cA
+ck
+tY
+ck
+cA
+ck
+ck
+ck
+cA
+ck
+ck
+ck
+cA
+pu
+ck
+ck
+ck
+mU
+Jj
+Mz
+Mz
+Mz
+Jj
+Mz
+Mz
+Mz
+jD
+hv
+QH
+Jj
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -55546,61 +55166,61 @@ Hc
 Zt
 QR
 uz
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+jN
+hv
+QH
+Jj
+iP
+iP
+Jj
+ZS
+ZS
+ZS
+Jj
+YR
+jN
+hv
+hv
+Jj
+Vi
+dR
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+iu
+Jj
+Jj
+Jj
+jR
+Jj
+Jj
+Jj
+Jj
+IK
+IK
+IK
+Jj
+hv
+hv
+hv
+uI
+hv
+hv
+hv
+hv
+hv
+QH
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -55756,7 +55376,7 @@ wC
 wC
 AQ
 AQ
-AQ
+YV
 YV
 YV
 YV
@@ -55803,65 +55423,65 @@ sM
 PZ
 QR
 uz
+Jj
+hl
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+hv
+Jj
+Jj
+Jj
+Jj
+aU
+aU
+aU
+Jj
+aU
+aU
+aU
+aU
+Jj
+hv
+hc
+Mz
+Mz
+Jj
+Jj
+Jj
+Jj
+Jj
+hv
+io
+CT
+Jj
+CT
+CT
+CT
+CT
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
@@ -56060,56 +55680,56 @@ Ll
 OK
 uz
 uz
+jN
+hv
+hv
+hv
+hc
+Mz
+Mz
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+hv
+hc
+Mz
+Mz
+Jj
+aU
+aU
+aU
+Cb
+aU
+aU
+aU
+aU
+Jj
+hv
+hv
+hv
+hv
+hv
+uI
+hv
+hv
+hv
+hv
+QH
 Jj
 Jj
 Jj
 Jj
 Jj
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -56316,54 +55936,54 @@ mc
 ME
 mc
 uz
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+Jj
+Jj
+hv
+hv
+hv
+hv
+ov
+ZS
+ZS
+ZS
+ZS
+ZS
+ov
+hv
+hv
+hv
+hv
+ov
+aU
+aU
+aU
+Jj
+aU
+aU
+aU
+aU
+Jj
+CT
+CT
+CT
+CT
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -56566,16 +56186,55 @@ ou
 ou
 ou
 ou
-ZE
-ZE
-jr
-jr
+vd
+vd
+uz
+uz
 Qy
-jr
-jr
+uz
+uz
 rJ
 rJ
 rJ
+Jj
+Jj
+Jj
+CT
+CT
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+hl
+Jj
+Jj
+Jj
+aU
+aU
+aU
+Jj
+aU
+aU
+aU
+aU
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -56593,46 +56252,7 @@ wC
 wC
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+cQ
 wC
 wC
 wC
@@ -56823,48 +56443,48 @@ Ds
 Ds
 Ds
 Ds
-ZE
+vd
 KX
-jr
+uz
 Xw
 Xw
 Xw
-jr
+uz
 KX
 wC
 rJ
 rJ
 rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Jj
+Jj
+Jj
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+jN
+hv
+io
+CT
+Jj
+aU
+aU
+aU
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -57082,11 +56702,11 @@ Ir
 og
 wC
 KX
-jr
+uz
 Xw
 Xw
 Xw
-jr
+uz
 KX
 wC
 wC
@@ -57094,6 +56714,29 @@ wC
 rJ
 rJ
 rJ
+Jj
+Jj
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+jN
+hv
+QH
+Jj
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -57125,33 +56768,10 @@ wC
 wC
 wC
 wC
+Sn
 wC
 wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+Sn
 wC
 wC
 wC
@@ -57339,11 +56959,11 @@ wC
 wC
 wC
 nd
-jr
-jr
+uz
+uz
 Tw
-jr
-jr
+uz
+uz
 nd
 wC
 wC
@@ -57353,22 +56973,22 @@ wC
 rJ
 rJ
 rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+ZS
+ZS
+ZS
+ZS
+ZS
+Jj
+Jj
+Jj
+Jj
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -57573,7 +57193,7 @@ YY
 oC
 oC
 YY
-Vc
+Xd
 wC
 wC
 wC
@@ -57611,16 +57231,16 @@ Sn
 wC
 rJ
 rJ
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
-wC
+ZS
+ZS
+ZS
+ZS
+Jj
+rJ
+rJ
+rJ
+rJ
+rJ
 wC
 wC
 wC
@@ -57830,7 +57450,7 @@ cO
 oC
 oC
 cO
-Vc
+wq
 wC
 wC
 wC
@@ -57872,8 +57492,8 @@ rJ
 rJ
 rJ
 rJ
-wC
-wC
+rJ
+rJ
 wC
 wC
 wC
@@ -58087,7 +57707,7 @@ YY
 oC
 oC
 YY
-Vc
+Xd
 wC
 wC
 wC
@@ -58599,8 +58219,8 @@ RW
 vq
 oC
 oC
+YY
 Bn
-mN
 KX
 wC
 wC
@@ -58640,9 +58260,9 @@ wC
 wC
 wC
 wC
+lx
 wC
-wC
-wC
+SG
 wC
 wC
 wC
@@ -58856,8 +58476,8 @@ RW
 YY
 oC
 oC
+YY
 Bn
-mN
 wC
 wC
 wC
@@ -58897,7 +58517,7 @@ wC
 cQ
 wC
 wC
-wC
+bI
 wC
 wC
 wC
@@ -59112,9 +58732,9 @@ WE
 Ct
 YY
 oC
+YY
+YY
 Bn
-Bn
-mN
 wC
 wC
 wC
@@ -59369,9 +58989,9 @@ nW
 RW
 YY
 oC
+YY
 Bn
-mN
-wC
+rJ
 wC
 wC
 wC
@@ -59625,9 +59245,9 @@ zF
 PN
 OD
 YY
+YY
+YY
 Bn
-Bn
-mN
 wC
 wC
 wC
@@ -59877,14 +59497,14 @@ OT
 OT
 TT
 sJ
-OT
+lY
 bv
-oC
-oC
+kc
+RW
 jK
+YY
 Bn
-mN
-wC
+rJ
 wC
 wC
 wC
@@ -60136,11 +59756,11 @@ TT
 TT
 TT
 TT
-oC
-oC
+kc
+RW
 jK
+YY
 Bn
-mN
 wC
 wC
 wC
@@ -60388,16 +60008,16 @@ Vc
 wq
 KX
 KX
-mN
 Bn
 YY
-oC
-oC
-oC
-oC
+YY
+kc
+kc
+kc
+RW
+YY
+YY
 Bn
-Bn
-mN
 wC
 wC
 wC
@@ -60645,15 +60265,15 @@ Vc
 wq
 wC
 wC
-mN
 Bn
 Bn
-oC
-oC
-oC
-oC
+YY
+kc
+RW
+RW
+RW
+YY
 Bn
-mN
 Vc
 Vc
 wC
@@ -60903,14 +60523,14 @@ dC
 KX
 KX
 KX
-mN
 Bn
-oC
-oC
-oC
-oC
+YY
+kc
+RW
+kc
+kc
+YY
 Bn
-mN
 Vc
 Vc
 wC
@@ -61160,14 +60780,14 @@ wC
 wC
 wC
 wC
-eF
+rJ
+rJ
+rJ
+YR
 rJ
 rJ
 rJ
 rJ
-rJ
-rJ
-eF
 Vc
 Vc
 wC
