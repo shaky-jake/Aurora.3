@@ -125,7 +125,7 @@
 /obj/effect/overmap/visitable/ship/landable/combat_destroyer_transport
 	name = "Troop Transport"
 	class = "MFV"
-	designation = "Kuoyu"
+	designation = "TRANSPORT-1"
 	desc = "WIP DESC"
 	shuttle = "Troop Transport"
 	icon_state = "shuttle"
@@ -176,7 +176,7 @@
 /obj/effect/overmap/visitable/ship/landable/combat_destroyer_fighter
 	name = "Space Superiority Fighter"
 	class = "MFV"
-	designation = "Kuoyu"
+	designation = "FIGHTER-1"
 	desc = "WIP DESC"
 	shuttle = "Space Superiority Fighter"
 	icon_state = "shuttle"
@@ -221,3 +221,7 @@
 	landmark_tag = "nav_transit_combat_destroyer_fighter"
 	base_turf = /turf/space/transit/north
 
+// custom stuff
+
+/obj/machinery/door/airlock/glass/destroyer
+	door_color = "#475057"

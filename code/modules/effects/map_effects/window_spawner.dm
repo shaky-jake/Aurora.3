@@ -214,3 +214,10 @@
 	icon_state = "full_rwindow"
 	frame_path = /obj/structure/window_frame/wood
 	window_path = /obj/structure/window/full/reinforced
+
+/obj/effect/map_effect/window_spawner/full/mercernary
+	name = "full reinforced window spawner"
+	icon_state = "full_rwindow-f"
+	frame_path = /obj/structure/window_frame/mercernary
+	window_path = /obj/structure/window/full/reinforced
+	spawn_firedoor = TRUE
