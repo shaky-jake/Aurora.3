@@ -1,6 +1,6 @@
 /datum/ghostspawner/human/mil_crewman
 	short_name = "mil_crewman"
-	name = "Military Crewman"
+	name = "Light Cruiser Crewman"
 	desc = "Crew the combat event ship"
 	tags = list("External")
 	mob_name_prefix = "PO3. "
@@ -13,13 +13,13 @@
 	uses_species_whitelist = TRUE
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
-	assigned_role = "Military Crewman"
-	special_role = "Military Crewman"
+	assigned_role = "Light Cruiser Crewman"
+	special_role = "Light Cruiser Crewman"
 	respawn_flag = null
 
 
 /datum/outfit/admin/mil_crewman
-	name = "Military Crewman"
+	name = "Light Cruiser Crewman"
 	uniform = /obj/item/clothing/under/syndicate/tacticool
 	shoes = /obj/item/clothing/shoes/jackboots
 	back = /obj/item/storage/backpack/satchel
@@ -41,7 +41,7 @@
 
 /datum/ghostspawner/human/mil_crewman/officer
 	short_name = "mil_crewman_officer"
-	name = "Military Captain"
+	name = "Light Cruiser Captain"
 	desc = "Command the combat event ship"
 	mob_name_prefix = "CAPT. "
 
@@ -50,15 +50,15 @@
 
 	outfit = /datum/outfit/admin/mil_crewman/officer
 
-	assigned_role = "Military Captain"
-	special_role = "Military Captain"
+	assigned_role = "Light Cruiser Captain"
+	special_role = "Light Cruiser Captain"
 
 
 /datum/outfit/admin/mil_crewman/officer
-	name = "Military Captain"
+	name = "Light Cruiser Captain"
 
 	uniform = /obj/item/clothing/under/syndicate/tacticool
 
 /obj/item/card/id/combat_destroyer
-	name = "combat destroyer id"
+	name = "light cruiser id"
 	access = list(ACCESS_EXTERNAL_AIRLOCKS)

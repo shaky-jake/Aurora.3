@@ -20,7 +20,7 @@
 	desc = "WIP DESC"
 	icon_state = "light_cruiser"
 	moving_state = "light_cruiser_moving"
-	colors = list("#8492fd", "#4d61fc")
+	colors = list("#868aa6", "#686fa3")
 	scanimage = "ranger.png"
 	designer = "WIP DESIGNER"
 	volume = "WIP VOLUME"
@@ -128,9 +128,9 @@
 	designation = "TRANSPORT-1"
 	desc = "WIP DESC"
 	shuttle = "Troop Transport"
-	icon_state = "shuttle"
-	moving_state = "shuttle_moving"
-	colors = list("#8492fd", "#4d61fc")
+	icon_state = "intrepid"
+	moving_state = "intrepid_moving"
+	colors = list("#868aa6", "#686fa3")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000
@@ -181,7 +181,7 @@
 	shuttle = "Space Superiority Fighter"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
-	colors = list("#8492fd", "#4d61fc")
+	colors = list("#868aa6", "#686fa3")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000
