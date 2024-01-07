@@ -1,5 +1,5 @@
 /datum/map_template/ruin/away_site/combat_destroyer
-	name = "Military Destroyer"
+	name = "Light Cruiser"
 	description = "WIP DESC"
 	suffixes = list("ships/adminspawn/combat_destroyer/combat_destroyer.dmm")
 	sectors = list(ALL_POSSIBLE_SECTORS)
@@ -11,16 +11,16 @@
 	unit_test_groups = list(3)
 
 /singleton/submap_archetype/combat_destroyer
-	map = "Military Destroyer"
+	map = "Light Cruiser"
 	descriptor = "WIP DESC"
 
 /obj/effect/overmap/visitable/ship/combat_destroyer
-	name = "Military Destroyer"
+	name = "Light Cruiser"
 	class = "MFV"
 	desc = "WIP DESC"
 	icon_state = "light_cruiser"
 	moving_state = "light_cruiser_moving"
-	colors = list("#868aa6", "#686fa3")
+	colors = list("#868aa6", "#6f75a1")
 	scanimage = "ranger.png"
 	designer = "WIP DESIGNER"
 	volume = "WIP VOLUME"
@@ -28,11 +28,9 @@
 	weapons = "Dual extruding fore-mounted medium caliber ballistic armament, aft obscured flight craft bay"
 	sizeclass = "WIP-CLASS DESTROYER"
 	shiptype = "WIP COMBAT UTILITY"
-	// Maybe increase speed and burn delay?
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 2 SECONDS
-	// very large ship
-	vessel_mass = 20000
+	vessel_mass = 25000 // very large ship, about a third of the horizon
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_LARGE
 
@@ -106,14 +104,14 @@
 	base_turf = /turf/space/transit/north
 
 /obj/effect/shuttle_landmark/combat_destroyer/starboard_dock
-	name = "Military Destroyer Starboard Dock"
+	name = "Light Cruiser Starboard Dock"
 	landmark_tag = "nav_combat_destroyer_dock_starboard"
 	docking_controller = "airlock_combat_destroyer_dock_starboard"
 	base_turf = /turf/space
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/combat_destroyer/port_dock
-	name = "Military Destroyer Port Dock"
+	name = "Light Cruiser Port Dock"
 	landmark_tag = "nav_combat_destroyer_dock_port"
 	docking_controller = "airlock_combat_destroyer_dock_port"
 	base_turf = /turf/space
@@ -130,7 +128,7 @@
 	shuttle = "Troop Transport"
 	icon_state = "intrepid"
 	moving_state = "intrepid_moving"
-	colors = list("#868aa6", "#686fa3")
+	colors = list("#868aa6", "#6f75a1")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000
@@ -181,7 +179,7 @@
 	shuttle = "Space Superiority Fighter"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
-	colors = list("#868aa6", "#686fa3")
+	colors = list("#868aa6", "#6f75a1")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000
@@ -225,3 +223,19 @@
 
 /obj/machinery/door/airlock/glass/destroyer
 	door_color = "#475057"
+
+/obj/item/device/gps/stationary/combat_destroyer_fighter
+	name = "static GPS (fighter)"
+	desc = "A static global positioning system helpful for finding your way back to the light cruiser's fighter."
+	icon_state = "gps-com"
+	gps_prefix = "COM"
+	compass_color = "#525b9e"
+	gpstag = "FIGHTER-1"
+
+/obj/item/device/gps/stationary/combat_destroyer_transport
+	name = "static GPS (transport)"
+	desc = "A static global positioning system helpful for finding your way back to the light cruiser's transport."
+	icon_state = "gps-com"
+	gps_prefix = "COM"
+	compass_color = "#5f6aba"
+	gpstag = "TRANSPORT-1"
