@@ -18,8 +18,8 @@
 	name = "Military Destroyer"
 	class = "MFV"
 	desc = "WIP DESC"
-	icon_state = "xansan"
-	moving_state = "xansan_moving"
+	icon_state = "light_cruiser"
+	moving_state = "light_cruiser_moving"
 	colors = list("#8492fd", "#4d61fc")
 	scanimage = "ranger.png"
 	designer = "WIP DESIGNER"

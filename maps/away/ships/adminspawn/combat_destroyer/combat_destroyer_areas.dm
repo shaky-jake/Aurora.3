@@ -1,5 +1,5 @@
 /area/ship/combat_destroyer
-	name = "Combat Destroyer"
+	name = "Light Cruiser"
 	requires_power = TRUE
 	dynamic_lighting = TRUE
 	no_light_control = FALSE
@@ -8,7 +8,7 @@
 
 
 /area/ship/combat_destroyer/space_catwalk
-	name = "Combat Destroyer - Outer Catwalks"
+	name = "Light Cruiser - Outer Catwalks"
 	requires_power = FALSE
 	has_gravity = FALSE
 
@@ -17,257 +17,260 @@
 // Hallways
 
 /area/ship/combat_destroyer/aft_port_hall_1
-	name = "Combat Destroyer - Aft Central Port Hallway"
+	name = "Light Cruiser - Aft Central Port Hallway"
 
 /area/ship/combat_destroyer/aft_port_hall_2
-	name = "Combat Destroyer - Aft Far Port Hallway"
+	name = "Light Cruiser - Aft Far Port Hallway"
 
 /area/ship/combat_destroyer/aft_starboard_hall_1
-	name = "Combat Destroyer - Aft Central Starboard Hallway"
+	name = "Light Cruiser - Aft Central Starboard Hallway"
 
 /area/ship/combat_destroyer/aft_starboard_hall_2
-	name = "Combat Destroyer - Aft Far Starboard Hallway"
+	name = "Light Cruiser - Aft Far Starboard Hallway"
 
 /area/ship/combat_destroyer/hangar_hallway_port
-	name = "Combat Destroyer - Port Hangar Hallway"
+	name = "Light Cruiser - Port Hangar Hallway"
 
 /area/ship/combat_destroyer/hangar_hallway_starboard
-	name = "Combat Destroyer - Starboard Hangar Hallway"
+	name = "Light Cruiser - Starboard Hangar Hallway"
 
 /area/ship/combat_destroyer/hallway
-	name = "Combat Destroyer - Central Hallway"
+	name = "Light Cruiser - Central Hallway"
 
 /area/ship/combat_destroyer/hallway_port
-	name = "Combat Destroyer - Central Port Hallway"
+	name = "Light Cruiser - Central Port Hallway"
 
 /area/ship/combat_destroyer/hallway_starboard
-	name = "Combat Destroyer - Central Starboard Hallway"
+	name = "Light Cruiser - Central Starboard Hallway"
 
 /area/ship/combat_destroyer/hallway_fore_central
-	name = "Combat Destroyer - Fore Central Hallway"
+	name = "Light Cruiser - Fore Central Hallway"
 
 /area/ship/combat_destroyer/hallway_fore_port
-	name = "Combat Destroyer - Fore Port Hallway"
+	name = "Light Cruiser - Fore Port Hallway"
 
 /area/ship/combat_destroyer/hallway_fore_port_far
-	name = "Combat Destroyer - Fore Far Port Hallway"
+	name = "Light Cruiser - Fore Far Port Hallway"
 
 /area/ship/combat_destroyer/hallway_fore_starboard
-	name = "Combat Destroyer - Fore Starboard Hallway"
+	name = "Light Cruiser - Fore Starboard Hallway"
 
 /area/ship/combat_destroyer/hallway_fore_starboard_far
-	name = "Combat Destroyer - Fore Far Starboard Hallway"
+	name = "Light Cruiser - Fore Far Starboard Hallway"
 
 
 
 // Maintenance
 
 /area/ship/combat_destroyer/thruster_port_maints_1
-	name = "Combat Destroyer - Port Central Thruster Maintenance"
+	name = "Light Cruiser - Port Central Thruster Maintenance"
 
 /area/ship/combat_destroyer/thruster_port_maints_2
-	name = "Combat Destroyer - Port Far Thruster Maintenance"
+	name = "Light Cruiser - Port Far Thruster Maintenance"
 
 /area/ship/combat_destroyer/thruster_starboard_maints_1
-	name = "Combat Destroyer - Starboard Central Thruster Maintenance"
+	name = "Light Cruiser - Starboard Central Thruster Maintenance"
 
 /area/ship/combat_destroyer/thruster_starboard_maints_2
-	name = "Combat Destroyer - Starboard Far Thruster Maintenance"
+	name = "Light Cruiser - Starboard Far Thruster Maintenance"
 
 /area/ship/combat_destroyer/port_engie_maints
-	name = "Combat Destroyer - Port Engineering Maintenance"
+	name = "Light Cruiser - Port Engineering Maintenance"
 
 /area/ship/combat_destroyer/starboard_engie_maints
-	name = "Combat Destroyer - Starboard Engineering Maintenance"
+	name = "Light Cruiser - Starboard Engineering Maintenance"
 
 /area/ship/combat_destroyer/central_hall_maints
-	name = "Combat Destroyer - Central Hallway Maintenance"
+	name = "Light Cruiser - Central Hallway Maintenance"
 
 /area/ship/combat_destroyer/fore_port_wep_maints
-	name = "Combat Destroyer - Fore Port Armament Maintenance"
+	name = "Light Cruiser - Fore Port Armament Maintenance"
 
 /area/ship/combat_destroyer/fore_starboard_wep_maints
-	name = "Combat Destroyer - Fore Starboard Armament Maintenance"
+	name = "Light Cruiser - Fore Starboard Armament Maintenance"
 
 /area/ship/combat_destroyer/briefing_maints_port
-	name = "Combat Destroyer - Port Briefing Room Maintenance"
+	name = "Light Cruiser - Port Briefing Room Maintenance"
 
 /area/ship/combat_destroyer/briefing_maints_starboard
-	name = "Combat Destroyer - Starboard Briefing Room Maintenance"
+	name = "Light Cruiser - Starboard Briefing Room Maintenance"
 
 /area/ship/combat_destroyer/capt_maints
-	name = "Combat Destroyer - Captain's Quarters Maintenance"
+	name = "Light Cruiser - Captain's Quarters Maintenance"
 
 /area/ship/combat_destroyer/hydro_maints
-	name = "Combat Destroyer - Hydroponics Maintenance"
+	name = "Light Cruiser - Hydroponics Maintenance"
 
 /area/ship/combat_destroyer/hall_maints_port
-	name = "Combat Destroyer - Port Hallway Maintenance"
+	name = "Light Cruiser - Port Hallway Maintenance"
 
 /area/ship/combat_destroyer/hall_maints_starboard
-	name = "Combat Destroyer - Starboard Hallway Maintenance"
+	name = "Light Cruiser - Starboard Hallway Maintenance"
 
 /area/ship/combat_destroyer/crew_maints_port
-	name = "Combat Destroyer - Port Crew Quarters Maintenance"
+	name = "Light Cruiser - Port Crew Quarters Maintenance"
 
 /area/ship/combat_destroyer/crew_maints_starboard
-	name = "Combat Destroyer - Starboard Crew Quarters Maintenance"
+	name = "Light Cruiser - Starboard Crew Quarters Maintenance"
 
 
 
 // Aft Section
 
 /area/ship/combat_destroyer/docking_port_aft
-	name = "Combat Destroyer - Aft Docking Port Access"
+	name = "Light Cruiser - Aft Docking Port Access"
 
 /area/ship/combat_destroyer/docking_port_aft_exterior_port
-	name = "Combat Destroyer - Aft Port Exterior Docking Port"
+	name = "Light Cruiser - Aft Port Exterior Docking Bay"
 
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard
-	name = "Combat Destroyer - Aft Starboard Exterior Docking Port"
+	name = "Light Cruiser - Aft Starboard Exterior Docking Bay"
 
 /area/ship/combat_destroyer/atmos
-	name = "Combat Destroyer - Atmospherics"
+	name = "Light Cruiser - Atmospherics"
 
 /area/ship/combat_destroyer/fuel_bay_port
-	name = "Combat Destroyer - Port Fuel Bay"
+	name = "Light Cruiser - Port Fuel Bay"
 
 /area/ship/combat_destroyer/fuel_bay_starboard
-	name = "Combat Destroyer - Starboard Fuel Bay"
+	name = "Light Cruiser - Starboard Fuel Bay"
 
 /area/ship/combat_destroyer/disposals
-	name = "Combat Destroyer - Disposals"
+	name = "Light Cruiser - Disposals"
 
 /area/ship/combat_destroyer/mechbay
-	name = "Combat Destroyer - Mechbay"
+	name = "Light Cruiser - Mechbay"
 
 /area/ship/combat_destroyer/cargo
-	name = "Combat Destroyer - Warehouse"
+	name = "Light Cruiser - Warehouse"
 
 /area/ship/combat_destroyer/aft_port_ammo
-	name = "Combat Destroyer - Aft Port Ammo Storage"
+	name = "Light Cruiser - Aft Port Ammo Storage"
 
 /area/ship/combat_destroyer/aft_starboard_ammo
-	name = "Combat Destroyer - Aft Starboard Ammo Storage"
+	name = "Light Cruiser - Aft Starboard Ammo Storage"
 
 /area/ship/combat_destroyer/aft_port_wep
-	name = "Combat Destroyer - Aft Port Armament Hardpoint"
+	name = "Light Cruiser - Aft Port Armament Hardpoint"
 
 /area/ship/combat_destroyer/aft_starboard_wep
-	name = "Combat Destroyer - Aft Starboard Armament Hardpoint"
+	name = "Light Cruiser - Aft Starboard Armament Hardpoint"
 
 /area/ship/combat_destroyer/range
-	name = "Combat Destroyer - Firing Range"
+	name = "Light Cruiser - Firing Range"
 
 /area/ship/combat_destroyer/sec
-	name = "Combat Destroyer - Security"
+	name = "Light Cruiser - Security"
 
 /area/ship/combat_destroyer/brig
-	name = "Combat Destroyer - Holding Cells"
+	name = "Light Cruiser - Holding Cells"
 
 /area/ship/combat_destroyer/atmos
-	name = "Combat Destroyer - Atmospherics"
+	name = "Light Cruiser - Atmospherics"
 
 
 
 // Central Section
 
 /area/ship/combat_destroyer/engie
-	name = "Combat Destroyer - Engineering"
+	name = "Light Cruiser - Engineering"
 
 /area/ship/combat_destroyer/armory
-	name = "Combat Destroyer - Main Armory"
+	name = "Light Cruiser - Main Armory"
 
 /area/ship/combat_destroyer/cic
-	name = "Combat Destroyer - Command Center"
+	name = "Light Cruiser - Command Center"
 
 /area/ship/combat_destroyer/eva
-	name = "Combat Destroyer - EVA Preparation"
+	name = "Light Cruiser - EVA Preparation"
 
 /area/ship/combat_destroyer/janitor
-	name = "Combat Destroyer - Janitorial Closet"
+	name = "Light Cruiser - Janitorial Closet"
 
 /area/ship/combat_destroyer/hangar_port
-	name = "Combat Destroyer - Port Hangar"
+	name = "Light Cruiser - Port Hangar"
 
 /area/ship/combat_destroyer/hangar_starboard
-	name = "Combat Destroyer - Starboard Hangar"
+	name = "Light Cruiser - Starboard Hangar"
 
 /area/ship/combat_destroyer/docking_port_port
-	name = "Combat Destroyer - Port Docking Port Access"
+	name = "Light Cruiser - Port Docking Port Access"
 
 /area/ship/combat_destroyer/docking_port_starboard
-	name = "Combat Destroyer - Starboard Docking Port Access"
+	name = "Light Cruiser - Starboard Docking Port Access"
 
 
 
 // Fore Section
 
 /area/ship/combat_destroyer/briefing
-	name = "Combat Destroyer - Briefing Room"
+	name = "Light Cruiser - Briefing Room"
 
 /area/ship/combat_destroyer/briefing_lobby
-	name = "Combat Destroyer - Briefing Room Lobby"
+	name = "Light Cruiser - Briefing Room Lobby"
 
 /area/ship/combat_destroyer/fore_port_ammo
-	name = "Combat Destroyer - Fore Port Ammo Storage"
+	name = "Light Cruiser - Fore Port Ammo Storage"
 
 /area/ship/combat_destroyer/fore_port_wep_access
-	name = "Combat Destroyer - Fore Port Armament Access"
+	name = "Light Cruiser - Fore Port Armament Access"
 
 /area/ship/combat_destroyer/fore_port_wep
-	name = "Combat Destroyer - Fore Port Armament Hardpoint"
+	name = "Light Cruiser - Fore Port Armament Hardpoint"
 
 /area/ship/combat_destroyer/fore_starboard_ammo
-	name = "Combat Destroyer - Fore Starboard Ammo Storage"
+	name = "Light Cruiser - Fore Starboard Ammo Storage"
 
 /area/ship/combat_destroyer/fore_starboard_wep_access
-	name = "Combat Destroyer - Fore Starboard Armament Access"
+	name = "Light Cruiser - Fore Starboard Armament Access"
 
 /area/ship/combat_destroyer/fore_starboard_wep
-	name = "Combat Destroyer - Fore Starboard Armament Hardpoint"
+	name = "Light Cruiser - Fore Starboard Armament Hardpoint"
 
 /area/ship/combat_destroyer/med
-	name = "Combat Destroyer - Medical Bay"
+	name = "Light Cruiser - Medical Bay"
 
 /area/ship/combat_destroyer/op_a
-	name = "Combat Destroyer - Operating Theatre A"
+	name = "Light Cruiser - Operating Theatre A"
 
 /area/ship/combat_destroyer/op_b
-	name = "Combat Destroyer - Operating Theatre B"
+	name = "Light Cruiser - Operating Theatre B"
 
 /area/ship/combat_destroyer/cryo_foyer
-	name = "Combat Destroyer - Cryogenic Bay Foyer"
+	name = "Light Cruiser - Cryogenic Bay Foyer"
 
 /area/ship/combat_destroyer/cryo
-	name = "Combat Destroyer - Cryogenic Bay"
+	name = "Light Cruiser - Cryogenic Bay"
 
 /area/ship/combat_destroyer/washroom
-	name = "Combat Destroyer - Washroom"
+	name = "Light Cruiser - Washroom"
 
 /area/ship/combat_destroyer/capt
-	name = "Combat Destroyer - Captain's Quarters"
+	name = "Light Cruiser - Captain's Quarters"
 
 /area/ship/combat_destroyer/hydro
-	name = "Combat Destroyer - Hydroponics"
+	name = "Light Cruiser - Hydroponics"
 
 /area/ship/combat_destroyer/crew_port
-	name = "Combat Destroyer - Port Crew Quarters"
+	name = "Light Cruiser - Port Crew Quarters"
 
 /area/ship/combat_destroyer/crew_starboard
-	name = "Combat Destroyer - Starboard Crew Quarters"
+	name = "Light Cruiser - Starboard Crew Quarters"
 
 /area/ship/combat_destroyer/kitchen
-	name = "Combat Destroyer - Kitchen"
+	name = "Light Cruiser - Kitchen"
 
 /area/ship/combat_destroyer/mess
-	name = "Combat Destroyer - Messhall"
+	name = "Light Cruiser - Messhall"
 
 /area/ship/combat_destroyer/docking_port_fore_port
-	name = "Combat Destroyer - Fore Port Docking Port Access"
+	name = "Light Cruiser - Fore Port Docking Port Access"
 
 /area/ship/combat_destroyer/docking_port_fore_starboard
-	name = "Combat Destroyer - Fore Starboard Docking Port Access"
+	name = "Light Cruiser - Fore Starboard Docking Port Access"
+
+/area/ship/combat_destroyer/docking_port_fore_exterior
+	name = "Light Cruiser - Fore Exterior Docking Bay"
 
 
 
