@@ -141,11 +141,13 @@
 /turf/simulated/floor/airless,
 /area/ship/combat_destroyer/space_catwalk)
 "afU" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
+/obj/effect/floor_decal/corner/brown{
+	dir = 5
 	},
-/turf/simulated/floor/plating,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mess)
 "age" = (
 /obj/effect/landmark/entry_point/aft{
@@ -414,14 +416,14 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
 "apj" = (
 /obj/structure/cable{
 	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -431,6 +433,12 @@
 	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mechbay)
@@ -495,6 +503,18 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
+"asp" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_fore_port)
 "asv" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/corner/dark_blue{
@@ -524,11 +544,15 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/crew_maints_starboard)
 "aun" = (
-/obj/machinery/disposal/small/east,
-/obj/structure/disposalpipe/trunk{
-	dir = 4
+/obj/machinery/button/remote/blast_door{
+	pixel_y = -18;
+	id = "combat_destroyer_mess_blast";
+	name = "Messhall Blast Shield"
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mess)
 "aup" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
@@ -556,6 +580,16 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/eva)
+"auT" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_port)
 "avy" = (
 /obj/structure/platform_deco{
 	dir = 4;
@@ -608,7 +642,6 @@
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
 "azd" = (
-/obj/machinery/light/colored/decayed,
 /obj/structure/table/stone/marble,
 /obj/machinery/reagentgrinder{
 	pixel_x = 4;
@@ -626,7 +659,9 @@
 	pixel_x = 5;
 	pixel_y = -2
 	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/diagonal,
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
 "aze" = (
 /obj/structure/platform_deco{
@@ -748,6 +783,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/capt_maints)
+"aGR" = (
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/capt)
 "aGW" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 10
@@ -974,7 +1012,7 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/mech_recharger,
 /obj/machinery/light/colored/decayed,
-/turf/simulated/floor/carpet/rubber,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mechbay)
 "aOx" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -1044,6 +1082,18 @@
 	},
 /turf/simulated/floor/airless,
 /area/ship/combat_destroyer/fuel_bay_port)
+"aQq" = (
+/obj/structure/table/steel,
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_x = -3;
+	pixel_y = 18
+	},
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_x = 3;
+	pixel_y = 18
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "aQO" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -1069,6 +1119,9 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/thruster_port_maints_2)
 "aSU" = (
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "aTp" = (
@@ -1124,11 +1177,15 @@
 "aUq" = (
 /obj/structure/reagent_dispensers/coolanttank{
 	pixel_x = -10;
-	pixel_y = 1
+	pixel_y = 1;
+	amount_per_transfer_from_this = 60;
+	anchored = 1
 	},
 /obj/structure/reagent_dispensers/coolanttank{
 	pixel_x = 10;
-	pixel_y = 1
+	pixel_y = 1;
+	amount_per_transfer_from_this = 60;
+	anchored = 1
 	},
 /obj/item/reagent_containers/glass/bucket{
 	pixel_x = -4;
@@ -1150,6 +1207,10 @@
 "aWj" = (
 /obj/machinery/alarm/north{
 	req_one_access = null
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 4;
+	pixel_x = -2
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
@@ -1221,7 +1282,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mechbay)
 "aZU" = (
 /obj/structure/disposalpipe/segment,
@@ -1287,6 +1351,16 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_port)
+"bdj" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/structure/bed/stool/chair/sofa{
+	dir = 4;
+	pixel_x = -4
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "bdy" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -1322,10 +1396,7 @@
 /obj/machinery/alarm/west{
 	req_one_access = null
 	},
-/obj/effect/floor_decal/corner/mauve{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "bfH" = (
 /obj/structure/disposalpipe/segment,
@@ -1539,6 +1610,26 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/crew_maints_starboard)
+"brn" = (
+/obj/machinery/door/airlock/glass_security{
+	dir = 8;
+	name = "Holding Cell B";
+	id_tag = "combat_destroyer_cell_b"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/noid{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
+/turf/simulated/floor/tiled/full,
+/area/ship/combat_destroyer/brig)
 "brq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1558,19 +1649,11 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/crew_maints_starboard)
 "bsr" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
+/obj/structure/bed/stool/chair/sofa/left{
+	dir = 8;
+	pixel_x = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "bta" = (
 /obj/structure/platform_deco{
@@ -1785,15 +1868,18 @@
 /area/ship/combat_destroyer/hallway_fore_port_far)
 "byS" = (
 /obj/structure/closet/crate/rad,
-/obj/item/stack/material/tritium/full,
-/obj/item/stack/material/tritium/full,
-/obj/item/stack/material/tritium/full,
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/item/stack/material/tritium/full,
+/obj/item/stack/material/tritium/full,
+/obj/item/stack/material/tritium/full,
+/obj/item/stack/material/tritium/full,
+/obj/item/stack/material/tritium/full,
+/obj/item/stack/material/tritium/full,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/engie)
 "bzf" = (
@@ -1832,7 +1918,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/starboard_engie_maints)
 "bzL" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -1933,6 +2019,18 @@
 /obj/effect/floor_decal/spline/plain/beige,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/fuel_bay_starboard)
+"bEo" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_fore_port)
 "bEN" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2018,7 +2116,7 @@
 	name = "Brig Blast Doors";
 	pixel_x = -6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/sec)
 "bHb" = (
 /turf/simulated/floor/plating,
@@ -2030,6 +2128,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/cryo_foyer)
+"bHL" = (
+/obj/effect/floor_decal/spline/plain/black,
+/obj/machinery/chemical_dispenser/bar_soft/full{
+	dir = 8;
+	pixel_x = 10
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "bJj" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
@@ -2197,8 +2303,14 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_fore_central)
 "bOV" = (
-/obj/machinery/appliance/cooker/oven,
-/turf/simulated/floor/tiled/white,
+/obj/machinery/appliance/cooker/oven{
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/corner/diagonal,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
 "bPd" = (
 /obj/machinery/portable_atmospherics/hydroponics,
@@ -2232,6 +2344,28 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_aft)
+"bPE" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mechbay)
+"bPQ" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mechbay)
 "bQG" = (
 /obj/machinery/power/apc/super/critical/east{
 	req_access = null
@@ -2417,7 +2551,8 @@
 	req_access = null
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/sec)
 "bYK" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -2433,6 +2568,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/item/ship_ammunition/longbow/preset_ap{
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/longbow/preset_ap{
+	pixel_y = 4
+	},
+/obj/item/ship_ammunition/longbow/preset_bb,
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_starboard_ammo)
 "bZs" = (
@@ -2510,14 +2652,15 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_fighter)
 "ccc" = (
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
 "cck" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/thruster_port_maints_1)
 "ccI" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/brig)
 "ccJ" = (
 /obj/structure/lattice/catwalk,
@@ -2675,7 +2818,10 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_port_hall_1)
 "coT" = (
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
 "cpt" = (
 /obj/structure/bed/stool/chair/office/bridge/generic{
@@ -2840,10 +2986,16 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "cvf" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
 	},
-/turf/simulated/floor/plating,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/high/north{
+	req_access = null
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mess)
 "cvP" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -3268,6 +3420,18 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_fighter)
+"cTl" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "cVT" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -3310,10 +3474,11 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
-/obj/machinery/door/blast/shutters/open{
-	dir = 4
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "combat_destroyer_kitchen_shutters"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/kitchen)
 "cZg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -3371,7 +3536,8 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
 "dfQ" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
@@ -3390,6 +3556,27 @@
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/fore_port_ammo)
@@ -3521,7 +3708,8 @@
 	req_access = null
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/sec)
 "dmv" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -3822,6 +4010,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "duR" = (
@@ -3878,7 +4067,8 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mechbay)
 "dwJ" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -3926,6 +4116,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "dzi" = (
@@ -4058,6 +4249,10 @@
 /obj/machinery/alarm/north{
 	req_one_access = null
 	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 8;
+	pixel_x = 1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "dCv" = (
@@ -4146,6 +4341,7 @@
 /obj/effect/floor_decal/corner_wide/paleblue/full{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_a)
 "dGr" = (
@@ -4232,10 +4428,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/effect/floor_decal/corner/mauve/full{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "dJp" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -4291,8 +4484,13 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
 "dLo" = (
-/turf/simulated/wall/shuttle/space_ship,
-/area/ship/combat_destroyer/fore_port_wep)
+/obj/structure/bed/stool/chair/sofa{
+	pixel_x = -7;
+	pixel_y = 6;
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "dLW" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 6
@@ -4962,6 +5160,10 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/plasticflaps/airtight,
+/obj/machinery/door/airlock/freezer{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/kitchen)
 "epr" = (
@@ -4998,7 +5200,8 @@
 	pixel_x = 10;
 	pixel_y = 1
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/sec)
 "erx" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
@@ -5034,6 +5237,13 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/button/remote/blast_door{
+	dir = 1;
+	pixel_y = 30;
+	name = "Ammo Storage Blast Door";
+	id = "combat_destroyer_fore_port_ammo";
+	pixel_x = -4
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_port_wep_access)
 "etC" = (
@@ -5087,6 +5297,10 @@
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 8;
+	pixel_x = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
@@ -5215,7 +5429,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/sec)
 "eza" = (
 /obj/machinery/alarm/east{
@@ -5623,10 +5837,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/mauve{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "eSx" = (
 /obj/effect/floor_decal/industrial/hatch/red,
@@ -5793,11 +6004,10 @@
 /turf/template_noop,
 /area/space)
 "faM" = (
-/obj/machinery/power/apc/high/west{
-	req_access = null
+/obj/machinery/alarm/west{
+	req_one_access = null
 	},
-/obj/structure/cable,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/capt)
 "faT" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -5838,7 +6048,10 @@
 /area/ship/combat_destroyer/atmos)
 "fbY" = (
 /obj/structure/bed/stool/chair/office/dark,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
 "fcH" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -6115,6 +6328,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "foa" = (
@@ -6151,6 +6365,10 @@
 /obj/machinery/door/airlock/highsecurity,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "combat_destroyer_fore_starboard_ammo"
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_starboard_ammo)
 "fro" = (
@@ -6211,6 +6429,9 @@
 /obj/item/reagent_containers/food/condiment/enzyme{
 	pixel_x = -9;
 	pixel_y = 5
+	},
+/obj/machinery/alarm/freezer/east{
+	req_one_access = null
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/combat_destroyer/kitchen)
@@ -6275,6 +6496,15 @@
 "fwc" = (
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/fore_starboard_wep_access)
+"fwR" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/plain/corner/brown{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mess)
 "fzn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -6300,6 +6530,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_port)
+"fzT" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/hydro_maints)
 "fAi" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/light/small/red{
@@ -6323,7 +6563,10 @@
 /obj/structure/bed/stool/chair{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
 "fBO" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -6428,7 +6671,9 @@
 /area/shuttle/combat_destroyer_transport)
 "fHG" = (
 /obj/machinery/door/airlock/glass_security{
-	dir = 8
+	dir = 8;
+	name = "Holding Cell A";
+	id_tag = "combat_destroyer_cell_a"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -6438,6 +6683,9 @@
 	},
 /obj/machinery/door/firedoor/noid{
 	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/brig)
@@ -6634,9 +6882,6 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/atmos)
 "fMr" = (
-/obj/machinery/power/smes/buildable/main_engine{
-	RCon_tag = "Supermatter - Grid"
-	},
 /obj/structure/sign/electricshock{
 	pixel_x = 32
 	},
@@ -6646,6 +6891,13 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
+	},
+/obj/machinery/power/smes/buildable/power_shuttle{
+	input_level = 2500000;
+	output_level = 2500000;
+	output_attempt = 1;
+	input_attempt = 1;
+	charge = 1e+7
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/engie)
@@ -6927,10 +7179,19 @@
 	dir = 8;
 	frequency = 1441;
 	id_tag = "combat_destroyer_air_out";
-	internal_pressure_bound = 5000
+	internal_pressure_bound = 15000
 	},
 /turf/simulated/floor/reinforced/airmix,
 /area/ship/combat_destroyer/atmos)
+"fXy" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/mess)
 "fXI" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Disposals"
@@ -7198,10 +7459,14 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/cic)
 "gli" = (
-/obj/machinery/light/floor/decayed{
-	dir = 8
+/obj/effect/floor_decal/corner/brown{
+	dir = 5
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/disposal/small/east,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mess)
 "glt" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -7272,7 +7537,10 @@
 /obj/structure/bed/stool/chair{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
 "gqA" = (
 /obj/machinery/atmospherics/portables_connector,
@@ -7462,7 +7730,8 @@
 	dir = 4
 	},
 /obj/machinery/vending/dinnerware,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/mess)
 "gzy" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -7612,10 +7881,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/light/floor/decayed{
+/obj/effect/floor_decal/spline/plain/brown{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/mess)
 "gHL" = (
 /obj/structure/cable{
@@ -7770,12 +8039,17 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_port)
 "gMg" = (
-/obj/effect/floor_decal/corner_wide/paleblue{
-	dir = 10
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4
 	},
-/obj/effect/floor_decal/sign/srg,
-/turf/simulated/floor/tiled/white,
-/area/ship/combat_destroyer/med)
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_fore_starboard)
 "gMi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -7878,6 +8152,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_port_hall_2)
+"gQR" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "gRv" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -8100,7 +8380,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Engineering Maintenance"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "hab" = (
 /obj/structure/closet/secure_closet/personal,
@@ -8424,7 +8704,7 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/sec)
 "hnt" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -8522,15 +8802,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/engie)
 "hpD" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
+/obj/machinery/light/colored/decayed{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+/obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/tiled/freezer,
 /area/ship/combat_destroyer/kitchen)
 "hpE" = (
@@ -8642,6 +8917,20 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/cic)
+"hty" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/machinery/button/remote/airlock{
+	dir = 8;
+	pixel_x = -22;
+	specialfunctions = 4;
+	name = "Holding Cell A Bolts";
+	id = "combat_destroyer_cell_a"
+	},
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/brig)
 "htG" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -8661,10 +8950,13 @@
 /obj/machinery/alarm/west{
 	req_one_access = null
 	},
-/obj/effect/floor_decal/industrial/warning/corner,
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
 	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
@@ -8734,8 +9026,14 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/briefing)
 "hwX" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/plating,
+/obj/machinery/light/colored/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/brig)
 "hxr" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
@@ -9022,9 +9320,14 @@
 /area/ship/combat_destroyer/aft_starboard_wep)
 "hMP" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/combat_destroyer/kitchen)
 "hMW" = (
@@ -9184,11 +9487,15 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/port_engie_maints)
 "hSj" = (
-/obj/machinery/button/remote/blast_door{
-	dir = 8;
-	pixel_x = -22
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 9
 	},
-/turf/simulated/floor/plating,
+/obj/structure/bed/stool/chair/sofa{
+	pixel_x = -7;
+	pixel_y = -1;
+	dir = 4
+	},
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "hSo" = (
 /obj/machinery/door/firedoor/noid,
@@ -9328,13 +9635,6 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_port_maints_1)
-"hZF" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/alarm/north{
-	req_one_access = null
-	},
-/turf/simulated/floor/plating,
-/area/ship/combat_destroyer/hall_maints_port)
 "hZX" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/cable{
@@ -9359,10 +9659,7 @@
 "iaD" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/mop,
-/obj/effect/floor_decal/corner/mauve/full{
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "iaO" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -9452,10 +9749,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "iga" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -9490,6 +9784,9 @@
 	},
 /obj/effect/floor_decal/industrial/outline,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "ihF" = (
@@ -9512,10 +9809,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/armory)
-"iip" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/wood,
-/area/ship/combat_destroyer/mess)
 "ijg" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/effect/floor_decal/industrial/warning{
@@ -9524,6 +9817,27 @@
 /obj/structure/table/rack,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/fore_starboard_ammo)
@@ -9537,7 +9851,10 @@
 /area/ship/combat_destroyer/hydro_maints)
 "ijP" = (
 /obj/machinery/light/floor/red,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
 "ijZ" = (
 /turf/simulated/wall/shuttle/space_ship,
@@ -9689,9 +10006,7 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/cryo_foyer)
 "iqk" = (
-/obj/effect/floor_decal/corner/red/diagonal{
-	dir = 4
-	},
+/obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 8
 	},
@@ -9997,6 +10312,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/atmos)
+"iBC" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mess)
 "iBU" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 5
@@ -10069,6 +10393,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_port)
+"iER" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/sec)
 "iEY" = (
 /obj/effect/landmark/entry_point/aft{
 	name = "aft, docking port"
@@ -10181,6 +10509,10 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/atmos)
+"iKd" = (
+/obj/effect/floor_decal/spline/plain/black,
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "iKZ" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
@@ -10224,6 +10556,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/brig)
 "iNm" = (
@@ -10285,7 +10618,10 @@
 /obj/machinery/alarm/south{
 	req_one_access = null
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
 "iPq" = (
 /obj/effect/floor_decal/spline/plain/grey{
@@ -10315,11 +10651,14 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "iQJ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/structure/bed/stool/chair/sofa/left{
+	dir = 8;
+	pixel_x = 4
+	},
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "iRi" = (
 /obj/structure/platform{
@@ -10402,6 +10741,13 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
+"iUm" = (
+/obj/machinery/light/floor/decayed{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/mess)
 "iVe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 5
@@ -10427,6 +10773,10 @@
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/highsecurity,
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "combat_destroyer_aft_starboard_ammo"
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_starboard_ammo)
 "iVE" = (
@@ -10500,6 +10850,18 @@
 /obj/structure/table/rack,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/central_hall_maints)
+"iXx" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_aft)
 "iXC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/dark/full,
@@ -10738,10 +11100,13 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "jly" = (
-/obj/structure/bed/stool/bar{
+/obj/structure/bed/stool/bar/padded/beige{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/spline/plain/brown{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/mess)
 "jmn" = (
 /obj/structure/table/standard,
@@ -10775,6 +11140,27 @@
 /obj/structure/table/rack,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/fore_port_ammo)
@@ -10854,10 +11240,11 @@
 	dir = 4
 	},
 /obj/machinery/smartfridge/foodheater,
-/obj/machinery/door/blast/shutters/open{
-	dir = 4
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "combat_destroyer_kitchen_shutters"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/kitchen)
 "jtt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
@@ -11109,6 +11496,9 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mechbay)
 "jCG" = (
@@ -11265,6 +11655,16 @@
 /obj/effect/floor_decal/spline/plain/beige,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
+"jIL" = (
+/obj/machinery/button/remote/blast_door{
+	pixel_y = -18;
+	id = "combat_destroyer_kitchen_shutters";
+	name = "Kitchen Shutters";
+	pixel_x = -6
+	},
+/obj/effect/floor_decal/corner/diagonal,
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/kitchen)
 "jIO" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
@@ -11434,6 +11834,14 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_fighter)
+"jQR" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume,
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_starboard)
 "jQU" = (
 /obj/machinery/light/colored/red,
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -11639,7 +12047,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/brig)
 "kdX" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -11926,7 +12334,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/sec)
 "knd" = (
 /obj/structure/platform_deco{
@@ -12093,6 +12501,7 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
+/obj/effect/floor_decal/spline/plain/corner/black,
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mechbay)
 "ksa" = (
@@ -12502,6 +12911,21 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/engie)
+"kML" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "kMN" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -12570,6 +12994,12 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_starboard_wep)
+"kPf" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 9
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "kPi" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -12686,6 +13116,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/machinery/alarm/north{
+	req_one_access = null
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_port)
 "kWv" = (
@@ -12957,7 +13390,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/brig)
 "liK" = (
 /obj/structure/bed/stool/chair/plastic{
@@ -12966,7 +13402,7 @@
 /obj/machinery/alarm/east{
 	req_one_access = null
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/brig)
 "liM" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -12989,6 +13425,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/sign/srg,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/med)
 "ljU" = (
@@ -13019,6 +13456,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
+"llQ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/brown{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/brown{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mess)
 "lmv" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -13126,6 +13575,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/airlock/glass/destroyer,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/mess)
 "lrK" = (
@@ -13143,6 +13593,10 @@
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/highsecurity,
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "combat_destroyer_aft_port_ammo"
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_port_ammo)
 "ltD" = (
@@ -13164,7 +13618,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/brig)
 "lvx" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -13233,6 +13690,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/brig)
 "lAY" = (
@@ -13316,6 +13774,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "lCd" = (
@@ -13335,6 +13794,20 @@
 /obj/random/junk,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/starboard_engie_maints)
+"lDx" = (
+/obj/structure/table/steel{
+	pixel_y = 0
+	},
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_x = -3;
+	pixel_y = -14
+	},
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_x = 3;
+	pixel_y = -14
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "lDB" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/structure/cable{
@@ -13402,10 +13875,8 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_transport)
 "lGc" = (
-/obj/structure/bed/stool/chair{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
+/obj/structure/table/steel,
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "lGX" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -13576,7 +14047,8 @@
 "lOi" = (
 /obj/machinery/computer/ship/helm/terminal{
 	dir = 1;
-	light_color = "#6496FA"
+	light_color = "#6496FA";
+	accellimit = 0.005
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
@@ -13646,7 +14118,8 @@
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/southleft,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/sec)
 "lPD" = (
 /obj/effect/floor_decal/corner/red{
@@ -13757,17 +14230,14 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "lUc" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
 /obj/machinery/power/apc/high/north{
 	req_access = null
 	},
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "0-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/combat_destroyer/kitchen)
@@ -14194,6 +14664,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/item/ship_ammunition/longbow/preset_he{
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/longbow/preset_he{
+	pixel_y = 4
+	},
+/obj/item/ship_ammunition/longbow/preset_he,
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_starboard_ammo)
 "mnd" = (
@@ -14416,6 +14893,18 @@
 "mwQ" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/hall_maints_port)
+"mwR" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_y = -18;
+	name = "Ammo Storage Blast Door";
+	id = "combat_destroyer_aft_port_ammo";
+	pixel_x = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "mxl" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -14436,8 +14925,20 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/fuel_bay_port)
 "mxH" = (
-/obj/structure/bed/stool/bar,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/brown{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9;
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mess)
 "myt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -14519,6 +15020,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "mzn" = (
@@ -14594,6 +15096,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "combat_destroyer_fore_port_ammo"
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_port_ammo)
 "mFo" = (
@@ -14608,6 +15114,12 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/capt_maints)
+"mGk" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/sec)
 "mGw" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -14658,6 +15170,13 @@
 "mHX" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/hangar_starboard)
+"mHZ" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/obj/structure/bed/stool/chair,
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "mIi" = (
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 1
@@ -14681,16 +15200,15 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_fore_starboard_far)
 "mIN" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/effect/floor_decal/spline/plain/black{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
+/obj/structure/bed/stool/chair/sofa{
+	pixel_x = -7;
+	pixel_y = -1;
+	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "mJo" = (
 /obj/structure/cable{
@@ -14765,6 +15283,16 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
+"mNf" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/brown{
+	dir = 8;
+	pixel_x = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/mess)
 "mNN" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -14866,6 +15394,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_port_maints_2)
+"mRN" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_y = -18;
+	name = "Ammo Storage Blast Door";
+	id = "combat_destroyer_aft_starboard_ammo";
+	pixel_x = -4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "mSH" = (
 /obj/machinery/door/firedoor/multi_tile{
 	req_one_access = null;
@@ -15003,7 +15543,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/sec)
 "mZy" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -15052,6 +15592,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/item/ship_ammunition/longbow/preset_ap{
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/longbow/preset_ap{
+	pixel_y = 4
+	},
+/obj/item/ship_ammunition/longbow/preset_bb,
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_starboard_ammo)
 "nbk" = (
@@ -15198,6 +15745,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/item/ship_ammunition/longbow/preset_he{
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/longbow/preset_he{
+	pixel_y = 4
+	},
+/obj/item/ship_ammunition/longbow/preset_he,
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_starboard_ammo)
 "niJ" = (
@@ -15257,7 +15811,8 @@
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
 "nnj" = (
 /obj/machinery/shower{
@@ -15295,8 +15850,13 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/crew_starboard)
 "nnX" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "nod" = (
 /obj/effect/floor_decal/industrial/outline/emergency_closet,
@@ -15559,11 +16119,26 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/cic)
+"nwN" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/brown{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mess)
 "nxb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/brown{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/plain/brown{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mess)
 "nxt" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -15639,6 +16214,13 @@
 /obj/item/reagent_containers/hypospray/autoinjector/hyronalin,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/med)
+"nzv" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/spline/plain/brown,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/mess)
 "nzC" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/item/material/shard/shrapnel,
@@ -15733,7 +16315,6 @@
 	pixel_y = -8
 	},
 /obj/structure/curtain/open/shower,
-/obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/washroom)
 "nDu" = (
@@ -15776,9 +16357,9 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	icon_state = "2-8"
+	icon_state = "1-8"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/capt)
 "nEC" = (
 /obj/machinery/atmospherics/pipe/simple/visible/supply{
@@ -15801,6 +16382,18 @@
 /obj/effect/floor_decal/corner/dark_blue,
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_starboard)
+"nHu" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "nHx" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
@@ -15877,7 +16470,16 @@
 /area/shuttle/combat_destroyer_transport)
 "nLM" = (
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mess)
 "nLT" = (
 /obj/structure/railing/mapped,
@@ -16178,7 +16780,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
 "nZA" = (
 /obj/structure/table/rack,
@@ -16189,6 +16792,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_port_ammo)
 "nZX" = (
@@ -16218,7 +16827,6 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/washroom)
 "oav" = (
@@ -16270,6 +16878,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_port_ammo)
 "odV" = (
@@ -16324,8 +16938,20 @@
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/sec)
+"ohF" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "oic" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -16406,7 +17032,10 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/brig)
 "olt" = (
 /obj/machinery/atmospherics/unary/engine,
@@ -16421,6 +17050,10 @@
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 4;
+	pixel_x = -2
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_port)
@@ -16482,7 +17115,7 @@
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 10
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/outline/medical,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_a)
 "oog" = (
@@ -16581,7 +17214,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/brig)
 "oqa" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
@@ -16626,7 +17259,6 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/obj/structure/lattice/catwalk/indoor,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "oru" = (
@@ -16697,6 +17329,24 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_port)
+"otp" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 5
+	},
+/obj/structure/table/steel{
+	pixel_x = -7;
+	pixel_y = -6
+	},
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_x = -10;
+	pixel_y = 0
+	},
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_x = -4;
+	pixel_y = 0
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "otx" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -16748,6 +17398,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_port_wep_maints)
+"owm" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_fore_starboard)
 "oxb" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/hallway_port)
@@ -16944,8 +17606,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/can{
-	pixel_y = 14;
-	pixel_x = -2
+	pixel_y = 11;
+	pixel_x = 9
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/crew_maints_starboard)
@@ -17142,8 +17804,21 @@
 /area/ship/combat_destroyer/crew_maints_port)
 "oMJ" = (
 /obj/machinery/appliance/cooker/fryer,
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
+"oMK" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "oMO" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 6
@@ -17621,6 +18296,7 @@
 	},
 /obj/item/storage/box/freezer/organcooler,
 /obj/effect/floor_decal/corner_wide/paleblue/full,
+/obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_b)
 "pnz" = (
@@ -17722,11 +18398,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/obj/effect/floor_decal/corner/mauve{
-	dir = 6
-	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "pqf" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
@@ -17771,6 +18443,18 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/engie)
+"prp" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/corner/brown{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mess)
 "prv" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -18080,6 +18764,13 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/hydro_maints)
+"pFd" = (
+/obj/machinery/light/floor/decayed{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/mess)
 "pFf" = (
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hallway)
@@ -18219,8 +18910,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/effect/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "pOl" = (
 /obj/structure/table/rack,
@@ -18305,6 +18995,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/sec)
 "pQx" = (
@@ -18427,7 +19120,12 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "pUK" = (
-/turf/simulated/floor/wood,
+/obj/structure/bed/stool/chair/sofa/corner/concave{
+	dir = 4;
+	pixel_y = 6;
+	pixel_x = -7
+	},
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "pVo" = (
 /obj/structure/disposalpipe/junction/yjunction{
@@ -18548,6 +19246,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 1
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/brig)
 "qcQ" = (
@@ -18694,6 +19393,7 @@
 	dir = 4
 	},
 /obj/item/storage/bag/inflatable/emergency,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/brig)
 "qgT" = (
@@ -18705,7 +19405,11 @@
 /area/ship/combat_destroyer/capt_maints)
 "qgV" = (
 /obj/machinery/appliance/cooker/stove,
-/turf/simulated/floor/tiled/white,
+/obj/machinery/alarm/east{
+	req_one_access = null
+	},
+/obj/effect/floor_decal/corner/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
 "qis" = (
 /obj/effect/floor_decal/corner/red/full{
@@ -18817,7 +19521,8 @@
 /obj/effect/map_effect/window_spawner/full/mercernary,
 /obj/structure/grille/over,
 /obj/machinery/door/blast/regular{
-	dir = 4
+	dir = 4;
+	id = "combat_destroyer_mess_blast"
 	},
 /obj/effect/landmark/entry_point/fore{
 	name = "fore, messhall"
@@ -18882,13 +19587,24 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_port_ammo)
 "qrK" = (
 /obj/machinery/button/remote/blast_door{
-	pixel_y = -18
+	pixel_y = -18;
+	id = "combat_destroyer_mess_blast";
+	name = "Messhall Blast Shield"
 	},
-/turf/simulated/floor/wood,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mess)
 "qsl" = (
 /obj/structure/cable{
@@ -18920,6 +19636,12 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
+"qtA" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 10
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "quW" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -19091,6 +19813,9 @@
 "qCD" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/green/diagonal,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/washroom)
 "qCV" = (
@@ -19100,6 +19825,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/brig)
 "qDh" = (
@@ -19211,7 +19937,8 @@
 "qGY" = (
 /obj/machinery/computer/ship/helm/terminal{
 	dir = 1;
-	light_color = "#6496FA"
+	light_color = "#6496FA";
+	accellimit = 0.005
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_transport)
@@ -19296,7 +20023,8 @@
 	dir = 4
 	},
 /obj/machinery/door/window/brigdoor/southright,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/sec)
 "qKT" = (
 /obj/structure/bed/stool/chair/office/bridge/pilot,
@@ -19358,6 +20086,27 @@
 /obj/machinery/alarm/east{
 	req_one_access = null
 	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/fore_port_ammo)
 "qMU" = (
@@ -19385,6 +20134,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
+"qNs" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 6
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "qNG" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
@@ -19770,7 +20525,7 @@
 /obj/machinery/light/colored/red{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
 "rcT" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -20152,6 +20907,16 @@
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_exterior)
+"rtg" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/structure/bed/stool/chair/sofa/right{
+	dir = 4;
+	pixel_x = -4
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "rtr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -20187,7 +20952,15 @@
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/structure/bed/stool/chair/sofa/corner/concave{
+	dir = 1;
+	pixel_y = -1;
+	pixel_x = -7
+	},
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "rvq" = (
 /obj/structure/platform,
@@ -20218,6 +20991,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_fore_central)
+"rwB" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/brig)
 "rwJ" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 10
@@ -20513,11 +21292,16 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/crew_maints_port)
 "rJn" = (
-/obj/structure/cable,
-/obj/machinery/power/apc/high/east{
-	req_access = null
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "rLv" = (
 /obj/machinery/light/floor/red{
@@ -20635,9 +21419,6 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "rRj" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9;
 	pixel_y = 0
@@ -20647,6 +21428,15 @@
 	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mechbay)
@@ -20714,6 +21504,7 @@
 /obj/effect/floor_decal/corner_wide/paleblue/full,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/sign/srg,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/med)
 "rTd" = (
@@ -20743,6 +21534,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/crew_maints_port)
+"rUn" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_starboard)
 "rWi" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/structure/cable{
@@ -20788,13 +21589,34 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hallway_fore_central)
 "rXA" = (
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 8;
+	pixel_x = 1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
+"rXF" = (
+/obj/machinery/light/colored/red,
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/brig)
 "rXO" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_starboard)
+"rXS" = (
+/obj/structure/table/steel,
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_x = -3;
+	pixel_y = -14
+	},
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_x = 3;
+	pixel_y = -14
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "rZb" = (
 /obj/machinery/power/portgen/basic/fusion,
 /obj/machinery/light/small/emergency{
@@ -21002,16 +21824,15 @@
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "shH" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mess)
 "shQ" = (
 /obj/structure/tank_wall/carbon_dioxide{
@@ -21104,10 +21925,10 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/cryo_foyer)
 "sjH" = (
-/obj/structure/bed/stool/chair{
-	dir = 4
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mess)
 "skA" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -21201,36 +22022,38 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_starboard)
 "smw" = (
-/obj/structure/table/standard,
 /obj/machinery/alarm/west{
 	req_one_access = null
 	},
-/turf/simulated/floor/plating,
+/obj/structure/bed/stool/chair/sofa/right{
+	dir = 4;
+	pixel_x = -7;
+	pixel_y = 6
+	},
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "smH" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "snI" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
+/obj/structure/bed/stool/chair/sofa{
+	dir = 8;
+	pixel_x = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "snT" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 8
-	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mechbay)
@@ -21424,7 +22247,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/sec)
 "str" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -21510,6 +22333,9 @@
 /turf/simulated/floor/bluegrid/cooled,
 /area/ship/combat_destroyer/cic)
 "svH" = (
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_exterior)
 "svV" = (
@@ -21579,6 +22405,27 @@
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/fore_starboard_ammo)
@@ -21824,7 +22671,7 @@
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 10
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/outline/medical,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_b)
 "sQk" = (
@@ -21862,7 +22709,11 @@
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/structure/bed/stool/chair/sofa{
+	pixel_x = -7;
+	pixel_y = 6
+	},
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "sRe" = (
 /obj/structure/cryofeed{
@@ -21891,16 +22742,12 @@
 /area/shuttle/combat_destroyer_fighter)
 "sRJ" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
 /obj/structure/cable{
-	icon_state = "1-4"
+	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mess)
 "sRV" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
@@ -22128,9 +22975,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/effect/floor_decal/corner/red/diagonal{
-	dir = 4
-	},
+/obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 8
 	},
@@ -22380,6 +23225,18 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_port)
+"tmF" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/corner/brown{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mess)
 "tnq" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/structure/cable{
@@ -22396,6 +23253,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_hall_1)
+"tns" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "tov" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/decal/cleanable/dirt,
@@ -22602,6 +23471,13 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/fuel_bay_port)
+"tya" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/plain/corner/brown,
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mess)
 "tyA" = (
 /obj/effect/landmark/entry_point/port{
 	name = "port, fuel compartment"
@@ -22612,7 +23488,8 @@
 /obj/effect/map_effect/window_spawner/full/mercernary,
 /obj/structure/grille/over,
 /obj/machinery/door/blast/regular{
-	dir = 4
+	dir = 4;
+	id = "combat_destroyer_mess_blast"
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/mess)
@@ -22622,19 +23499,11 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_port_maints_2)
 "tAZ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/structure/table/steel,
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "tBB" = (
 /obj/structure/cable{
@@ -22853,7 +23722,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mechbay)
 "tOh" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -22978,6 +23847,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/med)
+"tTl" = (
+/obj/effect/floor_decal/spline/plain/brown{
+	dir = 8;
+	pixel_x = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/mess)
 "tTs" = (
 /obj/structure/bed/roller,
 /obj/effect/floor_decal/industrial/outline/security,
@@ -23122,6 +23998,27 @@
 /obj/machinery/alarm/west{
 	req_one_access = null
 	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/fore_starboard_ammo)
 "ubK" = (
@@ -23197,6 +24094,8 @@
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/plasticflaps/airtight,
+/obj/machinery/door/airlock/freezer,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/kitchen)
 "ufJ" = (
@@ -23241,6 +24140,8 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
 	},
+/obj/machinery/meter,
+/obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/atmos)
 "uhq" = (
@@ -23271,6 +24172,21 @@
 "uir" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/washroom)
+"uiv" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mess)
 "uiO" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -23331,6 +24247,14 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hallway_fore_port)
+"umg" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume,
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_port)
 "umn" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/mech_recharger,
@@ -23470,6 +24394,15 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_starboard_wep_maints)
 "ust" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/combat_destroyer/kitchen)
 "usH" = (
@@ -23673,6 +24606,35 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/crew_port)
+"uFZ" = (
+/obj/structure/table/rack,
+/obj/item/tray{
+	pixel_y = 1
+	},
+/obj/item/tray{
+	pixel_y = 1
+	},
+/obj/item/tray{
+	pixel_y = 1
+	},
+/obj/item/tray{
+	pixel_y = 1
+	},
+/obj/item/tray{
+	pixel_y = 4
+	},
+/obj/item/tray{
+	pixel_y = 4
+	},
+/obj/item/tray{
+	pixel_y = 4
+	},
+/obj/item/tray{
+	pixel_y = 4
+	},
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/full,
+/area/ship/combat_destroyer/mess)
 "uGw" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/firedoor/noid,
@@ -24101,7 +25063,8 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
 "vaf" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -24289,7 +25252,10 @@
 /turf/simulated/floor/airless,
 /area/ship/combat_destroyer/space_catwalk)
 "viw" = (
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/brown{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mess)
 "viF" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
@@ -24302,7 +25268,14 @@
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/media/jukebox/audioconsole{
+	pixel_y = 12;
+	anchored = 1
+	},
+/obj/structure/table/reinforced/steel,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/mess)
 "vji" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
@@ -24329,6 +25302,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_port_ammo)
 "vjJ" = (
@@ -24337,6 +25316,18 @@
 	},
 /turf/unsimulated/wall/fakepdoor,
 /area/ship/combat_destroyer/hangar_port)
+"vjL" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "vjR" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/east{
@@ -24453,6 +25444,21 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
+"vpu" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "vpD" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -24556,6 +25562,12 @@
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_central)
+"vvj" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 5
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "vvD" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -24605,7 +25617,7 @@
 "vxp" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/mech_recharger,
-/turf/simulated/floor/carpet/rubber,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mechbay)
 "vxz" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -24670,7 +25682,8 @@
 "vBN" = (
 /obj/machinery/computer/ship/helm/terminal{
 	dir = 1;
-	light_color = "#6496FA"
+	light_color = "#6496FA";
+	accellimit = 0.005
 	},
 /obj/machinery/light/colored/red,
 /turf/simulated/floor/carpet/rubber,
@@ -24965,6 +25978,13 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/button/remote/blast_door{
+	dir = 1;
+	pixel_y = 30;
+	name = "Ammo Storage Blast Door";
+	id = "combat_destroyer_fore_starboard_ammo";
+	pixel_x = 4
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_starboard_wep_access)
 "vPZ" = (
@@ -25055,6 +26075,16 @@
 /obj/effect/floor_decal/industrial/outline/engineering,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/fuel_bay_port)
+"vVJ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1
+	},
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/capt_maints)
 "vWm" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/effect/decal/cleanable/blood/oil,
@@ -25282,10 +26312,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_fore_central)
 "wiv" = (
+/obj/effect/floor_decal/spline/plain/black,
 /obj/structure/bed/stool/chair{
-	dir = 8
+	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "wiU" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -25362,10 +26393,13 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_wep)
 "wlD" = (
-/obj/machinery/alarm/west{
-	req_one_access = null
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
-/turf/simulated/floor/wood,
+/obj/machinery/power/apc/high/west{
+	req_access = null
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/capt)
 "wmb" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
@@ -25373,6 +26407,10 @@
 	},
 /obj/machinery/light/floor/cyan{
 	dir = 4
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_a)
@@ -25397,6 +26435,28 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_starboard)
+"wnS" = (
+/obj/structure/table/stone/marble,
+/obj/machinery/door/firedoor/noid{
+	dir = 4
+	},
+/obj/item/reagent_containers/food/condiment/shaker/spacespice{
+	pixel_y = 16;
+	pixel_x = 8
+	},
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_y = 14
+	},
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_x = -6;
+	pixel_y = 14
+	},
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "combat_destroyer_kitchen_shutters"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/kitchen)
 "woI" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -25432,9 +26492,6 @@
 /obj/machinery/alarm/east{
 	req_one_access = null
 	},
-/obj/effect/floor_decal/corner/red/diagonal{
-	dir = 4
-	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/crew_starboard)
 "wrd" = (
@@ -25469,7 +26526,8 @@
 	pixel_x = 6;
 	pixel_y = 10
 	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/diagonal,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
 "wrJ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -25531,6 +26589,18 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_hallway_port)
+"wsY" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_aft)
 "wtk" = (
 /obj/machinery/door/airlock/glass_security,
 /obj/structure/cable{
@@ -25578,6 +26648,27 @@
 /obj/structure/table/rack,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/fore_port_ammo)
@@ -25775,6 +26866,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/cryo_foyer)
+"wCS" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/mess)
 "wDh" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -26191,6 +27288,27 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2
+	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/fore_starboard_ammo)
 "wUN" = (
@@ -26295,6 +27413,10 @@
 /obj/machinery/light/floor/cyan{
 	dir = 8
 	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_b)
 "xcs" = (
@@ -26339,6 +27461,10 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/combat_destroyer_fighter)
 "xfw" = (
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 4;
+	pixel_x = -2
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "xfU" = (
@@ -26513,7 +27639,10 @@
 /obj/machinery/light/floor/red{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
 "xrH" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -26557,7 +27686,7 @@
 	req_access = null
 	},
 /obj/structure/cable,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/brig)
 "xsQ" = (
 /obj/structure/lattice/catwalk,
@@ -26727,10 +27856,13 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_port)
 "xyC" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
+/obj/effect/floor_decal/corner/brown{
+	dir = 9
 	},
-/turf/simulated/floor/plating,
+/obj/machinery/alarm/north{
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mess)
 "xyS" = (
 /obj/effect/floor_decal/industrial/hatch/red,
@@ -26841,7 +27973,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mechbay)
 "xDm" = (
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -27094,14 +28226,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/light/floor/red{
-	dir = 1
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/brig)
 "xPf" = (
-/obj/structure/bed/stool/chair,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/mess)
 "xPv" = (
 /obj/effect/floor_decal/industrial/hatch/red,
@@ -27218,7 +28355,17 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/machinery/button/remote/airlock{
+	dir = 8;
+	pixel_x = -22;
+	specialfunctions = 4;
+	name = "Holding Cell B Bolts";
+	id = "combat_destroyer_cell_b"
+	},
+/turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/brig)
 "xWg" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
@@ -27351,6 +28498,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_port)
+"xZS" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/structure/bed/stool/chair/sofa{
+	dir = 8;
+	pixel_x = 4
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "ybu" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/north{
@@ -50519,7 +51676,7 @@ kIE
 vXT
 xJP
 hHX
-lWK
+tns
 lWK
 qXT
 iRW
@@ -51033,7 +52190,7 @@ cbf
 krp
 unv
 qXT
-qUQ
+nHu
 qUQ
 qXT
 aYY
@@ -52064,7 +53221,7 @@ gbQ
 fHG
 dQv
 gbQ
-fHG
+brn
 gbQ
 gbQ
 gOi
@@ -52317,7 +53474,7 @@ cbf
 cbf
 ssb
 gbQ
-hwX
+hty
 iMZ
 liD
 xWb
@@ -52329,7 +53486,7 @@ wIR
 oXR
 lzQ
 yci
-yci
+vjL
 lzQ
 kfK
 cbf
@@ -52834,8 +53991,8 @@ dJW
 cbT
 mKk
 xOS
-ccI
-hwX
+rwB
+rXF
 gbQ
 stZ
 voM
@@ -52843,7 +54000,7 @@ fZg
 fZg
 lzQ
 xeR
-xeR
+ohF
 lzQ
 kfK
 cbf
@@ -53147,7 +54304,7 @@ adf
 ofF
 fiq
 ajF
-pED
+fzT
 klZ
 xLR
 qWQ
@@ -53191,11 +54348,11 @@ cbf
 cbf
 cbf
 cbf
-prh
-cbf
 cbf
 prh
 cbf
+cbf
+prh
 cbf
 cbf
 cbf
@@ -53383,9 +54540,9 @@ afv
 cbf
 gzl
 ahC
-lyE
+jQR
 lJH
-tUs
+rUn
 ahC
 gzl
 cbf
@@ -53703,8 +54860,8 @@ cbf
 cbf
 cbf
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -53866,7 +55023,7 @@ fnZ
 aoZ
 dJW
 lgq
-voM
+mRN
 vfu
 nif
 nai
@@ -54373,10 +55530,10 @@ dJW
 dJW
 era
 mze
-coT
+mGk
 xtF
 gpO
-coT
+iER
 fBv
 dJW
 qQE
@@ -54474,8 +55631,8 @@ cbf
 cbf
 cbf
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -55245,8 +56402,8 @@ djM
 djM
 djM
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -55502,7 +56659,7 @@ bkr
 bkr
 bkr
 bkr
-cbf
+bkr
 cbf
 cbf
 cbf
@@ -55757,9 +56914,9 @@ oNn
 mwG
 bkr
 xrH
+gMg
 xrH
 bkr
-cbf
 cbf
 cbf
 cbf
@@ -56014,9 +57171,9 @@ iXC
 wYp
 hDR
 erx
+erx
 ylS
 iTH
-cbf
 cbf
 cbf
 cbf
@@ -56271,9 +57428,9 @@ kCy
 mwG
 bkr
 bMm
+owm
 bMm
 qsV
-cbf
 cbf
 cbf
 cbf
@@ -56530,8 +57687,8 @@ bkr
 bkr
 bkr
 bkr
+bkr
 kIE
-cbf
 cbf
 cbf
 cbf
@@ -57004,7 +58161,7 @@ tTs
 hqZ
 boP
 kpC
-gMg
+gWy
 vYd
 dFE
 wmb
@@ -57301,8 +58458,8 @@ cbf
 cbf
 cbf
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -57518,7 +58675,7 @@ bnU
 bnU
 tPz
 oic
-gMg
+gWy
 dRg
 sWy
 xbP
@@ -58072,8 +59229,8 @@ cbf
 cbf
 cbf
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -58588,11 +59745,11 @@ cbf
 cbf
 cbf
 cbf
-prh
-cbf
 cbf
 prh
 cbf
+cbf
+prh
 cbf
 cbf
 cbf
@@ -59327,12 +60484,12 @@ foa
 dHo
 vtT
 lxV
-viw
-xPf
+pUK
+dLo
 smw
-lGc
+iKd
 gli
-aun
+wCS
 hSj
 ruY
 tAf
@@ -59585,13 +60742,13 @@ dHo
 vtT
 lxV
 sRd
-xPf
-nnX
+lDx
 lGc
+wiv
 afU
-iQJ
-jly
-jly
+wCS
+otp
+mIN
 tAf
 gzl
 gzl
@@ -59841,14 +60998,14 @@ oZo
 wzl
 lxV
 lxV
-viw
-xPf
+gQR
 nnX
-lGc
-nxb
-mxH
-iip
-iip
+nnX
+qNs
+nwN
+xPf
+pFd
+aun
 lxV
 lxV
 cbf
@@ -60021,7 +61178,7 @@ cbf
 cbf
 cbf
 iEY
-sXj
+wsY
 sXj
 nAI
 vdg
@@ -60101,12 +61258,12 @@ xyC
 viw
 viw
 viw
-viw
+tya
 nxb
-mxH
-iip
-pUK
-pUK
+tmF
+kPf
+bdj
+rtg
 tAf
 cbf
 cbf
@@ -60356,14 +61513,14 @@ rTd
 lrA
 shH
 sRJ
+fXy
 nLM
-nLM
-nLM
+nzv
 vjh
 mxH
-iip
-pUK
-pUK
+mHZ
+rXS
+lGc
 qoB
 cbf
 cbf
@@ -60535,7 +61692,7 @@ cbf
 cbf
 cbf
 nAI
-dCg
+iXx
 dCg
 nAI
 fZI
@@ -60612,15 +61769,15 @@ ezj
 gkj
 lxV
 cvf
-mIN
 sjH
 sjH
-sjH
-nxb
-mxH
-iip
-pUK
-pUK
+uiv
+fwR
+llQ
+prp
+vvj
+xZS
+iQJ
 tAf
 cbf
 cbf
@@ -60869,13 +62026,13 @@ bOk
 sSQ
 lxV
 lxV
-mIN
-nnX
-nnX
-nnX
-nxb
-mxH
-iip
+bdj
+rtg
+kML
+qtA
+nwN
+iBC
+iUm
 qrK
 lxV
 lxV
@@ -61127,13 +62284,13 @@ kjA
 vtT
 lxV
 tAZ
-wiv
-wiv
-wiv
-nxb
-viw
-viw
-viw
+aQq
+vpu
+iKd
+mNf
+tTl
+tTl
+uFZ
 tAf
 gzl
 gzl
@@ -61386,7 +62543,7 @@ lxV
 snI
 bsr
 rJn
-viw
+bHL
 gHq
 jly
 jly
@@ -61641,11 +62798,11 @@ rvM
 bew
 iyL
 iyL
+iyL
 eph
 iyL
-iyL
 jts
-cYR
+wnS
 cYR
 iyL
 iyL
@@ -61903,7 +63060,7 @@ ust
 iyL
 nYG
 vaa
-ccc
+jIL
 iyL
 gzl
 xML
@@ -61929,11 +63086,11 @@ cbf
 cbf
 cbf
 cbf
-prh
-cbf
 cbf
 prh
 cbf
+cbf
+prh
 cbf
 cbf
 cbf
@@ -62441,8 +63598,8 @@ cbf
 cbf
 cbf
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -63212,8 +64369,8 @@ cbf
 cbf
 cbf
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -63983,8 +65140,8 @@ pWy
 pWy
 pWy
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -64240,7 +65397,7 @@ mbI
 mbI
 mbI
 mbI
-cbf
+mbI
 cbf
 cbf
 cbf
@@ -64495,9 +65652,9 @@ wZA
 kDZ
 mbI
 mLV
+bEo
 mLV
 mbI
-cbf
 cbf
 cbf
 cbf
@@ -64752,9 +65909,9 @@ xwm
 kgz
 qQc
 bYC
+bYC
 iwP
 eBU
-cbf
 cbf
 cbf
 cbf
@@ -65009,9 +66166,9 @@ ndf
 kDZ
 mbI
 fLH
+asp
 fLH
 tOT
-cbf
 cbf
 cbf
 cbf
@@ -65268,8 +66425,8 @@ mbI
 mbI
 mbI
 mbI
+mbI
 kIE
-cbf
 cbf
 cbf
 cbf
@@ -66007,7 +67164,7 @@ jkM
 wlD
 nEs
 faM
-pnz
+aGR
 jkM
 eFj
 vWt
@@ -66039,8 +67196,8 @@ cbf
 cbf
 cbf
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -66261,12 +67418,12 @@ pnz
 pnz
 pnz
 ryh
+aGR
 pnz
 pnz
-pnz
-pnz
-jkM
-hZF
+aGR
+tQU
+bPq
 erJ
 erJ
 aNk
@@ -66513,7 +67670,7 @@ opl
 oxG
 pIR
 qgT
-tQU
+jkM
 pnz
 pnz
 pnz
@@ -66716,7 +67873,7 @@ hwh
 hwh
 hwh
 yeW
-gZV
+mwR
 pAo
 qqQ
 odO
@@ -66810,8 +67967,8 @@ cbf
 cbf
 cbf
 cbf
-kIE
 cbf
+kIE
 cbf
 cbf
 cbf
@@ -67261,9 +68418,9 @@ hQc
 cbf
 gzl
 oru
-wJV
+umg
 ekE
-siL
+auT
 oru
 gzl
 cbf
@@ -67326,11 +68483,11 @@ cbf
 cbf
 cbf
 cbf
-prh
-cbf
 cbf
 prh
 cbf
+cbf
+prh
 cbf
 cbf
 cbf
@@ -67530,7 +68687,7 @@ cbf
 cbf
 wJJ
 wJJ
-dLo
+kPl
 osU
 qZo
 uhq
@@ -67539,7 +68696,7 @@ ozI
 kPl
 jTd
 uhz
-ell
+vVJ
 lSi
 rAN
 rAN
@@ -67749,7 +68906,7 @@ jDj
 jDj
 bBU
 eJa
-eJa
+cTl
 bBU
 kfK
 cbf
@@ -67787,8 +68944,8 @@ cbf
 cbf
 prh
 cbf
-dLo
-dLo
+kPl
+kPl
 kPl
 avy
 rZk
@@ -68263,7 +69420,7 @@ nXh
 oFC
 bBU
 esJ
-esJ
+oMK
 bBU
 kfK
 cbf
@@ -68768,8 +69925,8 @@ lWg
 oPk
 bTy
 hrP
-ioe
-ycR
+bPE
+bPQ
 aOv
 oPk
 inC
