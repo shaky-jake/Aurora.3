@@ -450,6 +450,16 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_fore_starboard_far)
+"app" = (
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/sign/gtr,
+/turf/simulated/floor/tiled/white,
+/area/ship/combat_destroyer/med)
 "aqK" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -490,6 +500,9 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/engie)
 "ari" = (
@@ -601,6 +614,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_port_wep)
 "awg" = (
@@ -615,6 +631,10 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/sign/directions/prop{
+	pixel_y = -20;
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -673,6 +693,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_starboard_wep)
@@ -750,6 +773,12 @@
 "aDH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = -28;
+	pixel_x = 1
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_port)
@@ -870,6 +899,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_port)
+"aJa" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = -19;
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway)
 "aJe" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/aft_port_wep)
@@ -895,6 +934,9 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/light/small/emergency{
 	dir = 1
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_port_ammo)
@@ -974,6 +1016,22 @@
 	},
 /turf/unsimulated/wall/fakepdoor,
 /area/ship/combat_destroyer/hangar_port)
+"aMq" = (
+/obj/machinery/light/floor{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/orange{
+	dir = 9
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 36
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = 28
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/combat_destroyer/hangar_hallway_port)
 "aMV" = (
 /obj/structure/bed/stool/chair/office/bridge/generic,
 /obj/effect/floor_decal/spline/plain/black{
@@ -1094,6 +1152,16 @@
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
+"aQJ" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = 36;
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_starboard)
 "aQO" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -1174,6 +1242,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
+"aUe" = (
+/obj/structure/railing/mapped,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING: BEWARE OF HIGH-YIELD DEFENSIVE TURRETS. DO NOT PASS WITHOUT PROPER AUTHORIZATION. EXTREME DANGER WITHIN THIS PERIMETER.'.";
+	name = "\improper WARNING: PRIMARY ARMAMENT sign";
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/aft_starboard_wep)
 "aUq" = (
 /obj/structure/reagent_dispensers/coolanttank{
 	pixel_x = -10;
@@ -1254,6 +1331,9 @@
 /obj/machinery/alarm/east{
 	req_one_access = null
 	},
+/obj/structure/sign/vacuum{
+	pixel_y = 32
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
 "aZo" = (
@@ -1269,10 +1349,15 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 5
 	},
-/obj/machinery/alarm/north{
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/alarm/west{
 	req_one_access = null
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/sign/securearea{
+	name = "\improper WARNING: SECURE AMMUNITION STORAGE sign";
+	pixel_y = 32;
+	pixel_x = -1
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_port_wep_access)
 "aZL" = (
@@ -1320,6 +1405,16 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/fore_port_wep_access)
+"bbn" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/all{
+	pixel_y = 36;
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/docking_port_port)
 "bbU" = (
 /obj/machinery/shower{
 	dir = 4;
@@ -1356,8 +1451,7 @@
 	dir = 8
 	},
 /obj/structure/bed/stool/chair/sofa{
-	dir = 4;
-	pixel_x = -4
+	dir = 4
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -1602,6 +1696,21 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_starboard_hall_1)
+"bpG" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/engineering{
+	pixel_y = 36;
+	dir = 1;
+	pixel_x = 1
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = 28;
+	pixel_x = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_port)
 "bpT" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -1650,8 +1759,7 @@
 /area/ship/combat_destroyer/crew_maints_starboard)
 "bsr" = (
 /obj/structure/bed/stool/chair/sofa/left{
-	dir = 8;
-	pixel_x = 4
+	dir = 8
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -2154,6 +2262,19 @@
 /obj/machinery/light/colored/decayed,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
+"bJR" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19;
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_central)
 "bKb" = (
 /obj/structure/closet/secure_closet/guncabinet,
 /obj/effect/floor_decal/industrial/outline/red,
@@ -2304,11 +2425,13 @@
 /area/ship/combat_destroyer/hallway_fore_central)
 "bOV" = (
 /obj/machinery/appliance/cooker/oven{
-	pixel_y = 0
+	pixel_y = 24;
+	pixel_x = 2;
+	density = 0
 	},
 /obj/effect/floor_decal/corner/diagonal,
 /obj/machinery/light/colored/decayed{
-	dir = 1
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/kitchen)
@@ -2520,6 +2643,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/structure/sign/directions/prop{
+	pixel_y = -20;
+	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
@@ -3034,6 +3161,10 @@
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 5
 	},
+/obj/structure/sign/directions/com{
+	dir = 1;
+	pixel_y = 36
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway)
 "cwU" = (
@@ -3346,7 +3477,7 @@
 	dir = 10
 	},
 /obj/structure/sign/directions/medical{
-	pixel_y = -18
+	pixel_y = -19
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway)
@@ -3718,6 +3849,14 @@
 /obj/machinery/light/floor{
 	dir = 1
 	},
+/obj/structure/sign/directions/com{
+	pixel_y = 28;
+	dir = 1
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = 36;
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_port)
 "dmz" = (
@@ -3764,6 +3903,11 @@
 /obj/item/circuitboard/exosystem/medical,
 /obj/item/circuitboard/exosystem/utility,
 /obj/item/circuitboard/exosystem/weapons,
+/obj/structure/sign/electricshock{
+	desc = "A caution sign which reads 'CAUTION: HEAVY MACHINERY IN USE' and 'THIS EQUIPMENT STARTS AND STOPS AUTOMATICALLY.'.";
+	name = "\improper CAUTION: HEAVY MACHINERY IN USE sign";
+	pixel_y = 32
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/mechbay)
 "dnl" = (
@@ -3819,6 +3963,10 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
+	},
+/obj/structure/sign/securearea{
+	name = "\improper WARNING: FUEL BAY sign";
+	pixel_x = -32
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
@@ -3887,6 +4035,11 @@
 /obj/machinery/door/blast/shutters{
 	dir = 4;
 	id = "combat_destroyer_armory_shutters"
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING' and 'ARMOURY'.";
+	name = "\improper WARNING: ARMOURY sign";
+	pixel_y = -28
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hangar_hallway_port)
@@ -3962,6 +4115,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = -28;
+	pixel_x = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_starboard)
 "dtp" = (
@@ -3989,9 +4148,6 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 9
 	},
-/obj/machinery/power/apc/high/north{
-	req_access = null
-	},
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
@@ -4003,6 +4159,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
+	},
+/obj/machinery/power/apc/high/north{
+	req_access = null
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/armory)
@@ -4179,6 +4338,14 @@
 /obj/machinery/light/floor{
 	dir = 1
 	},
+/obj/structure/sign/directions/medical{
+	pixel_y = 36;
+	dir = 1
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = 28;
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_starboard)
 "dAl" = (
@@ -4203,6 +4370,14 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 4;
+	pixel_y = 36
+	},
+/obj/structure/sign/directions/com{
+	dir = 8;
+	pixel_y = 28
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway)
@@ -4286,6 +4461,20 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/atmos)
+"dDy" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/com{
+	dir = 8;
+	pixel_y = 28
+	},
+/obj/structure/sign/directions/cryo{
+	dir = 8;
+	pixel_y = 36
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_port)
 "dDU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -4333,6 +4522,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_a)
+"dGc" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/structure/sign/crush{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hangar_starboard)
 "dGl" = (
 /obj/structure/closet/crate/freezer{
 	name = "Fridge"
@@ -4372,6 +4568,10 @@
 /obj/effect/floor_decal/industrial/warning,
 /obj/random/loot,
 /obj/structure/closet,
+/obj/structure/sign/directions/prop{
+	pixel_y = 36;
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "dHo" = (
@@ -4430,6 +4630,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
+"dJd" = (
+/obj/structure/railing/mapped,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING: BEWARE OF HIGH-YIELD DEFENSIVE TURRETS. DO NOT PASS WITHOUT PROPER AUTHORIZATION. EXTREME DANGER WITHIN THIS PERIMETER.'.";
+	name = "\improper WARNING: AUXILIARY ARMAMENT sign";
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/fore_port_wep)
 "dJp" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
@@ -4484,9 +4693,7 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
 "dLo" = (
-/obj/structure/bed/stool/chair/sofa{
-	pixel_x = -7;
-	pixel_y = 6;
+/obj/structure/bed/stool/chair/sofa/right{
 	dir = 4
 	},
 /turf/simulated/floor/lino,
@@ -4565,6 +4772,18 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
+"dPO" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 32;
+	pixel_x = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_port)
 "dQv" = (
 /obj/machinery/door/blast/regular/open,
 /obj/structure/cable{
@@ -4858,6 +5077,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_port_wep_access)
+"egu" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = -19
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = -27
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_port)
 "egx" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -4928,6 +5159,10 @@
 "eiv" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/lattice/catwalk/indoor,
+/obj/structure/sign/nosmoking_2{
+	pixel_y = 0;
+	pixel_x = 32
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fuel_bay_starboard)
 "eiJ" = (
@@ -4936,6 +5171,16 @@
 /obj/structure/girder,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_starboard_wep_maints)
+"eiZ" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = 36;
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_port)
 "ejm" = (
 /obj/machinery/telecomms/allinone/ship{
 	pixel_y = 0;
@@ -4986,6 +5231,7 @@
 	dir = 4;
 	icon_state = "map"
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_port)
 "elh" = (
@@ -5403,6 +5649,11 @@
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
 	},
+/obj/structure/sign/securearea{
+	name = "\improper WARNING: SECURE AMMUNITION STORAGE sign";
+	pixel_y = -28;
+	pixel_x = -1
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "eyD" = (
@@ -5474,6 +5725,9 @@
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
 	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_port_far)
 "eBf" = (
@@ -5495,6 +5749,18 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = 42
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = -42
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "eCI" = (
@@ -5564,6 +5830,29 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/combat_destroyer_transport)
+"eGQ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 8;
+	pixel_y = 36
+	},
+/obj/structure/sign/directions/com{
+	dir = 4;
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/hallway)
 "eHD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6024,6 +6313,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
+"faW" = (
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
+	},
+/obj/machinery/light/floor/cyan,
+/turf/simulated/floor/tiled/white,
+/area/ship/combat_destroyer/med)
 "fbq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -6053,6 +6349,29 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
+"fcl" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/directions/prop{
+	pixel_y = 36;
+	dir = 1
+	},
+/obj/structure/sign/directions/security{
+	dir = 8;
+	pixel_y = 28
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/aft_starboard_hall_1)
 "fcH" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/east{
@@ -6060,6 +6379,26 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_port)
+"fcI" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/directions/prop{
+	pixel_y = 36;
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_1)
 "fcN" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -6088,6 +6427,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING: BEWARE OF HIGH-YIELD DEFENSIVE TURRETS. DO NOT PASS WITHOUT PROPER AUTHORIZATION. EXTREME DANGER WITHIN THIS PERIMETER.'.";
+	name = "\improper WARNING: AUXILIARY ARMAMENT sign";
+	pixel_x = 32
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_port_wep_access)
@@ -6375,6 +6719,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	icon_state = "map"
 	},
+/obj/structure/sign/directions/all{
+	dir = 1;
+	pixel_y = -18
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "frE" = (
@@ -6450,6 +6798,9 @@
 "fuv" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/structure/sign/vacuum{
+	pixel_y = 32
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft)
 "fvb" = (
@@ -6863,6 +7214,9 @@
 /obj/machinery/light/small/emergency{
 	dir = 1
 	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_starboard_ammo)
 "fLX" = (
@@ -6907,6 +7261,11 @@
 	},
 /obj/machinery/alarm/west{
 	req_one_access = null
+	},
+/obj/structure/sign/fire{
+	desc = "A caution sign which reads 'PORT PROPULSION'.";
+	name = "\improper PORT PROPULSION sign";
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_port_maints_1)
@@ -6960,6 +7319,9 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/light/small/emergency,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = -24
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_port_ammo)
 "fQl" = (
@@ -6985,6 +7347,9 @@
 	},
 /obj/effect/floor_decal/corner_wide/paleblue/full{
 	dir = 1
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_b)
@@ -7039,6 +7404,28 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_wep)
+"fRK" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/directions/prop{
+	pixel_y = 36;
+	dir = 1
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = 28
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/aft_port_hall_1)
 "fRY" = (
 /obj/effect/landmark/entry_point/starboard{
 	name = "starboard, fore docking port maintenance"
@@ -7301,6 +7688,15 @@
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
+/obj/structure/sign/fire{
+	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
+	layer = 2.1;
+	name = "\improper DANGER: THRUSTERS sign";
+	pixel_y = 32
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -32
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_transport)
 "gdm" = (
@@ -7388,6 +7784,20 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_starboard_wep_maints)
+"ghM" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = 36;
+	dir = 4
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = 28;
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_starboard)
 "gie" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -7397,6 +7807,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/structure/sign/fire{
+	desc = "A caution sign which reads 'STARBOARD PROPULSION'.";
+	name = "\improper STARBOARD PROPULSION sign";
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "gjq" = (
@@ -7477,6 +7892,21 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_starboard)
+"gme" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19;
+	pixel_x = -1
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = -27;
+	pixel_x = -1;
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_port)
 "gmv" = (
 /obj/machinery/power/apc/high/east{
 	req_access = null
@@ -7619,6 +8049,16 @@
 /obj/machinery/alarm/west{
 	req_one_access = null
 	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 42
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = 34
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = 26
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_port)
 "gug" = (
@@ -7659,6 +8099,29 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/port_engie_maints)
+"gvc" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19;
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_central)
+"gvf" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 9
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 8;
+	pixel_y = 36
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/combat_destroyer/aft_port_hall_1)
 "gvj" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
@@ -7738,6 +8201,16 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/capt_maints)
+"gzG" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19;
+	pixel_x = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_starboard)
 "gAk" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -7804,6 +8277,14 @@
 	dir = 8
 	},
 /obj/machinery/recharge_station,
+/obj/structure/sign/directions/dock{
+	pixel_y = 36;
+	dir = 1
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 28
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/hallway_port)
 "gEF" = (
@@ -7898,6 +8379,16 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 36;
+	pixel_x = -1
+	},
+/obj/structure/sign/directions/security{
+	dir = 1;
+	pixel_y = 28;
+	pixel_x = -1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
@@ -8760,6 +9251,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_hall_1)
+"hoy" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/sign/directions/custodial{
+	dir = 1;
+	pixel_y = 36
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/hallway)
 "hoG" = (
 /obj/effect/landmark/entry_point/starboard{
 	name = "starboard, central docking port"
@@ -8883,6 +9390,7 @@
 /area/ship/combat_destroyer/mechbay)
 "hrX" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_port)
 "hsh" = (
@@ -9184,6 +9692,18 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
+"hGr" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = -19
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = -27
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hangar_hallway_starboard)
 "hGD" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -9382,6 +9902,18 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_port_maints_2)
+"hOv" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = -19
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = -27
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hangar_hallway_port)
 "hOE" = (
 /obj/structure/tank_wall/oxygen{
 	density = 0;
@@ -9491,8 +10023,6 @@
 	dir = 9
 	},
 /obj/structure/bed/stool/chair/sofa{
-	pixel_x = -7;
-	pixel_y = -1;
 	dir = 4
 	},
 /turf/simulated/floor/lino,
@@ -9501,6 +10031,12 @@
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/glass/destroyer{
 	name = "Recharging Bay"
+	},
+/obj/structure/sign/electricshock{
+	desc = "A warning sign which reads 'MECH BAY AND RECHARGING STATION' and 'HIGH VOLTAGE EQUIPMENT INSIDE'.";
+	name = "\improper RECHARGING STATION sign";
+	pixel_x = 33;
+	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/starboard_engie_maints)
@@ -9522,6 +10058,15 @@
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_starboard)
+"hUc" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_port)
 "hUh" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Command Center"
@@ -9564,6 +10109,12 @@
 	light_color = "#FABD6D"
 	},
 /obj/effect/floor_decal/spline/plain/beige,
+/obj/structure/sign/fire{
+	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
+	layer = 2.1;
+	name = "\improper DANGER: THRUSTERS sign";
+	pixel_x = -32
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "hWp" = (
@@ -9620,6 +10171,27 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
+"hZg" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/securearea{
+	name = "\improper WARNING: FUEL BAY sign";
+	pixel_y = 32;
+	pixel_x = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_port_hall_1)
 "hZp" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -9697,6 +10269,18 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_port)
+"icl" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_fore_starboard)
 "ida" = (
 /obj/structure/railing/mapped,
 /obj/machinery/light/colored/red{
@@ -9708,6 +10292,11 @@
 /obj/machinery/light/floor/decayed,
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
+	},
+/obj/structure/sign/securearea{
+	name = "\improper WARNING: SECURE AMMUNITION STORAGE sign";
+	pixel_y = -28;
+	pixel_x = 1
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_port_hall_2)
@@ -9942,6 +10531,13 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
+"imy" = (
+/obj/effect/floor_decal/spline/plain/black,
+/obj/structure/bed/stool/chair{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "imA" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -9949,6 +10545,18 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/fuel_bay_port)
+"inu" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 32;
+	pixel_x = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_starboard)
 "inC" = (
 /obj/machinery/power/apc/high/north{
 	req_access = null
@@ -10092,7 +10700,7 @@
 	dir = 10
 	},
 /obj/structure/sign/directions/cryo{
-	pixel_y = -18
+	pixel_y = -19
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway)
@@ -10531,6 +11139,11 @@
 	dir = 4;
 	id = "combat_destroyer_armory_shutters"
 	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING' and 'ARMOURY'.";
+	name = "\improper WARNING: ARMOURY sign";
+	pixel_y = -28
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "iLW" = (
@@ -10606,6 +11219,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	icon_state = "map"
 	},
+/obj/structure/sign/directions/all{
+	dir = 1;
+	pixel_y = -18
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
 "iOz" = (
@@ -10651,15 +11268,23 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "iQJ" = (
-/obj/effect/floor_decal/spline/plain/black{
-	dir = 4
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
 	},
-/obj/structure/bed/stool/chair/sofa/left{
-	dir = 8;
-	pixel_x = 4
+/obj/structure/sign/directions/com{
+	dir = 4;
+	pixel_y = 26
 	},
-/turf/simulated/floor/lino,
-/area/ship/combat_destroyer/mess)
+/obj/structure/sign/directions/medical{
+	dir = 4;
+	pixel_y = 34
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 42
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_starboard)
 "iRi" = (
 /obj/structure/platform{
 	dir = 8;
@@ -10735,6 +11360,18 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = -42
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = 42
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
 "iUd" = (
@@ -10748,6 +11385,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mess)
+"iUu" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = 28;
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_port)
 "iVe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 5
@@ -11052,7 +11699,9 @@
 /obj/machinery/door/airlock/medical{
 	name = "Operating Theatre B"
 	},
-/obj/machinery/holosign/surgery,
+/obj/machinery/holosign/surgery{
+	id = "combat_destroyer_or_b"
+	},
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -11591,6 +12240,13 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/crew_maints_port)
+"jGi" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/structure/sign/crush{
+	pixel_y = -32
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hangar_port)
 "jHh" = (
 /obj/machinery/recharge_station,
 /obj/structure/lattice/catwalk/indoor,
@@ -11876,6 +12532,12 @@
 	dir = 1;
 	name = "Fuel to Thrusters"
 	},
+/obj/structure/sign/fire{
+	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
+	layer = 2.1;
+	name = "\improper DANGER: THRUSTERS sign";
+	pixel_x = 32
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_fighter)
 "jTr" = (
@@ -12015,6 +12677,19 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/crew_starboard)
+"jZM" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = -27
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_port)
 "kao" = (
 /obj/machinery/door/firedoor/noid{
 	dir = 4
@@ -12709,6 +13384,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = 32
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "kEc" = (
@@ -12857,6 +13538,12 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
 	},
+/obj/structure/sign/directions/com{
+	pixel_y = -19
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = -27
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/aft_port_hall_1)
 "kJg" = (
@@ -12950,6 +13637,12 @@
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 1;
 	name = "Fuel to Thrusters"
+	},
+/obj/structure/sign/fire{
+	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
+	layer = 2.1;
+	name = "\improper DANGER: THRUSTERS sign";
+	pixel_x = -32
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_fighter)
@@ -13205,6 +13898,23 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/fore_port_wep)
+"laf" = (
+/obj/machinery/light/floor{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 36
+	},
+/obj/structure/sign/directions/security{
+	dir = 1;
+	pixel_y = 28
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/combat_destroyer/hangar_hallway_starboard)
 "lat" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
@@ -13381,6 +14091,18 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 42;
+	pixel_x = 1
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = -42;
+	pixel_x = 1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_port)
 "liD" = (
@@ -13485,6 +14207,15 @@
 "lnF" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/starboard_engie_maints)
+"lnK" = (
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING: FIRING RANGE'.";
+	name = "\improper WARNING: FIRING RANGE sign";
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/range)
 "lob" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/structure/cable{
@@ -13584,6 +14315,15 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/cryo_foyer)
+"lrT" = (
+/obj/structure/railing/mapped,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING: BEWARE OF HIGH-YIELD DEFENSIVE TURRETS. DO NOT PASS WITHOUT PROPER AUTHORIZATION. EXTREME DANGER WITHIN THIS PERIMETER.'.";
+	name = "\improper WARNING: AUXILIARY ARMAMENT sign";
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/fore_starboard_wep)
 "lsT" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -13798,14 +14538,6 @@
 /obj/structure/table/steel{
 	pixel_y = 0
 	},
-/obj/item/reagent_containers/food/condiment/shaker/peppermill{
-	pixel_x = -3;
-	pixel_y = -14
-	},
-/obj/item/reagent_containers/food/condiment/shaker/salt{
-	pixel_x = 3;
-	pixel_y = -14
-	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "lDB" = (
@@ -13878,6 +14610,15 @@
 /obj/structure/table/steel,
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
+"lGw" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = -19
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hangar_hallway_starboard)
 "lGX" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -13978,6 +14719,7 @@
 	dir = 8;
 	icon_state = "map"
 	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_starboard)
 "lJJ" = (
@@ -14119,6 +14861,12 @@
 	},
 /obj/machinery/door/window/brigdoor/southleft,
 /obj/effect/floor_decal/industrial/outline/security,
+/obj/structure/sign/securearea{
+	desc = "A caution sign which reads 'CAUTION: BRIG AREA' and 'SECURE AREA'.";
+	name = "\improper BRIG AREA sign";
+	pixel_y = 0;
+	pixel_x = -32
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/sec)
 "lPD" = (
@@ -14166,6 +14914,10 @@
 "lSg" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/lattice/catwalk/indoor,
+/obj/structure/sign/nosmoking_2{
+	pixel_y = 0;
+	pixel_x = -32
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fuel_bay_port)
 "lSi" = (
@@ -14176,6 +14928,14 @@
 	dir = 5
 	},
 /obj/machinery/light/floor{
+	dir = 1
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = 28;
+	dir = 1
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = 36;
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -14746,6 +15506,12 @@
 /obj/machinery/door/airlock/glass/destroyer{
 	name = "Recharging Station"
 	},
+/obj/structure/sign/electricshock{
+	desc = "A warning sign which reads 'MECH BAY AND RECHARGING STATION' and 'HIGH VOLTAGE EQUIPMENT INSIDE'.";
+	name = "\improper RECHARGING STATION sign";
+	pixel_x = 33;
+	pixel_y = 0
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "mrq" = (
@@ -14863,6 +15629,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
+"mvO" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = -19
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hangar_hallway_port)
 "mwi" = (
 /obj/machinery/light/small/emergency{
 	dir = 1
@@ -14880,6 +15655,12 @@
 "mwG" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = 32
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
@@ -15029,6 +15810,17 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/ship/combat_destroyer/space_catwalk)
+"mzw" = (
+/obj/effect/floor_decal/industrial/outline,
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/structure/sign/vacuum{
+	pixel_y = -28
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/aft_port_hall_2)
 "mzI" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/light/colored/red{
@@ -15204,8 +15996,6 @@
 	dir = 4
 	},
 /obj/structure/bed/stool/chair/sofa{
-	pixel_x = -7;
-	pixel_y = -1;
 	dir = 1
 	},
 /turf/simulated/floor/lino,
@@ -15770,6 +16560,16 @@
 /obj/item/stack/rods,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_starboard)
+"njQ" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/mech_recharger,
+/obj/structure/sign/electricshock{
+	desc = "A warning sign which reads 'MECH BAY AND RECHARGING STATION' and 'HIGH VOLTAGE EQUIPMENT INSIDE'.";
+	name = "\improper MECH BAY sign";
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/mechbay)
 "njX" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 4
@@ -15853,7 +16653,7 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 4
 	},
-/obj/structure/bed/stool/chair{
+/obj/structure/bed/stool/chair/sofa/left{
 	dir = 8
 	},
 /turf/simulated/floor/lino,
@@ -15969,6 +16769,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_port_wep)
@@ -16212,6 +17015,9 @@
 	},
 /obj/item/reagent_containers/hypospray/autoinjector/hyronalin,
 /obj/item/reagent_containers/hypospray/autoinjector/hyronalin,
+/obj/structure/sign/nosmoking_2{
+	pixel_y = 30
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/med)
 "nzv" = (
@@ -16468,6 +17274,25 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
+"nKr" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/directions/security{
+	dir = 1;
+	pixel_y = 36
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "nLM" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
@@ -16641,6 +17466,12 @@
 /obj/machinery/door/airlock/glass/destroyer{
 	name = "Recharging Bay"
 	},
+/obj/structure/sign/electricshock{
+	desc = "A warning sign which reads 'MECH BAY AND RECHARGING STATION' and 'HIGH VOLTAGE EQUIPMENT INSIDE'.";
+	name = "\improper RECHARGING STATION sign";
+	pixel_x = -33;
+	pixel_y = 0
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/port_engie_maints)
 "nRm" = (
@@ -16656,6 +17487,18 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = -42;
+	pixel_x = 1
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 42;
+	pixel_x = 1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_starboard)
 "nRI" = (
@@ -16741,6 +17584,9 @@
 "nXf" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_starboard_far)
@@ -17333,17 +18179,17 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 5
 	},
-/obj/structure/table/steel{
-	pixel_x = -7;
-	pixel_y = -6
-	},
 /obj/item/reagent_containers/food/condiment/shaker/peppermill{
-	pixel_x = -10;
-	pixel_y = 0
+	pixel_x = -7;
+	pixel_y = 1
 	},
 /obj/item/reagent_containers/food/condiment/shaker/salt{
-	pixel_x = -4;
-	pixel_y = 0
+	pixel_y = 1;
+	pixel_x = -1
+	},
+/obj/structure/table/steel{
+	pixel_y = -4;
+	pixel_x = -4
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -17682,6 +18528,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/sign/directions/medical{
+	dir = 8;
+	pixel_y = 36
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hallway)
 "oIA" = (
@@ -17745,6 +18595,31 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway)
+"oKX" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 36;
+	pixel_x = 1
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = 28;
+	pixel_x = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hangar_hallway_port)
 "oKZ" = (
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 5
@@ -17901,6 +18776,9 @@
 /obj/effect/floor_decal/corner_wide/paleblue/full{
 	dir = 8
 	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_a)
 "oQf" = (
@@ -18006,6 +18884,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/disposals)
+"oVE" = (
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 8;
+	pixel_x = 1
+	},
+/obj/structure/sign/directions/all{
+	dir = 1;
+	pixel_y = -18
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/docking_port_fore_starboard)
 "oWo" = (
 /obj/machinery/disposal/small/west,
 /obj/structure/disposalpipe/trunk{
@@ -18076,10 +18965,15 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 5
 	},
-/obj/machinery/alarm/north{
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/alarm/east{
 	req_one_access = null
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/sign/securearea{
+	name = "\improper WARNING: SECURE AMMUNITION STORAGE sign";
+	pixel_y = 32;
+	pixel_x = 1
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_starboard_wep_access)
 "oZo" = (
@@ -18168,6 +19062,9 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/light/small/emergency,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = -24
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_ammo)
 "pcW" = (
@@ -18223,6 +19120,7 @@
 /area/ship/combat_destroyer/capt_maints)
 "pfI" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_starboard)
 "pgp" = (
@@ -18362,7 +19260,9 @@
 /obj/machinery/door/airlock/medical{
 	name = "Operating Theatre A"
 	},
-/obj/machinery/holosign/surgery,
+/obj/machinery/holosign/surgery{
+	id = "combat_destroyer_or_a"
+	},
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -18513,6 +19413,14 @@
 	dir = 4
 	},
 /obj/machinery/recharge_station,
+/obj/structure/sign/directions/dock{
+	pixel_y = 36;
+	dir = 1
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = 28;
+	dir = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/hallway_starboard)
 "puG" = (
@@ -18942,6 +19850,10 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/securearea{
+	name = "\improper WARNING: FUEL BAY sign";
+	pixel_x = 32
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_port_maints_1)
 "pOQ" = (
@@ -18975,6 +19887,12 @@
 	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = -19
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = -27
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/aft_starboard_hall_1)
@@ -19120,10 +20038,8 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "pUK" = (
-/obj/structure/bed/stool/chair/sofa/corner/concave{
-	dir = 4;
-	pixel_y = 6;
-	pixel_x = -7
+/obj/structure/bed/stool/chair/sofa{
+	dir = 4
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -19313,6 +20229,12 @@
 /obj/machinery/door/airlock/glass/destroyer{
 	name = "Recharging Station"
 	},
+/obj/structure/sign/electricshock{
+	desc = "A warning sign which reads 'MECH BAY AND RECHARGING STATION' and 'HIGH VOLTAGE EQUIPMENT INSIDE'.";
+	name = "\improper RECHARGING STATION sign";
+	pixel_x = -33;
+	pixel_y = 0
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_port_hall_2)
 "qeo" = (
@@ -19365,6 +20287,9 @@
 	dir = 6
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/sign/nosmoking_1{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/engie)
 "qgm" = (
@@ -19680,6 +20605,18 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_hallway_port)
+"qxG" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = -19
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = -27
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_starboard)
 "qxK" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
@@ -19727,6 +20664,12 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING: BEWARE OF HIGH-YIELD DEFENSIVE TURRETS. DO NOT PASS WITHOUT PROPER AUTHORIZATION. EXTREME DANGER WITHIN THIS PERIMETER.'.";
+	name = "\improper WARNING: PRIMARY ARMAMENT sign";
+	pixel_y = 0;
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -20138,6 +21081,9 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 6
 	},
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "qNG" = (
@@ -20447,6 +21393,16 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/crew_maints_port)
+"qYq" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/all{
+	pixel_y = 36;
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/docking_port_starboard)
 "qZf" = (
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -20527,6 +21483,27 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/janitor)
+"rbK" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/securearea{
+	name = "\improper WARNING: FUEL BAY sign";
+	pixel_y = 32;
+	pixel_x = -1
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_starboard_hall_1)
 "rcT" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 6
@@ -20816,6 +21793,9 @@
 /obj/machinery/alarm/west{
 	req_one_access = null
 	},
+/obj/structure/sign/vacuum{
+	pixel_y = 32
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_port)
 "rqP" = (
@@ -20912,8 +21892,7 @@
 	dir = 8
 	},
 /obj/structure/bed/stool/chair/sofa/right{
-	dir = 4;
-	pixel_x = -4
+	dir = 4
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -20956,9 +21935,7 @@
 	dir = 8
 	},
 /obj/structure/bed/stool/chair/sofa/corner/concave{
-	dir = 1;
-	pixel_y = -1;
-	pixel_x = -7
+	dir = 1
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -21085,6 +22062,11 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING: BEWARE OF HIGH-YIELD DEFENSIVE TURRETS. DO NOT PASS WITHOUT PROPER AUTHORIZATION. EXTREME DANGER WITHIN THIS PERIMETER.'.";
+	name = "\improper WARNING: AUXILIARY ARMAMENT sign";
+	pixel_x = -32
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_starboard_wep_access)
 "rAH" = (
@@ -21200,7 +22182,7 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/engie)
 "rFN" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_fore_central)
 "rGe" = (
 /obj/effect/floor_decal/corner/dark_blue{
@@ -21224,11 +22206,16 @@
 /area/ship/combat_destroyer/docking_port_starboard)
 "rHT" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/alarm/north{
-	req_one_access = null
-	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 6
+	},
+/obj/structure/sign/securearea{
+	desc = "A caution sign which reads 'DISPOSALS' and 'AUTHORIZED PERSONNEL ONLY'.";
+	name = "\improper DISPOSALS sign";
+	pixel_y = 32
+	},
+/obj/machinery/alarm/east{
+	req_one_access = null
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_port_hall_2)
@@ -21774,6 +22761,26 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/docking_port_fore_port)
+"set" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sign/directions/prop{
+	pixel_y = 36;
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/aft_port_hall_1)
 "seQ" = (
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
 	frequency = 1441;
@@ -22025,11 +23032,6 @@
 /obj/machinery/alarm/west{
 	req_one_access = null
 	},
-/obj/structure/bed/stool/chair/sofa/right{
-	dir = 4;
-	pixel_x = -7;
-	pixel_y = 6
-	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
 "smH" = (
@@ -22037,8 +23039,7 @@
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "snI" = (
 /obj/structure/bed/stool/chair/sofa{
-	dir = 8;
-	pixel_x = 4
+	dir = 8
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -22351,6 +23352,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_starboard)
+"swr" = (
+/turf/simulated/floor/lino,
+/area/ship/combat_destroyer/mess)
 "swz" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/north{
@@ -22447,6 +23451,19 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_port_hall_1)
+"syy" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = -27
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_starboard)
 "syN" = (
 /obj/effect/floor_decal/corner/dark_blue,
 /turf/simulated/floor/tiled,
@@ -22709,9 +23726,16 @@
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
-/obj/structure/bed/stool/chair/sofa{
-	pixel_x = -7;
-	pixel_y = 6
+/obj/structure/table/steel{
+	pixel_y = 0
+	},
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_x = -3;
+	pixel_y = -14
+	},
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_x = 3;
+	pixel_y = -14
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -22900,6 +23924,12 @@
 "sYm" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/lattice/catwalk/indoor,
+/obj/structure/sign/fire{
+	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
+	layer = 2.1;
+	name = "\improper DANGER: THRUSTERS sign";
+	pixel_x = 32
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_port_maints_2)
 "sYG" = (
@@ -23178,6 +24208,12 @@
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/door/window/southleft,
 /obj/effect/floor_decal/industrial/outline,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 32;
+	pixel_x = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft)
 "tll" = (
@@ -23203,6 +24239,9 @@
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/alarm/west{
 	req_one_access = null
+	},
+/obj/structure/sign/vacuum{
+	pixel_y = -28
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_exterior)
@@ -23265,6 +24304,16 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
+"tnW" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 4;
+	pixel_y = 36
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/combat_destroyer/aft_starboard_hall_1)
 "tov" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/decal/cleanable/dirt,
@@ -23308,6 +24357,17 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/crew_port)
+"tpA" = (
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline,
+/obj/structure/sign/vacuum{
+	pixel_y = -28
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/aft_starboard_hall_2)
 "tpV" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /obj/effect/floor_decal/industrial/warning,
@@ -23451,6 +24511,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 5
+	},
+/obj/structure/sign/directions/com{
+	dir = 1;
+	pixel_y = 36
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway)
@@ -23696,6 +24760,13 @@
 /obj/effect/shuttle_landmark/combat_destroyer_fighter/transit,
 /turf/space/transit/north,
 /area/space)
+"tNY" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/structure/sign/crush{
+	pixel_y = -32
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hangar_starboard)
 "tOd" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -24088,6 +25159,16 @@
 /obj/machinery/alarm/east{
 	req_one_access = null
 	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 42
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = 34
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = 26
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_starboard)
 "ufk" = (
@@ -24228,6 +25309,14 @@
 	dir = 5
 	},
 /obj/machinery/light/floor{
+	dir = 1
+	},
+/obj/structure/sign/directions/com{
+	pixel_y = 28;
+	dir = 1
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = 36;
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -24385,6 +25474,10 @@
 "urK" = (
 /obj/effect/floor_decal/corner/dark_blue/full{
 	dir = 8
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 36
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_port_far)
@@ -24647,6 +25740,18 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_fore_port_far)
+"uGx" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/docking_port_fore_port)
 "uHM" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2;
@@ -24943,6 +26048,12 @@
 "uVv" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/lattice/catwalk/indoor,
+/obj/structure/sign/fire{
+	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
+	layer = 2.1;
+	name = "\improper DANGER: THRUSTERS sign";
+	pixel_x = -32
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "uVT" = (
@@ -25097,6 +26208,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fuel_bay_starboard)
+"vcD" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/structure/sign/crush{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plating,
+/area/ship/combat_destroyer/hangar_port)
 "vdd" = (
 /obj/structure/disposalpipe/junction{
 	dir = 1
@@ -25218,6 +26336,17 @@
 /obj/effect/map_effect/marker_helper/airlock/exterior,
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_fighter)
+"vhH" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/powered/pump/filled,
+/obj/effect/floor_decal/industrial/outline/emergency_closet,
+/obj/structure/sign/nosmoking_1{
+	pixel_x = 32
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/atmos)
 "vhN" = (
 /obj/machinery/door/firedoor/noid{
 	dir = 4
@@ -25378,6 +26507,15 @@
 "vlu" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/briefing_maints_port)
+"vlK" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/sign/directions/dock{
+	pixel_y = -19
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_starboard)
 "vlL" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 1
@@ -25405,6 +26543,16 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/crew_port)
+"vmy" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/all{
+	dir = 8;
+	pixel_y = 36
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_central)
 "vmP" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 9
@@ -25419,6 +26567,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/random/loot,
 /obj/structure/closet/crate/bin,
+/obj/structure/sign/directions/prop{
+	pixel_y = 36;
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_port_maints_2)
 "vos" = (
@@ -25754,7 +26906,6 @@
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 10
 	},
-/obj/machinery/light/floor/cyan,
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/med)
 "vEv" = (
@@ -25815,6 +26966,10 @@
 "vIt" = (
 /obj/effect/floor_decal/corner/dark_blue/full{
 	dir = 1
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_y = 36
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_starboard_far)
@@ -25931,6 +27086,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_port)
+"vNZ" = (
+/obj/structure/railing/mapped,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING: BEWARE OF HIGH-YIELD DEFENSIVE TURRETS. DO NOT PASS WITHOUT PROPER AUTHORIZATION. EXTREME DANGER WITHIN THIS PERIMETER.'.";
+	name = "\improper WARNING: SECONDARY ARMAMENT sign";
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/aft_port_wep)
 "vOm" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -26313,8 +27477,8 @@
 /area/ship/combat_destroyer/hallway_fore_central)
 "wiv" = (
 /obj/effect/floor_decal/spline/plain/black,
-/obj/structure/bed/stool/chair{
-	dir = 1
+/obj/structure/table/steel{
+	pixel_y = 0
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -26412,6 +27576,12 @@
 	dir = 4;
 	pixel_x = 12
 	},
+/obj/machinery/button/switch/holosign{
+	dir = 4;
+	pixel_y = 22;
+	pixel_x = 22;
+	id = "combat_destroyer_or_a"
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_a)
 "wmo" = (
@@ -26484,6 +27654,9 @@
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/atmos)
@@ -26709,6 +27882,16 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/port_engie_maints)
+"wwq" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/all{
+	dir = 4;
+	pixel_y = 36
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_fore_central)
 "wxw" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/engie)
@@ -27043,6 +28226,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_starboard_wep)
 "wLs" = (
@@ -27119,6 +28305,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_starboard_far)
+"wPk" = (
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 4;
+	pixel_x = -2
+	},
+/obj/structure/sign/directions/all{
+	dir = 1;
+	pixel_y = -18
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/docking_port_fore_port)
 "wPu" = (
 /obj/effect/floor_decal/corner/red/full{
 	dir = 4
@@ -27193,6 +28390,18 @@
 	dir = 2
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = 42
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
+	name = "KEEP CLEAR: DOCKING AREA";
+	pixel_y = 0;
+	pixel_x = -42
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_aft)
 "wSK" = (
@@ -27416,6 +28625,12 @@
 /obj/structure/sink{
 	dir = 8;
 	pixel_x = -12
+	},
+/obj/machinery/button/switch/holosign{
+	dir = 8;
+	pixel_y = 22;
+	pixel_x = -22;
+	id = "combat_destroyer_or_b"
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/op_b)
@@ -27701,6 +28916,22 @@
 /obj/structure/lattice,
 /turf/simulated/floor/airless,
 /area/ship/combat_destroyer/crew_maints_starboard)
+"xth" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 5
+	},
+/obj/structure/sign/directions/engineering{
+	pixel_y = 36;
+	dir = 1;
+	pixel_x = -1
+	},
+/obj/structure/sign/directions/security{
+	pixel_x = -1;
+	pixel_y = 28;
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/combat_destroyer/hallway_starboard)
 "xtq" = (
 /obj/structure/closet/firecloset,
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
@@ -27753,6 +28984,12 @@
 	light_color = "#FABD6D"
 	},
 /obj/effect/floor_decal/spline/plain/beige,
+/obj/structure/sign/fire{
+	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
+	layer = 2.1;
+	name = "\improper DANGER: THRUSTERS sign";
+	pixel_x = 32
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/thruster_port_maints_1)
 "xvj" = (
@@ -27768,6 +29005,15 @@
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
+/obj/structure/sign/fire{
+	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
+	layer = 2.1;
+	name = "\improper DANGER: THRUSTERS sign";
+	pixel_y = 32
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
 "xvx" = (
@@ -27900,6 +29146,12 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'WARNING: BEWARE OF HIGH-YIELD DEFENSIVE TURRETS. DO NOT PASS WITHOUT PROPER AUTHORIZATION. EXTREME DANGER WITHIN THIS PERIMETER.'.";
+	name = "\improper WARNING: SECONDARY ARMAMENT sign";
+	pixel_y = 0;
+	pixel_x = 32
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_port_hall_2)
@@ -28503,8 +29755,7 @@
 	dir = 4
 	},
 /obj/structure/bed/stool/chair/sofa{
-	dir = 8;
-	pixel_x = 4
+	dir = 8
 	},
 /turf/simulated/floor/lino,
 /area/ship/combat_destroyer/mess)
@@ -49625,7 +50876,7 @@ cbf
 gGW
 gGW
 pWa
-ykM
+aUe
 dYz
 oBc
 oBc
@@ -53270,7 +54521,7 @@ cbf
 cbf
 pFs
 ofF
-uur
+lrT
 eEt
 eEt
 eEt
@@ -53997,7 +55248,7 @@ gbQ
 stZ
 voM
 fZg
-fZg
+tpA
 lzQ
 xeR
 ohF
@@ -54508,7 +55759,7 @@ dJW
 dJW
 dJW
 dJW
-gOi
+nKr
 eyw
 vfu
 mmL
@@ -55034,6 +56285,7 @@ aPw
 dIW
 mHX
 mHX
+dGc
 cks
 cks
 cks
@@ -55049,8 +56301,7 @@ cks
 cks
 cks
 cks
-cks
-cks
+tNY
 mHX
 mHX
 ahC
@@ -55311,7 +56562,7 @@ vTn
 kmq
 rXO
 mHX
-dtn
+inu
 bWF
 dtn
 ahC
@@ -55543,7 +56794,7 @@ dIW
 eDM
 qmV
 cZk
-cZk
+lnK
 cZk
 vAK
 mHX
@@ -55825,7 +57076,7 @@ qMI
 gIj
 lRW
 mHX
-qNa
+qYq
 vxZ
 qjn
 opo
@@ -56565,7 +57816,7 @@ axf
 iSL
 oHK
 hyK
-hov
+fcI
 hvX
 dIW
 uMR
@@ -56617,7 +57868,7 @@ klZ
 pSX
 klZ
 klZ
-xlb
+ghM
 srX
 fIK
 fIK
@@ -56651,7 +57902,7 @@ cxX
 bkr
 ewp
 rXA
-rXA
+oVE
 bkr
 qMC
 bkr
@@ -56911,7 +58162,7 @@ oNn
 oNn
 gFy
 oNn
-mwG
+icl
 bkr
 xrH
 gMg
@@ -57110,9 +58361,9 @@ uqf
 qVF
 kXD
 mHX
-pcW
+aQJ
 qAp
-riF
+qxG
 xxa
 xxa
 xxa
@@ -57122,7 +58373,7 @@ pun
 gyA
 oAm
 xxa
-pcW
+iQJ
 gMi
 jQv
 vEw
@@ -57133,7 +58384,7 @@ mDJ
 kgX
 osy
 fRu
-dZm
+syy
 vYd
 vYd
 vYd
@@ -57141,7 +58392,7 @@ vYd
 vYd
 dAb
 siy
-dZm
+vlK
 dhy
 dhy
 dhy
@@ -57638,7 +58889,7 @@ jTx
 tXD
 wBB
 kyY
-riF
+gzG
 mCU
 mCU
 mCU
@@ -58111,7 +59362,7 @@ vbC
 vbC
 bDP
 cFf
-tnq
+rbK
 pee
 vKd
 upm
@@ -58672,10 +59923,10 @@ dfQ
 wPS
 mTk
 bnU
-bnU
+app
 tPz
 oic
-gWy
+faW
 dRg
 sWy
 xbP
@@ -59139,7 +60390,7 @@ cFf
 cFf
 cFf
 cFf
-qQE
+fcl
 iga
 akc
 akc
@@ -59166,7 +60417,7 @@ mHX
 mHX
 mHX
 mHX
-pcW
+xth
 pSB
 wTB
 wfm
@@ -59197,7 +60448,7 @@ sPR
 dRg
 foa
 ooj
-xID
+bJR
 dhy
 dhy
 dhy
@@ -59435,8 +60686,8 @@ rMJ
 emm
 qSb
 rMJ
-iBj
-kCv
+eGQ
+aJa
 mCU
 nAx
 plB
@@ -59655,13 +60906,13 @@ fWS
 fWS
 fWS
 fWS
-phB
+tnW
 pPv
 vKd
 vKd
 btz
 btz
-ojg
+laf
 edI
 edI
 oWo
@@ -59934,7 +61185,7 @@ uxF
 ePX
 uxF
 uxF
-uxF
+hGr
 btz
 uUu
 uUu
@@ -60185,7 +61436,7 @@ gWu
 ikN
 hSo
 fKZ
-hWE
+lGw
 btz
 hdX
 hdX
@@ -60480,14 +61731,14 @@ nbk
 nbk
 nbk
 nbk
-foa
+vmy
 dHo
 vtT
 lxV
 pUK
 dLo
 smw
-iKd
+imy
 gli
 wCS
 hSj
@@ -60743,7 +61994,7 @@ vtT
 lxV
 sRd
 lDx
-lGc
+swr
 wiv
 afU
 wCS
@@ -60998,9 +62249,9 @@ oZo
 wzl
 lxV
 lxV
+xZS
+nnX
 gQR
-nnX
-nnX
 qNs
 nwN
 xPf
@@ -61777,7 +63028,7 @@ llQ
 prp
 vvj
 xZS
-iQJ
+nnX
 tAf
 cbf
 cbf
@@ -62536,7 +63787,7 @@ nbk
 nbk
 nbk
 nbk
-foa
+wwq
 kjA
 vtT
 lxV
@@ -62731,7 +63982,7 @@ fWS
 iyT
 iyT
 sik
-iyT
+vhH
 kIa
 oqa
 meK
@@ -62755,7 +64006,7 @@ eza
 oYu
 nRf
 uDV
-mJT
+mvO
 ydu
 hdX
 hdX
@@ -62776,7 +64027,7 @@ iaD
 bfi
 eSw
 aVO
-oKo
+hoy
 kCv
 pEy
 vlu
@@ -63011,14 +64262,14 @@ qHe
 qHe
 qHe
 qHe
-uDV
+oKX
 mGM
 nHx
 nHx
 dos
 nHx
 nHx
-nHx
+hOv
 ydu
 uUu
 uUu
@@ -63253,13 +64504,13 @@ fWS
 fWS
 fWS
 fWS
-hhF
+gvf
 kII
 sNf
 sNf
 ydu
 ydu
-oWu
+aMq
 ovF
 ovF
 dAl
@@ -63765,7 +65016,7 @@ nQY
 nQY
 nQY
 nQY
-mZL
+fRK
 xpv
 bYc
 bYc
@@ -63792,7 +65043,7 @@ uQf
 uQf
 uQf
 uQf
-aIl
+bpG
 qsl
 qeo
 sRV
@@ -63823,7 +65074,7 @@ mHe
 jQp
 thA
 rXv
-xID
+gvc
 lRM
 lRM
 lRM
@@ -64793,7 +66044,7 @@ iSl
 iSl
 hmp
 nQY
-fEE
+hZg
 ebE
 sNf
 gJB
@@ -65348,7 +66599,7 @@ pnY
 oQp
 ixC
 hXW
-qeo
+gme
 aNE
 aNE
 aNE
@@ -65649,7 +66900,7 @@ wZA
 gvj
 xJv
 wZA
-kDZ
+uGx
 mbI
 mLV
 bEo
@@ -65848,9 +67099,9 @@ qxM
 gKV
 toE
 uQf
-aIl
+eiZ
 laU
-qeo
+egu
 oxb
 oxb
 oxb
@@ -65860,7 +67111,7 @@ gDx
 pSU
 bZs
 oxb
-aIl
+dDy
 tlL
 aZU
 stb
@@ -65871,7 +67122,7 @@ ulR
 gcx
 bho
 pVo
-gsm
+jZM
 uir
 uir
 uir
@@ -65879,7 +67130,7 @@ uir
 uir
 dmv
 wHW
-gsm
+hUc
 lRM
 lRM
 lRM
@@ -66331,7 +67582,7 @@ jvd
 mTx
 kEU
 oZs
-hoM
+set
 nXC
 eHZ
 qGD
@@ -66383,7 +67634,7 @@ lSi
 btk
 lSi
 lSi
-asO
+iUu
 sPK
 bho
 bho
@@ -66417,7 +67668,7 @@ mwQ
 mbI
 olN
 xfw
-xfw
+wPk
 mbI
 hDv
 mbI
@@ -67133,7 +68384,7 @@ qDl
 fme
 ewP
 uQf
-uRN
+bbn
 uou
 hbk
 aLW
@@ -67647,7 +68898,7 @@ ilC
 lco
 vwC
 uQf
-aDH
+dPO
 cZg
 aDH
 oru
@@ -67884,6 +69135,7 @@ oni
 eHZ
 eHZ
 uQf
+vcD
 qar
 qar
 qar
@@ -67899,8 +69151,7 @@ qar
 qar
 qar
 qar
-qar
-qar
+jGi
 uQf
 uQf
 oru
@@ -68903,7 +70154,7 @@ jgr
 lFp
 gZV
 jDj
-jDj
+mzw
 bBU
 eJa
 cTl
@@ -69718,7 +70969,7 @@ cbf
 cbf
 pFs
 kPl
-ovn
+dJd
 vdR
 lAY
 lAY
@@ -70184,7 +71435,7 @@ wNu
 jId
 ioe
 ycR
-vxp
+njQ
 oPk
 mJo
 gZV
@@ -73269,7 +74520,7 @@ cbf
 hLI
 hLI
 aJe
-sCQ
+vNZ
 dpd
 dpd
 dpd
