@@ -215,9 +215,31 @@
 	frame_path = /obj/structure/window_frame/wood
 	window_path = /obj/structure/window/full/reinforced
 
-/obj/effect/map_effect/window_spawner/full/mercernary
-	name = "full reinforced window spawner"
+// Window spawners made to match the /turf/simulated/wall/shuttle/space_ship/mercenary walls
+/obj/effect/map_effect/window_spawner/full/mercenary
+	name = "full reinforced window spawner with firedoor"
 	icon_state = "full_rwindow-f"
-	frame_path = /obj/structure/window_frame/mercernary
+	frame_path = /obj/structure/window_frame/mercenary
 	window_path = /obj/structure/window/full/reinforced
 	spawn_firedoor = TRUE
+
+/obj/effect/map_effect/window_spawner/full/mercenary/grille
+	name = "full reinforced window spawner with grille and firedoor"
+	icon_state = "full_rwindow-gf"
+	spawn_grille = TRUE
+
+/obj/effect/map_effect/window_spawner/full/mercenary/polarized
+	name = "full reinforced polarized window spawner with firedoor"
+	icon_state = "full_p_rwindow-f"
+	window_path = /obj/structure/window/full/reinforced/polarized
+	spawn_firedoor = TRUE
+	var/id
+
+/obj/effect/map_effect/window_spawner/full/mercenary/polarized/handle_full_window_spawn(var/obj/structure/window/full/reinforced/polarized/W)
+	if(id)
+		W.id = id
+
+/obj/effect/map_effect/window_spawner/full/mercenary/polarized/grille
+	name = "full reinforced polarized window spawner with grille and firedoor"
+	icon_state = "full_p_rwindow-gf"
+	spawn_grille = TRUE

@@ -143,7 +143,7 @@
 /obj/structure/window_frame/wood
 	color = "#8f5847"
 
-/obj/structure/window_frame/mercernary
+/obj/structure/window_frame/mercenary
 	color = "#5b5b5b"
 
 /obj/structure/window_frame/unanchored // Used during in-game construction.
