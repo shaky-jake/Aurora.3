@@ -20,7 +20,7 @@
 	desc = "WIP DESC"
 	icon_state = "light_cruiser"
 	moving_state = "light_cruiser_moving"
-	colors = list("#868aa6", "#787d9e")
+	colors = list("#787d9e", "#868aa6")
 	scanimage = "ranger.png"
 	designer = "WIP DESIGNER"
 	volume = "WIP VOLUME"
@@ -35,8 +35,8 @@
 	vessel_size = SHIP_SIZE_LARGE
 
 	initial_restricted_waypoints = list(
-		"Troop Transport" = list("nav_hangar_combat_destroyer_transport"),
-		"Space Superiority Fighter" = list("nav_hangar_combat_destroyer_Fighter")
+		"Light Cruiser Transport" = list("nav_hangar_combat_destroyer_transport"),
+		"Light Cruiser Fighter" = list("nav_hangar_combat_destroyer_fighter")
 	)
 
 	initial_generic_waypoints = list(
@@ -44,10 +44,14 @@
 		"nav_combat_destroyer_2",
 		"nav_combat_destroyer_3",
 		"nav_combat_destroyer_4",
-		"nav_combat_destroyer_5",
-		"nav_combat_destroyer_6",
+		"nav_combat_destroyer_dock_aft",
 		"nav_combat_destroyer_dock_starboard",
-		"nav_combat_destroyer_dock_port"
+		"nav_combat_destroyer_dock_port",
+		"nav_combat_destroyer_dock_fore_starboard",
+		"nav_combat_destroyer_dock_fore_port",
+		"nav_combat_destroyer_external_dock_fore",
+		"nav_combat_destroyer_external_dock_aft_starboard",
+		"nav_combat_destroyer_external_dock_aft_port"
 	)
 
 	invisible_until_ghostrole_spawn = TRUE
@@ -62,6 +66,7 @@
 	skybox_image.pixel_y = rand(128,256)
 	return skybox_image
 
+// shuttle landmarks
 /obj/effect/shuttle_landmark/combat_destroyer/nav1
 	name = "Port Navpoint"
 	landmark_tag = "nav_combat_destroyer_1"
@@ -86,49 +91,74 @@
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/combat_destroyer/nav5
-	name = "Far Port Navpoint"
-	landmark_tag = "nav_combat_destroyer_5"
-	base_turf = /turf/space/dynamic
+
+// docking landmarks
+/obj/effect/shuttle_landmark/combat_destroyer/dock_aft
+	name = "Aft Docking Port"
+	landmark_tag = "nav_combat_destroyer_dock_aft"
+	docking_controller = "airlock_combat_destroyer_dock_aft"
+	base_turf = /turf/space
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/combat_destroyer/nav6
-	name = "Far Starboard Navpoint"
-	landmark_tag = "nav_combat_destroyer_6"
-	base_turf = /turf/space/dynamic
-	base_area = /area/space
-
-/obj/effect/shuttle_landmark/combat_destroyer/transit
-	name = "In transit"
-	landmark_tag = "nav_transit_combat_destroyer"
-	base_turf = /turf/space/transit/north
-
-/obj/effect/shuttle_landmark/combat_destroyer/starboard_dock
-	name = "Light Cruiser Starboard Dock"
+/obj/effect/shuttle_landmark/combat_destroyer/dock_starboard
+	name = "Starboard Docking Port"
 	landmark_tag = "nav_combat_destroyer_dock_starboard"
 	docking_controller = "airlock_combat_destroyer_dock_starboard"
 	base_turf = /turf/space
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/combat_destroyer/port_dock
-	name = "Light Cruiser Port Dock"
+/obj/effect/shuttle_landmark/combat_destroyer/dock_port
+	name = "Port Docking Port"
 	landmark_tag = "nav_combat_destroyer_dock_port"
 	docking_controller = "airlock_combat_destroyer_dock_port"
 	base_turf = /turf/space
 	base_area = /area/space
 
+/obj/effect/shuttle_landmark/combat_destroyer/dock_fore_starboard
+	name = "Fore Starboard Docking Port"
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard"
+	docking_controller = "airlock_combat_destroyer_dock_fore_starboard"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/combat_destroyer/dock_fore_port
+	name = "Fore Port Docking Port"
+	landmark_tag = "nav_combat_destroyer_dock_fore_port"
+	docking_controller = "airlock_combat_destroyer_dock_fore_port"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/combat_destroyer/external_dock_fore
+	name = "External Fore Docking Bay"
+	landmark_tag = "nav_combat_destroyer_external_dock_fore"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/combat_destroyer/external_dock_aft_starboard
+	name = "External Aft Starboard Docking Bay"
+	landmark_tag = "nav_combat_destroyer_external_dock_aft_starboard"
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/combat_destroyer/external_dock_aft_port
+	name = "External Aft Port Docking Bay"
+	landmark_tag = "nav_combat_destroyer_external_dock_aft_port"
+	base_turf = /turf/space
+	base_area = /area/space
+
+
 
 //shuttle - transport
 
 /obj/effect/overmap/visitable/ship/landable/combat_destroyer_transport
-	name = "Troop Transport"
+	name = "Light Cruiser Transport"
 	class = "MFV"
 	designation = "TRANSPORT-1"
 	desc = "WIP DESC"
-	shuttle = "Troop Transport"
+	shuttle = "Light Cruiser Transport"
 	icon_state = "intrepid"
 	moving_state = "intrepid_moving"
-	colors = list("#868aa6", "#787d9e")
+	colors = list("#787d9e", "#868aa6")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000
@@ -141,10 +171,10 @@
 
 /obj/machinery/computer/shuttle_control/explore/terminal/combat_destroyer_transport
 	name = "shuttle control console"
-	shuttle_tag = "Troop Transport"
+	shuttle_tag = "Light Cruiser Transport"
 
 /datum/shuttle/autodock/overmap/combat_destroyer_transport
-	name = "Troop Transport"
+	name = "Light Cruiser Transport"
 	move_time = 20
 	shuttle_area = list(/area/shuttle/combat_destroyer_transport)
 	current_location = "nav_hangar_combat_destroyer_transport"
@@ -156,10 +186,10 @@
 	defer_initialisation = TRUE
 
 /obj/effect/shuttle_landmark/combat_destroyer_transport/hangar
-	name = "Troop Transport Hangar"
+	name = "Light Cruiser Transport Hangar"
 	landmark_tag = "nav_hangar_combat_destroyer_transport"
 	docking_controller = "combat_destroyer_transport_dock"
-	base_area = /area/shuttle/combat_destroyer_transport
+	base_area = /area/ship/combat_destroyer/hangar_port
 	base_turf = /turf/simulated/floor/plating
 	movable_flags = MOVABLE_FLAG_EFFECTMOVE
 
@@ -172,14 +202,14 @@
 // shuttle - fighter
 
 /obj/effect/overmap/visitable/ship/landable/combat_destroyer_fighter
-	name = "Space Superiority Fighter"
+	name = "Light Cruiser Fighter"
 	class = "MFV"
 	designation = "FIGHTER-1"
 	desc = "WIP DESC"
-	shuttle = "Space Superiority Fighter"
+	shuttle = "Light Cruiser Fighter"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
-	colors = list("#868aa6", "#787d9e")
+	colors = list("#787d9e", "#868aa6")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000
@@ -192,10 +222,10 @@
 
 /obj/machinery/computer/shuttle_control/explore/terminal/combat_destroyer_fighter
 	name = "shuttle control console"
-	shuttle_tag = "Space Superiority Fighter"
+	shuttle_tag = "Light Cruiser Fighter"
 
 /datum/shuttle/autodock/overmap/combat_destroyer_fighter
-	name = "Space Superiority Fighter"
+	name = "Light Cruiser Fighter"
 	move_time = 20
 	shuttle_area = list(/area/shuttle/combat_destroyer_fighter)
 	current_location = "nav_hangar_combat_destroyer_fighter"
@@ -207,10 +237,10 @@
 	defer_initialisation = TRUE
 
 /obj/effect/shuttle_landmark/combat_destroyer_fighter/hangar
-	name = "Space Superiority Fighter Hangar"
+	name = "Light Cruiser Fighter Hangar"
 	landmark_tag = "nav_hangar_combat_destroyer_fighter"
 	docking_controller = "combat_destroyer_fighter_dock"
-	base_area = /area/shuttle/combat_destroyer_fighter
+	base_area = /area/ship/combat_destroyer/hangar_starboard
 	base_turf = /turf/simulated/floor/plating
 	movable_flags = MOVABLE_FLAG_EFFECTMOVE
 

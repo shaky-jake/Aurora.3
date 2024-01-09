@@ -8,6 +8,12 @@
 	dir = 6
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_fighter)
 "ack" = (
@@ -55,6 +61,7 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Fuel Bay"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fuel_bay_starboard)
 "adE" = (
@@ -183,15 +190,18 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "ahA" = (
-/obj/machinery/computer/ship/navigation/terminal{
-	dir = 4;
-	light_color = "#6496FA"
-	},
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 4
 	},
 /obj/machinery/light/small/emergency{
 	dir = 8
+	},
+/obj/machinery/computer/ship/targeting/terminal{
+	dir = 4;
+	light_color = "#FA8282"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
@@ -523,6 +533,11 @@
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "asv" = (
@@ -627,6 +642,11 @@
 	dir = 1
 	},
 /obj/machinery/light/small/emergency,
+/obj/effect/map_effect/marker/airlock/docking{
+	name = "airlock_combat_destroyer_dock_port";
+	landmark_tag = "nav_combat_destroyer_dock_port";
+	master_tag = "airlock_combat_destroyer_dock_port"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_port)
 "avy" = (
@@ -683,6 +703,9 @@
 "axE" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/light/small/emergency{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -1609,6 +1632,17 @@
 /obj/structure/bed/handrail{
 	dir = 8
 	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	pixel_y = 16;
+	dir = 8;
+	pixel_x = 20
+	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_transport)
 "biM" = (
@@ -1733,7 +1767,8 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_1"
+	name = "airlock_combat_destroyer_aft_starboard_1";
+	master_tag = "airlock_combat_destroyer_aft_starboard_1"
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
@@ -1931,6 +1966,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/capt_maints)
 "btz" = (
@@ -2068,9 +2104,9 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "byq" = (
-/obj/structure/lattice/catwalk/indoor/grate/dark,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_fighter)
 "byE" = (
@@ -2130,7 +2166,8 @@
 	pixel_y = 10
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_2"
+	name = "airlock_combat_destroyer_aft_starboard_2";
+	master_tag = "airlock_combat_destroyer_aft_starboard_2"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -2156,6 +2193,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/starboard_engie_maints)
 "bzL" = (
@@ -2266,6 +2304,11 @@
 	},
 /obj/machinery/light/small/emergency{
 	dir = 8
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
@@ -2397,9 +2440,23 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "bKb" = (
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Miscellaneous Cabinet";
+	req_access = null
+	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/light/colored/red,
+/obj/item/storage/box/smokebombs{
+	pixel_y = -4
+	},
+/obj/item/storage/box/zipties{
+	pixel_y = 4
+	},
+/obj/item/material/knife/tacknife,
+/obj/item/material/knife/tacknife,
+/obj/item/material/knife/tacknife,
+/obj/item/material/knife/tacknife,
+/obj/item/material/knife/tacknife,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "bKj" = (
@@ -2410,12 +2467,6 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
-"bKz" = (
-/obj/effect/landmark/entry_point/fore{
-	name = "fore, starboard docking port"
-	},
-/turf/template_noop,
-/area/space)
 "bLm" = (
 /obj/effect/decal/fake_object{
 	density = 1;
@@ -2438,6 +2489,11 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
@@ -2497,6 +2553,12 @@
 	},
 /obj/item/storage/toolbox/electrical{
 	pixel_y = -2
+	},
+/obj/item/clothing/suit/storage/hazardvest{
+	pixel_y = -3
+	},
+/obj/item/clothing/head/hardhat{
+	pixel_y = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/fuel_bay_starboard)
@@ -2575,7 +2637,8 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/sec)
 "bPq" = (
 /obj/structure/lattice/catwalk/indoor/grate,
@@ -2799,6 +2862,11 @@
 "bYC" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "bYH" = (
@@ -3182,13 +3250,13 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/sec)
 "cpt" = (
-/obj/structure/bed/stool/chair/office/bridge/generic{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/red{
 	dir = 6
 	},
-/obj/effect/floor_decal/industrial/warning/corner{
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
@@ -3223,6 +3291,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/crew_starboard)
 "cqs" = (
@@ -3264,6 +3333,7 @@
 "crz" = (
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_port_wep_maints)
 "crP" = (
@@ -3454,6 +3524,7 @@
 	id = "combat_destroyer_starboard_hangar";
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hangar_starboard)
 "cyG" = (
@@ -3526,6 +3597,12 @@
 	dir = 10
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_transport)
 "cAu" = (
@@ -3578,10 +3655,18 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fuel_bay_starboard)
 "cCh" = (
 /obj/structure/bookcase,
+/obj/item/book/manual/stasis,
+/obj/item/book/manual/materials_chemistry_analysis,
+/obj/item/book/manual/anomaly_spectroscopy,
+/obj/item/book/manual/evaguide,
+/obj/item/book/manual/medical_diagnostics_manual,
+/obj/item/book/manual/wiki/engineering_guide,
+/obj/item/book/manual/ripley_build_and_repair,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/capt)
 "cCw" = (
@@ -4076,15 +4161,18 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_port_far)
 "dik" = (
-/obj/machinery/computer/ship/navigation/terminal{
-	dir = 8;
-	light_color = "#6496FA"
-	},
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 8
 	},
 /obj/machinery/light/small/emergency{
 	dir = 4
+	},
+/obj/machinery/computer/ship/targeting/terminal{
+	dir = 8;
+	light_color = "#FA8282"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
@@ -4373,14 +4461,14 @@
 	},
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/security,
-/obj/item/gun/energy/laser/practice{
-	pixel_y = -6
+/obj/item/gun/energy/rifle/laser/practice{
+	pixel_y = 6
 	},
-/obj/item/gun/energy/laser/practice{
+/obj/item/gun/energy/rifle/laser/practice{
 	pixel_y = 0
 	},
-/obj/item/gun/energy/laser/practice{
-	pixel_y = 6
+/obj/item/gun/energy/rifle/laser/practice{
+	pixel_y = -6
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/range)
@@ -4806,6 +4894,11 @@
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	dir = 8;
 	pixel_x = 20
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_aft";
+	master_tag = "airlock_combat_destroyer_dock_aft";
+	name = "airlock_combat_destroyer_dock_aft"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft)
@@ -5430,6 +5523,7 @@
 	name = "Disposals Maintenance"
 	},
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/disposals)
 "egn" = (
@@ -5488,6 +5582,11 @@
 /obj/machinery/airlock_sensor{
 	dir = 4;
 	pixel_x = -20
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
@@ -5607,6 +5706,11 @@
 	icon_state = "map"
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	name = "airlock_combat_destroyer_dock_port";
+	landmark_tag = "nav_combat_destroyer_dock_port";
+	master_tag = "airlock_combat_destroyer_dock_port"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_port)
 "elh" = (
@@ -5860,6 +5964,11 @@
 "erx" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
 "erJ" = (
@@ -5899,13 +6008,6 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/button/remote/blast_door{
-	dir = 1;
-	pixel_y = 30;
-	name = "Ammo Storage Blast Door";
-	id = "combat_destroyer_fore_port_ammo";
-	pixel_x = -4
-	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_port_wep_access)
 "etC" = (
@@ -6151,9 +6253,6 @@
 /area/ship/combat_destroyer/cryo)
 "eBU" = (
 /obj/machinery/door/airlock/external,
-/obj/effect/shuttle_landmark{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
@@ -6170,6 +6269,17 @@
 /obj/effect/map_effect/marker_helper/airlock/exterior,
 /obj/machinery/access_button{
 	pixel_x = 26
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
+	},
+/obj/effect/shuttle_landmark/combat_destroyer/dock_fore_port{
+	dir = 1
+	},
+/obj/effect/landmark/entry_point/fore{
+	name = "fore, port docking port"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_port)
@@ -6193,16 +6303,16 @@
 /obj/structure/closet{
 	name = "shooting target locker"
 	},
-/obj/item/target,
-/obj/item/target,
-/obj/item/target,
-/obj/item/target,
-/obj/item/target,
-/obj/item/target,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
 	},
+/obj/item/target,
+/obj/item/target,
+/obj/item/target,
+/obj/item/target,
+/obj/item/target,
+/obj/item/target,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/range)
 "eEi" = (
@@ -6252,6 +6362,12 @@
 	icon_state = "1-2"
 	},
 /obj/effect/map_effect/marker_helper/airlock/out,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
 "eGh" = (
@@ -6622,7 +6738,8 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/space,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/briefing_maints_starboard)
 "eTq" = (
 /obj/structure/cable{
@@ -7028,13 +7145,13 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 4
 	},
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	dir = 4;
-	pixel_x = -20
-	},
 /obj/effect/map_effect/marker/airlock{
 	name = "airlock_combat_destroyer_fore";
 	master_tag = "airlock_combat_destroyer_fore"
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 4;
+	pixel_x = -20
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_exterior)
@@ -7192,6 +7309,13 @@
 	pixel_y = 0;
 	pixel_x = 33
 	},
+/obj/machinery/button/remote/blast_door{
+	dir = 1;
+	pixel_y = 0;
+	name = "Ammo Storage Blast Door";
+	id = "combat_destroyer_fore_starboard_ammo";
+	pixel_x = -28
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_starboard_ammo)
 "fro" = (
@@ -7229,7 +7353,8 @@
 	pixel_x = -26
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_2"
+	name = "airlock_combat_destroyer_aft_starboard_2";
+	master_tag = "airlock_combat_destroyer_aft_starboard_2"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -7712,6 +7837,11 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "fLN" = (
@@ -8017,12 +8147,31 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hallway)
 "fWA" = (
-/obj/structure/lattice/catwalk,
-/obj/effect/shuttle_landmark{
-	dir = 1
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Sidearm Cabinet";
+	req_access = null
 	},
-/turf/template_noop,
-/area/ship/combat_destroyer/space_catwalk)
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/gun/projectile/sec/lethal,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/gun/projectile/sec/lethal,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/gun/projectile/pistol,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/gun/projectile/pistol,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/gun/projectile/pistol,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/armory)
 "fWE" = (
 /obj/machinery/door/firedoor/noid{
 	dir = 4
@@ -8040,6 +8189,7 @@
 	dir = 4;
 	name = "Grauwolf Control"
 	},
+/obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_port_wep)
 "fWJ" = (
@@ -9045,6 +9195,11 @@
 /obj/machinery/light/small/emergency{
 	dir = 8
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
 "gMi" = (
@@ -9132,6 +9287,7 @@
 "gOy" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/briefing_maints_starboard)
 "gPE" = (
@@ -9184,6 +9340,12 @@
 	pixel_x = -6
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
 "gSS" = (
@@ -9215,7 +9377,8 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_2"
+	name = "airlock_combat_destroyer_aft_starboard_2";
+	master_tag = "airlock_combat_destroyer_aft_starboard_2"
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -9828,7 +9991,8 @@
 	pixel_x = -26
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_1"
+	name = "airlock_combat_destroyer_aft_starboard_1";
+	master_tag = "airlock_combat_destroyer_aft_starboard_1"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
@@ -9900,6 +10064,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/briefing_maints_port)
 "hqK" = (
@@ -9950,6 +10115,11 @@
 "hrX" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	name = "airlock_combat_destroyer_dock_port";
+	landmark_tag = "nav_combat_destroyer_dock_port";
+	master_tag = "airlock_combat_destroyer_dock_port"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_port)
 "hsh" = (
@@ -10214,6 +10384,7 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Fuel Bay"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fuel_bay_port)
 "hCM" = (
@@ -10250,6 +10421,11 @@
 	pixel_x = -26;
 	pixel_y = 10
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
 "hFU" = (
@@ -10262,6 +10438,17 @@
 "hGl" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/stack/material/steel/full{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/stack/liquidbags/half_full{
+	pixel_x = 4
+	},
+/obj/item/stack/barbed_wire/half_full{
+	pixel_x = 4;
+	pixel_y = 4
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "hGD" = (
@@ -10313,6 +10500,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_port_hall_1)
 "hHL" = (
@@ -10340,6 +10528,11 @@
 /obj/machinery/airlock_sensor{
 	dir = 8;
 	pixel_x = 20
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
@@ -10618,6 +10811,7 @@
 	pixel_x = 33;
 	pixel_y = 0
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/starboard_engie_maints)
 "hSF" = (
@@ -10744,7 +10938,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_2"
+	name = "airlock_combat_destroyer_aft_starboard_2";
+	master_tag = "airlock_combat_destroyer_aft_starboard_2"
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -10896,12 +11091,18 @@
 	dir = 4
 	},
 /obj/machinery/airlock_sensor{
-	pixel_x = -24;
+	pixel_x = -20;
 	pixel_y = 16;
 	dir = 4
 	},
 /obj/structure/bed/handrail{
 	dir = 4
+	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_fighter)
@@ -10934,6 +11135,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hallway_starboard)
 "ihb" = (
@@ -11356,6 +11558,7 @@
 	dir = 8;
 	name = "Engineering"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/engie)
 "iup" = (
@@ -11397,12 +11600,18 @@
 	dir = 4
 	},
 /obj/machinery/airlock_sensor{
-	pixel_x = -24;
+	pixel_x = -20;
 	pixel_y = 16;
 	dir = 4
 	},
 /obj/structure/bed/handrail{
 	dir = 4
+	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_transport)
@@ -11443,6 +11652,11 @@
 "iwP" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "ixb" = (
@@ -11640,11 +11854,16 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/sec)
 "iEY" = (
-/obj/effect/landmark/entry_point/aft{
-	name = "aft, docking port"
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	pixel_y = 28;
+	pixel_x = 4;
+	frequency = 1380;
+	id_tag = "combat_destroyer_fighter_dock";
+	name = "\improper Light Cruiser Fighter docking port controller"
 	},
-/turf/simulated/wall/shuttle/space_ship/mercenary,
-/area/ship/combat_destroyer/docking_port_aft)
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/hangar_starboard)
 "iGu" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
@@ -11676,6 +11895,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_fighter)
 "iGX" = (
@@ -12002,9 +12222,6 @@
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "iTH" = (
 /obj/machinery/door/airlock/external,
-/obj/effect/shuttle_landmark{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
@@ -12021,6 +12238,17 @@
 /obj/effect/map_effect/marker_helper/airlock/exterior,
 /obj/machinery/access_button{
 	pixel_x = -26
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
+	},
+/obj/effect/shuttle_landmark/combat_destroyer/dock_fore_starboard{
+	dir = 1
+	},
+/obj/effect/landmark/entry_point/fore{
+	name = "fore, starboard docking port"
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
@@ -12071,6 +12299,12 @@
 	pixel_y = 0;
 	pixel_x = -33
 	},
+/obj/machinery/button/remote/blast_door{
+	pixel_y = 14;
+	name = "Ammo Storage Blast Door";
+	id = "combat_destroyer_aft_starboard_ammo";
+	pixel_x = 28
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_starboard_ammo)
 "iVE" = (
@@ -12086,6 +12320,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hall_maints_starboard)
 "iVP" = (
@@ -12154,6 +12389,11 @@
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_aft";
+	master_tag = "airlock_combat_destroyer_dock_aft";
+	name = "airlock_combat_destroyer_dock_aft"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft)
 "iXC" = (
@@ -12192,6 +12432,17 @@
 	},
 /obj/structure/bed/handrail{
 	dir = 8
+	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	pixel_y = 16;
+	dir = 8;
+	pixel_x = 20
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_fighter)
@@ -12254,10 +12505,8 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/ammunition_loader/francisca{
-	density = 0;
-	pixel_x = -32;
-	weapon_id = "Superiority Fighter Starboard Francisca Rotary Gun"
+/obj/structure/bed/handrail{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/combat_destroyer_fighter)
@@ -12274,6 +12523,12 @@
 	},
 /obj/machinery/light/small/emergency{
 	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_fighter)
@@ -12362,6 +12617,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_fighter)
 "jiR" = (
@@ -12630,6 +12886,7 @@
 	dir = 4;
 	name = "Francisca Control"
 	},
+/obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_port_wep)
 "jtY" = (
@@ -12866,6 +13123,7 @@
 	dir = 4;
 	name = "Fuel Bay Maintenance"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fuel_bay_port)
 "jCX" = (
@@ -13218,6 +13476,11 @@
 /obj/machinery/light/small/emergency{
 	dir = 1
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_starboard";
+	master_tag = "airlock_combat_destroyer_dock_starboard";
+	name = "airlock_combat_destroyer_dock_starboard"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_starboard)
 "jQU" = (
@@ -13381,6 +13644,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/cargo)
 "jXV" = (
@@ -13424,6 +13688,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hall_maints_starboard)
 "kaL" = (
@@ -13586,6 +13851,12 @@
 	pixel_x = 26;
 	pixel_y = 2
 	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
 "khK" = (
@@ -13686,6 +13957,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hallway_port)
 "kll" = (
@@ -13823,6 +14095,8 @@
 /obj/item/storage/secure/safe{
 	pixel_y = 32
 	},
+/obj/item/gun/projectile/revolver,
+/obj/item/ammo_magazine/a357,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/capt)
 "koG" = (
@@ -14002,15 +14276,13 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/cic)
 "kwj" = (
-/obj/machinery/computer/ship/targeting/terminal{
-	dir = 8;
-	light_color = "#FA8282"
-	},
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
+/obj/machinery/ammunition_loader/francisca{
+	dir = 1;
+	density = 0;
+	weapon_id = "Superiority Fighter Port Francisca Rotary Gun"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
@@ -14296,13 +14568,19 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/atmos)
 "kIC" = (
-/obj/structure/railing/mapped{
-	dir = 8
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Assault Rifle Cabinet";
+	req_access = null
 	},
-/obj/effect/shuttle_landmark,
-/obj/structure/lattice,
-/turf/template_noop,
-/area/ship/combat_destroyer/space_catwalk)
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/item/ammo_magazine/c762,
+/obj/item/ammo_magazine/c762,
+/obj/item/gun/projectile/automatic/rifle/sts35,
+/obj/item/ammo_magazine/c762,
+/obj/item/ammo_magazine/c762,
+/obj/item/gun/projectile/automatic/rifle/carbine,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/armory)
 "kIE" = (
 /obj/effect/map_effect/map_helper/ruler_tiles_3,
 /turf/template_noop,
@@ -14485,6 +14763,7 @@
 	dir = 4;
 	name = "Francisca Control"
 	},
+/obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_starboard_wep)
 "kPf" = (
@@ -14562,6 +14841,11 @@
 	dir = 8;
 	pixel_x = -12;
 	pixel_y = -28
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	name = "airlock_combat_destroyer_dock_port";
+	landmark_tag = "nav_combat_destroyer_dock_port";
+	master_tag = "airlock_combat_destroyer_dock_port"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_port)
@@ -14832,6 +15116,12 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_fighter)
 "leF" = (
@@ -14877,11 +15167,12 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "lhf" = (
-/obj/effect/landmark/entry_point/starboard{
-	name = "starboard, central docking port"
+/obj/structure/lattice,
+/obj/structure/bed/handrail{
+	dir = 8
 	},
 /turf/template_noop,
-/area/space)
+/area/ship/combat_destroyer/space_catwalk)
 "lho" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -14898,9 +15189,6 @@
 "lhH" = (
 /obj/machinery/door/airlock/external{
 	dir = 4
-	},
-/obj/effect/shuttle_landmark{
-	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/sign/securearea{
@@ -14920,6 +15208,17 @@
 	dir = 4;
 	pixel_x = 12;
 	pixel_y = -28
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	name = "airlock_combat_destroyer_dock_port";
+	landmark_tag = "nav_combat_destroyer_dock_port";
+	master_tag = "airlock_combat_destroyer_dock_port"
+	},
+/obj/effect/shuttle_landmark/combat_destroyer/dock_port{
+	dir = 8
+	},
+/obj/effect/landmark/entry_point/port{
+	name = "port, central docking port"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_port)
@@ -15075,7 +15374,8 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_1"
+	name = "airlock_combat_destroyer_aft_starboard_1";
+	master_tag = "airlock_combat_destroyer_aft_starboard_1"
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
@@ -15156,6 +15456,12 @@
 	pixel_y = 0;
 	pixel_x = 33
 	},
+/obj/machinery/button/remote/blast_door{
+	pixel_y = 14;
+	name = "Ammo Storage Blast Door";
+	id = "combat_destroyer_aft_port_ammo";
+	pixel_x = -28
+	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_port_ammo)
 "ltD" = (
@@ -15218,6 +15524,11 @@
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	pixel_y = 26
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_starboard";
+	master_tag = "airlock_combat_destroyer_dock_starboard";
+	name = "airlock_combat_destroyer_dock_starboard"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_starboard)
 "lzQ" = (
@@ -15274,11 +15585,17 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/access_button{
-	pixel_x = -22;
-	dir = 4;
-	pixel_y = 30
+	pixel_x = -24;
+	dir = 1;
+	pixel_y = 12
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_fighter)
 "lBh" = (
@@ -15453,6 +15770,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/janitor)
 "lHw" = (
@@ -15546,6 +15864,11 @@
 	icon_state = "map"
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_starboard";
+	master_tag = "airlock_combat_destroyer_dock_starboard";
+	name = "airlock_combat_destroyer_dock_starboard"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_starboard)
 "lJJ" = (
@@ -15914,7 +16237,8 @@
 	pixel_x = -20
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_1"
+	name = "airlock_combat_destroyer_aft_starboard_1";
+	master_tag = "airlock_combat_destroyer_aft_starboard_1"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
@@ -16400,6 +16724,7 @@
 	pixel_x = 33;
 	pixel_y = 0
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "mrq" = (
@@ -16443,6 +16768,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/range)
 "mtt" = (
@@ -16564,17 +16890,12 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/hall_maints_port)
 "mwR" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 10
+/obj/structure/lattice,
+/obj/structure/bed/handrail{
+	dir = 4
 	},
-/obj/machinery/button/remote/blast_door{
-	pixel_y = -18;
-	name = "Ammo Storage Blast Door";
-	id = "combat_destroyer_aft_port_ammo";
-	pixel_x = 4
-	},
-/turf/simulated/floor/tiled,
-/area/ship/combat_destroyer/aft_port_hall_2)
+/turf/template_noop,
+/area/ship/combat_destroyer/space_catwalk)
 "mxl" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -16628,6 +16949,7 @@
 "myv" = (
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hydro)
 "myG" = (
@@ -16749,12 +17071,13 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hallway_fore_starboard)
 "mDV" = (
-/obj/machinery/door/blast/regular/open{
-	id = "combat_destroyer_port_hangar";
-	dir = 4
+/obj/structure/railing/mapped{
+	dir = 8
 	},
-/turf/simulated/floor/plating,
-/area/ship/combat_destroyer/hangar_port)
+/obj/structure/lattice,
+/obj/effect/shuttle_landmark/combat_destroyer/external_dock_aft_starboard,
+/turf/template_noop,
+/area/ship/combat_destroyer/space_catwalk)
 "mEA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -16782,6 +17105,13 @@
 /obj/structure/sign/securearea{
 	name = "\improper WARNING: SECURE AMMUNITION STORAGE sign";
 	pixel_x = -33
+	},
+/obj/machinery/button/remote/blast_door{
+	dir = 1;
+	pixel_y = 0;
+	name = "Ammo Storage Blast Door";
+	id = "combat_destroyer_fore_port_ammo";
+	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_port_ammo)
@@ -16966,6 +17296,11 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "mNf" = (
@@ -17091,17 +17426,19 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_port_maints_2)
 "mRN" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 10
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Assault Rifle Cabinet";
+	req_access = null
 	},
-/obj/machinery/button/remote/blast_door{
-	pixel_y = -18;
-	name = "Ammo Storage Blast Door";
-	id = "combat_destroyer_aft_starboard_ammo";
-	pixel_x = -4
-	},
-/turf/simulated/floor/tiled,
-/area/ship/combat_destroyer/aft_starboard_hall_2)
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/item/ammo_magazine/c762,
+/obj/item/ammo_magazine/c762,
+/obj/item/gun/projectile/automatic/rifle/sts35,
+/obj/item/ammo_magazine/c762,
+/obj/item/ammo_magazine/c762,
+/obj/item/gun/projectile/automatic/rifle/sts35,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/armory)
 "mSH" = (
 /obj/machinery/door/firedoor/multi_tile{
 	req_one_access = null;
@@ -17334,6 +17671,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "nbK" = (
@@ -17417,7 +17755,8 @@
 	pixel_y = 10
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_1"
+	name = "airlock_combat_destroyer_aft_starboard_1";
+	master_tag = "airlock_combat_destroyer_aft_starboard_1"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
@@ -17777,6 +18116,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fuel_bay_port)
 "nrJ" = (
@@ -18233,7 +18573,8 @@
 	dir = 4
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_1"
+	name = "airlock_combat_destroyer_aft_starboard_1";
+	master_tag = "airlock_combat_destroyer_aft_starboard_1"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
@@ -18309,6 +18650,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
 "nKS" = (
@@ -18375,10 +18717,16 @@
 	},
 /obj/machinery/airlock_sensor/airlock_exterior{
 	pixel_x = -21;
-	pixel_y = 8;
+	pixel_y = 0;
 	dir = 4
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
+	},
 /turf/simulated/floor/airless,
 /area/shuttle/combat_destroyer_transport)
 "nNn" = (
@@ -18499,6 +18847,7 @@
 	pixel_x = -33;
 	pixel_y = 0
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/port_engie_maints)
 "nRm" = (
@@ -18508,9 +18857,6 @@
 /area/ship/combat_destroyer/crew_maints_starboard)
 "nRC" = (
 /obj/machinery/door/airlock/external{
-	dir = 4
-	},
-/obj/effect/shuttle_landmark{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -18532,14 +18878,25 @@
 	pixel_x = -12;
 	pixel_y = -28
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_starboard";
+	master_tag = "airlock_combat_destroyer_dock_starboard";
+	name = "airlock_combat_destroyer_dock_starboard"
+	},
+/obj/effect/shuttle_landmark/combat_destroyer/dock_starboard{
+	dir = 4
+	},
+/obj/effect/landmark/entry_point/starboard{
+	name = "starboard, central docking port"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_starboard)
 "nRI" = (
-/obj/effect/shuttle_landmark,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/structure/lattice,
+/obj/effect/shuttle_landmark/combat_destroyer/external_dock_aft_port,
 /turf/template_noop,
 /area/ship/combat_destroyer/space_catwalk)
 "nSv" = (
@@ -18785,17 +19142,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/ammunition_loader/francisca{
-	dir = 1;
-	density = 0;
-	pixel_x = 32;
-	weapon_id = "Superiority Fighter Port Francisca Rotary Gun"
-	},
 /obj/machinery/power/apc/critical/north{
 	req_access = null
 	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
+	},
+/obj/structure/bed/handrail{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/combat_destroyer_fighter)
@@ -18836,6 +19190,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/crew_port)
 "ogM" = (
@@ -18868,7 +19223,8 @@
 	dir = 4
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_2"
+	name = "airlock_combat_destroyer_aft_starboard_2";
+	master_tag = "airlock_combat_destroyer_aft_starboard_2"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -19364,6 +19720,11 @@
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
 "oxb" = (
@@ -19626,6 +19987,7 @@
 	id = "combat_destroyer_port_hangar";
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hangar_port)
 "oHK" = (
@@ -20096,6 +20458,7 @@
 	dir = 4;
 	name = "Longbow Control"
 	},
+/obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_starboard_wep)
 "oYB" = (
@@ -20266,6 +20629,11 @@
 "pfI" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_starboard";
+	master_tag = "airlock_combat_destroyer_dock_starboard";
+	name = "airlock_combat_destroyer_dock_starboard"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_starboard)
 "pgp" = (
@@ -20323,6 +20691,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Recharging Bay Maintenance"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/port_engie_maints)
 "pld" = (
@@ -20498,6 +20867,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/engie)
 "prp" = (
@@ -20596,11 +20966,23 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/cryo_foyer)
 "pwc" = (
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Ballistic Carbine Cabinet";
+	req_access = null
+	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/light/colored/red{
 	dir = 1
 	},
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/gun/projectile/automatic/rifle/carbine,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/gun/projectile/automatic/rifle/carbine,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/gun/projectile/automatic/rifle/carbine,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "pwz" = (
@@ -20697,6 +21079,11 @@
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	dir = 8;
 	pixel_x = 20
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
@@ -20833,6 +21220,12 @@
 	pixel_y = -6
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
 "pDf" = (
@@ -21047,6 +21440,7 @@
 	dir = 4;
 	name = "Thruster Bay"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
 "pMm" = (
@@ -21244,6 +21638,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hydro_maints)
 "pTo" = (
@@ -21270,6 +21665,7 @@
 	dir = 8;
 	name = "Engineering"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/engie)
 "pUe" = (
@@ -21370,6 +21766,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hall_maints_port)
 "pZq" = (
@@ -21467,13 +21864,13 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_port_maints_1)
 "qcT" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/red{
 	dir = 9
 	},
-/obj/structure/bed/handrail{
+/obj/structure/bed/stool/chair/office/bridge/generic{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -21523,6 +21920,7 @@
 	pixel_x = -33;
 	pixel_y = 0
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_port_hall_2)
 "qeo" = (
@@ -21868,6 +22266,11 @@
 	dir = 4;
 	pixel_x = -20
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "qtA" = (
@@ -22056,10 +22459,28 @@
 /area/ship/combat_destroyer/port_engie_maints)
 "qBR" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Sidearm Cabinet";
+	req_access = null
+	},
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/gun/projectile/sec/lethal,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/gun/projectile/sec/lethal,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/gun/projectile/pistol,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/gun/projectile/pistol,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/gun/projectile/pistol,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "qCB" = (
@@ -22315,6 +22736,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hall_maints_port)
 "qMC" = (
@@ -22441,6 +22863,11 @@
 	pixel_x = 26;
 	pixel_y = 10
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_port";
+	master_tag = "airlock_combat_destroyer_dock_fore_port";
+	name = "airlock_combat_destroyer_dock_fore_port"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_fore_port)
 "qQk" = (
@@ -22497,6 +22924,11 @@
 	dir = 1
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_aft";
+	master_tag = "airlock_combat_destroyer_dock_aft";
+	name = "airlock_combat_destroyer_dock_aft"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_aft)
 "qRd" = (
@@ -22611,7 +23043,8 @@
 	pixel_x = 20
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_1"
+	name = "airlock_combat_destroyer_aft_starboard_1";
+	master_tag = "airlock_combat_destroyer_aft_starboard_1"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
@@ -22655,6 +23088,12 @@
 	dir = 6
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_transport)
 "qWQ" = (
@@ -22875,6 +23314,12 @@
 /obj/item/storage/toolbox/electrical{
 	pixel_y = -2
 	},
+/obj/item/clothing/suit/storage/hazardvest{
+	pixel_y = -3
+	},
+/obj/item/clothing/head/hardhat{
+	pixel_y = 1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/fuel_bay_port)
 "rfw" = (
@@ -22882,6 +23327,126 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/clothing/accessory/holster/thigh/brown{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/clothing/accessory/holster/thigh/brown{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/clothing/accessory/holster/thigh/brown{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/clothing/accessory/holster/thigh/brown{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/clothing/accessory/holster/thigh/brown{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/storage/belt/military{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_x = 4;
+	pixel_y = -4
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
@@ -22955,6 +23520,7 @@
 "rkw" = (
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hydro_maints)
 "rkJ" = (
@@ -23731,6 +24297,15 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/external,
+/obj/machinery/access_button{
+	pixel_x = 26
+	},
+/obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_aft";
+	master_tag = "airlock_combat_destroyer_dock_aft";
+	name = "airlock_combat_destroyer_dock_aft"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_aft)
 "rNW" = (
@@ -23917,6 +24492,11 @@
 	dir = 1
 	},
 /obj/machinery/light/small/emergency,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_starboard";
+	master_tag = "airlock_combat_destroyer_dock_starboard";
+	name = "airlock_combat_destroyer_dock_starboard"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_starboard)
 "rUs" = (
@@ -24085,6 +24665,11 @@
 	dir = 4;
 	pixel_x = 12;
 	pixel_y = -28
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_starboard";
+	master_tag = "airlock_combat_destroyer_dock_starboard";
+	name = "airlock_combat_destroyer_dock_starboard"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_starboard)
@@ -24295,6 +24880,11 @@
 /obj/machinery/airlock_sensor{
 	dir = 1;
 	pixel_y = -18
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	name = "airlock_combat_destroyer_dock_port";
+	landmark_tag = "nav_combat_destroyer_dock_port";
+	master_tag = "airlock_combat_destroyer_dock_port"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_port)
@@ -24803,10 +25393,22 @@
 /area/ship/combat_destroyer/docking_port_fore_exterior)
 "svV" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Submachine Gun Cabinet";
+	req_access = null
+	},
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "swd" = (
@@ -25104,11 +25706,17 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/access_button{
-	pixel_x = -22;
-	dir = 4;
-	pixel_y = 30
+	pixel_x = -24;
+	dir = 1;
+	pixel_y = 12
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
 "sNC" = (
@@ -25224,6 +25832,12 @@
 	pixel_y = -6
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_fighter)
 "sRJ" = (
@@ -25239,15 +25853,12 @@
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/combat_destroyer/central_hall_maints)
 "sSP" = (
-/obj/machinery/computer/ship/targeting/terminal{
-	dir = 4;
-	light_color = "#FA8282"
-	},
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
+/obj/machinery/ammunition_loader/francisca{
+	density = 0;
+	weapon_id = "Superiority Fighter Starboard Francisca Rotary Gun"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
@@ -25378,6 +25989,11 @@
 	dir = 4;
 	pixel_x = -20
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_aft";
+	master_tag = "airlock_combat_destroyer_dock_aft";
+	name = "airlock_combat_destroyer_dock_aft"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft)
 "sXw" = (
@@ -25481,6 +26097,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Recharging Bay Maintenance"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/starboard_engie_maints)
 "tcD" = (
@@ -25594,7 +26211,6 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 10
 	},
-/obj/machinery/light/small/emergency,
 /turf/simulated/floor/tiled,
 /area/shuttle/combat_destroyer_transport)
 "tfN" = (
@@ -25713,6 +26329,26 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft)
+"tku" = (
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Submachine Gun Cabinet";
+	req_access = null
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/armory)
 "tll" = (
 /obj/effect/landmark/entry_point/aft{
 	name = "aft, security"
@@ -25818,7 +26454,8 @@
 	dir = 8
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_1"
+	name = "airlock_combat_destroyer_aft_starboard_1";
+	master_tag = "airlock_combat_destroyer_aft_starboard_1"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft_exterior_starboard)
@@ -25956,6 +26593,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_fighter)
 "ttF" = (
@@ -26122,10 +26760,16 @@
 	},
 /obj/machinery/airlock_sensor/airlock_exterior{
 	pixel_x = -21;
-	pixel_y = 8;
+	pixel_y = 0;
 	dir = 4
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
+	},
 /turf/simulated/floor/airless,
 /area/shuttle/combat_destroyer_fighter)
 "tFl" = (
@@ -26482,6 +27126,11 @@
 /obj/machinery/airlock_sensor{
 	dir = 1;
 	pixel_y = -18
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_starboard";
+	master_tag = "airlock_combat_destroyer_dock_starboard";
+	name = "airlock_combat_destroyer_dock_starboard"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_starboard)
@@ -26842,6 +27491,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
 "ukx" = (
@@ -26904,6 +27556,11 @@
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/light/small/emergency{
 	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock/docking{
+	name = "airlock_combat_destroyer_dock_port";
+	landmark_tag = "nav_combat_destroyer_dock_port";
+	master_tag = "airlock_combat_destroyer_dock_port"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_port)
@@ -27032,6 +27689,12 @@
 	},
 /obj/machinery/light/small/emergency{
 	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_transport)
@@ -27180,6 +27843,12 @@
 	icon_state = "1-2"
 	},
 /obj/effect/map_effect/marker_helper/airlock/out,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_fighter)
 "uvX" = (
@@ -27213,8 +27882,16 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "uyd" = (
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Energy Weaponry Cabinet";
+	req_access = null
+	},
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/item/gun/energy/rifle,
+/obj/item/gun/energy/rifle,
+/obj/item/gun/energy/gun,
+/obj/item/gun/energy/gun,
+/obj/item/gun/energy/gun,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "uzS" = (
@@ -27270,6 +27947,11 @@
 "uBd" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_aft";
+	master_tag = "airlock_combat_destroyer_dock_aft";
+	name = "airlock_combat_destroyer_dock_aft"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_aft)
 "uBk" = (
@@ -27663,11 +28345,13 @@
 "uSp" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/central_hall_maints)
 "uTn" = (
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_starboard_wep_maints)
 "uTv" = (
@@ -27984,6 +28668,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/crew_maints_port)
 "veW" = (
@@ -27991,14 +28676,14 @@
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_transport)
 "vfr" = (
-/obj/structure/bed/stool/chair/office/bridge/generic{
-	dir = 8
-	},
 /obj/effect/floor_decal/corner/red{
 	dir = 9
 	},
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 1
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/combat_destroyer_fighter)
@@ -28014,6 +28699,12 @@
 	dir = 10
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/combat_destroyer_fighter)
 "vhN" = (
@@ -28139,7 +28830,8 @@
 	dir = 8
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_2"
+	name = "airlock_combat_destroyer_aft_starboard_2";
+	master_tag = "airlock_combat_destroyer_aft_starboard_2"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -28385,6 +29077,7 @@
 "vuq" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/briefing_maints_port)
 "vuL" = (
@@ -28496,11 +29189,12 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/central_hall_maints)
 "vAK" = (
-/obj/effect/landmark/entry_point/fore{
-	name = "fore, port docking port"
+/obj/structure/lattice/catwalk,
+/obj/effect/shuttle_landmark/combat_destroyer/external_dock_fore{
+	dir = 1
 	},
 /turf/template_noop,
-/area/space)
+/area/ship/combat_destroyer/space_catwalk)
 "vBa" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped{
@@ -28791,14 +29485,14 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_port)
 "vOm" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
 /obj/effect/floor_decal/corner/red{
 	dir = 6
 	},
-/obj/structure/bed/handrail{
-	dir = 1
+/obj/structure/bed/stool/chair/office/bridge/generic{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/combat_destroyer_fighter)
@@ -28837,13 +29531,6 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/button/remote/blast_door{
-	dir = 1;
-	pixel_y = 30;
-	name = "Ammo Storage Blast Door";
-	id = "combat_destroyer_fore_starboard_ammo";
-	pixel_x = 4
-	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_starboard_wep_access)
 "vPZ" = (
@@ -28910,9 +29597,9 @@
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "vST" = (
-/obj/structure/lattice/catwalk/indoor/grate/dark,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_fighter)
 "vSW" = (
@@ -29018,16 +29705,17 @@
 	dir = 8
 	},
 /obj/effect/map_effect/marker_helper/airlock/out,
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	pixel_y = -16;
-	dir = 8;
-	pixel_x = 20
-	},
 /obj/structure/bed/handrail{
 	dir = 8
 	},
 /obj/machinery/light/small/emergency{
 	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_fighter";
+	name = "airlock_combat_destroyer_fighter";
+	shuttle_tag = "Light Cruiser Fighter"
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_fighter)
@@ -29055,6 +29743,12 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
@@ -29126,11 +29820,16 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/eva)
 "wgm" = (
-/obj/effect/landmark/entry_point/port{
-	name = "port, central docking port"
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	pixel_y = 28;
+	pixel_x = -4;
+	frequency = 1380;
+	id_tag = "combat_destroyer_transport_dock";
+	name = "\improper Light Cruiser Transport docking port controller"
 	},
-/turf/template_noop,
-/area/space)
+/turf/simulated/floor/tiled/dark/full,
+/area/ship/combat_destroyer/hangar_port)
 "wgQ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -29178,16 +29877,17 @@
 	dir = 8
 	},
 /obj/effect/map_effect/marker_helper/airlock/out,
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	pixel_y = -16;
-	dir = 8;
-	pixel_x = 20
-	},
 /obj/structure/bed/handrail{
 	dir = 8
 	},
 /obj/machinery/light/small/emergency{
 	dir = 1
+	},
+/obj/effect/map_effect/marker/airlock/shuttle{
+	cycle_to_external_air = 1;
+	master_tag = "airlock_combat_destroyer_transport";
+	name = "airlock_combat_destroyer_transport";
+	shuttle_tag = "Light Cruiser Transport"
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/combat_destroyer_transport)
@@ -29532,6 +30232,11 @@
 /obj/machinery/light/small/emergency{
 	dir = 8
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_aft";
+	master_tag = "airlock_combat_destroyer_dock_aft";
+	name = "airlock_combat_destroyer_dock_aft"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_aft)
 "wtk" = (
@@ -29642,6 +30347,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/port_engie_maints)
 "wxw" = (
@@ -29999,6 +30705,11 @@
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	pixel_y = 26
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	name = "airlock_combat_destroyer_dock_port";
+	landmark_tag = "nav_combat_destroyer_dock_port";
+	master_tag = "airlock_combat_destroyer_dock_port"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_port)
 "wKD" = (
@@ -30129,6 +30840,7 @@
 "wPB" = (
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/capt_maints)
 "wPD" = (
@@ -30190,9 +30902,6 @@
 /area/ship/combat_destroyer/hall_maints_port)
 "wSy" = (
 /obj/machinery/door/airlock/external,
-/obj/effect/shuttle_landmark{
-	dir = 2
-	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
@@ -30205,6 +30914,20 @@
 	name = "KEEP CLEAR: DOCKING AREA";
 	pixel_y = 0;
 	pixel_x = -42
+	},
+/obj/machinery/access_button{
+	pixel_x = 26;
+	pixel_y = 10
+	},
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_aft";
+	master_tag = "airlock_combat_destroyer_dock_aft";
+	name = "airlock_combat_destroyer_dock_aft"
+	},
+/obj/effect/shuttle_landmark/combat_destroyer/dock_aft,
+/obj/effect/landmark/entry_point/aft{
+	name = "aft, docking port"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/docking_port_aft)
@@ -30519,7 +31242,8 @@
 	pixel_x = 20
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_2"
+	name = "airlock_combat_destroyer_aft_starboard_2";
+	master_tag = "airlock_combat_destroyer_aft_starboard_2"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -30730,6 +31454,11 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
 "xsd" = (
@@ -30804,8 +31533,65 @@
 "xtG" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/clothing/suit/armor/carrier/heavy{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/suit/armor/carrier/heavy{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/suit/armor/carrier/heavy{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/suit/armor/carrier/heavy{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/suit/armor/carrier/heavy{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/head/helmet/merc{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/clothing/head/helmet/merc{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/clothing/head/helmet/merc{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/clothing/head/helmet/merc{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/clothing/head/helmet/merc{
+	pixel_x = 4;
+	pixel_y = 4
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
@@ -30921,6 +31707,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_starboard_hall_1)
 "xxa" = (
@@ -31114,6 +31901,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/central_hall_maints)
 "xDw" = (
@@ -31407,6 +32195,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/crew_maints_starboard)
 "xRr" = (
@@ -31422,6 +32211,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/thruster_port_maints_2)
 "xRD" = (
@@ -31671,7 +32461,8 @@
 	pixel_x = -20
 	},
 /obj/effect/map_effect/marker/airlock{
-	name = "airlock_combat_destroyer_aft_starboard_2"
+	name = "airlock_combat_destroyer_aft_starboard_2";
+	master_tag = "airlock_combat_destroyer_aft_starboard_2"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -31733,6 +32524,7 @@
 	dir = 4;
 	name = "Fuel Bay Maintenance"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fuel_bay_starboard)
 "yek" = (
@@ -31743,7 +32535,7 @@
 /obj/machinery/door/firedoor/noid{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/full,
+/turf/simulated/floor/plating,
 /area/ship/combat_destroyer/disposals)
 "yeW" = (
 /obj/structure/cable{
@@ -31782,6 +32574,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
 "ygX" = (
@@ -31848,6 +32641,11 @@
 "ylS" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/effect/map_effect/marker/airlock/docking{
+	landmark_tag = "nav_combat_destroyer_dock_fore_starboard";
+	master_tag = "airlock_combat_destroyer_dock_fore_starboard";
+	name = "airlock_combat_destroyer_dock_fore_starboard"
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_fore_starboard)
 "ymd" = (
@@ -54057,7 +54855,7 @@ cbf
 cbf
 cbf
 cbf
-nRI
+mDV
 pFs
 xML
 cbf
@@ -56926,7 +57724,7 @@ cbf
 cbf
 cbf
 cbf
-lhf
+cbf
 cbf
 cbf
 cbf
@@ -58179,7 +58977,7 @@ fnZ
 aoZ
 dJW
 lgq
-mRN
+voM
 vfu
 nif
 nai
@@ -60331,7 +61129,7 @@ erx
 ylS
 iTH
 cbf
-bKz
+cbf
 cbf
 cbf
 cbf
@@ -60758,7 +61556,7 @@ wzr
 vKd
 iKZ
 mHX
-axn
+iEY
 dCv
 vge
 uRj
@@ -62587,7 +63385,7 @@ gFC
 gFC
 gFC
 rMJ
-uZC
+gFC
 emm
 qSb
 rMJ
@@ -62620,7 +63418,7 @@ pld
 fim
 eMX
 pld
-gzl
+mwR
 xML
 cbf
 cbf
@@ -62844,7 +63642,7 @@ uUu
 uUu
 uUu
 uUu
-hPL
+gFC
 slb
 jUR
 rMJ
@@ -63134,7 +63932,7 @@ pld
 uJL
 eED
 phq
-gzl
+lhf
 xML
 cbf
 cbf
@@ -63358,9 +64156,9 @@ ewF
 ecB
 iRi
 uUu
-gFC
-gFC
-gFC
+uZC
+uZC
+hPL
 rMJ
 qKq
 kCv
@@ -63601,7 +64399,7 @@ fKZ
 hWE
 rPF
 hdX
-uyd
+mRN
 oov
 spG
 uyd
@@ -64115,7 +64913,7 @@ aPb
 iLQ
 hdX
 hdX
-qBR
+tku
 oov
 spG
 qBR
@@ -64333,7 +65131,7 @@ cbf
 cbf
 cbf
 cbf
-iEY
+nAI
 wsY
 sXj
 nAI
@@ -64630,7 +65428,7 @@ iEr
 buo
 bMV
 xtG
-hGl
+xtG
 hGl
 rfw
 rIh
@@ -64687,7 +65485,7 @@ cbf
 vDr
 gzl
 pFs
-fWA
+vAK
 cbf
 cbf
 cbf
@@ -65146,7 +65944,7 @@ hdX
 svV
 oov
 spG
-svV
+fWA
 hdX
 uUu
 uUu
@@ -65657,7 +66455,7 @@ uDV
 mJT
 lKw
 hdX
-uyd
+kIC
 oov
 spG
 uyd
@@ -68229,7 +69027,7 @@ fGi
 eUH
 jMR
 bHb
-mDV
+bHb
 gKV
 toE
 uQf
@@ -68468,7 +69266,7 @@ qde
 sNf
 guI
 uQf
-jid
+wgm
 uDs
 qWw
 fGi
@@ -69069,7 +69867,7 @@ bYC
 iwP
 eBU
 cbf
-vAK
+cbf
 cbf
 cbf
 cbf
@@ -71029,7 +71827,7 @@ hwh
 hwh
 hwh
 yeW
-mwR
+gZV
 pAo
 qqQ
 odO
@@ -72345,7 +73143,7 @@ cbf
 cbf
 cbf
 cbf
-wgm
+cbf
 cbf
 cbf
 cbf
@@ -74874,7 +75672,7 @@ cbf
 cbf
 cbf
 cbf
-kIC
+nRI
 pFs
 xML
 gzl
