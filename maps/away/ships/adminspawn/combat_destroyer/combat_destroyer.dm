@@ -20,13 +20,13 @@
 	desc = "WIP DESC"
 	icon_state = "light_cruiser"
 	moving_state = "light_cruiser_moving"
-	colors = list("#787d9e", "#868aa6")
+	colors = list("#868aa6", "#787d9e")
 	scanimage = "ranger.png"
 	designer = "WIP DESIGNER"
-	volume = "WIP VOLUME"
+	volume = "112 meters length, 98 meters beam/width, 26 meters vertical height"
 	drive = "Mid-Speed Warp Acceleration FTL Drive"
-	weapons = "Dual extruding fore-mounted medium caliber ballistic armament, aft obscured flight craft bay"
-	sizeclass = "WIP-CLASS DESTROYER"
+	weapons = "Dual extruding fore-mounted low-caliber rotary ballistic armament, aft-mounted large-caliber and medium-caliber ballistic armament, port and starboard obscured flight craft bays."
+	sizeclass = "Antares-class Destroyer"
 	shiptype = "WIP COMBAT UTILITY"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 2 SECONDS
@@ -158,7 +158,7 @@
 	shuttle = "Light Cruiser Transport"
 	icon_state = "intrepid"
 	moving_state = "intrepid_moving"
-	colors = list("#787d9e", "#868aa6")
+	colors = list("#868aa6", "#787d9e")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000
@@ -209,7 +209,7 @@
 	shuttle = "Light Cruiser Fighter"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
-	colors = list("#787d9e", "#868aa6")
+	colors = list("#868aa6", "#787d9e")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 3000
