@@ -68,26 +68,38 @@
 
 // shuttle landmarks
 /obj/effect/shuttle_landmark/combat_destroyer/nav1
-	name = "Port Navpoint"
+	name = "Fore Navpoint"
 	landmark_tag = "nav_combat_destroyer_1"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/combat_destroyer/nav2
-	name = "Fore Navpoint"
+	name = "Aft Navpoint"
 	landmark_tag = "nav_combat_destroyer_2"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/combat_destroyer/nav3
-	name = "Starboard Navpoint"
+	name = "Port Aft Navpoint"
 	landmark_tag = "nav_combat_destroyer_3"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/combat_destroyer/nav4
-	name = "Aft Navpoint"
+	name = "Starboard Aft Navpoint"
 	landmark_tag = "nav_combat_destroyer_4"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/combat_destroyer/nav5
+	name = "Port Fore Navpoint"
+	landmark_tag = "nav_combat_destroyer_5"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/combat_destroyer/nav6
+	name = "Starboard Fore Navpoint"
+	landmark_tag = "nav_combat_destroyer_6"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
