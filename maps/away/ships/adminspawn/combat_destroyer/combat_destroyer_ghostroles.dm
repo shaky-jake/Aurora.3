@@ -9,7 +9,7 @@
 	max_count = 12
 
 	outfit = /datum/outfit/admin/mil_crewman
-	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_IPC, SPECIES_IPC_SHELL, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP)
+	possible_species = list(SPECIES_HUMAN)
 	uses_species_whitelist = TRUE
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
@@ -20,9 +20,10 @@
 
 /datum/outfit/admin/mil_crewman
 	name = "Light Cruiser Crewman"
-	uniform = /obj/item/clothing/under/syndicate/tacticool
+	uniform = /obj/item/clothing/under/tactical
 	shoes = /obj/item/clothing/shoes/jackboots
 	back = /obj/item/storage/backpack/satchel
+	gloves = /obj/item/clothing/gloves/swat/tactical
 
 	id = /obj/item/card/id/combat_destroyer
 
@@ -30,13 +31,15 @@
 
 	backpack_contents = list(/obj/item/storage/box/survival = 1)
 
+/*
 /datum/outfit/admin/mil_crewman/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
 	if(isoffworlder(H))
 		H.equip_or_collect(new /obj/item/storage/pill_bottle/rmt, slot_in_backpack)
+*/
 
 /datum/outfit/admin/mil_crewman/get_id_access()
-	return list(ACCESS_EXTERNAL_AIRLOCKS)
+	return list(ACCESS_EXTERNAL_AIRLOCKS, ACCESS_LIGHT_CRUISER)
 
 
 /datum/ghostspawner/human/mil_crewman/officer
@@ -61,4 +64,4 @@
 
 /obj/item/card/id/combat_destroyer
 	name = "light cruiser id"
-	access = list(ACCESS_EXTERNAL_AIRLOCKS)
+	access = list(ACCESS_EXTERNAL_AIRLOCKS, ACCESS_LIGHT_CRUISER)

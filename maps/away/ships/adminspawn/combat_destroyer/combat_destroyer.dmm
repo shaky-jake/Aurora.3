@@ -83,7 +83,7 @@
 /area/ship/combat_destroyer/crew_maints_port)
 "adK" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -269,7 +269,7 @@
 /area/ship/combat_destroyer/hallway)
 "aix" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 5
@@ -701,7 +701,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/trash_pile,
 /obj/effect/decal/cleanable/dirt,
@@ -716,7 +716,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/obj/machinery/light/small/emergency{
+/obj/machinery/light/colored/red{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -867,6 +867,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/washroom)
 "aES" = (
@@ -881,7 +882,7 @@
 "aGk" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -1032,7 +1033,7 @@
 /area/ship/combat_destroyer/space_catwalk)
 "aLn" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -1057,7 +1058,7 @@
 /area/ship/combat_destroyer/hallway_fore_port_far)
 "aLF" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/bed/handrail{
 	dir = 4
@@ -1173,7 +1174,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
@@ -1253,7 +1254,7 @@
 /area/ship/combat_destroyer/range)
 "aSd" = (
 /obj/machinery/power/apc/super/critical/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -1374,7 +1375,7 @@
 /area/ship/combat_destroyer/janitor)
 "aWj" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/loading/yellow{
 	dir = 4;
@@ -1391,7 +1392,7 @@
 "aWY" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
@@ -1435,7 +1436,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_port)
@@ -1454,7 +1455,7 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_port_wep_access)
@@ -1832,7 +1833,7 @@
 "boF" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
@@ -1866,7 +1867,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_port)
@@ -1875,7 +1876,8 @@
 	dir = 8;
 	name = "Holding Cell B";
 	id_tag = "combat_destroyer_cell_b";
-	autoclose = 0
+	autoclose = 0;
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1947,11 +1949,13 @@
 /obj/machinery/door/airlock/command/gold{
 	dir = 4;
 	id_tag = "combat_destroyer_captain_office_bolts";
-	name = "Captain's Office"
+	name = "Captain's Office";
+	req_access = list(198469420)
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/capt)
 "btg" = (
@@ -2001,7 +2005,8 @@
 /area/ship/combat_destroyer/thruster_port_maints_1)
 "buo" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Armory"
+	name = "Armory";
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2080,12 +2085,10 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/machinery/alarm/south{
-	req_one_access = null
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/bin,
 /obj/random/loot,
+/obj/machinery/light/small/emergency,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_port_wep_maints)
 "bxu" = (
@@ -2239,7 +2242,7 @@
 /area/ship/combat_destroyer/fuel_bay_port)
 "bAV" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -2254,31 +2257,54 @@
 	dir = 4
 	},
 /obj/structure/table/rack,
-/obj/machinery/door/window/southright,
-/obj/item/ship_ammunition/francisca/frag{
-	pixel_y = 8;
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca/frag{
-	pixel_y = 8;
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca/frag{
-	pixel_y = 8;
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca{
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca{
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca{
-	pixel_x = -2
-	},
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca/ap{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca{
+	pixel_x = -2
+	},
+/obj/machinery/door/window/southright{
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
@@ -2355,7 +2381,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/crew_maints_port)
@@ -2421,7 +2447,8 @@
 	pixel_y = -18;
 	id = "combat_destroyer_brig_blast";
 	name = "Brig Blast Doors";
-	pixel_x = -6
+	pixel_x = -6;
+	req_access = list(198469420)
 	},
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
@@ -2472,17 +2499,33 @@
 "bKb" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "Miscellaneous Cabinet";
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/light/colored/red,
-/obj/item/storage/box/smokebombs,
-/obj/item/storage/box/zipties,
-/obj/item/material/knife/tacknife,
-/obj/item/material/knife/tacknife,
-/obj/item/material/knife/tacknife,
-/obj/item/material/knife/tacknife,
-/obj/item/material/knife/tacknife,
+/obj/item/storage/box/smokebombs{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/storage/box/zipties{
+	pixel_x = -6;
+	pixel_y = -3
+	},
+/obj/item/material/knife/tacknife{
+	pixel_x = 4
+	},
+/obj/item/material/knife/tacknife{
+	pixel_x = 4
+	},
+/obj/item/material/knife/tacknife{
+	pixel_x = 4
+	},
+/obj/item/material/knife/tacknife{
+	pixel_x = 4
+	},
+/obj/item/material/knife/tacknife{
+	pixel_x = 4
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "bKj" = (
@@ -2567,7 +2610,7 @@
 /area/ship/combat_destroyer/briefing_maints_starboard)
 "bNq" = (
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -2627,7 +2670,7 @@
 	dir = 10
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_port)
@@ -2704,7 +2747,7 @@
 /area/ship/combat_destroyer/washroom)
 "bQG" = (
 /obj/machinery/power/apc/super/critical/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -2740,6 +2783,7 @@
 /obj/machinery/door/airlock/glass/destroyer{
 	name = "EVA Preparation"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/eva)
 "bSM" = (
@@ -2755,6 +2799,9 @@
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /obj/random/tool,
+/obj/machinery/alarm/west{
+	req_one_access = list(198469420)
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_starboard_wep_maints)
 "bTn" = (
@@ -2896,7 +2943,7 @@
 /area/ship/combat_destroyer/docking_port_fore_port)
 "bYH" = (
 /obj/structure/closet/secure_closet/contraband{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/industrial/outline/security,
@@ -2947,7 +2994,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -3084,7 +3131,7 @@
 "chE" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/briefing_maints_port)
@@ -3257,7 +3304,7 @@
 	dir = 10
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -3449,7 +3496,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/brown{
 	dir = 6
@@ -3589,7 +3636,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_port)
@@ -3661,7 +3708,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3840,7 +3887,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -4150,7 +4197,7 @@
 	},
 /obj/structure/table/rack,
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -4311,7 +4358,7 @@
 /area/ship/combat_destroyer/cryo_foyer)
 "dmt" = (
 /obj/structure/closet/secure_closet/contraband{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/industrial/outline/security,
@@ -4437,7 +4484,7 @@
 /area/ship/combat_destroyer/aft_starboard_hall_1)
 "dos" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
@@ -4670,7 +4717,7 @@
 	dir = 6
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/armory)
@@ -4948,7 +4995,7 @@
 /area/ship/combat_destroyer/docking_port_aft)
 "dCr" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/loading/yellow{
 	dir = 8;
@@ -5024,7 +5071,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 6
@@ -5128,7 +5175,7 @@
 /area/ship/combat_destroyer/range)
 "dJb" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -5385,7 +5432,7 @@
 	},
 /obj/effect/floor_decal/spline/plain/grey,
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/crew_starboard)
@@ -5598,31 +5645,36 @@
 	dir = 8
 	},
 /obj/structure/table/rack,
-/obj/machinery/door/window/southleft,
-/obj/item/ship_ammunition/francisca/frag{
-	pixel_y = 8;
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca/frag{
-	pixel_y = 8;
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca/frag{
-	pixel_y = 8;
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca/ap{
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca/ap{
-	pixel_x = -2
-	},
-/obj/item/ship_ammunition/francisca/ap{
-	pixel_x = -2
-	},
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 0;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 0;
+	pixel_x = -2
+	},
+/obj/item/ship_ammunition/francisca/frag{
+	pixel_y = 0;
+	pixel_x = -2
+	},
+/obj/machinery/door/window/southleft{
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
@@ -5971,6 +6023,7 @@
 	dir = 4;
 	name = "Freezer"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/kitchen)
 "epr" = (
@@ -6134,7 +6187,7 @@
 /area/ship/combat_destroyer/hallway_port)
 "ewp" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -6225,7 +6278,7 @@
 "exw" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/random/junk,
 /turf/simulated/floor/plating,
@@ -6253,6 +6306,41 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/docking_port_port)
+"eyI" = (
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/structure/table/rack,
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = 5
+	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = 5
+	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = 5
+	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = 5
+	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = 5
+	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = -2
+	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = -2
+	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = -2
+	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = -2
+	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_y = -2
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/eva)
 "eyS" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
@@ -6275,7 +6363,7 @@
 /area/ship/combat_destroyer/sec)
 "eza" = (
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -6482,7 +6570,7 @@
 	dir = 9
 	},
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /turf/simulated/floor/tiled/white,
@@ -6577,7 +6665,7 @@
 /area/ship/combat_destroyer/hallway_starboard)
 "eKJ" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 9
@@ -6682,7 +6770,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
@@ -6736,7 +6824,7 @@
 /area/ship/combat_destroyer/atmos)
 "ePX" = (
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 6
@@ -6922,7 +7010,7 @@
 /area/ship/combat_destroyer/hallway_fore_port_far)
 "eXD" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -7045,7 +7133,7 @@
 "fcH" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_port)
@@ -7130,7 +7218,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/random/junk,
@@ -7324,7 +7412,8 @@
 /area/ship/combat_destroyer/hallway_fore_port_far)
 "fmV" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Command Center"
+	name = "Command Center";
+	req_access = list(198469420)
 	},
 /obj/machinery/door/blast/odin/open{
 	dir = 4;
@@ -7407,7 +7496,8 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Ammo Storage"
+	name = "Secure Ammo Storage";
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -7428,7 +7518,8 @@
 	pixel_y = 0;
 	name = "Ammo Storage Blast Door";
 	id = "combat_destroyer_fore_starboard_ammo";
-	pixel_x = -28
+	pixel_x = -28;
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_starboard_ammo)
@@ -7505,13 +7596,13 @@
 	pixel_y = 5
 	},
 /obj/machinery/alarm/freezer/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/combat_destroyer/kitchen)
 "fuu" = (
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
@@ -7622,7 +7713,7 @@
 /area/ship/combat_destroyer/hallway_port)
 "fzB" = (
 /obj/machinery/power/apc/high/south{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /obj/effect/floor_decal/corner/dark_blue{
@@ -7761,7 +7852,7 @@
 	dir = 5
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/crew_port)
@@ -7788,7 +7879,8 @@
 	dir = 8;
 	name = "Holding Cell A";
 	id_tag = "combat_destroyer_cell_a";
-	autoclose = 0
+	autoclose = 0;
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -7823,7 +7915,7 @@
 "fIo" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/central_hall_maints)
@@ -8009,7 +8101,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -8028,7 +8120,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/sign/fire{
 	desc = "A caution sign which reads 'PORT PROPULSION'.";
@@ -8070,7 +8162,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/thruster_port_maints_1)
@@ -8284,7 +8376,7 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "Sidearm Cabinet";
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -8304,6 +8396,10 @@
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/gun/projectile/pistol,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 6;
+	pixel_y = -24
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "fWE" = (
@@ -8321,7 +8417,8 @@
 	},
 /obj/machinery/door/airlock/highsecurity{
 	dir = 4;
-	name = "Grauwolf Control"
+	name = "Grauwolf Control";
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/full,
@@ -8394,6 +8491,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor/noid,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/disposals)
 "fYW" = (
@@ -8549,7 +8647,7 @@
 /area/ship/combat_destroyer/briefing)
 "get" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/item/reagent_containers/food/drinks/bottle/small/beer{
 	pixel_x = -12;
@@ -8570,7 +8668,7 @@
 	dir = 6
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/cic)
@@ -8613,7 +8711,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
@@ -8709,7 +8807,7 @@
 /area/ship/combat_destroyer/hallway_starboard)
 "gmv" = (
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -8873,7 +8971,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_port)
@@ -8907,7 +9005,7 @@
 /area/ship/combat_destroyer/aft_port_hall_1)
 "guT" = (
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -8926,7 +9024,7 @@
 /area/ship/combat_destroyer/docking_port_fore_port)
 "gvB" = (
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -8970,7 +9068,7 @@
 /area/ship/combat_destroyer/aft_port_wep)
 "gyA" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 4
@@ -9124,7 +9222,7 @@
 "gFC" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/suit_cycler/freelancer/prepared{
-	req_access = null
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/eva)
@@ -9291,7 +9389,8 @@
 /area/ship/combat_destroyer/engie)
 "gJT" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Armory"
+	name = "Armory";
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -9345,7 +9444,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
@@ -9493,7 +9592,7 @@
 	dir = 10
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway)
@@ -9595,15 +9694,12 @@
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "gVE" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/machinery/light/small/emergency{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_port_wep_maints)
 "gWg" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 9
@@ -9612,7 +9708,7 @@
 /area/ship/combat_destroyer/aft_starboard_wep)
 "gWu" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -10027,7 +10123,7 @@
 /area/ship/combat_destroyer/cic)
 "hly" = (
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -10351,7 +10447,8 @@
 	pixel_x = -22;
 	specialfunctions = 4;
 	name = "Holding Cell A Bolts";
-	id = "combat_destroyer_cell_a"
+	id = "combat_destroyer_cell_a";
+	req_access = list(198469420)
 	},
 /obj/structure/table/steel,
 /obj/random/mre{
@@ -10384,7 +10481,7 @@
 /area/ship/combat_destroyer/disposals)
 "huq" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
@@ -10554,7 +10651,7 @@
 /area/ship/combat_destroyer/hallway_fore_central)
 "hyC" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -10673,14 +10770,12 @@
 	pixel_x = -6;
 	pixel_y = 4
 	},
-/obj/item/stack/liquidbags/half_full{
-	pixel_x = 4
-	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/item/stack/liquidbags/full,
 /obj/item/stack/barbed_wire/half_full{
 	pixel_x = 4;
 	pixel_y = 4
 	},
-/obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "hGD" = (
@@ -10825,6 +10920,7 @@
 /obj/machinery/door/airlock/mining{
 	name = "Warehouse"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/cargo)
 "hMd" = (
@@ -11065,7 +11161,8 @@
 /area/ship/combat_destroyer/hall_maints_starboard)
 "hUh" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Command Center"
+	name = "Command Center";
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -11086,15 +11183,15 @@
 	},
 /obj/structure/lattice/catwalk,
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hangar_starboard)
 "hVk" = (
-/obj/machinery/light/small/emergency{
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/light/colored/red{
 	dir = 4
 	},
-/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
 "hVY" = (
@@ -11406,7 +11503,7 @@
 	dir = 6
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/armory)
@@ -11567,7 +11664,7 @@
 /area/ship/combat_destroyer/fuel_bay_port)
 "inC" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -11635,7 +11732,7 @@
 /area/ship/combat_destroyer/crew_starboard)
 "iqu" = (
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 6
@@ -11660,7 +11757,7 @@
 /area/ship/combat_destroyer/aft_port_hall_2)
 "iqW" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
@@ -11684,7 +11781,7 @@
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "irI" = (
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -11940,7 +12037,7 @@
 	dir = 9
 	},
 /obj/machinery/power/apc/super/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
@@ -12075,7 +12172,7 @@
 	dir = 9
 	},
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -12333,7 +12430,7 @@
 	dir = 1
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
@@ -12404,7 +12501,7 @@
 /area/ship/combat_destroyer/thruster_port_maints_2)
 "iRW" = (
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -12451,7 +12548,7 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/disposals)
@@ -12532,7 +12629,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Ammo Storage"
+	name = "Secure Ammo Storage";
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/regular{
@@ -12548,7 +12646,8 @@
 	pixel_y = 14;
 	name = "Ammo Storage Blast Door";
 	id = "combat_destroyer_aft_starboard_ammo";
-	pixel_x = 28
+	pixel_x = 28;
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_starboard_ammo)
@@ -12742,7 +12841,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -12849,6 +12948,7 @@
 /obj/machinery/door/airlock/mining{
 	name = "Mechbay"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/mechbay)
 "jgL" = (
@@ -12864,7 +12964,8 @@
 /area/ship/combat_destroyer/hangar_port)
 "jiP" = (
 /obj/machinery/door/airlock/glass{
-	name = "Cockpit"
+	name = "Cockpit";
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -13143,7 +13244,8 @@
 	},
 /obj/machinery/door/airlock/highsecurity{
 	dir = 4;
-	name = "Francisca Control"
+	name = "Francisca Control";
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/full,
@@ -13160,7 +13262,7 @@
 "juv" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -13180,7 +13282,7 @@
 /area/ship/combat_destroyer/aft_starboard_wep)
 "juT" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/machinery/light/floor{
 	dir = 1
@@ -13201,7 +13303,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/item/material/shard/shrapnel,
 /turf/simulated/floor/plating,
@@ -13243,7 +13345,7 @@
 /area/ship/combat_destroyer/port_engie_maints)
 "jyK" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -13400,7 +13502,7 @@
 /area/shuttle/combat_destroyer_transport)
 "jDT" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -13572,7 +13674,7 @@
 	dir = 10
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -13604,7 +13706,7 @@
 	},
 /obj/structure/lattice/catwalk,
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hangar_port)
@@ -13627,7 +13729,7 @@
 /area/ship/combat_destroyer/hallway_fore_central)
 "jOO" = (
 /obj/machinery/power/apc/super/critical/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -13656,9 +13758,6 @@
 /area/ship/combat_destroyer/fuel_bay_port)
 "jPs" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/machinery/light/small/emergency{
-	dir = 1
-	},
 /obj/structure/trash_pile,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_starboard_wep_maints)
@@ -13762,7 +13861,7 @@
 "jTn" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 1;
@@ -13781,7 +13880,7 @@
 	dir = 1
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
@@ -14004,7 +14103,7 @@
 /area/ship/combat_destroyer/fore_port_wep_access)
 "keR" = (
 /obj/machinery/power/apc/high/south{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /obj/effect/floor_decal/corner/dark_blue{
@@ -14021,7 +14120,7 @@
 "kfD" = (
 /obj/structure/reagent_dispensers/keg/beerkeg,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/full,
@@ -14350,6 +14449,7 @@
 	dir = 4;
 	name = "EVA Preparation"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/eva)
 "koB" = (
@@ -14422,7 +14522,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -14580,7 +14680,7 @@
 /area/ship/combat_destroyer/med)
 "kyl" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/effect/decal/cleanable/dirt,
@@ -14829,16 +14929,16 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/atmos)
 "kIC" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "Assault Rifle Cabinet";
-	req_access = null
-	},
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Rifle Cabinet";
+	req_access = list(198469420)
+	},
 /obj/item/ammo_magazine/c762,
 /obj/item/ammo_magazine/c762,
 /obj/item/gun/projectile/automatic/rifle/sts35,
-/obj/item/ammo_magazine/c762,
-/obj/item/ammo_magazine/c762,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/ammo_magazine/a556/carbine,
 /obj/item/gun/projectile/automatic/rifle/carbine,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
@@ -14911,7 +15011,7 @@
 "kMl" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /turf/simulated/floor/plating,
@@ -14964,7 +15064,7 @@
 "kNK" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 1;
@@ -15020,7 +15120,8 @@
 	},
 /obj/machinery/door/airlock/highsecurity{
 	dir = 4;
-	name = "Francisca Control"
+	name = "Francisca Control";
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/full,
@@ -15123,16 +15224,18 @@
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/command/gold{
 	id_tag = "combat_destroyer_captain_bolts";
-	name = "Captain's Quarters"
+	name = "Captain's Quarters";
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/capt)
 "kTI" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -15276,7 +15379,7 @@
 	},
 /obj/structure/table/reinforced/steel,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/item/storage/backpack/duffel{
 	pixel_y = 4
@@ -15506,7 +15609,7 @@
 /area/ship/combat_destroyer/brig)
 "liK" = (
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/bed/stool/chair/folding{
 	dir = 8
@@ -15518,7 +15621,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/oil,
@@ -15551,7 +15654,7 @@
 	pixel_x = -32
 	},
 /obj/machinery/power/apc/super/critical/south{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /obj/effect/floor_decal/industrial/warning{
@@ -15654,7 +15757,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/high/south{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -15673,11 +15776,11 @@
 /area/ship/combat_destroyer/hangar_hallway_port)
 "lqp" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/suit_cycler/freelancer/prepared{
-	req_access = null
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/eva)
@@ -15698,6 +15801,7 @@
 /obj/machinery/door/airlock/glass/destroyer{
 	name = "Messhall"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/mess)
 "lrK" = (
@@ -15718,7 +15822,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Ammo Storage"
+	name = "Secure Ammo Storage";
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/regular{
@@ -15734,7 +15839,8 @@
 	pixel_y = 14;
 	name = "Ammo Storage Blast Door";
 	id = "combat_destroyer_aft_port_ammo";
-	pixel_x = -28
+	pixel_x = -28;
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/aft_port_ammo)
@@ -15774,7 +15880,7 @@
 	use_power = 1
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
@@ -15884,7 +15990,7 @@
 "lBm" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/power/apc/high/south{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -15917,7 +16023,7 @@
 	},
 /obj/structure/table/reinforced/steel,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/item/storage/backpack/duffel{
 	pixel_y = 4
@@ -15953,7 +16059,7 @@
 /area/ship/combat_destroyer/aft_port_wep)
 "lCi" = (
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -16008,7 +16114,7 @@
 	dir = 1
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_port)
@@ -16323,7 +16429,9 @@
 /obj/effect/floor_decal/industrial/outline/security,
 /obj/item/melee/baton,
 /obj/item/melee/baton,
-/obj/machinery/door/window/southleft,
+/obj/machinery/door/window/southleft{
+	req_access = list(198469420)
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/sec)
 "lPD" = (
@@ -16451,7 +16559,7 @@
 /area/ship/combat_destroyer/aft_starboard_hall_2)
 "lUc" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -16673,7 +16781,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/item/broken_device{
 	pixel_x = 2;
@@ -16911,7 +17019,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
@@ -16935,7 +17043,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/item/ship_ammunition/longbow/preset_he{
 	pixel_y = 8;
@@ -17005,7 +17113,9 @@
 /area/ship/combat_destroyer/hallway)
 "mpH" = (
 /obj/structure/table/reinforced/steel,
-/obj/machinery/door/window/desk/southleft,
+/obj/machinery/door/window/desk/southleft{
+	req_access = list(198469420)
+	},
 /obj/machinery/door/firedoor/multi_tile{
 	req_one_access = null
 	},
@@ -17325,7 +17435,7 @@
 "mze" = (
 /obj/machinery/disposal/small/west,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -17423,7 +17533,8 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Ammo Storage"
+	name = "Secure Ammo Storage";
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -17443,7 +17554,8 @@
 	pixel_y = 0;
 	name = "Ammo Storage Blast Door";
 	id = "combat_destroyer_fore_port_ammo";
-	pixel_x = 28
+	pixel_x = 28;
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/fore_port_ammo)
@@ -17708,7 +17820,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_starboard_hall_2)
@@ -17745,6 +17857,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/hydro)
 "mQj" = (
@@ -17780,16 +17893,16 @@
 /area/ship/combat_destroyer/briefing_lobby)
 "mRN" = (
 /obj/structure/closet/secure_closet/guncabinet{
-	name = "Assault Rifle Cabinet";
-	req_access = null
+	name = "Rifle Cabinet";
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/item/ammo_magazine/c762,
 /obj/item/ammo_magazine/c762,
 /obj/item/gun/projectile/automatic/rifle/sts35,
-/obj/item/ammo_magazine/c762,
-/obj/item/ammo_magazine/c762,
-/obj/item/gun/projectile/automatic/rifle/sts35,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/gun/projectile/automatic/rifle/carbine,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "mSH" = (
@@ -17961,7 +18074,7 @@
 	dir = 1
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
@@ -18192,7 +18305,7 @@
 	pixel_x = 5
 	},
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_starboard_ammo)
@@ -18279,7 +18392,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -18505,7 +18618,7 @@
 "nui" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
@@ -18791,6 +18904,7 @@
 /obj/machinery/door/airlock/glass_security{
 	name = "Firing Range"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/range)
 "nBX" = (
@@ -19125,7 +19239,7 @@
 /area/ship/combat_destroyer/aft_port_hall_1)
 "nOm" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/machinery/light/floor{
 	dir = 1
@@ -19286,7 +19400,7 @@
 "nTz" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -19300,7 +19414,7 @@
 	dir = 5
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
@@ -19325,7 +19439,7 @@
 	dir = 9
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 10
@@ -19337,10 +19451,10 @@
 /obj/machinery/meter{
 	name = "Air Supply Meter"
 	},
-/obj/machinery/light/small/emergency{
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/machinery/light/colored/red{
 	dir = 8
 	},
-/obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/shuttle/combat_destroyer_transport)
 "nXf" = (
@@ -19404,7 +19518,7 @@
 /obj/item/ship_ammunition/grauwolf_bundle/ap,
 /obj/item/ship_ammunition/grauwolf_bundle/ap,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_port_ammo)
@@ -19428,6 +19542,7 @@
 	dir = 4;
 	name = "Warehouse"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/cargo)
 "oaq" = (
@@ -19450,7 +19565,7 @@
 /area/ship/combat_destroyer/central_hall_maints)
 "oaG" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -19503,7 +19618,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/critical/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
@@ -19707,7 +19822,7 @@
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "olN" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -19726,7 +19841,7 @@
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "omz" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -19905,6 +20020,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/machinery/light/small/emergency,
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_starboard_wep_maints)
 "oqn" = (
@@ -19934,7 +20050,7 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/janitor)
@@ -19967,7 +20083,7 @@
 /area/ship/combat_destroyer/med)
 "osu" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -19995,7 +20111,7 @@
 /area/ship/combat_destroyer/thruster_starboard_maints_1)
 "osU" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 5
@@ -20327,7 +20443,7 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_starboard)
@@ -20682,7 +20798,7 @@
 /area/ship/combat_destroyer/hallway_fore_port)
 "oRa" = (
 /obj/machinery/power/apc/super/critical/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -20803,8 +20919,10 @@
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/command/gold{
 	id_tag = "combat_destroyer_captain_bolts";
-	name = "Captain's Quarters"
+	name = "Captain's Quarters";
+	req_access = list(198469420)
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/capt)
 "oXa" = (
@@ -20840,7 +20958,8 @@
 	},
 /obj/machinery/door/airlock/highsecurity{
 	dir = 4;
-	name = "Longbow Control"
+	name = "Longbow Control";
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/full,
@@ -20862,7 +20981,7 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/fore_starboard_wep_access)
@@ -20982,7 +21101,7 @@
 	dir = 6
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/aft_port_hall_2)
@@ -21360,28 +21479,31 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/washroom)
 "pwc" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "Ballistic Carbine Cabinet";
-	req_access = null
-	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/light/colored/red{
 	dir = 1
 	},
-/obj/item/ammo_magazine/a556/carbine,
-/obj/item/ammo_magazine/a556/carbine,
-/obj/item/gun/projectile/automatic/rifle/carbine,
-/obj/item/ammo_magazine/a556/carbine,
-/obj/item/ammo_magazine/a556/carbine,
-/obj/item/gun/projectile/automatic/rifle/carbine,
-/obj/item/ammo_magazine/a556/carbine,
-/obj/item/ammo_magazine/a556/carbine,
-/obj/item/gun/projectile/automatic/rifle/carbine,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "SMG Cabinet";
+	req_access = list(198469420)
+	},
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "pwz" = (
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
@@ -21657,7 +21779,7 @@
 	dir = 1
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/crew_starboard)
@@ -21954,7 +22076,8 @@
 "pQi" = (
 /obj/machinery/door/airlock/glass_security{
 	name = "Security";
-	open_duration = 20
+	open_duration = 20;
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -22012,7 +22135,7 @@
 /area/ship/combat_destroyer/hallway_starboard)
 "pSU" = (
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 8
@@ -22408,7 +22531,7 @@
 "qgV" = (
 /obj/machinery/appliance/cooker/stove,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/diagonal,
 /turf/simulated/floor/tiled,
@@ -22619,7 +22742,7 @@
 /obj/item/ship_ammunition/grauwolf_bundle,
 /obj/item/ship_ammunition/grauwolf_bundle,
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/combat_destroyer/aft_port_ammo)
@@ -22717,7 +22840,8 @@
 	pixel_y = 28;
 	id = "combat_destroyer_armory_shutters";
 	name = "Armory Access Shutters";
-	pixel_x = -6
+	pixel_x = -6;
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_hallway_port)
@@ -22864,7 +22988,7 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "Sidearm Cabinet";
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/window/reinforced{
 	dir = 4
@@ -22884,6 +23008,10 @@
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/gun/projectile/pistol,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 2;
+	pixel_y = -24
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "qCB" = (
@@ -22939,7 +23067,7 @@
 	dir = 10
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/combat_destroyer/hangar_starboard)
@@ -23159,7 +23287,9 @@
 	pixel_x = -8;
 	pixel_y = -6
 	},
-/obj/machinery/door/window/southright,
+/obj/machinery/door/window/southright{
+	req_access = list(198469420)
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/sec)
 "qKT" = (
@@ -23221,7 +23351,7 @@
 	},
 /obj/structure/table/rack,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/item/ship_ammunition/francisca/ap{
 	pixel_x = -2;
@@ -23623,6 +23753,7 @@
 	door_color = "#505559";
 	name = "Crew Quarters"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/crew_port)
 "qZo" = (
@@ -23712,7 +23843,7 @@
 	dir = 6
 	},
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -23759,7 +23890,7 @@
 /area/ship/combat_destroyer/hallway_fore_starboard)
 "rfo" = (
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -24035,7 +24166,7 @@
 	dir = 10
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/combat_destroyer_transport)
@@ -24096,7 +24227,7 @@
 /area/ship/combat_destroyer/thruster_starboard_maints_2)
 "rol" = (
 /obj/machinery/power/apc/high/south{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -24131,7 +24262,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/aft_port_hall_2)
@@ -24175,7 +24306,7 @@
 /obj/effect/floor_decal/industrial/outline,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/sign/vacuum{
 	pixel_y = 32
@@ -24220,7 +24351,7 @@
 	dir = 6
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -24302,7 +24433,7 @@
 	dir = 5
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/briefing_lobby)
@@ -24315,7 +24446,7 @@
 /area/shuttle/combat_destroyer_fighter)
 "ruz" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -24509,7 +24640,7 @@
 /area/shuttle/combat_destroyer_transport)
 "rBM" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -24630,7 +24761,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/aft_port_hall_2)
@@ -24651,7 +24782,7 @@
 	dir = 1
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -24731,6 +24862,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/cryo_foyer)
 "rMv" = (
@@ -24877,7 +25009,7 @@
 	},
 /obj/structure/cable/green,
 /obj/machinery/power/apc/critical/south{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -25146,7 +25278,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -25319,7 +25451,7 @@
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /obj/effect/floor_decal/industrial/outline/emergency_closet,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/atmos)
@@ -25437,6 +25569,9 @@
 /obj/machinery/power/emitter,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
+/obj/machinery/alarm/north{
+	req_one_access = list(198469420)
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_port_wep_maints)
 "skZ" = (
@@ -25500,7 +25635,7 @@
 	},
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/cryo)
@@ -25510,7 +25645,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hall_maints_starboard)
@@ -25543,7 +25678,7 @@
 "sop" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/machinery/power/terminal{
 	dir = 8
@@ -25592,7 +25727,7 @@
 	dir = 1
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -25629,6 +25764,7 @@
 	door_color = "#505559";
 	name = "Crew Quarters"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/crew_starboard)
 "srC" = (
@@ -25866,22 +26002,20 @@
 /area/ship/combat_destroyer/docking_port_fore_exterior)
 "svV" = (
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "Submachine Gun Cabinet";
-	req_access = null
-	},
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/ammo_magazine/a10mm,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/gun/projectile/automatic/c20r,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/gun/projectile/automatic/c20r,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/gun/projectile/automatic/c20r,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Energy Weapon Cabinet";
+	req_access = list(198469420)
+	},
+/obj/item/gun/energy/rifle,
+/obj/item/gun/energy/gun,
+/obj/item/gun/energy/gun,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 6;
+	pixel_y = 28
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "swd" = (
@@ -25892,7 +26026,7 @@
 "swz" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/hydro_maints)
@@ -25901,6 +26035,9 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/alarm/east{
+	req_one_access = list(198469420)
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_port_wep_maints)
 "swF" = (
@@ -25939,7 +26076,7 @@
 	},
 /obj/structure/table/rack,
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -26130,7 +26267,7 @@
 	dir = 5
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hydro)
@@ -26139,7 +26276,7 @@
 	dir = 9
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_port)
@@ -26359,7 +26496,7 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hallway_fore_central)
@@ -26407,7 +26544,7 @@
 /area/ship/combat_destroyer/briefing)
 "sVI" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 5
@@ -26422,7 +26559,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_starboard)
@@ -26432,7 +26569,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 9
@@ -26532,7 +26669,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/combat_destroyer/washroom)
@@ -26668,7 +26805,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -26737,7 +26874,8 @@
 	pixel_y = 28;
 	id = "combat_destroyer_armory_shutters";
 	name = "Armory Access Shutters";
-	pixel_x = 6
+	pixel_x = 6;
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
@@ -26774,7 +26912,7 @@
 /area/space)
 "tjV" = (
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -26814,21 +26952,19 @@
 "tku" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
-	name = "Submachine Gun Cabinet";
-	req_access = null
+	name = "Energy Weapon Cabinet";
+	req_access = list(198469420)
 	},
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/item/ammo_magazine/a10mm,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/gun/projectile/automatic/c20r,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/gun/projectile/automatic/c20r,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/ammo_magazine/a10mm,
-/obj/item/gun/projectile/automatic/c20r,
+/obj/item/gun/energy/rifle,
+/obj/item/gun/energy/gun,
+/obj/item/gun/energy/gun,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 2;
+	pixel_y = 28
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "tll" = (
@@ -26871,7 +27007,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/sign/vacuum{
 	pixel_y = -28
@@ -27089,7 +27225,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -27220,6 +27356,9 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/power/emitter,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/alarm/north{
+	req_one_access = list(198469420)
+	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/fore_starboard_wep_maints)
 "tDL" = (
@@ -27693,7 +27832,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_starboard)
@@ -27749,7 +27888,7 @@
 	},
 /obj/structure/table/rack,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/item/ship_ammunition/francisca/ap{
 	pixel_x = -2;
@@ -27779,7 +27918,7 @@
 	dir = 8
 	},
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -27799,7 +27938,7 @@
 "ucc" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -27819,7 +27958,7 @@
 	dir = 9
 	},
 /obj/machinery/power/apc/super/critical/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -27849,7 +27988,7 @@
 	pixel_y = 26
 	},
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -27864,6 +28003,7 @@
 /obj/machinery/door/airlock/freezer{
 	name = "Kitchen"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/kitchen)
 "ufJ" = (
@@ -27985,7 +28125,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/light/small/emergency{
+/obj/machinery/light/colored/red{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -28379,16 +28519,35 @@
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
 "uyd" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "Energy Weaponry Cabinet";
-	req_access = null
-	},
 /obj/effect/floor_decal/industrial/outline/red,
-/obj/item/gun/energy/rifle,
-/obj/item/gun/energy/rifle,
-/obj/item/gun/energy/gun,
-/obj/item/gun/energy/gun,
-/obj/item/gun/energy/gun,
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "Heavy Armor Cabinet";
+	req_access = list(198469420)
+	},
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/clothing/suit/armor/carrier/heavy{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/suit/armor/carrier/heavy{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/item/clothing/head/helmet/merc{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/clothing/head/helmet/merc{
+	pixel_x = 4;
+	pixel_y = 4
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "uzS" = (
@@ -28437,7 +28596,7 @@
 	dir = 5
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_central)
@@ -28512,7 +28671,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/capt)
@@ -28586,7 +28745,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -28667,7 +28826,7 @@
 /area/ship/combat_destroyer/hallway_fore_starboard_far)
 "uMR" = (
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -28723,7 +28882,7 @@
 /area/ship/combat_destroyer/hall_maints_starboard)
 "uNz" = (
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -29029,6 +29188,7 @@
 	dir = 8;
 	name = "Auxiliary Armament Access"
 	},
+/obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/fore_starboard_wep_access)
 "vaa" = (
@@ -29041,7 +29201,7 @@
 "vaf" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/south{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -29231,6 +29391,7 @@
 	dir = 8;
 	name = "Auxiliary Armament Access"
 	},
+/obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/fore_port_wep_access)
 "vig" = (
@@ -29348,7 +29509,7 @@
 "vjR" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/item/material/shard/shrapnel,
 /turf/simulated/floor/plating,
@@ -29366,7 +29527,7 @@
 "vkQ" = (
 /obj/effect/floor_decal/spline/fancy/cee,
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/combat_destroyer/capt)
@@ -29380,7 +29541,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_fighter)
@@ -29428,7 +29589,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -29936,7 +30097,7 @@
 "vMl" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -29946,7 +30107,7 @@
 /area/ship/combat_destroyer/fore_starboard_wep_maints)
 "vMt" = (
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -29969,7 +30130,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/docking_port_fore_exterior)
@@ -30048,6 +30209,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/noid,
 /obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/janitor)
 "vPW" = (
@@ -30097,7 +30259,7 @@
 /area/ship/combat_destroyer/capt)
 "vQL" = (
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /obj/effect/floor_decal/corner/red{
@@ -30259,7 +30421,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
-/obj/machinery/alarm/north,
+/obj/machinery/alarm/north{
+	req_one_access = list(198469420)
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
@@ -30321,7 +30485,7 @@
 /area/ship/combat_destroyer/crew_starboard)
 "wee" = (
 /obj/machinery/power/apc/high/south{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -30348,6 +30512,7 @@
 /obj/machinery/door/airlock/glass/destroyer{
 	name = "EVA Preparation"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/eva)
 "wgm" = (
@@ -30523,7 +30688,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/effect/floor_decal/spline/fancy/cee{
 	dir = 1
@@ -30573,7 +30738,7 @@
 	dir = 6
 	},
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -30780,7 +30945,8 @@
 /area/ship/combat_destroyer/docking_port_aft)
 "wtk" = (
 /obj/machinery/door/airlock/glass_security{
-	name = "Security"
+	name = "Security";
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -30897,7 +31063,7 @@
 /area/ship/combat_destroyer/engie)
 "wxY" = (
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
@@ -30930,7 +31096,7 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/power/apc/high/south{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /turf/simulated/floor/tiled/dark/full,
@@ -30947,7 +31113,7 @@
 /area/ship/combat_destroyer/aft_starboard_hall_1)
 "wzz" = (
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -31125,7 +31291,7 @@
 /area/ship/combat_destroyer/docking_port_port)
 "wDS" = (
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/security,
@@ -31182,7 +31348,7 @@
 	dir = 9
 	},
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -31382,7 +31548,7 @@
 	dir = 6
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hallway_fore_starboard)
@@ -31495,7 +31661,7 @@
 /area/ship/combat_destroyer/docking_port_aft)
 "wSK" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -31518,7 +31684,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/combat_destroyer_transport)
@@ -31827,6 +31993,7 @@
 	name = "Washroom";
 	door_color = "#b9b8b6"
 	},
+/obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/full,
 /area/ship/combat_destroyer/washroom)
 "xgX" = (
@@ -31853,7 +32020,7 @@
 /obj/structure/cryofeed/pipes,
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/power/apc/high/west{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -31966,6 +32133,29 @@
 /obj/structure/extinguisher_cabinet/west,
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/hangar_hallway_starboard)
+"xnV" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "SMG Cabinet";
+	req_access = list(198469420)
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/light/colored/red{
+	dir = 1
+	},
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/ammo_magazine/a10mm,
+/obj/item/gun/projectile/automatic/c20r,
+/turf/simulated/floor/carpet/rubber,
+/area/ship/combat_destroyer/armory)
 "xoe" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -32001,7 +32191,7 @@
 /area/ship/combat_destroyer/hydro_maints)
 "xpZ" = (
 /obj/machinery/power/apc/high/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -32033,7 +32223,7 @@
 	dir = 8
 	},
 /obj/machinery/alarm/east{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/material/shard/shrapnel,
@@ -32058,7 +32248,7 @@
 	pixel_y = 0
 	},
 /obj/machinery/power/apc/high/east{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable,
 /obj/effect/floor_decal/corner/dark_blue{
@@ -32093,7 +32283,9 @@
 /area/ship/combat_destroyer/briefing_maints_starboard)
 "xtF" = (
 /obj/structure/table/reinforced/steel,
-/obj/machinery/door/window/desk/southright,
+/obj/machinery/door/window/desk/southright{
+	req_access = list(198469420)
+	},
 /obj/machinery/door/blast/shutters/open{
 	id = "combat_destroyer_sec_desk"
 	},
@@ -32102,67 +32294,67 @@
 /area/ship/combat_destroyer/sec)
 "xtG" = (
 /obj/structure/table/rack,
-/obj/item/clothing/mask/balaclava/grey{
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/item/clothing/mask/balaclava/grey{
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/item/clothing/mask/balaclava/grey{
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/item/clothing/mask/balaclava/grey{
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/item/clothing/mask/balaclava/grey{
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/item/clothing/suit/armor/carrier/heavy{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/obj/item/clothing/suit/armor/carrier/heavy{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/obj/item/clothing/suit/armor/carrier/heavy{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/obj/item/clothing/suit/armor/carrier/heavy{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/obj/item/clothing/suit/armor/carrier/heavy{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/obj/item/clothing/head/helmet/merc{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/clothing/head/helmet/merc{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/clothing/head/helmet/merc{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/clothing/head/helmet/merc{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/clothing/head/helmet/merc{
-	pixel_x = 4;
-	pixel_y = 4
-	},
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/balaclava/grey{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/clothing/accessory/arm_guard/generic{
+	pixel_y = 1;
+	pixel_x = 5
+	},
+/obj/item/clothing/accessory/arm_guard/generic{
+	pixel_y = 1;
+	pixel_x = 5
+	},
+/obj/item/clothing/accessory/arm_guard/generic{
+	pixel_y = 1;
+	pixel_x = 5
+	},
+/obj/item/clothing/accessory/leg_guard/generic{
+	pixel_y = -7;
+	pixel_x = 5
+	},
+/obj/item/clothing/accessory/leg_guard/generic{
+	pixel_y = -7;
+	pixel_x = 5
+	},
+/obj/item/clothing/accessory/leg_guard/generic{
+	pixel_y = -7;
+	pixel_x = 5
+	},
+/obj/item/clothing/suit/armor/carrier/generic{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/item/clothing/suit/armor/carrier/generic{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/item/clothing/suit/armor/carrier/generic{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/item/clothing/head/helmet{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/clothing/head/helmet{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/clothing/head/helmet{
+	pixel_x = 5;
+	pixel_y = 6
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/combat_destroyer/armory)
 "xud" = (
@@ -32336,7 +32528,7 @@
 /area/ship/combat_destroyer/hall_maints_port)
 "xyC" = (
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
@@ -32436,7 +32628,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/alarm/west{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 9
@@ -32896,7 +33088,8 @@
 	pixel_x = -22;
 	specialfunctions = 4;
 	name = "Holding Cell B Bolts";
-	id = "combat_destroyer_cell_b"
+	id = "combat_destroyer_cell_b";
+	req_access = list(198469420)
 	},
 /turf/simulated/floor/tiled,
 /area/ship/combat_destroyer/brig)
@@ -33046,7 +33239,7 @@
 "ybu" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/alarm/north{
-	req_one_access = null
+	req_one_access = list(198469420)
 	},
 /turf/simulated/floor/plating,
 /area/ship/combat_destroyer/aft_starboard_hall_1)
@@ -33170,7 +33363,8 @@
 /area/ship/combat_destroyer/hallway_fore_starboard)
 "yfB" = (
 /obj/machinery/door/airlock/glass{
-	name = "Cockpit"
+	name = "Cockpit";
+	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -33189,7 +33383,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/super/critical/north{
-	req_access = null
+	req_access = list(198469420)
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -64758,7 +64952,7 @@ ecB
 iRi
 uUu
 uZC
-uZC
+eyI
 hPL
 rMJ
 xRM
@@ -65257,7 +65451,7 @@ tgC
 spE
 oNl
 hdX
-pwc
+xnV
 oov
 spG
 bKb
