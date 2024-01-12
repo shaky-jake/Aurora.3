@@ -1,6 +1,6 @@
 /datum/map_template/ruin/away_site/light_cruiser
 	name = "Light Cruiser"
-	description = "WIP DESC"
+	description = "Designed to find a balance between speed and brute strength, the Antares-class light cruiser isn't quite as well armed or armored as other fighting vessels of its size. Still, it makes for a formidable warship that can hold its own against vessels of similar size, and can easily dominate anything below it."
 	suffixes = list("ships/adminspawn/light_cruiser/light_cruiser.dmm")
 	sectors = list(ALL_POSSIBLE_SECTORS)
 	spawn_weight = 1
@@ -12,21 +12,21 @@
 
 /singleton/submap_archetype/light_cruiser
 	map = "Light Cruiser"
-	descriptor = "WIP DESC"
+	descriptor = "Designed to find a balance between speed and brute strength, the Antares-class light cruiser isn't quite as well armed or armored as other fighting vessels of its size. Still, it makes for a formidable warship that can hold its own against vessels of similar size, and can easily dominate anything below it."
 
 /obj/effect/overmap/visitable/ship/light_cruiser
 	name = "Light Cruiser"
 	class = "MFV"
-	// desc = "WIP DESC"
+	desc = "Designed to find a balance between speed and brute strength, the Antares-class light cruiser isn't quite as well armed or armored as other fighting vessels of its size. Still, it makes for a formidable warship that can hold its own against vessels of similar size, and can easily dominate anything below it."
 	icon_state = "light_cruiser"
 	moving_state = "light_cruiser_moving"
 	colors = list("#868aa6", "#787d9e")
 	// designer = "WIP DESIGNER"
 	volume = "112 meters length, 98 meters beam/width, 26 meters vertical height"
 	drive = "Mid-Speed Warp Acceleration FTL Drive"
-	weapons = "Dual extruding fore-mounted low-caliber rotary ballistic armament, aft-mounted large-caliber and medium-caliber ballistic armament, port and starboard obscured flight craft bays."
-	sizeclass = "Antares-class Destroyer"
-	// shiptype = "WIP COMBAT UTILITY"
+	weapons = "Dual extruding fore-mounted low-caliber rotary ballistic armament, aft-mounted large-caliber and medium-caliber ballistic armament, port and starboard obscured flight craft bays"
+	sizeclass = "Antares-class Light Cruiser"
+	shiptype = "Long-range combat utility, scouting, and escort duties"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 2 SECONDS
 	vessel_mass = 25000 // very large ship
@@ -56,14 +56,8 @@
 	invisible_until_ghostrole_spawn = TRUE
 
 /obj/effect/overmap/visitable/ship/light_cruiser/New()
-	designation = "[pick("WIP", "W-I-P")]"
+	designation = "[pick("Carina", "Celaeno", "Velorum", "Pleione", "Taygeta", "Alcyone", "Sargas", "Veritate")]"
 	..()
-
-/obj/effect/overmap/visitable/ship/light_cruiser/get_skybox_representation()
-	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "ranger")
-	skybox_image.pixel_x = rand(0,64)
-	skybox_image.pixel_y = rand(128,256)
-	return skybox_image
 
 // shuttle landmarks
 /obj/effect/shuttle_landmark/light_cruiser/nav1
@@ -164,21 +158,21 @@
 /obj/effect/overmap/visitable/ship/landable/light_cruiser_transport
 	name = "Light Cruiser Transport"
 	class = "MFV"
-	designation = "TRANSPORT-1"
-	// desc = "WIP DESC"
+	designation = "Orestes"
+	desc = "The Vela-class Transport Craft is an armored shuttle designed to ferry both troops and cargo in active combat zones. Though these vessels are most commonly used for logistics, they are also well suited for boarding actions."
 	shuttle = "Light Cruiser Transport"
 	icon_state = "intrepid"
 	moving_state = "intrepid_moving"
 	colors = list("#868aa6", "#787d9e")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
-	vessel_mass = 3000
+	vessel_mass = 5000 // beefy transport
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
 	// designer = "WIP DESIGNER"
-	volume = "16 meters length, 11 meters beam/width, 5 meters vertical height"
+	volume = "17 meters length, 11 meters beam/width, 6 meters vertical height"
 	sizeclass = "Vela-class Transport Craft"
-	shiptype = "All-environment troop transport"
+	shiptype = "All-environment general purpose armored transport"
 
 /obj/machinery/computer/shuttle_control/explore/terminal/light_cruiser_transport
 	name = "shuttle control console"
@@ -215,22 +209,22 @@
 /obj/effect/overmap/visitable/ship/landable/light_cruiser_fighter
 	name = "Light Cruiser Fighter"
 	class = "MFV"
-	designation = "FIGHTER-1"
-	desc = "The Calvera-class Fighter is a dedicated combat craft, featuring dual rotary canons, extra armor to its fore and powerful thrusters."
+	designation = "Electra"
+	desc = "The Calvera-class is a dedicated fast attack craft with a crew of up to three, wielding dual rotary canons. Extra fore armor adds to its weight, but its powerful thrusters make it deceptively fast for a ship of its size. Well suited for hit-and-run attacks on larger ships."
 	shuttle = "Light Cruiser Fighter"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
 	colors = list("#868aa6", "#787d9e")
 	max_speed = 1/(3 SECONDS)
-	burn_delay = 2 SECONDS
+	burn_delay = 1 SECONDS
 	vessel_mass = 3000
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
 	// designer = "WIP DESIGNER"
-	volume = "15 meters length, 8 meters beam/width, 4 meters vertical height"
+	volume = "16 meters length, 8 meters beam/width, 4 meters vertical height"
 	weapons = "Dual fore-mounted low-caliber rotary ballistic armament."
-	sizeclass = "Calvera-class Multi-Crew Fighter Craft"
-	shiptype = "High speed interception, strafing runs"
+	sizeclass = "Calvera-class Fast Attack Craft"
+	shiptype = "High speed interception, fast attack craft"
 
 /obj/machinery/computer/shuttle_control/explore/terminal/light_cruiser_fighter
 	name = "shuttle control console"

@@ -361,10 +361,10 @@
 // Shuttle
 /area/shuttle/light_cruiser_fighter
 	requires_power = TRUE
-	name = "Multi-Crew Fighter Craft"
+	name = "Fast Attack Craft"
 	icon_state = "shuttle2"
 
 /area/shuttle/light_cruiser_transport
 	requires_power = TRUE
-	name = "Personnel Transport"
+	name = "Armored Transport Craft"
 	icon_state = "shuttle2"

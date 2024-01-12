@@ -7578,7 +7578,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/structure/closet/secure_closet/freezer/kitchen{
+	req_access = null
+	},
 /obj/item/reagent_containers/food/snacks/meat,
 /obj/item/reagent_containers/food/snacks/meat,
 /obj/item/reagent_containers/food/snacks/meat,
@@ -10063,7 +10065,7 @@
 /obj/machinery/ship_weapon/francisca/compact{
 	pixel_x = -40;
 	pixel_y = -96;
-	weapon_id = "Superiority Fighter Starboard Francisca Rotary Gun";
+	weapon_id = "Fast Attack Craft Starboard Francisca Rotary Gun";
 	name = "starboard compact francisca rotary gun"
 	},
 /obj/structure/lattice/catwalk,
@@ -14657,7 +14659,7 @@
 /obj/machinery/ammunition_loader/francisca{
 	dir = 1;
 	density = 0;
-	weapon_id = "Superiority Fighter Port Francisca Rotary Gun"
+	weapon_id = "Fast Attack Craft Port Francisca Rotary Gun"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/light_cruiser_fighter)
@@ -18897,7 +18899,7 @@
 /obj/machinery/ship_weapon/francisca/compact{
 	pixel_x = -40;
 	pixel_y = -96;
-	weapon_id = "Superiority Fighter Port Francisca Rotary Gun";
+	weapon_id = "Fast Attack Craft Port Francisca Rotary Gun";
 	name = "port compact francisca rotary gun"
 	},
 /obj/structure/lattice/catwalk,
@@ -20901,7 +20903,7 @@
 /obj/structure/table/reinforced/wood,
 /obj/item/reagent_containers/glass/beaker/teapot{
 	pixel_y = 4;
-	reagents_to_add = list(/singleton/reagent/drink/tea=60)
+	reagents_to_add = list(/singleton/reagent/drink/tea=80)
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/teacup{
 	pixel_x = -6;
@@ -26470,7 +26472,7 @@
 	},
 /obj/machinery/ammunition_loader/francisca{
 	density = 0;
-	weapon_id = "Superiority Fighter Starboard Francisca Rotary Gun"
+	weapon_id = "Fast Attack Craft Starboard Francisca Rotary Gun"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/light_cruiser_fighter)
@@ -28554,9 +28556,6 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/cryo_foyer)
 "uAC" = (
-/obj/machinery/alarm/west{
-	req_one_access = null
-	},
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 10
 	},
@@ -29092,6 +29091,10 @@
 	dir = 9
 	},
 /obj/machinery/light/small/emergency,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -10;
+	pixel_y = -8
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/light_cruiser_fighter)
 "uYz" = (
@@ -31709,7 +31712,8 @@
 "wUy" = (
 /obj/structure/closet/walllocker/medical/secure{
 	name = "O- Blood Locker";
-	pixel_y = 32
+	pixel_y = 32;
+	req_access = null
 	},
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
@@ -32423,6 +32427,11 @@
 	},
 /obj/structure/sign/nosmoking_1{
 	pixel_x = 32
+	},
+/obj/item/stack/material/glass{
+	amount = 10;
+	pixel_x = 4;
+	pixel_y = 2
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/light_cruiser_transport)
