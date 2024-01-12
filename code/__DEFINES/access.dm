@@ -786,6 +786,7 @@
 	desc = "Guest Room 10"
 	access_type = ACCESS_TYPE_CENTCOM
 
+// PLACEHOLDER NUMBER - CHANGE HERE AND IN light_cruiser.dmm FILE BEFORE MAKING PR
 #define ACCESS_LIGHT_CRUISER 198469420
 /datum/access/light_cruiser
 	id = ACCESS_LIGHT_CRUISER

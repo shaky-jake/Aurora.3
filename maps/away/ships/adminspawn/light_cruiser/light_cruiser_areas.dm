@@ -361,7 +361,7 @@
 // Shuttle
 /area/shuttle/light_cruiser_fighter
 	requires_power = TRUE
-	name = "Space Superiority Fighter"
+	name = "Multi-Crew Fighter Craft"
 	icon_state = "shuttle2"
 
 /area/shuttle/light_cruiser_transport

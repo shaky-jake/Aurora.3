@@ -21,7 +21,6 @@
 	icon_state = "light_cruiser"
 	moving_state = "light_cruiser_moving"
 	colors = list("#868aa6", "#787d9e")
-	// scanimage = "ranger.png"
 	// designer = "WIP DESIGNER"
 	volume = "112 meters length, 98 meters beam/width, 26 meters vertical height"
 	drive = "Mid-Speed Warp Acceleration FTL Drive"
@@ -177,8 +176,8 @@
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
 	// designer = "WIP DESIGNER"
-	// volume = "WIP VOLUME"
-	// sizeclass = "WIP Transport Craft"
+	volume = "16 meters length, 11 meters beam/width, 5 meters vertical height"
+	sizeclass = "Vela-class Transport Craft"
 	shiptype = "All-environment troop transport"
 
 /obj/machinery/computer/shuttle_control/explore/terminal/light_cruiser_transport
@@ -217,7 +216,7 @@
 	name = "Light Cruiser Fighter"
 	class = "MFV"
 	designation = "FIGHTER-1"
-	desc = "WIP DESC"
+	desc = "The Calvera-class Fighter is a dedicated combat craft, featuring dual rotary canons, extra armor to its fore and powerful thrusters."
 	shuttle = "Light Cruiser Fighter"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
@@ -228,9 +227,10 @@
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
 	// designer = "WIP DESIGNER"
-	// volume = "WIP VOLUME"
-	// sizeclass = "WIP Fightercraft"
-	// shiptype = "Space Superiority Fightercraft"
+	volume = "15 meters length, 8 meters beam/width, 4 meters vertical height"
+	weapons = "Dual fore-mounted low-caliber rotary ballistic armament."
+	sizeclass = "Calvera-class Multi-Crew Fighter Craft"
+	shiptype = "High speed interception, strafing runs"
 
 /obj/machinery/computer/shuttle_control/explore/terminal/light_cruiser_fighter
 	name = "shuttle control console"

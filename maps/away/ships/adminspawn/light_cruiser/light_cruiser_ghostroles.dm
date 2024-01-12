@@ -1,7 +1,7 @@
 /datum/ghostspawner/human/light_cruiser_crewman
 	short_name = "light_cruiser_crewman"
 	name = "Light Cruiser Crewman"
-	desc = "Crew the Light Cruiser. (ADMINSPAWNED SHIP FOR EVENT PURPOSES)"
+	desc = "Crew the Light Cruiser. (ADMINSPAWNED SHIP FOR EVENT PURPOSES - DO NOT SPAWN WITHOUT ADMIN PERMISSION) "
 	tags = list("External")
 
 	spawnpoints = list("light_cruiser_crewman")
@@ -38,7 +38,7 @@
 /datum/ghostspawner/human/light_cruiser_crewman/officer
 	short_name = "light_cruiser_crewman_officer"
 	name = "Light Cruiser Captain"
-	desc = "Command the Light Cruiser. (ADMINSPAWNED SHIP FOR EVENT PURPOSES) - Requires Admin Permission to be Captain!"
+	desc = "Command the Light Cruiser. (ADMINSPAWNED SHIP FOR EVENT PURPOSES - DO NOT SPAWN WITHOUT ADMIN PERMISSION)"
 
 	spawnpoints = list("light_cruiser_crewman_officer")
 	max_count = 1
