@@ -384,7 +384,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/meter,
+/obj/machinery/meter{
+	name = "Fuel Line Meter"
+	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
 	dir = 8
 	},
@@ -461,6 +463,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/ship/light_cruiser/mechbay)
 "apk" = (
@@ -1315,7 +1318,8 @@
 /obj/machinery/atmospherics/binary/pump/high_power/on{
 	dir = 4;
 	name = "Air Supply to Pumps";
-	target_pressure = 15000
+	target_pressure = 15000;
+	update_icon_on_init = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -1331,7 +1335,8 @@
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
 	frequency = 1441;
 	id_tag = "light_cruiser_port_co2_out";
-	dir = 8
+	dir = 8;
+	internal_pressure_bound = 5000
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/ship/light_cruiser/fuel_bay_port)
@@ -1519,6 +1524,11 @@
 /obj/structure/sign/directions/dock{
 	pixel_y = -19;
 	pixel_x = 1
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = -27;
+	pixel_x = 1;
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/ship/light_cruiser/hallway_starboard)
@@ -1919,6 +1929,16 @@
 	},
 /turf/simulated/floor/lino,
 /area/ship/light_cruiser/mess)
+"bsP" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/machinery/disposal/small/north,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/light_cruiser/fore_port_wep_access)
 "bta" = (
 /obj/structure/platform_deco{
 	dir = 8;
@@ -2001,7 +2021,7 @@
 "btY" = (
 /obj/machinery/atmospherics/unary/engine,
 /obj/effect/landmark/entry_point/aft{
-	name = "aft, central port thrusters"
+	name = "aft thrusters, port, center"
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/light_cruiser/thruster_port_maints_1)
@@ -2331,7 +2351,8 @@
 /area/ship/light_cruiser/fuel_bay_starboard)
 "bDP" = (
 /obj/machinery/atmospherics/binary/pump/fuel{
-	dir = 8
+	dir = 8;
+	name = "Fuel Line to Connector"
 	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
@@ -3278,13 +3299,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/light_cruiser/hangar_hallway_port)
-"cnq" = (
-/obj/structure/lattice/catwalk,
-/obj/effect/landmark/entry_point/aft{
-	name = "aft, port external docking bay"
-	},
-/turf/template_noop,
-/area/ship/light_cruiser/space_catwalk)
 "cnr" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3369,7 +3383,8 @@
 "cqs" = (
 /obj/machinery/atmospherics/binary/passive_gate/on{
 	dir = 8;
-	target_pressure = 2500
+	target_pressure = 2500;
+	update_icon_on_init = 1
 	},
 /obj/effect/floor_decal/industrial/hatch{
 	color = "#89cff0"
@@ -3721,6 +3736,10 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fore_port_wep_access)
 "cBE" = (
@@ -4032,6 +4051,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/fore_starboard_wep_access)
 "cRj" = (
@@ -4067,6 +4089,16 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/aft_port_hall_2)
+"cUf" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/machinery/disposal/small/north,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/light_cruiser/fore_starboard_wep_access)
 "cVT" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -4326,12 +4358,16 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/docking_port_fore_starboard)
 "dlD" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
 /obj/structure/closet/crate,
 /obj/item/stack/material/plasteel/full,
 /obj/item/stack/material/steel/full,
 /obj/item/stack/material/steel/full,
 /obj/item/stack/material/steel/full,
 /obj/item/stack/material/glass/reinforced/full,
+/obj/item/stack/material/glass/full,
 /obj/item/stack/rods/full,
 /obj/item/storage/bag/inflatable,
 /obj/item/storage/bag/inflatable,
@@ -4341,9 +4377,6 @@
 /obj/item/grenade/chem_grenade/metalfoam,
 /obj/item/grenade/chem_grenade/metalfoam,
 /obj/item/grenade/chem_grenade/metalfoam,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 6
-	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/engie)
 "dlM" = (
@@ -5036,7 +5069,8 @@
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 4;
 	name = "Scrubbers to Waste";
-	target_pressure = 150000
+	target_pressure = 150000;
+	update_icon_on_init = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/atmos)
@@ -5104,7 +5138,8 @@
 	},
 /obj/machinery/meter{
 	pixel_y = 8;
-	pixel_x = 7
+	pixel_x = 7;
+	name = "Fuel Injection Meter"
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
@@ -5205,7 +5240,8 @@
 "dKm" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/atmospherics/binary/passive_gate/supply{
-	target_pressure = 250
+	target_pressure = 250;
+	update_icon_on_init = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
@@ -5730,7 +5766,8 @@
 	},
 /obj/machinery/meter{
 	pixel_y = 8;
-	pixel_x = 7
+	pixel_x = 7;
+	name = "Fuel Line Meter"
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
@@ -5855,6 +5892,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/light_cruiser/thruster_port_maints_1)
 "elQ" = (
@@ -6457,7 +6495,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/entry_point/fore{
-	name = "fore, port docking port"
+	name = "fore, docking port, port"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/docking_port_fore_port)
@@ -8187,6 +8225,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/fore_port_wep_access)
 "fPt" = (
@@ -9391,9 +9432,7 @@
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/aft_port_hall_1)
 "gJD" = (
-/obj/machinery/autolathe{
-	hacked = 1
-	},
+/obj/machinery/autolathe,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
@@ -9479,10 +9518,6 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/docking_port_fore_starboard)
 "gMi" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
@@ -9494,6 +9529,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "2-4"
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/hallway_starboard)
@@ -9871,6 +9909,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/noid,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/full,
 /area/ship/light_cruiser/thruster_starboard_maints_1)
 "hab" = (
@@ -10196,7 +10235,8 @@
 /area/ship/light_cruiser/range)
 "hmp" = (
 /obj/machinery/atmospherics/binary/pump/fuel{
-	dir = 4
+	dir = 4;
+	name = "Fuel Line to Connector"
 	},
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
@@ -11045,7 +11085,8 @@
 "hOF" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/atmospherics/binary/pump/on{
-	target_pressure = 200
+	target_pressure = 200;
+	update_icon_on_init = 1
 	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/docking_port_fore_port)
@@ -11194,7 +11235,8 @@
 /area/ship/light_cruiser/cic)
 "hUX" = (
 /obj/machinery/atmospherics/binary/pump/fuel{
-	dir = 8
+	dir = 8;
+	name = "Fuel Line to Connector"
 	},
 /obj/structure/lattice/catwalk,
 /obj/machinery/alarm/north{
@@ -11298,7 +11340,9 @@
 /area/ship/light_cruiser/docking_port_aft_exterior_starboard)
 "hZt" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
-/obj/machinery/meter,
+/obj/machinery/meter{
+	name = "Fuel Line Meter"
+	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/thruster_port_maints_1)
@@ -11705,6 +11749,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/ship/light_cruiser/mechbay)
 "ipF" = (
@@ -12055,6 +12102,10 @@
 	req_access = list(198469420)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled,
 /area/ship/light_cruiser/mechbay)
 "iyL" = (
@@ -12608,7 +12659,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/entry_point/fore{
-	name = "fore, starboard docking port"
+	name = "fore, docking port, starboard"
 	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/docking_port_fore_starboard)
@@ -12968,6 +13019,7 @@
 	name = "Mechbay"
 	},
 /obj/effect/floor_decal/industrial/hatch/grey,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/full,
 /area/ship/light_cruiser/mechbay)
 "jgL" = (
@@ -13187,6 +13239,9 @@
 	master_tag = "airlock_light_cruiser_aft_port_1";
 	name = "airlock_light_cruiser_aft_port_1"
 	},
+/obj/effect/landmark/entry_point/aft{
+	name = "aft, external docking bay, port"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/docking_port_aft_exterior_port)
 "jsc" = (
@@ -13390,7 +13445,7 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/structure/ship_weapon_dummy,
 /obj/effect/landmark/entry_point/fore{
-	name = "fore, port francisca hardpoint"
+	name = "fore, francisca hardpoint, port"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/ship/light_cruiser/fore_port_wep)
@@ -13462,7 +13517,7 @@
 /area/ship/light_cruiser/engie)
 "jBF" = (
 /obj/effect/landmark/entry_point/starboard{
-	name = "starboard, fore armament maintenance"
+	name = "starboard, francisca hardpoint maintenance"
 	},
 /turf/simulated/wall/shuttle/space_ship,
 /area/ship/light_cruiser/fore_starboard_wep_maints)
@@ -13721,7 +13776,8 @@
 /area/shuttle/light_cruiser_transport)
 "jMV" = (
 /obj/machinery/atmospherics/binary/pump/fuel{
-	dir = 4
+	dir = 4;
+	name = "Fuel Line to Connector"
 	},
 /obj/structure/lattice/catwalk,
 /obj/machinery/alarm/north{
@@ -13918,7 +13974,8 @@
 "jTG" = (
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/machinery/atmospherics/binary/pump/on{
-	target_pressure = 200
+	target_pressure = 200;
+	update_icon_on_init = 1
 	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/docking_port_fore_starboard)
@@ -14080,7 +14137,7 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/structure/ship_weapon_dummy,
 /obj/effect/landmark/entry_point/fore{
-	name = "fore, starboard francisca hardpoint"
+	name = "fore, francisca hardpoint, starboard"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/ship/light_cruiser/fore_starboard_wep)
@@ -14349,13 +14406,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/light_cruiser/hallway_starboard)
-"klX" = (
-/obj/structure/lattice/catwalk,
-/obj/effect/landmark/entry_point/aft{
-	name = "aft, starboard external docking bay"
-	},
-/turf/template_noop,
-/area/ship/light_cruiser/space_catwalk)
 "klZ" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/ship/light_cruiser/hydro_maints)
@@ -14546,12 +14596,16 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fore_starboard_wep_access)
 "kqG" = (
 /obj/machinery/atmospherics/unary/engine,
 /obj/effect/landmark/entry_point/aft{
-	name = "aft, far port thrusters"
+	name = "aft thrusters, port, far"
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/light_cruiser/thruster_port_maints_2)
@@ -14777,7 +14831,9 @@
 /area/ship/light_cruiser/hall_maints_port)
 "kBs" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
-/obj/machinery/meter,
+/obj/machinery/meter{
+	name = "Fuel Line Meter"
+	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/thruster_port_maints_2)
@@ -14808,7 +14864,9 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 5
 	},
-/obj/machinery/meter,
+/obj/machinery/meter{
+	name = "Oxygen Output Meter"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/engie)
 "kDZ" = (
@@ -15071,7 +15129,9 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 9
 	},
-/obj/machinery/meter,
+/obj/machinery/meter{
+	name = "Nitrogen Output Meter"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/engie)
 "kNK" = (
@@ -15890,8 +15950,7 @@
 /area/ship/light_cruiser/hangar_hallway_starboard)
 "lvI" = (
 /obj/machinery/atmospherics/binary/pump{
-	name = "Waste to Filtering";
-	use_power = 1
+	name = "Waste to Filtering"
 	},
 /obj/machinery/alarm/west{
 	req_one_access = list(198469420)
@@ -16142,8 +16201,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/structure/disposalpipe/junction{
+	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/aft_port_hall_2)
@@ -17650,10 +17709,13 @@
 /turf/simulated/floor/lino,
 /area/ship/light_cruiser/mess)
 "mIi" = (
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/outline/engineering,
+/obj/machinery/atmospherics/binary/pump/high_power/on{
+	dir = 1;
+	target_pressure = 5000;
+	name = "Fuel to Thrusters";
+	update_icon_on_init = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/thruster_starboard_maints_2)
 "mIr" = (
@@ -18249,6 +18311,9 @@
 	name = "airlock_light_cruiser_aft_starboard_1";
 	master_tag = "airlock_light_cruiser_aft_starboard_1"
 	},
+/obj/effect/landmark/entry_point/aft{
+	name = "aft, external docking bay, starboard"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/docking_port_aft_exterior_starboard)
 "nfI" = (
@@ -18301,6 +18366,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/fore_port_wep_access)
 "nhU" = (
@@ -18526,7 +18594,8 @@
 	},
 /obj/machinery/meter{
 	pixel_y = 8;
-	pixel_x = 7
+	pixel_x = 7;
+	name = "Fuel Injection Meter"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fuel_bay_starboard)
@@ -18539,6 +18608,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/fore_starboard_wep_access)
 "nqE" = (
@@ -18940,6 +19012,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/fore_starboard_wep_access)
@@ -19840,7 +19915,7 @@
 "olt" = (
 /obj/machinery/atmospherics/unary/engine,
 /obj/effect/landmark/entry_point/aft{
-	name = "aft, central starboard thrusters"
+	name = "aft thrusters, starboard, center"
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/light_cruiser/thruster_starboard_maints_1)
@@ -19987,6 +20062,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/fore_port_wep_access)
 "opi" = (
@@ -20125,7 +20203,8 @@
 /area/ship/light_cruiser/hallway_fore_starboard)
 "osD" = (
 /obj/machinery/atmospherics/binary/pump/fuel{
-	dir = 8
+	dir = 8;
+	name = "Connector to Fuel Tank"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fuel_bay_starboard)
@@ -21771,7 +21850,9 @@
 /area/ship/light_cruiser/disposals)
 "pDM" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
-/obj/machinery/meter,
+/obj/machinery/meter{
+	name = "Fuel Line Meter"
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
@@ -21874,7 +21955,7 @@
 "pGF" = (
 /obj/machinery/atmospherics/unary/engine,
 /obj/effect/landmark/entry_point/aft{
-	name = "aft, far starboard thrusters"
+	name = "aft thrusters, starboard, far"
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/light_cruiser/thruster_starboard_maints_2)
@@ -23658,10 +23739,13 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/docking_port_aft_exterior_starboard)
 "qVt" = (
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/outline/engineering,
+/obj/machinery/atmospherics/binary/pump/high_power/on{
+	dir = 1;
+	target_pressure = 5000;
+	name = "Fuel to Thrusters";
+	update_icon_on_init = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/thruster_port_maints_2)
 "qVF" = (
@@ -25273,7 +25357,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/meter,
+/obj/machinery/meter{
+	name = "Fuel Line Meter"
+	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
 	dir = 4
 	},
@@ -25351,7 +25437,8 @@
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
 	frequency = 1441;
 	id_tag = "light_cruiser_starboard_co2_out";
-	dir = 8
+	dir = 8;
+	internal_pressure_bound = 5000
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/ship/light_cruiser/fuel_bay_starboard)
@@ -25542,7 +25629,7 @@
 	pixel_x = 5
 	},
 /obj/item/clothing/head/beret/colorable{
-	color = "#475057";
+	color = "#383f45";
 	pixel_x = -6;
 	pixel_y = 0
 	},
@@ -26037,7 +26124,8 @@
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
 	frequency = 1441;
 	id_tag = "light_cruiser_port_co2_out";
-	dir = 4
+	dir = 4;
+	internal_pressure_bound = 5000
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/ship/light_cruiser/fuel_bay_port)
@@ -26212,7 +26300,8 @@
 /area/ship/light_cruiser/aft_port_hall_1)
 "sHc" = (
 /obj/machinery/atmospherics/binary/passive_gate/supply{
-	target_pressure = 250
+	target_pressure = 250;
+	update_icon_on_init = 1
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /obj/structure/bed/handrail{
@@ -26241,7 +26330,8 @@
 "sJQ" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 8;
-	target_pressure = 200
+	target_pressure = 200;
+	update_icon_on_init = 1
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark,
@@ -27007,10 +27097,6 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/docking_port_fore_exterior)
 "tlL" = (
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
@@ -27022,6 +27108,10 @@
 	},
 /obj/structure/cable{
 	icon_state = "2-8"
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 8;
+	icon_state = "pipe-j2"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/hallway_port)
@@ -27078,10 +27168,13 @@
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/thruster_starboard_maints_2)
 "toD" = (
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/outline/engineering,
+/obj/machinery/atmospherics/binary/pump/high_power/on{
+	dir = 1;
+	target_pressure = 5000;
+	name = "Fuel to Thrusters";
+	update_icon_on_init = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/thruster_starboard_maints_1)
 "toE" = (
@@ -27129,7 +27222,9 @@
 /area/ship/light_cruiser/fore_starboard_wep)
 "tqo" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
-/obj/machinery/meter,
+/obj/machinery/meter{
+	name = "Fuel Line Meter"
+	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/thruster_starboard_maints_1)
@@ -27176,6 +27271,18 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/light_cruiser/hallway_port)
+"tsw" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/light_cruiser/mechbay)
 "tsU" = (
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 8
@@ -27289,7 +27396,8 @@
 	},
 /obj/machinery/meter{
 	pixel_y = 8;
-	pixel_x = 7
+	pixel_x = 7;
+	name = "Fuel Injection Meter"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fuel_bay_port)
@@ -27309,6 +27417,14 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/shuttle/light_cruiser_transport)
+"tzL" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/mech_recharger,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/ship/light_cruiser/mechbay)
 "tAf" = (
 /obj/effect/map_effect/window_spawner/full/mercenary/grille,
 /obj/machinery/door/blast/regular{
@@ -28040,7 +28156,9 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
 	},
-/obj/machinery/meter,
+/obj/machinery/meter{
+	name = "Waste Line Meter"
+	},
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/dark,
 /area/ship/light_cruiser/atmos)
@@ -28253,7 +28371,8 @@
 "uou" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 4;
-	target_pressure = 200
+	target_pressure = 200;
+	update_icon_on_init = 1
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
@@ -28965,6 +29084,19 @@
 	},
 /turf/simulated/floor/wood,
 /area/ship/light_cruiser/briefing)
+"uRA" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/machinery/disposal/small/west,
+/turf/simulated/floor/tiled,
+/area/ship/light_cruiser/mechbay)
 "uRN" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 5
@@ -29170,6 +29302,9 @@
 	name = "Auxiliary Armament Access"
 	},
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fore_starboard_wep_access)
 "vaa" = (
@@ -29373,6 +29508,9 @@
 	name = "Auxiliary Armament Access"
 	},
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fore_port_wep_access)
 "vig" = (
@@ -29824,7 +29962,8 @@
 "vxZ" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 8;
-	target_pressure = 200
+	target_pressure = 200;
+	update_icon_on_init = 1
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
@@ -31726,7 +31865,8 @@
 /area/ship/light_cruiser/med)
 "wUF" = (
 /obj/machinery/atmospherics/binary/pump/fuel{
-	dir = 4
+	dir = 4;
+	name = "Connector to Fuel Tank"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fuel_bay_port)
@@ -32035,10 +32175,13 @@
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/thruster_port_maints_2)
 "xiQ" = (
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/outline/engineering,
+/obj/machinery/atmospherics/binary/pump/high_power/on{
+	dir = 1;
+	target_pressure = 5000;
+	name = "Fuel to Thrusters";
+	update_icon_on_init = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/thruster_port_maints_1)
 "xiV" = (
@@ -32661,6 +32804,9 @@
 /obj/effect/floor_decal/industrial/hatch{
 	color = "#c99b26"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/mechbay)
 "xDm" = (
@@ -32772,7 +32918,7 @@
 /area/ship/light_cruiser/hallway_fore_central)
 "xIH" = (
 /obj/effect/landmark/entry_point/port{
-	name = "port, fore armament maintenance"
+	name = "port, francisca hardpoint maintenance"
 	},
 /turf/simulated/wall/shuttle/space_ship,
 /area/ship/light_cruiser/fore_port_wep_maints)
@@ -33426,7 +33572,8 @@
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
 	frequency = 1441;
 	id_tag = "light_cruiser_starboard_co2_out";
-	dir = 4
+	dir = 4;
+	internal_pressure_bound = 5000
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/ship/light_cruiser/fuel_bay_starboard)
@@ -56688,7 +56835,7 @@ cbf
 cbf
 cbf
 vXT
-klX
+pFs
 nfc
 loV
 bmA
@@ -60596,7 +60743,7 @@ bLY
 bLY
 lMR
 kqj
-rwJ
+cUf
 lMR
 lMR
 lMR
@@ -71904,7 +72051,7 @@ jZj
 jZj
 kfp
 cBj
-riJ
+bsP
 kfp
 kfp
 kfp
@@ -73911,7 +74058,7 @@ oPk
 kwT
 dvU
 vxp
-vxp
+tzL
 aZL
 pqN
 kPi
@@ -74168,7 +74315,7 @@ oPk
 dne
 snT
 krR
-krR
+tsw
 rRj
 cKT
 kOR
@@ -74939,7 +75086,7 @@ lWg
 oPk
 wNu
 jId
-ioe
+uRA
 ycR
 kLw
 oPk
@@ -75706,7 +75853,7 @@ cbf
 cbf
 cbf
 vXT
-cnq
+pFs
 jrC
 sXd
 eRG
