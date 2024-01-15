@@ -200,21 +200,21 @@
 	ambience = AMBIENCE_HANGAR
 
 /area/ship/light_cruiser/aft_port_ammo
-	name = "Light Cruiser - Aft Port Ammo Storage"
+	name = "Light Cruiser - Grauwolf Ammo Storage"
 	ambience = AMBIENCE_HIGHSEC
 	sound_env = SMALL_ENCLOSED
 
 /area/ship/light_cruiser/aft_starboard_ammo
-	name = "Light Cruiser - Aft Starboard Ammo Storage"
+	name = "Light Cruiser - Longbow Ammo Storage"
 	ambience = AMBIENCE_HIGHSEC
 	sound_env = SMALL_ENCLOSED
 
 /area/ship/light_cruiser/aft_port_wep
-	name = "Light Cruiser - Aft Port Armament Hardpoint"
+	name = "Light Cruiser - Grauwolf Hardpoint"
 	ambience = AMBIENCE_HIGHSEC
 
 /area/ship/light_cruiser/aft_starboard_wep
-	name = "Light Cruiser - Aft Starboard Armament Hardpoint"
+	name = "Light Cruiser - Longbow Hardpoint"
 	ambience = AMBIENCE_HIGHSEC
 
 /area/ship/light_cruiser/range
@@ -280,31 +280,31 @@
 	name = "Light Cruiser - Briefing Room Lobby"
 
 /area/ship/light_cruiser/fore_port_ammo
-	name = "Light Cruiser - Fore Port Ammo Storage"
+	name = "Light Cruiser - Port Francisca Ammo Storage"
 	ambience = AMBIENCE_HIGHSEC
 	sound_env = SMALL_ENCLOSED
 
 /area/ship/light_cruiser/fore_port_wep_access
-	name = "Light Cruiser - Fore Port Armament Access"
+	name = "Light Cruiser - Port Francisca Hardpoint Access"
 	ambience = AMBIENCE_HIGHSEC
 	sound_env = TUNNEL_ENCLOSED
 
 /area/ship/light_cruiser/fore_port_wep
-	name = "Light Cruiser - Fore Port Armament Hardpoint"
+	name = "Light Cruiser - Port Francisca Hardpoint"
 	ambience = AMBIENCE_HIGHSEC
 
 /area/ship/light_cruiser/fore_starboard_ammo
-	name = "Light Cruiser - Fore Starboard Ammo Storage"
+	name = "Light Cruiser - Starboard Francisca Ammo Storage"
 	ambience = AMBIENCE_HIGHSEC
 	sound_env = SMALL_ENCLOSED
 
 /area/ship/light_cruiser/fore_starboard_wep_access
-	name = "Light Cruiser - Fore Starboard Armament Access"
+	name = "Light Cruiser - Starboard Francisca Hardpoint Access"
 	ambience = AMBIENCE_HIGHSEC
 	sound_env = TUNNEL_ENCLOSED
 
 /area/ship/light_cruiser/fore_starboard_wep
-	name = "Light Cruiser - Fore Starboard Armament Hardpoint"
+	name = "Light Cruiser - Starboard Francisca Hardpoint"
 	ambience = AMBIENCE_HIGHSEC
 
 /area/ship/light_cruiser/med

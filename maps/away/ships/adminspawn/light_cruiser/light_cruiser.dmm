@@ -276,6 +276,7 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 5
 	},
+/obj/structure/bed/stool/chair/office/bridge/generic,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/aft_port_wep)
 "ajd" = (
@@ -1068,14 +1069,16 @@
 /obj/structure/bed/handrail{
 	dir = 4
 	},
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 1;
-	name = "Fuel to Thrusters"
-	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/fuel_port/hydrogen{
 	pixel_x = -26;
 	pixel_y = 2
+	},
+/obj/machinery/atmospherics/binary/pump/high_power/on{
+	dir = 1;
+	target_pressure = 5000;
+	name = "Fuel to Thrusters";
+	update_icon_on_init = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/light_cruiser_transport)
@@ -1106,10 +1109,10 @@
 /turf/unsimulated/wall/fakepdoor,
 /area/ship/light_cruiser/hangar_port)
 "aMV" = (
-/obj/structure/bed/stool/chair/office/bridge/generic,
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 1
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fore_port_wep)
 "aNk" = (
@@ -1707,11 +1710,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/eva)
 "bjr" = (
-/obj/machinery/computer/ship/targeting/terminal{
-	light_color = "#FA8282";
+/obj/effect/floor_decal/spline/plain/grey{
 	dir = 1
 	},
-/obj/effect/floor_decal/spline/plain/grey{
+/obj/machinery/computer/ship/navigation/terminal{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -3216,11 +3218,10 @@
 /turf/simulated/floor/tiled,
 /area/ship/light_cruiser/range)
 "ciQ" = (
-/obj/machinery/computer/ship/targeting/terminal{
-	light_color = "#FA8282";
+/obj/effect/floor_decal/spline/plain/grey{
 	dir = 1
 	},
-/obj/effect/floor_decal/spline/plain/grey{
+/obj/machinery/computer/ship/navigation/terminal{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -3582,7 +3583,7 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/tank/air{
-	dir = 4;
+	dir = 1;
 	start_pressure = 1500
 	},
 /obj/effect/floor_decal/industrial/outline/blue,
@@ -3661,10 +3662,11 @@
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/hall_maints_port)
 "czK" = (
-/obj/machinery/computer/ship/navigation/terminal{
+/obj/effect/floor_decal/spline/plain/grey{
 	dir = 1
 	},
-/obj/effect/floor_decal/spline/plain/grey{
+/obj/machinery/computer/ship/targeting/terminal{
+	light_color = "#FA8282";
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -6587,8 +6589,7 @@
 /turf/simulated/floor/plating,
 /area/shuttle/light_cruiser_transport)
 "eGh" = (
-/obj/effect/overmap/visitable/ship/light_cruiser,
-/obj/machinery/hologram/holopad/long_range,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/cic)
 "eGy" = (
@@ -6715,6 +6716,7 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 9
 	},
+/obj/structure/bed/stool/chair/office/bridge/generic,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fore_starboard_wep)
 "eKL" = (
@@ -8693,7 +8695,8 @@
 /area/ship/light_cruiser/port_engie_maints)
 "gef" = (
 /obj/structure/table/wood,
-/obj/item/clipboard{
+/obj/machinery/hologram/holopad/long_range{
+	layer = 2.81;
 	pixel_y = 2
 	},
 /turf/simulated/floor/wood,
@@ -8834,6 +8837,10 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/light_cruiser_transport)
 "gld" = (
+/obj/machinery/hologram/holopad/long_range{
+	pixel_y = 3
+	},
+/obj/effect/overmap/visitable/ship/light_cruiser,
 /turf/simulated/floor/tiled,
 /area/ship/light_cruiser/cic)
 "gli" = (
@@ -9754,6 +9761,7 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 9
 	},
+/obj/structure/bed/stool/chair/office/bridge/generic,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/aft_starboard_wep)
 "gWu" = (
@@ -12392,10 +12400,10 @@
 /area/ship/light_cruiser/aft_starboard_hall_1)
 "iLm" = (
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/hologram/holopad/long_range,
 /obj/structure/railing/mapped{
 	pixel_y = -5
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/wood,
 /area/ship/light_cruiser/briefing)
 "iLQ" = (
@@ -13938,15 +13946,17 @@
 /obj/machinery/alarm/west{
 	req_one_access = list(198469420)
 	},
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 1;
-	name = "Fuel to Thrusters"
-	},
 /obj/structure/sign/fire{
 	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
 	layer = 2.1;
 	name = "\improper DANGER: THRUSTERS sign";
 	pixel_x = 32
+	},
+/obj/machinery/atmospherics/binary/pump/high_power/on{
+	dir = 1;
+	target_pressure = 5000;
+	name = "Fuel to Thrusters";
+	update_icon_on_init = 1
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/light_cruiser_fighter)
@@ -14555,16 +14565,19 @@
 /turf/simulated/floor/airless,
 /area/ship/light_cruiser/fuel_bay_port)
 "kpC" = (
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -14740,9 +14753,6 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/mechbay)
 "kxX" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/white,
 /area/ship/light_cruiser/med)
 "kyl" = (
@@ -15139,15 +15149,17 @@
 /obj/machinery/alarm/east{
 	req_one_access = list(198469420)
 	},
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 1;
-	name = "Fuel to Thrusters"
-	},
 /obj/structure/sign/fire{
 	desc = "A warning sign which reads 'DANGER: SHUTTLE THRUSTERS IN USE' and 'MIND THE DISTANCE'.";
 	layer = 2.1;
 	name = "\improper DANGER: THRUSTERS sign";
 	pixel_x = -32
+	},
+/obj/machinery/atmospherics/binary/pump/high_power/on{
+	dir = 1;
+	target_pressure = 5000;
+	name = "Fuel to Thrusters";
+	update_icon_on_init = 1
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/light_cruiser_fighter)
@@ -15701,16 +15713,23 @@
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/disposals)
 "ljj" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/floor_decal/corner_wide/paleblue{
 	dir = 10
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
 /obj/effect/floor_decal/sign/srg,
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/light_cruiser/med)
 "ljU" = (
@@ -16121,6 +16140,7 @@
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 5
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled,
 /area/ship/light_cruiser/sec)
 "lCd" = (
@@ -16768,10 +16788,10 @@
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/hangar_hallway_starboard)
 "lZA" = (
-/obj/structure/bed/stool/chair/office/bridge/generic,
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 1
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/aft_starboard_wep)
 "lZG" = (
@@ -17868,11 +17888,10 @@
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/starboard_engie_maints)
 "mOw" = (
-/obj/machinery/computer/ship/targeting/terminal{
-	light_color = "#FA8282";
+/obj/effect/floor_decal/spline/plain/grey{
 	dir = 1
 	},
-/obj/effect/floor_decal/spline/plain/grey{
+/obj/machinery/computer/ship/navigation/terminal{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -19812,19 +19831,17 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/aft_starboard_hall_2)
 "oic" = (
+/obj/effect/floor_decal/corner_wide/paleblue{
+	dir = 10
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner_wide/paleblue{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -20175,10 +20192,7 @@
 /turf/simulated/floor/carpet/rubber,
 /area/ship/light_cruiser/docking_port_fore_starboard)
 "osk" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/effect/floor_decal/corner_wide/paleblue/diagonal{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -20219,6 +20233,7 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 5
 	},
+/obj/structure/bed/stool/chair/office/bridge/generic,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fore_port_wep)
 "otk" = (
@@ -20344,6 +20359,13 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/ship/light_cruiser/atmos)
+"oxm" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled,
+/area/ship/light_cruiser/cryo_foyer)
 "oxG" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -20638,7 +20660,14 @@
 /area/ship/light_cruiser/hallway)
 "oIE" = (
 /obj/structure/table/wood,
-/obj/item/paper_bin,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/obj/item/clipboard{
+	pixel_y = 2;
+	pixel_x = 6
+	},
 /obj/item/pen,
 /turf/simulated/floor/wood,
 /area/ship/light_cruiser/briefing)
@@ -20916,10 +20945,10 @@
 /turf/simulated/floor/tiled,
 /area/ship/light_cruiser/thruster_starboard_maints_2)
 "oRL" = (
-/obj/structure/bed/stool/chair/office/bridge/generic,
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 1
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/aft_port_wep)
 "oSQ" = (
@@ -21364,21 +21393,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/hallway_fore_central)
 "poR" = (
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
 /obj/effect/floor_decal/corner_wide/paleblue/diagonal{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
+/obj/machinery/hologram/holopad{
+	pixel_x = 7
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/light_cruiser/med)
@@ -22969,10 +22988,10 @@
 /turf/simulated/floor/tiled/full,
 /area/shuttle/light_cruiser_transport)
 "qyf" = (
-/obj/structure/bed/stool/chair/office/bridge/generic,
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 1
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/fore_starboard_wep)
 "qyw" = (
@@ -23062,10 +23081,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/light_cruiser/hallway_starboard)
 "qAF" = (
-/obj/machinery/computer/ship/navigation/terminal{
+/obj/effect/floor_decal/spline/plain/grey{
 	dir = 1
 	},
-/obj/effect/floor_decal/spline/plain/grey{
+/obj/machinery/computer/ship/targeting/terminal{
+	light_color = "#FA8282";
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -23865,10 +23885,11 @@
 /turf/simulated/floor/tiled/full,
 /area/ship/light_cruiser/crew_port)
 "qZo" = (
-/obj/machinery/computer/ship/navigation/terminal{
+/obj/effect/floor_decal/spline/plain/grey{
 	dir = 1
 	},
-/obj/effect/floor_decal/spline/plain/grey{
+/obj/machinery/computer/ship/targeting/terminal{
+	light_color = "#FA8282";
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -25112,14 +25133,23 @@
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/docking_port_aft)
 "rST" = (
-/obj/structure/disposalpipe/segment,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner_wide/paleblue/full,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/sign/srg,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/light_cruiser/med)
 "rTd" = (
@@ -25629,7 +25659,7 @@
 	pixel_x = 5
 	},
 /obj/item/clothing/head/beret/colorable{
-	color = "#383f45";
+	color = "#424B50";
 	pixel_x = -6;
 	pixel_y = 0
 	},
@@ -28397,11 +28427,10 @@
 /turf/simulated/floor/redgrid,
 /area/ship/light_cruiser/engie)
 "upH" = (
-/obj/machinery/computer/ship/targeting/terminal{
-	light_color = "#FA8282";
+/obj/effect/floor_decal/spline/plain/grey{
 	dir = 1
 	},
-/obj/effect/floor_decal/spline/plain/grey{
+/obj/machinery/computer/ship/navigation/terminal{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -30073,6 +30102,16 @@
 	dir = 10
 	},
 /obj/machinery/light/floor/cyan,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/light_cruiser/med)
 "vEv" = (
@@ -32769,12 +32808,6 @@
 /turf/simulated/floor/airless,
 /area/ship/light_cruiser/fuel_bay_port)
 "xBl" = (
-/obj/structure/disposalpipe/junction{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -32787,12 +32820,9 @@
 /obj/machinery/light/floor/cyan{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/ship/light_cruiser/med)
 "xBK" = (
@@ -32850,10 +32880,11 @@
 /turf/simulated/floor/plating,
 /area/ship/light_cruiser/hangar_port)
 "xFp" = (
-/obj/machinery/computer/ship/navigation/terminal{
+/obj/effect/floor_decal/spline/plain/grey{
 	dir = 1
 	},
-/obj/effect/floor_decal/spline/plain/grey{
+/obj/machinery/computer/ship/targeting/terminal{
+	light_color = "#FA8282";
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -63064,8 +63095,8 @@ iNL
 tTs
 hqZ
 boP
-kpC
-gWy
+lcD
+oic
 vYd
 dFE
 wmb
@@ -63321,7 +63352,7 @@ lcD
 eNc
 hqZ
 boP
-kpC
+iNL
 vEr
 vYd
 vYd
@@ -63578,8 +63609,8 @@ mTk
 srK
 bnU
 tPz
-oic
-gWy
+dfQ
+kpC
 dRg
 sWy
 xbP
@@ -68971,7 +69002,7 @@ aNE
 aNE
 oaG
 khx
-bPE
+oxm
 reK
 qeO
 hNF

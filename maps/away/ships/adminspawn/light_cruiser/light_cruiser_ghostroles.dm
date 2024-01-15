@@ -53,7 +53,7 @@
 	name = "Light Cruiser Captain"
 
 	uniform = /obj/item/clothing/under/syndicate/tacticool
-	accessory = /obj/item/clothing/accessory/holster/thigh
+	accessory = /obj/item/clothing/accessory/holster/waist
 	gloves = /obj/item/clothing/gloves/fingerless
 
 /obj/item/card/id/light_cruiser

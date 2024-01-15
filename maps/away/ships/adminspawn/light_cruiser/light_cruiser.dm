@@ -166,7 +166,7 @@
 	colors = list("#868aa6", "#787d9e")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
-	vessel_mass = 3000
+	vessel_mass = 5000 // intrepid's counterpart
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
 	// designer = "WIP DESIGNER"
