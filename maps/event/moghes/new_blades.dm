@@ -32,6 +32,22 @@
 	area_blurb = "The caverns are dark and quiet, a merciful reprise from the Wasteland outside."
 	is_outside = OUTSIDE_NO
 
+// EVENT FIVE AREAS (Mudki)
+/area/new_blades/mudki
+	name = "Mudki Interiors"
+	icon_state = "blue"
+	lighting = FALSE
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	area_blurb = "Interiors Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+	is_outside = OUTSIDE_NO
+
+/area/new_blades/mudki/water_treatment
+	name = "Water Treatment Plant"
+	area_blurb = "Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+
+// EVENT THREE AREAS
 /area/new_blades/underground/aquifer
 	name = "Aquifer"
 	area_blurb = "Cool, dark water laps around your feet. You have stepped into an underground lake - one that seems shallow enough to wade in, at least for now. You feel that you ought to tread carefully."

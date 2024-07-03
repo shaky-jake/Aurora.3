@@ -519,6 +519,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"dV" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	insecure = 0;
+	name = "Water Treatment Plant";
+	dir = 2
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "dX" = (
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
@@ -892,6 +902,11 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"gv" = (
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "gy" = (
 /obj/effect/decal/fake_object{
 	icon = 'icons/obj/machinery/sensors_venator.dmi';
@@ -1447,7 +1462,7 @@
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/water_treatment)
 "kM" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
@@ -2674,6 +2689,9 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/new_blades)
+"tP" = (
+/turf/simulated/open,
+/area/new_blades/mudki/water_treatment)
 "tQ" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /turf/simulated/floor/tiled/full,
@@ -2967,7 +2985,7 @@
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/water_treatment)
 "vX" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -3511,7 +3529,7 @@
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/water_treatment)
 "Ae" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/rod_railing,
@@ -3855,6 +3873,9 @@
 /obj/machinery/telecomms/server/presets/supply,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"Cn" = (
+/turf/simulated/wall/concrete,
+/area/new_blades/mudki/water_treatment)
 "Co" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 8
@@ -5474,7 +5495,7 @@
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/water_treatment)
 "OS" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -43585,12 +43606,12 @@ uq
 Tf
 KP
 wX
-bX
-bX
-Rx
-Rx
-bX
-bX
+Cn
+Cn
+gv
+dV
+Cn
+Cn
 qX
 Yb
 hG
@@ -43842,12 +43863,12 @@ KE
 hG
 jw
 oF
-bX
+Cn
 vQ
-Rx
-Rx
+gv
+gv
 vQ
-bX
+Cn
 Gq
 lz
 hG
@@ -44098,14 +44119,14 @@ lb
 CT
 lb
 TY
-bX
-bX
+Cn
+Cn
 kI
-Rx
-Rx
+gv
+gv
 Ab
-bX
-bX
+Cn
+Cn
 oU
 lb
 CT
@@ -44355,14 +44376,14 @@ Ae
 Up
 Ae
 Jq
-bX
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-bX
+Cn
+gv
+gv
+gv
+gv
+gv
+gv
+Cn
 uX
 Ae
 Up
@@ -44612,14 +44633,14 @@ Ae
 pM
 DY
 rR
-Rx
-Rx
-Rx
-bX
-Rx
-Rx
-Rx
-Rx
+gv
+gv
+gv
+Cn
+gv
+gv
+gv
+gv
 rR
 Ae
 pM
@@ -44869,14 +44890,14 @@ Ae
 pM
 Ae
 Jq
-bX
+Cn
 vQ
-Rx
-bX
-aF
+gv
+Cn
+tP
 ON
 vQ
-bX
+Cn
 uX
 Ae
 pM
@@ -45126,14 +45147,14 @@ Ae
 pM
 Ae
 Jq
-bX
+Cn
 vQ
-Rx
-bX
-aF
+gv
+Cn
+tP
 ON
 vQ
-bX
+Cn
 uX
 Ae
 pM
@@ -45383,14 +45404,14 @@ Ae
 pM
 DY
 rR
-Rx
-Rx
-Rx
-bX
-bX
-Rx
-Rx
-Rx
+gv
+gv
+gv
+Cn
+Cn
+gv
+gv
+gv
 Iu
 Ae
 pM
@@ -45640,14 +45661,14 @@ Ae
 ai
 Ae
 Jq
-bX
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-bX
+Cn
+gv
+gv
+gv
+gv
+gv
+gv
+Cn
 uX
 Ae
 ai
@@ -45897,14 +45918,14 @@ mt
 hw
 mt
 ep
-bX
-bX
+Cn
+Cn
 kI
-Rx
-Rx
+gv
+gv
 Ab
-bX
-bX
+Cn
+Cn
 vj
 mt
 hw
@@ -46155,12 +46176,12 @@ KE
 hG
 Xy
 JR
-bX
+Cn
 vQ
-Rx
-Rx
+gv
+gv
 vQ
-bX
+Cn
 dJ
 qY
 hG
@@ -46412,12 +46433,12 @@ uq
 Tf
 KP
 DS
-bX
-bX
-Rx
-Rx
-bX
-bX
+Cn
+Cn
+gv
+dV
+Cn
+Cn
 hf
 Yb
 hG
