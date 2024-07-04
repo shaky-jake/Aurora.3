@@ -45,6 +45,13 @@
 /area/new_blades/mudki/water_treatment
 	name = "Water Treatment Plant"
 	area_blurb = "Placeholder"
+	requires_power = TRUE
+	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+
+/area/new_blades/mudki/water_treatment/UV_room
+	name = "Water Treatment Plant - Disinfection"
+	area_blurb = "Placeholder"
+	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
 
 // EVENT THREE AREAS
@@ -387,3 +394,12 @@
 			has_disk = FALSE
 			var/obj/item/disk/D = new /obj/item/disk/mcguffin2(get_turf(user))
 			user.put_in_hands(D)
+
+// custom sewage thing
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage
+	name = "partially-filtered water"
+	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+	icon_state = "unsmooth"
+	base_icon_state = "unsmooth"
+	icon = 'icons/turf/flooring/exoplanet/konyang/konyang_deep_water.dmi'
+	smoothing_flags = SMOOTH_FALSE

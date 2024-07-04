@@ -427,6 +427,19 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"dB" = (
+/obj/structure/structural_support/side,
+/obj/structure/structural_support,
+/obj/structure/dock_structure/rail{
+	pixel_y = -2
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dG" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 8
@@ -1067,6 +1080,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ho" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.3;
+	light_range = 6
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "hw" = (
 /obj/structure/platform{
 	dir = 8
@@ -1097,10 +1120,8 @@
 /area/new_blades)
 "hG" = (
 /obj/structure/lattice/catwalk,
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "hI" = (
@@ -1459,7 +1480,7 @@
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1471,6 +1492,15 @@
 	dir = 8
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"kO" = (
+/obj/structure/rod_railing,
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -1525,15 +1555,12 @@
 /turf/unsimulated/floor,
 /area/new_blades/underground)
 "lb" = (
-/obj/structure/platform/ledge{
-	dir = 4;
-	density = 0
-	},
 /obj/structure/lattice/catwalk,
 /obj/effect/decal/exterior_stairs/half{
 	dir = 8;
 	layer = 2.06;
-	name = "raised half"
+	name = "raised half";
+	pixel_y = 1
 	},
 /obj/structure/rod_railing,
 /turf/simulated/open,
@@ -1710,6 +1737,14 @@
 /obj/item/taperoll/engineering,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"mb" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "md" = (
 /obj/structure/closet/crate{
 	name = "tools and gear crate"
@@ -1776,15 +1811,12 @@
 	},
 /area/new_blades)
 "mt" = (
-/obj/structure/platform/ledge{
-	dir = 8;
-	density = 0
-	},
 /obj/structure/lattice/catwalk,
 /obj/effect/decal/exterior_stairs/half{
 	dir = 4;
 	layer = 2.06;
-	name = "raised half"
+	name = "raised half";
+	pixel_y = 1
 	},
 /obj/structure/rod_railing,
 /turf/simulated/open,
@@ -1807,10 +1839,11 @@
 	pixel_y = 2;
 	pixel_x = 3
 	},
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "mJ" = (
@@ -1825,6 +1858,14 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"mN" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "mU" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -2036,10 +2077,11 @@
 	pixel_y = -2;
 	pixel_x = -3
 	},
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "pc" = (
@@ -2225,6 +2267,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qJ" = (
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qK" = (
 /obj/structure/hydrant{
 	pixel_x = 15
@@ -2343,6 +2391,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"rE" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 10
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "rN" = (
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
@@ -2556,6 +2614,14 @@
 	pixel_x = 8
 	},
 /turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"ti" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -2780,10 +2846,8 @@
 /obj/structure/dock_structure/rail{
 	pixel_y = -2
 	},
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "uu" = (
@@ -2982,7 +3046,7 @@
 /area/new_blades/underground)
 "vQ" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -3526,7 +3590,7 @@
 "Ab" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/light/colored/decayed,
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -3660,10 +3724,11 @@
 	pixel_y = -2;
 	pixel_x = 3
 	},
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "AM" = (
@@ -3863,10 +3928,11 @@
 	pixel_y = 2;
 	pixel_x = -3
 	},
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "Cl" = (
@@ -4462,6 +4528,12 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"FB" = (
+/obj/effect/landmark/map_data{
+	height = 2
+	},
+/turf/unsimulated/mineral,
+/area/new_blades/underground)
 "FC" = (
 /obj/effect/decal/road_marking/center{
 	dir = 1
@@ -4635,6 +4707,13 @@
 /obj/effect/floor_decal/industrial/outline/engineering,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"GO" = (
+/obj/structure/rod_railing,
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "GP" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/crate/solar,
@@ -4699,6 +4778,15 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"Ij" = (
+/obj/structure/rod_railing,
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Iu" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/rod_railing{
@@ -4959,10 +5047,8 @@
 /obj/structure/dock_structure/rail{
 	pixel_y = -2
 	},
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "KF" = (
@@ -5005,6 +5091,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"KL" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "KN" = (
 /obj/machinery/optable,
 /obj/effect/floor_decal/spline/plain/green{
@@ -5017,10 +5111,8 @@
 /turf/unsimulated/floor,
 /area/new_blades/underground)
 "KP" = (
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "KQ" = (
@@ -5078,6 +5170,14 @@
 /obj/machinery/vending/medical,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"Lm" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Lq" = (
 /obj/structure/closet/crate/secure{
 	name = "encryption keys crate";
@@ -5492,7 +5592,7 @@
 	pixel_y = 8;
 	name = "adjusted railing"
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -5519,6 +5619,11 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"OX" = (
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "OZ" = (
 /obj/machinery/door/airlock/glass_command{
 	dir = 4;
@@ -5896,12 +6001,28 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Si" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Sj" = (
 /obj/structure/bed/stool/chair/office/light{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
+"Sl" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Catwalk Access"
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Sp" = (
 /obj/structure/closet/crate{
 	name = "anomaly suits"
@@ -5984,10 +6105,8 @@
 "Tf" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/rod_railing,
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "Tg" = (
@@ -6027,6 +6146,15 @@
 "TA" = (
 /obj/machinery/conveyor,
 /turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"TC" = (
+/obj/structure/rod_railing,
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -6385,6 +6513,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"WA" = (
+/obj/structure/structural_support/side,
+/obj/structure/structural_support,
+/obj/structure/dock_structure/rail{
+	pixel_y = -2
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
 "WC" = (
 /obj/effect/decal/road_marking/center,
 /obj/effect/decal/road_marking/reflector,
@@ -6561,10 +6702,8 @@
 /area/shuttle/scc_evac)
 "Yb" = (
 /obj/structure/rod_railing,
-/turf/simulated/floor/exoplanet/water/konyang{
-	temperature = 315.15;
-	name = "partially-filtered water";
-	desc = "This water is somewhere between clean and sewage. Don't fall in it."
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
 	},
 /area/new_blades)
 "Yc" = (
@@ -6641,6 +6780,14 @@
 	pixel_y = 12
 	},
 /turf/simulated/floor/asphalt,
+/area/new_blades)
+"YA" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
 /area/new_blades)
 "YC" = (
 /obj/structure/crane,
@@ -7186,7 +7333,7 @@ aK
 aK
 aK
 aK
-aK
+FB
 "}
 (2,1,1) = {"
 aK
@@ -42317,7 +42464,7 @@ dX
 ce
 MX
 hG
-KE
+dB
 hG
 lg
 cx
@@ -42330,7 +42477,7 @@ dX
 ce
 MX
 hG
-KE
+dB
 hG
 lg
 cx
@@ -42572,11 +42719,11 @@ Da
 Fi
 ce
 MX
-Yb
+kO
 hG
 uq
 Tf
-KP
+KL
 lg
 cx
 Bw
@@ -42585,11 +42732,11 @@ Kp
 Bw
 ce
 MX
-Yb
+kO
 hG
 uq
 Tf
-KP
+KL
 lg
 cx
 Fi
@@ -42828,26 +42975,26 @@ qN
 Da
 Fi
 TX
-KP
-Yb
+mN
+TC
 hG
 uq
 Tf
-KP
-KP
+mb
+KL
 Pq
 xO
 xO
 xO
 xO
 ky
-KP
-Yb
+mN
+TC
 hG
 uq
 Tf
-KP
-KP
+mb
+KL
 Gm
 Fi
 dX
@@ -43085,26 +43232,26 @@ qN
 Da
 Fi
 TX
-KP
+qJ
 Yb
 hG
 KE
 Tf
 KP
-KP
+Lm
 ds
 Bw
 Kp
 Kp
 Bw
 Zp
-KP
+qJ
 Yb
 hG
 KE
 Tf
 KP
-KP
+Lm
 Gm
 Fi
 dX
@@ -43342,12 +43489,12 @@ qN
 Da
 Fi
 TX
-KP
-Yb
+YA
+GO
 hG
 uq
 Tf
-KP
+ti
 AK
 Pq
 xO
@@ -43356,12 +43503,12 @@ xO
 xO
 ky
 mz
-Yb
+GO
 hG
 uq
 Tf
-KP
-KP
+ti
+Si
 Gm
 Fi
 dX
@@ -43600,11 +43747,11 @@ Da
 Fi
 EE
 iO
-Yb
+Ij
 hG
 uq
 Tf
-KP
+Si
 wX
 Cn
 Cn
@@ -43613,11 +43760,11 @@ dV
 Cn
 Cn
 qX
-Yb
+Ij
 hG
 uq
 Tf
-KP
+Si
 ki
 BE
 Fi
@@ -43859,20 +44006,20 @@ dX
 qx
 lz
 hG
-KE
+WA
 hG
 jw
 oF
 Cn
 vQ
-gv
+ho
 gv
 vQ
 Cn
 Gq
 lz
 hG
-KE
+WA
 hG
 jw
 WK
@@ -44123,7 +44270,7 @@ Cn
 Cn
 kI
 gv
-gv
+rE
 Ab
 Cn
 Cn
@@ -44378,10 +44525,10 @@ Ae
 Jq
 Cn
 gv
-gv
-gv
-gv
-gv
+OX
+OX
+OX
+OX
 gv
 Cn
 uX
@@ -44633,14 +44780,14 @@ Ae
 pM
 DY
 rR
+Sl
 gv
-gv
-gv
+OX
 Cn
+Cn
+OX
 gv
-gv
-gv
-gv
+Sl
 rR
 Ae
 pM
@@ -44892,7 +45039,7 @@ Ae
 Jq
 Cn
 vQ
-gv
+OX
 Cn
 tP
 ON
@@ -45149,7 +45296,7 @@ Ae
 Jq
 Cn
 vQ
-gv
+OX
 Cn
 tP
 ON
@@ -45404,14 +45551,14 @@ Ae
 pM
 DY
 rR
+Sl
 gv
-gv
-gv
+OX
 Cn
-Cn
 gv
+OX
 gv
-gv
+Sl
 Iu
 Ae
 pM
@@ -45663,10 +45810,10 @@ Ae
 Jq
 Cn
 gv
-gv
-gv
-gv
-gv
+OX
+OX
+OX
+OX
 gv
 Cn
 uX
@@ -45922,7 +46069,7 @@ Cn
 Cn
 kI
 gv
-gv
+rE
 Ab
 Cn
 Cn
@@ -46172,20 +46319,20 @@ dX
 lC
 qY
 hG
-KE
+dB
 hG
 Xy
 JR
 Cn
 vQ
-gv
+ho
 gv
 vQ
 Cn
 dJ
 qY
 hG
-KE
+dB
 hG
 Xy
 eK
@@ -46427,11 +46574,11 @@ Da
 Fi
 ce
 MX
-Yb
+kO
 hG
 uq
 Tf
-KP
+KL
 DS
 Cn
 Cn
@@ -46440,11 +46587,11 @@ dV
 Cn
 Cn
 hf
-Yb
+kO
 hG
 uq
 Tf
-KP
+KL
 lg
 cx
 Fi
@@ -46683,12 +46830,12 @@ qN
 Da
 Fi
 TX
-KP
-Yb
+mN
+TC
 hG
 uq
 Tf
-KP
+mb
 oZ
 Pq
 xO
@@ -46697,12 +46844,12 @@ xO
 xO
 yl
 Ck
-Yb
+TC
 hG
 uq
 Tf
-KP
-KP
+mb
+KL
 Gm
 Fi
 dX
@@ -46940,26 +47087,26 @@ qN
 Da
 Fi
 TX
-KP
+qJ
 Yb
 hG
 KE
 Tf
 KP
-KP
+Lm
 ds
 Bw
 Kp
 Kp
 Bw
 Zp
-KP
+qJ
 Yb
 hG
 KE
 Tf
 KP
-KP
+Lm
 Gm
 Fi
 dX
@@ -47197,26 +47344,26 @@ qN
 Da
 Fi
 TX
-KP
-Yb
+YA
+GO
 hG
 uq
 Tf
-KP
-KP
+ti
+Si
 Pq
 xO
 xO
 xO
 xO
 yl
-KP
-Yb
+YA
+GO
 hG
 uq
 Tf
-KP
-KP
+ti
+Si
 Gm
 Fi
 dX
@@ -47455,11 +47602,11 @@ Da
 Fi
 EE
 iO
-Yb
+Ij
 hG
 uq
 Tf
-KP
+Si
 ki
 BE
 Bw
@@ -47468,11 +47615,11 @@ Kp
 Bw
 EE
 iO
-Yb
+Ij
 hG
 uq
 Tf
-KP
+Si
 ki
 BE
 Fi
@@ -47714,7 +47861,7 @@ dX
 EE
 iO
 hG
-KE
+WA
 hG
 ki
 BE
@@ -47727,7 +47874,7 @@ dX
 EE
 iO
 hG
-KE
+WA
 hG
 ki
 BE
