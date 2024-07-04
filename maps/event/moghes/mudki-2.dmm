@@ -1,4 +1,26 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/machinery/radiocarbon_spectrometer,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ad" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "an" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -6,19 +28,36 @@
 /obj/machinery/conveyor{
 	id = "bar_screening_B"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "aw" = (
 /turf/simulated/mineral/planet,
 /area/new_blades/underground)
+"aD" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/janitorialcart,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"aH" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/random/dirt_75,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "aJ" = (
 /obj/structure/disposalpipe/broken,
 /obj/structure/disposalpipe/broken{
 	dir = 1
 	},
 /obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -32,7 +71,27 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"aP" = (
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 10
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen{
+	start_pressure = 101.35
+	},
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -40,7 +99,13 @@
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0";
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -50,6 +115,31 @@
 	name = "Water Treatment Plant";
 	dir = 2
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"aZ" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"bg" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -58,6 +148,11 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -69,19 +164,53 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "bt" = (
-/obj/structure/table/reinforced/steel,
-/obj/machinery/light_switch{
-	dir = 9;
-	pixel_y = 5
+/obj/machinery/computer/terminal/purifier{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"by" = (
+/obj/machinery/photocopier,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
+"bD" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"bL" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "bM" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Screening"
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -135,6 +264,29 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"cg" = (
+/obj/machinery/papershredder,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/light/small/red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
+"cC" = (
+/obj/structure/disposalpipe/broken{
+	dir = 4
+	},
+/obj/structure/disposalpipe/broken{
+	dir = 8
+	},
+/obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "cD" = (
 /obj/machinery/light/floor{
 	randomize_color = 0;
@@ -162,20 +314,88 @@
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"dm" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "dr" = (
 /obj/structure/table/reinforced/steel,
 /obj/structure/railing/mapped,
-/turf/simulated/floor/concrete{
+/obj/structure/railing/mapped{
+	dir = 8;
+	pixel_x = -3;
+	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/obj/item/clothing/head/hardhat{
+	pixel_y = 8;
+	pixel_x = -4
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "dv" = (
 /obj/structure/platform_stairs,
-/turf/simulated/floor/concrete{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"dF" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"dK" = (
+/obj/item/material/shard/shrapnel,
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"dM" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -183,7 +403,12 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -192,6 +417,39 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"eb" = (
+/obj/effect/floor_decal/corner/yellow/full,
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ee" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/cryofeed{
+	pixel_x = 2;
+	pixel_y = 0;
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ew" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "eA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -206,7 +464,11 @@
 /area/new_blades/mudki/water_treatment)
 "eF" = (
 /obj/structure/rod_railing,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -214,35 +476,185 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Grit Removal"
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
-"fn" = (
-/turf/simulated/floor{
-	temperature = 315.15
+"eU" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
 	},
-/area/new_blades/mudki/water_treatment)
-"fK" = (
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 6
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
-"ht" = (
-/obj/effect/decal/fake_object{
-	icon = 'icons/obj/disposals.dmi';
-	icon_state = "pipe-d";
-	layer = 2.01;
-	name = "pipe";
-	pixel_y = 0;
-	pixel_x = -16;
+"fn" = (
+/obj/random/dirt_75,
+/obj/item/stack/rods{
+	pixel_x = 10
+	},
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"fv" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
 	},
-/obj/effect/decal/curb,
-/turf/simulated/floor/exoplanet/water/shallow/moghes{
+/obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"fF" = (
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"fK" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574";
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"fT" = (
+/obj/structure/table/reinforced/steel,
+/obj/machinery/button/remote/blast_door{
+	dir = 5;
+	pixel_y = 3;
+	id = "uv_shutters";
+	pixel_x = 4
+	},
+/obj/machinery/light_switch{
+	dir = 9;
+	pixel_y = 5;
+	pixel_x = -6
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"gd" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ge" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/obj/item/material/shard/shrapnel,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"gp" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574";
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"gM" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"gP" = (
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"hg" = (
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"hs" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ht" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "hC" = (
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
@@ -252,7 +664,11 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
@@ -260,8 +676,50 @@
 /obj/structure/disposalpipe/broken{
 	dir = 8
 	},
-/obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
 /turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"hL" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574";
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"hN" = (
+/obj/effect/map_effect/window_spawner/full/reinforced{
+	frame_color = "#676661";
+	color = "#676661"
+	},
+/obj/machinery/door/blast/shutters/open{
+	id = "grit_removal_B"
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"hP" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -280,6 +738,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"hU" = (
+/obj/machinery/conveyor{
+	id = "bar_screening_disp"
+	},
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "hX" = (
 /obj/effect/decal/curb,
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -291,11 +757,36 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"id" = (
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "ig" = (
 /obj/structure/rod_railing{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -312,24 +803,83 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"it" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "iu" = (
 /turf/simulated/floor/exoplanet/water/shallow/sewage{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
-"iG" = (
-/obj/machinery/light/small/emergency{
-	dir = 1
+"iA" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
 	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574";
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
-"jc" = (
-/obj/machinery/light/small/emergency{
-	dir = 8
+"iD" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
+"iG" = (
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"iT" = (
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/obj/item/stack/rods{
+	pixel_x = -8;
+	pixel_y = -10
+	},
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"iU" = (
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"jc" = (
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -372,12 +922,38 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"js" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/paper_scanner{
+	pixel_x = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"jv" = (
+/obj/effect/floor_decal/corner/yellow,
+/obj/effect/floor_decal/industrial/warning/dust/corner,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "jw" = (
 /obj/machinery/conveyor{
 	dir = 5;
 	id = "bar_screening_A";
 	reversed = 1
 	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"jx" = (
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -387,13 +963,29 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"jL" = (
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 5
+	},
+/obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "jV" = (
 /obj/random/junk,
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "bar_screening_A"
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -401,16 +993,40 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/outline/emergency_closet,
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline/security,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"jY" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "km" = (
 /obj/machinery/computer/terminal/purifier,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"kn" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -419,7 +1035,20 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Disposals"
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"kD" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -432,6 +1061,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -446,7 +1076,8 @@
 	id = "bar_screening_B";
 	reversed = 1
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -463,9 +1094,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"kW" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
 "lq" = (
 /obj/effect/decal/curb{
 	dir = 6
+	},
+/obj/effect/decal/fake_object{
+	icon = 'icons/obj/disposals.dmi';
+	icon_state = "pipe-d";
+	layer = 2.01;
+	name = "pipe";
+	pixel_y = 0;
+	dir = 1
 	},
 /turf/simulated/floor/exoplanet/water/shallow/moghes{
 	temperature = 315.15
@@ -483,6 +1131,27 @@
 	name = "circulator"
 	},
 /turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"lD" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"lQ" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -507,6 +1176,7 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -516,13 +1186,27 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "mn" = (
 /obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"mr" = (
+/obj/structure/platform_stairs,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -530,6 +1214,7 @@
 /obj/structure/lattice/catwalk/indoor,
 /obj/machinery/power/portgen/basic,
 /obj/structure/cable,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -538,7 +1223,11 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/tiled{
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -546,8 +1235,8 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/outline/emergency_closet,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -605,7 +1294,17 @@
 /obj/item/stack/cable_coil{
 	amount = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"mS" = (
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -613,7 +1312,29 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/tiled{
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"nr" = (
+/obj/effect/decal/fake_object{
+	icon = 'icons/obj/machinery/fusion.dmi';
+	icon_state = "injector0";
+	density = 1;
+	dir = 8;
+	pixel_y = 0;
+	name = "sewage pump"
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -624,7 +1345,6 @@
 	layer = 2.01;
 	name = "pipe";
 	pixel_y = 0;
-	pixel_x = -16;
 	dir = 1
 	},
 /obj/effect/decal/curb{
@@ -638,13 +1358,16 @@
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/full{
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "nK" = (
 /obj/structure/disposalpipe/junction,
 /obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -656,18 +1379,28 @@
 /obj/structure/disposalpipe/broken{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"nO" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
 "nT" = (
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "bar_screening_A"
 	},
 /obj/random/junk,
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -679,19 +1412,91 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"nW" = (
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "or" = (
 /turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"ox" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "oI" = (
 /obj/structure/platform,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"oJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"oK" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/folder/yellow{
+	pixel_y = 4;
+	pixel_x = -12
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_y = 4;
+	id = "grit_removal_B"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"oR" = (
+/obj/structure/cryofeed{
+	pixel_x = -2;
+	pixel_y = 0
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "oS" = (
 /obj/machinery/light/colored/decayed,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -700,7 +1505,8 @@
 /obj/structure/platform_deco{
 	dir = 4
 	},
-/turf/simulated/floor/tiled{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -711,7 +1517,17 @@
 /obj/item/stack/cable_coil{
 	amount = 2
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"pl" = (
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -719,10 +1535,8 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/tiled{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -734,6 +1548,7 @@
 	dir = 4
 	},
 /obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -748,7 +1563,7 @@
 	dir = 4;
 	id = "bar_screening_A"
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -757,6 +1572,38 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"pR" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"pY" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574";
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "pZ" = (
 /obj/machinery/light/colored/decayed,
 /obj/structure/closet/crate/rad{
@@ -768,7 +1615,9 @@
 /obj/item/stack/material/graphite{
 	amount = 25
 	},
-/turf/simulated/floor/tiled/gridded{
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -784,6 +1633,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"qh" = (
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "qm" = (
 /obj/machinery/conveyor{
 	dir = 6;
@@ -794,7 +1658,8 @@
 	dir = 8
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -808,7 +1673,13 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -819,6 +1690,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -831,11 +1703,48 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"qV" = (
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"qY" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "bar_screening_B"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ra" = (
+/obj/machinery/portable_atmospherics/canister/oxygen{
+	start_pressure = 101.35
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "rp" = (
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/full{
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -843,6 +1752,19 @@
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"rs" = (
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 5
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -860,6 +1782,78 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"rI" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"rM" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"sa" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/obj/item/material/shard/shrapnel,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"sd" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"sh" = (
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574";
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "sn" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -869,11 +1863,68 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"st" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"sF" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"sI" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "sJ" = (
 /obj/machinery/conveyor{
 	dir = 1;
 	id = "bar_screening_B"
 	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"sW" = (
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"tc" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ti" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 8
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -893,7 +1944,31 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"tm" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow,
+/obj/effect/floor_decal/industrial/warning/dust/corner,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"tJ" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -919,10 +1994,46 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"us" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	insecure = 0;
+	name = "Water Treatment Plant";
+	dir = 2
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "uA" = (
 /obj/machinery/conveyor_switch{
 	id = "bar_screening_disp"
 	},
+/obj/effect/floor_decal/industrial/outline_corner{
+	color = "#b19664"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"uH" = (
+/obj/structure/cryofeed{
+	pixel_x = 2;
+	pixel_y = 0;
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -935,9 +2046,66 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"uS" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Screening"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"uX" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"vg" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "vl" = (
 /turf/simulated/wall/concrete,
 /area/new_blades/mudki/water_treatment/UV_room)
+"vF" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574";
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "vI" = (
 /obj/structure/rod_railing{
 	pixel_x = -7;
@@ -976,7 +2144,20 @@
 	dir = 8;
 	id = "bar_screening_B"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"vS" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -985,7 +2166,18 @@
 	id = "bar_screening_disp"
 	},
 /obj/structure/plasticflaps,
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"wb" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -998,6 +2190,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor,
 /obj/structure/cable,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -1007,7 +2200,39 @@
 	dir = 6;
 	id = "bar_screening_B"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"wy" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"wI" = (
+/obj/item/material/shard/shrapnel,
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"wL" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1027,7 +2252,16 @@
 /area/new_blades/mudki/water_treatment)
 "wT" = (
 /obj/structure/table/reinforced/steel,
-/turf/simulated/floor/tiled/full{
+/obj/item/device/flashlight{
+	pixel_x = 14;
+	pixel_y = 3
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_y = 4;
+	id = "grit_removal_A"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1035,7 +2269,14 @@
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1044,6 +2285,35 @@
 	dir = 4;
 	icon_state = "pipe-j2"
 	},
+/obj/random/dirt_75,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"xs" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"xz" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -1073,7 +2343,27 @@
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/loading{
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_segment/grey,
+/obj/effect/floor_decal/industrial/outline_segment/grey{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"xV" = (
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1090,7 +2380,8 @@
 /area/new_blades/mudki/water_treatment)
 "ye" = (
 /obj/machinery/botany/extractor,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1098,7 +2389,8 @@
 /obj/machinery/conveyor{
 	id = "bar_screening_A"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1114,6 +2406,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"yk" = (
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "yn" = (
 /obj/structure/disposalpipe/broken{
 	dir = 4
@@ -1125,6 +2426,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -1136,7 +2438,17 @@
 /obj/machinery/conveyor{
 	id = "bar_screening_A"
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"yw" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1150,6 +2462,10 @@
 	dir = 4
 	},
 /obj/structure/railing/mapped,
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -1159,7 +2475,43 @@
 	dir = 1
 	},
 /obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
 /turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"yH" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/closet/secure_closet/custodial/offship,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"yU" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/item/material/shard/shrapnel,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"zm" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1167,16 +2519,22 @@
 /obj/machinery/light/small/emergency{
 	dir = 8
 	},
-/turf/simulated/floor/tiled{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "zr" = (
 /obj/machinery/computer/general_air_control/large_tank_control/wall{
-	pixel_y = 32;
+	pixel_y = 28;
 	name = "Aeration Tank Control";
-	input_tag = "aeration_tank_in"
+	input_tag = "aeration_tank_in";
+	pixel_x = 6
 	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -1185,7 +2543,17 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"zz" = (
+/obj/effect/floor_decal/industrial/warning/dust,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1193,26 +2561,37 @@
 /obj/machinery/computer/terminal/purifier{
 	dir = 8
 	},
-/turf/simulated/floor/concrete{
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 4;
+	pixel_x = 3;
+	name = "adjusted railing"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "zI" = (
-/obj/effect/decal/fake_object{
-	icon = 'icons/obj/disposals.dmi';
-	icon_state = "pipe-d";
-	layer = 2.01;
-	name = "pipe";
-	pixel_y = 0;
-	pixel_x = -16
+/obj/machinery/light/colored/decayed{
+	dir = 8
 	},
-/obj/effect/decal/curb{
-	dir = 1
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
 	},
-/turf/simulated/floor/exoplanet/water/shallow/moghes{
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/water_treatment/UV_room)
+/area/new_blades/mudki/water_treatment)
 "zK" = (
 /obj/effect/decal/fake_object{
 	icon = 'icons/obj/machinery/fusion.dmi';
@@ -1241,8 +2620,17 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "zT" = (
-/obj/structure/table/reinforced/steel,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = -6;
+	pixel_y = 1
+	},
+/obj/structure/filingcabinet/security{
+	pixel_x = 9;
+	pixel_y = 1
+	},
+/obj/machinery/light/small/red,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
@@ -1253,12 +2641,49 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Ae" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ak" = (
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Av" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Canister Storage";
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 8
+	},
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"AB" = (
+/obj/random/junk,
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "bar_screening_B"
+	},
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1270,7 +2695,18 @@
 	id = "sewer_shutoff";
 	pixel_x = 1
 	},
-/turf/simulated/floor/concrete{
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 4;
+	pixel_x = 3;
+	name = "adjusted railing"
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1298,18 +2734,72 @@
 /area/new_blades/mudki/water_treatment/UV_room)
 "Bj" = (
 /obj/machinery/light/colored/decayed,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Bn" = (
+/obj/random/dirt_75,
+/obj/item/stack/rods{
+	pixel_y = 10
+	},
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Bq" = (
+/obj/effect/map_effect/window_spawner/full/reinforced{
+	frame_color = "#676661";
+	color = "#676661"
+	},
+/obj/machinery/door/blast/shutters/open{
+	id = "grit_removal_A"
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "BF" = (
 /obj/machinery/pipedispenser/disposal,
-/turf/simulated/floor/tiled/gridded{
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"BH" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_straight/grey{
+	dir = 8
+	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "BO" = (
 /turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Cc" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1324,12 +2814,49 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "Cg" = (
-/turf/simulated/floor/concrete{
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ch" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/modular_computer/laptop/preset/engineering{
+	pixel_y = 8;
+	pixel_x = -8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ck" = (
+/obj/effect/floor_decal/corner/yellow/full,
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "Cl" = (
 /turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Cm" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1361,6 +2888,35 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Cz" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 1;
+	pixel_y = 8;
+	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Dd" = (
+/obj/structure/rod_railing,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Dn" = (
 /obj/structure/platform_deco{
 	dir = 1
@@ -1368,7 +2924,8 @@
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/tiled{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1395,6 +2952,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"DB" = (
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "DJ" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -1418,6 +2985,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -1442,6 +3010,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Ef" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Eg" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Eh" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -1450,15 +3035,68 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"En" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Eo" = (
 /turf/unsimulated/mineral,
 /area/new_blades/underground)
+"EA" = (
+/obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"EG" = (
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574";
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "EY" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/outline/emergency_closet,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline/security,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Fb" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1479,13 +3117,82 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"Fj" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Fk" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Fl" = (
 /obj/machinery/conveyor{
 	dir = 10;
 	id = "bar_screening_B";
 	reversed = 1
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ft" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Fu" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"FI" = (
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1493,7 +3200,14 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1501,7 +3215,8 @@
 /obj/machinery/conveyor{
 	id = "bar_screening_disp"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1515,12 +3230,60 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"FY" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ga" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/cryofeed{
+	pixel_x = -2;
+	pixel_y = 0
+	},
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Gg" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Gh" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#b19664";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Gj" = (
 /obj/machinery/conveyor{
 	dir = 1;
 	id = "bar_screening_A"
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1532,11 +3295,31 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Gy" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "GG" = (
 /obj/machinery/computer/terminal/purifier{
 	dir = 4
 	},
-/turf/simulated/floor/concrete{
+/obj/structure/railing/mapped{
+	dir = 8;
+	pixel_x = -3;
+	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1545,12 +3328,56 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"GT" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor,
+/obj/machinery/light/small/emergency,
+/obj/random/dirt_75,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"GZ" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/modular_computer/handheld/preset/engineering{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Hu" = (
 /obj/structure/disposalpipe/broken{
 	dir = 1
 	},
-/obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
 /turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Hy" = (
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"HE" = (
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1568,10 +3395,20 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"HK" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
 "HM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -1584,19 +3421,70 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"HR" = (
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"HT" = (
+/obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 10
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"HV" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/dust/corner,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Ic" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
 	},
 /obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "Ih" = (
 /obj/machinery/light/small/emergency,
-/turf/simulated/floor/tiled{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1634,7 +3522,24 @@
 	dir = 2
 	},
 /obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
 /turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Is" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#b19664";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_straight/grey{
+	dir = 4
+	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1656,6 +3561,10 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -1670,11 +3579,33 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"IU" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "IX" = (
 /obj/effect/decal/curb{
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ji" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1687,6 +3618,10 @@
 	pixel_y = 0;
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -1710,7 +3645,7 @@
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/tiled{
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1740,16 +3675,18 @@
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
 "Km" = (
-/obj/structure/table/reinforced/steel,
-/obj/machinery/button/remote/blast_door{
-	dir = 5;
-	pixel_y = 2;
-	id = "uv_shutters"
+/obj/item/material/shard/shrapnel,
+/obj/effect/floor_decal/industrial/loading{
+	color = "#6a97b0"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline_segment/grey,
+/obj/effect/floor_decal/industrial/outline_segment/grey{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/water_treatment/UV_room)
+/area/new_blades/mudki/water_treatment)
 "Kn" = (
 /obj/structure/rod_railing{
 	pixel_x = -11;
@@ -1786,7 +3723,21 @@
 	dir = 9;
 	id = "bar_screening_disp"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Kt" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#b19664";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_straight/grey{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1797,15 +3748,22 @@
 /area/new_blades/underground)
 "KD" = (
 /obj/machinery/recharge_station,
-/turf/simulated/floor/tiled/gridded{
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "KE" = (
 /obj/structure/platform,
-/obj/structure/railing/mapped{
-	dir = 1;
-	pixel_y = 12
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"KO" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
@@ -1814,13 +3772,60 @@
 "KS" = (
 /obj/machinery/power/apc/empty/south,
 /obj/structure/cable,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"KY" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "Lr" = (
 /obj/machinery/pipedispenser,
-/turf/simulated/floor/tiled/gridded{
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ls" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Lw" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1830,9 +3835,30 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"LE" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/dust/corner,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "LH" = (
 /obj/item/material/shard/shrapnel,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/loading{
+	color = "#6a97b0";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment/grey{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1842,7 +3868,28 @@
 	icon_state = "pipe-j2"
 	},
 /obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
 /turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"LP" = (
+/obj/machinery/portable_atmospherics/canister/oxygen{
+	start_pressure = 101.35
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1855,6 +3902,18 @@
 	color = "#676661"
 	},
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ma" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1875,6 +3934,25 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Mg" = (
+/obj/machinery/computer/terminal/purifier{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 4;
+	pixel_x = 3;
+	name = "adjusted railing"
+	},
+/turf/simulated/floor/carpet/rubber{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Mi" = (
 /obj/structure/dam{
 	icon_state = "dam7"
@@ -1884,6 +3962,15 @@
 "Mn" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Mo" = (
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1905,7 +3992,8 @@
 /obj/structure/platform_deco{
 	dir = 8
 	},
-/turf/simulated/floor/tiled{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1945,7 +4033,25 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Nk" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Nm" = (
+/obj/effect/floor_decal/industrial/hatch_small/yellow,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1953,7 +4059,10 @@
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1981,13 +4090,38 @@
 /obj/machinery/conveyor_switch/oneway{
 	id = "bar_screening_A"
 	},
-/turf/simulated/floor/tiled{
+/obj/effect/floor_decal/industrial/outline_corner{
+	color = "#b19664"
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "NC" = (
 /obj/machinery/radiocarbon_spectrometer,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ND" = (
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"NE" = (
+/obj/random/dirt_75,
+/obj/item/stack/rods{
+	pixel_x = 10
+	},
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1995,7 +4129,8 @@
 /obj/machinery/conveyor{
 	id = "bar_screening_B"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2009,7 +4144,8 @@
 /obj/machinery/conveyor{
 	id = "bar_screening_disp"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2022,11 +4158,47 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"NX" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Aeration Tank Access"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Oa" = (
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Of" = (
 /obj/machinery/conveyor_switch/oneway{
 	id = "bar_screening_B"
 	},
-/turf/simulated/floor/tiled{
+/obj/effect/floor_decal/industrial/outline_corner{
+	color = "#b19664"
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2037,7 +4209,19 @@
 /obj/machinery/conveyor{
 	id = "bar_screening_disp"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ok" = (
+/obj/structure/rod_railing,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2050,6 +4234,9 @@
 	pixel_y = 0
 	},
 /obj/structure/railing/mapped,
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -2060,16 +4247,34 @@
 	name = "uV Disinfection";
 	dir = 2
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"OY" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Pb" = (
 /obj/machinery/conveyor{
 	dir = 9;
 	id = "bar_screening_A"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2082,8 +4287,30 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Pk" = (
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Pm" = (
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 4
+	},
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -2092,7 +4319,13 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2114,7 +4347,10 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
@@ -2130,6 +4366,46 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"PK" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"PM" = (
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"PQ" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = -6;
+	pixel_y = 1
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 7;
+	pixel_y = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
 "Ql" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -2140,6 +4416,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Qn" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Qp" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/button/remote/blast_door{
@@ -2147,7 +4433,18 @@
 	pixel_y = 2;
 	id = "sewer_shutoff"
 	},
-/turf/simulated/floor/concrete{
+/obj/structure/railing/mapped{
+	dir = 8;
+	pixel_x = -3;
+	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2159,15 +4456,49 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"QD" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"QG" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "QJ" = (
 /turf/simulated/wall/sandstone,
 /area/new_blades/underground)
+"QL" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"QY" = (
+/obj/random/dirt_75,
+/turf/simulated/wall/concrete,
+/area/new_blades/mudki/water_treatment)
 "Rb" = (
 /obj/structure/platform_deco,
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
-/turf/simulated/floor/tiled{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2176,21 +4507,38 @@
 	dir = 4
 	},
 /obj/machinery/light/small/emergency,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Rp" = (
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Rx" = (
-/obj/effect/floor_decal/industrial/outline/emergency_closet,
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
 /obj/item/material/shard/shrapnel,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline/security,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "RE" = (
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 5
+	},
 /obj/machinery/portable_atmospherics/canister/oxygen{
 	start_pressure = 101.35
 	},
@@ -2209,7 +4557,8 @@
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/gridded{
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2225,11 +4574,12 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/outline/emergency_closet,
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline/security,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2239,9 +4589,31 @@
 	},
 /turf/simulated/wall/concrete,
 /area/new_blades/mudki/water_treatment)
+"RZ" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Se" = (
 /obj/effect/decal/curb{
 	dir = 5
+	},
+/obj/effect/decal/fake_object{
+	icon = 'icons/obj/disposals.dmi';
+	icon_state = "pipe-d";
+	layer = 2.01;
+	name = "pipe";
+	pixel_y = 0
 	},
 /turf/simulated/floor/exoplanet/water/shallow/moghes{
 	temperature = 315.15
@@ -2274,6 +4646,20 @@
 /obj/structure/disposalpipe/broken{
 	dir = 4
 	},
+/obj/random/dirt_75,
+/obj/item/stack/rods{
+	pixel_y = 7
+	},
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Sr" = (
+/obj/structure/disposalpipe/broken{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
 /turf/simulated/floor{
 	temperature = 315.15
@@ -2283,6 +4669,10 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Aeration Tank Access"
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -2291,7 +4681,23 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"SU" = (
+/obj/machinery/botany/extractor,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2324,6 +4730,17 @@
 	id = "sewer_shutoff"
 	},
 /turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Tr" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2368,6 +4785,10 @@
 	name = "Maintenance";
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -2381,7 +4802,7 @@
 	dir = 8;
 	id = "bar_screening_B"
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2394,14 +4815,92 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"TO" = (
+/obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment{
+	color = "#6a97b0";
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"TW" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ue" = (
+/obj/random/junk,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "bar_screening_A"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Uo" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/loading{
+	color = "#6a97b0";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment/grey{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/outline_segment/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Uq" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ur" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/pen{
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "Ut" = (
 /obj/structure/disposalpipe/broken,
+/obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
 /turf/simulated/floor{
 	temperature = 315.15
@@ -2413,8 +4912,7 @@
 	icon_state = "pipe-d";
 	layer = 2.01;
 	name = "pipe";
-	pixel_y = 0;
-	pixel_x = -16
+	pixel_y = 0
 	},
 /obj/effect/decal/curb{
 	dir = 9
@@ -2424,10 +4922,41 @@
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
 "UI" = (
-/turf/simulated/floor/tiled/full{
+/obj/structure/table/reinforced/steel,
+/obj/item/paper_bin{
+	pixel_x = 7;
+	pixel_y = 6
+	},
+/obj/item/clipboard{
+	pixel_x = -2
+	},
+/obj/item/pen{
+	pixel_y = 4;
+	pixel_x = 2
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"UL" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#b19664";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "UW" = (
 /turf/simulated/floor/exoplanet/water/shallow/sewage{
 	temperature = 315.15
@@ -2437,7 +4966,39 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Vb" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Vc" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0";
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2449,13 +5010,27 @@
 	dir = 1;
 	id = "bar_screening_B"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Vp" = (
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "Vq" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Sewer Access"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
 	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
@@ -2466,14 +5041,143 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"Vu" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"VA" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"VH" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"VR" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Wd" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Wg" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Wi" = (
+/obj/structure/rod_railing{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Wk" = (
 /obj/structure/cable{
 	icon_state = "1-8"
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Wl" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Wn" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Wq" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Grit Removal"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
 	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Wr" = (
+/obj/structure/disposalpipe/broken{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/item/stack/rods{
+	pixel_y = -7;
+	pixel_x = -8
+	},
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"WA" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
 "WL" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/railing/mapped,
@@ -2485,10 +5189,8 @@
 /obj/structure/platform{
 	dir = 4
 	},
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/tiled{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2496,7 +5198,9 @@
 /obj/structure/closet/crate/tool,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/clothing/gloves/yellow/specialu,
-/turf/simulated/floor/tiled/gridded{
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2505,7 +5209,8 @@
 	dir = 4;
 	id = "bar_screening_A"
 	},
-/turf/simulated/floor/tiled/full{
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2515,6 +5220,15 @@
 	},
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"XI" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor/exoplanet/water/shallow/sewage{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2528,13 +5242,45 @@
 /area/new_blades/mudki/water_treatment)
 "XP" = (
 /obj/structure/closet/toolcloset,
-/turf/simulated/floor/tiled/gridded{
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
 "XV" = (
 /obj/structure/table/reinforced/steel,
-/turf/simulated/floor/concrete{
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	pixel_x = 3;
+	name = "adjusted railing"
+	},
+/obj/structure/railing/mapped{
+	dir = 4;
+	pixel_x = 3;
+	name = "adjusted railing"
+	},
+/obj/item/clipboard{
+	pixel_y = 12;
+	pixel_x = -4
+	},
+/turf/simulated/floor/carpet/rubber{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"XX" = (
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2546,7 +5292,83 @@
 	dir = 1;
 	id = "bar_screening_A"
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Yk" = (
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/item/material/shard/shrapnel,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Yp" = (
+/obj/machinery/light/small/emergency,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Yz" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#6a97b0";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"YF" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/item/material/shard/shrapnel,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"YL" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"YM" = (
+/obj/structure/rod_railing{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2558,16 +5380,62 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Zn" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
 "Zo" = (
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "bar_screening_B"
 	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ZB" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ZM" = (
+/obj/structure/disposalpipe/broken{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/item/material/shard/shrapnel,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ZN" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2597,6 +5465,19 @@
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"ZY" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_straight/grey{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -32314,12 +35195,12 @@ aw
 aw
 wc
 Cg
-Cg
-Cg
-Cg
-dv
+BH
+ZY
+hP
+mr
 nJ
-hC
+yH
 wc
 aw
 aw
@@ -32571,12 +35452,12 @@ wc
 wc
 wc
 zB
-zB
+Mg
 AX
 XV
 KE
-hC
-hC
+dM
+aD
 wc
 wc
 aw
@@ -32824,33 +35705,33 @@ GK
 GK
 GK
 Vq
-fK
-fK
+PM
+wy
 Dn
 WN
 WN
 WN
 WN
 oU
-fK
-fK
-fK
+wy
+wy
+Gg
 wc
 aw
 aw
 aw
 wc
-fK
-JS
-fK
-fK
-fK
-eI
-fK
-JS
-fK
-fK
-fK
+hL
+pY
+vF
+vF
+gp
+Wq
+Ma
+zI
+Ls
+Ma
+pR
 wc
 aw
 aw
@@ -33081,23 +35962,23 @@ GK
 GK
 GK
 wc
-fK
+nW
+tm
+Ma
+Ma
+vg
+TW
+Ma
 FL
-hC
-hC
-FL
-hC
-hC
-FL
-hC
-hC
+Ls
+pR
 mz
 wc
 wc
 wc
 wc
 wc
-tl
+uH
 tl
 tl
 Jv
@@ -33105,9 +35986,9 @@ yx
 wc
 hT
 Ac
-Ac
-Ce
-fK
+QD
+wb
+wL
 wc
 aw
 aw
@@ -33343,7 +36224,7 @@ Cv
 nT
 Lz
 Ii
-jV
+Ue
 Lz
 Cv
 jV
@@ -33359,12 +36240,12 @@ lv
 lv
 lv
 Sl
-Nv
-ye
-hC
-wT
+Bq
+SU
+QG
+GZ
 NV
-fK
+wL
 wc
 aw
 aw
@@ -33597,17 +36478,17 @@ qg
 Kn
 Lz
 mL
-jV
+Ue
 Lz
 bO
-jV
+Ue
 Lz
 bO
-jV
+Ue
 WL
 iu
 iu
-qU
+XI
 wc
 Mi
 Mn
@@ -33616,12 +36497,12 @@ iu
 iu
 iu
 qU
-Nv
+Bq
 km
-hC
+QG
 wT
 NV
-fK
+sd
 wc
 aw
 aw
@@ -33854,13 +36735,13 @@ DJ
 vI
 Lz
 Ne
-jV
+Ue
 Lz
 ZT
-jV
+Ue
 Lz
 ZT
-jV
+Ue
 WL
 DY
 DY
@@ -33873,12 +36754,12 @@ bW
 bW
 bW
 mI
-Nv
+Bq
 NC
-hC
-wT
+QG
+js
 nM
-fK
+Fu
 wc
 aw
 aw
@@ -34109,7 +36990,7 @@ GK
 GK
 GK
 wc
-fK
+XX
 dR
 Pb
 yg
@@ -34118,8 +36999,8 @@ pM
 Gj
 Ya
 jw
-hC
-nn
+sd
+HV
 wc
 wc
 wc
@@ -34129,13 +37010,13 @@ IE
 IE
 IE
 IE
-Op
+Ga
 wc
 hT
-Hu
+Wr
 Ut
 xi
-fK
+yU
 wc
 aw
 aw
@@ -34366,31 +37247,31 @@ GK
 GK
 GK
 Vq
-fK
-hC
-hC
-hC
-hC
+PM
+uX
+Vu
+Vu
+Vb
 WU
-hC
-hC
-hC
-hC
-fK
+lD
+OY
+Vu
+jY
+fF
 bM
+wy
+Vp
+wy
+uS
+iA
+sh
+iA
 fK
-fK
-fK
-fK
-fK
-cH
-fK
-fK
-fK
-eI
-fK
-fK
-fK
+iA
+Wq
+Vu
+YF
+Ck
 NV
 oS
 wc
@@ -34623,17 +37504,17 @@ aw
 aw
 aw
 wc
-fK
-fK
-cH
-fK
-fK
+nW
+wy
+Mo
+wy
+Ak
 WU
 Nz
-fK
-cH
-fK
-fK
+sW
+Mo
+sW
+Cc
 wc
 wc
 wc
@@ -34647,9 +37528,9 @@ wc
 wc
 wc
 wc
-fK
+tJ
 NV
-fK
+wL
 wc
 kK
 ms
@@ -34902,16 +37783,16 @@ aw
 wc
 uA
 jc
-hC
+VH
 wc
-fK
-NV
-fK
+Tr
+yw
+wL
 wc
-Tw
-hC
-hC
-hC
+dF
+QL
+QL
+RZ
 wc
 aw
 aw
@@ -35144,30 +38025,30 @@ aw
 wc
 kM
 vV
+hU
+FO
+FO
+FO
+hU
+hU
 FO
 FO
 FO
 FO
 FO
-FO
-FO
-FO
-FO
-FO
-FO
-FO
+hU
 vV
 qm
-hC
-hC
+pl
+mS
 ko
-fK
-hJ
+IU
+Sr
 SS
 Nf
 Wk
-hC
-hC
+ht
+jx
 pZ
 wc
 aw
@@ -35399,7 +38280,7 @@ wc
 wc
 wc
 wc
-Zo
+qY
 wc
 wc
 wc
@@ -35418,13 +38299,13 @@ Kr
 NT
 Oh
 wc
-fK
+tJ
 Sp
-fK
+wL
 wc
-hC
-hC
-hC
+vS
+vS
+Hy
 WO
 wc
 aw
@@ -35651,17 +38532,17 @@ aw
 aw
 aw
 wc
-fK
-fK
+iU
+sW
 JS
-fK
-fK
+sW
+zz
 Zo
 Of
-fK
-JS
-fK
-fK
+wy
+tc
+wy
+LE
 wc
 wc
 wc
@@ -35675,13 +38556,13 @@ wc
 wc
 wc
 wc
-fK
+tJ
 qH
-fK
+ge
 wc
 BF
 Lr
-rp
+FI
 XP
 wc
 aw
@@ -35908,31 +38789,31 @@ GK
 GK
 GK
 Vq
-fK
-hC
-hC
-hC
-hC
-Zo
-hC
-hC
-hC
-hC
-fK
+PM
+jv
+Ma
+TW
+eU
+qY
+Ft
+Ma
+TW
+pR
+Qn
 bM
-fK
-fK
-fK
-fK
-fK
-JS
-fK
-fK
-fK
+wy
+HE
+wy
+uS
+vF
+pY
+hL
+vF
+vF
 eI
-fK
-fK
-fK
+Ma
+TW
+xV
 tO
 oS
 wc
@@ -36165,8 +39046,8 @@ GK
 GK
 GK
 wc
-fK
-FL
+nW
+Fj
 Fl
 NI
 an
@@ -36174,24 +39055,24 @@ TM
 sJ
 Vf
 wo
-hC
-mz
+sd
+ZB
 wc
 wc
 wc
 wc
 wc
-tl
-tl
-tl
-Jv
+uH
+uH
+uH
+ee
 yx
 wc
 hT
-Ac
+QD
 Ac
 aN
-fK
+wL
 wc
 aw
 aw
@@ -36430,7 +39311,7 @@ Ii
 vO
 Lz
 Cv
-vO
+AB
 WL
 XL
 XL
@@ -36443,12 +39324,12 @@ lv
 lv
 lv
 Sl
-Nv
-NC
-hC
-wT
+hN
+aa
+QG
+Ur
 pi
-fK
+yU
 wc
 wc
 wc
@@ -36691,7 +39572,7 @@ vO
 WL
 iu
 iu
-qU
+XI
 wc
 Mi
 Mn
@@ -36700,18 +39581,18 @@ iu
 iu
 iu
 qU
-Nv
+hN
 km
-hC
-wT
+QG
+oK
 hJ
 KS
 wc
-RE
-Cl
-nJ
-Cl
-Pm
+LP
+qh
+Ae
+HR
+jL
 wc
 aw
 aw
@@ -36938,10 +39819,10 @@ DJ
 vI
 Lz
 Ne
-vO
+AB
 Lz
 Ne
-vO
+AB
 Lz
 ZT
 vO
@@ -36957,17 +39838,17 @@ bW
 bW
 bW
 mI
-Nv
+hN
 ye
-hC
-wT
-Sp
-fK
+QG
+Ch
+ZM
+wL
 wc
-Cl
-Pm
-hC
-Cl
+id
+TO
+KY
+id
 RE
 wc
 aw
@@ -37193,39 +40074,39 @@ GK
 GK
 GK
 wc
-fK
-dR
-hC
-hC
-dR
-hC
-hC
-dR
-hC
-hC
+DB
+ad
+OY
+Vu
+xs
+sI
+OY
+Uq
+Vu
+jY
 nn
 wc
 wc
 wc
 wc
 wc
-IE
-IE
+oR
+oR
 IE
 IE
 Op
 wc
 hT
-Ac
+QD
 Ac
 xi
-fK
+Fu
 wc
+EA
+ra
+KY
 Pm
-RE
-hC
-Pm
-Cl
+qh
 wc
 aw
 aw
@@ -37450,39 +40331,39 @@ GK
 GK
 GK
 Vq
-fK
-fK
+PM
+wy
 Rb
 pt
 pt
 pt
 pt
 MZ
-fK
-fK
-fK
+wy
+wy
+Gg
 wc
 aw
 aw
 aw
 wc
+iA
+EG
+iA
+iA
 fK
+Wq
+Vu
 cH
-fK
-fK
-fK
-eI
-fK
-cH
-fK
-tO
-fK
+Ck
+xz
+fv
 wc
-Pm
-Cl
-hC
-RE
-Pm
+HT
+gP
+KY
+aP
+Oa
 wc
 aw
 aw
@@ -37715,8 +40596,8 @@ GG
 Qp
 dr
 oI
-hC
-hC
+dM
+aD
 wc
 wc
 aw
@@ -37732,8 +40613,8 @@ wc
 wc
 wc
 wc
-tO
-fK
+xz
+wL
 wc
 wc
 wc
@@ -37967,13 +40848,13 @@ aw
 aw
 aw
 wc
-Cg
-Cg
-Cg
-Cg
+UL
+Is
+Kt
+Gh
 dv
 rp
-hC
+yH
 wc
 aw
 aw
@@ -37990,14 +40871,14 @@ aw
 aw
 wc
 tO
-fK
-fK
-JS
-fK
-fK
-fK
-fK
-fK
+rs
+Ma
+sa
+Ma
+rM
+Ma
+Ma
+Ma
 wc
 aw
 aw
@@ -38252,8 +41133,8 @@ mQ
 Hu
 fn
 Ut
-Ac
-Ac
+QD
+QD
 xZ
 wc
 aw
@@ -38504,13 +41385,13 @@ wc
 wc
 wc
 wc
-NV
-hC
-hC
-Tw
-hC
-hC
-hC
+yw
+Yk
+sI
+zm
+Vu
+Vu
+Ck
 pJ
 wc
 wc
@@ -38753,30 +41634,30 @@ aw
 aw
 aw
 wc
-fK
-fK
-fK
+Wd
+ND
+Cl
 zp
-fK
-fK
+ND
+qV
 SH
-hC
-Zi
-hC
-hC
+IU
+Lw
+wL
+ht
 Tw
-hC
-hC
-hC
+ht
+ht
+tJ
 Zi
-hC
-SH
-fK
-fK
-zp
-fK
-fK
-fK
+ZN
+NX
+VA
+Ef
+Pk
+hg
+Cl
+Nk
 wc
 aw
 aw
@@ -39010,30 +41891,30 @@ aw
 aw
 aw
 wc
-fK
-tj
-tj
-tj
-hC
-hC
-wc
+Wn
+aH
+lQ
+aH
+ht
+ht
+QY
+Eg
+mg
+UY
+ht
+dm
+KO
+ht
 mn
 mg
 UY
-hC
-Tw
-hC
-hC
-mn
-mg
-UY
 wc
 hC
 hC
-tj
-tj
-tj
-fK
+aH
+aH
+aH
+Wl
 wc
 aw
 aw
@@ -39267,7 +42148,7 @@ aw
 aw
 aw
 wc
-fK
+Wd
 tj
 wc
 wc
@@ -39278,7 +42159,7 @@ wc
 wc
 wc
 wc
-Tw
+ti
 aT
 wc
 wc
@@ -39289,8 +42170,8 @@ wc
 wc
 wc
 wc
-tj
-fK
+aH
+Fb
 wc
 aw
 aw
@@ -39524,7 +42405,7 @@ aw
 aw
 aw
 wc
-fK
+bL
 hC
 wc
 nU
@@ -39535,9 +42416,9 @@ lT
 wc
 jW
 Pu
-Wk
-hC
-hC
+ox
+Cm
+eb
 jW
 wc
 nU
@@ -39547,7 +42428,7 @@ Qy
 lT
 wc
 hC
-fK
+Fb
 wc
 aw
 aw
@@ -39782,7 +42663,7 @@ aw
 aw
 wc
 iG
-hC
+ht
 wc
 qc
 BO
@@ -39791,11 +42672,11 @@ BO
 PH
 LQ
 xe
-Ff
-hC
-hC
+YL
+ht
+ht
 tj
-xe
+Vc
 HM
 hX
 BO
@@ -39803,8 +42684,8 @@ BO
 BO
 IX
 wc
-hC
-Ih
+ht
+Yp
 wc
 aw
 aw
@@ -40038,9 +42919,9 @@ aw
 aw
 aw
 wc
-fK
-hC
-eF
+aZ
+ht
+Dd
 qc
 BO
 BO
@@ -40048,10 +42929,10 @@ BO
 PH
 zP
 LH
-Ff
-hC
-hC
-tj
+YL
+ht
+ht
+aH
 xQ
 zP
 hX
@@ -40059,9 +42940,9 @@ BO
 BO
 BO
 IX
-ig
-hC
-fK
+Wi
+ht
+Nk
 wc
 aw
 aw
@@ -40296,7 +43177,7 @@ aw
 aw
 wc
 wc
-tj
+aH
 eF
 qc
 BO
@@ -40304,11 +43185,11 @@ BO
 BO
 PH
 eA
-aS
-Ff
+Fk
+YL
 wc
 zr
-tj
+aH
 aS
 yi
 hX
@@ -40554,7 +43435,7 @@ aw
 aw
 wc
 tj
-eF
+Ok
 qc
 BO
 tZ
@@ -40562,10 +43443,10 @@ BO
 IX
 wc
 mA
-Tw
+PK
 wc
 Ec
-hC
+Cz
 mA
 wc
 qc
@@ -40573,8 +43454,8 @@ BO
 Ql
 BO
 IX
-ig
-tj
+Wi
+aH
 wc
 aw
 aw
@@ -40810,7 +43691,7 @@ aw
 aw
 aw
 wc
-tj
+aH
 eF
 qc
 BO
@@ -40819,10 +43700,10 @@ BO
 IX
 wc
 EY
-Tw
+PK
 wc
 bs
-hC
+Cz
 EY
 wc
 qc
@@ -40830,8 +43711,8 @@ BO
 tZ
 BO
 IX
-ig
-tj
+Wi
+aH
 wc
 aw
 aw
@@ -41067,8 +43948,8 @@ aw
 aw
 wc
 wc
-tj
-eF
+aH
+Dd
 qc
 BO
 BO
@@ -41080,15 +43961,15 @@ Ff
 wc
 wc
 tj
-LH
+dK
 HM
 hX
 BO
 BO
 BO
 IX
-ig
-tj
+YM
+aH
 wc
 wc
 aw
@@ -41323,9 +44204,9 @@ aw
 aw
 aw
 wc
-fK
-hC
-eF
+aZ
+ht
+Dd
 qc
 BO
 BO
@@ -41333,11 +44214,11 @@ BO
 PH
 zP
 Uo
-Ff
-hC
-hC
-tj
-LH
+YL
+ht
+ht
+aH
+Km
 zP
 hX
 BO
@@ -41345,8 +44226,8 @@ BO
 BO
 IX
 ig
-hC
-fK
+ht
+Fb
 wc
 aw
 aw
@@ -41581,7 +44462,7 @@ aw
 aw
 wc
 iG
-hC
+ht
 wc
 TN
 Mb
@@ -41589,12 +44470,12 @@ Gw
 Mb
 Pv
 eA
-LH
+wI
 Ff
-hC
-hC
-tj
-aS
+ht
+ht
+aH
+Yz
 yi
 wM
 Mb
@@ -41837,30 +44718,30 @@ aw
 aw
 aw
 wc
-fK
+Wd
 hC
 wc
 Pi
 il
-Cg
+Nm
 il
 Nr
 wc
 Rx
 qq
 zt
-hC
-hC
+kD
+yk
 RP
 wc
 Pi
 il
-Cg
+Nm
 il
 Nr
 wc
-hC
-fK
+ht
+gd
 wc
 aw
 aw
@@ -42094,7 +44975,7 @@ aw
 aw
 aw
 wc
-fK
+Gy
 tj
 wc
 wc
@@ -42105,8 +44986,8 @@ wc
 wc
 wc
 wc
-Tw
-aT
+bg
+us
 wc
 wc
 wc
@@ -42117,7 +44998,7 @@ wc
 wc
 wc
 tj
-fK
+Fb
 wc
 aw
 aw
@@ -42351,30 +45232,30 @@ aw
 aw
 aw
 wc
-fK
-tj
-tj
-tj
-zK
-hC
-zK
-hC
+Gy
+aH
+aH
+aH
+nr
+ht
+nr
+ht
 wc
-hC
-hC
-Tw
-hC
-hC
-hC
+Ef
+FY
+oJ
+gM
+rI
+Ef
 wc
+ht
+nr
 hC
 zK
-hC
-zK
 tj
+aH
 tj
-tj
-fK
+Fb
 wc
 aw
 aw
@@ -42608,30 +45489,30 @@ aw
 aw
 aw
 wc
-fK
-fK
-fK
+Wd
+Ef
+ND
 rq
-NV
-fK
-NV
-fK
+yw
+it
+yw
+Rp
 SH
-hC
-hC
-Tw
-hC
-hC
-hC
+sF
+FY
+kn
+ht
+rI
+qV
 SH
-hC
+bD
 NV
-hC
-NV
+hs
+yw
 rq
-fK
-fK
-fK
+Cl
+ND
+ew
 wc
 aw
 aw
@@ -42875,10 +45756,10 @@ RY
 wc
 wc
 wc
-hC
-Tw
-hC
-hC
+Wg
+kn
+ht
+rI
 wc
 wc
 wc
@@ -43126,22 +46007,22 @@ aw
 aw
 aw
 wc
-NV
-hC
+yw
+st
 NV
 wc
 aw
 wc
 Nn
-Tw
-hC
+dm
+Ji
 Bj
 wc
 aw
 wc
 HI
-hC
-NV
+st
+yw
 wc
 aw
 aw
@@ -43383,8 +46264,8 @@ aw
 aw
 aw
 wc
-nM
-hC
+cC
+En
 IG
 wc
 aw
@@ -43397,8 +46278,8 @@ vl
 aw
 wc
 yn
-hC
-NV
+En
+yw
 wc
 aw
 aw
@@ -43641,21 +46522,21 @@ aw
 wc
 wc
 HI
-hC
-NV
+Bn
+yw
 vl
 vl
 vl
 PA
 hI
-UI
-UI
+kW
+kW
 vl
 vl
 vl
 NV
-hC
-NV
+NE
+yw
 wc
 wc
 aw
@@ -43901,17 +46782,17 @@ LJ
 aJ
 me
 vl
-zT
-UI
-UI
-UI
-UI
-UI
-UI
+cg
+HK
+Zn
+WA
+Zn
+Zn
+nO
 zT
 vl
 Iu
-Ac
+QD
 nK
 Ce
 wc
@@ -44154,23 +47035,23 @@ aw
 aw
 wc
 DQ
-hC
-hC
-hC
+En
+En
+En
 vl
-zT
-UI
-UI
-Km
+by
+HK
+fT
+bt
 bt
 UI
-UI
-zT
+iD
+PQ
 vl
-hC
-hC
-hC
-IG
+En
+En
+En
+GT
 wc
 aw
 aw
@@ -44410,8 +47291,9 @@ aw
 aw
 aw
 wc
-NV
-hC
+yw
+En
+vl
 vl
 vl
 vl
@@ -44420,13 +47302,12 @@ Ty
 Ty
 Ty
 Ty
-Ty
-Ty
 vl
 vl
 vl
 vl
-hC
+vl
+En
 NV
 wc
 aw
@@ -44668,7 +47549,7 @@ aw
 aw
 wc
 Ir
-Ac
+QD
 vl
 lq
 Fi
@@ -44924,10 +47805,10 @@ aw
 aw
 aw
 wc
-NV
-hC
+yw
+En
 vl
-ht
+DP
 xJ
 bP
 jj
@@ -44938,9 +47819,9 @@ bP
 jj
 bP
 cD
-zI
+RN
 vl
-hC
+En
 pJ
 wc
 aw
@@ -45182,7 +48063,7 @@ aw
 aw
 wc
 DQ
-hC
+En
 vl
 DP
 kQ
@@ -45197,7 +48078,7 @@ bP
 MA
 RN
 vl
-hC
+iT
 Rl
 wc
 aw
@@ -45438,7 +48319,7 @@ aw
 aw
 aw
 wc
-Iu
+VR
 Ac
 vl
 nB

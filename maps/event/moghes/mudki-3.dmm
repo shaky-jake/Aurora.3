@@ -440,6 +440,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"dE" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/machinery/light/broken{
+	dir = 1
+	},
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "dG" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 8
@@ -537,6 +546,10 @@
 	insecure = 0;
 	name = "Water Treatment Plant";
 	dir = 2
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
 	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
@@ -1081,12 +1094,13 @@
 	},
 /area/new_blades)
 "ho" = (
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#ffffff";
-	light_power = 0.3;
-	light_range = 6
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -1294,6 +1308,13 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"ji" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/machinery/light/broken,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "jj" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -1476,11 +1497,9 @@
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
 "kI" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/light/colored/decayed{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/gridded{
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2377,6 +2396,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"rv" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "rw" = (
 /obj/machinery/vending/engineering,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2392,12 +2417,7 @@
 	},
 /area/new_blades)
 "rE" = (
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#ffffff";
-	light_power = 0.2;
-	light_range = 10
-	},
-/turf/simulated/floor/tiled/full{
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -3045,8 +3065,8 @@
 /turf/unsimulated/floor,
 /area/new_blades/underground)
 "vQ" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/gridded{
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -3588,8 +3608,17 @@
 	},
 /area/new_blades)
 "Ab" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/light/colored/decayed,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 10
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -3625,6 +3654,15 @@
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"Ap" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Au" = (
 /obj/machinery/body_scanconsole,
 /obj/effect/floor_decal/spline/plain/green{
@@ -4875,6 +4913,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"IU" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "IW" = (
 /obj/structure/shipping_container{
 	icon_state = "green3"
@@ -5451,6 +5498,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"NE" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "NF" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -5592,6 +5648,13 @@
 	pixel_y = 8;
 	name = "adjusted railing"
 	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -5620,6 +5683,12 @@
 	},
 /area/new_blades)
 "OX" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -5926,6 +5995,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Rw" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.3;
+	light_range = 6
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Rx" = (
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
@@ -6019,7 +6099,22 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Catwalk Access"
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Sn" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -6223,6 +6318,14 @@
 	},
 /turf/simulated/open,
 /area/new_blades)
+"Uf" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Ul" = (
 /obj/structure/shipping_container{
 	icon_state = "grey1"
@@ -6653,6 +6756,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Xv" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 10
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Xy" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -43498,7 +43617,7 @@ ti
 AK
 Pq
 xO
-xO
+Rw
 xO
 xO
 ky
@@ -43755,7 +43874,7 @@ Si
 wX
 Cn
 Cn
-gv
+IU
 dV
 Cn
 Cn
@@ -44012,8 +44131,8 @@ jw
 oF
 Cn
 vQ
-ho
-gv
+Sn
+Xv
 vQ
 Cn
 Gq
@@ -44268,10 +44387,10 @@ lb
 TY
 Cn
 Cn
-kI
-gv
+vQ
 rE
-Ab
+rE
+vQ
 Cn
 Cn
 oU
@@ -44524,12 +44643,12 @@ Up
 Ae
 Jq
 Cn
-gv
-OX
-OX
-OX
+Ap
 OX
 gv
+gv
+NE
+ji
 Cn
 uX
 Ae
@@ -44781,12 +44900,12 @@ pM
 DY
 rR
 Sl
-gv
+vQ
 OX
 Cn
 Cn
-OX
-gv
+NE
+vQ
 Sl
 rR
 Ae
@@ -45038,12 +45157,12 @@ pM
 Ae
 Jq
 Cn
-vQ
+rv
 OX
 Cn
 tP
 ON
-vQ
+rv
 Cn
 uX
 Ae
@@ -45295,12 +45414,12 @@ pM
 Ae
 Jq
 Cn
-vQ
+rv
 OX
 Cn
 tP
 ON
-vQ
+rv
 Cn
 uX
 Ae
@@ -45552,12 +45671,12 @@ pM
 DY
 rR
 Sl
-gv
+vQ
 OX
 Cn
-gv
-OX
-gv
+Uf
+NE
+vQ
 Sl
 Iu
 Ae
@@ -45809,12 +45928,12 @@ ai
 Ae
 Jq
 Cn
-gv
-OX
-OX
-OX
+dE
 OX
 gv
+gv
+NE
+kI
 Cn
 uX
 Ae
@@ -46067,10 +46186,10 @@ mt
 ep
 Cn
 Cn
-kI
-gv
+vQ
 rE
-Ab
+rE
+vQ
 Cn
 Cn
 vj
@@ -46326,7 +46445,7 @@ JR
 Cn
 vQ
 ho
-gv
+Ab
 vQ
 Cn
 dJ
@@ -46582,7 +46701,7 @@ KL
 DS
 Cn
 Cn
-gv
+IU
 dV
 Cn
 Cn
@@ -46839,7 +46958,7 @@ mb
 oZ
 Pq
 xO
-xO
+Rw
 xO
 xO
 yl
