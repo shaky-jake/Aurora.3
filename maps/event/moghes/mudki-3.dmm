@@ -298,7 +298,7 @@
 /area/new_blades)
 "ce" = (
 /obj/structure/platform_deco,
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -327,11 +327,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cw" = (
+/obj/structure/toilet,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cx" = (
 /obj/structure/platform_deco{
 	dir = 8
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -358,6 +364,19 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"cT" = (
+/obj/machinery/appliance/cooker/stove,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades)
+"cY" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/black,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dd" = (
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
@@ -366,6 +385,20 @@
 	dir = 4
 	},
 /turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"dg" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/machinery/button/remote/blast_door{
+	dir = 4;
+	pixel_x = 22;
+	pixel_y = 4;
+	id = "water_treatment_east"
+	},
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -445,6 +478,7 @@
 /obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -518,6 +552,12 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"dQ" = (
+/obj/item/reagent_containers/food/drinks/bottle,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dS" = (
 /obj/machinery/door/blast/regular/open,
 /obj/machinery/door/airlock/multi_tile{
@@ -645,14 +685,35 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"eh" = (
+/obj/item/device/flashlight/lamp/off,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ej" = (
 /obj/machinery/seed_extractor,
 /obj/effect/floor_decal/industrial/outline/service,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"ek" = (
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "en" = (
 /obj/effect/decal/road_marking/no_pass,
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"eo" = (
+/obj/structure/bed/padded,
+/obj/structure/curtain/open/bed,
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -682,6 +743,12 @@
 /obj/machinery/light,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"ew" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ez" = (
 /obj/machinery/conveyor{
 	dir = 4
@@ -700,6 +767,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"eG" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
 "eH" = (
 /obj/structure/platform/ledge,
 /turf/simulated/floor/exoplanet/desert{
@@ -713,7 +788,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -802,6 +877,27 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"fk" = (
+/obj/item/reagent_containers/food/condiment/shaker/spacespice{
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_x = -4;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_x = 8;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/condiment/enzyme{
+	pixel_x = -9;
+	pixel_y = 9
+	},
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "fq" = (
 /obj/machinery/light/floor{
 	pixel_x = 16
@@ -832,6 +928,12 @@
 	},
 /turf/simulated/floor,
 /area/shuttle/scc_evac)
+"fx" = (
+/obj/structure/bed/stool/chair/sofa/left/beige,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "fy" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
@@ -876,6 +978,34 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"fR" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/platform{
+	dir = 4
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"fS" = (
+/obj/item/trash/wooden_platter,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"fU" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "fW" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -917,6 +1047,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"gk" = (
+/obj/structure/platform_deco,
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gq" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -929,6 +1065,7 @@
 	},
 /area/new_blades)
 "gv" = (
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -1037,6 +1174,12 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"gR" = (
+/obj/structure/closet/cabinet,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gU" = (
 /obj/structure/closet/secure_closet/freezer/kois/spores,
 /obj/effect/floor_decal/industrial/outline/service,
@@ -1093,6 +1236,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"hm" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ho" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -1100,6 +1251,7 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -1175,6 +1327,25 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"ij" = (
+/obj/item/reagent_containers/cooking_container/board,
+/obj/item/reagent_containers/cooking_container/board/bowl{
+	pixel_y = 5
+	},
+/obj/item/material/kitchen/utensil/knife{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"ip" = (
+/obj/structure/sink,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iq" = (
 /obj/structure/bed/stool/chair/sofa/pew/right,
 /turf/simulated/floor/sidewalk/flat{
@@ -1191,6 +1362,41 @@
 	icon_state = "blue3"
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"iy" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"iA" = (
+/obj/structure/platform_deco{
+	dir = 4
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"iD" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "water_treatment_east"
+	},
+/obj/structure/sign/securearea{
+	name = "\improper WATER TREATMENT PLANT sign";
+	desc = "A warning sign which reads \"WATER TREATMENT PLANT\".";
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -1217,7 +1423,7 @@
 /obj/structure/platform{
 	dir = 4
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -1280,6 +1486,15 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"jd" = (
+/obj/structure/chainlink_fence,
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jh" = (
 /obj/structure/table/standard,
 /obj/item/device/radio/off{
@@ -1368,6 +1583,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"jE" = (
+/obj/structure/chainlink_fence,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"jG" = (
+/obj/structure/railing/mapped,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jL" = (
 /obj/machinery/papershredder,
 /turf/simulated/floor/sidewalk/flat{
@@ -1390,6 +1620,14 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"jR" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jU" = (
 /obj/effect/decal/road_marking/crosswalk{
 	dir = 8
@@ -1435,7 +1673,13 @@
 /obj/structure/platform{
 	dir = 4
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
+"kq" = (
+/obj/item/newspaper,
+/turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -1598,12 +1842,20 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lf" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "lg" = (
 /obj/structure/platform,
 /obj/structure/platform{
 	dir = 8
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -1671,10 +1923,16 @@
 /obj/effect/decal/curb,
 /turf/simulated/open,
 /area/new_blades)
+"lB" = (
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "lC" = (
 /obj/structure/platform_deco,
 /obj/structure/railing/mapped,
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -1950,10 +2208,31 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"ny" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "nE" = (
 /obj/machinery/telecomms/processor/preset_four,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"nG" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "water_treatment_west"
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "nR" = (
 /obj/structure/shipping_container{
 	icon_state = "blue3"
@@ -1961,6 +2240,12 @@
 /obj/effect/overlay/container_logo{
 	icon_state = "heph2"
 	},
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"nX" = (
+/obj/item/broken_bottle,
 /turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
@@ -2007,6 +2292,14 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"oB" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "oC" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -2169,7 +2462,7 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -2192,6 +2485,15 @@
 /obj/structure/rod_railing,
 /turf/simulated/open,
 /area/new_blades)
+"pO" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "pY" = (
 /obj/effect/decal/road_marking/reflector{
 	dir = 1
@@ -2211,7 +2513,10 @@
 /area/new_blades)
 "qj" = (
 /obj/structure/railing/mapped,
-/turf/simulated/floor/concrete{
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -2277,7 +2582,26 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped,
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
+"qC" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"qD" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -2398,6 +2722,7 @@
 /area/new_blades)
 "rv" = (
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
@@ -2417,6 +2742,7 @@
 	},
 /area/new_blades)
 "rE" = (
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -2442,6 +2768,15 @@
 	},
 /obj/effect/landmark/scorcher,
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"rQ" = (
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -2815,6 +3150,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"uf" = (
+/obj/structure/bed/stool/chair/sofa/right/beige,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uh" = (
 /obj/effect/decal/exterior_stairs/half/right{
 	dir = 4
@@ -2857,6 +3198,17 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"um" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uo" = (
 /obj/machinery/telecomms/bus/preset_three,
 /turf/unsimulated/floor,
@@ -2889,6 +3241,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"uP" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uS" = (
 /obj/machinery/floodlight,
 /obj/effect/floor_decal/industrial/outline/research,
@@ -2911,6 +3272,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"va" = (
+/obj/structure/flora/pottedplant/tall,
+/turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -2989,6 +3356,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vD" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "vF" = (
 /obj/machinery/computer/operating{
 	dir = 1
@@ -3008,6 +3384,11 @@
 	frame_color = "#676661"
 	},
 /turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"vH" = (
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -3124,6 +3505,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"wq" = (
+/obj/structure/flora/pottedplant/dead,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ww" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -3146,6 +3533,21 @@
 	dir = 4
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"wy" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 4
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"wC" = (
+/obj/structure/simple_door/wood,
+/turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -3203,6 +3605,20 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"xc" = (
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"xh" = (
+/obj/item/trash/bowl_small,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xk" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 8
@@ -3246,6 +3662,12 @@
 	icon_state = "grey2"
 	},
 /obj/effect/overlay/container_logo,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"xI" = (
+/obj/item/reagent_containers/bowl,
 /turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
@@ -3522,6 +3944,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"zo" = (
+/obj/machinery/appliance/cooker/stove,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "zp" = (
 /obj/machinery/door/blast/shutters{
 	dir = 2
@@ -3546,6 +3974,14 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
+"zC" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "zI" = (
 /obj/effect/decal/road_marking/crosswalk{
 	dir = 8
@@ -3619,6 +4055,7 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -3627,6 +4064,12 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/rod_railing,
 /turf/simulated/open,
+/area/new_blades)
+"Ak" = (
+/obj/item/paper/crumpled,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
 /area/new_blades)
 "Ao" = (
 /obj/effect/floor_decal/industrial/outline/service,
@@ -3663,6 +4106,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"At" = (
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Au" = (
 /obj/machinery/body_scanconsole,
 /obj/effect/floor_decal/spline/plain/green{
@@ -3726,6 +4175,14 @@
 /obj/structure/bed/stool/padded/black,
 /turf/simulated/floor/carpet/rubber,
 /area/new_blades)
+"AC" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
 "AF" = (
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
@@ -3777,6 +4234,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"AO" = (
+/obj/item/lore_radio,
+/turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -3886,6 +4349,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Bx" = (
+/obj/item/trash/board,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Bz" = (
 /turf/unsimulated/wall/riveted,
 /area/new_blades/underground)
@@ -3897,7 +4366,7 @@
 /obj/structure/platform_deco{
 	dir = 4
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -4006,7 +4475,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -4253,6 +4722,17 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"DM" = (
+/obj/machinery/button/remote/blast_door{
+	dir = 8;
+	pixel_x = -22;
+	pixel_y = 4;
+	id = "water_treatment_east"
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "DN" = (
 /obj/machinery/telecomms/bus/preset_four,
 /turf/unsimulated/floor,
@@ -4325,6 +4805,14 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"Ea" = (
+/obj/structure/platform_deco{
+	dir = 8
+	},
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Eb" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
@@ -4387,11 +4875,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Ez" = (
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades)
 "EE" = (
 /obj/structure/platform_deco{
 	dir = 1
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -4422,6 +4915,19 @@
 	},
 /obj/effect/decal/curb,
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"EQ" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "water_treatment_east"
+	},
+/turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -4518,6 +5024,9 @@
 /area/new_blades)
 "Fm" = (
 /obj/structure/railing/mapped,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -4546,6 +5055,12 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"Fr" = (
+/obj/structure/platform,
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Fs" = (
 /obj/effect/decal/cleanable/floor_damage/random_wood_broken,
 /turf/simulated/floor/wood/maple{
@@ -4608,6 +5123,12 @@
 	tiles = 1;
 	dir = 4
 	},
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"FP" = (
+/obj/structure/bed/stool/chair/sofa/beige,
 /turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
@@ -4679,7 +5200,7 @@
 /area/shuttle/scc_evac)
 "Gm" = (
 /obj/structure/platform,
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -4721,6 +5242,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"GK" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades)
 "GL" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 4
@@ -4757,11 +5286,42 @@
 /obj/structure/closet/crate/solar,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"GS" = (
+/obj/machinery/appliance/cooker/oven,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades)
 "GV" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
 	},
 /turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Hd" = (
+/obj/machinery/button/remote/blast_door{
+	dir = 8;
+	pixel_x = -22;
+	pixel_y = 4;
+	id = "water_treatment_east"
+	},
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Hf" = (
+/obj/structure/platform_deco{
+	dir = 1
+	},
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Hh" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -4816,12 +5376,36 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"Ia" = (
+/obj/structure/railing/mapped{
+	dir = 1;
+	pixel_y = 8;
+	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Ij" = (
 /obj/structure/rod_railing,
 /obj/effect/decal/curb{
 	dir = 10
 	},
 /turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Is" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -5088,6 +5672,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Kt" = (
+/obj/structure/trash_pile,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"KB" = (
+/obj/structure/chainlink_fence,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "KE" = (
 /obj/structure/structural_support/side,
 /obj/structure/structural_support,
@@ -5217,6 +5816,15 @@
 /obj/machinery/vending/medical,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"Lj" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Lm" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -5323,7 +5931,16 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/concrete{
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Me" = (
+/obj/structure/flora/pottedplant/largebush,
+/turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -5374,6 +5991,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"MQ" = (
+/obj/item/stack/material/wood/branch,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "MX" = (
 /obj/structure/platform{
 	dir = 1
@@ -5381,7 +6004,7 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -5503,6 +6126,7 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -5540,6 +6164,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"NO" = (
+/obj/structure/coatrack,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -5592,6 +6222,12 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"Oe" = (
+/obj/structure/sign/moghes_memorial,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Oj" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -5617,11 +6253,23 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Op" = (
+/obj/item/reagent_containers/bowl/plate,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "OA" = (
 /obj/effect/decal/curb{
 	dir = 4
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"OB" = (
+/obj/item/tray/tea,
+/turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -5659,6 +6307,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"OR" = (
+/obj/machinery/button/remote/blast_door{
+	dir = 4;
+	pixel_x = 22;
+	pixel_y = 4;
+	id = "water_treatment_east"
+	},
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
 "OS" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -5689,6 +6348,7 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -5763,6 +6423,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"PE" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/effect/decal/curb,
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "PF" = (
 /obj/structure/shipping_container{
 	icon_state = "blue2"
@@ -5830,6 +6497,17 @@
 /obj/effect/floor_decal/industrial/outline/service,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"PW" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Qh" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -5883,6 +6561,12 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"QS" = (
+/obj/structure/coatrack,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "QY" = (
 /obj/structure/shipping_container{
 	icon_state = "red1"
@@ -5995,6 +6679,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Rt" = (
+/obj/structure/closet/cabinet,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Rw" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/effect/decal/fake_object/light_source/invisible{
@@ -6002,6 +6692,7 @@
 	light_power = 0.3;
 	light_range = 6
 	},
+/obj/effect/decal/curb,
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
@@ -6114,6 +6805,7 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -6255,7 +6947,21 @@
 /area/new_blades)
 "TE" = (
 /obj/structure/railing/mapped,
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
+"TF" = (
+/obj/machinery/media/jukebox/gramophone,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"TG" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -6305,7 +7011,7 @@
 /obj/structure/platform{
 	dir = 1
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -6322,10 +7028,22 @@
 /obj/effect/floor_decal/industrial/outline_door/grey{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Uh" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/platform{
+	dir = 4
+	},
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Ul" = (
 /obj/structure/shipping_container{
 	icon_state = "grey1"
@@ -6397,6 +7115,13 @@
 /obj/machinery/telecomms/server/presets/medical,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"US" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/random/dirt_75,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "UT" = (
 /obj/structure/table/rack/retail_shelf{
 	name = "shelves"
@@ -6550,6 +7275,12 @@
 /obj/effect/floor_decal/corner/black,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"VX" = (
+/obj/structure/bed/stool/chair/wood,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Wb" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -6645,6 +7376,12 @@
 "WD" = (
 /turf/simulated/wall/shuttle/scc,
 /area/shuttle/scc_evac)
+"WG" = (
+/obj/machinery/appliance/cooker/oven,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "WI" = (
 /turf/simulated/mineral/planet,
 /area/new_blades/underground)
@@ -6655,7 +7392,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -6715,11 +7452,40 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"WZ" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Xe" = (
+/obj/item/material/hatchet/butch{
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/glass/rag{
+	pixel_x = 9;
+	pixel_y = 2
+	},
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Xj" = (
+/obj/structure/bonfire/fireplace,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Xo" = (
 /obj/structure/platform{
 	dir = 4
 	},
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -6768,6 +7534,7 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -6786,6 +7553,12 @@
 /obj/machinery/telecomms/server/presets/command,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"XC" = (
+/obj/structure/table/stone/marble,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades)
 "XD" = (
 /obj/structure/table/rack/retail_shelf{
 	name = "shelves"
@@ -6829,6 +7602,12 @@
 /obj/machinery/telecomms/server/presets/security,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"Yi" = (
+/obj/structure/table/stone/marble,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Yj" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
@@ -6955,6 +7734,32 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"YP" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 1
+	},
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "water_treatment_west"
+	},
+/obj/structure/sign/securearea{
+	name = "\improper WATER TREATMENT PLANT sign";
+	desc = "A warning sign which reads \"WATER TREATMENT PLANT\".";
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades)
+"YQ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "YS" = (
 /obj/structure/shipping_container{
 	icon_state = "red2"
@@ -6968,11 +7773,20 @@
 /obj/effect/decal/curb,
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"YX" = (
+/turf/space,
+/area/new_blades)
 "YY" = (
 /obj/effect/decal/curb{
 	dir = 10
 	},
 /turf/simulated/floor/asphalt,
+/area/new_blades)
+"YZ" = (
+/obj/structure/curtain/open/bed,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
 /area/new_blades)
 "Zc" = (
 /obj/effect/step_trigger/thrower{
@@ -7196,6 +8010,18 @@
 /obj/structure/closet/wardrobe/red,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"ZP" = (
+/obj/item/device/radio/phone,
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"ZY" = (
+/obj/structure/simple_door/wood,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 
 (1,1,1) = {"
 aK
@@ -16200,15 +17026,15 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+ec
+ec
+ec
+ec
+ec
+ZY
+ec
+ec
 MP
 MP
 vK
@@ -16457,15 +17283,15 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+Rt
+uv
+Zj
+ec
+NO
+Bw
+Kp
+ec
 MP
 MP
 vK
@@ -16714,15 +17540,15 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+eo
+uv
+eo
+ec
+Kp
+Bw
+Hh
+ec
 MP
 MP
 vK
@@ -16971,15 +17797,15 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+ec
+ZY
+ec
+ec
+Kp
+Bw
+Hh
+ec
 MP
 MP
 vK
@@ -17228,15 +18054,15 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+uv
+Is
+qD
+YX
+Bw
+Bw
+Kp
+ec
 MP
 MP
 vK
@@ -17485,15 +18311,15 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+YQ
+hm
+qD
+ec
+ec
+ec
+ec
+ec
 MP
 MP
 vK
@@ -17742,13 +18568,13 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+zC
+zC
+ek
+GK
+cT
+ec
 MP
 MP
 MP
@@ -17999,13 +18825,13 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+Bw
+Bw
+Bw
+GK
+GS
+ec
 MP
 MP
 MP
@@ -18256,13 +19082,13 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+Bw
+Hh
+Bw
+GK
+XC
+ec
 MP
 MP
 MP
@@ -18513,13 +19339,13 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+Bw
+Hh
+Bw
+ec
+ec
+ec
 MP
 MP
 MP
@@ -18770,13 +19596,13 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+Bw
+Bw
+Bw
+wC
+rQ
+ec
 MP
 MP
 MP
@@ -19027,13 +19853,13 @@ WI
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 MP
 MP
 MP
@@ -19802,7 +20628,7 @@ MP
 MP
 MP
 MP
-MP
+ec
 MP
 MP
 MP
@@ -20059,11 +20885,11 @@ MP
 MP
 MP
 MP
+lf
 MP
 MP
-MP
-MP
-MP
+ip
+cw
 MP
 MP
 vK
@@ -20314,13 +21140,13 @@ MP
 MP
 MP
 MP
+At
 MP
-MP
-MP
-MP
-MP
-MP
-MP
+jx
+Ez
+uf
+VX
+cY
 MP
 MP
 vK
@@ -20571,13 +21397,13 @@ MP
 MP
 MP
 MP
+Kt
 MP
-MP
-MP
-MP
-MP
-MP
-MP
+qN
+AG
+FP
+ew
+YZ
 MP
 MP
 vK
@@ -20828,13 +21654,13 @@ MP
 MP
 MP
 MP
+Bx
 MP
-MP
-MP
-MP
-MP
-MP
-MP
+yZ
+mJ
+fx
+Yi
+gR
 MP
 MP
 vK
@@ -21085,13 +21911,13 @@ MP
 MP
 MP
 MP
+nX
 MP
-MP
-MP
-MP
-MP
-MP
-MP
+Kp
+vh
+QS
+fS
+xI
 MP
 MP
 vK
@@ -21342,13 +22168,13 @@ MP
 MP
 MP
 MP
+MQ
 MP
 MP
 MP
-MP
-MP
-MP
-MP
+Me
+OB
+xh
 MP
 MP
 vK
@@ -21599,13 +22425,13 @@ MP
 MP
 MP
 MP
+Ak
 MP
 MP
 MP
-MP
-MP
-MP
-MP
+wq
+dQ
+Op
 MP
 MP
 vK
@@ -21858,10 +22684,10 @@ MP
 MP
 MP
 MP
-MP
-MP
-MP
-MP
+kq
+AO
+va
+lB
 MP
 MP
 MP
@@ -22115,11 +22941,11 @@ MP
 MP
 MP
 MP
-MP
-MP
-MP
-MP
-MP
+eh
+ZP
+TF
+zo
+ij
 MP
 MP
 vK
@@ -22374,9 +23200,9 @@ MP
 MP
 MP
 MP
-MP
-MP
-MP
+Xj
+WG
+Xe
 MP
 MP
 vK
@@ -22632,8 +23458,8 @@ MP
 MP
 MP
 MP
-MP
-MP
+Yi
+fk
 MP
 MP
 vK
@@ -28891,7 +29717,7 @@ uv
 uv
 ec
 uv
-uv
+AG
 uv
 ec
 MP
@@ -29148,7 +29974,7 @@ uv
 ec
 ec
 uv
-uv
+AG
 uv
 ec
 MP
@@ -31247,7 +32073,7 @@ qN
 yZ
 Bw
 Kp
-Bw
+Oe
 Bw
 Kp
 Bw
@@ -36688,11 +37514,11 @@ MP
 MP
 jx
 qN
-ml
+NZ
 dX
 Cy
 dX
-vs
+kX
 qN
 Da
 MP
@@ -36944,13 +37770,13 @@ ec
 MP
 MP
 jx
-qN
-ml
-dX
-Cy
-dX
-vs
-qN
+yZ
+En
+dT
+dT
+dT
+kE
+yZ
 Da
 MP
 MP
@@ -37201,10 +38027,10 @@ ec
 MP
 MP
 jx
-qN
+pG
 NZ
 dX
-Cy
+Vu
 dX
 kX
 qN
@@ -37458,13 +38284,13 @@ ec
 MP
 MP
 jx
-yZ
-En
-dT
-dT
-dT
-kE
-yZ
+qN
+ml
+dX
+Vu
+dX
+vs
+qN
 Da
 MP
 ec
@@ -37715,12 +38541,12 @@ ec
 ec
 MP
 jx
-pG
-NZ
+qN
+ml
 dX
 Vu
 dX
-kX
+vs
 qN
 Da
 MP
@@ -40021,13 +40847,13 @@ qN
 qN
 qN
 qN
+qN
+qN
+qN
+qN
+qN
+qN
 yZ
-qN
-qN
-qN
-qN
-qN
-qN
 qN
 ml
 dX
@@ -40277,15 +41103,15 @@ eW
 eW
 eW
 eW
+eW
+eW
+eW
+eW
+eW
+eW
 OA
 Uu
 OA
-eW
-eW
-eW
-eW
-eW
-eW
 OE
 dX
 Vu
@@ -40535,13 +41361,13 @@ dX
 dX
 dX
 dX
+dX
+dX
+dX
+dX
+dX
+dX
 ZA
-dX
-dX
-dX
-dX
-dX
-dX
 dX
 dX
 dX
@@ -40792,13 +41618,13 @@ FC
 FC
 FC
 FC
+FC
+FC
+SX
+SX
+SX
+FC
 ZA
-SX
-SX
-SX
-SX
-SX
-SX
 SX
 SX
 SX
@@ -41049,13 +41875,13 @@ dX
 dX
 dX
 dX
+dX
+dX
+dX
+dX
+dX
+dX
 ZA
-dX
-dX
-dX
-dX
-dX
-dX
 dX
 dX
 dX
@@ -41305,15 +42131,15 @@ WL
 WL
 WL
 WL
+WL
+WL
+WL
+WL
+WL
+WL
 Qh
 ca
 Qh
-WL
-WL
-WL
-WL
-WL
-WL
 WL
 WL
 WL
@@ -41562,14 +42388,14 @@ qN
 qN
 qN
 qN
+qN
+qN
+qN
+qN
+qN
+qN
 pG
 yZ
-qN
-qN
-qN
-qN
-qN
-qN
 qN
 qN
 qN
@@ -41816,7 +42642,7 @@ ld
 ld
 ld
 ld
-ld
+dg
 ld
 ld
 ld
@@ -42065,28 +42891,28 @@ kX
 qN
 Da
 Fi
+xc
 NC
 NC
 NC
+xc
+NC
+bX
+bX
+bX
+nG
+nG
+nG
+YP
+bX
+bX
+bX
+NC
+xc
 NC
 NC
 NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
-NC
+xc
 Fi
 dX
 Kp
@@ -42322,28 +43148,28 @@ vs
 qN
 Da
 Fi
-dX
-dX
-ce
-pE
-pE
-pE
-cx
-dX
-dX
-Bw
-Kp
 Kp
 Bw
-dX
-dX
-ce
+gk
 pE
-pE
-pE
+ny
+TG
 cx
-dX
-dX
+Kp
+Hd
+jx
+NZ
+kX
+Da
+vH
+Kp
+ce
+TG
+ny
+pE
+Ea
+Bw
+Kp
 Fi
 dX
 Kp
@@ -42579,28 +43405,28 @@ vs
 qN
 Da
 Fi
-dX
-ce
-MX
+Kp
+gk
+fU
 hG
 dB
 hG
-lg
+uP
 cx
-dX
-Bw
-Kp
-Kp
-Bw
-dX
+vH
+jx
+NZ
+kX
+Da
+vH
 ce
-MX
+PW
 hG
 dB
 hG
-lg
-cx
-dX
+Lj
+Ea
+Kp
 Fi
 dX
 Kp
@@ -42843,14 +43669,14 @@ hG
 uq
 Tf
 KL
-lg
-cx
-Bw
-Kp
-Kp
-Bw
-ce
-MX
+uP
+Ea
+jx
+NZ
+kX
+Da
+gk
+PW
 kO
 hG
 uq
@@ -43093,7 +43919,7 @@ vs
 qN
 Da
 Fi
-TX
+Zp
 mN
 TC
 hG
@@ -43103,8 +43929,8 @@ mb
 KL
 Pq
 xO
-xO
-xO
+PE
+vD
 xO
 ky
 mN
@@ -43114,7 +43940,7 @@ uq
 Tf
 mb
 KL
-Gm
+ds
 Fi
 dX
 Kp
@@ -43349,7 +44175,7 @@ dX
 vs
 qN
 Da
-Fi
+jE
 TX
 qJ
 Yb
@@ -43358,12 +44184,12 @@ KE
 Tf
 KP
 Lm
-ds
-Bw
-Kp
-Kp
-Bw
-Zp
+Fr
+jx
+NZ
+kX
+Da
+AC
 qJ
 Yb
 hG
@@ -43372,7 +44198,7 @@ Tf
 KP
 Lm
 Gm
-Fi
+jE
 dX
 Kp
 MP
@@ -43607,7 +44433,7 @@ vs
 qN
 Da
 Fi
-TX
+Zp
 YA
 GO
 hG
@@ -43618,7 +44444,7 @@ AK
 Pq
 xO
 Rw
-xO
+vD
 xO
 ky
 mz
@@ -43628,7 +44454,7 @@ uq
 Tf
 ti
 Si
-Gm
+ds
 Fi
 dX
 Kp
@@ -43865,7 +44691,7 @@ qN
 Da
 Fi
 EE
-iO
+Uh
 Ij
 hG
 uq
@@ -43885,7 +44711,7 @@ uq
 Tf
 Si
 ki
-BE
+iA
 Fi
 dX
 Kp
@@ -44121,7 +44947,7 @@ vs
 qN
 Da
 Fi
-dX
+Kp
 qx
 lz
 hG
@@ -44142,7 +44968,7 @@ WA
 hG
 jw
 WK
-dX
+Kp
 Fi
 dX
 Kp
@@ -44378,7 +45204,7 @@ vs
 qN
 Da
 Fi
-dX
+Kp
 TE
 oU
 lb
@@ -44390,7 +45216,7 @@ Cn
 vQ
 rE
 rE
-vQ
+US
 Cn
 Cn
 oU
@@ -44399,7 +45225,7 @@ CT
 lb
 TY
 Cv
-dX
+Kp
 Fi
 dX
 Kp
@@ -44635,7 +45461,7 @@ vs
 qN
 Da
 Fi
-dX
+Kp
 TE
 uX
 Ae
@@ -44656,7 +45482,7 @@ Up
 Ae
 Jq
 Cv
-dX
+Kp
 Fi
 dX
 Kp
@@ -44891,8 +45717,8 @@ dX
 vs
 qN
 Da
-Fi
-Bw
+KB
+Px
 Fm
 uX
 Ae
@@ -44912,9 +45738,9 @@ Ae
 pM
 Ae
 Jq
-QD
-Bw
-Fi
+WZ
+Px
+KB
 dX
 dX
 dX
@@ -45149,7 +45975,7 @@ vs
 qN
 Da
 Fi
-Kp
+OA
 qj
 uX
 Ae
@@ -45161,7 +45987,7 @@ rv
 OX
 Cn
 tP
-ON
+Ia
 rv
 Cn
 uX
@@ -45170,7 +45996,7 @@ pM
 Ae
 Jq
 LZ
-Kp
+OA
 Fi
 dX
 Kp
@@ -45406,8 +46232,8 @@ vs
 qN
 Da
 Fi
-Kp
-qj
+Qh
+jG
 uX
 Ae
 pM
@@ -45426,8 +46252,8 @@ Ae
 pM
 Ae
 Jq
-LZ
-Kp
+qC
+Qh
 Fi
 dX
 Kp
@@ -45662,16 +46488,16 @@ dX
 vs
 qN
 Da
-Fi
-Bw
-Fm
+jd
+ld
+iy
 uX
 Ae
 pM
 DY
 rR
 Sl
-vQ
+US
 OX
 Cn
 Uf
@@ -45683,9 +46509,9 @@ Ae
 pM
 Ae
 Jq
-QD
-Bw
-Fi
+um
+ld
+jd
 dX
 Kp
 MP
@@ -45920,7 +46746,7 @@ vs
 qN
 Da
 Fi
-dX
+Kp
 TE
 uX
 Ae
@@ -45941,7 +46767,7 @@ ai
 Ae
 Jq
 Cv
-dX
+Kp
 Fi
 dX
 Kp
@@ -46177,7 +47003,7 @@ vs
 qN
 Da
 Fi
-dX
+Kp
 TE
 vj
 mt
@@ -46189,7 +47015,7 @@ Cn
 vQ
 rE
 rE
-vQ
+US
 Cn
 Cn
 vj
@@ -46198,7 +47024,7 @@ hw
 mt
 ep
 Cv
-dX
+Kp
 Fi
 dX
 Kp
@@ -46434,7 +47260,7 @@ vs
 qN
 Da
 Fi
-dX
+Kp
 lC
 qY
 hG
@@ -46446,7 +47272,7 @@ Cn
 vQ
 ho
 Ab
-vQ
+US
 Cn
 dJ
 qY
@@ -46455,7 +47281,7 @@ dB
 hG
 Xy
 eK
-dX
+Kp
 Fi
 dX
 Kp
@@ -46948,7 +47774,7 @@ vs
 qN
 Da
 Fi
-TX
+Zp
 mN
 TC
 hG
@@ -46959,7 +47785,7 @@ oZ
 Pq
 xO
 Rw
-xO
+vD
 xO
 yl
 Ck
@@ -46969,7 +47795,7 @@ uq
 Tf
 mb
 KL
-Gm
+ds
 Fi
 dX
 Kp
@@ -47204,7 +48030,7 @@ dX
 vs
 qN
 Da
-Fi
+jE
 TX
 qJ
 Yb
@@ -47213,12 +48039,12 @@ KE
 Tf
 KP
 Lm
-ds
-Bw
-Kp
-Kp
-Bw
-Zp
+Fr
+jx
+NZ
+kX
+Da
+AC
 qJ
 Yb
 hG
@@ -47227,7 +48053,7 @@ Tf
 KP
 Lm
 Gm
-Fi
+jE
 dX
 Kp
 MP
@@ -47462,7 +48288,7 @@ Wb
 qN
 Da
 Fi
-TX
+Zp
 YA
 GO
 hG
@@ -47472,8 +48298,8 @@ ti
 Si
 Pq
 xO
-xO
-xO
+PE
+vD
 xO
 yl
 YA
@@ -47483,7 +48309,7 @@ uq
 Tf
 ti
 Si
-Gm
+ds
 Fi
 dX
 Kp
@@ -47720,27 +48546,27 @@ qN
 Da
 Fi
 EE
-iO
+Uh
+Ij
+hG
+uq
+Tf
+Si
+wy
+BE
+jx
+NZ
+kX
+Da
+Hf
+fR
 Ij
 hG
 uq
 Tf
 Si
 ki
-BE
-Bw
-Kp
-Kp
-Bw
-EE
-iO
-Ij
-hG
-uq
-Tf
-Si
-ki
-BE
+iA
 Fi
 dX
 Kp
@@ -47976,28 +48802,28 @@ vs
 qN
 Da
 Fi
-dX
-EE
+Kp
+Hf
 iO
 hG
 WA
 hG
-ki
-BE
-dX
-Bw
-Kp
-Kp
-Bw
-dX
+wy
+iA
+vH
+jx
+NZ
+kX
+Da
+vH
 EE
-iO
+fR
 hG
 WA
 hG
-ki
+pO
 BE
-dX
+Kp
 Fi
 dX
 Kp
@@ -48233,28 +49059,28 @@ vs
 qN
 Da
 Fi
-dX
-dX
-EE
-Xo
-Xo
-Xo
-BE
-dX
-dX
-Bw
-Kp
 Kp
 Bw
-dX
-dX
+Hf
+eG
+jR
+Xo
+iA
+Kp
+OR
+jx
+NZ
+kX
+Da
+vH
+Kp
 EE
 Xo
-Xo
-Xo
+jR
+eG
 BE
-dX
-dX
+Bw
+Kp
 Fi
 dX
 Kp
@@ -48460,7 +49286,7 @@ Da
 MP
 MP
 Bw
-Bw
+Oe
 Bw
 MP
 Bw
@@ -48490,28 +49316,28 @@ vs
 qN
 Da
 Fi
+oB
 ub
 ub
 ub
+oB
+ub
+bX
+bX
+bX
+EQ
+EQ
+EQ
+iD
+bX
+bX
+bX
+ub
+oB
 ub
 ub
 ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
+oB
 Fi
 dX
 Kp
@@ -48755,7 +49581,7 @@ dX
 dX
 dX
 dX
-dX
+DM
 dX
 dX
 dX

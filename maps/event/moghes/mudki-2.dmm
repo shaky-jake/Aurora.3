@@ -6,6 +6,29 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"ab" = (
+/obj/structure/cryofeed{
+	pixel_x = 2;
+	pixel_y = 0;
+	dir = 4;
+	name = "sewage feed"
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/obj/random/dirt_75,
+/obj/structure/sign/biohazard{
+	name = "\improper WARNING: SEWAGE sign";
+	desc = "A warning sign which reads \"WARNING: SEWAGE\".";
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "ad" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -57,6 +80,8 @@
 	dir = 1
 	},
 /obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/oil,
 /obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
@@ -121,6 +146,21 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"aW" = (
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/grey,
+/obj/random/dirt_75,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads \"WARNING: SEWER ACCESS\".";
+	name = "\improper SEWER ACCESS sign";
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -283,6 +323,8 @@
 	},
 /obj/item/material/shard/shrapnel,
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/greenglow,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -322,6 +364,17 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"cK" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -426,18 +479,21 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "ee" = (
-/obj/structure/railing/mapped{
-	dir = 8
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/random/dirt_75,
+/obj/item/material/shard/shrapnel,
+/turf/simulated/floor{
+	temperature = 315.15
 	},
-/obj/structure/cryofeed{
-	pixel_x = 2;
-	pixel_y = 0;
-	dir = 4
+/area/new_blades/mudki/water_treatment)
+"er" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
 	},
-/obj/effect/floor_decal/industrial/hatch_small{
-	color = "#8ba574"
-	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -502,6 +558,9 @@
 /obj/item/stack/rods{
 	pixel_x = 10
 	},
+/obj/effect/decal/cleanable/molten_item,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -590,6 +649,7 @@
 /obj/effect/decal/cleanable/floor_damage/rust,
 /obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -631,6 +691,19 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"gS" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -676,6 +749,9 @@
 /obj/structure/disposalpipe/broken{
 	dir = 8
 	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/greenglow,
+/obj/random/dirt_75,
 /obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
@@ -837,6 +913,11 @@
 	dir = 10
 	},
 /obj/random/dirt_75,
+/obj/structure/sign/securearea{
+	pixel_x = 32;
+	name = "\improper WARNING: UV LIGHTS sign";
+	desc = "A warning sign which reads \"WARNING: UV LIGHTS\"."
+	},
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -860,6 +941,7 @@
 	pixel_x = -8;
 	pixel_y = -10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
@@ -958,6 +1040,27 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"jy" = (
+/obj/structure/rod_railing{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
+/obj/structure/sign/biohazard{
+	name = "\improper WARNING: SEWAGE sign";
+	desc = "A warning sign which reads \"WARNING: SEWAGE\".";
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "jA" = (
 /turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
@@ -1014,10 +1117,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"ki" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "km" = (
-/obj/machinery/computer/terminal/purifier,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/random/dirt_75,
+/obj/machinery/computer/terminal/water_treatment,
 /turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
@@ -1077,6 +1193,9 @@
 	reversed = 1
 	},
 /obj/random/dirt_75,
+/obj/structure/sign/crush{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
@@ -1177,6 +1296,7 @@
 	icon_state = "pipe-c"
 	},
 /obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -1215,6 +1335,9 @@
 /obj/machinery/power/portgen/basic,
 /obj/structure/cable,
 /obj/random/dirt_75,
+/obj/structure/sign/electricshock{
+	pixel_x = -32
+	},
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -1294,6 +1417,7 @@
 /obj/item/stack/cable_coil{
 	amount = 1
 	},
+/obj/random/dirt_75,
 /obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
@@ -1381,6 +1505,8 @@
 	},
 /obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
+/obj/effect/decal/cleanable/blood/oil,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -1474,15 +1600,16 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "oR" = (
-/obj/structure/cryofeed{
-	pixel_x = -2;
-	pixel_y = 0
-	},
 /obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch_small{
 	color = "#8ba574"
+	},
+/obj/structure/cryofeed{
+	pixel_x = -2;
+	pixel_y = 0;
+	name = "sewage feed"
 	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
@@ -1517,6 +1644,7 @@
 /obj/item/stack/cable_coil{
 	amount = 2
 	},
+/obj/random/dirt_75,
 /obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
@@ -1563,6 +1691,7 @@
 	dir = 4;
 	id = "bar_screening_A"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
@@ -1679,6 +1808,7 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
 	},
+/obj/item/material/shard/shrapnel,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -1690,6 +1820,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/random/dirt_75,
 /obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
@@ -1819,6 +1950,7 @@
 /obj/effect/decal/cleanable/floor_damage/rust,
 /obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -1936,16 +2068,17 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "tl" = (
-/obj/structure/cryofeed{
-	pixel_x = 2;
-	pixel_y = 0;
-	dir = 4
-	},
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch_small{
 	color = "#8ba574"
+	},
+/obj/structure/cryofeed{
+	pixel_x = 2;
+	pixel_y = 0;
+	dir = 4;
+	name = "sewage feed"
 	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
@@ -1994,6 +2127,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"uo" = (
+/obj/machinery/light/colored/decayed,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "us" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	insecure = 0;
@@ -2022,11 +2169,6 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "uH" = (
-/obj/structure/cryofeed{
-	pixel_x = 2;
-	pixel_y = 0;
-	dir = 4
-	},
 /obj/structure/railing/mapped{
 	dir = 8
 	},
@@ -2034,6 +2176,12 @@
 	color = "#8ba574"
 	},
 /obj/random/dirt_75,
+/obj/structure/cryofeed{
+	pixel_x = 2;
+	pixel_y = 0;
+	dir = 4;
+	name = "sewage feed"
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -2090,6 +2238,17 @@
 "vl" = (
 /turf/simulated/wall/concrete,
 /area/new_blades/mudki/water_treatment/UV_room)
+"vy" = (
+/obj/structure/disposalpipe/junction{
+	dir = 4;
+	icon_state = "pipe-j2"
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "vF" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -2427,6 +2586,8 @@
 	dir = 1
 	},
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/greenglow,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -2438,6 +2599,7 @@
 /obj/machinery/conveyor{
 	id = "bar_screening_A"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
@@ -2456,16 +2618,17 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/cryofeed{
-	pixel_x = 2;
-	pixel_y = 0;
-	dir = 4
-	},
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/hatch_small{
 	color = "#8ba574"
 	},
 /obj/random/dirt_75,
+/obj/structure/cryofeed{
+	pixel_x = 2;
+	pixel_y = 0;
+	dir = 4;
+	name = "sewage feed"
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -2475,6 +2638,8 @@
 	dir = 1
 	},
 /obj/structure/lattice/catwalk/indoor,
+/obj/random/dirt_75,
+/obj/item/material/shard/shrapnel,
 /obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
@@ -2510,6 +2675,7 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
@@ -2558,9 +2724,6 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "zB" = (
-/obj/machinery/computer/terminal/purifier{
-	dir = 8
-	},
 /obj/effect/floor_decal/industrial/outline_corner/grey{
 	dir = 8
 	},
@@ -2573,6 +2736,9 @@
 	name = "adjusted railing"
 	},
 /obj/random/dirt_75,
+/obj/machinery/computer/terminal/water_treatment{
+	dir = 8
+	},
 /turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
@@ -2684,6 +2850,27 @@
 	id = "bar_screening_B"
 	},
 /turf/simulated/floor/tiled/dark/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"AL" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/obj/structure/sign/biohazard{
+	name = "\improper WARNING: SEWAGE sign";
+	desc = "A warning sign which reads \"WARNING: SEWAGE\".";
+	pixel_y = 32
+	},
+/obj/structure/cryofeed{
+	pixel_x = -2;
+	pixel_y = 0;
+	name = "sewage feed"
+	},
+/turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -2856,6 +3043,7 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -2958,6 +3146,11 @@
 	},
 /obj/effect/floor_decal/industrial/outline_door/grey,
 /obj/random/dirt_75,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads \"WARNING: SEWER ACCESS\".";
+	name = "\improper SEWER ACCESS sign";
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -3151,6 +3344,7 @@
 	id = "bar_screening_B";
 	reversed = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
@@ -3175,6 +3369,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/floor_damage/rust,
+/obj/random/dirt_75,
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
@@ -3243,15 +3438,16 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/cryofeed{
-	pixel_x = -2;
-	pixel_y = 0
-	},
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/hatch_small{
 	color = "#8ba574"
 	},
 /obj/random/dirt_75,
+/obj/structure/cryofeed{
+	pixel_x = -2;
+	pixel_y = 0;
+	name = "sewage feed"
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -3283,6 +3479,7 @@
 	dir = 1;
 	id = "bar_screening_A"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
@@ -3355,6 +3552,7 @@
 	dir = 1
 	},
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/greenglow,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -3395,6 +3593,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
@@ -3517,6 +3716,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Iq" = (
+/obj/structure/rod_railing{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/structure/sign/biohazard{
+	name = "\improper WARNING: SEWAGE sign";
+	desc = "A warning sign which reads \"WARNING: SEWAGE\".";
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "Ir" = (
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 2
@@ -3554,10 +3773,6 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "IE" = (
-/obj/structure/cryofeed{
-	pixel_x = -2;
-	pixel_y = 0
-	},
 /obj/structure/railing/mapped{
 	dir = 4
 	},
@@ -3565,6 +3780,11 @@
 	color = "#8ba574"
 	},
 /obj/random/dirt_75,
+/obj/structure/cryofeed{
+	pixel_x = -2;
+	pixel_y = 0;
+	name = "sewage feed"
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -3609,23 +3829,34 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
-"Jv" = (
-/obj/structure/railing/mapped{
-	dir = 8
+"Jn" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
 	},
-/obj/structure/cryofeed{
-	pixel_x = 2;
-	pixel_y = 0;
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/hatch_small{
-	color = "#8ba574"
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
 	},
 /obj/random/dirt_75,
-/turf/simulated/floor/tiled/full{
+/obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"Jv" = (
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 8
+	},
+/obj/machinery/computer/terminal/water_treatment{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
 "JB" = (
 /obj/effect/decal/fake_object{
 	icon = 'icons/obj/disposals.dmi';
@@ -3675,7 +3906,6 @@
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
 "Km" = (
-/obj/item/material/shard/shrapnel,
 /obj/effect/floor_decal/industrial/loading{
 	color = "#6a97b0"
 	},
@@ -3762,10 +3992,21 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "KO" = (
-/obj/effect/floor_decal/industrial/outline_door/grey{
+/obj/structure/railing/mapped{
+	dir = 8;
+	pixel_x = -3;
+	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 8
+	},
+/obj/machinery/computer/terminal/water_treatment{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -3869,6 +4110,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor,
 /obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -3971,6 +4213,20 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"Ms" = (
+/obj/structure/disposalpipe/broken{
+	dir = 8
+	},
+/obj/structure/disposalpipe/broken{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/greenglow,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -4078,11 +4334,18 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "Nv" = (
-/obj/effect/map_effect/window_spawner/full/reinforced{
-	frame_color = "#676661";
-	color = "#676661"
+/obj/structure/rod_railing,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
 	},
-/turf/simulated/floor/tiled/full{
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/structure/sign/biohazard{
+	name = "\improper WARNING: SEWAGE sign";
+	desc = "A warning sign which reads \"WARNING: SEWAGE\".";
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -4121,6 +4384,7 @@
 /obj/item/stack/rods{
 	pixel_x = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/techmaint{
 	temperature = 315.15
 	},
@@ -4229,15 +4493,29 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/cryofeed{
-	pixel_x = -2;
-	pixel_y = 0
-	},
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/hatch_small{
 	color = "#8ba574"
 	},
+/obj/structure/cryofeed{
+	pixel_x = -2;
+	pixel_y = 0;
+	name = "sewage feed"
+	},
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"OO" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -4476,6 +4754,28 @@
 "QJ" = (
 /turf/simulated/wall/sandstone,
 /area/new_blades/underground)
+"QK" = (
+/obj/structure/cryofeed{
+	pixel_x = -2;
+	pixel_y = 0;
+	name = "sewage feed"
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/obj/random/dirt_75,
+/obj/structure/sign/biohazard{
+	name = "\improper WARNING: SEWAGE sign";
+	desc = "A warning sign which reads \"WARNING: SEWAGE\".";
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "QL" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
@@ -4508,6 +4808,7 @@
 	},
 /obj/machinery/light/small/emergency,
 /obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -4522,7 +4823,6 @@
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
-/obj/item/material/shard/shrapnel,
 /obj/effect/floor_decal/industrial/outline/security,
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/techfloor{
@@ -4650,6 +4950,9 @@
 /obj/item/stack/rods{
 	pixel_y = 7
 	},
+/obj/effect/decal/cleanable/molten_item,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -4661,6 +4964,9 @@
 /obj/random/dirt_75,
 /obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
+/obj/effect/decal/cleanable/greenglow,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -4674,6 +4980,15 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"SO" = (
+/obj/structure/disposalpipe/broken,
+/obj/random/dirt_75,
+/obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
+/turf/simulated/floor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -4760,8 +5075,23 @@
 	},
 /area/new_blades/mudki/water_treatment)
 "Tw" = (
-/obj/structure/cable{
-	icon_state = "4-8"
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch_small{
+	color = "#8ba574"
+	},
+/obj/random/dirt_75,
+/obj/structure/sign/biohazard{
+	name = "\improper WARNING: SEWAGE sign";
+	desc = "A warning sign which reads \"WARNING: SEWAGE\".";
+	pixel_y = 32
+	},
+/obj/structure/cryofeed{
+	pixel_x = 2;
+	pixel_y = 0;
+	dir = 4;
+	name = "sewage feed"
 	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
@@ -4802,6 +5132,7 @@
 	dir = 8;
 	id = "bar_screening_B"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
@@ -4902,6 +5233,8 @@
 /obj/structure/disposalpipe/broken,
 /obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
+/obj/effect/decal/cleanable/blood/oil,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -4921,6 +5254,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"UC" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/random/dirt_75,
+/obj/structure/sign/securearea{
+	desc = "A caution sign which reads 'DISPOSALS' and 'AUTHORIZED PERSONNEL ONLY'.";
+	name = "\improper DISPOSALS sign";
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "UI" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/paper_bin{
@@ -4954,6 +5302,20 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/techmaint{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
+"UN" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/floor_decal/industrial/outline_door/grey{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
@@ -5065,10 +5427,25 @@
 /area/new_blades/mudki/water_treatment)
 "VH" = (
 /obj/random/dirt_75,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"VO" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/structure/sign/securearea{
+	pixel_x = 32;
+	name = "\improper WARNING: UV LIGHTS sign";
+	desc = "A warning sign which reads \"WARNING: UV LIGHTS\"."
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment/UV_room)
 "VR" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -5165,6 +5542,8 @@
 	pixel_y = -7;
 	pixel_x = -8
 	},
+/obj/effect/decal/cleanable/greenglow,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -5178,6 +5557,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment/UV_room)
+"WG" = (
+/obj/structure/rod_railing,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/decal/cleanable/floor_damage/rust,
+/obj/structure/sign/biohazard{
+	name = "\improper WARNING: SEWAGE sign";
+	desc = "A warning sign which reads \"WARNING: SEWAGE\".";
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/water_treatment)
 "WL" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/railing/mapped,
@@ -5280,6 +5675,11 @@
 /obj/effect/floor_decal/industrial/outline_door/grey,
 /obj/effect/decal/cleanable/floor_damage/rust,
 /obj/random/dirt_75,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads \"WARNING: SEWER ACCESS\".";
+	name = "\improper SEWER ACCESS sign";
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
@@ -5292,6 +5692,7 @@
 	dir = 1;
 	id = "bar_screening_A"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
@@ -5334,6 +5735,10 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/water_treatment)
+"YC" = (
+/obj/structure/sign/staff_only,
+/turf/simulated/wall/concrete,
+/area/new_blades/mudki/water_treatment)
 "YF" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
@@ -5343,6 +5748,7 @@
 	},
 /obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled{
 	temperature = 315.15
 	},
@@ -5422,6 +5828,7 @@
 	},
 /obj/random/dirt_75,
 /obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
 /turf/simulated/floor{
 	temperature = 315.15
 	},
@@ -35962,7 +36369,7 @@ GK
 GK
 GK
 wc
-nW
+aW
 tm
 Ma
 Ma
@@ -35978,10 +36385,10 @@ wc
 wc
 wc
 wc
+ab
+tl
+tl
 uH
-tl
-tl
-Jv
 yx
 wc
 hT
@@ -37006,7 +37413,7 @@ wc
 wc
 wc
 wc
-IE
+QK
 IE
 IE
 IE
@@ -37014,8 +37421,8 @@ Ga
 wc
 hT
 Wr
-Ut
-xi
+SO
+vy
 yU
 wc
 aw
@@ -37273,7 +37680,7 @@ Vu
 YF
 Ck
 NV
-oS
+uo
 wc
 wc
 wc
@@ -37786,7 +38193,7 @@ jc
 VH
 wc
 Tr
-yw
+cK
 wL
 wc
 dF
@@ -38042,7 +38449,7 @@ qm
 pl
 mS
 ko
-IU
+UN
 Sr
 SS
 Nf
@@ -38299,9 +38706,9 @@ Kr
 NT
 Oh
 wc
-tJ
+UC
 Sp
-wL
+ki
 wc
 vS
 vS
@@ -38556,7 +38963,7 @@ wc
 wc
 wc
 wc
-tJ
+er
 qH
 ge
 wc
@@ -39046,7 +39453,7 @@ GK
 GK
 GK
 wc
-nW
+aW
 Fj
 Fl
 NI
@@ -39062,10 +39469,10 @@ wc
 wc
 wc
 wc
+Tw
 uH
 uH
-uH
-ee
+tl
 yx
 wc
 hT
@@ -39311,7 +39718,7 @@ Ii
 vO
 Lz
 Cv
-AB
+vO
 WL
 XL
 XL
@@ -39329,7 +39736,7 @@ aa
 QG
 Ur
 pi
-yU
+Jn
 wc
 wc
 wc
@@ -39843,7 +40250,7 @@ ye
 QG
 Ch
 ZM
-wL
+ki
 wc
 id
 TO
@@ -40090,7 +40497,7 @@ wc
 wc
 wc
 wc
-oR
+AL
 oR
 IE
 IE
@@ -40098,7 +40505,7 @@ Op
 wc
 hT
 QD
-Ac
+QD
 xi
 Fu
 wc
@@ -40591,7 +40998,7 @@ wc
 wc
 wc
 wc
-GG
+KO
 GG
 Qp
 dr
@@ -40872,9 +41279,9 @@ aw
 wc
 tO
 rs
-Ma
+gS
 sa
-Ma
+gS
 rM
 Ma
 Ma
@@ -41384,13 +41791,13 @@ wc
 wc
 wc
 wc
-wc
+YC
 yw
 Yk
-sI
+Vu
 zm
-Vu
-Vu
+OO
+OO
 Ck
 pJ
 wc
@@ -41645,7 +42052,7 @@ IU
 Lw
 wL
 ht
-Tw
+kn
 ht
 ht
 tJ
@@ -41903,7 +42310,7 @@ mg
 UY
 ht
 dm
-KO
+Ji
 ht
 mn
 mg
@@ -42921,7 +43328,7 @@ aw
 wc
 aZ
 ht
-Dd
+Nv
 qc
 BO
 BO
@@ -42940,7 +43347,7 @@ BO
 BO
 BO
 IX
-Wi
+Iq
 ht
 Nk
 wc
@@ -43198,7 +43605,7 @@ BO
 BO
 IX
 ig
-tj
+aH
 wc
 wc
 aw
@@ -43434,7 +43841,7 @@ aw
 aw
 aw
 wc
-tj
+aH
 Ok
 qc
 BO
@@ -44206,7 +44613,7 @@ aw
 wc
 aZ
 ht
-Dd
+WG
 qc
 BO
 BO
@@ -44217,7 +44624,7 @@ Uo
 YL
 ht
 ht
-aH
+ee
 Km
 zP
 hX
@@ -44225,7 +44632,7 @@ BO
 BO
 BO
 IX
-ig
+jy
 ht
 Fb
 wc
@@ -44980,7 +45387,7 @@ tj
 wc
 wc
 wc
-Nv
+wc
 wc
 wc
 wc
@@ -44993,7 +45400,7 @@ wc
 wc
 wc
 wc
-Nv
+wc
 wc
 wc
 wc
@@ -45250,7 +45657,7 @@ Ef
 wc
 ht
 nr
-hC
+ht
 zK
 tj
 aH
@@ -46534,7 +46941,7 @@ kW
 vl
 vl
 vl
-NV
+yw
 NE
 yw
 wc
@@ -47040,10 +47447,10 @@ En
 En
 vl
 by
-HK
+VO
 fT
 bt
-bt
+Jv
 UI
 iD
 PQ
@@ -47308,7 +47715,7 @@ vl
 vl
 vl
 En
-NV
+yw
 wc
 aw
 aw
@@ -47822,7 +48229,7 @@ cD
 RN
 vl
 En
-pJ
+Ms
 wc
 aw
 aw
@@ -48335,7 +48742,7 @@ Dt
 lZ
 UA
 vl
-Ac
+QD
 FR
 wc
 aw

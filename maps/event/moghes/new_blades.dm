@@ -395,7 +395,7 @@
 			var/obj/item/disk/D = new /obj/item/disk/mcguffin2(get_turf(user))
 			user.put_in_hands(D)
 
-// custom sewage thing
+// custom mudki sewage thing
 /turf/simulated/floor/exoplanet/water/shallow/partial_sewage
 	name = "partially-filtered water"
 	desc = "This water is somewhere between clean and sewage. Don't fall in it."
@@ -403,3 +403,29 @@
 	base_icon_state = "unsmooth"
 	icon = 'icons/turf/flooring/exoplanet/konyang/konyang_deep_water.dmi'
 	smoothing_flags = SMOOTH_FALSE
+
+// custom mudki water treatment thing
+
+// RENAME AND REWRITE
+/obj/item/paper/fluff/water_treatment_log
+	name = "systems log"
+	info = "Mudki Wastewater Treatment Plant 4 System Log:<br>\
+	13/05/2458: Aeration tank oxygen line breaks detected. Initiating automatic pump shutoff.<br>\
+	26/05/2458: Irregular flow rate detected in sewage lines. Advise personnel investigate.<br>\
+	03/06/2458: Pressure buildup detected in sewage lines.<br>\
+	05/06/2458: Multiple sewage line breaks detected. Initiating automatic sewage pump shutoff.<br>\
+	19/06/2458: Treatment plant levels below operational. System shutdown engaged.<br>\
+	20/07/2466: Treatment plant power reactivated. User command received: Print Logs."
+	language = LANGUAGE_UNATHI
+
+/obj/machinery/computer/terminal/water_treatment
+	name = "system log terminal"
+	icon_screen = "turbinecomp"
+	icon_keyboard = "id_key"
+
+/obj/machinery/computer/terminal/water_treatment/attack_hand(mob/user)
+	. = ..()
+	var/choice = tgui_alert(user, "System logs available. Display driver corrupted. Print system logs?", "System Logs", list("Print", "Cancel"))
+	if(choice == "Print")
+		var/obj/item/paper/P = new /obj/item/paper/fluff/water_treatment_log(get_turf(user))
+		user.put_in_hands(P)
