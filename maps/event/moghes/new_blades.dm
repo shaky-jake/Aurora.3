@@ -34,25 +34,40 @@
 
 // EVENT FIVE AREAS (Mudki)
 /area/new_blades/mudki
-	name = "Mudki Interiors"
+	name = "Mudki"
 	icon_state = "blue"
+
+/area/new_blades/mudki/interiors
+	name = "Mudki Interiors"
 	lighting = FALSE
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	area_blurb = "Interiors Placeholder"
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 	is_outside = OUTSIDE_NO
 
-/area/new_blades/mudki/water_treatment
+/area/new_blades/mudki/interiors/alley
+	name = "Mudki Alleys"
+	area_blurb = "Alleys Placeholder"
+
+/area/new_blades/mudki/interiors/north_housing
+	name = "Northern Mudki Housing"
+	area_blurb = "Housing Placeholder"
+	requires_power = TRUE
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+
+/area/new_blades/mudki/interiors/south_housing
+	name = "Southern Mudki Housing"
+	area_blurb = "Housing Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+
+
+/area/new_blades/mudki/interiors/water_treatment
 	name = "Water Treatment Plant"
 	area_blurb = "Placeholder"
 	requires_power = TRUE
-	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
 
-/area/new_blades/mudki/water_treatment/UV_room
+/area/new_blades/mudki/interiors/water_treatment/UV_room
 	name = "Water Treatment Plant - Disinfection"
 	area_blurb = "Placeholder"
-	requires_power = TRUE
-	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
 
 // EVENT THREE AREAS
 /area/new_blades/underground/aquifer
