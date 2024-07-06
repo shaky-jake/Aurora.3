@@ -5,6 +5,8 @@
 	icon_state = "desert"
 	dirt_color = "#ae9e66"
 	footstep_sound = /singleton/sound_category/sand_footstep
+	// for event
+	does_footprint = FALSE
 
 /turf/simulated/floor/exoplanet/desert/Initialize()
 	. = ..()

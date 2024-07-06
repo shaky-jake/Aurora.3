@@ -37,6 +37,11 @@
 	name = "Mudki"
 	icon_state = "blue"
 
+/area/new_blades/mudki/road
+	name = "Mudki Streets"
+	icon_state = "green"
+	holomap_color = HOLOMAP_PATH
+
 /area/new_blades/mudki/interiors
 	name = "Mudki Interiors"
 	lighting = FALSE
@@ -46,6 +51,7 @@
 
 /area/new_blades/mudki/interiors/alley
 	name = "Mudki Alleys"
+	icon_state = "green"
 	area_blurb = "Alleys Placeholder"
 
 /area/new_blades/mudki/interiors/north_housing
@@ -64,6 +70,7 @@
 	name = "Water Treatment Plant"
 	area_blurb = "Placeholder"
 	requires_power = TRUE
+	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
 
 /area/new_blades/mudki/interiors/water_treatment/UV_room
 	name = "Water Treatment Plant - Disinfection"
