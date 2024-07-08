@@ -65,6 +65,10 @@
 	area_blurb = "Housing Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
+/area/new_blades/mudki/interiors/bar
+	name = "Bar"
+	area_blurb = "Bar Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/water_treatment
 	name = "Water Treatment Plant"
