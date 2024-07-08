@@ -84,6 +84,12 @@
 "aw" = (
 /turf/simulated/mineral/planet,
 /area/new_blades/underground)
+"aA" = (
+/obj/structure/bookcase/manuals/medical,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "aD" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/janitorialcart,
@@ -92,12 +98,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
-"aF" = (
-/obj/structure/rod_railing,
-/turf/simulated/floor/concrete{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/bar)
 "aH" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/random/dirt_75,
@@ -738,6 +738,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"fz" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete/square{
+	dir = 8
+	},
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "fE" = (
 /obj/machinery/light/colored/decayed/dimmed{
 	dir = 1
@@ -894,22 +908,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
-"gN" = (
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/effect/decal/curb,
-/obj/structure/table/rack/retail_shelf,
-/obj/item/reagent_containers/food/drinks/bottle{
-	pixel_x = 8;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice{
-	pixel_x = -8;
-	pixel_y = -2
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/bar)
 "gP" = (
 /obj/effect/floor_decal/industrial/outline_corner/grey,
 /obj/effect/floor_decal/industrial/outline_segment{
@@ -944,6 +942,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"hp" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/plasteel,
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "hs" = (
 /obj/effect/floor_decal/industrial/outline_door/grey{
 	dir = 4
@@ -1085,6 +1090,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"hY" = (
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "id" = (
 /obj/effect/floor_decal/industrial/outline_corner/grey{
 	dir = 1
@@ -1142,6 +1152,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"ip" = (
+/obj/structure/stairs/west,
+/obj/structure/stairs_lower/stairs_upper{
+	pixel_y = 32
+	},
+/obj/structure/stairs_lower{
+	pixel_y = -23;
+	dir = 8
+	},
+/obj/structure/rod_railing,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/bar)
 "it" = (
 /obj/effect/floor_decal/industrial/outline_door/grey{
 	dir = 4
@@ -1171,6 +1195,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"iB" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"iC" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/structure/barricade/metal,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "iD" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
@@ -1245,6 +1289,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"jh" = (
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "jj" = (
 /obj/machinery/light/floor{
 	randomize_color = 0;
@@ -1384,9 +1433,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
-"jG" = (
-/turf/simulated/wall/sandstone,
-/area/new_blades/mudki/interiors/bar)
 "jI" = (
 /obj/structure/table/stone/marble,
 /obj/item/holomenu{
@@ -1472,6 +1518,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"kl" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 8
+	},
+/obj/structure/barricade/metal,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "km" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/random/dirt_75,
@@ -1646,6 +1704,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"lJ" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "lQ" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/random/dirt_75,
@@ -1691,6 +1758,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"mh" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "mn" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/corner/yellow{
@@ -1864,6 +1939,36 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"ns" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"nv" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"nw" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "nB" = (
 /obj/effect/decal/fake_object{
 	icon = 'icons/obj/disposals.dmi';
@@ -1985,6 +2090,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"ol" = (
+/obj/structure/bookcase/libraryspawn/reference,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "on" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -2052,6 +2163,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"oL" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/square,
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "oR" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -2090,6 +2213,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"oZ" = (
+/obj/structure/bookcase/manuals/engineering,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "pi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2115,6 +2244,18 @@
 "pm" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"pr" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete/gutter/corner,
+/obj/structure/barricade/metal{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
@@ -2277,6 +2418,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"qk" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/plasteel{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "qm" = (
 /obj/machinery/conveyor{
 	dir = 6;
@@ -2321,20 +2471,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
-"qE" = (
-/obj/structure/stairs/west,
-/obj/structure/stairs_lower/stairs_upper{
-	pixel_y = 32
-	},
-/obj/structure/stairs_lower{
-	pixel_y = -23;
-	dir = 8
-	},
-/obj/structure/rod_railing,
-/turf/simulated/floor/concrete{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/bar)
 "qH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2347,6 +2483,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"qL" = (
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/plasteel,
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "qU" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -2566,6 +2712,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"sm" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "sn" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -2718,6 +2872,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"tx" = (
+/obj/structure/stairs/south,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "tA" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -2732,6 +2892,15 @@
 	dir = 5
 	},
 /turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"tG" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/plasteel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/ridged{
 	temperature = 315.15
 	},
 /area/new_blades/underground)
@@ -2776,7 +2945,14 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/decal/curb,
 /obj/structure/table/rack/retail_shelf,
-/obj/item/reagent_containers/food/drinks/bottle,
+/obj/item/reagent_containers/food/drinks/bottle{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice{
+	pixel_x = -8;
+	pixel_y = -2
+	},
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -2800,6 +2976,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"ua" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "uj" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -2855,6 +3040,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"uE" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/metal,
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "uH" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -2908,6 +3104,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"uT" = (
+/obj/effect/decal/curb,
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "uU" = (
 /turf/simulated/wall/concrete,
 /area/new_blades/underground)
@@ -2934,6 +3146,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"uZ" = (
+/obj/effect/decal/curb/corner,
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "vg" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -3058,6 +3279,23 @@
 "wc" = (
 /turf/simulated/wall/concrete,
 /area/new_blades/mudki/interiors/water_treatment)
+"wf" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete/square{
+	dir = 1
+	},
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "wg" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -3267,6 +3505,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment/UV_room)
+"xM" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "xQ" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 1
@@ -3292,6 +3538,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"xT" = (
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "xV" = (
 /obj/effect/floor_decal/corner/yellow/full{
 	dir = 4
@@ -3326,6 +3577,31 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"ya" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"yc" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/metal,
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ye" = (
 /obj/machinery/botany/extractor,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -3381,6 +3657,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"yo" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "yu" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -3393,6 +3677,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"yv" = (
+/obj/structure/bookcase/libraryspawn/fiction,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "yw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -3447,6 +3737,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"yP" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete/square{
+	dir = 8
+	},
+/obj/structure/barricade/metal,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "yU" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 5
@@ -3460,6 +3762,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"zi" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete/square{
+	dir = 1
+	},
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "zm" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3661,6 +3977,30 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"AE" = (
+/obj/machinery/light/colored/decayed/dimmed,
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/plasteel{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"AG" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 1
+	},
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "AL" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -3682,6 +4022,9 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"AQ" = (
+/turf/simulated/wall/sandstone,
+/area/new_blades/mudki/interiors/library)
 "AX" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/button/remote/blast_door{
@@ -3727,6 +4070,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment/UV_room)
+"Bi" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Bj" = (
 /obj/machinery/light/colored/decayed,
 /obj/effect/floor_decal/corner/yellow{
@@ -3757,6 +4108,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Bw" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "BA" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -3768,6 +4128,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"BE" = (
+/obj/structure/bookcase/manuals/xenoarchaeology,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "BF" = (
 /obj/machinery/pipedispenser/disposal,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -3881,6 +4247,10 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"Cs" = (
+/obj/structure/barricade/metal,
+/turf/simulated/mineral/planet,
+/area/new_blades/underground)
 "Cv" = (
 /obj/structure/rod_railing{
 	pixel_y = 2;
@@ -3947,6 +4317,31 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"CH" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"CT" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 4
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "CZ" = (
 /obj/structure/table/stone/marble,
 /obj/item/holomenu{
@@ -4320,6 +4715,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"FM" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 4
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "FO" = (
 /obj/machinery/conveyor{
 	id = "bar_screening_disp"
@@ -4356,6 +4768,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"FX" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "FY" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 5
@@ -4415,6 +4838,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Gn" = (
+/obj/structure/bookcase/libraryspawn/religion,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"Gq" = (
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/plasteel,
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "Gw" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -4501,6 +4940,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"Ht" = (
+/obj/structure/bookcase/libraryspawn/nonfiction,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Hu" = (
 /obj/structure/disposalpipe/broken{
 	dir = 1
@@ -4524,6 +4969,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"HD" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/square{
+	dir = 4
+	},
+/obj/structure/barricade/metal{
+	dir = 1
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "HE" = (
 /obj/machinery/light/small/emergency{
 	dir = 4
@@ -4785,6 +5247,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"IT" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "IU" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
@@ -4876,6 +5349,30 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"JD" = (
+/obj/structure/bookcase/manuals/research_and_development,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"JK" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "JM" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -4900,6 +5397,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"JT" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "JU" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -4925,6 +5437,9 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment/UV_room)
+"Kh" = (
+/turf/simulated/wall/sandstone,
+/area/new_blades/mudki/interiors/bar)
 "Km" = (
 /obj/effect/floor_decal/industrial/loading{
 	color = "#6a97b0"
@@ -5063,6 +5578,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"La" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 4
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/obj/structure/barricade/metal,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "Lj" = (
 /obj/effect/floor_decal/concrete/large,
 /turf/simulated/floor/tiled/gridded{
@@ -5617,6 +6147,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Ou" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/decal/curb,
+/obj/structure/table/rack/retail_shelf,
+/obj/item/reagent_containers/food/drinks/bottle,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/bar)
 "Ov" = (
 /obj/structure/flora/rock/desert/scrub,
 /turf/simulated/floor/exoplanet/desert{
@@ -5633,6 +6172,25 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"OA" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/metal,
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/water/shallow/sewage{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"OM" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ON" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -5657,6 +6215,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"OP" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "OX" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	insecure = 0;
@@ -5731,6 +6300,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Pn" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/barricade/metal,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "Pt" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -5807,6 +6385,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"PJ" = (
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "PK" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5910,6 +6493,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Qx" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Qy" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -6087,6 +6681,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"RX" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/square{
+	dir = 4
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/obj/structure/barricade/metal,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "RY" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -6172,6 +6781,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Sw" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "SH" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Aeration Tank Access"
@@ -6421,6 +7039,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"TY" = (
+/obj/structure/rod_railing,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/bar)
 "TZ" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor/tiled/ridged{
@@ -6624,6 +7248,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Va" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Vb" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
@@ -6886,6 +7524,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"WI" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "WL" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/railing/mapped,
@@ -6934,6 +7580,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"WZ" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/square{
+	dir = 4
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "Xh" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
@@ -6954,6 +7614,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Xj" = (
+/obj/machinery/light/colored/decayed/dimmed{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/barricade/plasteel{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "Xr" = (
 /obj/structure/reagent_dispensers/keg/xuizikeg{
 	pixel_y = 4
@@ -7141,6 +7813,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"YV" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"Za" = (
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Zi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -22058,7 +22743,7 @@ TZ
 tS
 TZ
 TZ
-TZ
+hp
 TZ
 tS
 TZ
@@ -22313,9 +22998,9 @@ gu
 gu
 jm
 Td
-tA
-gu
-gu
+oL
+CT
+La
 jm
 Td
 tA
@@ -23341,7 +24026,7 @@ UW
 ff
 ow
 wE
-eL
+yP
 my
 my
 ON
@@ -23598,7 +24283,7 @@ UW
 ff
 pm
 TZ
-TZ
+hp
 TZ
 TZ
 TZ
@@ -24845,13 +25530,13 @@ aw
 aw
 aw
 uU
-fE
-pS
-IQ
-dt
-to
-pm
-zw
+Xj
+OM
+uT
+JT
+JK
+FX
+AE
 uU
 aw
 aw
@@ -25612,7 +26297,7 @@ tS
 TZ
 TZ
 TZ
-TZ
+tG
 tS
 TZ
 TZ
@@ -25869,9 +26554,9 @@ Td
 tA
 gu
 gu
-jm
-Td
-tA
+HD
+CH
+oL
 gu
 gu
 px
@@ -26426,9 +27111,9 @@ ff
 mo
 TZ
 uU
-aw
-aw
-aw
+uU
+uU
+uU
 aw
 aw
 aw
@@ -26683,9 +27368,9 @@ ff
 la
 TZ
 uU
-aw
-aw
-aw
+PJ
+PJ
+TZ
 aw
 aw
 aw
@@ -26899,7 +27584,7 @@ my
 my
 ON
 wE
-eL
+fz
 my
 my
 Qh
@@ -26940,10 +27625,10 @@ ff
 la
 TZ
 uU
+uU
 aw
-aw
-aw
-aw
+jh
+jh
 aw
 aw
 aw
@@ -27156,7 +27841,7 @@ TZ
 TZ
 TZ
 rK
-TZ
+tG
 TZ
 TZ
 pS
@@ -27199,8 +27884,8 @@ TZ
 uU
 aw
 aw
-aw
-aw
+jh
+jh
 aw
 aw
 aw
@@ -27455,9 +28140,9 @@ pm
 zw
 uU
 aw
-aw
-aw
-aw
+jh
+jh
+jh
 aw
 aw
 aw
@@ -27712,9 +28397,9 @@ mo
 TZ
 uU
 aw
-aw
-aw
-aw
+jh
+jh
+jh
 aw
 aw
 aw
@@ -27969,8 +28654,8 @@ la
 TZ
 uU
 aw
-aw
-aw
+jh
+jh
 aw
 aw
 aw
@@ -28671,13 +29356,13 @@ aw
 aw
 aw
 uU
-fE
-pS
-IQ
-dt
-to
-pm
-zw
+Xj
+OM
+uT
+JT
+JK
+FX
+AE
 uU
 aw
 aw
@@ -30018,9 +30703,9 @@ aw
 uU
 fE
 pS
-IQ
-dt
-to
+uT
+JT
+JK
 pm
 zw
 uU
@@ -30535,7 +31220,7 @@ tV
 YT
 UW
 ff
-la
+AG
 TZ
 uU
 aw
@@ -30787,12 +31472,12 @@ aw
 aw
 aw
 uU
-TZ
-tV
+qk
+pr
 YT
 UW
 ff
-la
+AG
 TZ
 uU
 aw
@@ -31049,8 +31734,8 @@ Ub
 YT
 UW
 ff
-Pt
-TZ
+wf
+qk
 uU
 aw
 aw
@@ -31557,7 +32242,7 @@ tS
 TZ
 TZ
 TZ
-TZ
+hp
 TZ
 pS
 YT
@@ -31566,7 +32251,7 @@ ff
 pm
 TZ
 TZ
-TZ
+tG
 TZ
 TZ
 tS
@@ -31812,9 +32497,9 @@ gu
 jm
 Td
 tA
-gu
-gu
-jm
+CT
+CT
+RX
 Td
 LF
 YT
@@ -31823,9 +32508,9 @@ ff
 Fh
 Td
 tA
-gu
-gu
-jm
+FM
+CT
+WZ
 Td
 tA
 gu
@@ -32841,7 +33526,7 @@ ON
 wE
 eL
 my
-my
+kl
 ON
 wE
 Lj
@@ -32853,7 +33538,7 @@ wE
 eL
 my
 my
-ON
+zi
 wE
 eL
 my
@@ -33098,7 +33783,7 @@ TZ
 rK
 TZ
 TZ
-TZ
+hp
 TZ
 TZ
 pS
@@ -33110,7 +33795,7 @@ TZ
 TZ
 TZ
 TZ
-TZ
+ua
 rK
 TZ
 TZ
@@ -33836,7 +34521,7 @@ aw
 aw
 aw
 aw
-aw
+Cs
 aw
 aw
 uU
@@ -34105,7 +34790,7 @@ ff
 mo
 TZ
 uU
-aw
+uU
 aw
 aw
 aw
@@ -34362,8 +35047,8 @@ ff
 la
 TZ
 uU
-aw
-aw
+jh
+jh
 aw
 aw
 aw
@@ -34619,9 +35304,9 @@ ff
 la
 TZ
 uU
-aw
-aw
-aw
+jh
+jh
+jh
 aw
 aw
 QJ
@@ -34876,9 +35561,9 @@ ff
 Pt
 TZ
 uU
-aw
-aw
-aw
+jh
+jh
+jh
 aw
 aw
 QJ
@@ -35133,9 +35818,9 @@ ff
 pm
 zw
 uU
-aw
-aw
-aw
+uU
+uU
+jh
 aw
 aw
 QJ
@@ -35390,9 +36075,9 @@ ff
 mo
 TZ
 uU
-aw
-aw
-aw
+PJ
+PJ
+TZ
 aw
 aw
 QJ
@@ -35647,9 +36332,9 @@ ff
 la
 TZ
 uU
-aw
-aw
-aw
+uU
+uU
+uU
 aw
 aw
 QJ
@@ -37695,13 +38380,13 @@ aw
 aw
 aw
 uU
-fE
-pS
-IQ
-dt
-to
-pm
-zw
+Xj
+OM
+uT
+JT
+JK
+FX
+AE
 uU
 aw
 aw
@@ -38444,7 +39129,7 @@ UW
 ff
 la
 TZ
-tS
+qL
 TZ
 TZ
 TZ
@@ -38701,7 +39386,7 @@ UW
 ff
 lf
 Td
-Td
+Pn
 tA
 gu
 gu
@@ -38958,7 +39643,7 @@ UW
 hS
 JU
 Dp
-VB
+yc
 JU
 JU
 JU
@@ -39215,7 +39900,7 @@ UW
 UW
 UW
 TI
-NO
+OA
 UW
 UW
 UW
@@ -39472,7 +40157,7 @@ UW
 VS
 Sh
 WH
-JA
+uE
 Sh
 Sh
 Sh
@@ -39729,7 +40414,7 @@ UW
 ff
 ow
 wE
-wE
+iC
 eL
 my
 my
@@ -39763,7 +40448,7 @@ TZ
 TZ
 TZ
 TZ
-tS
+qL
 TZ
 TZ
 TZ
@@ -39986,7 +40671,7 @@ UW
 ff
 pm
 TZ
-rK
+Gq
 TZ
 TZ
 TZ
@@ -40020,7 +40705,7 @@ tA
 gu
 gu
 jm
-Td
+Pn
 tA
 gu
 gu
@@ -40277,7 +40962,7 @@ JU
 JU
 JU
 Dp
-VB
+yc
 JU
 JU
 JU
@@ -40534,7 +41219,7 @@ UW
 UW
 UW
 TI
-NO
+OA
 UW
 UW
 UW
@@ -40791,7 +41476,7 @@ Sh
 Sh
 Sh
 WH
-JA
+uE
 Sh
 Sh
 Sh
@@ -41048,7 +41733,7 @@ eL
 my
 my
 ON
-wE
+iC
 eL
 my
 my
@@ -41305,7 +41990,7 @@ TZ
 TZ
 TZ
 TZ
-rK
+Gq
 TZ
 TZ
 TZ
@@ -41839,14 +42524,14 @@ aw
 aw
 aw
 aw
-jG
-jG
-jG
-jG
-jG
-jG
-jG
-jG
+Kh
+Kh
+Kh
+Kh
+Kh
+Kh
+Kh
+Kh
 aw
 aw
 aw
@@ -42096,16 +42781,16 @@ aw
 aw
 aw
 aw
-jG
+Kh
 Mk
 Cy
-jG
+Kh
 Uk
 gn
 cb
-jG
-jG
-jG
+Kh
+Kh
+Kh
 aw
 aw
 aw
@@ -42351,9 +43036,9 @@ aw
 aw
 aw
 aw
-jG
-jG
-jG
+Kh
+Kh
+Kh
 eB
 dx
 nI
@@ -42362,7 +43047,7 @@ SK
 cb
 sp
 rm
-jG
+Kh
 aw
 aw
 aw
@@ -42605,12 +43290,12 @@ aw
 aw
 aw
 aw
-jG
-jG
-jG
-jG
-qE
-jG
+Kh
+Kh
+Kh
+Kh
+ip
+Kh
 kc
 of
 CZ
@@ -42619,7 +43304,7 @@ SK
 cb
 iQ
 kS
-jG
+Kh
 aw
 aw
 aw
@@ -42862,12 +43547,12 @@ aw
 aw
 aw
 aw
-jG
+Kh
 Oz
 WW
-jG
-aF
-jG
+Kh
+TY
+Kh
 Ul
 of
 Dr
@@ -42876,7 +43561,7 @@ jq
 cb
 Hg
 ik
-jG
+Kh
 aw
 aw
 aw
@@ -43119,12 +43804,12 @@ aw
 aw
 aw
 aw
-jG
+Kh
 wW
 jr
 PE
 xW
-jG
+Kh
 cj
 of
 jI
@@ -43133,7 +43818,7 @@ SK
 cb
 uP
 ai
-jG
+Kh
 aw
 aw
 aw
@@ -43376,12 +44061,12 @@ aw
 aw
 aw
 aw
-jG
+Kh
 LN
 cx
 xR
 on
-jG
+Kh
 FP
 uV
 nI
@@ -43390,7 +44075,7 @@ SK
 cb
 dG
 Uw
-jG
+Kh
 aw
 aw
 aw
@@ -43633,21 +44318,21 @@ aw
 aw
 aw
 aw
-jG
-gN
+Kh
+tU
 iI
 af
 xw
-jG
+Kh
 Ny
 si
-jG
+Kh
 rP
 Ni
 cb
-jG
-jG
-jG
+Kh
+Kh
+Kh
 aw
 aw
 aw
@@ -43890,19 +44575,19 @@ aw
 aw
 aw
 aw
-jG
-tU
+Kh
+Ou
 iI
 pE
 xw
-jG
+Kh
 gm
-jG
-jG
-jG
-jG
-jG
-jG
+Kh
+Kh
+Kh
+Kh
+Kh
+Kh
 aw
 aw
 aw
@@ -44147,14 +44832,14 @@ aw
 aw
 aw
 aw
-jG
-jG
+Kh
+Kh
 RL
 rX
 on
 Im
 qv
-jG
+Kh
 aw
 aw
 aw
@@ -44405,13 +45090,13 @@ aw
 aw
 aw
 aw
-jG
+Kh
 Eb
 uj
 GJ
 MF
 Jq
-jG
+Kh
 aw
 aw
 aw
@@ -44662,13 +45347,13 @@ aw
 aw
 aw
 aw
-jG
+Kh
 Xr
 Xr
 xm
 Xr
 Xr
-jG
+Kh
 aw
 aw
 aw
@@ -44919,13 +45604,13 @@ aw
 aw
 aw
 aw
-jG
-jG
-jG
-jG
-jG
-jG
-jG
+Kh
+Kh
+Kh
+Kh
+Kh
+Kh
+Kh
 aw
 aw
 aw
@@ -46212,12 +46897,12 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 aw
 aw
 aw
@@ -46469,19 +47154,19 @@ aw
 aw
 aw
 aw
+AQ
+xT
+xT
+Za
+tx
+AQ
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 aw
 aw
 aw
@@ -46726,21 +47411,21 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+xT
+xT
+Za
+tx
+AQ
+AQ
+AQ
+oZ
+oZ
+aA
+aA
+AQ
+AQ
+AQ
 aw
 aw
 aw
@@ -46983,21 +47668,21 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+xT
+xT
+AQ
+AQ
+AQ
+Gn
+ya
+ns
+iB
+iB
+ns
+uZ
+yv
+AQ
 aw
 aw
 aw
@@ -47240,21 +47925,21 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+xT
+xT
+xT
+xT
+AQ
+Gn
+lJ
+ol
+ol
+ol
+ol
+nv
+AQ
+AQ
 aw
 aw
 aw
@@ -47497,21 +48182,21 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+xT
+xT
+xT
+xT
+AQ
+AQ
+Bw
+yo
+hY
+hY
+WI
+Sw
+oZ
+AQ
 aw
 aw
 aw
@@ -47754,21 +48439,21 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+xT
+xT
+xT
+xT
+xT
+xT
+mh
+Ht
+xM
+sm
+Ht
+nw
+aA
+AQ
 aw
 aw
 aw
@@ -48011,21 +48696,21 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+xT
+xT
+xT
+xT
+xT
+xT
+mh
+Ht
+Bi
+YV
+Ht
+nw
+JD
+AQ
 aw
 aw
 aw
@@ -48268,21 +48953,21 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
+Bw
+yo
+hY
+hY
+WI
+Sw
+BE
+AQ
 aw
 aw
 aw
@@ -48530,16 +49215,16 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+Gn
+lJ
+ol
+ol
+ol
+ol
+nv
+AQ
+AQ
 aw
 aw
 aw
@@ -48787,16 +49472,16 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+Gn
+Va
+IT
+Qx
+Qx
+IT
+OP
+yv
+AQ
 aw
 aw
 aw
@@ -49044,16 +49729,16 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+AQ
+AQ
+JD
+JD
+BE
+BE
+AQ
+AQ
+AQ
 aw
 aw
 aw
@@ -49303,12 +49988,12 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
+AQ
+AQ
+AQ
+AQ
+AQ
+AQ
 aw
 aw
 aw
