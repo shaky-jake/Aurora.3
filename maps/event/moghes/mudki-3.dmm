@@ -35,12 +35,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"ae" = (
-/obj/structure/platform/ledge,
-/turf/simulated/floor/concrete{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "af" = (
 /obj/structure/bed/stool/chair/office/bridge/pilot,
 /obj/effect/landmark/force_spawnpoint{
@@ -121,7 +115,8 @@
 "ap" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "corner";
-	dir = 4
+	dir = 4;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "aq" = (
@@ -173,6 +168,16 @@
 /obj/structure/rod_railing{
 	dir = 4
 	},
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
+"av" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner,
+/obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
@@ -531,13 +536,13 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "bh" = (
-/obj/effect/decal/exterior_stairs/half{
-	dir = 4
+/obj/structure/bed/stool/chair/sofa/right/beige{
+	dir = 8
 	},
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "bi" = (
 /obj/machinery/door/blast/regular/open,
 /obj/structure/plasticflaps/airtight{
@@ -630,11 +635,17 @@
 	},
 /area/new_blades)
 "bq" = (
-/obj/structure/platform_stairs,
-/turf/simulated/floor/concrete{
+/obj/structure/table/wood,
+/obj/item/modular_computer/laptop/preset/civilian{
+	pixel_y = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "br" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -666,14 +677,16 @@
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
 "bw" = (
-/obj/effect/decal/curb{
-	dir = 6
+/obj/effect/floor_decal/concrete{
+	dir = 5
 	},
-/obj/structure/flora/bush/jungle/c/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/obj/structure/bed/padded,
+/obj/item/bedsheet/brown,
+/obj/structure/curtain/open/bed,
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/interiors/north_housing)
 "bx" = (
 /obj/effect/floor_decal/spline/plain/corner/green{
 	dir = 1
@@ -951,12 +964,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"ch" = (
-/obj/item/material/ashtray/bronze,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "ci" = (
 /obj/structure/shipping_container{
 	icon_state = "red1"
@@ -981,17 +988,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"ck" = (
-/obj/effect/decal/curb{
-	dir = 1
-	},
-/obj/effect/decal/curb,
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/rod_railing,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "cl" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/effect/floor_decal/concrete{
@@ -1012,17 +1008,6 @@
 	name = "blocked sidewalk tiles"
 	},
 /area/new_blades)
-"co" = (
-/obj/effect/decal/exterior_stairs/half/left{
-	dir = 8
-	},
-/obj/effect/decal/curb{
-	dir = 5
-	},
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "cp" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/maple{
@@ -1069,6 +1054,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"cv" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/structure/flora/bush/jungle/b/random,
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cw" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -1155,7 +1152,8 @@
 "cH" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "corner";
-	dir = 1
+	dir = 1;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "cJ" = (
@@ -1190,6 +1188,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cN" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 10
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cO" = (
 /obj/structure/rod_railing{
 	dir = 6
@@ -1207,14 +1221,9 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"cT" = (
-/obj/structure/lattice/catwalk/indoor/urban,
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#ffffff";
-	light_power = 0.3;
-	light_range = 12
-	},
-/turf/simulated/floor/asphalt{
+"cS" = (
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -1273,13 +1282,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"cY" = (
+"cZ" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
 /obj/effect/decal/curb,
-/obj/structure/flora/bush/jungle/b/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.75
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/interiors/alley)
 "da" = (
 /obj/structure/toilet{
 	pixel_y = 8
@@ -1362,19 +1378,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
-"dl" = (
-/obj/effect/decal/curb{
-	dir = 10
-	},
-/obj/structure/flora/grass/junglegrass/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "dm" = (
 /obj/effect/decal/curb{
 	dir = 5
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -1410,14 +1418,20 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "dq" = (
-/obj/effect/decal/curb{
-	dir = 1
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A decrepit stone pillar.";
+	dir = 4;
+	icon = 'icons/effects/props/holodeck/moghes/32x64.dmi';
+	icon_state = "pillar1";
+	layer = 9;
+	name = "giant pillar";
+	pixel_y = 1
 	},
-/obj/effect/decal/curb{
-	dir = 10
+/obj/effect/decal/curb/corner{
+	dir = 8
 	},
-/obj/structure/flora/grass/junglegrass/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -1529,11 +1543,16 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "dC" = (
-/obj/structure/flora/pottedplant/largebush,
-/turf/simulated/floor/sidewalk/flat{
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "dD" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -1639,6 +1658,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"dM" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dN" = (
 /obj/structure/rod_railing{
 	dir = 8
@@ -2095,21 +2122,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
-"eJ" = (
-/obj/effect/decal/curb{
-	dir = 6
-	},
-/obj/effect/decal/curb/corner{
-	dir = 8
-	},
-/obj/structure/flora/bush/jungle/c/random,
-/obj/structure/rod_railing{
-	dir = 8
-	},
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "eK" = (
 /obj/structure/platform_deco{
 	dir = 8
@@ -2256,16 +2268,16 @@
 /obj/effect/decal/curb/corner{
 	dir = 4
 	},
+/obj/structure/flora/grass/junglegrass/random,
 /obj/structure/rod_railing{
 	dir = 4
 	},
-/obj/structure/flora/grass/junglegrass/random,
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
 /area/new_blades)
 "eY" = (
-/obj/machinery/lapvend,
+/obj/machinery/photocopier,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -2387,14 +2399,12 @@
 	},
 /area/new_blades/mudki/interiors)
 "fk" = (
-/obj/effect/decal/curb{
-	dir = 9
-	},
-/obj/structure/flora/bush/jungle/c/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/table/stone/marble,
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/interiors/north_housing)
 "fl" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -2407,6 +2417,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"fm" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/structure/flora/bush/jungle/c/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "fo" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/black,
@@ -2547,9 +2566,7 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "fD" = (
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
-	temperature = 315.15
-	},
+/turf/simulated/wall/sandstone,
 /area/new_blades/mudki/interiors/library)
 "fE" = (
 /obj/structure/lattice/catwalk/indoor/urban,
@@ -2585,21 +2602,6 @@
 	},
 /turf/simulated/wall/sandstone,
 /area/new_blades/mudki/interiors/north_housing)
-"fI" = (
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#ffffff";
-	light_power = 0.45
-	},
-/obj/effect/decal/curb/corner{
-	dir = 1
-	},
-/obj/effect/decal/curb/corner{
-	dir = 4
-	},
-/turf/simulated/floor/sidewalk/blocks{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/alley)
 "fJ" = (
 /obj/machinery/telecomms/processor/preset_three,
 /turf/unsimulated/floor,
@@ -2678,15 +2680,42 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"fS" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.75
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "fU" = (
 /obj/effect/decal/curb{
-	dir = 8
+	dir = 10
 	},
-/obj/effect/decal/curb/corner{
+/obj/effect/decal/curb{
 	dir = 4
 	},
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
+"fV" = (
+/obj/structure/closet/sarcophagus/mador/random{
+	pixel_y = -7
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -2704,6 +2733,14 @@
 /area/new_blades)
 "fX" = (
 /obj/structure/table/reinforced/wood,
+/obj/item/folder/blue{
+	pixel_y = 12;
+	pixel_x = 4
+	},
+/obj/item/folder/yellow{
+	pixel_x = -4;
+	pixel_y = 4
+	},
 /obj/machinery/door/blast/shutters{
 	id = "mudki_library_shutters";
 	dir = 4
@@ -2747,6 +2784,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"gf" = (
+/obj/structure/platform{
+	pixel_y = 1
+	},
+/obj/structure/platform{
+	dir = 4;
+	pixel_y = 0
+	},
+/obj/structure/platform_deco{
+	dir = 5;
+	pixel_y = 0
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gg" = (
 /obj/structure/chainlink_fence,
 /obj/effect/floor_decal/concrete{
@@ -2774,6 +2827,20 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"gj" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gk" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
@@ -2793,6 +2860,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"gm" = (
+/obj/structure/platform_deco,
+/obj/effect/decal/curb,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gn" = (
 /obj/structure/closet/cabinet,
 /turf/simulated/floor/concrete{
@@ -2877,7 +2951,12 @@
 	},
 /area/new_blades)
 "gx" = (
-/obj/structure/filingcabinet/chestdrawer,
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = -8
+	},
+/obj/machinery/papershredder{
+	pixel_x = 7
+	},
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -2900,6 +2979,13 @@
 "gA" = (
 /obj/effect/decal/curb{
 	dir = 10
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.45
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
 	},
 /turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
@@ -2961,6 +3047,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"gG" = (
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "gH" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -2987,6 +3078,18 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"gK" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gL" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/o2{
@@ -3081,15 +3184,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
-"gQ" = (
-/obj/effect/decal/curb{
-	dir = 5
-	},
-/obj/structure/flora/grass/junglegrass/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "gR" = (
 /obj/structure/bookcase/libraryspawn/fiction,
 /turf/simulated/floor/concrete{
@@ -3137,6 +3231,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"gX" = (
+/obj/effect/decal/curb,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gY" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -3249,6 +3349,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"hh" = (
+/obj/structure/platform{
+	pixel_y = 3
+	},
+/obj/structure/platform_stairs/full/east_west_cap,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "hi" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/table/stone/marble,
@@ -3285,16 +3394,6 @@
 	},
 /turf/simulated/open,
 /area/new_blades/mudki/interiors/library)
-"hn" = (
-/obj/effect/decal/curb{
-	dir = 4
-	},
-/obj/effect/decal/curb/corner,
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "ho" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -3340,6 +3439,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"ht" = (
+/obj/structure/platform_deco{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "hu" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -3390,11 +3498,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"hy" = (
-/turf/simulated/floor/sidewalk/detail{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "hz" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -3441,15 +3544,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"hD" = (
-/obj/effect/decal/curb{
-	dir = 6
-	},
-/obj/structure/flora/grass/junglegrass/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "hE" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -3603,6 +3697,14 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
+/obj/item/paper/crumpled{
+	pixel_x = 6;
+	pixel_y = 1
+	},
+/obj/item/pen{
+	pixel_x = -5;
+	pixel_y = 5
+	},
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -3752,12 +3854,14 @@
 	},
 /area/new_blades/mudki/road)
 "il" = (
-/obj/effect/decal/curb,
-/obj/effect/decal/curb{
-	dir = 9
+/obj/structure/unathi_statue/mador/warrior{
+	pixel_y = 6
 	},
-/obj/structure/flora/grass/junglegrass/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/obj/structure/rod_railing{
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/spline/fancy/wood/cee,
+/turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -3782,6 +3886,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"ip" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iq" = (
 /obj/structure/bed/stool/chair/sofa/pew/right,
 /turf/simulated/floor/sidewalk/flat{
@@ -3797,10 +3910,16 @@
 	},
 /area/new_blades)
 "is" = (
-/turf/simulated/floor/asphalt{
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/underground)
+/area/new_blades/mudki/interiors/north_housing)
 "it" = (
 /obj/structure/bed/stool/chair/sofa/right/beige{
 	dir = 1
@@ -3825,6 +3944,21 @@
 	icon_state = "blue3"
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"iw" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/structure/flora/bush/jungle/c/random,
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -3854,7 +3988,7 @@
 /obj/effect/decal/curb{
 	dir = 1
 	},
-/obj/structure/flora/grass/junglegrass/random,
+/obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
@@ -3994,6 +4128,7 @@
 /obj/effect/decal/curb{
 	dir = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -4011,6 +4146,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"iP" = (
+/obj/structure/platform_stairs/full{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iQ" = (
 /obj/machinery/power/smes/magical,
 /obj/structure/cable{
@@ -4101,6 +4244,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"ja" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jb" = (
 /obj/structure/table/wood,
 /obj/item/modular_computer/laptop/preset/civilian{
@@ -4269,6 +4423,42 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"js" = (
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A decrepit stone pillar.";
+	dir = 4;
+	icon = 'icons/effects/props/holodeck/moghes/32x64.dmi';
+	icon_state = "pillar1";
+	layer = 9;
+	name = "giant pillar";
+	pixel_y = 4
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"jt" = (
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A decrepit stone pillar.";
+	dir = 4;
+	icon = 'icons/effects/props/holodeck/moghes/32x64.dmi';
+	icon_state = "pillar1";
+	layer = 9;
+	name = "giant pillar";
+	pixel_y = 1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ju" = (
 /obj/effect/decal/road_marking/crosswalk{
 	dir = 1
@@ -4325,12 +4515,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"jz" = (
-/obj/item/paper_scanner,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "jA" = (
 /obj/effect/decal/curb/corner,
 /obj/effect/decal/curb{
@@ -4489,12 +4673,12 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "jR" = (
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#ffffff";
-	light_power = 0.45;
-	light_range = 12
+/obj/structure/table/stone,
+/obj/item/material/hatchet/unathiknife{
+	pixel_y = 12;
+	pixel_x = 4
 	},
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -4587,6 +4771,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"kc" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "kd" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/table/reinforced/wood,
@@ -4652,6 +4848,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"kl" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "km" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 22
@@ -4714,6 +4921,22 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"kt" = (
+/obj/structure/bed/stool/chair/sofa/beige{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"ku" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "kv" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -4837,21 +5060,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades)
-"kL" = (
-/obj/effect/decal/curb{
-	dir = 8
-	},
-/obj/effect/decal/curb{
-	dir = 4
-	},
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/rod_railing{
-	dir = 8
-	},
-/turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -4999,13 +5207,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"lc" = (
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "ld" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -5106,11 +5307,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"lo" = (
-/turf/simulated/floor/sidewalk/detail{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/library)
 "lp" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -5213,6 +5409,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"ly" = (
+/obj/structure/platform_deco{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "lz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -5253,6 +5465,11 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lD" = (
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "lE" = (
 /obj/effect/floor_decal/concrete{
 	dir = 8
@@ -5264,13 +5481,15 @@
 /area/new_blades/mudki/interiors/north_housing)
 "lF" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
-	icon_state = "edge"
+	icon_state = "edge";
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "lG" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "corner";
-	dir = 8
+	dir = 8;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "lH" = (
@@ -5398,12 +5617,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"lS" = (
-/obj/item/reagent_containers/food/drinks/shaker,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "lT" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
@@ -5554,6 +5767,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"mf" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "mg" = (
 /obj/machinery/telecomms/bus/preset_two,
 /turf/unsimulated/floor,
@@ -5566,6 +5787,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"mi" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "mj" = (
 /obj/structure/bed/stool/chair/office/dark,
 /obj/effect/floor_decal/concrete{
@@ -5735,7 +5968,8 @@
 "mA" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
-	dir = 10
+	dir = 10;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "mB" = (
@@ -5761,11 +5995,16 @@
 	},
 /area/new_blades)
 "mD" = (
-/obj/item/book/manual/barman_recipes,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/bed/padded,
+/obj/item/bedsheet/brown,
+/obj/structure/curtain/open/bed,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "mE" = (
 /obj/structure/trash_pile,
 /obj/effect/decal/curb{
@@ -5775,14 +6014,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"mF" = (
-/obj/effect/decal/curb/corner{
-	dir = 4
-	},
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "mG" = (
 /obj/structure/coatrack,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -5809,11 +6040,13 @@
 	},
 /area/new_blades)
 "mK" = (
-/obj/structure/bed/stool/bar/padded,
-/turf/simulated/floor/sidewalk/flat{
+/obj/structure/bed/stool/chair/sofa/beige{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "mL" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -5946,16 +6179,20 @@
 	},
 /area/new_blades)
 "mX" = (
-/obj/effect/floor_decal/concrete/large{
-	dir = 1
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
 	},
-/turf/simulated/floor/sidewalk/flat{
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/interiors/north_housing)
 "mZ" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
-	icon_state = "corner"
+	icon_state = "corner";
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "na" = (
@@ -6064,6 +6301,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"nm" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "nn" = (
 /obj/item/holomenu,
 /obj/structure/table/reinforced/wood,
@@ -6097,6 +6345,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"ns" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "nt" = (
 /obj/structure/shipping_container{
 	icon_state = "red3"
@@ -6109,10 +6365,14 @@
 	},
 /area/new_blades)
 "nu" = (
-/turf/simulated/floor/sidewalk/flat{
+/obj/machinery/door/urban{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/library)
+/area/new_blades/mudki/interiors/north_housing)
 "nv" = (
 /obj/structure/closet/crate{
 	name = "autolathe crate"
@@ -6259,12 +6519,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"nL" = (
-/obj/structure/table/rack/cafe_table,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "nM" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -6302,6 +6556,14 @@
 /obj/structure/table/reinforced/wood,
 /obj/machinery/light/colored/decayed{
 	dir = 1
+	},
+/obj/item/flora/pottedplant_small/smallbush{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/item/paper_scanner{
+	pixel_x = 8;
+	pixel_y = 2
 	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
@@ -6536,6 +6798,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"ou" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/structure/flora/bush/jungle/c/random,
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ov" = (
 /obj/effect/decal/exterior_stairs/half/center{
 	dir = 4
@@ -6583,12 +6860,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"oB" = (
-/obj/structure/filingcabinet/chestdrawer,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "oC" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -6860,33 +7131,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"pe" = (
-/obj/effect/decal/curb/corner{
-	dir = 1
-	},
-/obj/effect/decal/curb/corner,
-/obj/effect/decal/curb{
-	dir = 1
-	},
-/turf/simulated/floor/sidewalk/blocks{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/alley)
 "pg" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"ph" = (
-/obj/structure/flora/grass/junglegrass/random,
-/obj/effect/decal/curb{
-	dir = 6
-	},
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "pi" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -6963,6 +7213,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"pr" = (
+/obj/effect/decal/curb/corner,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ps" = (
 /obj/structure/survey_probe,
 /obj/effect/floor_decal/industrial/outline/research,
@@ -7155,6 +7412,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"pO" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "pP" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/concrete{
@@ -7198,6 +7466,10 @@
 /obj/structure/table/reinforced/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
+	},
+/obj/item/device/flashlight/lamp/green{
+	pixel_y = 8;
+	pixel_x = -4
 	},
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
@@ -7355,11 +7627,13 @@
 	},
 /area/new_blades)
 "qh" = (
-/obj/effect/decal/curb{
+/obj/effect/decal/curb/corner{
 	dir = 1
 	},
-/obj/structure/flora/bush/jungle/b/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/obj/effect/floor_decal/concrete/large{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -7399,10 +7673,12 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/scc_evac)
 "qm" = (
-/turf/simulated/floor/sidewalk/blocks{
+/obj/effect/decal/curb,
+/obj/structure/flora/bush/jungle/c/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/library)
+/area/new_blades)
 "qn" = (
 /obj/structure/closet/crate{
 	name = "hardhat and bands crate"
@@ -7434,6 +7710,15 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"qo" = (
+/obj/effect/floor_decal/spline/fancy/wood/full,
+/obj/structure/unathi_statue/warrior{
+	pixel_y = 4
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qp" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -7461,15 +7746,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"qr" = (
-/obj/item/glass_jar{
-	desc = "A small empty jar that is mostly used for giving a tip.";
-	name = "tip jar"
-	},
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "qs" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -7507,10 +7783,14 @@
 /turf/simulated/floor,
 /area/shuttle/scc_evac)
 "qw" = (
-/turf/simulated/floor/sidewalk/blocks{
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "qx" = (
 /obj/structure/platform_deco{
 	dir = 1
@@ -7537,6 +7817,10 @@
 /area/new_blades/mudki/interiors/north_housing)
 "qB" = (
 /obj/effect/decal/curb/corner,
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
@@ -7557,17 +7841,28 @@
 	},
 /area/new_blades)
 "qE" = (
-/obj/structure/table/reinforced/wood,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/alley)
 "qF" = (
-/obj/structure/platform,
-/turf/simulated/floor/concrete{
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "qG" = (
 /turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
@@ -7645,12 +7940,39 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qP" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qQ" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"qR" = (
+/obj/structure/platform{
+	pixel_y = 1
+	},
+/obj/structure/platform{
+	dir = 8;
+	pixel_y = 0
+	},
+/obj/structure/platform_deco{
+	dir = 9;
+	pixel_y = 0
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qS" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/effect/floor_decal/concrete{
@@ -7811,12 +8133,6 @@
 /obj/structure/bed/handrail,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
-"rm" = (
-/obj/machinery/chemical_dispenser/bar_alc/full,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "rn" = (
 /obj/structure/rod_railing{
 	pixel_y = -2
@@ -7984,15 +8300,19 @@
 	light_power = 0.3;
 	light_range = 12
 	},
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+/obj/structure/platform,
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades)
 "rG" = (
-/obj/effect/decal/curb{
-	dir = 10
-	},
-/obj/structure/flora/bush/jungle/c/random,
+/obj/effect/decal/curb,
+/obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
@@ -8234,7 +8554,8 @@
 "sg" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
-	dir = 8
+	dir = 8;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "sh" = (
@@ -8287,6 +8608,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"sm" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.75
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "sn" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -8305,10 +8641,11 @@
 	},
 /area/new_blades)
 "sp" = (
-/turf/simulated/floor/marble/dark{
+/obj/structure/manhole,
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/alley)
 "sq" = (
 /obj/structure/closet/cabinet,
 /obj/effect/floor_decal/concrete{
@@ -8445,17 +8782,20 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "sF" = (
-/obj/effect/decal/curb{
-	dir = 10
+/obj/structure/platform{
+	dir = 1;
+	layer = 2.89;
+	name = "adjusted platform"
+	},
+/obj/structure/platform{
+	dir = 8;
+	name = "adjusted platform";
+	layer = 2.89
 	},
 /obj/effect/decal/curb/corner{
-	dir = 4
+	dir = 1
 	},
-/obj/structure/flora/grass/junglegrass/random,
-/obj/structure/rod_railing{
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/grass/moghes{
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -8522,6 +8862,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"sN" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "sO" = (
 /obj/effect/decal/curb{
 	layer = 2.04;
@@ -8603,15 +8958,15 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "sV" = (
-/obj/effect/decal/curb,
-/obj/effect/decal/curb{
-	dir = 1
+/obj/structure/table/reinforced/wood,
+/obj/item/toy/desk/newtoncradle{
+	pixel_y = 6;
+	pixel_x = -2
 	},
-/obj/structure/flora/grass/junglegrass/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/interiors/library)
 "sW" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -8773,9 +9128,11 @@
 	},
 /area/new_blades)
 "to" = (
-/obj/effect/decal/curb,
-/obj/structure/flora/grass/junglegrass/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -8841,6 +9198,20 @@
 /obj/effect/decal/road_marking/turn_right,
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"tw" = (
+/obj/structure/platform_deco,
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "tx" = (
 /obj/structure/bonfire/fireplace{
 	density = 0
@@ -8849,12 +9220,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"ty" = (
-/obj/structure/filingcabinet,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "tz" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -8976,6 +9341,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"tF" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete,
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = -7
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 5
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "tG" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -8987,12 +9367,6 @@
 	temperature = 315.15
 	},
 /area/landing_pad)
-"tH" = (
-/obj/item/toy/desk/fan,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "tI" = (
 /obj/machinery/light{
 	dir = 8
@@ -9142,6 +9516,29 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"tY" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
+"tZ" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ua" = (
 /obj/item/modular_computer/console/preset/command/captain{
 	dir = 8;
@@ -9253,6 +9650,17 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"um" = (
+/obj/structure/platform_deco{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "un" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
@@ -9368,6 +9776,11 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"uD" = (
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "uF" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -9381,16 +9794,22 @@
 /obj/effect/decal/curb{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades)
-"uH" = (
-/obj/structure/bed/stool/chair/office/dark,
-/turf/simulated/floor/sidewalk/flat{
+"uI" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete/large{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades)
 "uK" = (
 /obj/effect/decal/exterior_stairs/half{
 	dir = 4
@@ -9447,11 +9866,13 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "uQ" = (
-/obj/machinery/atm,
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "uR" = (
 /obj/structure/automobile_filler,
 /obj/effect/decal/road_marking{
@@ -9477,7 +9898,7 @@
 /obj/effect/decal/curb/corner{
 	dir = 8
 	},
-/obj/structure/flora/grass/junglegrass/random,
+/obj/structure/flora/bush/jungle/c/random,
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
@@ -9555,6 +9976,15 @@
 	},
 /turf/simulated/floor,
 /area/shuttle/scc_evac)
+"vd" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ve" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -9637,11 +10067,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"vm" = (
-/turf/simulated/floor/concrete/square{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "vn" = (
 /obj/structure/table/wood,
 /obj/machinery/light/colored/decayed{
@@ -9692,11 +10117,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"vt" = (
-/turf/simulated/floor/marble{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "vu" = (
 /obj/effect/decal/fake_object{
 	color = "#B6B64B";
@@ -9936,7 +10356,8 @@
 "vT" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
-	dir = 9
+	dir = 9;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "vV" = (
@@ -10122,14 +10543,18 @@
 	},
 /area/new_blades)
 "wl" = (
-/obj/effect/decal/curb/corner{
-	dir = 8
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
 	},
-/obj/item/device/quikpay,
-/turf/simulated/floor/sidewalk/flat{
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = 3
+	},
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "wm" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -10282,14 +10707,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"wC" = (
-/obj/machinery/vending/boozeomat{
-	req_access = null
-	},
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "wD" = (
 /obj/effect/floor_decal/corner/black{
 	dir = 1
@@ -10309,11 +10726,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
-"wF" = (
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "wG" = (
 /obj/structure/closet/crate,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -10416,11 +10828,16 @@
 	},
 /area/new_blades/mudki/road)
 "wS" = (
-/obj/machinery/bookbinder,
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "wU" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 22
@@ -10433,8 +10850,24 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "wV" = (
-/turf/simulated/open,
-/area/new_blades/mudki/interiors/library)
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
+"wW" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete/large{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "wX" = (
 /obj/structure/bed/stool/chair/sofa/beige,
 /obj/machinery/light/colored/decayed{
@@ -10552,6 +10985,22 @@
 	name = "blocked sidewalk tiles"
 	},
 /area/new_blades)
+"xm" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xn" = (
 /obj/structure/rod_railing{
 	dir = 8;
@@ -10589,12 +11038,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"xr" = (
-/obj/machinery/chemical_dispenser/bar_soft/full,
-/turf/simulated/floor/sidewalk/flat{
+"xq" = (
+/obj/structure/unathi_pillar{
+	pixel_y = 11
+	},
+/obj/effect/floor_decal/spline/fancy/wood/full,
+/turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/alley)
 "xs" = (
 /obj/machinery/atm{
 	pixel_y = -8
@@ -10625,6 +11077,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"xv" = (
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "xw" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -10705,6 +11162,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"xG" = (
+/obj/machinery/appliance/cooker/stove,
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "xH" = (
 /obj/structure/rod_railing{
 	dir = 8;
@@ -10793,6 +11259,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"xR" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 4;
+	pixel_y = -1
+	},
+/obj/structure/platform_deco{
+	dir = 5;
+	pixel_y = -1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xS" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -10853,6 +11336,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
+/obj/item/book/manual/engineering_particle_accelerator,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -10886,9 +11370,30 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"yc" = (
+/obj/structure/rod_railing{
+	layer = 2.89;
+	pixel_y = -5
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "yd" = (
-/turf/simulated/wall/sandstone,
-/area/new_blades/mudki/interiors/library)
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/structure/flora/bush/jungle/b/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ye" = (
 /obj/effect/map_effect/window_spawner/full/shuttle/scc{
 	spawn_firedoor = 1;
@@ -10905,6 +11410,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"yg" = (
+/obj/effect/decal/curb,
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "yh" = (
 /obj/structure/table/wood,
 /obj/item/clothing/accessory/poncho/unathimantle/merchant,
@@ -11005,6 +11517,17 @@
 /obj/machinery/telecomms/server/presets/service,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"yr" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ys" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -11356,6 +11879,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"yN" = (
+/obj/effect/decal/curb/corner,
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "yO" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -11403,6 +11939,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"yT" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "yU" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -11438,6 +11982,7 @@
 /obj/effect/decal/curb{
 	dir = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -11469,6 +12014,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"zc" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/toilet{
+	pixel_y = 8
+	},
+/turf/simulated/floor/tiled/freezer{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "zd" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/rod_railing{
@@ -11616,6 +12172,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"zt" = (
+/obj/structure/flora/grass/junglegrass/random,
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "zu" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -11747,6 +12312,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"zF" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
 "zG" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -12234,7 +12807,7 @@
 /obj/effect/decal/curb{
 	dir = 8
 	},
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/jungle/c/random,
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
@@ -12249,6 +12822,18 @@
 	name = "adjusted railing"
 	},
 /turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"AE" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -12363,13 +12948,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
-"AQ" = (
-/obj/effect/decal/curb,
-/obj/structure/flora/bush/jungle/c/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "AR" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor/asphalt{
@@ -12408,6 +12986,17 @@
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/scc_evac)
+"AX" = (
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = 6
+	},
+/obj/structure/filingcabinet{
+	pixel_x = -9
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "AY" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -12463,6 +13052,21 @@
 	dir = 4
 	},
 /turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Bf" = (
+/obj/structure/rod_railing{
+	dir = 4;
+	pixel_y = 2
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -12523,12 +13127,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
-"Bj" = (
-/obj/item/device/flashlight/lamp,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "Bk" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 5
@@ -12937,12 +13535,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"Cb" = (
-/obj/item/folder/blue,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "Cc" = (
 /obj/structure/platform,
 /obj/structure/platform_stairs/full/east_west_cap,
@@ -13013,6 +13605,20 @@
 /obj/machinery/telecomms/server/presets/supply,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"Cm" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/obj/effect/decal/curb/corner,
+/obj/structure/flora/grass/junglegrass/random,
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Cn" = (
 /turf/simulated/wall/concrete,
 /area/new_blades/mudki/interiors/water_treatment)
@@ -13047,19 +13653,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"Cs" = (
-/obj/effect/decal/curb,
-/obj/effect/decal/curb/corner{
-	dir = 8
-	},
-/obj/effect/decal/curb/corner{
-	dir = 4
-	},
-/obj/structure/flora/bush/jungle/c/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "Ct" = (
 /obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/carpet/rubber,
@@ -13086,13 +13679,10 @@
 /area/new_blades)
 "Cw" = (
 /obj/effect/decal/curb{
-	dir = 5
+	dir = 1
 	},
-/obj/effect/decal/curb/corner,
-/obj/structure/flora/grass/junglegrass/random,
-/obj/structure/rod_railing{
-	dir = 8
-	},
+/obj/effect/decal/curb,
+/obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/rod_railing,
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
@@ -13118,12 +13708,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"Cz" = (
-/obj/effect/decal/exterior_stairs/center,
-/turf/simulated/floor/concrete{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "CA" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/concrete{
@@ -13177,6 +13761,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"CF" = (
+/obj/effect/decal/curb,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "CG" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 8
@@ -13211,6 +13804,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"CJ" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 8;
+	pixel_y = -1
+	},
+/obj/structure/platform_deco{
+	dir = 9;
+	pixel_y = -1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "CK" = (
 /obj/machinery/computer/shuttle_control/scc_evac{
 	locked = 1;
@@ -13241,6 +13851,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"CN" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "CO" = (
 /turf/simulated/wall/sandstone,
 /area/new_blades/mudki/interiors/south_housing)
@@ -13599,6 +14223,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Dv" = (
+/obj/structure/bed/stool/chair/office/dark,
+/obj/effect/floor_decal/concrete/large{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "Dw" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -13659,6 +14292,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"DE" = (
+/obj/machinery/bookbinder,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "DF" = (
 /obj/structure/closet/cabinet,
 /turf/simulated/floor/sidewalk/flat{
@@ -13672,6 +14311,7 @@
 /obj/effect/decal/curb/corner{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -13804,16 +14444,9 @@
 /area/new_blades)
 "DT" = (
 /obj/effect/decal/curb{
-	dir = 9
+	dir = 6
 	},
-/obj/effect/decal/curb/corner{
-	dir = 1
-	},
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/rod_railing{
-	dir = 4
-	},
-/obj/structure/rod_railing,
+/obj/structure/flora/bush/jungle/c/random,
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
@@ -13854,12 +14487,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
-"DW" = (
-/obj/machinery/lapvend,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "DX" = (
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/sidewalk{
@@ -13940,23 +14567,20 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "Ef" = (
-/obj/effect/decal/exterior_stairs/half,
-/turf/simulated/floor/concrete{
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/machinery/appliance/cooker/stove,
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "Eg" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 315.15
 	},
 /area/new_blades/underground)
-"Eh" = (
-/obj/structure/bed/stool/chair/wood,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "Ei" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -14187,6 +14811,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"EL" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/obj/structure/flora/bush/jungle/c/random,
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "EM" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -14257,12 +14892,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"EU" = (
-/obj/item/folder/red,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "EV" = (
 /obj/structure/flora/pottedplant/largebush,
 /turf/simulated/floor/wood/maple{
@@ -14279,6 +14908,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"EX" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "EZ" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -14572,6 +15209,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"FG" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "FH" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/road_marking{
@@ -14667,6 +15316,26 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/new_blades)
+"FS" = (
+/obj/structure/unathi_pillar/mador{
+	pixel_y = 11
+	},
+/obj/effect/floor_decal/spline/fancy/wood/full,
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
+"FT" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
 /area/new_blades)
 "FU" = (
 /turf/simulated/floor/exoplanet/grass/moghes{
@@ -14951,6 +15620,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"GD" = (
+/obj/machinery/libraryscanner,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "GE" = (
 /obj/structure/bed/stool/chair/office/dark,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -15003,15 +15678,6 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
-"GM" = (
-/obj/effect/decal/curb{
-	dir = 5
-	},
-/obj/structure/flora/bush/jungle/c/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "GN" = (
 /obj/item/deployable_kit/surgery_table,
 /obj/item/deployable_kit/surgery_table,
@@ -15080,7 +15746,7 @@
 /area/new_blades)
 "GW" = (
 /obj/machinery/door/urban,
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -15141,41 +15807,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"Hf" = (
-/obj/effect/decal/curb,
-/obj/effect/decal/curb{
-	dir = 9
+"He" = (
+/obj/structure/platform{
+	pixel_y = 3
 	},
-/obj/structure/flora/grass/junglegrass/random,
-/obj/structure/rod_railing{
-	dir = 4
-	},
-/obj/structure/rod_railing,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
-"Hg" = (
-/obj/effect/decal/curb/corner{
-	dir = 1
-	},
-/obj/effect/decal/curb/corner{
-	dir = 4
-	},
-/obj/effect/decal/curb{
+/obj/structure/platform_stairs/full/east_west_cap{
 	dir = 8
 	},
-/obj/structure/flora/bush/jungle/c/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
-"Hh" = (
-/obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades)
 "Hi" = (
 /obj/item/reagent_containers/cooking_container/board,
 /obj/item/reagent_containers/cooking_container/board/bowl{
@@ -15258,12 +15900,6 @@
 	},
 /turf/simulated/open,
 /area/new_blades/mudki/interiors/library)
-"Hr" = (
-/obj/item/folder/yellow,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "Ht" = (
 /obj/structure/bed/stool/chair/sofa/pew/left,
 /turf/simulated/floor/sidewalk/flat{
@@ -15405,11 +16041,14 @@
 	},
 /area/new_blades)
 "HJ" = (
-/obj/structure/filingcabinet/filingcabinet,
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/machinery/appliance/cooker/oven,
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "HK" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
@@ -15552,6 +16191,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"HX" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "HY" = (
 /obj/item/reagent_containers/food/drinks/bottle,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -15594,7 +16242,19 @@
 /obj/effect/decal/curb/corner{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Ic" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/obj/structure/flora/grass/junglegrass/random,
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -15666,6 +16326,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"Il" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Im" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 1
@@ -15708,6 +16377,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"Ir" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
+"Is" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "It" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -15777,6 +16463,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"IC" = (
+/obj/effect/decal/curb/corner,
+/obj/effect/floor_decal/concrete/large,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ID" = (
 /obj/machinery/howitzer{
 	dir = 4
@@ -15846,16 +16539,16 @@
 	},
 /area/new_blades)
 "IL" = (
-/obj/effect/decal/road_marking{
-	dir = 8
+/obj/structure/bed/padded,
+/obj/effect/floor_decal/concrete{
+	dir = 9
 	},
-/obj/effect/decal/curb{
-	dir = 4
-	},
-/turf/simulated/floor/asphalt{
+/obj/item/bedsheet/black,
+/obj/structure/curtain/open/bed,
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/underground)
+/area/new_blades/mudki/interiors/north_housing)
 "IM" = (
 /obj/structure/shipping_container{
 	icon_state = "red1"
@@ -15866,6 +16559,22 @@
 	pixel_x = 8
 	},
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"IN" = (
+/obj/structure/platform{
+	dir = 1;
+	layer = 2.89;
+	name = "adjusted platform"
+	},
+/obj/structure/platform{
+	dir = 4;
+	layer = 2.89;
+	name = "adjusted platform"
+	},
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -16015,13 +16724,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
-"Je" = (
-/obj/effect/decal/curb,
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "Jf" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -16048,14 +16750,14 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "Ji" = (
-/obj/effect/decal/curb{
-	dir = 1
+/obj/effect/floor_decal/concrete{
+	dir = 10
 	},
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/obj/effect/decal/curb,
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/interiors/library)
 "Jj" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -16478,6 +17180,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"JY" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "JZ" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -16528,6 +17239,15 @@
 	name = "blocked sidewalk tiles"
 	},
 /area/new_blades)
+"Kd" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Ke" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -16566,6 +17286,9 @@
 /area/new_blades/mudki/interiors/library)
 "Kh" = (
 /obj/structure/table/reinforced/wood,
+/obj/item/flora/pottedplant_small/dead{
+	pixel_y = 4
+	},
 /obj/machinery/door/blast/shutters{
 	id = "mudki_library_shutters"
 	},
@@ -16608,6 +17331,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Kl" = (
+/obj/structure/platform_stairs/full{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Km" = (
 /obj/structure/rod_railing{
 	name = "adjusted rod railing";
@@ -16621,6 +17352,15 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"Ko" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "Kp" = (
 /turf/simulated/floor/concrete{
 	temperature = 315.15
@@ -16637,6 +17377,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"Kr" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Ks" = (
 /obj/structure/table/reinforced/wood,
 /obj/effect/floor_decal/corner/grey{
@@ -16735,6 +17490,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"KD" = (
+/obj/effect/floor_decal/spline/fancy/wood/full,
+/obj/structure/unathi_statue/warrior/right{
+	pixel_y = 4
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
 "KE" = (
 /obj/structure/structural_support/side,
 /obj/structure/structural_support,
@@ -16790,6 +17554,20 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"KI" = (
+/obj/machinery/papershredder{
+	pixel_x = -6
+	},
+/obj/structure/reagent_dispensers/water_cooler{
+	pixel_x = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "KJ" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/desert{
@@ -16918,10 +17696,24 @@
 	},
 /area/new_blades/mudki/interiors/bar)
 "KY" = (
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/alley)
+/area/new_blades)
+"La" = (
+/obj/structure/table/stone,
+/obj/item/device/versebook/skakh{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Lb" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -16933,14 +17725,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
-"Lc" = (
-/obj/structure/ledge{
-	dir = 1
-	},
-/turf/simulated/floor/concrete{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "Ld" = (
 /obj/effect/decal/road_marking/reflector{
 	dir = 8
@@ -17040,6 +17824,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"Lo" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_y = 6
+	},
+/obj/item/pen/red{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/machinery/door/blast/shutters{
+	id = "mudki_library_shutters";
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Lp" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -17111,17 +17915,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"Ls" = (
-/obj/effect/decal/curb{
-	dir = 1
-	},
-/obj/effect/decal/curb,
-/obj/structure/flora/bush/jungle/c/random,
-/obj/structure/rod_railing,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "Lu" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -17181,6 +17974,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"LA" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.45
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "LB" = (
 /obj/structure/bed/stool/chair/office/light,
 /turf/simulated/floor/sidewalk/flat{
@@ -17206,6 +18014,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"LE" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "LF" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 8
@@ -17382,18 +18205,31 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"LV" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "LW" = (
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
-"LY" = (
-/obj/item/reagent_containers/glass/rag,
+"LX" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades)
 "LZ" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -17425,6 +18261,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"Mc" = (
+/obj/machinery/lapvend,
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Md" = (
 /obj/effect/floor_decal/concrete{
 	dir = 8
@@ -17445,15 +18287,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
-"Mf" = (
-/obj/effect/decal/curb{
-	dir = 9
-	},
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "Mg" = (
 /obj/machinery/light/floor{
 	dir = 4
@@ -17488,7 +18321,8 @@
 "Mk" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
-	dir = 1
+	dir = 1;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "Ml" = (
@@ -17550,7 +18384,27 @@
 /area/new_blades)
 "Ms" = (
 /obj/machinery/light/colored/decayed,
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"Mt" = (
+/obj/effect/floor_decal/concrete{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -17597,6 +18451,25 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"MA" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "MB" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 8
@@ -17606,12 +18479,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"MC" = (
-/obj/item/storage/box/fancy/cigarettes/cigar,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "MD" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -18325,6 +19192,27 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Oa" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Ob" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/toy/desk/fan{
+	pixel_y = 4
+	},
+/obj/machinery/door/blast/shutters{
+	id = "mudki_library_shutters"
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Oc" = (
 /obj/effect/landmark{
 	name = "Observer-Start"
@@ -18498,6 +19386,15 @@
 /obj/effect/decal/curb,
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Ow" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -18739,6 +19636,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"OU" = (
+/obj/structure/rod_railing{
+	dir = 8;
+	pixel_y = 2
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "OV" = (
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -18852,6 +19764,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Pj" = (
+/obj/effect/decal/curb,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Pk" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
@@ -18863,7 +19782,8 @@
 "Pl" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
-	dir = 5
+	dir = 5;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "Pm" = (
@@ -19128,6 +20048,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"PO" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "PP" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
@@ -19216,7 +20147,18 @@
 	light_power = 0.2;
 	light_range = 10
 	},
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+/obj/structure/platform_deco{
+	dir = 4
+	},
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -19344,17 +20286,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"Qp" = (
-/obj/effect/decal/exterior_stairs/half/right{
-	dir = 4
-	},
-/obj/effect/decal/curb{
-	dir = 9
-	},
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "Qq" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -19376,16 +20307,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
-"Qt" = (
+"Qs" = (
 /obj/effect/decal/curb{
-	dir = 10
+	dir = 8
 	},
-/obj/effect/decal/curb/corner{
+/obj/effect/decal/curb{
 	dir = 4
 	},
-/obj/structure/flora/bush/jungle/c/random,
+/obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/rod_railing{
-	dir = 4
+	dir = 8
 	},
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
@@ -19412,6 +20343,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Qw" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Qx" = (
 /obj/structure/bed/handrail,
 /turf/simulated/floor/shuttle/dark_blue,
@@ -19465,18 +20407,13 @@
 	},
 /area/new_blades/mudki/interiors)
 "QE" = (
-/obj/effect/decal/road_marking/thin{
-	dir = 8
+/obj/structure/bed/stool/chair/sofa/left/beige{
+	dir = 1
 	},
-/obj/effect/decal/road_marking/thin{
-	dir = 4
-	},
-/obj/effect/decal/road_marking/center,
-/obj/effect/decal/road_marking/reflector,
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/underground)
+/area/new_blades/mudki/interiors/north_housing)
 "QF" = (
 /turf/simulated/floor/concrete{
 	temperature = 315.15
@@ -19515,12 +20452,6 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
-"QL" = (
-/obj/machinery/libraryscanner,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "QM" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/curb{
@@ -19886,18 +20817,13 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "RB" = (
-/obj/effect/decal/curb/corner,
-/obj/effect/decal/curb/corner{
-	dir = 8
+/obj/effect/floor_decal/concrete{
+	dir = 5
 	},
-/obj/effect/decal/curb{
-	dir = 4
-	},
-/obj/structure/flora/bush/jungle/c/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/interiors/library)
 "RC" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 22
@@ -19963,18 +20889,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"RJ" = (
-/obj/effect/decal/curb{
-	dir = 4
-	},
-/obj/effect/decal/curb/corner{
-	dir = 8
-	},
-/obj/structure/flora/bush/jungle/c/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "RK" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
@@ -20094,7 +21008,11 @@
 	dir = 1;
 	name = "Library Window Shutters"
 	},
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -20204,6 +21122,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"Sg" = (
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "Sh" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -20245,6 +21169,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Sm" = (
+/obj/structure/platform_deco{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Sn" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
@@ -20284,12 +21219,6 @@
 /obj/item/clothing/suit/hazmat/anomaly,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
-"Sq" = (
-/obj/structure/bookcase/libraryspawn,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "Sr" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -20344,6 +21273,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"Sx" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Sy" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -20621,6 +21558,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"Tb" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "Tc" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -20703,6 +21655,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"Tp" = (
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "Tq" = (
 /obj/machinery/light/colored/decayed{
 	dir = 1
@@ -20835,6 +21792,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"TD" = (
+/obj/structure/unathi_statue/mador/warrior{
+	pixel_y = 6
+	},
+/obj/effect/floor_decal/spline/fancy/wood/cee{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
 "TE" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/concrete/square{
@@ -20930,11 +21898,13 @@
 	},
 /area/new_blades/mudki/interiors/bar)
 "TQ" = (
-/obj/item/toy/desk/newtoncradle,
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "TR" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
@@ -20982,6 +21952,7 @@
 /obj/effect/decal/curb/corner{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
@@ -21228,6 +22199,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"Ut" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "Uu" = (
 /obj/effect/decal/road_marking/crosswalk{
 	dir = 4
@@ -21239,6 +22218,27 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"Uv" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 10
+	},
+/obj/structure/platform_deco{
+	dir = 8
+	},
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Uw" = (
 /obj/machinery/light{
 	name = "adjusted light fixture"
@@ -21275,12 +22275,49 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"UA" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/structure/flora/bush/jungle/c/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
+"UB" = (
+/obj/effect/decal/curb,
+/obj/structure/flora/bush/jungle/b/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "UC" = (
 /obj/machinery/door/airlock/freezer{
 	name = "Stall 3"
 	},
 /turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
+"UD" = (
+/obj/structure/unathi_pillar{
+	pixel_y = 11
+	},
+/obj/effect/floor_decal/spline/fancy/wood/full,
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
+"UE" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "UF" = (
 /obj/structure/bed/stool/chair/sofa/corner/concave/beige,
 /turf/simulated/floor/wood/maple{
@@ -21429,12 +22466,6 @@
 	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
-"UU" = (
-/obj/machinery/librarycomp/public,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "UV" = (
 /obj/effect/decal/curb{
 	dir = 5
@@ -21503,6 +22534,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"Vd" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Ve" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -21520,21 +22559,21 @@
 	},
 /area/new_blades)
 "Vf" = (
-/obj/effect/decal/curb{
+/obj/effect/decal/curb/corner{
 	dir = 4
 	},
-/obj/effect/decal/curb{
-	dir = 9
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A decrepit stone pillar.";
+	dir = 4;
+	icon = 'icons/effects/props/holodeck/moghes/32x64.dmi';
+	icon_state = "pillar1";
+	layer = 9;
+	name = "giant pillar";
+	pixel_y = 1
 	},
-/obj/structure/flora/grass/junglegrass/random,
-/obj/structure/rod_railing{
-	dir = 4
-	},
-/obj/structure/rod_railing{
-	dir = 8
-	},
-/obj/structure/rod_railing,
-/turf/simulated/floor/exoplanet/grass/moghes{
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -21548,6 +22587,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"Vi" = (
+/obj/structure/platform,
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Vj" = (
 /obj/effect/floor_decal/industrial/hatch_door{
 	color = "#b19664";
@@ -21593,6 +22643,25 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"Vo" = (
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A decrepit stone pillar.";
+	dir = 4;
+	icon = 'icons/effects/props/holodeck/moghes/32x64.dmi';
+	icon_state = "pillar1";
+	layer = 9;
+	name = "giant pillar";
+	pixel_y = 1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Vp" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/table/wood,
@@ -21665,6 +22734,17 @@
 	name = "blocked sidewalk tiles"
 	},
 /area/new_blades)
+"Vw" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "Vy" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -21731,6 +22811,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"VF" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "VG" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb/corner{
@@ -21744,6 +22835,11 @@
 /obj/machinery/vending/security,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"VJ" = (
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "VK" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -21794,13 +22890,23 @@
 	},
 /area/new_blades)
 "VP" = (
-/obj/structure/ledge/roof{
+/obj/machinery/appliance/cooker/oven,
+/obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
+"VQ" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/structure/flora/bush/jungle/c/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "VR" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -22027,29 +23133,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"Wp" = (
-/obj/item/toy/desk/officetoy,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "Wq" = (
-/obj/item/holomenu,
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
+/obj/effect/decal/road_marking/thin{
+	dir = 1
 	},
-/area/new_blades/mudki/interiors)
-"Wr" = (
-/obj/effect/decal/road_marking{
+/obj/effect/decal/road_marking/thin{
 	dir = 4
 	},
-/obj/effect/decal/curb{
+/obj/effect/decal/road_marking/center{
+	dir = 1
+	},
+/obj/effect/decal/road_marking/reflector{
 	dir = 8
 	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
-/area/new_blades/underground)
+/area/new_blades/mudki/road)
 "Ws" = (
 /obj/effect/decal/curb{
 	layer = 2.04;
@@ -22113,7 +23213,8 @@
 "Wy" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
-	dir = 6
+	dir = 6;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "Wz" = (
@@ -22156,17 +23257,6 @@
 "WD" = (
 /turf/simulated/wall/shuttle/scc,
 /area/shuttle/scc_evac)
-"WE" = (
-/obj/effect/decal/curb{
-	dir = 1
-	},
-/obj/effect/decal/curb,
-/obj/structure/flora/grass/junglegrass/random,
-/obj/structure/rod_railing,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "WF" = (
 /obj/structure/platform{
 	dir = 4
@@ -22252,11 +23342,14 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "WN" = (
-/obj/machinery/vending/dinnerware/bar,
-/turf/simulated/floor/sidewalk/flat{
+/obj/structure/bed/stool/chair/sofa/right/beige{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/north_housing)
 "WO" = (
 /obj/effect/floor_decal/spline/fancy/wood/full,
 /obj/structure/unathi_statue/robe{
@@ -22298,6 +23391,17 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/scc_evac)
+"WT" = (
+/obj/structure/unathi_pillar{
+	pixel_y = 11
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"WU" = (
+/turf/simulated/open,
+/area/new_blades/mudki/interiors/library)
 "WV" = (
 /obj/structure/sink/kitchen{
 	dir = 4;
@@ -22329,34 +23433,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"WZ" = (
-/obj/effect/decal/curb{
-	dir = 8
-	},
-/obj/effect/decal/curb/corner{
-	dir = 1
-	},
-/obj/structure/flora/grass/junglegrass/random,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
-"Xa" = (
-/obj/effect/decal/curb{
-	dir = 9
-	},
-/obj/effect/decal/curb/corner{
-	dir = 1
-	},
-/obj/structure/rod_railing{
-	dir = 4
-	},
-/obj/structure/flora/grass/junglegrass/random,
-/obj/structure/rod_railing,
-/turf/simulated/floor/exoplanet/grass/moghes{
-	temperature = 315.15
-	},
-/area/new_blades)
 "Xb" = (
 /obj/structure/flora/bush/jungle/c,
 /turf/simulated/floor/exoplanet/grass/moghes{
@@ -22406,14 +23482,21 @@
 "Xg" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
-	dir = 4
+	dir = 4;
+	temperature = 315.15
 	},
 /area/new_blades/underground)
 "Xh" = (
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -22477,10 +23560,11 @@
 	},
 /area/new_blades/mudki/interiors/library)
 "Xn" = (
-/obj/machinery/light/colored/decayed{
-	dir = 4
+/obj/structure/table/reinforced/wood,
+/obj/item/modular_computer/laptop/preset/civilian{
+	pixel_y = 10
 	},
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -22614,6 +23698,17 @@
 /obj/machinery/telecomms/server/presets/command,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"XC" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.3;
+	light_range = 12
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "XD" = (
 /obj/structure/table/rack/retail_shelf{
 	name = "shelves"
@@ -22941,6 +24036,12 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"Yo" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Yp" = (
 /obj/item/modular_computer/console/preset/supply{
 	dir = 1
@@ -22992,11 +24093,14 @@
 /turf/simulated/floor/asphalt,
 /area/new_blades)
 "Yv" = (
-/obj/machinery/smartfridge/drinks,
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/alley)
 "Yw" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -23057,6 +24161,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"YD" = (
+/obj/structure/utility_pole/street/crosswalk{
+	density = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "YE" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -23068,15 +24183,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
-"YH" = (
+"YF" = (
 /obj/effect/decal/curb{
-	dir = 1
+	dir = 5
 	},
-/obj/structure/rod_railing,
-/turf/simulated/floor/sidewalk/flat{
+/obj/structure/flora/bush/jungle/c/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades)
+"YH" = (
+/obj/structure/sink/kitchen{
+	pixel_y = 22
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "YI" = (
 /obj/effect/decal/road_marking/thin,
 /obj/effect/decal/road_marking/thin{
@@ -23092,6 +24218,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"YJ" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.75
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "YK" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 4
@@ -23118,6 +24260,20 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"YM" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.45
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "YN" = (
 /obj/item/reagent_containers/food/condiment/shaker/spacespice{
 	pixel_x = 3;
@@ -23145,6 +24301,24 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"YQ" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"YR" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "YS" = (
 /obj/structure/shipping_container{
 	icon_state = "red2"
@@ -23158,6 +24332,30 @@
 /obj/effect/decal/curb,
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"YU" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
+"YV" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/device/flashlight/lamp/green{
+	pixel_y = 12
+	},
+/obj/item/folder/red{
+	pixel_y = -8;
+	pixel_x = 4
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "YW" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -23266,16 +24464,14 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "Zg" = (
-/obj/effect/decal/curb{
-	dir = 6
-	},
+/obj/effect/decal/curb/corner,
 /obj/effect/decal/curb/corner{
 	dir = 8
 	},
-/obj/structure/flora/grass/junglegrass/random,
-/obj/structure/rod_railing{
-	dir = 8
+/obj/effect/decal/curb{
+	dir = 4
 	},
+/obj/structure/flora/bush/jungle/c/random,
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
@@ -23332,6 +24528,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"Zo" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Zp" = (
 /obj/structure/platform{
 	dir = 1
@@ -23357,6 +24565,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"Zr" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/flora/grass/junglegrass/random,
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "Zs" = (
 /turf/simulated/floor/asphalt,
 /area/new_blades)
@@ -23398,6 +24622,14 @@
 	},
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor/exoplanet/water/shallow/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
+"Zy" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -23615,6 +24847,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ZQ" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ZR" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/curb{
@@ -23641,6 +24881,9 @@
 	dir = 1
 	},
 /obj/structure/table/reinforced/wood,
+/obj/item/device/versebook/skakh{
+	pixel_y = 4
+	},
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -24151,58 +25394,58 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (3,1,1) = {"
@@ -24410,56 +25653,56 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (4,1,1) = {"
@@ -24670,53 +25913,53 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (5,1,1) = {"
@@ -24931,49 +26174,49 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (6,1,1) = {"
@@ -25191,46 +26434,46 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (7,1,1) = {"
@@ -25449,45 +26692,45 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (8,1,1) = {"
@@ -25707,44 +26950,44 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (9,1,1) = {"
@@ -25968,40 +27211,40 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (10,1,1) = {"
@@ -26229,36 +27472,36 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (11,1,1) = {"
@@ -26488,34 +27731,34 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (12,1,1) = {"
@@ -26748,31 +27991,31 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (13,1,1) = {"
@@ -27005,31 +28248,31 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (14,1,1) = {"
@@ -27264,29 +28507,29 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (15,1,1) = {"
@@ -27523,27 +28766,27 @@ Fe
 Fe
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (16,1,1) = {"
@@ -27780,27 +29023,27 @@ Fe
 Fe
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (17,1,1) = {"
@@ -28037,27 +29280,27 @@ Fe
 Fe
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (18,1,1) = {"
@@ -28295,26 +29538,26 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (19,1,1) = {"
@@ -28552,26 +29795,26 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (20,1,1) = {"
@@ -28809,26 +30052,26 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (21,1,1) = {"
@@ -29066,26 +30309,26 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (22,1,1) = {"
@@ -29324,25 +30567,25 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (23,1,1) = {"
@@ -29581,25 +30824,25 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (24,1,1) = {"
@@ -29704,7 +30947,7 @@ XT
 sf
 cJ
 Kq
-XP
+wl
 qM
 XT
 ve
@@ -29838,25 +31081,25 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (25,1,1) = {"
@@ -30094,26 +31337,26 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (26,1,1) = {"
@@ -30349,28 +31592,28 @@ BZ
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+Fe
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (27,1,1) = {"
@@ -30606,28 +31849,28 @@ BZ
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+Fe
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (28,1,1) = {"
@@ -30637,8 +31880,8 @@ WI
 WI
 Fe
 Fe
-Fe
-Fe
+YC
+FD
 Fe
 Fe
 Fe
@@ -30863,28 +32106,28 @@ BZ
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (29,1,1) = {"
@@ -30895,7 +32138,7 @@ WI
 Fe
 Fe
 Fe
-Fe
+nf
 Fe
 Fe
 Fe
@@ -31120,28 +32363,28 @@ BZ
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (30,1,1) = {"
@@ -31152,7 +32395,7 @@ WI
 Fe
 Fe
 Fe
-Fe
+FD
 Fe
 Fe
 Fe
@@ -31377,28 +32620,28 @@ BZ
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (31,1,1) = {"
@@ -31633,29 +32876,29 @@ Fe
 BZ
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (32,1,1) = {"
@@ -31664,9 +32907,9 @@ WI
 WI
 WI
 Fe
+th
 Fe
-Fe
-Fe
+IM
 Fe
 Fe
 Fe
@@ -31890,29 +33133,29 @@ Fe
 BZ
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (33,1,1) = {"
@@ -31921,11 +33164,11 @@ WI
 WI
 WI
 Fe
+xD
 Fe
-Fe
-Fe
-Fe
-Fe
+Kk
+Er
+Ti
 Fe
 Fe
 Fe
@@ -32147,29 +33390,29 @@ Fe
 BZ
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (34,1,1) = {"
@@ -32178,9 +33421,9 @@ WI
 WI
 WI
 Fe
+Nj
 Fe
-Fe
-Fe
+nt
 Fe
 Fe
 Fe
@@ -32404,29 +33647,29 @@ Fe
 BZ
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (35,1,1) = {"
@@ -32438,8 +33681,8 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
+wG
+Ek
 Fe
 Fe
 Fe
@@ -32661,29 +33904,29 @@ Fe
 BZ
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (36,1,1) = {"
@@ -32692,11 +33935,11 @@ WI
 WI
 WI
 Fe
+EK
 Fe
-Fe
-Fe
-Fe
-Fe
+Wu
+KQ
+cd
 Fe
 Fe
 Fe
@@ -32918,29 +34161,29 @@ Fe
 BZ
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (37,1,1) = {"
@@ -32949,10 +34192,10 @@ WI
 WI
 WI
 Fe
+PF
 Fe
-Fe
-Fe
-Fe
+Pv
+jk
 Fe
 Fe
 Fe
@@ -33175,29 +34418,29 @@ Fe
 BZ
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (38,1,1) = {"
@@ -33206,10 +34449,10 @@ WI
 WI
 WI
 Fe
+nR
 Fe
-Fe
-Fe
-Fe
+IW
+dI
 Fe
 Fe
 Fe
@@ -33432,29 +34675,29 @@ Fe
 BZ
 Fe
 Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (39,1,1) = {"
@@ -33690,28 +34933,28 @@ BZ
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (40,1,1) = {"
@@ -33818,16 +35061,16 @@ DD
 fb
 ZO
 Gz
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
+XT
+XT
+XT
+bJ
+XT
+XT
+XT
+XT
+XT
+XT
 ka
 OP
 MF
@@ -33947,28 +35190,28 @@ BZ
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (41,1,1) = {"
@@ -33978,11 +35221,11 @@ WI
 WI
 Fe
 Fe
+ec
+Hl
+EJ
 Fe
-Fe
-Fe
-Fe
-Fe
+op
 Fe
 Fe
 Fe
@@ -34075,20 +35318,20 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-GY
-GY
-GY
-GY
-GY
-GY
+XT
+RF
+JY
+LC
+uD
+DU
+mK
+WN
+wB
+XT
+XT
+XT
+XT
+XT
 eh
 XT
 XT
@@ -34205,27 +35448,27 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (42,1,1) = {"
@@ -34235,11 +35478,11 @@ WI
 WI
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
+pR
+rO
+GE
+cy
+zR
 Fe
 Fe
 Fe
@@ -34332,20 +35575,20 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-GY
-mS
-mS
-mS
-mS
-GY
+XT
+vo
+rV
+LC
+uD
+Ec
+BV
+Bn
+bH
+bH
+ns
+bH
+bH
+XT
 ZI
 XT
 qz
@@ -34464,25 +35707,25 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (43,1,1) = {"
@@ -34490,13 +35733,13 @@ aK
 WI
 WI
 WI
+Hj
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
+jx
+kg
+Lr
+nP
+YZ
 Fe
 Fe
 Fe
@@ -34589,20 +35832,20 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-GY
+XT
+iy
+qw
+zK
+LC
+LC
+LC
+zK
+LC
+LC
+LC
+LC
+zK
+XT
 Cy
 XT
 xZ
@@ -34721,25 +35964,25 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (44,1,1) = {"
@@ -34747,13 +35990,13 @@ aK
 WI
 WI
 WI
+wL
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
+qN
+cb
+uw
+yv
+hY
 Fe
 Fe
 Fe
@@ -34846,20 +36089,20 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-GY
+XT
+XT
+XT
+LC
+uQ
+Jh
+Jh
+lx
+XT
+XT
+bJ
+XT
+XT
+XT
 Cy
 XT
 yo
@@ -34980,23 +36223,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (45,1,1) = {"
@@ -35004,13 +36247,13 @@ aK
 WI
 WI
 WI
+Cd
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
+yZ
+AG
+ES
+go
+dR
 Fe
 Fe
 Fe
@@ -35103,21 +36346,21 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-GY
-GY
-ZI
+XT
+zc
+uk
+LC
+VP
+xG
+GG
+JL
+XT
+na
+fA
+wO
+XT
+Ft
+kl
 XT
 XT
 XT
@@ -35237,23 +36480,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (46,1,1) = {"
@@ -35261,13 +36504,13 @@ aK
 WI
 WI
 WI
+QP
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
+Kp
+mJ
+mG
+TH
+pA
 Fe
 Fe
 Fe
@@ -35359,22 +36602,22 @@ hN
 rK
 fb
 ZO
-Gz
-GY
-GY
-GY
-GY
-GY
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-GY
-sP
-fI
+yU
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+mD
+qF
+bw
+XT
+zf
+XJ
 xQ
 hU
 ar
@@ -35494,23 +36737,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (47,1,1) = {"
@@ -35518,13 +36761,13 @@ aK
 WI
 WI
 WI
+GI
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
+sc
+vh
+YL
+Ye
+pK
 Fe
 Fe
 Fe
@@ -35616,20 +36859,20 @@ hN
 DD
 fb
 ZO
-Gz
+yU
 fE
 qs
 Nq
 Nq
+xQ
+xQ
+Nq
 ta
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
+XT
+XT
+XT
+XT
+XT
 RK
 Ph
 Vc
@@ -35751,23 +36994,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+Fe
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (48,1,1) = {"
@@ -35775,13 +37018,13 @@ aK
 WI
 WI
 WI
+ij
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
+aF
+Lf
+Bv
+HY
+gp
 Fe
 Fe
 Fe
@@ -35873,21 +37116,21 @@ hN
 DD
 fb
 ZO
-Gz
+yU
 fE
 tN
 NH
+Ph
 IY
-sU
-Qg
-Qg
-xI
+IY
+IY
+qE
 Pw
 xI
 xI
-Qg
-Qg
-pe
+Yv
+xQ
+Wn
 GY
 GY
 GY
@@ -36010,21 +37253,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (49,1,1) = {"
@@ -36034,12 +37277,12 @@ WI
 WI
 Fe
 Fe
+bo
+tm
+or
+OV
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
+EQ
 Fe
 Fe
 Fe
@@ -36130,21 +37373,21 @@ hN
 DD
 fb
 ZO
-Gz
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-ve
+yU
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+yB
+sp
+ak
 GY
 mS
 mS
@@ -36267,21 +37510,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (50,1,1) = {"
@@ -36291,12 +37534,12 @@ WI
 WI
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
+qy
+OB
+vI
+vA
+Hi
+zo
 Fe
 Fe
 Fe
@@ -36388,20 +37631,20 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-GY
-mS
-mS
-mS
-mS
-GY
-AL
+XT
+dC
+XT
+HJ
+Ef
+fk
+uD
+uD
+uD
+uD
+XT
+Ut
+Ph
+Ko
 GY
 mS
 mS
@@ -36524,21 +37767,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (51,1,1) = {"
@@ -36550,10 +37793,10 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
+tx
+eo
+mP
+Mj
 Fe
 Fe
 Fe
@@ -36645,19 +37888,19 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-GY
+XT
+LO
+XT
+YH
+TQ
+io
+bH
+bH
+XT
+nu
+XT
+XT
+XT
 AL
 GY
 mS
@@ -36781,21 +38024,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (52,1,1) = {"
@@ -36808,8 +38051,8 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
+go
+YN
 Fe
 Fe
 Fe
@@ -36902,19 +38145,19 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-GY
+XT
+LC
+LC
+zK
+LC
+LC
+LC
+Sg
+XT
+jI
+Dv
+bq
+XT
 AL
 GY
 mS
@@ -37038,21 +38281,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (53,1,1) = {"
@@ -37159,19 +38402,19 @@ rK
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-GY
-mS
-mS
-mS
-mS
-GY
+XT
+mX
+wS
+LC
+bH
+rY
+rY
+QE
+XT
+bj
+ri
+SY
+XT
 bl
 GY
 mS
@@ -37295,21 +38538,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (54,1,1) = {"
@@ -37416,19 +38659,19 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-mS
-mS
-GY
-mS
-mS
-mS
-mS
-GY
+XT
+vo
+rV
+LC
+bH
+bh
+kt
+Wt
+XT
+IL
+IL
+yz
+XT
 ve
 GY
 mS
@@ -37552,21 +38795,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (55,1,1) = {"
@@ -37673,19 +38916,19 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-GY
-GY
-GY
-GY
-GY
-GY
-GY
-GY
+XT
+nh
+is
+LC
+bH
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
 rz
 GY
 mS
@@ -37808,22 +39051,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (56,1,1) = {"
@@ -37930,18 +39173,18 @@ DD
 fb
 ZO
 Gz
-GY
-mS
-mS
-mS
-mS
-GY
+XT
+uD
+uD
+LC
+bH
+XT
 QM
 cV
 CH
 qL
 xO
-xO
+fE
 fE
 fE
 GY
@@ -38064,23 +39307,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (57,1,1) = {"
@@ -38187,18 +39430,18 @@ DD
 fb
 ZO
 Gz
-GY
-GY
-GY
-GY
-GY
-GY
+XT
+XT
+bJ
+XT
+XT
+XT
 Za
 Qh
 Qh
 VS
 sc
-Kp
+QF
 QF
 nj
 GY
@@ -38321,23 +39564,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (58,1,1) = {"
@@ -38578,23 +39821,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (59,1,1) = {"
@@ -38835,23 +40078,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (60,1,1) = {"
@@ -39092,23 +40335,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (61,1,1) = {"
@@ -39349,23 +40592,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (62,1,1) = {"
@@ -39606,23 +40849,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (63,1,1) = {"
@@ -39863,23 +41106,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+Fe
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (64,1,1) = {"
@@ -40122,21 +41365,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (65,1,1) = {"
@@ -40379,21 +41622,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (66,1,1) = {"
@@ -40640,17 +41883,17 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (67,1,1) = {"
@@ -40901,13 +42144,13 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (68,1,1) = {"
@@ -41162,9 +42405,9 @@ Fe
 Fe
 Fe
 Fe
-Fe
-MP
-MP
+WI
+WI
+WI
 aK
 "}
 (69,1,1) = {"
@@ -42940,9 +44183,9 @@ Kz
 Kz
 Kz
 Kz
-Kz
-Kz
-Kz
+va
+aJ
+Mz
 Kz
 Kz
 Kz
@@ -43196,11 +44439,11 @@ qN
 qN
 qN
 qN
-qN
-qN
-qN
-qN
-qN
+yZ
+sB
+jN
+bD
+yZ
 qN
 qN
 qN
@@ -43453,11 +44696,11 @@ ld
 ld
 ld
 ld
-ld
-ld
-ld
-ld
-ld
+Iv
+SH
+YI
+ZO
+DX
 ld
 ld
 ld
@@ -43710,6 +44953,11 @@ ec
 ec
 ec
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -43728,13 +44976,8 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-MP
-MP
+WI
+WI
 aK
 "}
 (79,1,1) = {"
@@ -43910,8 +45153,8 @@ GY
 GY
 GY
 GY
-Fe
-Fe
+pc
+pc
 GY
 NL
 NL
@@ -43967,6 +45210,11 @@ cG
 cG
 cG
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -43979,19 +45227,14 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (80,1,1) = {"
@@ -44163,7 +45406,7 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
@@ -44224,6 +45467,11 @@ cG
 cG
 cG
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -44235,20 +45483,15 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (81,1,1) = {"
@@ -44263,11 +45506,11 @@ WI
 Fe
 Fe
 Fe
-ec
-Hl
-EJ
 Fe
-op
+Fe
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -44392,7 +45635,7 @@ Ck
 QR
 Jm
 og
-uT
+Zo
 qt
 Id
 Kp
@@ -44401,7 +45644,7 @@ Kp
 iI
 LJ
 DB
-GM
+YF
 NS
 dn
 Ck
@@ -44420,7 +45663,7 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
@@ -44481,6 +45724,11 @@ cG
 cG
 cG
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -44492,20 +45740,15 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (82,1,1) = {"
@@ -44520,11 +45763,11 @@ WI
 Fe
 Fe
 Fe
-pR
-rO
-GE
-cy
-zR
+Fe
+Fe
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -44657,8 +45900,8 @@ FF
 db
 jl
 Kc
-dl
-fU
+vd
+gK
 UV
 Bg
 Ck
@@ -44677,7 +45920,7 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
@@ -44738,6 +45981,11 @@ cG
 cG
 cG
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -44749,20 +45997,15 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (83,1,1) = {"
@@ -44775,13 +46018,13 @@ WI
 WI
 WI
 Fe
-Hj
 Fe
-jx
-kg
-Lr
-nP
-YZ
+Fe
+Fe
+Fe
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -44904,7 +46147,7 @@ EZ
 sv
 Ck
 Ze
-sV
+LV
 qa
 lL
 cQ
@@ -44916,7 +46159,7 @@ iA
 SC
 lL
 up
-sV
+LV
 Bg
 Ck
 Md
@@ -44934,7 +46177,7 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
@@ -44995,6 +46238,11 @@ ec
 ec
 ec
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -45005,21 +46253,16 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (84,1,1) = {"
@@ -45032,13 +46275,13 @@ WI
 WI
 WI
 Fe
-wL
 Fe
-qN
-cb
-uw
-yv
-hY
+Fe
+Fe
+Fe
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -45161,13 +46404,13 @@ Ym
 Ym
 Op
 Ze
-dq
+AE
 jE
 Kp
 Kp
 XI
 fc
-Hg
+AC
 xp
 Id
 Kp
@@ -45191,7 +46434,7 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
@@ -45244,13 +46487,19 @@ dX
 eS
 yZ
 pc
+Bw
+Bw
 pc
 pc
+Bw
 pc
-pc
-pc
-pc
-pc
+yZ
+xO
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -45261,22 +46510,16 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (85,1,1) = {"
@@ -45289,13 +46532,13 @@ WI
 WI
 WI
 Fe
-Cd
 Fe
-yZ
-AG
-ES
-go
-dR
+Fe
+Fe
+Fe
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -45423,9 +46666,9 @@ cQ
 Kp
 Kp
 XI
-sV
+LV
 cM
-WE
+Ic
 Id
 Kp
 Kp
@@ -45448,7 +46691,7 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
@@ -45509,6 +46752,11 @@ ec
 ec
 ec
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -45519,21 +46767,16 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (86,1,1) = {"
@@ -45546,13 +46789,13 @@ WI
 WI
 WI
 Fe
-QP
 Fe
-Kp
-mJ
-mG
-TH
-pA
+Fe
+Fe
+Fe
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -45674,7 +46917,7 @@ Ck
 QR
 JX
 og
-gQ
+Is
 jE
 Kp
 TF
@@ -45682,13 +46925,13 @@ rp
 vY
 ZW
 VK
-ck
+Cw
 LM
 rp
 jT
 Kp
 QH
-bw
+DT
 OF
 zC
 dn
@@ -45705,7 +46948,7 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
@@ -45759,13 +47002,18 @@ Rr
 cG
 cG
 ec
-pc
+Bw
 pc
 ec
 cG
 cG
 cG
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -45775,22 +47023,17 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 aK
 "}
 (87,1,1) = {"
@@ -45803,13 +47046,13 @@ WI
 WI
 WI
 Fe
-GI
 Fe
-sc
-vh
-YL
-Ye
-pK
+Fe
+Fe
+Fe
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -45929,7 +47172,7 @@ Kp
 hN
 Ck
 Ze
-hD
+KY
 Lv
 Ry
 Id
@@ -45937,7 +47180,7 @@ Kp
 hB
 yZ
 mC
-sV
+LV
 uC
 BI
 uM
@@ -45962,7 +47205,7 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
@@ -46016,13 +47259,18 @@ Rr
 cG
 cG
 ec
-pc
-pc
+Bw
+Bw
 ec
 cG
 cG
 cG
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -46032,21 +47280,16 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 aK
 "}
@@ -46060,13 +47303,13 @@ WI
 WI
 WI
 Fe
-ij
 Fe
-aF
-Lf
-Bv
-HY
-gp
+Fe
+Fe
+Fe
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -46187,24 +47430,24 @@ lI
 Ck
 Ze
 lN
-iz
+Il
 hu
 cQ
 TF
 wg
 Bw
 mC
-Qt
+iw
 LH
-Xa
+Zr
 uM
 Bw
 Wx
 jT
 SC
 Vq
-Je
-iz
+rG
+Il
 Bg
 Ck
 Gz
@@ -46219,12 +47462,12 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
-Fe
-Fe
+pc
+pc
 GY
 NL
 NL
@@ -46274,12 +47517,17 @@ cG
 ec
 ec
 pc
-pc
+Bw
 ec
 cG
 cG
 cG
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -46288,22 +47536,17 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 aK
 "}
@@ -46319,12 +47562,12 @@ WI
 Fe
 Fe
 Fe
-bo
-tm
-or
-OV
 Fe
-EQ
+Fe
+Fe
+Fe
+Fe
+Fe
 Fe
 vK
 Fe
@@ -46443,8 +47686,8 @@ Kp
 lI
 Ck
 Ze
-AQ
-Ji
+qm
+iz
 JK
 Kp
 hB
@@ -46452,7 +47695,7 @@ Bw
 Bw
 HR
 rk
-Hf
+gj
 Lj
 lT
 Bw
@@ -46460,8 +47703,8 @@ Bw
 YX
 Kp
 rD
-to
-qh
+yg
+yd
 Bg
 Ck
 Gz
@@ -46476,7 +47719,7 @@ mS
 mS
 mS
 mS
-mS
+GY
 mS
 mS
 GY
@@ -46537,6 +47780,11 @@ ec
 cG
 ec
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -46544,23 +47792,18 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 aK
 "}
@@ -46576,12 +47819,12 @@ WI
 Fe
 Fe
 Fe
-qy
-OB
-vI
-vA
-Hi
-zo
+Fe
+Fe
+Fe
+Fe
+Fe
+Fe
 Fe
 vK
 Fe
@@ -46762,7 +48005,7 @@ kk
 kk
 ju
 qN
-Da
+gq
 CO
 CO
 CO
@@ -46787,13 +48030,18 @@ Rr
 cG
 yI
 ec
-pc
+Bw
 ec
 cG
 cG
 cG
 cG
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -46801,22 +48049,17 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -46835,10 +48078,10 @@ Fe
 Fe
 Fe
 Fe
-tx
-eo
-mP
-Mj
+Fe
+Fe
+Fe
+Fe
 Fe
 vK
 Fe
@@ -46975,7 +48218,7 @@ YX
 Kp
 SC
 up
-il
+tY
 Bg
 Ck
 qN
@@ -47019,7 +48262,7 @@ ED
 ED
 pq
 yZ
-Da
+gq
 fE
 tb
 ta
@@ -47051,6 +48294,11 @@ cG
 cG
 cG
 cG
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -47058,22 +48306,17 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -47093,8 +48336,8 @@ Fe
 Fe
 Fe
 Fe
-go
-YN
+Fe
+Fe
 Fe
 Fe
 vK
@@ -47276,7 +48519,7 @@ aJ
 aJ
 CU
 qN
-Da
+gq
 fE
 Um
 Ex
@@ -47308,6 +48551,11 @@ cG
 cG
 cG
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
@@ -47315,22 +48563,17 @@ Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -47474,9 +48717,9 @@ Gz
 Bw
 rC
 mT
-eJ
-kL
-Cw
+ou
+Qs
+Cm
 Oi
 vP
 Bw
@@ -47484,7 +48727,7 @@ Oe
 Bw
 oh
 MD
-Zg
+sN
 Ar
 xp
 os
@@ -47533,7 +48776,7 @@ aJ
 aJ
 CU
 qN
-Da
+gq
 fE
 tN
 gM
@@ -47556,38 +48799,38 @@ Gz
 xO
 fe
 pc
+Bw
+Bw
 pc
-pc
-pc
 ec
 ec
 ec
 ec
 ec
 ec
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -47604,8 +48847,8 @@ WI
 Fe
 Fe
 Fe
-YC
-FD
+Fe
+Fe
 Fe
 Fe
 Fe
@@ -47734,7 +48977,7 @@ JE
 xo
 Ma
 mm
-Vf
+MA
 ir
 qN
 yZ
@@ -47743,7 +48986,7 @@ zd
 JE
 xo
 WO
-Cs
+UA
 vf
 TL
 Bw
@@ -47790,7 +49033,7 @@ aJ
 aJ
 CU
 qN
-Da
+gq
 CO
 CO
 CO
@@ -47818,33 +49061,33 @@ ec
 pc
 pc
 pc
-pc
-pc
+Bw
+yZ
+xO
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -47862,7 +49105,7 @@ Fe
 Fe
 Fe
 Fe
-nf
+Fe
 Fe
 Fe
 Fe
@@ -47988,9 +49231,9 @@ Gz
 Bw
 SC
 rk
-sF
+eX
 au
-DT
+xm
 ui
 ZU
 Bw
@@ -47998,7 +49241,7 @@ Oe
 Bw
 ga
 LS
-Qt
+iw
 au
 JH
 Lj
@@ -48072,36 +49315,36 @@ Rr
 cG
 cG
 ec
+Bw
+Bw
+Bw
 pc
-pc
-pc
-pc
-pc
+yZ
+xO
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -48119,7 +49362,7 @@ Fe
 Fe
 Fe
 Fe
-FD
+Fe
 Fe
 Fe
 Fe
@@ -48335,30 +49578,30 @@ ec
 ec
 ec
 ec
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -48525,8 +49768,8 @@ VD
 PI
 PI
 PI
-PI
-PI
+QT
+QT
 PI
 PI
 PI
@@ -48592,30 +49835,30 @@ cG
 cG
 cG
 ec
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -48633,9 +49876,9 @@ Fe
 Fe
 Fe
 Fe
-th
 Fe
-IM
+Fe
+Fe
 Fe
 Fe
 Fe
@@ -48773,7 +50016,7 @@ Bw
 YX
 Kp
 xz
-hD
+KY
 AJ
 Bg
 Ck
@@ -48784,10 +50027,10 @@ GY
 GY
 GY
 GY
-Kp
-Kp
-Kp
-Kp
+sc
+xO
+xO
+sc
 HZ
 SH
 ik
@@ -48849,30 +50092,30 @@ cG
 cG
 cG
 ec
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -48890,11 +50133,11 @@ WI
 WI
 WI
 Fe
-xD
 Fe
-Kk
-Er
-Ti
+Fe
+Fe
+Fe
+Fe
 Fe
 vK
 Fe
@@ -49013,8 +50256,8 @@ Kp
 lI
 Ck
 Ze
-cY
-Ji
+UB
+iz
 JK
 Kp
 hB
@@ -49031,7 +50274,7 @@ YX
 Kp
 rD
 lN
-iz
+Il
 Bg
 Ck
 Gz
@@ -49106,30 +50349,30 @@ cG
 cG
 cG
 ec
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -49147,9 +50390,9 @@ WI
 WI
 WI
 Fe
-Nj
 Fe
-nt
+Fe
+Fe
 Fe
 Fe
 Fe
@@ -49271,15 +50514,15 @@ lI
 Ck
 Ze
 lN
-iz
+Il
 MQ
 db
 mW
 KR
 Bw
 mC
-Zg
-AC
+sN
+Kr
 xp
 uM
 Bw
@@ -49287,8 +50530,8 @@ Vs
 cm
 rC
 Br
-cY
-Ji
+UB
+iz
 Bg
 Ck
 Ny
@@ -49324,7 +50567,7 @@ mS
 mS
 mS
 GY
-jx
+GB
 qN
 DD
 aJ
@@ -49363,30 +50606,30 @@ cG
 cG
 cG
 ec
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -49407,8 +50650,8 @@ Fe
 Fe
 Fe
 Fe
-wG
-Ek
+Fe
+Fe
 Fe
 vK
 Fe
@@ -49535,9 +50778,9 @@ Kp
 hB
 yZ
 mC
-sV
+LV
 cM
-Ls
+EL
 uM
 yZ
 YX
@@ -49581,7 +50824,7 @@ mS
 mS
 mS
 GY
-jx
+GB
 qN
 DD
 aJ
@@ -49620,30 +50863,30 @@ cG
 cG
 cG
 ec
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -49661,11 +50904,11 @@ WI
 WI
 WI
 Fe
-EK
 Fe
-Wu
-KQ
-cd
+Fe
+Fe
+Fe
+Fe
 Fe
 vK
 Fe
@@ -49786,7 +51029,7 @@ Ck
 gE
 vV
 iX
-fk
+VQ
 jE
 Kp
 mW
@@ -49820,7 +51063,7 @@ hN
 DD
 ik
 ZO
-Gz
+Ny
 CO
 Yx
 pt
@@ -49877,30 +51120,30 @@ cG
 ec
 ec
 ec
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -49918,10 +51161,10 @@ WI
 WI
 WI
 Fe
-PF
 Fe
-Pv
-jk
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -50049,9 +51292,9 @@ db
 Kp
 Kp
 XI
-sV
+LV
 uC
-WE
+Ic
 Id
 Kp
 Kp
@@ -50077,7 +51320,7 @@ hN
 DD
 ik
 ZO
-Gz
+Ny
 CO
 CO
 Mv
@@ -50133,31 +51376,31 @@ cG
 cG
 cG
 ec
+xO
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 aK
@@ -50175,10 +51418,10 @@ WI
 WI
 WI
 Fe
-nR
 Fe
-IW
-dI
+Fe
+Fe
+Fe
 Fe
 Fe
 vK
@@ -50284,14 +51527,14 @@ fb
 ZO
 Gz
 xO
-OM
+HX
 dm
 XT
 XT
 XT
 XT
 XT
-OM
+HX
 ev
 xO
 Kp
@@ -50306,8 +51549,8 @@ jE
 Kp
 Kp
 XI
-eX
-RB
+LE
+Zg
 JH
 Id
 Kp
@@ -50331,7 +51574,7 @@ mS
 mS
 GY
 hN
-DD
+rK
 ik
 ZO
 Gz
@@ -50390,29 +51633,29 @@ cG
 cG
 cG
 ec
+xO
+Kp
+hN
+DD
+YI
+ZO
+Gz
 Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -50543,13 +51786,13 @@ Gz
 xO
 MK
 hq
-RV
-Zl
-Zl
+Kd
+LX
+LX
 Zl
 RV
 TU
-GA
+ip
 xO
 Kp
 wk
@@ -50570,7 +51813,7 @@ Ga
 rC
 so
 if
-sV
+LV
 Bg
 Ck
 DX
@@ -50587,7 +51830,7 @@ mS
 mS
 mS
 GY
-hN
+lI
 DD
 ik
 ZO
@@ -50647,29 +51890,29 @@ cG
 cG
 cG
 ec
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+xO
+Kp
+hN
+DD
+YI
+ZO
+Gz
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -50802,9 +52045,9 @@ yX
 uG
 kK
 kK
-vZ
-Ih
-pc
+to
+pr
+Yo
 dU
 Kp
 Pe
@@ -50816,8 +52059,8 @@ hN
 Ck
 Ze
 Wd
-hn
-gQ
+av
+Is
 dx
 Dd
 SC
@@ -50825,8 +52068,8 @@ Gx
 cQ
 hQ
 nD
-ph
-RJ
+zt
+uT
 Bl
 Bg
 Ck
@@ -50844,7 +52087,7 @@ mS
 mS
 mS
 GY
-hN
+lI
 DD
 ik
 ZO
@@ -50904,29 +52147,29 @@ ec
 ec
 ec
 ec
-Zk
-Px
-Px
-Px
-Px
-Px
-Px
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+Bw
+Bw
+hN
+DD
+YI
+ZO
+Gz
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -51073,7 +52316,7 @@ lI
 Ck
 gE
 Ei
-rG
+fm
 GT
 WH
 Id
@@ -51082,8 +52325,8 @@ Bw
 Kp
 iI
 bP
-WZ
-Mf
+kc
+YR
 Ve
 mk
 Ck
@@ -51107,6 +52350,8 @@ ik
 ZO
 Md
 EZ
+Rt
+Rt
 EZ
 EZ
 EZ
@@ -51115,10 +52360,8 @@ EZ
 EZ
 EZ
 EZ
-EZ
-EZ
-EZ
-EZ
+Rt
+Rt
 EZ
 EZ
 EZ
@@ -51139,7 +52382,7 @@ EZ
 KK
 KK
 KK
-EZ
+KK
 Rt
 Rt
 EZ
@@ -51161,29 +52404,29 @@ Rt
 Rt
 EZ
 EZ
+EZ
+EZ
 sv
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
+DD
+YI
+ZO
+Gz
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -51363,21 +52606,21 @@ DD
 ik
 uZ
 xf
+fx
 xf
 xf
 xf
 xf
 xf
 xf
+fx
 xf
 xf
 xf
 xf
 xf
 xf
-xf
-xf
-xf
+fx
 xf
 xf
 Vu
@@ -51421,26 +52664,26 @@ xf
 xf
 xf
 xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
-xf
+zH
+YI
+ZO
+Gz
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -51679,25 +52922,25 @@ FC
 FC
 FC
 FC
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
+Wq
+ZO
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -51937,24 +53180,24 @@ Kz
 Kz
 Kz
 Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
-Kz
+AP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -51963,16 +53206,16 @@ aK
 "}
 (111,1,1) = {"
 aK
-IL
-IL
-IL
-IL
-IL
-IL
-IL
-IL
-IL
-IL
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
 xf
 xf
 xf
@@ -52136,8 +53379,8 @@ PI
 PI
 PI
 PI
-PI
-PI
+QT
+QT
 PI
 PI
 Iv
@@ -52147,8 +53390,8 @@ ZO
 DX
 PI
 PI
-PI
-PI
+QT
+QT
 PI
 PI
 Iv
@@ -52188,30 +53431,30 @@ PI
 PI
 PI
 PI
-Iv
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
+PI
+PI
+PI
+PI
+PI
+PI
+PI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -52220,16 +53463,16 @@ aK
 "}
 (112,1,1) = {"
 aK
-is
-is
-is
-is
-is
-is
-is
-is
-is
-is
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 aJ
 aJ
 aJ
@@ -52445,30 +53688,30 @@ ec
 ec
 ec
 ec
-mX
-ld
-ld
-ld
-ld
-ld
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-pL
-pL
+Fe
+Fe
+Fe
+Fe
+Fe
+Fe
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -52477,16 +53720,16 @@ aK
 "}
 (113,1,1) = {"
 aK
-QE
-QE
-QE
-QE
-QE
-QE
-QE
-QE
-QE
-QE
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
 ud
 ud
 QX
@@ -52655,7 +53898,7 @@ gW
 gt
 CO
 hN
-DD
+rK
 fb
 ZO
 Gz
@@ -52708,22 +53951,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -52734,16 +53977,16 @@ aK
 "}
 (114,1,1) = {"
 aK
-is
-is
-is
-is
-is
-is
-is
-is
-is
-is
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
+aJ
 aJ
 aJ
 aJ
@@ -52964,23 +54207,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -52991,16 +54234,16 @@ aK
 "}
 (115,1,1) = {"
 aK
-Wr
-Wr
-Wr
-Wr
-Wr
-Wr
-Wr
-Wr
-Wr
-Wr
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
+Kz
 Kz
 Kz
 Kz
@@ -53221,23 +54464,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -53478,23 +54721,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -53634,7 +54877,7 @@ Kt
 RP
 XT
 Ov
-Et
+Ow
 XT
 bm
 bm
@@ -53735,23 +54978,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -53890,8 +55133,8 @@ nM
 XP
 NO
 XT
-KC
-dU
+Pj
+Oa
 XT
 jn
 jn
@@ -53939,7 +55182,7 @@ lX
 SB
 kC
 CO
-hN
+lI
 DD
 fb
 ZO
@@ -53992,23 +55235,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -54196,18 +55439,18 @@ uF
 xc
 jC
 CO
-hN
+lI
 DD
 fb
 ZO
-Gz
+Ny
 CO
 At
 gW
 yR
 Rh
 CO
-jx
+GB
 qN
 QO
 aJ
@@ -54249,23 +55492,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -54454,17 +55697,17 @@ CO
 CO
 CO
 hN
-DD
+rK
 fb
 ZO
-Gz
+Ny
 CO
 yf
 ZY
 yR
 uc
 CO
-jx
+GB
 yZ
 Tj
 kk
@@ -54506,23 +55749,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -54693,7 +55936,7 @@ GY
 GY
 GY
 GY
-Kp
+GY
 Kp
 PV
 Kp
@@ -54763,23 +56006,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -54945,12 +56188,12 @@ GY
 GY
 GY
 GY
-mD
-qr
+mS
+mS
+mS
 mS
 mS
 GY
-Fe
 Zk
 Px
 EZ
@@ -55020,23 +56263,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -55194,20 +56437,20 @@ fb
 aJ
 ZO
 qN
-Da
+wq
 GY
-Yv
-xr
-fZ
-Eh
 mS
-GY
-ch
-LY
+mS
+mS
 mS
 mS
 GY
-Fe
+mS
+mS
+mS
+mS
+mS
+GY
 jx
 Bw
 yZ
@@ -55278,22 +56521,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -55451,20 +56694,20 @@ dk
 aJ
 ZO
 qN
-Da
+wq
 GY
-wC
-rm
-qE
-mK
 mS
-GY
-MC
-lS
+mS
+mS
 mS
 mS
 GY
-Fe
+mS
+mS
+mS
+mS
+mS
+GY
 jx
 Bw
 qN
@@ -55535,22 +56778,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -55710,19 +56953,19 @@ ZO
 qN
 Da
 GY
-WN
-uQ
-nL
 mS
 mS
 mS
-Wq
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
 GY
-Fe
-jx
+GB
 qN
 qN
 NZ
@@ -55734,8 +56977,8 @@ QW
 EZ
 EZ
 EZ
-EZ
-EZ
+Rt
+Rt
 EZ
 EZ
 Lu
@@ -55745,8 +56988,8 @@ bD
 QW
 EZ
 EZ
-EZ
-EZ
+Rt
+Rt
 EZ
 EZ
 Lu
@@ -55792,22 +57035,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -55967,19 +57210,19 @@ AP
 qN
 Da
 GY
-wl
-Qp
-hZ
-VP
-bh
-sp
-qw
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
 GY
-Fe
-jx
+GB
 qN
 tO
 zH
@@ -56048,23 +57291,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -56214,8 +57457,8 @@ SN
 dJ
 wH
 PI
-QT
-QT
+PI
+PI
 PI
 PI
 PI
@@ -56224,18 +57467,18 @@ PI
 PI
 fy
 GY
-YH
-vm
-hZ
-Lc
-Ef
-vt
-wF
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
 GY
-Fe
 jx
 qN
 QO
@@ -56305,23 +57548,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -56481,18 +57724,18 @@ xO
 QF
 nj
 GY
-YH
-vm
-hZ
-qF
-Cz
-kQ
-hy
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
 GY
-Fe
 jx
 qN
 QO
@@ -56562,23 +57805,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -56738,18 +57981,18 @@ Of
 bd
 fE
 GY
-YH
-vm
-hZ
-ae
-bq
-uv
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
 mS
 GY
-Fe
 jx
 qN
 QO
@@ -56819,23 +58062,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -56983,7 +58226,7 @@ fb
 aJ
 ZO
 qN
-Da
+wq
 bd
 me
 TP
@@ -56995,18 +58238,18 @@ ll
 bd
 eh
 GY
-mF
-co
-hZ
-hZ
-hZ
-hZ
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
 mS
 GY
-Fe
 jx
 qN
 QO
@@ -57076,23 +58319,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -57240,7 +58483,7 @@ fb
 aJ
 ZO
 qN
-Da
+wq
 bd
 kz
 CY
@@ -57250,7 +58493,7 @@ Ri
 nn
 ih
 bd
-ZI
+cZ
 GY
 GY
 GY
@@ -57262,8 +58505,8 @@ mS
 mS
 mS
 mS
+mS
 GY
-Fe
 jx
 qN
 VZ
@@ -57333,23 +58576,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -57509,8 +58752,8 @@ zY
 bd
 DG
 xI
-xI
-Qg
+Ca
+eC
 qB
 GY
 mS
@@ -57519,8 +58762,8 @@ mS
 mS
 mS
 mS
+mS
 GY
-Fe
 jx
 yZ
 Tj
@@ -57534,8 +58777,8 @@ ld
 ld
 ld
 ld
-ld
-ld
+Be
+Be
 ld
 ld
 ld
@@ -57548,8 +58791,8 @@ ld
 ld
 ld
 ld
-ld
-ld
+Be
+Be
 ld
 ld
 ld
@@ -57589,20 +58832,20 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -57768,7 +59011,7 @@ bd
 bd
 bd
 bd
-zf
+ve
 GY
 GY
 GY
@@ -57777,8 +59020,8 @@ GY
 GY
 GY
 GY
-GZ
-jx
+GY
+aD
 qN
 AV
 Gi
@@ -57846,20 +59089,20 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -58026,16 +59269,16 @@ AZ
 IV
 bd
 gA
-Ph
-qB
-FI
-FI
-KY
-KY
-FI
-FI
-GZ
-jx
+Ca
+yN
+eC
+eC
+xI
+Ca
+YJ
+Ui
+Vc
+aD
 qN
 DD
 aJ
@@ -58103,20 +59346,20 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -58268,7 +59511,7 @@ fb
 aJ
 ZO
 qN
-wq
+Da
 bd
 ov
 bd
@@ -58284,15 +59527,15 @@ OL
 bd
 bd
 bd
-yB
+AL
 GY
 GY
 GY
 GY
 GY
 GY
-GZ
-jx
+GY
+aD
 qN
 DD
 aJ
@@ -58359,21 +59602,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -58525,7 +59768,7 @@ fb
 aJ
 ZO
 qN
-wq
+Da
 bd
 BG
 Dz
@@ -58541,15 +59784,15 @@ ng
 Aw
 oO
 bd
-yB
+Sy
 GY
 mS
 mS
-uH
-dC
+mS
+mS
+mS
 GY
-Fe
-jx
+GB
 qN
 DD
 aJ
@@ -58616,21 +59859,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -58798,15 +60041,15 @@ LR
 RR
 kd
 bd
-zf
+tJ
 GY
 mS
 mS
-Wp
-TQ
+mS
+mS
+mS
 GY
-Fe
-jx
+GB
 qN
 DD
 aJ
@@ -58872,22 +60115,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -59055,14 +60298,14 @@ FO
 Aj
 sL
 bd
-zf
+tJ
 GY
-Hr
 mS
-tH
-Bj
+mS
+mS
+mS
+mS
 GY
-Fe
 jx
 qN
 DD
@@ -59129,22 +60372,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -59312,14 +60555,14 @@ FO
 bd
 bd
 bd
-yB
+YM
 GY
-EU
-UU
-jL
+mS
+mS
+mS
+mS
 mS
 GY
-Fe
 jx
 qN
 DD
@@ -59328,7 +60571,7 @@ fb
 aJ
 ZO
 qN
-Da
+wq
 Fi
 Zp
 YA
@@ -59386,22 +60629,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -59569,14 +60812,14 @@ Xf
 Aw
 oO
 bd
-yB
+AL
 GY
-Cb
-No
-oB
-DW
+mS
+mS
+mS
+mS
+mS
 GY
-Fe
 jx
 qN
 DD
@@ -59585,7 +60828,7 @@ fb
 aJ
 ZO
 qN
-Da
+wq
 Fi
 EE
 lY
@@ -59643,22 +60886,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -59810,7 +61053,7 @@ fb
 aJ
 ZO
 qN
-Da
+wq
 bd
 jw
 Ks
@@ -59826,14 +61069,14 @@ Xf
 RR
 kd
 bd
-yB
+Sy
 GY
-lc
-QL
-ty
-Hh
+mS
+mS
+mS
+mS
+mS
 GY
-Fe
 jx
 qN
 DD
@@ -59900,22 +61143,22 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -60067,7 +61310,7 @@ fb
 aJ
 ZO
 qN
-Da
+wq
 bd
 qp
 Hz
@@ -60083,14 +61326,14 @@ MN
 Aj
 sL
 bd
-yB
+AL
 GY
-jz
-wS
-HJ
-Sq
+mS
+mS
+mS
+mS
+mS
 GY
-Fe
 jx
 qN
 DD
@@ -60158,21 +61401,21 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -60340,15 +61583,15 @@ OL
 bd
 bd
 bd
-zf
+tJ
 GY
 GY
 GY
 GY
 GY
 GY
-GZ
-jx
+GY
+aD
 qN
 DD
 aJ
@@ -60416,20 +61659,20 @@ Px
 Px
 Px
 Px
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -60596,16 +61839,16 @@ VL
 IZ
 bd
 Ft
-Nq
-eG
-FI
-KY
-KY
-KY
-FI
-FI
-GZ
-jx
+LA
+Tb
+Qg
+xI
+Ca
+Ca
+eC
+sm
+fE
+aD
 qN
 DD
 aJ
@@ -60673,20 +61916,20 @@ qN
 qN
 qN
 qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
 WI
 WI
 WI
@@ -60852,17 +62095,17 @@ bd
 bd
 bd
 bd
-yB
-FI
-yd
-yd
-yd
-yd
-yd
-yd
-yd
-yd
-jx
+nY
+Ex
+fD
+fD
+fD
+fD
+fD
+fD
+fD
+fD
+aD
 qN
 DD
 aJ
@@ -61105,21 +62348,21 @@ Ba
 Ba
 Ba
 bd
-sP
-xQ
-xQ
-xQ
-eG
-FI
-yd
+Vw
+ar
+pQ
+pQ
+mi
+Ir
+fD
 RX
+tF
 fD
-yd
-fD
+KI
 Xh
+AX
 fD
-yd
-jx
+GB
 qN
 DD
 aJ
@@ -61362,21 +62605,21 @@ rs
 te
 ll
 bd
-zf
-yd
-yd
-yd
-yd
-yd
-yd
+tJ
 fD
 fD
+fD
+fD
+fD
+fD
+Ji
+PO
 GW
+RB
+YU
+DE
 fD
-fD
-fD
-yd
-jx
+GB
 qN
 DD
 aJ
@@ -61609,7 +62852,7 @@ fb
 aJ
 ZO
 qN
-wq
+Da
 zT
 aS
 AI
@@ -61619,20 +62862,20 @@ nc
 bE
 hJ
 bd
-zf
-yd
-lo
-nu
+tJ
+fD
+Mc
+GD
 gx
 mx
 GW
-fD
+Ji
 Ms
-yd
 fD
+VF
+CN
+YQ
 fD
-fD
-yd
 jx
 qN
 DD
@@ -61701,20 +62944,20 @@ qN
 qN
 qN
 qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
 WI
 WI
 WI
@@ -61866,7 +63109,7 @@ fb
 aJ
 ZO
 qN
-wq
+Da
 tn
 bd
 rj
@@ -61876,20 +63119,20 @@ tT
 HL
 zY
 bd
-zf
-yd
+fS
+fD
 nQ
 mo
 Dr
 DQ
-Kh
+Ob
+Mt
+Qw
 fD
-fD
-yd
-fD
+YV
 Xn
+sV
 fD
-yd
 jx
 qN
 DD
@@ -61957,21 +63200,21 @@ ld
 ld
 ld
 ld
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -62122,8 +63365,8 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
+DX
+fy
 sc
 bd
 bd
@@ -62133,20 +63376,20 @@ Of
 Of
 Of
 bd
-FI
-yd
+Uc
+fD
 BW
 ey
 cp
 bz
 Kh
+Lo
 fX
-fX
-yd
-yd
-yd
-yd
-yd
+fD
+fD
+fD
+fD
+fD
 jx
 qN
 DD
@@ -62214,17 +63457,17 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -62379,19 +63622,19 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-jR
-Fe
-Fe
-FI
-yd
+Gz
+xO
+xO
+Kp
+Kp
+Kp
+Kp
+Kp
+QF
+fE
+fE
+FG
+fD
 eY
 sO
 hS
@@ -62401,7 +63644,7 @@ nW
 nW
 dr
 nW
-yd
+fD
 WO
 qD
 jx
@@ -62412,7 +63655,7 @@ fb
 aJ
 ZO
 qN
-Da
+wq
 Fi
 ce
 bb
@@ -62437,20 +63680,20 @@ IQ
 lg
 cx
 Fi
-hN
+lI
 DD
 fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
+uv
+uv
+uv
+uv
 GY
 Fe
 Fe
@@ -62471,17 +63714,17 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -62636,27 +63879,27 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-yd
-yd
-yd
-yd
+Gz
+Kp
+FS
+Bw
+nm
+pO
+pO
+yr
+lD
+xq
+fD
+fD
+fD
+fD
 Jd
-lo
-qm
-qm
-qm
-qm
-lo
+gG
+Tp
+Tp
+Tp
+Tp
+gG
 wi
 hb
 do
@@ -62669,7 +63912,7 @@ fb
 aJ
 ZO
 qN
-Da
+wq
 Fi
 Zp
 oW
@@ -62694,33 +63937,33 @@ mb
 IQ
 ds
 Fi
-hN
+lI
 DD
 fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
+uv
+uv
+uv
+uv
 GY
 Fe
 Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 Fe
 Fe
 Fe
@@ -62728,17 +63971,17 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -62893,19 +64136,19 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-yd
-wV
-wV
+Ny
+Kp
+Bw
+Sx
+yT
+mN
+xM
+yT
+cS
+Bw
+fD
+WU
+WU
 Xm
 Hw
 Wa
@@ -62916,7 +64159,7 @@ Wa
 Wa
 nr
 XN
-cT
+XC
 xO
 jx
 qN
@@ -62957,45 +64200,45 @@ fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
+uv
+uv
+uv
+uv
 GY
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -63150,19 +64393,19 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-Fe
-yd
-wV
-wV
+Ny
+Kp
+VJ
+Vd
+KD
+KC
+dU
+KD
+gX
+VJ
+fD
+WU
+WU
 qI
 Ws
 xB
@@ -63214,41 +64457,41 @@ fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
+uv
+uv
+uv
+uv
 GY
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -63407,27 +64650,27 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Bw
-Bw
-Bw
-Bw
-Bw
-Bw
-Bw
-Fe
-yd
-yd
-yd
-yd
+Gz
+dM
+yT
+Vf
+do
+EX
+UE
+do
+jt
+yT
+fD
+fD
+fD
+fD
 LG
 pX
-nu
-nu
-nu
-nu
-nu
+xv
+xv
+xv
+xv
+xv
 IE
 hb
 tl
@@ -63471,41 +64714,41 @@ fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
+uv
+uv
+uv
+uv
 GY
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -63664,17 +64907,17 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Bw
-Bw
-Bw
-Bw
-Bw
-Bw
-Bw
-Fe
-yd
+Gz
+Zy
+KD
+gm
+PH
+hh
+Kl
+qR
+Sm
+KD
+fD
 gR
 gR
 wE
@@ -63686,7 +64929,7 @@ MH
 Pu
 NT
 vD
-yd
+fD
 MS
 qD
 jx
@@ -63728,41 +64971,41 @@ fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
 GY
-mS
-mS
-mS
+uv
+uv
+uv
 GY
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -63921,16 +65164,16 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Fe
-Fe
-Fe
-Fe
-Bw
-Bw
-PY
+Gz
+mf
+tw
+sF
+UD
+La
+jR
+FS
+CJ
+Uv
 XN
 AY
 nz
@@ -63943,9 +65186,9 @@ dN
 qX
 FM
 vD
-yd
+fD
 Uh
-yd
+fD
 jx
 qN
 DD
@@ -63985,41 +65228,41 @@ fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
 GY
-mS
-mS
-mS
+uv
+uv
+uv
 GY
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -64178,31 +65421,31 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Bw
-Bw
-Bw
-Fe
-Bw
-Bw
-Fe
-yd
+Gz
+Kp
+tZ
+uI
+Bf
+Bf
+Bf
+Bf
+IC
+Vi
+fD
 gR
 gR
 pX
 rn
 PZ
 im
-wV
-wV
+WU
+WU
 aq
 Zz
 vD
 YE
 pT
-yd
+fD
 jx
 qN
 DD
@@ -64242,41 +65485,41 @@ fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
 GY
 GY
 GY
 GY
 GY
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -64435,15 +65678,15 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Bw
-Bw
-Bw
-Fe
-Bw
-Bw
+Gz
+Kp
+tZ
+yc
+TD
+fV
+ja
+il
+CF
 rF
 XN
 AY
@@ -64452,15 +65695,15 @@ Lx
 rn
 MJ
 im
-wV
-wV
+WU
+WU
 aq
 ZV
 vD
 Fx
 Uz
-yd
-jx
+fD
+GB
 qN
 DD
 aJ
@@ -64473,8 +65716,8 @@ Px
 Px
 Px
 Px
-Px
-Px
+LP
+LP
 Px
 Px
 Px
@@ -64487,8 +65730,8 @@ Px
 Px
 Px
 Px
-Px
-Px
+LP
+LP
 Px
 Px
 Px
@@ -64499,37 +65742,37 @@ fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
 GY
 Fe
 Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -64692,17 +65935,17 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Bw
-Bw
-Bw
-Fe
-Bw
-Bw
-Fe
-yd
+Gz
+Kp
+tZ
+wW
+OU
+OU
+OU
+OU
+qh
+Vi
+fD
 IT
 IT
 eQ
@@ -64716,8 +65959,8 @@ Hn
 vD
 fh
 xX
-yd
-jx
+fD
+GB
 qN
 DD
 aJ
@@ -64756,37 +65999,37 @@ fb
 ZO
 Gz
 GY
-mS
-mS
-mS
-mS
+uv
+uv
+uv
+uv
 GY
 Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -64949,15 +66192,15 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Bw
-Bw
-Bw
-Fe
-Bw
-Bw
+Gz
+dM
+ly
+IN
+FS
+La
+jR
+UD
+xR
 PY
 XN
 AY
@@ -64971,9 +66214,9 @@ MR
 MR
 Io
 PA
-yd
+fD
 Uh
-yd
+fD
 jx
 qN
 DD
@@ -65021,29 +66264,29 @@ GY
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -65206,17 +66449,17 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Bw
-Oe
-Bw
-Fe
-Bw
-Bw
-Fe
-yd
+Gz
+Zy
+qo
+ht
+Pm
+He
+iP
+gf
+um
+qo
+fD
 IT
 IT
 wE
@@ -65228,7 +66471,7 @@ lA
 Fs
 oy
 Jl
-yd
+fD
 zm
 jE
 jx
@@ -65278,29 +66521,29 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -65463,20 +66706,20 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Bw
-Bw
-Bw
-Fe
-Bw
-Bw
-Fe
-yd
-yd
-yd
-yd
+Gz
+mf
+ku
+dq
+tl
+mN
+xM
+tl
+Vo
+ku
+fD
+fD
+fD
+fD
 jH
 xH
 xn
@@ -65484,9 +66727,9 @@ Dy
 Om
 xH
 du
-yd
-yd
-WE
+fD
+fD
+Ic
 Id
 jx
 qN
@@ -65535,23 +66778,23 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -65720,20 +66963,20 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
-Bw
-Bw
-Bw
-Fe
-Bw
-Bw
-Fe
-Fe
-Fe
-Fe
-yd
+Ny
+Kp
+VJ
+Vd
+qo
+KC
+dU
+qo
+gX
+VJ
+XI
+DT
+Is
+fD
 xN
 Af
 xN
@@ -65741,7 +66984,7 @@ Af
 HE
 Af
 HE
-yd
+fD
 kh
 cL
 Id
@@ -65791,24 +67034,24 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -65977,20 +67220,20 @@ aJ
 fb
 aJ
 ZO
-qN
-Da
-Fe
+Ny
+Kp
 Bw
+ZQ
+ku
+EX
+UE
+ku
+wV
 Bw
-Bw
-Fe
-Bw
-Bw
-Fe
-Fe
-Fe
-Fe
-yd
+XI
+VM
+cv
+fD
 xN
 Td
 xN
@@ -65998,7 +67241,7 @@ Td
 HE
 Td
 HE
-yd
+fD
 VM
 rT
 Id
@@ -66048,24 +67291,24 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -66234,28 +67477,28 @@ aJ
 fb
 Gi
 Mb
-qN
-Da
-Fe
-Fe
-Fe
-Fe
-Fe
+Gz
+Kp
+UD
 Bw
+fU
+qP
+qP
+FT
 Bw
-Fe
-Fe
-Fe
-Fe
-yd
-yd
+FS
+zF
+Gx
+Gx
+fD
+fD
 Uh
-yd
+fD
 Uh
-yd
+fD
 Uh
-yd
-yd
+fD
+fD
 Gx
 Gx
 Pc
@@ -66305,24 +67548,24 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -66491,26 +67734,26 @@ jN
 jN
 jN
 bD
-yZ
-pC
-Px
-Px
-Px
-Px
-Px
-Px
-Px
-Px
-Px
-Px
-Px
-Px
+lb
+xO
+xO
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+xO
+xO
+Zk
+LP
+LP
 Px
 Dn
 Px
 Ce
-Px
-Dn
+LP
+cN
 Px
 Px
 Px
@@ -66561,25 +67804,25 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -66748,18 +67991,18 @@ ED
 ED
 ED
 pq
-dJ
-yZ
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
-qN
+YD
+xL
+EZ
+EZ
+EZ
+Rt
+Rt
+EZ
+EZ
+EZ
+EZ
+sv
 qN
 qN
 qN
@@ -66818,25 +68061,25 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -67075,25 +68318,25 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -67332,25 +68575,25 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -67590,24 +68833,24 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -67847,24 +69090,24 @@ Fe
 Fe
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -68105,23 +69348,23 @@ Fe
 Fe
 Fe
 BZ
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -68362,23 +69605,23 @@ Fe
 Fe
 Fe
 BZ
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -68620,16 +69863,16 @@ Fe
 Fe
 BZ
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -68878,15 +70121,15 @@ Fe
 BZ
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -69070,9 +70313,9 @@ Fe
 Fe
 Fe
 Fe
+js
 Fe
-Fe
-Fe
+WT
 Fe
 Fe
 GY
@@ -69135,15 +70378,15 @@ Fe
 BZ
 Fe
 Fe
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -69392,15 +70635,15 @@ Fe
 BZ
 Fe
 Fe
-pL
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -69650,14 +70893,14 @@ BZ
 Fe
 Fe
 Fe
-pL
-pL
-pL
-MP
-MP
-MP
-MP
-MP
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 WI
 WI
@@ -69908,7 +71151,7 @@ Fe
 Fe
 Fe
 Fe
-pL
+WI
 WI
 WI
 WI
@@ -70165,7 +71408,7 @@ Fe
 Fe
 Fe
 Fe
-pL
+WI
 WI
 WI
 WI
@@ -70422,7 +71665,7 @@ Fe
 Fe
 Fe
 Fe
-pL
+WI
 WI
 WI
 WI
@@ -72993,7 +74236,7 @@ Nh
 Nh
 vq
 kG
-WI
+VN
 WI
 WI
 WI
@@ -73250,8 +74493,8 @@ bs
 SF
 kG
 Nh
-WI
-WI
+VN
+Eg
 WI
 WI
 WI
@@ -73507,10 +74750,10 @@ kG
 Fe
 bs
 bs
-WI
-WI
-WI
-WI
+Eg
+VN
+VN
+ru
 WI
 WI
 WI
@@ -73765,7 +75008,7 @@ vq
 Fe
 kG
 Xt
-Fe
+kG
 kG
 kG
 Fe
@@ -74283,7 +75526,7 @@ Nh
 Xt
 bs
 Fe
-WI
+VN
 WI
 WI
 WI
@@ -74540,10 +75783,10 @@ SF
 kG
 kG
 bs
-WI
-WI
-WI
-WI
+Eg
+Eg
+VN
+VN
 WI
 WI
 WI
@@ -74797,13 +76040,13 @@ bs
 Xt
 FU
 FU
-Fe
+bs
 Fe
 SF
 kG
 kG
 zs
-Fe
+pL
 WI
 WI
 WI
@@ -76089,7 +77332,7 @@ Fe
 vq
 Nh
 FU
-WI
+VN
 WI
 WI
 WI
@@ -76346,7 +77589,7 @@ bs
 FU
 FP
 Xt
-WI
+VN
 WI
 WI
 WI
@@ -77119,7 +78362,7 @@ kG
 Nh
 Xt
 bs
-WI
+VN
 WI
 WI
 WI
@@ -77377,9 +78620,9 @@ Fe
 Fe
 kG
 kG
-Fe
 kG
 zs
+pL
 WI
 WI
 WI
@@ -77894,7 +79137,7 @@ MP
 QQ
 Fe
 Fe
-WI
+VN
 WI
 WI
 WI
@@ -78151,8 +79394,8 @@ Fe
 QQ
 Fe
 Fe
-WI
-WI
+VN
+VN
 WI
 WI
 WI
@@ -81497,7 +82740,7 @@ MP
 MP
 QQ
 MP
-MP
+QQ
 MP
 MP
 MP
@@ -81755,8 +82998,8 @@ QQ
 GH
 MP
 MP
-WI
-WI
+gF
+WB
 WI
 WI
 WI
@@ -82263,10 +83506,10 @@ MP
 MP
 Un
 MP
-WI
-WI
-WI
-WI
+WB
+WB
+WB
+WB
 WI
 WI
 WI
@@ -82520,8 +83763,8 @@ MP
 MP
 QQ
 MP
-WI
-WI
+WB
+gF
 WI
 WI
 WI
@@ -82777,7 +84020,7 @@ xb
 QQ
 GH
 MP
-WI
+WB
 WI
 WI
 WI
@@ -83034,7 +84277,7 @@ oa
 QQ
 MP
 MP
-WI
+gF
 WI
 WI
 WI
