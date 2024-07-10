@@ -29,6 +29,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"ac" = (
+/obj/effect/decal/curb,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/library)
 "ad" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -229,13 +239,13 @@
 	},
 /area/new_blades/mudki/interiors/water_treatment)
 "bi" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8
-	},
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/turf/simulated/floor/wood/maple{
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -418,7 +428,7 @@
 "cD" = (
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	dir = 1;
 	brightness_power = 0.1;
@@ -427,7 +437,7 @@
 	},
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	dir = 1;
 	brightness_power = 0.1;
@@ -464,6 +474,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"cY" = (
+/turf/simulated/floor/wood{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "dm" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -595,6 +610,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"dX" = (
+/obj/structure/distillery,
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "dZ" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/effect/floor_decal/concrete/square,
@@ -1319,7 +1340,7 @@
 "jj" = (
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	brightness_power = 0.1;
 	pixel_y = -7;
@@ -1327,7 +1348,7 @@
 	},
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	brightness_power = 0.1;
 	pixel_y = -7;
@@ -1335,7 +1356,7 @@
 	},
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	dir = 1;
 	brightness_power = 0.1;
@@ -1344,7 +1365,7 @@
 	},
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	dir = 1;
 	brightness_power = 0.1;
@@ -1633,7 +1654,7 @@
 "kQ" = (
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	brightness_power = 0.1;
 	pixel_y = -7;
@@ -3305,11 +3326,13 @@
 	id = "mudki_archive_shutters";
 	name = "Archive Shutters"
 	},
-/obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/turf/simulated/floor/wood/maple{
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -3567,7 +3590,7 @@
 "xJ" = (
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	brightness_power = 0.1;
 	pixel_y = -7;
@@ -3575,7 +3598,7 @@
 	},
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	brightness_power = 0.1;
 	pixel_y = -7;
@@ -4079,7 +4102,7 @@
 "AH" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /obj/effect/decal/curb,
-/turf/simulated/floor/wood/maple{
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -4130,7 +4153,7 @@
 "Bc" = (
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	brightness_power = 0.1;
 	pixel_y = -7;
@@ -4138,7 +4161,7 @@
 	},
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	dir = 1;
 	brightness_power = 0.1;
@@ -4279,9 +4302,6 @@
 	},
 /area/new_blades/mudki/interiors/water_treatment)
 "Cf" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 8
-	},
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
@@ -4289,7 +4309,10 @@
 	name = "raised curb";
 	layer = 2.04
 	},
-/turf/simulated/floor/wood/maple{
+/obj/effect/floor_decal/concrete{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -4455,6 +4478,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"Db" = (
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "Dd" = (
 /obj/structure/rod_railing,
 /obj/effect/floor_decal/corner/yellow{
@@ -4637,6 +4665,11 @@
 /area/new_blades/mudki/interiors/water_treatment)
 "Eo" = (
 /turf/unsimulated/mineral,
+/area/new_blades/underground)
+"Es" = (
+/turf/simulated/floor/tiled/freezer{
+	temperature = 315.15
+	},
 /area/new_blades/underground)
 "EA" = (
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
@@ -5042,9 +5075,12 @@
 /area/new_blades/mudki/interiors/bar)
 "Ho" = (
 /obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
 	dir = 8
 	},
-/turf/simulated/floor/sidewalk/dark{
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -5548,7 +5584,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/turf/simulated/floor/wood/maple{
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -5977,7 +6013,7 @@
 "MA" = (
 /obj/machinery/light/floor{
 	randomize_color = 0;
-	brightness_color = #a061ff;
+	brightness_color = "#7700dd";
 	name = "UV Lamps";
 	dir = 1;
 	brightness_power = 0.1;
@@ -6050,8 +6086,14 @@
 	},
 /area/new_blades/mudki/interiors/water_treatment)
 "Ng" = (
-/obj/effect/decal/curb,
-/turf/simulated/floor/sidewalk/dark{
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb"
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -6243,7 +6285,7 @@
 /obj/effect/decal/curb{
 	dir = 10
 	},
-/turf/simulated/floor/sidewalk/dark{
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -7671,13 +7713,11 @@
 	},
 /area/new_blades/mudki/interiors/water_treatment)
 "Wz" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 10
-	},
 /obj/effect/floor_decal/concrete{
 	dir = 4
 	},
-/turf/simulated/floor/wood/maple{
+/obj/effect/floor_decal/concrete/large,
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -8139,8 +8179,13 @@
 /area/new_blades/mudki/interiors/water_treatment)
 "ZZ" = (
 /obj/effect/decal/curb,
-/obj/effect/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/wood/maple{
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
@@ -28342,7 +28387,7 @@ zw
 uU
 aw
 jh
-jh
+dX
 jh
 aw
 aw
@@ -28857,8 +28902,8 @@ uU
 aw
 jh
 jh
-aw
-aw
+ea
+ea
 aw
 aw
 aw
@@ -29115,6 +29160,8 @@ aw
 aw
 aw
 aw
+ea
+ea
 aw
 aw
 aw
@@ -29123,19 +29170,17 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
 aw
 aw
 aw
@@ -29373,6 +29418,8 @@ aw
 aw
 aw
 aw
+ea
+ea
 aw
 aw
 aw
@@ -29380,19 +29427,17 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+cY
+cY
+cY
+QJ
+cY
+cY
+cY
+QJ
+Db
+QJ
 aw
 aw
 aw
@@ -29630,27 +29675,27 @@ aw
 aw
 aw
 aw
+ea
+ea
+ea
 aw
 aw
 aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+cY
+cY
+cY
+QJ
+cY
+cY
+cY
+QJ
+Db
+QJ
+QJ
 aw
 aw
 uU
@@ -29887,27 +29932,27 @@ aw
 aw
 aw
 aw
+ea
+ea
+ea
+ea
+aw
+ea
+ea
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+cY
+cY
+cY
+QJ
+cY
+cY
+cY
+QJ
+cY
+cY
+QJ
 aw
 aw
 uU
@@ -30144,27 +30189,27 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+cY
+cY
+QJ
 aw
 aw
 uU
@@ -30400,28 +30445,28 @@ aw
 aw
 aw
 aw
+ea
+ea
+ea
+ea
+ea
+ea
+ea
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+ea
+QJ
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+QJ
 aw
 aw
 uU
@@ -30657,28 +30702,28 @@ aw
 aw
 aw
 aw
+ea
+ea
+ea
+ea
+ea
+ea
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+cY
+QJ
 aw
 aw
 uU
@@ -30915,27 +30960,27 @@ aw
 aw
 aw
 aw
+ea
+ea
+ea
+ea
 aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+cY
+cY
+QJ
 aw
 aw
 uU
@@ -31173,27 +31218,27 @@ aw
 aw
 aw
 aw
+ea
+ea
+ea
 aw
 aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+cY
+cY
+cY
+QJ
+cY
+cY
+cY
+QJ
+QJ
+QJ
+QJ
+QJ
 aw
 uU
 fE
@@ -31438,19 +31483,19 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+cY
+cY
+cY
+QJ
+cY
+cY
+cY
+QJ
+Es
+Es
+Es
+QJ
 aw
 uU
 TZ
@@ -31695,19 +31740,19 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+cY
+cY
+cY
+QJ
+cY
+cY
+cY
+QJ
+Es
+Es
+Es
+QJ
 aw
 uU
 TZ
@@ -31952,19 +31997,19 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
 aw
 uU
 TZ
@@ -47357,7 +47402,7 @@ aw
 bj
 ol
 eN
-ZZ
+ac
 Rt
 ov
 bj
@@ -47614,7 +47659,7 @@ aw
 bj
 Gn
 RA
-ZZ
+ac
 Rt
 tx
 bj
@@ -48386,7 +48431,7 @@ bj
 Ht
 RA
 Ng
-hY
+sm
 vK
 bj
 bj
