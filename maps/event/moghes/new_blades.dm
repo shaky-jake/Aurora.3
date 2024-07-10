@@ -65,6 +65,18 @@
 	area_blurb = "Housing Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
+/area/new_blades/mudki/interiors/restaurant
+	name = "Restaurant"
+	area_blurb = "Restaurant Placeholder"
+	// requires_power = TRUE
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
+/area/new_blades/mudki/interiors/hospital
+	name = "Hospital"
+	area_blurb = "Hospital Placeholder"
+	// requires_power = TRUE
+	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
+
 /area/new_blades/mudki/interiors/bar
 	name = "Bar"
 	area_blurb = "Bar Placeholder"
@@ -75,10 +87,26 @@
 	area_blurb = "Library Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
+/area/new_blades/mudki/interiors/pawn
+	name = "Pawn Shop"
+	area_blurb = "Pawn Shop Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
+/area/new_blades/mudki/interiors/convenience
+	name = "Convenience Store"
+	area_blurb = "Convenience Store Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
 /area/new_blades/mudki/interiors/abandoned_shop
 	name = "Abandoned Shop"
 	area_blurb = "Abandoned Shop Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
+/area/new_blades/mudki/interiors/power_station
+	name = "Power Station"
+	area_blurb = "Power Station Placeholder"
+	requires_power = TRUE
+	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
 
 /area/new_blades/mudki/interiors/water_treatment
 	name = "Water Treatment Plant"
