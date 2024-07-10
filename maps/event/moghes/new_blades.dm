@@ -72,7 +72,12 @@
 
 /area/new_blades/mudki/interiors/library
 	name = "Library"
-	area_blurb = "Library"
+	area_blurb = "Library Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
+/area/new_blades/mudki/interiors/abandoned_shop
+	name = "Abandoned Shop"
+	area_blurb = "Abandoned Shop Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/water_treatment
