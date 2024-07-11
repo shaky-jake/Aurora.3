@@ -102,6 +102,21 @@
 	area_blurb = "Abandoned Shop Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
+/area/new_blades/mudki/interiors/abandoned_shop/clothing
+	name = "Abandoned Clothing Store"
+
+/area/new_blades/mudki/interiors/abandoned_shop/electronic
+	name = "Abandoned Electronics Store"
+
+/area/new_blades/mudki/interiors/abandoned_shop/appliance
+	name = "Abandoned Appliance Shop"
+
+/area/new_blades/mudki/interiors/abandoned_shop/vehicle
+	name = "Abandoned Mechanic's Shop"
+
+/area/new_blades/mudki/interiors/abandoned_shop/convenience
+	name = "Abandoned Mechanic's Shop"
+
 /area/new_blades/mudki/interiors/power_station
 	name = "Power Station"
 	area_blurb = "Power Station Placeholder"
