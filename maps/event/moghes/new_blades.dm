@@ -115,7 +115,7 @@
 	name = "Abandoned Mechanic's Shop"
 
 /area/new_blades/mudki/interiors/abandoned_shop/convenience
-	name = "Abandoned Mechanic's Shop"
+	name = "Abandoned Convenience Store"
 
 /area/new_blades/mudki/interiors/power_station
 	name = "Power Station"
