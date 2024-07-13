@@ -43,6 +43,12 @@
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/scc_evac)
+"abe" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "abn" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -126,6 +132,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"aei" = (
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "aev" = (
 /obj/structure/rod_railing{
 	pixel_y = -4
@@ -267,6 +278,33 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"aio" = (
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"aiA" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "aiJ" = (
 /obj/effect/floor_decal/spline/plain/green,
 /turf/simulated/floor/tiled/white,
@@ -316,6 +354,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ake" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "akg" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/concrete{
@@ -839,6 +885,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"avT" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "awa" = (
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
@@ -1060,7 +1117,7 @@
 "aCr" = (
 /obj/structure/table/steel,
 /obj/item/storage/box/fancy/tray,
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -1167,6 +1224,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"aGG" = (
+/obj/structure/curtain/open/medical,
+/obj/structure/table/glass,
+/obj/item/folder,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "aGI" = (
 /obj/effect/decal/curb/corner,
 /obj/effect/decal/curb{
@@ -1194,6 +1259,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"aHw" = (
+/obj/structure/bed/roller,
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "aHE" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -1228,7 +1300,7 @@
 	pixel_x = 4;
 	pixel_y = 0
 	},
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -1304,6 +1376,24 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/clothing)
+"aMa" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"aMg" = (
+/obj/machinery/bodyscanner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "aMh" = (
 /obj/structure/rod_railing,
 /obj/effect/decal/fake_object{
@@ -1382,6 +1472,25 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"aOl" = (
+/obj/structure/closet/walllocker/medical/secure{
+	name = "O- Blood Locker";
+	pixel_x = 32;
+	req_access = null
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "aOQ" = (
 /obj/effect/decal/road_marking/crosswalk{
 	dir = 1
@@ -1455,6 +1564,20 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"aRO" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "aRU" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -1463,6 +1586,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"aSW" = (
+/obj/structure/sink/kitchen{
+	pixel_y = 22
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
+"aTa" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "aTe" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -1524,6 +1663,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/pawn)
+"aUF" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "aUN" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/bed/stool/chair/sofa/pew{
@@ -1533,6 +1683,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"aUU" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "aVc" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -1753,6 +1918,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"baq" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "baD" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -1782,6 +1955,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"bbo" = (
+/obj/effect/floor_decal/concrete,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "bbq" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -1950,6 +2129,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"bfn" = (
+/obj/machinery/light/colored/decayed,
+/obj/structure/table/steel,
+/obj/structure/roller_rack/two,
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "bfU" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
@@ -1997,6 +2185,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"bhI" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "bih" = (
 /obj/structure/closet/cabinet,
 /obj/effect/floor_decal/concrete{
@@ -2260,6 +2460,26 @@
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"bqc" = (
+/obj/machinery/vending/medical{
+	pixel_y = 32;
+	density = 0;
+	req_access = null
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "bra" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 8
@@ -2316,6 +2536,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
+"bsN" = (
+/obj/machinery/light/colored/decayed,
+/obj/structure/table/steel,
+/obj/structure/roller_rack/two,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "btG" = (
 /obj/structure/bed/handrail{
 	dir = 1
@@ -2782,6 +3010,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/clothing)
+"bKT" = (
+/obj/effect/floor_decal/industrial/loading{
+	color = "#6a97b0"
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "bLc" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/syringes{
@@ -2800,6 +3036,20 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"bLB" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "bLE" = (
 /obj/effect/map_effect/window_spawner/full/reinforced{
 	color = "#B5A165";
@@ -2896,6 +3146,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"bNU" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -20
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "bOm" = (
 /obj/machinery/door/urban{
 	dir = 4
@@ -3214,6 +3474,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"bVl" = (
+/obj/machinery/door/urban/glass_sliding/double{
+	name = "Hospital"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "bVu" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/bed/handrail{
@@ -3277,6 +3548,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"bXy" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "bXG" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -3348,6 +3626,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"bZP" = (
+/obj/machinery/chem_heater,
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "can" = (
 /obj/machinery/light/colored/decayed{
 	dir = 1
@@ -3396,6 +3681,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ccj" = (
+/obj/machinery/body_scanconsole,
+/obj/effect/floor_decal/industrial/loading{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ccY" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /turf/simulated/floor/tiled/dark/full,
@@ -3464,6 +3764,28 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"cef" = (
+/obj/structure/table/steel,
+/obj/item/reagent_containers/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	icon_state = "sterilesprayblue";
+	name = "surgery cleaner";
+	pixel_y = 8;
+	pixel_x = -7
+	},
+/obj/item/storage/box/sharps{
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"cei" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cep" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -3534,6 +3856,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cfP" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "cgy" = (
 /obj/machinery/light/colored/decayed,
 /turf/simulated/floor/concrete{
@@ -3650,6 +3983,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ckT" = (
+/obj/structure/trash_pile,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "clb" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -3751,6 +4093,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"cqB" = (
+/obj/effect/floor_decal/industrial/loading{
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades)
 "crg" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
@@ -3791,6 +4147,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"csN" = (
+/obj/structure/table/reinforced{
+	req_access = list(33)
+	},
+/obj/item/modular_computer/laptop/preset/medical{
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ctc" = (
 /obj/effect/decal/curb,
 /obj/structure/flora/grass/junglegrass/random,
@@ -3823,6 +4190,17 @@
 /obj/structure/structural_support,
 /turf/simulated/floor/concrete,
 /area/new_blades)
+"cuq" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "cuw" = (
 /obj/structure/chainlink_fence{
 	dir = 4
@@ -3902,6 +4280,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cwj" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "cww" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -3924,6 +4308,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
+"cwZ" = (
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "cxg" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -4017,6 +4417,19 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/new_blades/mudki/interiors/restaurant)
+"cAc" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.75
+	},
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cAk" = (
 /obj/structure/platform,
 /obj/effect/floor_decal/concrete{
@@ -4053,6 +4466,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cBl" = (
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4;
+	color = "#6a97b0"
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "cCb" = (
 /obj/structure/rod_railing{
 	pixel_y = -2
@@ -4089,6 +4511,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"cEF" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = 0
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "cFD" = (
 /obj/structure/toilet{
 	dir = 1
@@ -4133,6 +4566,26 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
+"cGe" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	dir = 9;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cGi" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -4240,10 +4693,26 @@
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
-/turf/simulated/floor/wood/maple{
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"cJH" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "cJR" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
@@ -4256,6 +4725,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cKt" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "cKN" = (
 /obj/structure/flora/grass/junglegrass/random,
 /turf/simulated/floor/exoplanet/desert{
@@ -4273,6 +4757,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"cKQ" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cKX" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -4322,6 +4817,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"cLq" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	dir = 8;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cLu" = (
 /obj/machinery/door/airlock{
 	name = "Restroom"
@@ -4406,6 +4911,25 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cPc" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 6;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "cPk" = (
 /obj/structure/utility_pole/street{
 	dir = 8;
@@ -4458,6 +4982,27 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"cRf" = (
+/obj/machinery/chemical_dispenser/full{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"cRg" = (
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"cRl" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cRp" = (
 /turf/simulated/open,
 /area/new_blades/mudki/interiors/hospital)
@@ -4486,6 +5031,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"cRK" = (
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cSz" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/device/megaphone{
@@ -4551,6 +5112,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"cSO" = (
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "cSQ" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/wood/maple{
@@ -4645,6 +5214,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cVb" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 1;
+	door_color = "#B5A165"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cVg" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -4654,6 +5236,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"cVh" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.45
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cWk" = (
 /obj/effect/decal/curb{
 	dir = 5
@@ -4688,6 +5282,17 @@
 	},
 /turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
+"cXI" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cXJ" = (
 /obj/structure/shipping_container{
 	icon_state = "grey3"
@@ -5231,6 +5836,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"dnd" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	dir = 8;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "dnh" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/effect/floor_decal/concrete{
@@ -5379,7 +5994,7 @@
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -5401,6 +6016,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"dsh" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dst" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -5415,6 +6038,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"dsW" = (
+/obj/machinery/door/urban/glass_sliding/double{
+	name = "Hospital"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dsX" = (
 /obj/structure/structural_support,
 /obj/effect/decal/road_marking/no_park,
@@ -5541,6 +6175,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"dvP" = (
+/obj/structure/closet/crate/bin/urban/dumpster,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dvY" = (
 /obj/structure/table/wood,
 /obj/machinery/light/colored/decayed{
@@ -5653,6 +6293,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"dAR" = (
+/obj/effect/decal/curb/corner{
+	dir = 1;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dBM" = (
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
@@ -5691,6 +6341,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"dCk" = (
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "dCy" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -5873,6 +6534,15 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"dJo" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dJB" = (
 /obj/structure/closet/cabinet,
 /obj/effect/floor_decal/concrete{
@@ -5893,6 +6563,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"dKE" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "dKR" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -5909,6 +6590,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"dLc" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "dLl" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -5926,6 +6615,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"dLB" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/glass/beaker/large{
+	pixel_y = 16;
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/glass/beaker/large{
+	pixel_y = 4;
+	pixel_x = 4
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dLX" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
@@ -5946,6 +6649,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"dNV" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "dOa" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/road_marking/crosswalk{
@@ -5970,7 +6682,7 @@
 /obj/structure/bed/padded,
 /obj/item/bedsheet/medical,
 /obj/structure/curtain/open/medical,
-/turf/simulated/floor/lino{
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -6103,6 +6815,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"dTA" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dTJ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -6125,9 +6851,17 @@
 /area/new_blades/mudki/interiors/north_housing)
 "dUF" = (
 /obj/structure/railing/mapped{
+	dir = 1;
+	pixel_y = 8;
+	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -6334,6 +7068,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"dYT" = (
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood/cee{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "dZp" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/road_marking{
@@ -6433,6 +7178,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"eby" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/masks{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = -6
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ebW" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -6508,6 +7267,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"edZ" = (
+/obj/effect/decal/curb/corner,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "eeb" = (
 /obj/structure/shipping_container{
 	icon_state = "grey1"
@@ -6626,6 +7394,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"eiH" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "ejm" = (
 /obj/structure/closet/crate{
 	name = "rapid fabrication crate"
@@ -6660,6 +7444,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"ejZ" = (
+/obj/machinery/computer/operating/terminal{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ekr" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/concrete{
@@ -6719,9 +7512,9 @@
 /obj/effect/decal/curb{
 	dir = 1
 	},
-/obj/structure/bed/stool{
-	pixel_x = 6;
-	pixel_y = 15
+/obj/structure/bed/stool/padded/beige{
+	pixel_y = 15;
+	pixel_x = 6
 	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
@@ -6741,6 +7534,22 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"enn" = (
+/obj/structure/table/steel,
+/obj/item/reagent_containers/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	icon_state = "sterilesprayblue";
+	name = "surgery cleaner";
+	pixel_y = 8;
+	pixel_x = 7
+	},
+/obj/item/storage/box/sharps{
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ent" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/door/blast/shutters{
@@ -6796,6 +7605,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"eoR" = (
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "eoT" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/computer_hardware/processor_unit{
@@ -6972,8 +7786,11 @@
 	},
 /area/new_blades/mudki/interiors/pawn)
 "ety" = (
-/obj/machinery/door/urban,
-/turf/simulated/floor/wood/maple{
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -6986,11 +7803,10 @@
 	},
 /area/new_blades)
 "evO" = (
-/obj/structure/table/steel,
-/turf/simulated/floor/asphalt{
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/underground)
 "evT" = (
 /obj/structure/toilet,
 /obj/effect/floor_decal/spline/fancy/wood/cee{
@@ -7033,6 +7849,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"eyI" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "ezy" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/concrete{
@@ -7046,14 +7871,8 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "ezU" = (
-/obj/structure/closet/walllocker/medical/secure{
-	name = "O- Blood Locker";
-	pixel_x = -32
-	},
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
-	temperature = 315.15
-	},
-/area/new_blades)
+/turf/simulated/wall/sandstone,
+/area/new_blades/underground)
 "ezY" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -7248,6 +8067,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"eIw" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -20
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "eII" = (
 /obj/machinery/appliance/cooker/oven,
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -7318,9 +8147,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"eLn" = (
+/obj/machinery/chem_master,
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "eLu" = (
 /obj/machinery/light/colored/decayed,
-/turf/simulated/floor/tiled/white{
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -7358,6 +8195,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"eLO" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/machinery/door/urban,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades)
 "eLU" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -7379,6 +8231,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"eMw" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "eMy" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -7434,6 +8292,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"eOx" = (
+/obj/machinery/light/colored/decayed,
+/obj/structure/table/steel,
+/obj/structure/roller_rack/two,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "eOL" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -7505,6 +8371,56 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"ePl" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades)
+"ePy" = (
+/obj/effect/decal/curb,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"ePT" = (
+/obj/structure/table/reinforced{
+	req_access = list(33)
+	},
+/obj/machinery/door/window/desk/northleft,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"eQk" = (
+/obj/machinery/body_scanconsole{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "eQm" = (
 /obj/structure/platform{
 	dir = 8
@@ -7637,6 +8553,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"eUU" = (
+/obj/structure/closet/crate/bin,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "eUV" = (
 /obj/structure/platform_deco{
 	dir = 8
@@ -7729,6 +8651,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"eXI" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "eYo" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -7793,6 +8726,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"faB" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "faG" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/water/shallow/partial_sewage{
@@ -7880,6 +8824,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"fdc" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "fdt" = (
 /obj/structure/utility_pole/street/classic{
 	pixel_y = 8;
@@ -7913,6 +8865,33 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"fdI" = (
+/obj/structure/table/reinforced{
+	req_access = list(33)
+	},
+/obj/item/paper_bin{
+	pixel_y = 4;
+	pixel_x = -6
+	},
+/obj/item/pen{
+	pixel_y = 4;
+	pixel_x = -6
+	},
+/obj/machinery/door/window/southleft,
+/obj/item/folder/blue{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
+"fet" = (
+/obj/structure/bed/stool/chair/office/dark,
+/turf/simulated/floor/tiled/light{
+	temperature = 315.15
+	},
+/area/new_blades)
 "feE" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -8005,6 +8984,24 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"fgW" = (
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "fgX" = (
 /obj/structure/platform{
 	dir = 1;
@@ -8081,6 +9078,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors)
+"fjZ" = (
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "fke" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -8141,6 +9147,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"flq" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "flA" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -8263,6 +9280,14 @@
 /obj/effect/floor_decal/industrial/outline/engineering,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"fqc" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "fql" = (
 /obj/structure/table/steel,
 /obj/machinery/recharger{
@@ -8434,6 +9459,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"fvk" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "fvq" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -8568,6 +9604,24 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"fxW" = (
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "fyb" = (
 /obj/effect/floor_decal/corner/grey{
 	dir = 9
@@ -8766,7 +9820,7 @@
 /area/new_blades/mudki/interiors/south_housing)
 "fCU" = (
 /obj/machinery/photocopier,
-/turf/simulated/floor/lino{
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -8803,9 +9857,14 @@
 /area/new_blades/underground)
 "fFl" = (
 /obj/machinery/door/airlock/multi_tile/glass{
+	dir = 1;
+	door_color = "#B5A165"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574";
 	dir = 1
 	},
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -8820,6 +9879,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"fFC" = (
+/obj/effect/map_effect/window_spawner/full/reinforced{
+	color = "#B5A165";
+	frame_color = "#B5A165"
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "fFR" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
@@ -8981,6 +10049,30 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"fIy" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.75
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"fIA" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "fJi" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -9020,7 +10112,20 @@
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white{
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	dir = 10;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -9051,6 +10156,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"fKs" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "fKt" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -9065,6 +10177,13 @@
 	dir = 10
 	},
 /turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
+"fKV" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -9183,6 +10302,36 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"fNq" = (
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"fNw" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/sharps{
+	pixel_y = 5;
+	pixel_x = 6
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "fOC" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
@@ -9255,6 +10404,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"fQi" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	dir = 8;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "fQR" = (
 /obj/structure/closet/secure_closet/refrigerator,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -9493,6 +10655,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"gaa" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/medical,
+/obj/structure/curtain/open/medical,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gbb" = (
 /obj/effect/decal/exterior_stairs/half/center,
 /obj/effect/decal/curb/corner,
@@ -9602,6 +10772,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"gfs" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ggL" = (
 /obj/structure/toilet{
 	dir = 8
@@ -9675,6 +10853,25 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"gjy" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 6;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "gke" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -9696,6 +10893,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"gkH" = (
+/obj/effect/floor_decal/corner_full{
+	color = "#54654c";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_full{
+	color = "#808080";
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gkX" = (
 /obj/structure/bed/stool/chair/sofa/beige{
 	dir = 8
@@ -9834,6 +11044,32 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"goO" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"goS" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gpu" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -9843,6 +11079,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"gqb" = (
+/obj/effect/decal/exterior_stairs/half/center,
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gqY" = (
 /obj/structure/chainlink_fence{
 	dir = 4
@@ -9865,6 +11111,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"grw" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/sharps{
+	pixel_y = 5;
+	pixel_x = 6
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "grK" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -9938,7 +11198,8 @@
 /area/new_blades)
 "gtR" = (
 /obj/machinery/chem_master,
-/turf/simulated/floor/tiled/white{
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -9992,6 +11253,14 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"guf" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "guU" = (
 /obj/machinery/light/colored/decayed{
 	dir = 4
@@ -10037,6 +11306,33 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"gvo" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/medical,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"gvs" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"gvJ" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "gwd" = (
 /obj/effect/decal/fake_object{
 	density = 1;
@@ -10120,6 +11416,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"gyc" = (
+/obj/effect/floor_decal/concrete,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gyn" = (
 /obj/structure/table/standard,
 /obj/item/crowbar/red,
@@ -10177,6 +11479,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"gAd" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "gAr" = (
 /turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
@@ -10288,6 +11598,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"gEw" = (
+/obj/machinery/bodyscanner{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#8ba574"
+	},
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gEy" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -10311,6 +11637,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"gFl" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "gFq" = (
 /obj/structure/coatrack,
 /turf/simulated/floor/concrete/square{
@@ -10336,6 +11670,21 @@
 	temperature = 315.15
 	},
 /area/landing_pad)
+"gGw" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gGV" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -10393,6 +11742,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"gIq" = (
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = 4
+	},
+/obj/structure/filingcabinet/medical{
+	pixel_x = -10
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gIv" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -10440,6 +11800,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"gJV" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	dir = 9;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "gKa" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -10465,6 +11845,14 @@
 /obj/effect/decal/fake_object/light_source/invisible,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"gKI" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gKK" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -10577,6 +11965,20 @@
 	id = "water_treatment_east"
 	},
 /turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades)
+"gMw" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -10788,6 +12190,23 @@
 	temperature = 315.15
 	},
 /area/landing_pad)
+"gSn" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "gSr" = (
 /obj/effect/decal/curb,
 /obj/effect/floor_decal/concrete{
@@ -11052,6 +12471,14 @@
 /obj/effect/floor_decal/industrial/outline/engineering,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"haj" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "hav" = (
 /obj/effect/decal/road_marking/center{
 	dir = 1
@@ -11113,6 +12540,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"hcr" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "hcP" = (
 /obj/structure/platform{
 	dir = 8;
@@ -11319,6 +12752,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"hiC" = (
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "hjb" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 8
@@ -11541,6 +12986,25 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"hpO" = (
+/obj/structure/curtain/open/medical,
+/obj/structure/bed/stool/padded/beige,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
+"hpV" = (
+/obj/machinery/door/urban/glass_sliding/double{
+	name = "Hospital";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "hqk" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -11713,6 +13177,14 @@
 /obj/item/ammo_casing/peac/he,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"hzc" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "hzI" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -11722,6 +13194,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"hzK" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "hzW" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -11942,6 +13423,49 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"hHp" = (
+/obj/machinery/bodyscanner{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#8ba574"
+	},
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"hHv" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/machinery/door/window/westright{
+	name = "Hospital"
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"hHy" = (
+/obj/item/glass_jar/gumball/medical{
+	pixel_y = 10;
+	pixel_x = 5
+	},
+/obj/structure/table/reinforced{
+	req_access = list(33)
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "hHB" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -11951,6 +13475,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"hHQ" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "hIB" = (
 /obj/structure/bed/stool/chair/sofa/right/beige,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -11998,6 +13533,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"hKr" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "hKu" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -12101,6 +13651,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"hNt" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	dir = 8;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "hNQ" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -12187,6 +13749,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/clothing)
+"hQc" = (
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "hQz" = (
 /obj/structure/platform{
 	dir = 8
@@ -12364,6 +13931,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"hXi" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 10;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "hXx" = (
 /obj/item/modular_computer/console/preset/command/captain{
 	dir = 8;
@@ -12511,6 +14095,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"ian" = (
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iax" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -12531,7 +14130,7 @@
 /area/new_blades)
 "iaF" = (
 /obj/structure/bed/stool/chair/office/dark,
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/tiled/light{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -12661,7 +14260,7 @@
 /area/new_blades/mudki/interiors/south_housing)
 "ifc" = (
 /obj/effect/decal/curb,
-/turf/simulated/floor/lino{
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -12792,6 +14391,17 @@
 	},
 /turf/simulated/open,
 /area/new_blades/mudki/interiors/library)
+"ind" = (
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood/cee{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ine" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -12981,6 +14591,11 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"isb" = (
+/turf/simulated/floor/tiled/light{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "ist" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/curb{
@@ -13046,6 +14661,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"itC" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "itR" = (
 /obj/machinery/mech_recharger,
 /obj/effect/floor_decal/industrial/outline{
@@ -13095,6 +14717,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"iuY" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ivh" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -13252,6 +14890,14 @@
 	temperature = 315.15
 	},
 /area/landing_pad)
+"iyU" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "izP" = (
 /obj/structure/table/stone,
 /obj/item/material/hatchet/unathiknife{
@@ -13290,6 +14936,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"iBW" = (
+/obj/machinery/light/colored/decayed,
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "iCi" = (
 /obj/structure/bonfire/fireplace{
 	density = 0
@@ -13336,6 +14989,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"iDr" = (
+/obj/effect/decal/curb/corner{
+	dir = 1;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "iDt" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -13385,6 +15048,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"iFt" = (
+/obj/machinery/optable,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iFD" = (
 /turf/simulated/open,
 /area/new_blades/mudki/interiors/power_station)
@@ -13410,6 +15086,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"iGq" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iGx" = (
 /obj/effect/landmark/scorcher,
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -13419,6 +15104,26 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"iGI" = (
+/obj/machinery/body_scanconsole{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "iHp" = (
 /turf/simulated/wall/sandstone,
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
@@ -13481,6 +15186,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"iKr" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iLl" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -13527,7 +15244,16 @@
 /obj/machinery/door/urban{
 	dir = 8
 	},
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -13614,6 +15340,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"iSQ" = (
+/obj/machinery/body_scanconsole,
+/obj/effect/floor_decal/industrial/loading{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iSW" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -13683,6 +15424,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"iWw" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	dir = 8;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iWB" = (
 /obj/structure/toilet{
 	dir = 8
@@ -13720,7 +15478,7 @@
 	pixel_x = -13;
 	pixel_y = 4
 	},
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -13878,6 +15636,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"jeS" = (
+/obj/structure/table/steel,
+/obj/item/storage/firstaid/regular{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/item/storage/firstaid/empty{
+	pixel_x = 6
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "jeT" = (
 /obj/structure/table/stone/marble,
 /obj/item/paper_bin{
@@ -13944,6 +15716,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"jgh" = (
+/obj/machinery/computer/operating/terminal{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jgG" = (
 /obj/structure/largecrate,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -14070,6 +15851,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"jlh" = (
+/obj/machinery/bodyscanner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#8ba574"
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jlw" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -14122,15 +15919,12 @@
 /area/new_blades/mudki/road)
 "jnM" = (
 /obj/structure/filingcabinet/chestdrawer{
-	pixel_x = 7
+	pixel_x = 4
 	},
 /obj/structure/filingcabinet/medical{
-	pixel_x = -8
+	pixel_x = -10
 	},
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/turf/simulated/floor/lino{
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -14159,6 +15953,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"jot" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "joL" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -14195,6 +16000,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/new_blades)
+"jqo" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
 /area/new_blades)
 "jqD" = (
 /obj/machinery/button/remote/blast_door{
@@ -14277,6 +16090,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"jve" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "jvm" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -14417,6 +16244,29 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"jzr" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/machinery/door/window/westleft{
+	name = "Hospital"
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"jAi" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "jAC" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -14435,6 +16285,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"jAX" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -14458,6 +16319,15 @@
 	pixel_y = -2
 	},
 /turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades)
+"jBw" = (
+/obj/machinery/door/urban/glass_sliding,
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -14605,6 +16475,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"jGi" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "jHq" = (
 /obj/machinery/appliance/cooker/stove,
 /obj/machinery/light/colored/decayed{
@@ -14838,6 +16724,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"jNt" = (
+/obj/machinery/door/urban/glass_sliding/double{
+	name = "Hospital";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jNE" = (
 /obj/machinery/door/blast/shutters{
 	dir = 4
@@ -15041,6 +16939,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"jUj" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jUE" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -15121,11 +17030,26 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"jWY" = (
+/obj/machinery/optable,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/corner,
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "jXf" = (
 /obj/structure/flora/pottedplant/largebush{
 	pixel_y = 8
 	},
-/turf/simulated/floor/concrete{
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -15325,6 +17249,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"keu" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/fancy/corner{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "keY" = (
 /obj/effect/floor_decal/spline/fancy/wood/full,
 /turf/simulated/floor/sidewalk/detail{
@@ -15377,6 +17312,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"kgQ" = (
+/obj/machinery/door/airlock/glass_medical{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "kgX" = (
 /obj/structure/table/wood,
 /obj/machinery/light/colored/decayed,
@@ -15455,6 +17402,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"kjJ" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "kjO" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -15494,6 +17456,23 @@
 	light_range = 12
 	},
 /turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades)
+"klq" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -15577,7 +17556,7 @@
 /obj/effect/decal/curb{
 	dir = 4
 	},
-/turf/simulated/floor/lino{
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -15590,6 +17569,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"kmU" = (
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "kna" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -15761,6 +17749,17 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"ktr" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ktz" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -15796,6 +17795,24 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"kvq" = (
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "kvA" = (
 /obj/structure/closet/crate/weapon,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -15841,6 +17858,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"kxa" = (
+/obj/structure/bed/roller,
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "kxy" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -16022,7 +18046,7 @@
 	req_access = list(33)
 	},
 /obj/structure/window/reinforced,
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -16080,8 +18104,46 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/scc_evac)
+"kGe" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "kGr" = (
 /turf/simulated/wall/concrete,
+/area/new_blades)
+"kGt" = (
+/obj/machinery/door/urban,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"kGO" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
 /area/new_blades)
 "kHV" = (
 /obj/machinery/door/urban,
@@ -16295,6 +18357,30 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"kOi" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 10;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"kOo" = (
+/obj/structure/table/steel,
+/obj/item/storage/box/fancy/tray,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "kON" = (
 /obj/structure/platform_deco{
 	dir = 1
@@ -16331,6 +18417,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"kPy" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "kPJ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -16415,6 +18515,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"kRF" = (
+/obj/effect/floor_decal/corner_full{
+	color = "#808080"
+	},
+/obj/effect/floor_decal/corner_full{
+	color = "#54654c";
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "kSm" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
@@ -16471,6 +18583,9 @@
 	name = "Hospital";
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -16520,6 +18635,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"kTS" = (
+/obj/structure/bed/roller,
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"kUe" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "kUg" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -16553,6 +18683,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"kWG" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/glass/beaker/large{
+	pixel_y = 16;
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/glass/beaker/large{
+	pixel_y = 4;
+	pixel_x = 4
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "kXm" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/rod_railing{
@@ -16600,6 +18744,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"kYf" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.45
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "laq" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -16723,10 +18880,27 @@
 /obj/item/storage/box/sharps{
 	pixel_y = 4
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"lcW" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 10;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "lda" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -16826,6 +19000,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lfs" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/fancy/corner,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "lfL" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -17221,6 +19404,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lqM" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/machinery/door/urban,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "lrt" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -17243,6 +19441,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"lsU" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "lth" = (
 /obj/structure/platform{
 	pixel_y = 6
@@ -17256,6 +19468,19 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades)
+"lvD" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -17303,6 +19528,7 @@
 /obj/structure/table/reinforced{
 	req_access = list(33)
 	},
+/obj/machinery/door/window/desk/northleft,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -17524,6 +19750,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lCt" = (
+/obj/structure/railing/mapped{
+	dir = 1;
+	pixel_y = 8;
+	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades)
 "lCM" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -17570,6 +19812,40 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"lEx" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"lEA" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	dir = 9;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "lEG" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee,
 /obj/structure/bed/stool/chair/sofa/right/beige{
@@ -17582,6 +19858,9 @@
 "lEM" = (
 /obj/machinery/door/urban/glass_sliding/double{
 	name = "Hospital"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
 	},
 /turf/simulated/floor/concrete{
 	temperature = 315.15
@@ -17603,6 +19882,20 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"lFi" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "lFt" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -17644,12 +19937,42 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
-"lHP" = (
-/obj/machinery/vending/medical,
-/turf/simulated/floor/asphalt{
+"lHG" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/underground)
+"lHK" = (
+/obj/machinery/bodyscanner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#8ba574"
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"lHP" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "lHR" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb/corner{
@@ -17664,7 +19987,8 @@
 /obj/machinery/chemical_dispenser/full{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white{
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -17872,6 +20196,27 @@
 /obj/item/device/gps/engineering,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"lMA" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/structure/flora/pottedplant/largebush,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
+"lMZ" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "lNw" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
@@ -17897,6 +20242,20 @@
 	temperature = 315.15
 	},
 /area/landing_pad)
+"lOi" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "lOl" = (
 /obj/machinery/door/urban,
 /obj/effect/decal/exterior_stairs/half/center{
@@ -18083,6 +20442,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lTc" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "lTK" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -18247,6 +20617,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"mbL" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "mbP" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -18310,6 +20691,31 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"mdQ" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
+"mdW" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mev" = (
 /obj/item/stack/material/wood/branch,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -18444,6 +20850,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"mhO" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mia" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/decal/cleanable/floor_damage/random_wood_broken,
@@ -18457,6 +20878,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"mka" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "mkl" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -18465,6 +20894,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
+"mkN" = (
+/obj/machinery/smartfridge/secure/medbay{
+	req_one_access = null
+	},
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -18496,6 +20933,31 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"mlt" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"mlI" = (
+/obj/machinery/door/urban{
+	dir = 8
+	},
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "mlU" = (
 /obj/structure/closet/cabinet,
 /obj/effect/floor_decal/concrete{
@@ -18505,6 +20967,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"mma" = (
+/obj/machinery/bodyscanner{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mnt" = (
 /obj/structure/shipping_container{
 	icon_state = "red3"
@@ -18556,6 +21029,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"mpe" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mpv" = (
 /obj/effect/decal/road_marking/crosswalk{
 	dir = 1
@@ -18614,6 +21096,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"mrc" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/masks{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = -6
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "msg" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/device/flashlight/lantern{
@@ -18659,6 +21154,12 @@
 "mts" = (
 /turf/simulated/wall/sandstone,
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"mtD" = (
+/obj/structure/closet/crate/bin/urban/dumpster,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mtF" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -18748,6 +21249,31 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"mwk" = (
+/obj/machinery/body_scanconsole,
+/obj/effect/floor_decal/industrial/loading{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"mwJ" = (
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4;
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "mwS" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -18792,6 +21318,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"mxM" = (
+/obj/effect/decal/exterior_stairs/half/right{
+	dir = 8;
+	pixel_y = -4
+	},
+/obj/effect/decal/exterior_stairs/half/left{
+	dir = 8;
+	pixel_y = 2
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "myy" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -18905,6 +21447,18 @@
 	},
 /turf/simulated/open,
 /area/new_blades)
+"mBU" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "mCb" = (
 /obj/machinery/light/colored/decayed{
 	dir = 4
@@ -18947,11 +21501,33 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"mCM" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mDs" = (
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
 /turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
+"mDu" = (
+/obj/machinery/door/urban/glass_sliding/double{
+	name = "Hospital"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -18977,6 +21553,21 @@
 	dir = 5
 	},
 /turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"mEH" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	dir = 8;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -19164,6 +21755,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"mLh" = (
+/obj/structure/closet/crate/bin{
+	name = "trashbin";
+	pixel_x = -6;
+	pixel_y = 1
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 10
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mLA" = (
 /obj/structure/parking_meter{
 	dir = 4;
@@ -19275,6 +21879,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
+"mPk" = (
+/obj/effect/floor_decal/industrial/loading{
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mPp" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -19407,6 +22025,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"mUi" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 1;
+	door_color = "#B5A165"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mUj" = (
 /obj/structure/closet/crate{
 	name = "anomaly suits"
@@ -19470,6 +22101,17 @@
 /obj/effect/floor_decal/industrial/outline/service,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"mWl" = (
+/obj/machinery/door/urban/glass_sliding/double{
+	name = "Hospital"
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "mWo" = (
 /obj/effect/floor_decal/industrial/hatch_door{
 	color = "#b19664";
@@ -19715,6 +22357,28 @@
 	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"mYK" = (
+/obj/structure/closet/crate/bin/urban/dumpster,
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"mYO" = (
+/obj/effect/floor_decal/corner_full{
+	color = "#54654c";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_full{
+	color = "#808080";
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "mYP" = (
 /obj/effect/decal/curb,
 /obj/structure/flora/grass/desert,
@@ -19812,6 +22476,17 @@
 	dir = 10
 	},
 /turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"naO" = (
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb/corner{
+	dir = 8;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -19956,6 +22631,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"nfp" = (
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "nfJ" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -20014,6 +22695,20 @@
 "nid" = (
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"nik" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "niU" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
@@ -20022,6 +22717,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"niX" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/structure/flora/pottedplant/largebush,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "njp" = (
 /obj/structure/platform,
 /obj/structure/platform_stairs/full/east_west_cap{
@@ -20105,6 +22812,17 @@
 	},
 /turf/simulated/open,
 /area/new_blades)
+"nlF" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "nlS" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -20127,6 +22845,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"nmG" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	dir = 8;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "nmS" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -20197,6 +22925,23 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"noD" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	dir = 5;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "noR" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -20325,9 +23070,9 @@
 	pixel_x = -12;
 	pixel_y = -16
 	},
-/obj/structure/bed/stool{
-	pixel_x = 2;
+/obj/structure/bed/stool/padded/beige{
 	pixel_y = 6;
+	pixel_x = 2;
 	dir = 8
 	},
 /turf/simulated/floor/asphalt{
@@ -20353,6 +23098,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"nuT" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "nuW" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
@@ -20435,7 +23188,7 @@
 	pixel_y = 4;
 	pixel_x = 4
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -20504,6 +23257,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"nBF" = (
+/obj/structure/table/reinforced{
+	req_access = list(33)
+	},
+/obj/machinery/door/window/desk/northleft,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "nBG" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/reagent_containers/food/snacks/maps{
@@ -20571,6 +23333,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"nBV" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	dir = 8;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "nCb" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
@@ -20615,6 +23392,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"nDi" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "nDj" = (
 /obj/machinery/telecomms/processor/preset_one,
 /turf/unsimulated/floor,
@@ -20674,6 +23462,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"nHa" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "nHq" = (
 /obj/structure/platform,
 /turf/simulated/floor/sidewalk/dark{
@@ -20818,6 +23614,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"nLO" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "nLQ" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -21295,6 +24107,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"nZE" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "nZT" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -21470,6 +24298,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ohh" = (
+/obj/structure/table/steel,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor{
+	pixel_y = 6;
+	pixel_x = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ohl" = (
 /obj/structure/bonfire/fireplace{
 	pixel_x = 0;
@@ -21481,8 +24320,11 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "oib" = (
-/obj/machinery/sleeper,
-/turf/simulated/floor/asphalt{
+/obj/effect/map_effect/window_spawner/full/reinforced{
+	color = "#B5A165";
+	frame_color = "#B5A165"
+	},
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -21495,6 +24337,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"oju" = (
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/effect/floor_decal/concrete{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ojL" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/effect/floor_decal/concrete{
@@ -21604,6 +24458,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"omv" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.35;
+	light_range = 12
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "omZ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -21615,6 +24479,19 @@
 "onc" = (
 /turf/simulated/open,
 /area/new_blades/mudki/interiors)
+"onp" = (
+/obj/machinery/vending/medical{
+	pixel_y = 32;
+	density = 0;
+	req_access = null
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ont" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/wood/maple{
@@ -21630,6 +24507,25 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"ooC" = (
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"ooJ" = (
+/obj/effect/floor_decal/corner_full{
+	color = "#54654c";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner_full{
+	color = "#808080";
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "opS" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor{
@@ -21642,6 +24538,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors)
+"oqU" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "orY" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -21678,6 +24585,25 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"osT" = (
+/obj/structure/closet/walllocker/medical/secure{
+	name = "O- Blood Locker";
+	pixel_x = 32;
+	req_access = null
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "osY" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -21713,6 +24639,25 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ouu" = (
+/obj/structure/filingcabinet/medical{
+	pixel_x = -8
+	},
+/obj/machinery/papershredder{
+	pixel_x = 8
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"ouz" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "ouN" = (
 /obj/machinery/door/urban/glass_sliding{
 	name = "Restaurant"
@@ -21868,6 +24813,17 @@
 /obj/effect/floor_decal/industrial/outline/service,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"oAx" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "oAF" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -21905,6 +24861,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"oBr" = (
+/obj/machinery/light/colored/decayed,
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "oBA" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/decal/exterior_stairs/half{
@@ -21990,6 +24953,21 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"oEB" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/sharps{
+	pixel_y = 5;
+	pixel_x = 6
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "oEL" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -22120,6 +25098,40 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"oHb" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	dir = 5;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"oHZ" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	dir = 9;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "oIe" = (
 /obj/structure/table/rack/clothing{
 	dir = 4
@@ -22169,6 +25181,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"oJD" = (
+/obj/structure/closet/walllocker/medical/secure{
+	name = "O- Blood Locker";
+	pixel_x = 32;
+	req_access = null
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "oJN" = (
 /obj/structure/closet/crate/freezer,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -22216,6 +25243,27 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"oLm" = (
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	dir = 10;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "oLp" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -22262,12 +25310,47 @@
 /obj/machinery/telecomms/broadcaster/preset_right,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"oME" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	dir = 5;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"oNc" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "oNh" = (
 /obj/effect/decal/curb{
 	dir = 5
 	},
 /obj/structure/flora/bush/jungle/c/random,
 /turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
+"oNl" = (
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -22304,6 +25387,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/clothing)
+"oNV" = (
+/obj/structure/table/stone/marble,
+/obj/item/storage/box/sharps{
+	pixel_x = 6;
+	pixel_y = 9
+	},
+/obj/item/device/mass_spectrometer{
+	pixel_x = -13;
+	pixel_y = 4
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "oOh" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 8
@@ -22315,6 +25412,31 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"oOG" = (
+/obj/structure/table/steel,
+/obj/item/reagent_containers/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	icon_state = "sterilesprayblue";
+	name = "surgery cleaner";
+	pixel_y = 8;
+	pixel_x = 7
+	},
+/obj/item/storage/box/sharps{
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
+"oOW" = (
+/obj/machinery/computer/operating/terminal{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "oPl" = (
 /turf/simulated/wall/sandstone,
 /area/new_blades/mudki/interiors/south_housing)
@@ -22365,6 +25487,27 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"oQI" = (
+/obj/structure/table/standard,
+/obj/machinery/reagentgrinder{
+	pixel_y = 18;
+	pixel_x = 4
+	},
+/obj/item/storage/box/fancy/vials{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/dropper/electronic_pipette{
+	pixel_x = 8;
+	pixel_y = -10
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "oRc" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -22434,7 +25577,8 @@
 /obj/machinery/computer/operating/terminal{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white{
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -22453,11 +25597,13 @@
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
 "oUt" = (
-/obj/machinery/iv_drip,
-/turf/simulated/floor/asphalt{
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/underground)
 "oUw" = (
 /obj/effect/floor_decal/industrial/outline_door{
 	color = "#b19664"
@@ -22629,6 +25775,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"pab" = (
+/obj/machinery/light/colored/decayed,
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "paL" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -22694,6 +25847,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"pbt" = (
+/obj/machinery/door/urban/glass_sliding/double{
+	name = "Hospital";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "pbM" = (
 /obj/structure/flora/rock/desert,
 /turf/simulated/floor/exoplanet/desert{
@@ -22919,6 +26084,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"pin" = (
+/obj/machinery/light/colored/decayed,
+/obj/structure/table/steel,
+/obj/structure/roller_rack/two,
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "pjA" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -22966,6 +26140,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"pmn" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "pmF" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -23074,6 +26263,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"ppx" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ppD" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 1
@@ -23143,6 +26343,22 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"psR" = (
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4;
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades)
 "psZ" = (
 /obj/effect/decal/curb{
 	dir = 5
@@ -23231,6 +26447,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"pvD" = (
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "pvM" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -23346,7 +26568,13 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "pzy" = (
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -23372,6 +26600,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"pAn" = (
+/obj/machinery/door/urban,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "pAB" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/road_marking{
@@ -23437,7 +26671,7 @@
 /obj/structure/sink/kitchen{
 	pixel_y = 22
 	},
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -23670,6 +26904,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors)
+"pHP" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "pIY" = (
 /obj/effect/decal/curb/corner{
 	dir = 4;
@@ -23787,6 +27037,29 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"pNv" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"pNI" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "pNQ" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -23845,6 +27118,60 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"pPm" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = 0
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"pPG" = (
+/obj/structure/table/standard,
+/obj/machinery/reagentgrinder{
+	pixel_y = 18;
+	pixel_x = 4
+	},
+/obj/item/storage/box/fancy/vials{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/dropper/electronic_pipette{
+	pixel_x = 8;
+	pixel_y = -10
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
+"pQm" = (
+/obj/structure/table/steel,
+/obj/item/storage/firstaid/regular{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/item/storage/firstaid/empty{
+	pixel_x = 6
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"pQy" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "pQK" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -23961,6 +27288,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"pUE" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "pUK" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -23992,11 +27325,14 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "pVO" = (
-/obj/structure/roller_rack/three,
-/turf/simulated/floor/asphalt{
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/underground)
 "pWv" = (
 /obj/structure/flora/pottedplant/tall{
 	pixel_y = 8
@@ -24025,12 +27361,34 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"pWX" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/masks{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = -6
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "pWZ" = (
 /obj/structure/bed/padded,
-/turf/simulated/floor/wood/maple{
+/obj/item/bedsheet/medical,
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"pXQ" = (
+/obj/structure/table/standard,
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "pYu" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "rifle and carbine cabinet"
@@ -24049,9 +27407,29 @@
 /obj/item/gun/energy/gun,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"pYT" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "pZf" = (
 /obj/structure/flora/ausbushes/palebush,
 /turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"pZO" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/underground)
@@ -24247,6 +27625,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
+"qho" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/fancy/corner{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qio" = (
 /obj/machinery/appliance/cooker/fryer{
 	stat = 4
@@ -24332,6 +27721,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors)
+"qkQ" = (
+/obj/structure/table/steel,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor{
+	pixel_y = 6;
+	pixel_x = 5
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "qle" = (
 /obj/structure/flora/rock/desert,
 /turf/simulated/floor/exoplanet/desert{
@@ -24348,6 +27749,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"qlk" = (
+/obj/effect/floor_decal/industrial/loading{
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "qll" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -24377,6 +27792,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qlL" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "qlM" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -24572,6 +27995,17 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"qrg" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qrq" = (
 /obj/structure/shipping_container{
 	icon_state = "red1"
@@ -24591,12 +28025,32 @@
 	temperature = 315.15
 	},
 /area/landing_pad)
-"qtH" = (
-/obj/machinery/bodyscanner,
-/turf/simulated/floor/asphalt{
+"qty" = (
+/obj/machinery/body_scanconsole,
+/obj/effect/floor_decal/industrial/loading{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey,
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
-/area/new_blades)
+/area/new_blades/mudki/interiors/hospital)
+"qtH" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "qtP" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -24605,6 +28059,13 @@
 	dir = 6
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"qtY" = (
+/obj/structure/bed/roller,
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -24742,6 +28203,20 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qzi" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qAc" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -24824,10 +28299,24 @@
 /area/new_blades)
 "qCG" = (
 /obj/structure/curtain/open/medical,
-/turf/simulated/floor/wood/maple{
+/obj/structure/table/glass,
+/obj/item/folder,
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"qCT" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	dir = 8;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "qCV" = (
 /obj/structure/rod_railing,
 /obj/effect/decal/curb,
@@ -24900,6 +28389,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"qFl" = (
+/obj/machinery/computer/operating/terminal{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qFs" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -24934,6 +28432,38 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"qGy" = (
+/obj/effect/floor_decal/corner_full{
+	color = "#808080";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner_full{
+	color = "#54654c";
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"qGE" = (
+/obj/structure/closet/walllocker/medical/secure{
+	name = "O- Blood Locker";
+	pixel_x = 32;
+	req_access = null
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "qGO" = (
 /obj/structure/toilet,
 /obj/effect/floor_decal/spline/fancy/wood/cee{
@@ -25008,7 +28538,7 @@
 /area/new_blades/mudki/interiors/alley)
 "qJR" = (
 /obj/machinery/light/colored/decayed,
-/turf/simulated/floor/sidewalk/flat{
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -25076,6 +28606,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"qLL" = (
+/obj/effect/floor_decal/concrete,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"qLY" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "qMc" = (
 /obj/structure/structural_support/side,
 /obj/structure/structural_support,
@@ -25112,6 +28657,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"qMX" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "qNb" = (
 /obj/structure/bed/stool/chair/sofa/pew/right,
 /turf/simulated/floor/sidewalk/flat{
@@ -25262,6 +28821,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"qRy" = (
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/floor_decal/concrete,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qRE" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/sidewalk/flat{
@@ -25363,6 +28929,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"qVQ" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/fancy/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "qVS" = (
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
@@ -25526,6 +29103,14 @@
 /obj/item/ammo_magazine/a556/carbine/polymer,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"rbW" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "rcc" = (
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
@@ -25818,6 +29403,10 @@
 /obj/machinery/light/colored/decayed{
 	dir = 1
 	},
+/obj/effect/floor_decal/spline/fancy/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
@@ -25836,6 +29425,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"rmL" = (
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.75
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "rnj" = (
 /obj/effect/decal/road_marking/crosswalk{
 	dir = 8
@@ -25888,6 +29486,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"rpq" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "rpz" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/curb,
@@ -26503,7 +30107,8 @@
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
-/turf/simulated/floor/sidewalk/flat{
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -26738,6 +30343,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"rSV" = (
+/obj/structure/table/steel,
+/obj/item/storage/firstaid/regular{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/item/storage/firstaid/empty{
+	pixel_x = 6
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "rSZ" = (
 /obj/machinery/computer/telecomms/monitor{
 	network = "tcommsat"
@@ -26888,6 +30506,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"rWM" = (
+/obj/machinery/door/airlock/glass_medical{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "rXS" = (
 /obj/structure/closet/cabinet,
 /obj/effect/floor_decal/concrete{
@@ -26995,6 +30625,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"saR" = (
+/obj/structure/curtain/open/medical,
+/obj/structure/bed/stool/padded/beige,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "sbh" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -27076,6 +30713,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"sdC" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "sdP" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -27202,6 +30850,17 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"sif" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "sih" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 4
@@ -27219,6 +30878,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"sil" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "sin" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -27351,6 +31019,21 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"smM" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "smT" = (
 /obj/effect/decal/curb/corner,
 /obj/effect/decal/curb{
@@ -27432,6 +31115,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"ssN" = (
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ssT" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -27440,6 +31128,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"stf" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "stV" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 4
@@ -27450,6 +31149,15 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"stX" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/fancy/corner,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "svl" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -27689,7 +31397,7 @@
 /obj/machinery/light/colored/decayed{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -27709,6 +31417,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"sCn" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "sCo" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -27735,6 +31458,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"sCB" = (
+/obj/machinery/bodyscanner{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#8ba574"
+	},
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "sCN" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/simulated/floor/concrete{
@@ -27929,6 +31668,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"sIk" = (
+/obj/machinery/chem_master,
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "sIy" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -28193,6 +31939,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"sQg" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"sQh" = (
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "sQt" = (
 /obj/effect/decal/exterior_stairs/half/center{
 	dir = 8
@@ -28316,6 +32082,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"sRy" = (
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "sRB" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -28338,6 +32109,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"sSl" = (
+/obj/machinery/door/urban/glass_sliding,
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "sSs" = (
 /obj/structure/flora/rock/desert/scrub,
 /turf/simulated/floor/exoplanet/desert{
@@ -28367,6 +32147,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"sTd" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "sTx" = (
 /obj/structure/table/reinforced/wood,
 /obj/machinery/light/colored/decayed{
@@ -28415,6 +32207,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"sVR" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = 0
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "sVZ" = (
 /obj/structure/platform,
 /obj/structure/rod_railing{
@@ -28499,6 +32302,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"sZA" = (
+/obj/machinery/chemical_dispenser/full{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "sZT" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -28531,6 +32343,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"tdl" = (
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "teh" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -28590,10 +32411,39 @@
 	req_access = list(33)
 	},
 /obj/structure/window/reinforced,
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"teP" = (
+/obj/effect/decal/exterior_stairs/half/right{
+	dir = 8;
+	pixel_y = -4
+	},
+/obj/effect/decal/exterior_stairs/half/left{
+	dir = 8;
+	pixel_y = 2
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"tfa" = (
+/obj/structure/closet/crate/bin{
+	name = "trashbin";
+	pixel_x = -6;
+	pixel_y = 1
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 10
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "tfd" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -28620,6 +32470,23 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"tfk" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	dir = 8;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "tfy" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -28651,7 +32518,7 @@
 /obj/item/modular_computer/laptop/preset/medical{
 	pixel_y = 6
 	},
-/turf/simulated/floor/concrete{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -28697,6 +32564,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"thV" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "thW" = (
 /obj/machinery/light{
 	dir = 8
@@ -28726,7 +32604,8 @@
 /obj/machinery/computer/operating/terminal{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white{
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -28737,11 +32616,24 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "tjv" = (
-/obj/machinery/smartfridge/secure/medbay,
+/obj/machinery/smartfridge/secure/medbay{
+	req_one_access = null
+	},
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"tjD" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "tjM" = (
 /turf/simulated/floor/exoplanet/marble{
 	temperature = 315.15
@@ -28772,6 +32664,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"tjW" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "tka" = (
 /turf/simulated/floor/concrete{
 	temperature = 315.15
@@ -28842,6 +32745,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"tmO" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "tne" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
@@ -28860,7 +32778,10 @@
 /obj/structure/bed/stool/chair{
 	dir = 1
 	},
-/turf/simulated/floor/concrete{
+/obj/effect/floor_decal/spline/fancy/wood/cee{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -28905,6 +32826,19 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/new_blades)
+"tot" = (
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"tov" = (
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
 /area/new_blades)
 "toy" = (
 /obj/effect/decal/road_marking/no_pass{
@@ -29045,6 +32979,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"ttk" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ttu" = (
 /obj/machinery/light/colored/decayed{
 	dir = 1
@@ -29163,10 +33108,21 @@
 	},
 /area/new_blades)
 "tvm" = (
-/obj/effect/floor_decal/concrete{
-	dir = 4
+/obj/structure/bed/roller,
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
 	},
-/turf/simulated/floor/marble/dark{
+/area/new_blades)
+"tvE" = (
+/obj/structure/table/steel,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor{
+	pixel_y = 6;
+	pixel_x = 5
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -29191,7 +33147,16 @@
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white{
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -29354,10 +33319,35 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"tCj" = (
+/obj/structure/filingcabinet/medical{
+	pixel_x = -8
+	},
+/obj/machinery/papershredder{
+	pixel_x = 8
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "tCq" = (
 /obj/structure/platform,
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"tCt" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/machinery/door/window/eastleft{
+	name = "Hospital"
+	},
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -29542,6 +33532,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"tHS" = (
+/obj/structure/table/stone/marble,
+/obj/item/clothing/accessory/stethoscope{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "tIA" = (
 /obj/machinery/vending/robotics{
 	anchored = 0
@@ -29686,7 +33689,11 @@
 /obj/machinery/door/airlock/glass_medical{
 	dir = 8
 	},
-/turf/simulated/floor/concrete{
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -29811,6 +33818,18 @@
 /area/new_blades/mudki/interiors/water_treatment)
 "tUR" = (
 /obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"tVb" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
@@ -29981,6 +34000,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"uaa" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uaf" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -30011,7 +34037,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/sidewalk/flat{
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -30075,6 +34101,37 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"ufc" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"ufh" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"ufr" = (
+/obj/structure/table/steel,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor{
+	pixel_y = 6;
+	pixel_x = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ufD" = (
 /obj/structure/table/stone/marble,
 /obj/item/modular_computer/handheld/pda/smart{
@@ -30352,7 +34409,7 @@
 /obj/item/storage/box/sharps{
 	pixel_y = 4
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -30404,6 +34461,31 @@
 	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"une" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"ung" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/masks{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = -6
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "unh" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 315.15
@@ -30633,6 +34715,27 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors)
+"utV" = (
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	dir = 10;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "uun" = (
 /obj/structure/bed/stool/chair/sofa/beige{
 	dir = 1
@@ -30845,6 +34948,34 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"uBf" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"uBj" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "uBm" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -31082,6 +35213,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"uJR" = (
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "uKu" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -31091,6 +35238,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"uLo" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uMf" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -31178,6 +35336,20 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"uOJ" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uOL" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -31226,6 +35398,18 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/new_blades/mudki/interiors/restaurant)
+"uPz" = (
+/obj/effect/floor_decal/corner_full{
+	color = "#808080"
+	},
+/obj/effect/floor_decal/corner_full{
+	color = "#54654c";
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "uQD" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -31274,6 +35458,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"uSk" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_y = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uSl" = (
 /obj/effect/decal/curb{
 	dir = 5
@@ -31309,6 +35506,26 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"uTc" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	dir = 9;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "uTg" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -31393,6 +35610,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"uVI" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#6a97b0"
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "uVL" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -31497,6 +35725,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"uYe" = (
+/obj/structure/table/steel,
+/obj/item/reagent_containers/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	icon_state = "sterilesprayblue";
+	name = "surgery cleaner";
+	pixel_y = 8;
+	pixel_x = -7
+	},
+/obj/item/storage/box/sharps{
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uYg" = (
 /obj/structure/closet/cabinet,
 /obj/effect/floor_decal/concrete{
@@ -31608,6 +35852,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"uZV" = (
+/obj/machinery/door/urban{
+	dir = 8
+	},
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "uZW" = (
 /obj/structure/table/stone/marble,
 /obj/item/material/kitchen/rollingpin{
@@ -31630,7 +35891,7 @@
 	dir = 4
 	},
 /obj/effect/decal/curb/corner,
-/turf/simulated/floor/lino{
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -31640,6 +35901,12 @@
 	},
 /obj/effect/overlay/container_logo,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"vcl" = (
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -31697,6 +35964,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vdm" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "vdN" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -31745,6 +36023,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"veS" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "veU" = (
 /obj/structure/plasticflaps/airtight,
 /obj/machinery/door/blast/regular/open{
@@ -31761,6 +36050,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"vfA" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	dir = 8;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "vfH" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -31854,6 +36155,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"vhg" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"vhl" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "vhs" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -31879,6 +36196,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"vhV" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "vhY" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -31895,6 +36227,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"viw" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "viD" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/rod_railing{
@@ -32112,6 +36455,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"vqZ" = (
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood/cee{
+	dir = 8
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "vrz" = (
 /obj/machinery/door/blast/regular/open,
 /obj/structure/plasticflaps/airtight{
@@ -32234,6 +36588,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/pawn)
+"vtX" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
 "vus" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -32326,6 +36694,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"vwP" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "vxj" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
@@ -32333,6 +36712,32 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"vxP" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/machinery/door/window/eastright{
+	name = "Hospital"
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"vxQ" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "vyx" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -32440,6 +36845,20 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vDs" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "vDB" = (
 /obj/effect/floor_decal/industrial/outline/research,
 /obj/item/clothing/head/hazmat/anomaly,
@@ -32458,6 +36877,31 @@
 	icon_state = "grey1"
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"vEs" = (
+/obj/effect/floor_decal/corner_full{
+	color = "#808080";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner_full{
+	color = "#54654c";
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
+"vEy" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -32587,6 +37031,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"vHo" = (
+/obj/item/device/radio/phone/medbay{
+	pixel_y = 8
+	},
+/obj/structure/table/reinforced{
+	req_access = list(33)
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "vJS" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/light{
@@ -32695,6 +37151,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"vNV" = (
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4;
+	color = "#6a97b0"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "vOv" = (
 /turf/simulated/floor/tiled/techfloor{
 	temperature = 315.15
@@ -32744,6 +37216,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"vPa" = (
+/obj/machinery/chem_heater,
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "vPx" = (
 /obj/structure/flora/pottedplant/tall,
 /turf/simulated/floor/concrete{
@@ -32815,6 +37294,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"vSf" = (
+/obj/effect/floor_decal/corner_full{
+	color = "#808080";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner_full{
+	color = "#54654c";
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "vSl" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -32886,7 +37378,8 @@
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
 "vTQ" = (
 /obj/machinery/chem_heater,
-/turf/simulated/floor/tiled/white{
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -32917,6 +37410,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"vVr" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
+"vVu" = (
+/obj/machinery/door/urban/glass_sliding/double{
+	name = "Hospital";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "vVv" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -33137,9 +37650,31 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"wcJ" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "wcK" = (
 /obj/machinery/telecomms/bus/preset_three,
 /turf/unsimulated/floor,
+/area/new_blades/underground)
+"wcT" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	layer = 2.04;
+	name = "raised curb";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
 /area/new_blades/underground)
 "wdq" = (
 /obj/effect/floor_decal/concrete{
@@ -33155,6 +37690,32 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"wfj" = (
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
+"wfP" = (
+/obj/machinery/vending/medical{
+	pixel_y = 32;
+	density = 0;
+	req_access = null
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "wgx" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -33352,6 +37913,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"wmi" = (
+/obj/machinery/body_scanconsole{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4;
+	color = "#8ba574"
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades)
 "wmk" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -33455,6 +38036,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"wpf" = (
+/obj/machinery/vending/medical{
+	pixel_y = 32;
+	density = 0;
+	req_access = null
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "wpp" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/effect/step_trigger/thrower{
@@ -33548,6 +38149,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"wsy" = (
+/obj/machinery/optable,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/corner,
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "wsP" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/sidewalk/blocks{
@@ -33588,6 +38200,16 @@
 /obj/machinery/ntnet_relay,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"wuR" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -20
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "wvl" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -33597,6 +38219,25 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"wvs" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"wvF" = (
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "wvJ" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/effect/floor_decal/concrete{
@@ -33629,6 +38270,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"wwz" = (
+/obj/machinery/optable,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "wwV" = (
 /obj/machinery/telecomms/allinone/ship/station_relay,
 /turf/unsimulated/floor,
@@ -33661,6 +38315,14 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"wxz" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "wxO" = (
 /obj/effect/decal/road_marking/turn_right,
 /turf/simulated/floor/asphalt,
@@ -33824,6 +38486,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"wBO" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/table/standard,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "wBU" = (
 /obj/structure/closet/cabinet,
 /turf/simulated/floor/concrete{
@@ -34173,6 +38842,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"wPu" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "wPD" = (
 /obj/structure/cash_register{
 	dir = 8;
@@ -34223,6 +38900,37 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"wQi" = (
+/obj/structure/table/wood,
+/obj/random/pottedplant_small{
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/item/device/flashlight/pen{
+	pixel_y = -2
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades)
+"wQz" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	dir = 8;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "wRO" = (
 /obj/structure/platform{
 	dir = 4
@@ -34301,6 +39009,17 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"wVa" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "wVn" = (
 /obj/structure/rod_railing{
 	layer = 2.89;
@@ -34344,6 +39063,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
+"wXq" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -34433,6 +39160,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"wZR" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xaD" = (
 /obj/machinery/computer/message_monitor,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -34475,6 +39213,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"xcQ" = (
+/obj/machinery/door/urban/glass_sliding,
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "xcT" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -34598,6 +39345,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/clothing)
+"xgf" = (
+/obj/effect/floor_decal/corner_full{
+	color = "#808080"
+	},
+/obj/effect/floor_decal/corner_full{
+	color = "#54654c";
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xgn" = (
 /obj/structure/bed/stool/chair/padded/beige{
 	dir = 8
@@ -34645,6 +39404,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"xhd" = (
+/obj/machinery/light/colored/decayed,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "xis" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -34814,12 +39579,51 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"xmM" = (
+/obj/machinery/optable,
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/corner,
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xmP" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"xmS" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/decal/curb{
+	dir = 9;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
+"xnG" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "xog" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/effect/decal/exterior_stairs/half/center{
@@ -34950,6 +39754,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"xrb" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xrf" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -35060,6 +39880,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"xuA" = (
+/obj/structure/table/steel,
+/obj/item/storage/box/fancy/tray,
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xuF" = (
 /obj/effect/decal/curb/corner,
 /obj/effect/decal/curb{
@@ -35128,6 +39955,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"xvH" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xvZ" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -35166,6 +40002,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
+"xxU" = (
+/obj/structure/flora/pottedplant/largebush{
+	pixel_y = 8
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xzm" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -35307,6 +40155,14 @@
 /obj/machinery/telecomms/server/presets/engineering,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"xFB" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "xFC" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -35358,6 +40214,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"xHX" = (
+/obj/machinery/body_scanconsole{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4;
+	color = "#8ba574"
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "xIH" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -35435,6 +40303,24 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"xLN" = (
+/obj/machinery/light/colored/decayed{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "xLS" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -35450,8 +40336,18 @@
 	},
 /area/new_blades)
 "xMn" = (
-/obj/structure/table/steel,
-/turf/simulated/floor/tiled/white{
+/obj/machinery/bodyscanner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#8ba574"
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -35515,6 +40411,19 @@
 	},
 /turf/simulated/open,
 /area/new_blades)
+"xOy" = (
+/obj/structure/table/steel,
+/obj/item/storage/firstaid/regular{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/item/storage/firstaid/empty{
+	pixel_x = 6
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "xOC" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 8
@@ -35530,6 +40439,18 @@
 	temperature = 315.15
 	},
 /area/landing_pad)
+"xOG" = (
+/obj/effect/floor_decal/corner/dark_green,
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "xOJ" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -35622,6 +40543,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"xRh" = (
+/obj/machinery/smartfridge/secure/medbay{
+	req_one_access = null
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "xSf" = (
 /obj/structure/konyang_cliff{
 	icon_state = "topcorner_east";
@@ -35656,6 +40585,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"xTP" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/sharps{
+	pixel_y = 5;
+	pixel_x = 6
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "xUc" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -35901,6 +40845,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"yaN" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "yaY" = (
 /obj/structure/flora/pottedplant/dead,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -35941,7 +40900,17 @@
 /obj/machinery/light/colored/decayed{
 	dir = 8
 	},
-/turf/simulated/floor/wood/maple{
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -35983,6 +40952,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"ydn" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey,
+/obj/effect/decal/curb/corner{
+	dir = 8;
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades/underground)
 "ydA" = (
 /obj/machinery/iv_drip,
 /obj/effect/floor_decal/spline/plain/green{
@@ -36036,6 +41022,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"yeD" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "yeL" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -36114,6 +41115,24 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"ygO" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	name = "raised curb";
+	layer = 2.04
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ygQ" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -36191,6 +41210,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"yji" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 8
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4;
+	name = "raised curb";
+	layer = 2.04
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
 "yjm" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
@@ -36253,6 +41285,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"ylt" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/fancy/corner,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 
 (1,1,1) = {"
 uoz
@@ -37262,20 +42303,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+uZV
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+jAi
+mUi
+ezU
+ezU
+lHG
+pNI
 gMz
 gMz
 gMz
@@ -37476,27 +42517,27 @@ qpM
 qpM
 qpM
 qpM
+xZl
+xZl
+xZl
+wDF
+qpM
+wDF
+wDF
+wDF
+wDF
+wDF
+wDF
 qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+pzc
+pzc
+pzc
+pzc
+pzc
+pzc
 qpM
 qpM
 qpM
@@ -37519,20 +42560,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+evO
+jve
+yaN
+kxa
+fKs
+kxa
+mdW
+qCT
+dnd
+grw
+ezU
+mLh
+pNI
 gMz
 gMz
 gMz
@@ -37733,32 +42774,32 @@ qpM
 qpM
 qpM
 qpM
+xZl
+xZl
+xZl
+wDF
+qpM
+wDF
+gvo
+ciy
+ygO
+ssN
+wDF
+wDF
+wDF
+wDF
+qpM
+pzc
+pzc
+pzc
+pzc
+pzc
+pzc
 qpM
 qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
 gMz
 gMz
 gMz
@@ -37776,20 +42817,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+evO
+ktr
+lcW
+wcT
+wcT
+wcT
+xmS
+vhg
+pvD
+mrc
+ezU
+tCj
+pNI
 gMz
 gMz
 gMz
@@ -37990,27 +43031,27 @@ qpM
 qpM
 qpM
 qpM
+xZl
+xZl
+xZl
+wDF
+cAc
+wDF
+aGG
+hpO
+ian
+ssN
+wDF
+ooC
+pab
+wDF
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+pzc
+pzc
+pzc
+pzc
+pzc
+pzc
 qpM
 qpM
 qpM
@@ -38033,20 +43074,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+ezU
+rWM
+fFC
+fFC
+ezU
+lMZ
+veS
+viw
+keu
+vwP
+pAn
+nDi
+aRO
 gMz
 gMz
 gMz
@@ -38247,27 +43288,27 @@ qpM
 qpM
 qpM
 qpM
+xZl
+xZl
+xZl
+wDF
+asq
+wDF
+gvo
+ciy
+ian
+ssN
+wDF
+ciy
+bkY
+wDF
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+pzc
+pzc
+pzc
+pzc
+pzc
+pzc
 qpM
 qpM
 qpM
@@ -38290,20 +43331,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+sIk
+qGy
+ooJ
+bZP
+fFC
+dLc
+cPc
+jGi
+aiA
+noD
+ezU
+ezU
+ezU
 gMz
 gMz
 gMz
@@ -38504,27 +43545,27 @@ qpM
 qpM
 qpM
 qpM
+wDF
+wDF
+wDF
+wDF
+asq
+wDF
+aGG
+hpO
+ian
+ssN
+kGt
+ciy
+bkY
+wDF
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+pzc
+pzc
+pzc
+pzc
+pzc
+pzc
 qpM
 qpM
 qpM
@@ -38547,20 +43588,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+cRf
+gvs
+evO
+uPz
+nBF
+dLc
+aUU
+kxa
+kxa
+sQg
+vhg
+wvF
+mWl
 gMz
 gMz
 gMz
@@ -38761,27 +43802,27 @@ qpM
 qpM
 qpM
 qpM
+hkp
+hkp
+hUy
+hUy
+jAX
+wDF
+gvo
+ciy
+fxW
+ssN
+wDF
+ciy
+fKV
+wDF
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+pzc
+pzc
+pzc
+pzc
+pzc
+pzc
 qpM
 qpM
 qpM
@@ -38804,20 +43845,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+ezU
+ezU
+oQI
+kWG
+xRh
+dLc
+aUU
+fKs
+fKs
+sQg
+stX
+lTc
+pbt
 gMz
 gMz
 gMz
@@ -39018,27 +44059,27 @@ qpM
 qpM
 qpM
 qpM
+cVh
+pQy
+pQy
+ckT
+mYK
+wDF
+wDF
+wDF
+wDF
+wDF
+wDF
+ciy
+bkY
+wDF
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+pzc
+pzc
+pzc
+pzc
+pzc
+pzc
 qpM
 qpM
 qpM
@@ -39061,20 +44102,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+tot
+sRy
+ezU
+ezU
+ezU
+ezU
+ezU
+xLN
+kxa
+kxa
+sQg
+mpe
+xhd
+ezU
 gMz
 gMz
 gMz
@@ -39275,25 +44316,25 @@ qpM
 qpM
 qpM
 qpM
+wDF
+wDF
+wDF
+wDF
+wDF
+wDF
+tBc
+tBc
+wZR
+ePy
+ciy
+ciy
+fKV
+wDF
 qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+omv
 qpM
 qpM
 qpM
@@ -39318,20 +44359,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+tot
+mtD
+ezU
+xFB
+bNU
+hcr
+ezU
+aUU
+evO
+evO
+mhO
+mpe
+ohh
+ezU
 gMz
 gMz
 gMz
@@ -39532,27 +44573,27 @@ qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+wDF
+eMw
+iyU
+qzi
+vVr
+wDF
+tBc
+tBc
+lCt
+ePy
+ciy
+ciy
+vcl
+wDF
+wDF
+wDF
+wDF
+hHv
+jzr
+wDF
+wDF
 qpM
 qpM
 qpM
@@ -39575,20 +44616,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+tot
+mtD
+ezU
+wwz
+gfs
+une
+sSl
+aUU
+kxa
+kxa
+hKr
+mPk
+uJR
+ezU
 gMz
 gMz
 gMz
@@ -39789,27 +44830,27 @@ qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+wDF
+gIq
+iyU
+wQi
+uSk
+wDF
+wDF
+wDF
+teP
+dAR
+gyc
+aTa
+aTa
+aTa
+mDu
+aTa
+aTa
+aTa
+thV
+eUU
+wDF
 qpM
 qpM
 qpM
@@ -39832,20 +44873,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+tot
+sRy
+ezU
+oOW
+kOo
+enn
+ezU
+aUU
+fKs
+fKs
+nBV
+ccj
+hHp
+ezU
 gMz
 gMz
 gMz
@@ -40046,27 +45087,27 @@ qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+wDF
+aSW
+iyU
+sdC
+vhl
+wDF
+tBc
+tBc
+ciy
+ciy
+wXq
+vDs
+uLo
+uLo
+hpV
+hHQ
+uLo
+mBU
+nlF
+ind
+wDF
 qpM
 qpM
 qpM
@@ -40089,20 +45130,20 @@ qpM
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+rmL
+sRy
+ezU
+ezU
+ezU
+ezU
+ezU
+bqc
+kxa
+kxa
+lEx
+mpe
+xOy
+ezU
 gMz
 gMz
 gMz
@@ -40303,27 +45344,27 @@ qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+wDF
+tHS
+iyU
+gqb
+jqo
+eLO
+wcJ
+wcJ
+ciy
+ciy
+wXq
+lMA
+wDF
+wDF
+wDF
+oib
+oib
+xxU
+nlF
+dYT
+wDF
 qpM
 qpM
 qpM
@@ -40346,20 +45387,20 @@ qpM
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ake
+ake
+ezU
+ejZ
+kOo
+cef
+ezU
+utV
+iuY
+ydn
+uTc
+osT
+bsN
+ezU
 gMz
 gMz
 gMz
@@ -40560,27 +45601,27 @@ qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+wDF
+oNV
+iyU
+ePy
+gaa
+wDF
+pUE
+tdl
+pUE
+ciy
+wXq
+xZl
+kGt
+cXI
+gMw
+csN
+oib
+xZl
+cKQ
+pXQ
+wDF
 qpM
 qpM
 qpM
@@ -40603,20 +45644,20 @@ qpM
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+cwj
+cwj
+ezU
+jWY
+gFl
+mCM
+sSl
+tjW
+vNV
+eQk
+ezU
+ezU
+ezU
+ezU
 gMz
 gMz
 gMz
@@ -40817,27 +45858,27 @@ qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+wDF
+wDF
+mlI
+wDF
+wDF
+wDF
+wDF
+wDF
+wDF
+hzK
+cVb
+wDF
+wDF
+cei
+iGq
+fet
+vHo
+fjZ
+cKQ
+ind
+wDF
 qpM
 qpM
 qpM
@@ -40860,20 +45901,20 @@ qpM
 qpM
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+eoR
+eoR
+ezU
+xFB
+cEF
+hcr
+ezU
+oNc
+smM
+lHK
+ezU
+dgt
+dgt
+dgt
 gMz
 gMz
 gMz
@@ -41074,6 +46115,27 @@ qpM
 qpM
 qpM
 qpM
+dsh
+wDF
+tjD
+bLB
+yeD
+tvm
+uaa
+tvm
+klq
+vfA
+cLq
+oEB
+wDF
+tfa
+iGq
+qOW
+fdI
+fjZ
+cKQ
+oNl
+wDF
 qpM
 qpM
 qpM
@@ -41082,55 +46144,34 @@ qpM
 qpM
 qpM
 qpM
+naO
+pNv
+pNv
+iKr
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+qRy
+goS
+goS
+flq
 qpM
 qpM
 qpM
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+eoR
+eoR
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+dgt
+dgt
+dgt
 gMz
 gMz
 gMz
@@ -41331,6 +46372,27 @@ qpM
 qpM
 qpM
 qpM
+tBR
+wDF
+tjD
+fvk
+hXi
+pNv
+pNv
+pNv
+oHZ
+iyU
+wfj
+eby
+wDF
+ouu
+iGq
+fet
+hHy
+fjZ
+cKQ
+dYT
+wDF
 qpM
 qpM
 qpM
@@ -41339,36 +46401,15 @@ qpM
 qpM
 qpM
 qpM
+dTA
+qtY
+qtY
+yeD
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+vEy
+qtY
+qtY
+uOJ
 qpM
 qpM
 qpM
@@ -41588,6 +46629,27 @@ qpM
 qpM
 qpM
 qpM
+tBR
+wDF
+wDF
+kgQ
+oib
+oib
+wDF
+nuT
+nuT
+jUj
+qho
+avT
+kGt
+cXI
+vtX
+csN
+oib
+xZl
+nlF
+pXQ
+wDF
 qpM
 qpM
 qpM
@@ -41596,36 +46658,15 @@ qpM
 qpM
 qpM
 qpM
+dTA
+fKV
+fKV
+yeD
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+vEy
+fKV
+fKV
+uOJ
 qpM
 qpM
 qpM
@@ -41845,6 +46886,27 @@ ygZ
 qpM
 qpM
 qpM
+edZ
+wDF
+eLn
+vSf
+gkH
+vPa
+oib
+bkY
+kPy
+pHP
+kGO
+oME
+wDF
+wDF
+wDF
+oib
+oib
+xxU
+nlF
+ind
+wDF
 qpM
 qpM
 qpM
@@ -41853,55 +46915,34 @@ qpM
 qpM
 qpM
 qpM
+dTA
+qtY
+qtY
+yeD
 qpM
-qpM
-kEk
-ykU
-ykU
-ykU
-ykU
-ykU
-ykU
-ykU
-ykU
-wxp
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+vEy
+qtY
+qtY
+uOJ
 qpM
 qpM
 qpM
 qpM
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+uZV
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+jAi
+mUi
+ezU
+ezU
+lHG
+pNI
 gMz
 gMz
 gMz
@@ -42102,6 +47143,27 @@ ovM
 qpM
 qpM
 qpM
+kYf
+wDF
+sZA
+wPu
+ciy
+xgf
+ePT
+mdQ
+gGw
+tvm
+tvm
+goO
+iyU
+rbW
+dsW
+xvH
+xvH
+sTd
+nlF
+dYT
+wDF
 qpM
 qpM
 qpM
@@ -42110,55 +47172,34 @@ qpM
 qpM
 qpM
 qpM
+dTA
+tOP
+tOP
+yeD
 qpM
-qpM
-nNU
-nid
-pwc
-kiW
-kiW
-kiW
-kiW
-vKj
-nid
-fYB
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+vEy
+pUE
+pUE
+uOJ
 qpM
 qpM
 qpM
 qpM
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+hcr
+bhI
+pZO
+kxa
+fKs
+kxa
+bhI
+fQi
+fQi
+fNw
+ezU
+mLh
+pNI
 gMz
 gMz
 gMz
@@ -42359,6 +47400,27 @@ ovM
 qpM
 qpM
 qpM
+wkK
+wDF
+wDF
+wDF
+pPG
+dLB
+mkN
+mdQ
+gGw
+uaa
+uaa
+goO
+ylt
+ppx
+jNt
+haj
+haj
+haj
+sif
+rpq
+wDF
 qpM
 qpM
 qpM
@@ -42367,55 +47429,34 @@ qpM
 qpM
 qpM
 qpM
+dTA
+qtY
+qtY
+yeD
 qpM
-qpM
-nNU
-wxO
-wHb
-hEf
-vPE
-vPE
-hEf
-sWP
-nid
-fYB
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+vEy
+qtY
+qtY
+uOJ
 qpM
 qpM
 qpM
 qpM
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+hcr
+evO
+evO
+evO
+evO
+evO
+evO
+evO
+evO
+pWX
+ezU
+tCj
+pNI
 gMz
 gMz
 gMz
@@ -42616,6 +47657,27 @@ ovM
 qpM
 qpM
 qpM
+lqL
+lqL
+thD
+wDF
+wDF
+wDF
+wDF
+wDF
+fgW
+tvm
+tvm
+goO
+dJo
+nfp
+wDF
+wDF
+wDF
+tCt
+vxP
+wDF
+wDF
 qpM
 qpM
 qpM
@@ -42624,55 +47686,34 @@ qpM
 qpM
 qpM
 qpM
+dTA
+fKV
+fKV
+yeD
 qpM
-qpM
-nNU
-nid
-lFL
-nLR
-njs
-wFa
-nLR
-tyl
-nid
-fYB
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+vEy
+fKV
+fKV
+uOJ
 qpM
 qpM
 qpM
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+ezU
+rWM
+fFC
+fFC
+ezU
+xOG
+evO
+evO
+evO
+evO
+pAn
+nDi
+aRO
 gMz
 gMz
 gMz
@@ -42873,6 +47914,25 @@ vss
 ygZ
 qpM
 qpM
+thD
+lqL
+dvP
+wDF
+mlt
+eIw
+pUE
+wDF
+gGw
+ciy
+ciy
+kjJ
+dJo
+ufr
+wDF
+qpM
+qpM
+qpM
+omv
 qpM
 qpM
 qpM
@@ -42883,53 +47943,34 @@ qpM
 qpM
 qpM
 qpM
-nNU
-nid
-pwc
-kiW
-kiW
-kiW
-kiW
-vKj
-nid
-fYB
+dTA
+qtY
+qtY
+yeD
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+vEy
+qtY
+qtY
+uOJ
 qpM
 qpM
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+sIk
+qGy
+ooJ
+bZP
+fFC
+pVO
+bbo
+kUe
+kUe
+cSO
+ezU
+ezU
+ezU
 gMz
 gMz
 gMz
@@ -43130,6 +48171,27 @@ cOQ
 ovM
 qpM
 qpM
+thD
+lqL
+dvP
+wDF
+iFt
+fdc
+qrg
+jBw
+gGw
+tvm
+tvm
+tmO
+cqB
+cRK
+wDF
+qpM
+pzc
+pzc
+wlK
+hQc
+hQc
 qpM
 qpM
 qpM
@@ -43138,55 +48200,34 @@ qpM
 qpM
 qpM
 qpM
+yji
+xrb
+xrb
+lvD
 qpM
-qpM
-nNU
-wxO
-wHb
-hEf
-vPE
-vPE
-hEf
-sWP
-nid
-fYB
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+ttk
+lOi
+lOi
+wvs
 qpM
 qpM
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+cRf
+gvs
+evO
+uPz
+nBF
+pVO
+oUt
+aHw
+aHw
+fqc
+oqU
+wvF
+mWl
 gMz
 gMz
 gMz
@@ -43387,27 +48428,27 @@ cOQ
 ovM
 qpM
 qpM
+thD
+lqL
+thD
+wDF
+qFl
+xuA
+oOG
+wDF
+gGw
+uaa
+uaa
+wQz
+iSQ
+gEw
+wDF
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-tyl
-nid
-lFL
-nLR
-njs
-wFa
-nLR
-tyl
-nid
-lFL
-qpM
+pzc
+pzc
+wlK
+qOW
+jjj
 qpM
 qpM
 qpM
@@ -43430,20 +48471,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ezU
+ezU
+ezU
+oQI
+kWG
+xRh
+pVO
+oUt
+bXy
+bXy
+fqc
+oqU
+wvF
+pbt
 gMz
 gMz
 gMz
@@ -43644,27 +48685,27 @@ cOQ
 ovM
 qpM
 qpM
+lqL
+fIy
+thD
+wDF
+wDF
+wDF
+wDF
+wDF
+wfP
+tvm
+tvm
+gSn
+dJo
+rSV
+wDF
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-nid
-nid
-nid
-nid
-nid
-nid
-nid
-nid
-nid
-nid
-qpM
+pzc
+pzc
+pzc
+qOW
+jjj
 qpM
 qpM
 qpM
@@ -43687,20 +48728,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+tot
+sRy
+ezU
+ezU
+ezU
+ezU
+ezU
+dCk
+aHw
+aHw
+fqc
+oqU
+iBW
+ezU
 gMz
 gMz
 gMz
@@ -43845,7 +48886,7 @@ xjf
 unh
 udS
 pWZ
-pjE
+gmM
 ycl
 pjE
 udS
@@ -43901,27 +48942,27 @@ cOQ
 ovM
 qpM
 qpM
+gbl
+gKI
+gKI
+wDF
+jgh
+xuA
+uYe
+wDF
+oLm
+nZE
+iWw
+cGe
+aOl
+eOx
+wDF
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-aaW
-aaW
-aaW
-vKj
-nid
-nid
-nid
-nid
-nid
-nid
-qpM
+pzc
+pzc
+gxy
+ciy
+ciy
 qpM
 qpM
 qpM
@@ -43944,20 +48985,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+tot
+mtD
+ezU
+xFB
+bNU
+hcr
+ezU
+oUt
+hcr
+hcr
+sil
+nik
+qkQ
+ezU
 gMz
 gMz
 gMz
@@ -44102,12 +49143,12 @@ xjf
 slL
 udS
 qCG
-qCG
-pjE
+saR
+fNq
 pjE
 udS
-pzy
-qJR
+cRg
+oBr
 udS
 qpM
 pzc
@@ -44158,27 +49199,27 @@ qpM
 ovM
 qpM
 qpM
+wlK
+wlK
+wlK
+wDF
+xmM
+tov
+jot
+jBw
+mbL
+psR
+wmi
+wDF
+wDF
+wDF
+wDF
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+pzc
+pzc
+gxy
+bkY
+bkY
 qpM
 qpM
 qpM
@@ -44201,20 +49242,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+tot
+mtD
+ezU
+wwz
+gfs
+une
+sSl
+oUt
+aHw
+aHw
+qLY
+bKT
+aio
+ezU
 gMz
 gMz
 gMz
@@ -44359,12 +49400,12 @@ xjf
 tGB
 udS
 pWZ
-pjE
-pjE
+gmM
+fNq
 pjE
 udS
-pzy
-pzy
+gmM
+sGx
 udS
 qpM
 pzc
@@ -44415,27 +49456,27 @@ qpM
 qbl
 qpM
 qpM
+xZl
+xZl
+xZl
+wDF
+mlt
+sVR
+pUE
+wDF
+cRl
+ePl
+jlh
+wDF
 qpM
 qpM
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+pzc
+pzc
+pzc
+pzc
+pzc
 qpM
 qpM
 qpM
@@ -44458,20 +49499,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+tot
+sRy
+ezU
+oOW
+kOo
+enn
+ezU
+oUt
+bXy
+bXy
+qLY
+mwk
+mma
+ezU
 gMz
 gMz
 gMz
@@ -44616,12 +49657,12 @@ xjf
 tGB
 udS
 qCG
-qCG
-pjE
+saR
+fNq
 pjE
 ofv
-pzy
-pzy
+gmM
+sGx
 udS
 qpM
 pzc
@@ -44672,18 +49713,18 @@ oaS
 xiY
 qpM
 qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+xZl
+xZl
+xZl
+wDF
+wDF
+wDF
+wDF
+wDF
+wDF
+wDF
+wDF
+wDF
 qpM
 qpM
 qpM
@@ -44715,20 +49756,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+rmL
+sRy
+ezU
+ezU
+ezU
+ezU
+ezU
+onp
+aHw
+aHw
+cuq
+gAd
+jeS
+ezU
 gMz
 gMz
 gMz
@@ -44873,12 +49914,12 @@ mZz
 fJq
 udS
 pWZ
-pjE
+gmM
 cJy
 pjE
 udS
-pzy
-pzy
+gmM
+aMa
 udS
 qpM
 pzc
@@ -44972,20 +50013,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+ake
+ake
+ezU
+ejZ
+kOo
+cef
+ezU
+oju
+cfP
+cfP
+uBf
+oJD
+bfn
+ezU
 gMz
 gMz
 gMz
@@ -45134,8 +50175,8 @@ udS
 udS
 udS
 udS
-pzy
-pzy
+gmM
+sGx
 udS
 qpM
 pzc
@@ -45229,20 +50270,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+cwj
+cwj
+ezU
+jWY
+gFl
+mCM
+sSl
+cJH
+cBl
+xHX
+ezU
+ezU
+ezU
+ezU
 gMz
 gMz
 gMz
@@ -45389,16 +50430,16 @@ udS
 cRp
 cRp
 pzy
-pzy
-pzy
-pzy
-pzy
+ifc
+gmM
+gmM
+aMa
 udS
 qpM
 qpM
 qpM
 qpM
-qpM
+omv
 qpM
 qpM
 qpM
@@ -45486,20 +50527,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+eoR
+eoR
+ezU
+xFB
+cEF
+hcr
+ezU
+itC
+uVI
+aMg
+ezU
+dgt
+dgt
+dgt
 gMz
 gMz
 gMz
@@ -45639,16 +50680,16 @@ dek
 tGB
 udS
 fCU
-sGx
+vus
 biR
 ifh
 udS
 cRp
 cRp
 dUF
-pzy
-pzy
-pzy
+ifc
+gmM
+gmM
 qJR
 udS
 udS
@@ -45743,20 +50784,20 @@ gMz
 gMz
 gMz
 gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
-gMz
+eoR
+eoR
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+ezU
+dgt
+dgt
+dgt
 gMz
 gMz
 gMz
@@ -45896,23 +50937,23 @@ dek
 tGB
 udS
 jnM
-tvm
+vus
 goy
 jAC
 udS
 udS
 udS
-pzy
-jOS
-jOS
-jOS
-jOS
-jOS
+mxM
+iDr
+qLL
+nHa
+nHa
+nHa
 lEM
-jOS
-jOS
-jOS
-jOS
+nHa
+nHa
+nHa
+ufh
 hhf
 udS
 qpM
@@ -46159,18 +51200,18 @@ qPW
 udS
 cRp
 cRp
-pzy
-jOS
-jOS
-jOS
-jOS
-jOS
+gmM
+gmM
+baq
+lsU
+eXI
+eXI
 kSP
-jOS
-jOS
-jOS
-jOS
-tnx
+pYT
+eXI
+vxQ
+tVb
+vqZ
 udS
 qpM
 aqk
@@ -46413,20 +51454,20 @@ dru
 vus
 vbp
 kmb
-ofv
+lqM
 ucL
 ucL
-pzy
-jOS
-jOS
-pzy
+gmM
+gmM
+baq
+niX
 udS
 udS
 udS
 ffV
 ffV
 jXf
-jOS
+tVb
 tnx
 udS
 qpM
@@ -46671,19 +51712,19 @@ vus
 ifc
 dOu
 udS
-pzy
+abe
 rKl
-pzy
+abe
+gmM
+baq
 jOS
-jOS
-pzy
-ety
+ofv
 oFk
 uAP
 tgC
 ffV
 jOS
-jOS
+qtH
 qUB
 udS
 qpM
@@ -46931,7 +51972,7 @@ udS
 udS
 udS
 udS
-jOS
+dNV
 fFl
 udS
 udS
@@ -46939,9 +51980,9 @@ mBl
 asC
 iaF
 kEH
-jOS
-jOS
-tnx
+kmU
+qtH
+vqZ
 udS
 qpM
 aqk
@@ -47181,24 +52222,24 @@ dek
 oSL
 cWk
 udS
-gmM
+abe
+qMX
+fIA
+kTS
+tUR
+kTS
 twt
-gmM
-gmM
-gmM
-gmM
-twt
-gmM
-gmM
-gmM
+hNt
+nmG
+xTP
 udS
 rtQ
 asC
-jOS
+isb
 aIM
-jOS
-jOS
-tnx
+kmU
+qtH
+hiC
 udS
 qpM
 aqk
@@ -47262,16 +52303,16 @@ foj
 foj
 foj
 hOA
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+kEk
+ykU
+ykU
+ykU
+ykU
+ykU
+ykU
+ykU
+ykU
+wxp
 qpM
 qpM
 qpM
@@ -47438,23 +52479,23 @@ dek
 lwD
 giZ
 udS
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
+abe
+xnG
+kOi
+lHP
+lHP
+lHP
+lEA
+guf
+sQh
+ung
 udS
 kja
 asC
 iaF
 teE
-jOS
-jOS
+kmU
+qtH
 tnx
 udS
 qpM
@@ -47519,16 +52560,16 @@ foj
 foj
 foj
 hOA
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+nNU
+nid
+pwc
+kiW
+kiW
+kiW
+kiW
+vKj
+nid
+fYB
 qpM
 qpM
 qpM
@@ -47700,18 +52741,18 @@ tPi
 ffV
 ffV
 udS
-gmM
-gmM
-gmM
-gmM
-gmM
-ety
+ufc
+oAx
+aUF
+qVQ
+wVa
+ofv
 oFk
 akF
 tgC
 ffV
 jOS
-jOS
+tVb
 qUB
 udS
 qpM
@@ -47776,16 +52817,16 @@ foj
 foj
 foj
 hOA
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+nNU
+wxO
+wHb
+hEf
+vPE
+vPE
+hEf
+sWP
+nid
+fYB
 qpM
 qpM
 qpM
@@ -47953,23 +52994,23 @@ lIE
 rak
 udS
 gtR
-gmM
-gmM
+vEs
+mYO
 vTQ
 ffV
-gmM
-gmM
-gmM
-gmM
-gmM
+baq
+gjy
+kGe
+nLO
+oHb
 udS
 udS
 udS
 ffV
 ffV
 jXf
-jOS
-tnx
+tVb
+vqZ
 udS
 qpM
 aqk
@@ -48033,16 +53074,16 @@ foj
 foj
 foj
 hOA
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+nNU
+nid
+lFL
+nLR
+njs
+wFa
+nLR
+tyl
+nid
+fYB
 qpM
 qpM
 qpM
@@ -48212,20 +53253,20 @@ udS
 lHW
 rES
 gmM
-gmM
+kRF
 lxd
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-lEM
-jOS
-jOS
-jOS
-jOS
+baq
+pmn
+kTS
+kTS
+lFi
+guf
+hzc
+bVl
+eyI
+eyI
+gvJ
+tVb
 tnx
 udS
 qpM
@@ -48290,16 +53331,16 @@ foj
 foj
 foj
 hOA
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+nNU
+nid
+pwc
+kiW
+kiW
+kiW
+kiW
+vKj
+nid
+fYB
 qpM
 qpM
 qpM
@@ -48471,18 +53512,18 @@ udS
 sAC
 nyw
 tjv
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-kSP
-jOS
-jOS
-jOS
-jOS
+baq
+pmn
+tUR
+tUR
+lFi
+lfs
+stf
+vVu
+wxz
+wxz
+wxz
+faB
 eLy
 udS
 qpM
@@ -48547,16 +53588,16 @@ foj
 foj
 foj
 hOA
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+nNU
+wxO
+wHb
+hEf
+vPE
+vPE
+hEf
+sWP
+nid
+fYB
 qpM
 qpM
 qpM
@@ -48729,11 +53770,11 @@ udS
 udS
 udS
 udS
-fJK
-gmM
-gmM
-gmM
-gmM
+kvq
+kTS
+kTS
+lFi
+ety
 eLu
 udS
 udS
@@ -48804,16 +53845,16 @@ foj
 foj
 foj
 hOA
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+tyl
+nid
+lFL
+nLR
+njs
+wFa
+nLR
+tyl
+nid
+lFL
 qpM
 qpM
 qpM
@@ -48982,21 +54023,21 @@ mqc
 rPh
 oVu
 udS
-tUR
-gmM
-gmM
+qlL
+wuR
+abe
 udS
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
+pmn
+aei
+aei
+vhV
+ety
+tvE
 udS
 qpM
 qpM
 qpM
-qpM
+omv
 qpM
 qpM
 qpM
@@ -49061,16 +54102,16 @@ foj
 foj
 foj
 hOA
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+nid
+nid
+nid
+nid
+nid
+nid
+nid
+nid
+nid
+nid
 qpM
 qpM
 qpM
@@ -49240,22 +54281,22 @@ rPh
 oVu
 udS
 rlB
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
+ouz
+vdm
+xcQ
+pmn
+kTS
+kTS
+sCn
+qlk
+cwZ
 udS
 qpM
-oUt
-lHP
 pzc
-qOW
-jjj
+pzc
+wlK
+hQc
+hQc
 qpM
 aqk
 cQD
@@ -49318,16 +54359,16 @@ foj
 foj
 foj
 hOA
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
-qpM
+aaW
+aaW
+aaW
+vKj
+nid
+nid
+nid
+nid
+nid
+nid
 qpM
 qpM
 qpM
@@ -49500,17 +54541,17 @@ tiN
 aCr
 lcM
 udS
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
+pmn
+tUR
+tUR
+mEH
+qty
+sCB
 udS
-ezU
-evO
+qpM
 pzc
 pzc
+wlK
 qOW
 jjj
 qpM
@@ -49757,19 +54798,19 @@ udS
 udS
 udS
 udS
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
+wpf
+kTS
+kTS
+uBj
+ety
+pQm
 udS
 qpM
-pVO
 pzc
 pzc
-ciy
-ciy
+pzc
+qOW
+jjj
 qpM
 aqk
 cQD
@@ -50015,18 +55056,18 @@ aCr
 umE
 udS
 fJK
-gmM
-gmM
-gmM
-gmM
-eLu
+eiH
+tfk
+gJV
+qGE
+pin
 udS
 qpM
 pzc
 pzc
-pzc
-pzc
-pzc
+gxy
+ciy
+ciy
 qpM
 aqk
 cQD
@@ -50267,23 +55308,23 @@ dLy
 dLy
 dLy
 udS
-rlB
-gmM
-gmM
-gmM
-gmM
-gmM
-gmM
+wsy
+mka
+stf
+xcQ
+dKE
+mwJ
+iGI
 udS
 udS
 udS
 udS
 qpM
-oib
 pzc
 pzc
-pzc
-pzc
+gxy
+bkY
+bkY
 qpM
 aqk
 cQD
@@ -50524,19 +55565,19 @@ tka
 tka
 tka
 udS
-tUR
-gmM
-gmM
+qlL
+pPm
+abe
 udS
-xMn
-xMn
+wBO
+cKt
 xMn
 udS
 qpM
 qpM
 qpM
 qpM
-qtH
+pzc
 pzc
 pzc
 pzc

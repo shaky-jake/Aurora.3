@@ -74,7 +74,7 @@
 /area/new_blades/mudki/interiors/hospital
 	name = "Hospital"
 	area_blurb = "Hospital Placeholder"
-	// requires_power = TRUE
+	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 
 /area/new_blades/mudki/interiors/bar
