@@ -133,6 +133,41 @@
 	name = "Water Treatment Plant - Disinfection"
 	area_blurb = "Placeholder"
 
+/area/turbolift/mudki_hospital_lift
+	name = "Mudki Hospital Lift"
+	requires_power = TRUE
+	station_area = FALSE
+
+// Hospital Lift
+/datum/shuttle/autodock/multi/lift/mudki_hospital
+	name = "Mudki Hospital Lift"
+	current_location = "nav_mudki_hospital_upper"
+	shuttle_area = /area/turbolift/mudki_hospital_lift
+	destination_tags = list(
+		"nav_mudki_hospital_lower",
+		"nav_mudki_hospital_upper",
+		)
+
+/obj/effect/shuttle_landmark/lift/mudki_hospital_upper
+	name = "Mudki Hospital Lift - Upper"
+	landmark_tag = "nav_mudki_hospital_upper"
+	base_area = /area/new_blades/mudki/interiors/hospital
+	base_turf = /turf/simulated/open
+
+/obj/effect/shuttle_landmark/lift/mudki_hospital_lower
+	name = "Mudki Hospital Lift - Lower"
+	landmark_tag = "nav_mudki_hospital_lower"
+	base_area = /area/new_blades/mudki/interiors/hospital
+	base_turf = /turf/simulated/floor/plating
+
+/obj/machinery/computer/shuttle_control/multi/lift/mudki_hospital
+	shuttle_tag = "Mudki Hospital Lift"
+
+/obj/machinery/computer/shuttle_control/multi/lift/wall/mudki_hospital
+	shuttle_tag = "Mudki Hospital Lift"
+
+
+
 // EVENT THREE AREAS
 /area/new_blades/underground/aquifer
 	name = "Aquifer"

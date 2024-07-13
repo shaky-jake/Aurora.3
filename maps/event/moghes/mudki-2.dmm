@@ -95,7 +95,7 @@
 /obj/effect/decal/curb{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -713,6 +713,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"dO" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/yellow{
+	dir = 1
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "dR" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -1162,6 +1176,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"gU" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/landmark/corpse/villager,
+/turf/simulated/floor/marble/dark,
+/area/new_blades/mudki/interiors/hospital)
 "gW" = (
 /obj/effect/floor_decal/industrial/outline_door{
 	color = "#8daf6a"
@@ -2180,9 +2201,9 @@
 	},
 /area/new_blades/mudki/interiors/water_treatment)
 "lS" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/structure/lattice/catwalk/indoor/grate/damaged,
+/obj/item/stack/cable_coil{
+	amount = 1
 	},
 /turf/simulated/floor/plating{
 	temperature = 315.15
@@ -2714,7 +2735,7 @@
 /obj/effect/decal/curb{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -2781,7 +2802,7 @@
 /obj/effect/decal/curb{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -4280,6 +4301,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"wl" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/landmark/corpse/villager,
+/turf/simulated/floor/marble/dark,
+/area/new_blades/mudki/interiors/hospital)
 "wn" = (
 /obj/structure/table/stone/marble,
 /obj/item/reagent_containers/spray/cleaner{
@@ -4289,15 +4317,19 @@
 	pixel_y = 8;
 	pixel_x = -8
 	},
-/obj/item/storage/box/masks{
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/item/storage/box{
+	name = "box of surgical masks";
+	desc = "This box contains masks of surgicality. Hopefully";
 	pixel_x = 8;
 	pixel_y = 8
 	},
-/obj/item/storage/box/gloves{
+/obj/item/storage/box{
+	name = "box of sterile gloves";
+	desc = "Contains sterile gloves. Hopefully";
 	pixel_y = 2
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 5
 	},
 /turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
@@ -5374,7 +5406,7 @@
 /obj/effect/decal/curb{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -5827,7 +5859,7 @@
 /obj/effect/decal/curb{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -5978,7 +6010,7 @@
 /obj/effect/decal/curb{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/white{
+/turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
@@ -6444,6 +6476,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"HY" = (
+/obj/effect/shuttle_landmark/lift/mudki_hospital_lower,
+/turf/simulated/floor/plating{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "Ib" = (
 /obj/machinery/light/colored/decayed{
 	dir = 8
@@ -8042,6 +8080,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment/UV_room)
+"PU" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/effect/decal/remains/rat,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "PV" = (
 /obj/structure/morgue{
 	dir = 8
@@ -9049,10 +9099,7 @@
 	name = "radioactive material crate"
 	},
 /obj/item/stack/material/graphite{
-	amount = 25
-	},
-/obj/item/stack/material/graphite{
-	amount = 25
+	amount = 15
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/full{
@@ -9064,6 +9111,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"UX" = (
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/machinery/computer/shuttle_control/multi/lift/wall/mudki_hospital{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "UY" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -9142,6 +9203,9 @@
 	dir = 1;
 	pixel_y = 8;
 	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/industrial/outline_door/yellow{
+	dir = 1
 	},
 /turf/simulated/floor/tiled{
 	temperature = 315.15
@@ -9621,9 +9685,13 @@
 	pixel_y = 6;
 	pixel_x = -7
 	},
-/obj/item/storage/box/syringes{
-	pixel_x = 6;
-	pixel_y = 12
+/obj/item/storage/box{
+	item_state = "secbox";
+	icon_state = "secbox";
+	desc = "A box full of syringes. Hopefully.";
+	name = "box of syringes";
+	pixel_y = 12;
+	pixel_x = 6
 	},
 /obj/item/device/healthanalyzer,
 /turf/simulated/floor/sidewalk/dark{
@@ -9755,7 +9823,7 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable,
 /obj/machinery/power/apc/south{
-	start_charge = 75
+	start_charge = 100
 	},
 /turf/simulated/floor/plating{
 	temperature = 315.15
@@ -15906,7 +15974,7 @@ aw
 or
 tC
 MM
-MM
+wl
 MM
 tC
 zC
@@ -15915,9 +15983,9 @@ UF
 zC
 tC
 MM
+wl
 MM
-MM
-MM
+wl
 or
 aw
 aw
@@ -16162,7 +16230,7 @@ aw
 aw
 or
 ke
-ke
+gU
 ss
 ss
 ke
@@ -17449,17 +17517,17 @@ or
 MM
 tC
 tC
-MM
+wl
 MM
 zC
 Ys
 UF
 zC
-MM
+wl
 MM
 MM
 tC
-MM
+wl
 or
 aw
 aw
@@ -17703,10 +17771,10 @@ aw
 aw
 aw
 or
+gU
 ke
 ke
-ke
-ke
+gU
 ss
 zC
 Ys
@@ -18742,7 +18810,7 @@ yF
 jQ
 or
 jJ
-hw
+PU
 hw
 or
 aw
@@ -18992,7 +19060,7 @@ or
 or
 or
 or
-RF
+UX
 av
 Cj
 EW
@@ -19247,9 +19315,9 @@ Oo
 uB
 KI
 or
+HY
 uq
-uq
-RF
+dO
 oF
 oQ
 Fz
