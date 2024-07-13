@@ -77,6 +77,11 @@
 	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 
+/area/new_blades/mudki/interiors/inn
+	name = "Inn"
+	area_blurb = "Inn Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
 /area/new_blades/mudki/interiors/bar
 	name = "Bar"
 	area_blurb = "Bar Placeholder"
