@@ -83,7 +83,7 @@
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/temple
-	name = "Temple"
+	name = "Temple of Sk'akh"
 	area_blurb = "Temple Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
