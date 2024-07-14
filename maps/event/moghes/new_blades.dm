@@ -77,6 +77,16 @@
 	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 
+/area/new_blades/mudki/interiors/guildhouse
+	name = "Merchant's Guildhouse"
+	area_blurb = "Guildhouse Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
+/area/new_blades/mudki/interiors/temple
+	name = "Temple"
+	area_blurb = "Temple Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
 /area/new_blades/mudki/interiors/inn
 	name = "Inn"
 	area_blurb = "Inn Placeholder"
@@ -101,6 +111,11 @@
 	name = "Convenience Store"
 	area_blurb = "Convenience Store Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
+/area/new_blades/mudki/interiors/charging_station
+	name = "Vehicle Charging Station"
+	area_blurb = "Vehicle Charging Station Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
 
 /area/new_blades/mudki/interiors/abandoned_shop
 	name = "Abandoned Shop"
@@ -143,6 +158,11 @@
 	requires_power = TRUE
 	station_area = FALSE
 
+/area/turbolift/guildhouse_lift
+	name = "Abandoned Guildhouse Lift"
+	requires_power = TRUE
+	station_area = FALSE
+
 // Hospital Lift
 /datum/shuttle/autodock/multi/lift/mudki_hospital
 	name = "Mudki Hospital Lift"
@@ -171,7 +191,33 @@
 /obj/machinery/computer/shuttle_control/multi/lift/wall/mudki_hospital
 	shuttle_tag = "Mudki Hospital Lift"
 
+// Abandoned Guildhouse Lift
+/datum/shuttle/autodock/multi/lift/guildhouse
+	name = "Abandoned Guildhouse Lift"
+	current_location = "nav_guildhouse_upper"
+	shuttle_area = /area/turbolift/guildhouse_lift
+	destination_tags = list(
+		"nav_guildhouse_lower",
+		"nav_guildhouse_upper",
+		)
 
+/obj/effect/shuttle_landmark/lift/guildhouse_upper
+	name = "Abandoned Guildhouse Lift - Upper"
+	landmark_tag = "nav_guildhouse_upper"
+	base_area = /area/new_blades/mudki/interiors/guildhouse
+	base_turf = /turf/simulated/open
+
+/obj/effect/shuttle_landmark/lift/guildhouse_lower
+	name = "Abandoned Guildhouse Lift - Lower"
+	landmark_tag = "nav_guildhouse_lower"
+	base_area = /area/new_blades/mudki/interiors/guildhouse
+	base_turf = /turf/simulated/floor/plating
+
+/obj/machinery/computer/shuttle_control/multi/lift/guildhouse
+	shuttle_tag = "Abandoned Guildhouse Lift"
+
+/obj/machinery/computer/shuttle_control/multi/lift/wall/guildhouse
+	shuttle_tag = "Abandoned Guildhouse Lift"
 
 // EVENT THREE AREAS
 /area/new_blades/underground/aquifer

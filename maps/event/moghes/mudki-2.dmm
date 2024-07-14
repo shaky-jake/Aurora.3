@@ -54,6 +54,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"ae" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/safe/cash,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "af" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -588,6 +600,34 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"cO" = (
+/obj/machinery/porta_turret/ballistic{
+	icon_state = "cover_1";
+	cover_set = 1;
+	light_power = 0;
+	light_range = 0
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#aa5f61"
+	},
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
+"cS" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "cY" = (
 /obj/structure/flora/pottedplant/tall{
 	pixel_y = 8
@@ -824,6 +864,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"el" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "eq" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 22
@@ -936,6 +987,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"eX" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "ff" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -944,6 +1003,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"fh" = (
+/obj/machinery/computer/shuttle_control/multi/lift/wall/guildhouse{
+	pixel_y = 32
+	},
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "fn" = (
 /obj/random/dirt_75,
 /obj/item/stack/rods{
@@ -1097,6 +1170,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment/UV_room)
+"fX" = (
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "guildhouse_vault_outer"
+	},
+/turf/simulated/floor/tiled/light/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "gd" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
@@ -1301,6 +1387,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"ho" = (
+/obj/machinery/porta_turret/ballistic{
+	icon_state = "cover_1";
+	cover_set = 1;
+	light_power = 0;
+	light_range = 0
+	},
+/obj/effect/floor_decal/industrial/hatch{
+	color = "#aa5f61"
+	},
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "hp" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/barricade/plasteel,
@@ -1517,6 +1620,9 @@
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 6
+	},
+/obj/structure/stairs/urban/road_ramp/left{
+	icon_state = "road-ramp-left"
 	},
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
@@ -1763,16 +1869,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
-"jq" = (
-/obj/effect/decal/curb,
-/obj/effect/decal/curb{
-	dir = 1
-	},
-/obj/effect/map_effect/particle_emitter/bar_smoke,
-/turf/simulated/floor/lino{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/bar)
 "jr" = (
 /obj/effect/floor_decal/concrete,
 /obj/effect/decal/curb{
@@ -2025,6 +2121,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"ks" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "kA" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
@@ -2341,6 +2449,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"lV" = (
+/obj/structure/safe,
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "lZ" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -2602,6 +2725,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"mW" = (
+/turf/simulated/floor/plating{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "mY" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -2864,6 +2992,18 @@
 "or" = (
 /turf/simulated/wall/concrete,
 /area/new_blades/mudki/interiors/hospital)
+"ot" = (
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "ov" = (
 /obj/structure/stairs/south,
 /obj/structure/stairs_railing{
@@ -3186,10 +3326,19 @@
 	},
 /area/new_blades/mudki/interiors/hospital)
 "pQ" = (
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_x = -22;
+	id = "guildhouse_vault_outer";
+	dir = 8;
+	name = "Blast Doors"
+	},
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades/underground)
+/area/new_blades/mudki/interiors/guildhouse)
 "pR" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 4
@@ -3319,10 +3468,16 @@
 /area/new_blades/mudki/interiors/hospital)
 "qp" = (
 /obj/structure/safe,
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
-/area/new_blades/underground)
+/area/new_blades/mudki/interiors/guildhouse)
 "qq" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -3346,6 +3501,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"qy" = (
+/obj/structure/safe,
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "qH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -3423,6 +3593,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"qZ" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "ra" = (
 /obj/machinery/portable_atmospherics/canister/oxygen{
 	start_pressure = 101.35
@@ -3536,6 +3714,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"rA" = (
+/obj/effect/floor_decal/industrial/outline{
+	color = "#b19664"
+	},
+/obj/structure/largecrate,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "rC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -3822,6 +4009,15 @@
 /obj/machinery/light/colored/decayed,
 /turf/simulated/floor/tiled/white,
 /area/new_blades/mudki/interiors/restaurant)
+"ta" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "tc" = (
 /obj/machinery/light/colored/decayed{
 	dir = 8
@@ -4570,6 +4766,18 @@
 	},
 /turf/simulated/floor/tiled/light,
 /area/new_blades/mudki/interiors/restaurant)
+"wv" = (
+/obj/effect/floor_decal/industrial/outline_corner{
+	color = "#aa5f61";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door{
+	color = "#b19664"
+	},
+/turf/simulated/floor/tiled{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "wy" = (
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/ridged{
@@ -4656,6 +4864,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"wX" = (
+/obj/machinery/light/colored/decayed{
+	dir = 8
+	},
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "xe" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
@@ -5076,6 +5296,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"yW" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/safe/highvalue,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "zd" = (
 /obj/effect/floor_decal/corner_full{
 	color = "#808080";
@@ -5206,6 +5438,20 @@
 "zC" = (
 /turf/simulated/floor/tiled/light/full,
 /area/new_blades/mudki/interiors/hospital)
+"zH" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_x = -22;
+	id = "guildhouse_vault_inner";
+	dir = 8;
+	name = "Blast Doors"
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "zI" = (
 /obj/machinery/light/colored/decayed{
 	dir = 8
@@ -5324,6 +5570,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Ax" = (
+/obj/effect/floor_decal/industrial/outline{
+	color = "#b19664"
+	},
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "AB" = (
 /obj/random/junk,
 /obj/machinery/conveyor{
@@ -5494,6 +5748,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Bp" = (
+/obj/structure/railing/mapped{
+	dir = 1;
+	pixel_y = 9;
+	name = "adjusted railing"
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Bq" = (
 /obj/effect/map_effect/window_spawner/full/reinforced{
 	frame_color = "#676661";
@@ -5713,6 +5980,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Cp" = (
+/obj/effect/floor_decal/industrial/outline{
+	color = "#b19664"
+	},
+/obj/structure/closet/crate,
+/turf/simulated/floor/tiled/gridded{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Cr" = (
 /obj/structure/stairs/north,
 /turf/simulated/floor/concrete{
@@ -5939,6 +6215,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"Ds" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Dt" = (
 /obj/structure/structural_support,
 /obj/structure/structural_support/side,
@@ -5949,6 +6233,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment/UV_room)
+"Du" = (
+/obj/effect/shuttle_landmark/lift/guildhouse_lower,
+/turf/simulated/floor/plating{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Dw" = (
 /obj/effect/floor_decal/industrial/outline_door{
 	color = "#6a97b0"
@@ -6205,6 +6495,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Fd" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Ff" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
@@ -6653,6 +6954,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/structure/stairs/urban/road_ramp/left{
+	icon_state = "road-ramp-left-top"
+	},
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -6805,6 +7109,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"HS" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "HT" = (
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
 /obj/effect/floor_decal/industrial/outline_corner/grey{
@@ -7400,10 +7713,18 @@
 	},
 /area/new_blades/mudki/interiors/water_treatment)
 "Kv" = (
-/turf/simulated/floor/concrete{
+/obj/effect/floor_decal/industrial/hatch_door{
+	color = "#b19664";
+	dir = 4
+	},
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "guildhouse_vault_inner"
+	},
+/turf/simulated/floor/tiled/light/full{
 	temperature = 315.15
 	},
-/area/new_blades/underground)
+/area/new_blades/mudki/interiors/guildhouse)
 "KD" = (
 /obj/machinery/recharge_station,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -7815,6 +8136,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"My" = (
+/obj/machinery/light/colored/decayed{
+	dir = 4
+	},
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "MA" = (
 /obj/machinery/light/floor{
 	randomize_color = 0;
@@ -7851,6 +8184,14 @@
 	},
 /turf/simulated/floor/marble/dark,
 /area/new_blades/mudki/interiors/hospital)
+"MR" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "MZ" = (
 /obj/structure/platform_deco{
 	dir = 8
@@ -8006,6 +8347,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"NB" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "NC" = (
 /obj/machinery/radiocarbon_spectrometer,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -8381,6 +8733,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"Po" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/machinery/turretid/lethal{
+	pixel_x = 32
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Pt" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -8641,6 +9004,21 @@
 	},
 /turf/simulated/floor/tiled/light/full,
 /area/new_blades/mudki/interiors/hospital)
+"Qv" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_x = -22;
+	id = "guildhouse_vault_outer";
+	dir = 8;
+	name = "Blast Doors";
+	pixel_y = 9
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Qx" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -8704,7 +9082,7 @@
 /area/new_blades/mudki/interiors/water_treatment)
 "QJ" = (
 /turf/simulated/wall/sandstone,
-/area/new_blades/underground)
+/area/new_blades/mudki/interiors/guildhouse)
 "QK" = (
 /obj/structure/cryofeed{
 	pixel_x = -2;
@@ -8836,6 +9214,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Ry" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Rz" = (
 /obj/effect/decal/curb,
 /obj/structure/table/wood,
@@ -8856,6 +9242,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"RB" = (
+/obj/structure/safe,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "RE" = (
 /obj/effect/floor_decal/industrial/outline_corner/grey,
 /obj/effect/floor_decal/industrial/outline_segment{
@@ -9055,6 +9453,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"Sy" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "SH" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Aeration Tank Access"
@@ -9738,6 +10144,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"Vn" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/machinery/button/remote/blast_door{
+	pixel_x = -22;
+	id = "guildhouse_vault_inner";
+	dir = 8;
+	name = "Blast Doors";
+	pixel_y = 9
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Vp" = (
 /obj/machinery/light/small/emergency{
 	dir = 8
@@ -10154,6 +10575,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"Xk" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Xm" = (
 /obj/structure/grille,
 /obj/structure/lattice/catwalk/indoor/urban,
@@ -10565,6 +10995,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"Zl" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/guildhouse)
 "Zn" = (
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/techfloor{
@@ -21689,16 +22127,16 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
 aw
 aw
 aw
@@ -21946,16 +22384,16 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+Ax
+Ax
+wX
+Ax
+Cp
+ks
+Ax
+Ax
+QJ
 aw
 aw
 aw
@@ -22203,24 +22641,24 @@ aw
 aw
 aw
 aw
+QJ
+Cp
+Ax
+Xk
+Ax
+Ax
+ta
+Ax
+rA
+QJ
+QJ
+QJ
+QJ
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+QJ
+QJ
+QJ
 aw
 aw
 aw
@@ -22463,22 +22901,22 @@ aw
 QJ
 QJ
 QJ
+fh
+el
+el
+cS
 QJ
 QJ
 QJ
+wv
+ho
 QJ
 QJ
 QJ
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+yW
+qy
+QJ
+QJ
 aw
 aw
 aw
@@ -22718,24 +23156,24 @@ aw
 aw
 aw
 QJ
+Du
+mW
+Ry
+Ry
+Ry
+Ry
+pQ
+fX
+Qv
+qZ
+qZ
+zH
 Kv
-Kv
-pQ
-pQ
-pQ
-pQ
-pQ
+Vn
+qZ
+MR
+RB
 QJ
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
 aw
 aw
 aw
@@ -22975,24 +23413,24 @@ aw
 aw
 aw
 QJ
+mW
+mW
+Bp
+Ds
+Ds
+Ds
+Ds
+fX
+Zl
+Sy
+Sy
+eX
 Kv
-Kv
-pQ
-qp
-qp
-pQ
-pQ
+Po
+Sy
+eX
+ae
 QJ
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
 aw
 aw
 aw
@@ -23232,24 +23670,24 @@ aw
 aw
 aw
 QJ
-pQ
-pQ
-pQ
-qp
-qp
-pQ
-pQ
 QJ
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+Fd
+NB
+NB
+HS
+QJ
+QJ
+QJ
+wv
+cO
+QJ
+QJ
+QJ
+qp
+lV
+QJ
+QJ
 aw
 aw
 aw
@@ -23489,23 +23927,23 @@ aw
 aw
 aw
 QJ
-pQ
-pQ
-pQ
-pQ
-pQ
-pQ
-pQ
+Ax
+rA
+Xk
+Ax
+Ax
+ta
+Ax
+Cp
+QJ
+QJ
+QJ
 QJ
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+QJ
+QJ
+QJ
 aw
 aw
 aw
@@ -23746,15 +24184,15 @@ aw
 aw
 aw
 QJ
+Ax
+Ax
+My
+Cp
+Ax
+ot
+Ax
+Ax
 QJ
-QJ
-QJ
-QJ
-QJ
-QJ
-QJ
-QJ
-aw
 aw
 aw
 aw
@@ -24002,16 +24440,16 @@ aw
 aw
 aw
 aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
-aw
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
+QJ
 aw
 aw
 aw
@@ -46341,7 +46779,7 @@ Ul
 of
 Dr
 PO
-jq
+SK
 cb
 Hg
 ik
