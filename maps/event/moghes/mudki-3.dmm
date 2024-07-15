@@ -264,6 +264,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"afv" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "afB" = (
 /obj/structure/table/reinforced/wood,
 /obj/structure/lattice/catwalk/indoor/urban,
@@ -350,6 +363,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -714,6 +729,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"anL" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "aog" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -930,13 +955,14 @@
 	},
 /area/new_blades/mudki/interiors/pawn)
 "arQ" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -1071,6 +1097,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"auo" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "aux" = (
 /obj/random/dirt_75,
 /obj/effect/decal/curb{
@@ -1166,13 +1204,17 @@
 	},
 /area/new_blades)
 "awC" = (
-/obj/structure/bed/stool/chair/office/dark,
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -1463,6 +1505,8 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
+/obj/structure/bed/stool/chair/wood,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -1509,6 +1553,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors)
+"aCO" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/item/stack/material/sandstone{
+	pixel_y = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "aCR" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -1933,6 +1990,18 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
+"aLB" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/structure/closet/cabinet,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "aLU" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -2172,6 +2241,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"aQa" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/flora/pottedplant/empty{
+	pixel_y = 10;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "aQg" = (
 /obj/structure/dressing_divider{
 	icon_state = "divider2"
@@ -2225,9 +2310,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -2251,6 +2338,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -2557,12 +2647,14 @@
 	dir = 4
 	},
 /obj/structure/table/stone/marble,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "aYN" = (
 /obj/structure/largecrate,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -2616,8 +2708,8 @@
 	},
 /area/new_blades/mudki/interiors/convenience)
 "aZM" = (
-/obj/machinery/appliance/cooker/stove,
-/obj/machinery/light/colored/decayed{
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/machinery/light/broken{
 	dir = 1
 	},
 /turf/simulated/floor/lino/diamond{
@@ -2942,6 +3034,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"bgZ" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/item/c_tube,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "bid" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
 /obj/machinery/light/broken{
@@ -2953,10 +3058,15 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "bih" = (
-/obj/structure/closet/cabinet,
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/item/c_tube{
+	pixel_y = -16;
+	pixel_x = 6
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -3168,6 +3278,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"bls" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/item/stack/material/sandstone{
+	pixel_x = -9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "bly" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /obj/effect/decal/road_marking/no_pass,
@@ -3238,6 +3358,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"bmM" = (
+/obj/item/trash/board{
+	pixel_x = 21
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "bmS" = (
 /obj/structure/flora/pottedplant/largebush,
 /turf/simulated/floor/concrete{
@@ -3258,6 +3388,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/temple)
+"bnv" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/machinery/constructable_frame/temp_deco{
+	icon_state = "box_1"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"bnS" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "boe" = (
 /obj/structure/platform_deco{
 	dir = 1
@@ -3526,6 +3672,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"bxW" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/item/trash/board{
+	pixel_x = -9
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "bxZ" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/effect/decal/curb,
@@ -3558,7 +3717,19 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"byP" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -3653,6 +3824,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors)
+"bCf" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/structure/bed/stool/chair/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "bCB" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 8
@@ -3665,13 +3846,25 @@
 	},
 /area/new_blades)
 "bCJ" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"bCW" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -3752,12 +3945,13 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "bFX" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/item/trash/board{
+	pixel_x = 14
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -3919,15 +4113,31 @@
 /area/new_blades)
 "bIC" = (
 /obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/obj/effect/floor_decal/concrete{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"bIH" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "bJb" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -4245,6 +4455,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/charging_station)
+"bOX" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "bPc" = (
 /obj/effect/decal/curb/corner,
 /obj/effect/decal/curb{
@@ -4380,6 +4603,16 @@
 	},
 /turf/simulated/open,
 /area/new_blades)
+"bRg" = (
+/obj/machinery/light/broken,
+/obj/machinery/constructable_frame/temp_deco{
+	icon_state = "box_1"
+	},
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "bRo" = (
 /obj/structure/rod_railing{
 	dir = 8;
@@ -4438,6 +4671,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"bSj" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/trash_pile,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "bSn" = (
 /obj/machinery/telecomms/message_server,
 /turf/unsimulated/floor,
@@ -4698,7 +4944,23 @@
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/structure/flora/pottedplant/empty{
+	pixel_y = 10;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"bXh" = (
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -4836,6 +5098,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cbb" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "cbM" = (
 /obj/machinery/door/urban,
 /obj/structure/sign/urban/staff{
@@ -4896,6 +5173,8 @@
 /area/shuttle/scc_evac)
 "cdh" = (
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/coatrack,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -4913,6 +5192,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -4972,11 +5252,12 @@
 	},
 /area/new_blades/mudki/interiors/inn)
 "cep" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -5063,7 +5344,9 @@
 	},
 /area/new_blades/mudki/interiors/inn)
 "cgy" = (
-/obj/machinery/light/colored/decayed,
+/obj/machinery/light/broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -5130,6 +5413,17 @@
 /area/new_blades)
 "ciy" = (
 /turf/simulated/floor/tiled/white{
+	temperature = 315.15
+	},
+/area/new_blades)
+"ciK" = (
+/obj/random/dirt_75,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -5255,6 +5549,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -5302,6 +5597,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"coi" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "cot" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -5369,6 +5677,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"cqH" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/item/broken_bottle{
+	pixel_y = 8;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "crg" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
@@ -5444,6 +5765,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"csy" = (
+/obj/machinery/appliance/cooker/stove,
+/obj/machinery/light/broken,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "ctc" = (
 /obj/effect/decal/curb,
 /obj/structure/flora/grass/junglegrass/random,
@@ -5484,6 +5812,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cus" = (
+/obj/effect/decal/cleanable/floor_damage/burned4,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "cuw" = (
 /obj/structure/chainlink_fence{
 	dir = 4
@@ -5505,6 +5839,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -5604,6 +5939,9 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -5665,6 +6003,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"cxi" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "cxr" = (
 /obj/structure/sign/greencross{
 	pixel_x = -32
@@ -5712,6 +6063,13 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/structure/table/wood,
+/obj/item/material/stool/chair/wood{
+	pixel_y = 12;
+	pixel_x = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -5742,6 +6100,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"cze" = (
+/obj/structure/table,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "czl" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -5924,14 +6289,12 @@
 	},
 /area/new_blades/mudki/interiors/hospital)
 "cFD" = (
-/obj/structure/toilet{
-	dir = 1
-	},
-/obj/machinery/light/small,
-/turf/simulated/floor/tiled/freezer{
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/north_housing)
+/area/new_blades/mudki/interiors/south_housing)
 "cFE" = (
 /obj/item/clothing/shoes/jackboots/toeless{
 	pixel_y = 6
@@ -5996,13 +6359,11 @@
 	},
 /area/new_blades/mudki/road)
 "cGl" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 10
-	},
-/turf/simulated/floor/wood/maple{
+/obj/item/stack/barricade/wood,
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/south_housing)
+/area/new_blades)
 "cGq" = (
 /obj/structure/table/stone/marble,
 /obj/item/modular_computer/laptop/preset/civilian{
@@ -6264,6 +6625,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cMi" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "cMW" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -6295,6 +6669,8 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/concrete,
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -6434,6 +6810,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"cRV" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating/asteroid{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cSh" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/curb,
@@ -6468,6 +6850,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cSC" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "cSF" = (
 /obj/item/reagent_containers/glass/bottle/inaprovaline,
 /obj/item/tank/oxygen,
@@ -6615,6 +7007,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"cWg" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/structure/trash_pile,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "cWk" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -6628,12 +7028,16 @@
 	},
 /area/new_blades)
 "cWv" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -6664,6 +7068,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cXC" = (
+/obj/structure/girder,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.35;
+	light_range = 12
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/plating/asteroid{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "cXJ" = (
 /obj/structure/shipping_container{
 	icon_state = "grey3"
@@ -6917,6 +7333,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -6954,6 +7371,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"dfd" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "dfx" = (
 /obj/machinery/button/remote/blast_door{
 	pixel_y = 24;
@@ -7038,6 +7462,13 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/scc_evac)
+"dgg" = (
+/obj/structure/table/stone/marble,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "dgt" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 315.15
@@ -7068,12 +7499,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/structure/flora/pottedplant/largebush{
-	pixel_y = 8
-	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -7179,9 +7609,13 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 4
 	},
+/obj/structure/bed/padded,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -7265,10 +7699,16 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "dkk" = (
-/obj/structure/table/wood,
-/obj/machinery/light/colored/decayed{
+/obj/structure/table/wood{
+	dir = 8;
+	flipped = 1
+	},
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -7472,6 +7912,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"dpf" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "dpj" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -7504,6 +7957,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"dpW" = (
+/obj/structure/table,
+/obj/item/stack/material/marble{
+	pixel_x = 8;
+	pixel_y = 12
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "dqa" = (
 /obj/machinery/light/floor/decayed{
 	dir = 4
@@ -7657,6 +8121,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"drz" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "drW" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 4
@@ -7758,6 +8229,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
@@ -7783,6 +8255,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"dui" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "duM" = (
 /obj/machinery/bookbinder,
 /turf/simulated/floor/concrete{
@@ -7896,6 +8380,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
+"dyo" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/item/stack/material/sandstone{
+	pixel_x = -9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "dyx" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
@@ -7919,6 +8415,7 @@
 	dir = 10
 	},
 /obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -8228,7 +8725,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/structure/coatrack,
+/obj/item/broken_bottle{
+	pixel_x = -4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -8283,10 +8783,11 @@
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
 "dJB" = (
-/obj/structure/closet/cabinet,
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -8358,6 +8859,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -8482,6 +8984,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"dMX" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/bed/padded,
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "dNb" = (
 /obj/structure/flora/grass/junglegrass/random,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -8821,13 +9333,13 @@
 	},
 /area/new_blades/mudki/interiors/restaurant)
 "dUU" = (
-/obj/machinery/door/urban{
-	dir = 4
-	},
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
+/obj/item/stack/barricade/wood,
+/obj/item/material/shard/wood,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -9050,6 +9562,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -9315,17 +9828,21 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "eeR" = (
-/obj/structure/table/wood,
-/obj/machinery/light/colored/decayed,
+/obj/machinery/light/broken,
+/obj/structure/bed/stool/chair/wood,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "eeU" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 1
-	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -9448,9 +9965,8 @@
 /area/shuttle/scc_evac)
 "ejp" = (
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
-	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -9481,10 +9997,14 @@
 	},
 /area/new_blades)
 "ekr" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -9509,10 +10029,10 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "ele" = (
-/obj/machinery/appliance/cooker/stove,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/floor_damage/burned4,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -9566,6 +10086,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"emi" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light/small/broken{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/freezer{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "emj" = (
 /obj/machinery/telecomms/hub/preset,
 /turf/unsimulated/floor,
@@ -9874,6 +10407,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"esG" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "esK" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -9985,8 +10533,19 @@
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
 "ewl" = (
-/obj/structure/flora/pottedplant/tall,
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"ewG" = (
+/obj/machinery/door/urban{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
@@ -10043,18 +10602,36 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/concrete/large,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"ezj" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ezy" = (
-/obj/structure/table/wood,
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 4
+	},
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -10229,6 +10806,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"eEa" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "eEd" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -10294,6 +10884,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"eGX" = (
+/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "eHc" = (
 /obj/effect/decal/exterior_stairs/half/center,
 /obj/effect/decal/curb,
@@ -10330,6 +10927,11 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -10374,8 +10976,11 @@
 	},
 /area/new_blades/mudki/interiors/convenience)
 "eII" = (
-/obj/machinery/appliance/cooker/oven,
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/machinery/constructable_frame/temp_deco{
+	icon_state = "box_1"
+	},
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
@@ -10433,14 +11038,16 @@
 	},
 /area/new_blades/underground)
 "eKM" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8
-	},
 /obj/structure/sink/kitchen{
 	dir = 4;
 	pixel_x = -20;
 	pixel_y = 0
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -11190,6 +11797,7 @@
 "fac" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/machinery/door/urban,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -11232,6 +11840,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"faW" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/item/trash/board{
+	pixel_x = -8;
+	pixel_y = 0
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "faY" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -11444,6 +12069,20 @@
 /obj/structure/automobile_filler,
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"feW" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "ffh" = (
 /obj/structure/table/reinforced/wood,
 /obj/structure/lattice/catwalk/indoor/urban,
@@ -11452,6 +12091,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"ffQ" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/machinery/constructable_frame/temp_deco{
+	icon_state = "box_1"
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "ffT" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -11688,6 +12337,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"fly" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "flA" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -11743,10 +12405,38 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/item/stack/material/marble{
+	pixel_x = 8;
+	pixel_y = 12
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"fnr" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/closet/cabinet,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"fnG" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "fnW" = (
 /obj/structure/shipping_container{
 	icon_state = "red2"
@@ -11766,16 +12456,21 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "foA" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/machinery/light/colored/decayed,
+/obj/machinery/light/broken,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -12024,15 +12719,19 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
+/obj/structure/trash_pile,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "ftY" = (
-/obj/structure/closet/cabinet,
 /obj/effect/floor_decal/concrete{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -12212,6 +12911,7 @@
 /obj/structure/sink/kitchen{
 	pixel_y = 22
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -12269,6 +12969,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"fyg" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/item/broken_bottle{
+	pixel_x = -4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "fyn" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/road_marking{
@@ -12334,12 +13050,14 @@
 	},
 /area/new_blades)
 "fze" = (
-/obj/machinery/light/colored/decayed{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
+/obj/machinery/light/broken{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -12404,13 +13122,14 @@
 	},
 /area/new_blades)
 "fAb" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/item/modular_computer/laptop/preset/civilian{
-	pixel_y = 10
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -12477,6 +13196,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"fBO" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "fBQ" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -12492,6 +13223,7 @@
 /obj/structure/rod_railing{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -12555,6 +13287,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"fEU" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "fFh" = (
 /obj/structure/flora/rock/konyang/small,
 /turf/simulated/floor/exoplanet/desert{
@@ -12593,6 +13337,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"fFT" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/item/trash/board{
+	pixel_x = -9
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "fGd" = (
 /obj/effect/decal/road_marking/crosswalk{
 	dir = 4
@@ -12637,6 +13397,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -12725,6 +13488,8 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/concrete,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -12783,6 +13548,20 @@
 /obj/effect/floor_decal/industrial/outline/engineering,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"fJC" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/item/c_tube,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "fJK" = (
 /obj/machinery/light/colored/decayed{
 	dir = 1
@@ -12836,10 +13615,30 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/item/material/stool/chair/wood{
+	pixel_y = -12;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"fKw" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "fKB" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -13023,6 +13822,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"fNv" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "fOC" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
@@ -13036,9 +13847,11 @@
 	dir = 2;
 	pixel_y = 8
 	},
-/obj/machinery/light/small{
+/obj/machinery/light/small/broken{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
@@ -13142,6 +13955,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"fRH" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "fRK" = (
 /obj/effect/decal/road_marking/center{
 	dir = 1
@@ -13432,6 +14253,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"fZe" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/coatrack,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "fZh" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
@@ -13457,6 +14291,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"fZx" = (
+/obj/item/stack/material/sandstone{
+	pixel_y = -12;
+	pixel_x = 6
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "fZC" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -13464,6 +14310,8 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -13736,6 +14584,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"ggF" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "ggL" = (
 /obj/structure/toilet{
 	dir = 8
@@ -13907,9 +14767,10 @@
 /obj/structure/bed/stool/chair/sofa/beige{
 	dir = 8
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -13972,10 +14833,14 @@
 	},
 /area/new_blades)
 "gll" = (
-/obj/structure/table/wood,
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 1
+	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -13988,6 +14853,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"glG" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "glM" = (
 /obj/item/folder/red{
 	pixel_y = -12;
@@ -14019,6 +14895,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/inn)
+"gmw" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/structure/flora/pottedplant/empty{
+	pixel_y = 10;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "gmz" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -14051,7 +14940,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/structure/bed/stool/chair/office/dark,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -14068,10 +14958,11 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "gnv" = (
-/obj/machinery/appliance/cooker/stove,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/item/material/stool/chair/wood,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -14124,12 +15015,37 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"gpe" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "gpu" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"gpv" = (
+/obj/structure/table,
+/obj/item/stack/material/marble,
+/obj/machinery/light/broken{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -14159,6 +15075,8 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
 	},
+/obj/structure/coatrack,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -14197,6 +15115,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"gsw" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/machinery/light/broken,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "gsE" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -14246,6 +15171,15 @@
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/tiled/white,
 /area/new_blades/mudki/interiors/restaurant)
+"gtr" = (
+/obj/structure/flora/pottedplant/empty{
+	pixel_x = -11
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "gtA" = (
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
@@ -14326,6 +15260,15 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"guq" = (
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "guC" = (
 /turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
@@ -14409,6 +15352,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"gwQ" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/road_marking/thin{
+	dir = 1
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "gxe" = (
 /turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
@@ -14873,6 +15830,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"gHB" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "gHD" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -15200,12 +16168,19 @@
 /area/new_blades/mudki/interiors/library)
 "gNA" = (
 /obj/effect/floor_decal/concrete{
-	dir = 5
+	dir = 6
 	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/item/trash/tray{
+	pixel_y = 8
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/north_housing)
+/area/new_blades/mudki/interiors/south_housing)
 "gNQ" = (
 /obj/structure/platform,
 /obj/structure/rod_railing{
@@ -15223,6 +16198,12 @@
 	pixel_x = 0;
 	density = 0
 	},
+/obj/item/material/stool/chair/wood{
+	pixel_y = 16;
+	pixel_x = 12
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -15359,6 +16340,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"gQo" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/obj/item/stack/barricade/wood,
+/obj/structure/curtain/open/bed,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "gQF" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -15406,6 +16399,7 @@
 /obj/machinery/door/urban{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -15463,9 +16457,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -15474,15 +16469,17 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
-/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "gSO" = (
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -15807,6 +16804,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"gZl" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "gZt" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -15985,6 +16992,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"hcJ" = (
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "hcL" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -16038,6 +17053,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"hdh" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/item/reagent_containers/food/drinks/bottle{
+	pixel_x = -9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "hdq" = (
 /obj/item/reagent_containers/cooking_container/board,
 /obj/item/reagent_containers/cooking_container/board/bowl{
@@ -16070,6 +17097,8 @@
 /area/new_blades)
 "hdL" = (
 /obj/effect/floor_decal/concrete,
+/obj/structure/trash_pile,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -16081,6 +17110,27 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"hee" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/item/stack/material/sandstone,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"hel" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "heM" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -16155,6 +17205,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
+/obj/item/stack/material/marble{
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -16195,6 +17249,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"hgt" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/trash_pile,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "hhe" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -16314,6 +17382,7 @@
 /obj/machinery/door/urban{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -16572,10 +17641,13 @@
 	},
 /area/new_blades)
 "hqk" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/structure/table,
+/obj/item/stack/material/wood/branch,
+/obj/item/material/shard/wood,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -16626,6 +17698,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"hqU" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/item/material/shard/wood,
+/obj/item/stack/barricade/wood,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "hqX" = (
 /obj/machinery/chem_master/condimaster{
 	pixel_y = 1
@@ -16784,12 +17868,10 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "huW" = (
-/obj/structure/bed/stool/chair/office/dark{
-	dir = 1
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -16798,6 +17880,8 @@
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 8
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -16806,9 +17890,11 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/structure/bed/stool/chair/wood{
-	dir = 8
+/obj/item/reagent_containers/food/drinks/bottle{
+	pixel_x = 9;
+	pixel_y = 6
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -16917,6 +18003,8 @@
 	dir = 10
 	},
 /obj/structure/closet/cabinet,
+/obj/structure/curtain/open/bed,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -16970,6 +18058,8 @@
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -17224,6 +18314,29 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/inn)
+"hGv" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/obj/structure/curtain/open/bed,
+/obj/item/stack/barricade/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"hGA" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "hGI" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -17266,6 +18379,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"hIs" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "hIB" = (
 /obj/structure/bed/stool/chair/sofa/right/beige,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -17358,10 +18484,25 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"hKY" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/coatrack,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -17397,6 +18538,9 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/concrete,
+/obj/structure/coatrack,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -17464,6 +18608,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"hMQ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "hMW" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -17654,7 +18807,8 @@
 	},
 /area/new_blades)
 "hRA" = (
-/obj/structure/coatrack,
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -17706,6 +18860,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -17739,10 +18894,10 @@
 	},
 /area/new_blades)
 "hTd" = (
-/obj/machinery/appliance/cooker/oven,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/burned4,
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
@@ -17781,12 +18936,14 @@
 	},
 /area/new_blades/mudki/interiors/convenience)
 "hUV" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -17829,6 +18986,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"hWr" = (
+/obj/structure/table/stone/marble,
+/obj/item/stack/material/sandstone{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "hWL" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
@@ -18069,6 +19237,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"iaM" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "iaO" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
@@ -18219,6 +19394,7 @@
 	pixel_x = -20;
 	pixel_y = 3
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -18257,6 +19433,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"ifz" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/structure/trash_pile,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "ifP" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -18302,6 +19485,33 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"igL" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"igR" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/obj/structure/bed/padded,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "ihO" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
@@ -18340,6 +19550,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"iiQ" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/bed/stool/chair/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "iiR" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -18518,9 +19738,8 @@
 	},
 /area/new_blades)
 "inD" = (
-/obj/structure/bed/padded,
-/obj/structure/curtain/open/bed,
-/obj/item/bedsheet/black,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -18643,6 +19862,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/inn)
+"ipM" = (
+/obj/structure/bed/padded,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "ipO" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -18928,6 +20158,8 @@
 /obj/structure/sink/kitchen{
 	pixel_y = 22
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -19123,7 +20355,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/structure/table/wood,
+/obj/structure/table/wood{
+	dir = 1;
+	flipped = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -19131,6 +20367,17 @@
 "iAc" = (
 /obj/machinery/appliance/cooker/stove,
 /turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"iAN" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
@@ -19197,6 +20444,11 @@
 /obj/structure/bonfire/fireplace{
 	density = 0
 	},
+/obj/structure/closet/cabinet,
+/obj/item/modular_computer/laptop/preset/civilian{
+	pixel_y = 10
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -19279,12 +20531,11 @@
 	},
 /area/new_blades)
 "iDy" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
 /obj/effect/floor_decal/concrete/large{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -19329,6 +20580,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"iFf" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "iFA" = (
 /obj/structure/table/stone/marble,
 /obj/item/flame/candle{
@@ -19352,6 +20612,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -19421,6 +20682,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/structure/flora/pottedplant/empty{
+	pixel_y = 10;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -19445,6 +20711,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"iIS" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "iJe" = (
 /obj/structure/flora/bush/jungle/c,
 /turf/simulated/floor/exoplanet/grass/moghes{
@@ -19505,6 +20782,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"iLU" = (
+/obj/machinery/door/urban{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/freezer{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "iMk" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
@@ -19559,7 +20846,8 @@
 	},
 /area/new_blades/mudki/interiors/hospital)
 "iOC" = (
-/obj/structure/flora/pottedplant/largebush,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -19586,6 +20874,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"iQi" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "iQG" = (
 /obj/effect/floor_decal/industrial/warning/dust/corner{
 	dir = 8
@@ -19641,6 +20938,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"iSO" = (
+/obj/structure/table/wood,
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "iSW" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -19648,6 +20955,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -19688,7 +20998,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/machinery/light/colored/decayed,
+/obj/structure/bed/padded,
+/obj/machinery/light/broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -19710,22 +21022,34 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"iWB" = (
-/obj/structure/toilet{
-	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/freezer{
+"iWv" = (
+/obj/item/stack/barricade/wood,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/north_housing)
+/area/new_blades/mudki/interiors/south_housing)
+"iWB" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "iWG" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/effect/floor_decal/concrete{
 	dir = 4
 	},
+/obj/item/trash/board{
+	pixel_x = -5;
+	pixel_y = 9
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -19830,6 +21154,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"jaC" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 10
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jbf" = (
 /obj/structure/shipping_container{
 	icon_state = "blue2"
@@ -19893,12 +21231,14 @@
 	},
 /area/new_blades)
 "jda" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -20168,13 +21508,31 @@
 "jhG" = (
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"jhV" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "jig" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/item/trash/board{
+	pixel_x = -9;
+	pixel_y = -10
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -20264,6 +21622,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"jkw" = (
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "jlg" = (
 /obj/structure/toilet{
 	dir = 1
@@ -20376,16 +21743,9 @@
 	},
 /area/new_blades/mudki/road)
 "jof" = (
-/obj/structure/bed/stool/chair/office/dark{
-	dir = 8
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
-/turf/simulated/floor/wood/maple{
+/obj/structure/girder,
+/obj/random/dirt_75,
+/turf/simulated/floor/plating/asteroid{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -20419,8 +21779,10 @@
 	},
 /area/new_blades/mudki/interiors/restaurant)
 "jpR" = (
-/obj/structure/table/wood,
-/obj/item/device/flashlight/lamp/off,
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -20747,10 +22109,11 @@
 	},
 /area/new_blades/mudki/interiors/water_treatment)
 "jyv" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -20880,12 +22243,11 @@
 	},
 /area/new_blades/mudki/interiors/restaurant)
 "jBO" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -21100,10 +22462,11 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "jHq" = (
-/obj/machinery/appliance/cooker/stove,
-/obj/machinery/light/colored/decayed{
+/obj/effect/decal/cleanable/floor_damage/burned4,
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
@@ -21210,11 +22573,15 @@
 	},
 /area/new_blades/mudki/interiors/guildhouse)
 "jJV" = (
-/obj/structure/table/wood,
+/obj/structure/table/wood{
+	flipped = 1
+	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/machinery/light/colored/decayed,
+/obj/machinery/light/broken,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -21247,10 +22614,11 @@
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
 "jKk" = (
-/obj/structure/bed/stool/chair/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -21563,6 +22931,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"jQo" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jQw" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -21596,9 +22978,10 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "jRl" = (
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -21622,6 +23005,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"jRB" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/item/stack/material/sandstone,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "jRN" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -21735,6 +23131,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"jUJ" = (
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/item/broken_bottle{
+	pixel_x = -17;
+	pixel_y = -14
+	},
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "jVg" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -22047,6 +23456,31 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"kcE" = (
+/obj/structure/closet/cabinet,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"kda" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/obj/structure/bed/padded,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "kdb" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/brown,
@@ -22088,6 +23522,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"kem" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/item/broken_bottle{
+	pixel_x = -4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "keY" = (
 /obj/effect/floor_decal/spline/fancy/wood/full,
 /turf/simulated/floor/sidewalk/detail{
@@ -22183,9 +23630,11 @@
 /area/new_blades/mudki/interiors/north_housing)
 "khu" = (
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -22205,6 +23654,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"khU" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "kiH" = (
 /obj/machinery/light/colored/decayed,
 /obj/structure/table/reinforced/wood,
@@ -22256,16 +23715,44 @@
 	},
 /area/new_blades)
 "kjC" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 8
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/item/broken_bottle{
+	pixel_x = -17;
+	pixel_y = -14
 	},
-/obj/machinery/door/urban{
-	dir = 4
-	},
-/turf/simulated/floor/concrete{
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"kjG" = (
+/obj/structure/girder,
+/obj/random/dirt_75,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.35;
+	light_range = 12
+	},
+/turf/simulated/floor/plating/asteroid{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"kjK" = (
+/obj/item/stack/material/sandstone{
+	pixel_y = -6;
+	pixel_x = 7
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "kjO" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -22338,6 +23825,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"klu" = (
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "kly" = (
 /obj/structure/flora/pottedplant/tall,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -22436,6 +23930,7 @@
 	dir = 10
 	},
 /obj/structure/rod_railing,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -22480,6 +23975,7 @@
 	dir = 4
 	},
 /obj/machinery/door/urban,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -22501,6 +23997,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -22630,6 +24127,20 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"krX" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/bed/padded,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "ksB" = (
 /turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
@@ -22774,6 +24285,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"kwl" = (
+/obj/item/reagent_containers/food/drinks/bottle{
+	pixel_y = 16;
+	pixel_x = 8
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "kwJ" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -22842,6 +24365,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"kxY" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "kyk" = (
 /obj/effect/decal/curb{
 	dir = 5
@@ -23044,6 +24577,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/structure/table/wood{
+	dir = 8;
+	flipped = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -23081,6 +24619,11 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/item/stack/material/marble{
+	pixel_x = 8;
+	pixel_y = 12
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -23192,6 +24735,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"kFr" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "kFF" = (
 /obj/machinery/door/airlock/glass_command{
 	dir = 4;
@@ -23224,6 +24777,19 @@
 "kGr" = (
 /turf/simulated/wall/concrete,
 /area/new_blades)
+"kHo" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/item/stack/material/sandstone{
+	pixel_y = -6;
+	pixel_x = 7
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "kHE" = (
 /obj/structure/table/stone/marble,
 /obj/item/flame/candle{
@@ -23388,6 +24954,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"kLw" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/structure/coatrack,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "kLD" = (
 /obj/machinery/door/urban,
 /obj/structure/sign/urban/staff{
@@ -23616,6 +25195,8 @@
 /obj/structure/bed/stool/chair/sofa/corner/concave/beige{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -23628,6 +25209,8 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/concrete,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -23660,9 +25243,11 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 4
 	},
+/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -23706,12 +25291,14 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "kQI" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -23723,6 +25310,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/item/reagent_containers/food/drinks/bottle{
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
@@ -23740,6 +25332,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"kRF" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/black,
+/obj/effect/floor_decal/concrete/large,
+/obj/item/modular_computer/laptop/preset/civilian,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "kSm" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
@@ -24002,6 +25604,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"kXH" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "kXR" = (
 /obj/structure/table/stone/marble,
 /obj/item/paper_scanner{
@@ -24028,6 +25639,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"kYU" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/bed/stool/chair/wood,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "kYV" = (
 /obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/blocks{
@@ -24304,6 +25924,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/guildhouse)
+"ldW" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "ldY" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -24645,6 +26274,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"lmd" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "lmg" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
@@ -24714,11 +26358,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"lob" = (
+/obj/structure/toilet{
+	dir = 1
+	},
+/obj/machinery/light/small/broken,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/freezer{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "lon" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
 /obj/effect/floor_decal/concrete,
+/obj/item/reagent_containers/food/drinks/bottle{
+	pixel_x = -9
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -24966,6 +26625,28 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ltx" = (
+/obj/structure/girder,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.35;
+	light_range = 12
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/plating/asteroid{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"luE" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "luK" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/effect/decal/fake_object/light_source/invisible{
@@ -25556,6 +27237,8 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
+/obj/item/device/flashlight/lamp/off,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
@@ -25599,6 +27282,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"lHy" = (
+/obj/machinery/light/broken{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "lHB" = (
 /obj/structure/table/stone/marble,
 /obj/item/flame/candle{
@@ -25727,6 +27420,8 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/concrete,
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -25987,6 +27682,15 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"lNz" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/machinery/constructable_frame/temp_deco{
+	icon_state = "box_1"
+	},
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "lNI" = (
 /obj/structure/parking_meter{
 	dir = 8;
@@ -26202,6 +27906,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -26288,6 +27995,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -26822,7 +28530,9 @@
 /area/new_blades/mudki/interiors/charging_station)
 "mia" = (
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/closet/cabinet,
 /obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -26844,6 +28554,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/guildhouse)
+"mjy" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "mjJ" = (
 /obj/item/broken_bottle,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -26891,6 +28611,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"mlq" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/structure/coatrack{
+	pixel_y = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "mlr" = (
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
@@ -26909,10 +28645,11 @@
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
 "mlU" = (
-/obj/structure/closet/cabinet,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -27338,6 +29075,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"myv" = (
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "myw" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -27580,6 +29329,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -27631,6 +29381,27 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"mEu" = (
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"mEA" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/item/broken_bottle{
+	pixel_y = -14;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "mED" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
@@ -27643,10 +29414,13 @@
 	},
 /area/new_blades/mudki/interiors/temple)
 "mEI" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
+/obj/item/material/shard/wood,
+/obj/item/stack/material/wood/branch,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -27666,6 +29440,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"mFq" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "mGt" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -27823,6 +29606,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/guildhouse)
+"mJV" = (
+/obj/machinery/light/broken,
+/obj/item/stack/material/wood/branch,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "mJW" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -27833,6 +29625,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -28161,6 +29954,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"mRi" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "mRl" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 8
@@ -28169,6 +29975,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"mRC" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/bed/stool/chair/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "mRD" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -28181,13 +30000,14 @@
 	},
 /area/new_blades/mudki/interiors/inn)
 "mRV" = (
-/obj/structure/bed/stool/chair/office/dark,
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -28245,6 +30065,7 @@
 /area/new_blades/mudki/interiors/temple)
 "mTT" = (
 /obj/structure/table/stone/marble,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -28278,6 +30099,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -28294,13 +30116,37 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"mVv" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/obj/random/junk,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"mVT" = (
+/obj/effect/floor_decal/concrete/large{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "mVX" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
 /obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -28687,9 +30533,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"mZC" = (
+/obj/structure/closet/cabinet,
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "mZH" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -28710,6 +30568,8 @@
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -28788,6 +30648,9 @@
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -28855,12 +30718,11 @@
 	},
 /area/new_blades)
 "ncJ" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -29073,6 +30935,8 @@
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -29158,6 +31022,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/structure/flora/pottedplant/empty{
+	pixel_y = 10
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -29406,6 +31274,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/structure/flora/pottedplant/empty,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -29498,6 +31369,20 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"nqX" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "nrO" = (
 /obj/structure/bed/stool/chair/office/bridge/pilot,
 /obj/effect/landmark/force_spawnpoint{
@@ -29709,6 +31594,11 @@
 /obj/structure/toilet{
 	pixel_y = 8
 	},
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
@@ -29877,10 +31767,9 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "nBO" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete/large,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -29970,12 +31859,28 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"nDi" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "nDj" = (
 /obj/machinery/telecomms/processor/preset_one,
 /turf/unsimulated/floor,
 /area/new_blades/underground)
 "nDu" = (
-/obj/structure/coatrack,
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
@@ -30206,8 +32111,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
-/obj/item/bedsheet/brown,
-/obj/structure/curtain/open/bed,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -30304,6 +32208,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"nMb" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "nMy" = (
 /obj/structure/table/rack/retail_shelf{
 	name = "shelves"
@@ -30475,6 +32389,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"nPE" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/item/trash/board{
+	pixel_x = -9
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "nPF" = (
 /obj/structure/rod_railing,
 /obj/effect/decal/curb/corner{
@@ -30484,6 +32411,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"nPG" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/item/reagent_containers/food/drinks/bottle{
+	pixel_x = 12;
+	pixel_y = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "nQI" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 8;
@@ -30713,9 +32655,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
-/obj/structure/flora/pottedplant/largebush{
-	pixel_y = 4
-	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -30756,6 +32696,24 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/charging_station)
+"nYa" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/item/c_tube{
+	pixel_y = -16;
+	pixel_x = 6
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "nYA" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -30806,6 +32764,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -30828,6 +32787,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"nZv" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "nZB" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/road_marking{
@@ -30866,6 +32837,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"oaL" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/item/broken_bottle{
+	pixel_y = -9;
+	pixel_x = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "oaR" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/curb{
@@ -30899,6 +32886,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"oba" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "obn" = (
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
@@ -30986,6 +32982,12 @@
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
 "odR" = (
+/obj/structure/table/wood{
+	dir = 8;
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
@@ -31101,7 +33103,10 @@
 /turf/simulated/open,
 /area/new_blades)
 "ogw" = (
-/obj/structure/flora/pottedplant/largebush,
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
@@ -31280,6 +33285,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"olz" = (
+/obj/machinery/light/broken,
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "olF" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "sidearm ammo cabinet"
@@ -31306,6 +33320,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"olQ" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/structure/table/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "olW" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -31362,6 +33389,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"omQ" = (
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "omX" = (
 /obj/structure/table/wood,
 /obj/item/folder/blue{
@@ -31379,6 +33415,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -31437,6 +33475,35 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors)
+"oqL" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/machinery/light/small/broken{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/freezer{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"oqS" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "oro" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -31569,6 +33636,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -31681,8 +33750,13 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "oxp" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/item/broken_bottle{
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -31875,14 +33949,23 @@
 /turf/simulated/open,
 /area/new_blades)
 "oBO" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"oBR" = (
+/obj/machinery/constructable_frame/temp_deco{
+	icon_state = "box_1"
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "oBU" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline_door/grey{
@@ -31978,7 +34061,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/structure/table/wood,
+/obj/structure/table,
+/obj/item/stack/material/wood/branch,
+/obj/item/material/shard/wood,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -32246,7 +34332,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/obj/structure/table/wood,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -32320,9 +34407,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
+/obj/item/stack/material/cloth,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -32442,12 +34529,13 @@
 	},
 /area/new_blades/mudki/interiors/guildhouse)
 "oOh" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -32609,7 +34697,16 @@
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
 "oRW" = (
 /obj/effect/floor_decal/concrete/large,
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"oRX" = (
+/obj/structure/table,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
@@ -32715,6 +34812,20 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
+"oVD" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -32887,6 +34998,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"oZu" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "oZE" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -32899,6 +35024,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"oZK" = (
+/obj/structure/bed/stool/chair/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "paf" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -33000,6 +35132,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"pbz" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/table/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "pbG" = (
 /obj/structure/flora/rock/konyang/small,
 /obj/random/dirt_75,
@@ -33059,11 +35204,26 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"pck" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "pcE" = (
-/obj/structure/closet/cabinet,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -33117,6 +35277,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"pdt" = (
+/obj/structure/bed/stool/chair/wood{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "pdz" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff2-bottom";
@@ -33192,16 +35361,18 @@
 	},
 /area/new_blades)
 "peS" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/north_housing)
+/area/new_blades/mudki/interiors/south_housing)
 "pfd" = (
 /obj/structure/rod_railing{
 	dir = 8
@@ -33588,15 +35759,17 @@
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "pnQ" = (
-/obj/structure/closet/cabinet,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -33678,6 +35851,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/guildhouse)
+"prf" = (
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "prn" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -33817,6 +36004,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ptG" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/item/modular_computer/laptop/preset/civilian{
+	pixel_y = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "puu" = (
 /obj/structure/table/rack/retail_shelf{
 	name = "shelves"
@@ -33926,6 +36125,12 @@
 /area/new_blades/mudki/interiors)
 "pxp" = (
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -34077,9 +36282,11 @@
 	},
 /area/new_blades/mudki/interiors/hospital)
 "pzH" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
@@ -34114,6 +36321,36 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"pAt" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/detail{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"pAz" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "pAB" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/road_marking{
@@ -34137,6 +36374,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"pBe" = (
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "pBj" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/material/harpoon{
@@ -34409,7 +36653,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/machinery/appliance/cooker/oven,
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
@@ -34615,6 +36860,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/charging_station)
+"pKG" = (
+/obj/structure/table/wood,
+/obj/item/stack/material/sandstone{
+	pixel_y = -6
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "pKL" = (
 /obj/structure/flora/grass/junglegrass/random,
 /obj/structure/flora/grass/junglegrass/random,
@@ -34648,6 +36904,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors)
+"pLt" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/structure/bed/padded,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "pLu" = (
 /obj/structure/cash_register{
 	dir = 8;
@@ -34672,10 +36939,11 @@
 	},
 /area/new_blades)
 "pMl" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
-	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/item/stack/material/sandstone{
+	pixel_y = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -34793,6 +37061,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"pPd" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "pPC" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/platform{
@@ -34829,6 +37110,30 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"pQp" = (
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"pQq" = (
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "pQK" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -34921,6 +37226,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"pTa" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "pTx" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/closet/crate/bin/urban/compact{
@@ -34938,9 +37259,11 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -34960,9 +37283,11 @@
 /obj/structure/toilet{
 	dir = 4
 	},
-/obj/machinery/light/small{
+/obj/machinery/light/small/broken{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
@@ -34998,6 +37323,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/guildhouse)
+"pUY" = (
+/obj/structure/curtain/open/bed,
+/obj/item/stack/barricade/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/freezer{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "pVm" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -35013,9 +37346,11 @@
 	},
 /area/new_blades)
 "pVp" = (
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -35074,13 +37409,12 @@
 	},
 /area/new_blades)
 "pWv" = (
-/obj/structure/flora/pottedplant/tall{
-	pixel_y = 8
-	},
-/turf/simulated/floor/concrete/square{
+/obj/structure/girder,
+/obj/random/dirt_75,
+/turf/simulated/floor/plating/asteroid{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/south_housing)
+/area/new_blades/mudki/interiors/north_housing)
 "pWA" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/concrete/large/cee{
@@ -35091,12 +37425,11 @@
 	},
 /area/new_blades/mudki/interiors/convenience)
 "pWF" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/structure/bed/padded,
-/obj/item/bedsheet/brown,
-/obj/structure/curtain/open/bed,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -35123,6 +37456,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"pXS" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/item/broken_bottle{
+	pixel_y = 8;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "pYu" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "rifle and carbine cabinet"
@@ -35295,6 +37641,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qbI" = (
+/obj/random/dirt_75,
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qbX" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
@@ -35338,13 +37695,9 @@
 	},
 /area/new_blades/mudki/interiors/temple)
 "qcO" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 10
-	},
-/obj/structure/coatrack{
-	pixel_y = 4
-	},
-/turf/simulated/floor/wood/maple{
+/obj/structure/bed/stool/chair/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -35359,6 +37712,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/guildhouse)
+"qdr" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "qdv" = (
 /obj/effect/decal/road_marking/fork{
 	dir = 8
@@ -35422,6 +37788,20 @@
 	},
 /turf/simulated/open,
 /area/new_blades)
+"qeS" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/obj/structure/curtain/open/bed,
+/obj/item/stack/barricade/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "qeZ" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -35431,6 +37811,23 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"qfP" = (
+/obj/item/stack/barricade/wood,
+/obj/structure/curtain/open/bed,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/freezer{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"qfT" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/bed/stool/chair/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
@@ -35614,6 +38011,7 @@
 /obj/structure/bed/stool/chair/sofa/beige{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -35867,6 +38265,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/item/broken_bottle{
+	pixel_x = -4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -35980,14 +38383,18 @@
 	},
 /area/new_blades/mudki/interiors/hospital)
 "qqJ" = (
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/structure/bed/stool/chair/wood{
+/obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/north_housing)
+/area/new_blades/mudki/interiors/south_housing)
 "qqQ" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -36027,6 +38434,14 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qrY" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "qsg" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -36078,6 +38493,16 @@
 	temperature = 315.15
 	},
 /area/landing_pad)
+"qsK" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "qsR" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 1
@@ -36113,12 +38538,14 @@
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
 "qvM" = (
-/obj/structure/flora/pottedplant/largebush{
-	pixel_y = 4
-	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/item/material/stool/chair/wood{
+	pixel_y = 6
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -36137,6 +38564,9 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -36324,6 +38754,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/charging_station)
+"qzR" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/item/material/stool/chair/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "qzT" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -36399,6 +38839,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qAP" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "qAR" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -36563,13 +39013,28 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"qDM" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "qEO" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
-/obj/structure/bed/padded,
-/obj/item/bedsheet/brown,
-/obj/structure/curtain/open/bed,
+/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -36734,7 +39199,13 @@
 	},
 /area/new_blades)
 "qIW" = (
-/obj/structure/closet/cabinet,
+/obj/item/stack/material/sandstone{
+	pixel_y = -6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -36853,6 +39324,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"qLH" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "qLZ" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff2-bottom";
@@ -36949,6 +39430,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qNB" = (
+/obj/structure/curtain/open/bed,
+/obj/item/stack/barricade/wood,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/freezer{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "qNK" = (
 /obj/machinery/light/colored/decayed{
 	dir = 1
@@ -36965,9 +39455,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -37204,7 +39696,10 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "qSX" = (
-/obj/machinery/appliance/cooker/oven,
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/machinery/constructable_frame/temp_deco{
+	icon_state = "box_1"
+	},
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -37334,6 +39829,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"qVL" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "qVS" = (
 /obj/structure/curtain/open/bed,
 /obj/effect/floor_decal/concrete/large,
@@ -37510,6 +40014,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"raD" = (
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "raJ" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff-top1";
@@ -37630,9 +40146,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
-	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -37672,10 +40187,13 @@
 /turf/simulated/wall/sandstone,
 /area/new_blades/mudki/interiors/south_housing)
 "reh" = (
-/obj/structure/table/wood,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -37864,15 +40382,14 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "rhg" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -37894,7 +40411,10 @@
 /obj/structure/toilet{
 	dir = 1
 	},
-/obj/machinery/light/small,
+/obj/machinery/light/small/broken,
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
@@ -37973,12 +40493,14 @@
 /turf/simulated/floor/asphalt,
 /area/new_blades)
 "rlb" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
 /obj/structure/toilet{
 	pixel_y = 8
 	},
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
@@ -38183,6 +40705,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"rqq" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "rqz" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -38246,6 +40781,8 @@
 /obj/structure/bed/stool/chair/sofa/left/beige{
 	dir = 1
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -38254,7 +40791,12 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/machinery/light/colored/decayed,
+/obj/machinery/light/broken,
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -38449,7 +40991,24 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"rxA" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -38712,6 +41271,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"rBx" = (
+/obj/item/stack/material/sandstone,
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "rBT" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -38832,10 +41397,11 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "rEQ" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/structure/table/wood,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -38889,6 +41455,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"rFO" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/item/stack/material/sandstone{
+	pixel_y = -6;
+	pixel_x = 7
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "rGK" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -39101,6 +41680,25 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"rLY" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"rMj" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "rMx" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -39114,6 +41712,7 @@
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
 "rML" = (
 /obj/structure/closet/crate,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -39302,6 +41901,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"rPQ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "rPU" = (
 /obj/effect/decal/curb,
 /obj/effect/floor_decal/concrete{
@@ -39361,6 +41974,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -39382,9 +41997,8 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "rSm" = (
-/obj/structure/coatrack{
-	pixel_y = 4
-	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
@@ -39426,16 +42040,13 @@
 /turf/simulated/floor/tiled/white,
 /area/new_blades/mudki/interiors/restaurant)
 "rTs" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/turf/simulated/floor/wood/maple{
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/structure/trash_pile,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors/north_housing)
+/area/new_blades/mudki/interiors/south_housing)
 "rTD" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 8
@@ -39614,6 +42225,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -39693,10 +42305,17 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/effect/floor_decal/concrete,
+/obj/item/stack/material/sandstone{
+	pixel_y = 2;
+	pixel_x = 7
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
-/obj/effect/floor_decal/concrete,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -39710,6 +42329,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"rZk" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "rZv" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/gridded{
@@ -39917,6 +42551,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"seN" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "seY" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/chainlink_fence{
@@ -39971,6 +42616,8 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/concrete,
+/obj/item/c_tube,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -40109,6 +42756,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"siw" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "siE" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff-east";
@@ -40184,6 +42844,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -40245,6 +42906,18 @@
 	temperature = 315.15
 	},
 /area/landing_pad)
+"smg" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "smk" = (
 /obj/effect/floor_decal/industrial/outline/service,
 /obj/machinery/vending/dinnerware{
@@ -40459,6 +43132,16 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"sur" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "svl" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -40604,6 +43287,7 @@
 	dir = 1
 	},
 /obj/structure/table/stone/marble,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
@@ -40776,6 +43460,10 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/concrete,
+/obj/structure/coatrack{
+	pixel_y = 4
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -40792,6 +43480,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"sBA" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "sBI" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/brown,
@@ -40800,6 +43503,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"sCi" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "sCo" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -40870,10 +43583,14 @@
 	},
 /area/new_blades/mudki/interiors)
 "sCR" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -40949,12 +43666,15 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "sDZ" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/structure/flora/pottedplant/empty{
+	pixel_y = 10;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -41029,6 +43749,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"sEX" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/item/c_tube{
+	pixel_y = -16;
+	pixel_x = 6
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "sFh" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -41195,9 +43930,11 @@
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
 "sIK" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
+/obj/item/stack/material/sandstone{
+	pixel_y = -6
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -41345,6 +44082,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
+/obj/item/stack/material/sandstone{
+	pixel_x = -9
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -41451,12 +44193,38 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"sOx" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "sOX" = (
 /obj/effect/floor_decal/concrete/gutter/corner,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 315.15
 	},
 /area/new_blades)
+"sPd" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/thin{
+	dir = 8
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "sPm" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -41721,6 +44489,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/guildhouse)
+"sSr" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/structure/coatrack{
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "sSs" = (
 /obj/structure/flora/rock/desert/scrub,
 /turf/simulated/floor/exoplanet/desert{
@@ -41760,7 +44544,10 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/obj/structure/bed/stool/chair/wood,
+/obj/item/stack/material/sandstone{
+	pixel_y = -10
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -41851,6 +44638,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/charging_station)
+"sVh" = (
+/obj/item/material/stool/chair/wood{
+	pixel_y = -9;
+	pixel_x = 10
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "sVm" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -41954,6 +44752,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"sXO" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "sXW" = (
 /obj/structure/bed/stool/chair/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -42014,6 +44825,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"tbk" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "tbx" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -42053,6 +44874,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/temple)
+"tcv" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "tcI" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -42072,6 +44904,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"tdz" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating/asteroid{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "tdO" = (
 /obj/effect/decal/curb,
 /obj/structure/table/wood,
@@ -42140,9 +44978,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
+/obj/structure/closet/cabinet,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -42181,6 +45019,7 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/concrete,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -42227,6 +45066,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"tgk" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "tgC" = (
 /obj/structure/table/reinforced{
 	req_access = list(33)
@@ -42287,9 +45136,14 @@
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
 "tig" = (
+/obj/structure/bed/stool/chair/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -42443,11 +45297,11 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/obj/structure/table/wood,
-/obj/machinery/computer/security/wooden_tv{
-	pixel_x = 1;
-	pixel_y = 8
-	},
+/obj/structure/table,
+/obj/item/material/shard/wood,
+/obj/item/material/shard/wood,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -42456,9 +45310,11 @@
 /obj/structure/toilet{
 	pixel_y = 8
 	},
-/obj/machinery/light/small{
+/obj/machinery/light/small/broken{
 	dir = 1
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
@@ -42705,12 +45561,18 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
-/obj/structure/flora/pottedplant/largebush,
+/obj/structure/flora/pottedplant/empty{
+	pixel_x = -11
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "tsp" = (
+/obj/structure/bed/padded,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/blocks{
 	temperature = 315.15
 	},
@@ -42738,6 +45600,7 @@
 /obj/structure/bed/stool/chair/sofa/right/beige{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -42886,6 +45749,17 @@
 /obj/item/gun/projectile/sec/lethal,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"tuK" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "tuR" = (
 /obj/structure/konyang_cliff{
 	icon_state = "topcorner_east";
@@ -43187,6 +46061,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/inn)
+"tAW" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner,
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/item/stack/material/sandstone{
+	pixel_y = 4
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/alley)
 "tBc" = (
 /turf/simulated/open,
 /area/new_blades)
@@ -43208,6 +46098,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"tBY" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "tCq" = (
 /obj/structure/platform,
 /obj/structure/lattice/catwalk/indoor/urban,
@@ -43256,6 +46156,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
@@ -43405,6 +46306,17 @@
 /obj/structure/bed/handrail,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"tHj" = (
+/obj/effect/floor_decal/spline/fancy/wood/cee{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "tHx" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -43505,10 +46417,18 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "tJI" = (
-/obj/structure/bed/padded,
-/obj/structure/curtain/open/bed,
-/obj/item/bedsheet/brown,
-/turf/simulated/floor/sidewalk/flat{
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/flora/pottedplant/empty{
+	pixel_y = 10;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -43727,6 +46647,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"tRh" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "tRn" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 8
@@ -43801,6 +46734,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"tTf" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/machinery/light/broken{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "tTu" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/curb{
@@ -44072,9 +47022,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
-/obj/structure/flora/pottedplant/largebush{
-	pixel_y = 8
+/obj/structure/flora/pottedplant/empty{
+	pixel_x = -11
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -44104,9 +47055,10 @@
 /obj/structure/toilet{
 	dir = 8
 	},
-/obj/machinery/light/small{
+/obj/machinery/light/small/broken{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
 	},
@@ -44185,6 +47137,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"ubQ" = (
+/obj/effect/floor_decal/concrete/large{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "ucL" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -44337,6 +47300,8 @@
 	dir = 9
 	},
 /obj/structure/coatrack,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -44455,6 +47420,11 @@
 /obj/structure/rod_railing{
 	dir = 4
 	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -44625,6 +47595,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"umg" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "umx" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -44730,6 +47713,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"unX" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "uok" = (
 /obj/structure/platform_deco{
 	dir = 8
@@ -44759,6 +47754,19 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"uoZ" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
+	},
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -44987,7 +47995,8 @@
 /obj/structure/bed/stool/chair/sofa/beige{
 	dir = 1
 	},
-/obj/machinery/light/colored/decayed,
+/obj/machinery/light/broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
@@ -45012,10 +48021,11 @@
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
 "uuZ" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -45075,6 +48085,16 @@
 	pixel_x = 9
 	},
 /obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"uwt" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/bed/padded,
 /obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
@@ -45205,6 +48225,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"uzQ" = (
+/turf/simulated/floor/plating/asteroid{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uAd" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -45323,6 +48348,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"uCb" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "uCc" = (
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
@@ -45344,6 +48379,7 @@
 /area/shuttle/scc_evac)
 "uCr" = (
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -45501,6 +48537,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
+"uFR" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "uGx" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/computer_hardware/hard_drive{
@@ -45554,6 +48602,22 @@
 /obj/item/storage/firstaid/large/combat,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"uHP" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/machinery/light/broken{
+	dir = 1
+	},
+/obj/structure/bed/padded,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "uHR" = (
 /obj/structure/platform_deco,
 /obj/structure/railing/mapped,
@@ -45623,6 +48687,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"uJx" = (
+/obj/structure/bed/padded,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "uKu" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -45633,6 +48707,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"uLU" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/item/broken_bottle{
+	pixel_x = -12;
+	pixel_y = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "uMf" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -45708,6 +48798,16 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"uNT" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -45836,6 +48936,19 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/new_blades/mudki/interiors/restaurant)
+"uPy" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -20;
+	pixel_y = 3
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "uQD" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -46008,10 +49121,11 @@
 	},
 /area/new_blades/mudki/interiors/library)
 "uTx" = (
-/obj/structure/table/wood,
-/obj/item/modular_computer/laptop/preset/civilian{
-	pixel_y = 10
+/obj/item/trash/tray{
+	pixel_x = 9
 	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -46030,6 +49144,20 @@
 "uTA" = (
 /turf/simulated/open,
 /area/new_blades/mudki/interiors/north_housing)
+"uTX" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/light/broken{
+	dir = 8
+	},
+/obj/structure/bed/padded,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "uUj" = (
 /obj/effect/floor_decal/industrial/outline_door{
 	color = "#aba4a1"
@@ -46047,6 +49175,11 @@
 	pixel_y = 0
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/item/stack/material/sandstone{
+	pixel_y = -6;
+	pixel_x = 7
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -46240,6 +49373,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"uYj" = (
+/obj/structure/table/stone/marble,
+/obj/item/trash/tray,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "uYz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -46321,6 +49462,19 @@
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/scc_evac)
+"uZE" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.35;
+	light_range = 12
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uZG" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/reagent_containers/food/snacks/candy/koko{
@@ -46481,6 +49635,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vdi" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/obj/machinery/door/urban{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vdN" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -46683,6 +49852,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/charging_station)
+"vhe" = (
+/obj/machinery/light/broken,
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vhs" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -46807,6 +49983,14 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"vjh" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vjz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -46934,9 +50118,11 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -46960,6 +50146,21 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"vnE" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/light/broken{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -47002,6 +50203,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vpP" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vpS" = (
 /obj/machinery/appliance/cooker/stove,
 /obj/machinery/light/colored/decayed{
@@ -47090,9 +50301,12 @@
 	},
 /area/new_blades)
 "vsm" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/black,
-/obj/structure/curtain/open/bed,
+/obj/item/trash/board{
+	pixel_x = -9;
+	pixel_y = -10
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -47324,6 +50538,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -47346,6 +50562,23 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"vxq" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/item/broken_bottle{
+	pixel_x = -17;
+	pixel_y = -14
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vyq" = (
 /obj/structure/bed/stool/chair/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -47548,6 +50781,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vCS" = (
+/obj/structure/bonfire/fireplace{
+	pixel_x = 0;
+	density = 0
+	},
+/obj/item/material/stool/chair/wood{
+	dir = 1;
+	pixel_y = 12;
+	pixel_x = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vCT" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
@@ -47869,6 +51117,13 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"vKm" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/structure/table,
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vKD" = (
 /obj/structure/chainlink_fence{
 	dir = 4
@@ -47878,6 +51133,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vLq" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/item/material/stool/chair/wood,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vLr" = (
 /obj/structure/flora/bush/jungle/c/random,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -47890,6 +51158,8 @@
 	density = 0
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -47944,13 +51214,16 @@
 	},
 /area/new_blades/mudki/interiors/charging_station)
 "vNn" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/machinery/light/colored/decayed{
+/obj/structure/table,
+/obj/item/stack/material/wood/branch,
+/obj/item/material/shard/wood,
+/obj/machinery/light/broken{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -48025,9 +51298,10 @@
 /obj/structure/rod_railing{
 	dir = 4
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -48190,12 +51464,11 @@
 	},
 /area/new_blades)
 "vSX" = (
-/obj/structure/bed/padded,
-/obj/structure/curtain/open/bed,
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/item/bedsheet/brown,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -48271,7 +51544,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
-/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -48284,6 +51559,19 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
+"vVR" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
@@ -48403,6 +51691,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
+"vYk" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vYC" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 1
@@ -48458,18 +51756,22 @@
 /obj/machinery/door/urban{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "vZC" = (
-/obj/structure/table/wood,
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/structure/table,
+/obj/item/stack/material/wood/branch,
+/obj/item/material/shard/wood,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -48791,10 +52093,14 @@
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
 "wko" = (
-/obj/structure/table/wood,
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 4
+	},
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -48839,10 +52145,11 @@
 	},
 /area/new_blades/mudki/road)
 "wlb" = (
-/obj/structure/table/wood,
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -48896,10 +52203,10 @@
 	},
 /area/new_blades)
 "wlZ" = (
-/obj/structure/table/stone/marble,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/floor_damage/burned3,
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
@@ -48967,12 +52274,11 @@
 	},
 /area/new_blades/mudki/interiors/convenience)
 "wnA" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -48995,6 +52301,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"woW" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/item/material/stool/chair/wood,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "wpa" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -49137,7 +52457,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/structure/table/wood,
+/obj/item/stack/material/sandstone{
+	pixel_y = 2;
+	pixel_x = 6
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -49421,6 +52745,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"wzM" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/structure/coatrack,
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "wzS" = (
 /turf/simulated/wall/sandstone,
 /area/new_blades/mudki/interiors/convenience)
@@ -49465,6 +52799,21 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
+"wAF" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/structure/flora/pottedplant/empty{
+	pixel_x = -11
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -49724,6 +53073,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"wEN" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "wES" = (
 /obj/machinery/door/urban,
 /obj/random/dirt_75,
@@ -49968,6 +53330,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"wKM" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "wKU" = (
 /obj/structure/shipping_container,
 /obj/effect/overlay/container_logo{
@@ -49988,6 +53366,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"wLO" = (
+/obj/structure/bed/stool/chair/wood{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "wLT" = (
 /obj/effect/floor_decal/industrial/outline/service,
 /obj/structure/closet/secure_closet/freezer,
@@ -50005,12 +53392,15 @@
 	},
 /area/new_blades)
 "wMA" = (
-/obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/sink/kitchen{
 	dir = 4;
 	pixel_x = -20;
 	pixel_y = 5
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -50085,6 +53475,11 @@
 /area/new_blades)
 "wOP" = (
 /obj/structure/table/stone/marble,
+/obj/item/reagent_containers/food/drinks/bottle{
+	pixel_x = 9;
+	pixel_y = 6
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
@@ -50163,6 +53558,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"wQe" = (
+/obj/structure/trash_pile,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete/square{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "wQN" = (
 /obj/machinery/mech_recharger/automobile,
 /obj/effect/floor_decal/industrial/outline{
@@ -50213,11 +53615,12 @@
 /area/new_blades)
 "wSX" = (
 /obj/structure/bed/stool/chair/wood{
-	dir = 1
+	dir = 8
 	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -50255,6 +53658,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"wTS" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/obj/random/junk,
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "wUi" = (
 /obj/structure/closet/wardrobe/red,
 /turf/simulated/floor/shuttle/dark_red,
@@ -50602,6 +54015,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"xcC" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/item/broken_bottle{
+	pixel_x = -17;
+	pixel_y = -14
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "xcH" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -50609,9 +54035,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 8
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -50654,6 +54081,7 @@
 	pixel_x = 20;
 	pixel_y = 3
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -50677,6 +54105,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"xeG" = (
+/obj/effect/floor_decal/concrete{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "xeL" = (
 /obj/structure/platform_deco{
 	dir = 4
@@ -50861,6 +54299,16 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"xju" = (
+/obj/machinery/door/urban{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "xjz" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -50900,6 +54348,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
@@ -51024,6 +54476,10 @@
 /area/new_blades/mudki/interiors/restaurant)
 "xmP" = (
 /obj/structure/table/wood,
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -51077,9 +54533,11 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -51169,7 +54627,10 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/structure/table/wood,
+/obj/structure/table,
+/obj/item/stack/material/wood/branch,
+/obj/item/material/shard/wood,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -51181,7 +54642,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/colored/decayed,
+/obj/machinery/light/broken,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -51267,11 +54730,15 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "xsL" = (
-/obj/structure/table/wood,
+/obj/structure/table/wood{
+	flipped = 1;
+	dir = 8
+	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/sidewalk{
+/obj/random/dirt_75,
+/turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
@@ -51422,9 +54889,8 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
-/obj/structure/coatrack{
-	pixel_y = 4
-	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -51471,6 +54937,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"xxb" = (
+/obj/machinery/light/broken,
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/item/broken_bottle{
+	pixel_x = -4
+	},
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "xxK" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 8
@@ -51551,6 +55027,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"xBS" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/structure/coatrack,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "xCc" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -51582,13 +55069,15 @@
 	},
 /area/new_blades)
 "xCr" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
 /obj/structure/sink/kitchen{
 	dir = 8;
 	pixel_x = 20
 	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -51645,11 +55134,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"xEc" = (
+/obj/effect/decal/cleanable/floor_damage/burned3,
+/obj/machinery/constructable_frame/temp_deco{
+	icon_state = "box_1"
+	},
+/turf/simulated/floor/lino/diamond{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "xEn" = (
-/obj/machinery/appliance/cooker/oven,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/burned4,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -51735,6 +55234,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"xGO" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "xGY" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/unathi/huytai{
@@ -51968,6 +55480,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"xNQ" = (
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "xNW" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -52061,6 +55580,11 @@
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 9
+	},
+/obj/effect/decal/fake_object/light_source/invisible{
+	light_color = "#ffffff";
+	light_power = 0.2;
+	light_range = 12
 	},
 /turf/simulated/floor/concrete{
 	temperature = 315.15
@@ -52254,14 +55778,28 @@
 	},
 /area/new_blades)
 "xUZ" = (
-/obj/structure/table/stone/marble,
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
+/obj/item/material/shard/shrapnel,
+/obj/random/dirt_75,
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"xVk" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/random/junk,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "xVo" = (
 /obj/effect/decal/road_marking/crosswalk,
 /turf/simulated/floor/asphalt{
@@ -52372,6 +55910,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"xXq" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "xXG" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 1
@@ -52424,12 +55975,14 @@
 	},
 /area/new_blades/mudki/road)
 "xYQ" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -52473,6 +56026,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -52575,6 +56129,8 @@
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -52664,6 +56220,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"yef" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "yen" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/concrete{
@@ -52684,6 +56251,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
+"yeD" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/item/reagent_containers/food/drinks/bottle{
+	pixel_x = -12
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "yeL" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -52922,6 +56502,20 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"yiW" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/table/wood,
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "yjm" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
@@ -59587,8 +63181,8 @@ dek
 jyv
 izX
 dek
-cqm
-dek
+qrY
+pWv
 gUZ
 fMO
 fMO
@@ -59841,10 +63435,10 @@ dAg
 dAg
 gUk
 dek
-eYs
-pyO
-mXL
-cqm
+tTf
+feW
+hGv
+bls
 dek
 dek
 dek
@@ -60097,14 +63691,14 @@ dek
 dek
 dek
 qlj
+pWv
+pLt
+kxY
 dek
-xis
-xis
-dek
-ieW
-gNA
-ctF
-cFD
+iAN
+jck
+bQw
+jlg
 dek
 ddB
 xjf
@@ -60358,7 +63952,7 @@ dek
 dek
 dek
 dek
-nEF
+hgt
 kPj
 dek
 dek
@@ -60613,12 +64207,12 @@ dek
 cTh
 cGt
 dek
-gFq
+sVh
+jQm
 odR
-odR
-uyL
+rqq
 fnm
-wOP
+oRX
 dek
 rum
 xjf
@@ -60870,12 +64464,12 @@ dek
 tWo
 ity
 okl
-nEF
-nEF
-nEF
-lpS
-rBk
-svu
+rjX
+rjX
+cxi
+pTa
+xBS
+bRg
 dek
 qFs
 xjf
@@ -61127,12 +64721,12 @@ dek
 kUg
 ity
 dek
-sgA
+kem
 arQ
-qOY
-uyL
-rBk
-pZY
+wTS
+sBA
+rFO
+cus
 dek
 qFs
 xjf
@@ -61388,7 +64982,7 @@ dek
 dek
 dek
 dek
-dek
+pWv
 dek
 dek
 ddB
@@ -63170,7 +66764,7 @@ aoY
 dek
 dek
 dek
-kwN
+xju
 dek
 dek
 dek
@@ -63423,12 +67017,12 @@ rmc
 txG
 tGb
 faY
-aoY
-dek
+uZE
+pWv
 sIK
 ejp
-qjz
-pcM
+aZA
+pdt
 rRu
 qkw
 yaf
@@ -63684,15 +67278,15 @@ kTG
 dek
 reh
 oxp
-qjz
-wtU
-uZk
-atE
-ieW
-uyL
-uZk
+bIH
+xNQ
+mVv
+khU
+tbk
+pck
+bCf
 fze
-ieW
+gmw
 ewl
 dek
 qlj
@@ -63939,17 +67533,17 @@ tGb
 faY
 kTG
 dek
-sYk
-qqJ
+pBe
+pQR
 kDA
-lda
-lda
-lda
-lda
-aay
-lda
-lda
-lda
+olQ
+vVR
+uDw
+kLw
+aad
+xVk
+coi
+gpe
 ftW
 dek
 crO
@@ -64198,9 +67792,9 @@ fcL
 dek
 dek
 dek
-qjz
+aZA
 slc
-fGL
+xcC
 fGL
 mUz
 dek
@@ -64208,7 +67802,7 @@ dek
 dUU
 dek
 dek
-dek
+pWv
 crO
 dek
 xCt
@@ -64454,15 +68048,15 @@ faY
 fcL
 dek
 rlb
-ctF
-qjz
+bQw
+esG
 xEn
 ele
 wqX
 xdt
 dek
 gSA
-fPJ
+rPQ
 wrV
 dek
 mWq
@@ -64719,7 +68313,7 @@ dek
 dek
 dek
 qEO
-kPJ
+kda
 pWF
 dek
 hFq
@@ -64977,7 +68571,7 @@ cGt
 dek
 dek
 dek
-dek
+pWv
 dek
 wAN
 dAg
@@ -65904,10 +69498,10 @@ uOn
 mhE
 gVi
 qpM
-mjJ
-qRC
-qlw
-hDp
+qpM
+qpM
+qpM
+qpM
 qpM
 vfH
 qpM
@@ -66160,11 +69754,11 @@ qpM
 wbm
 nXA
 qpM
-qpM
-qoO
-wsn
-nLw
-nFW
+cRV
+mjJ
+qRC
+qlw
+hDp
 qpM
 vfH
 qpM
@@ -66417,11 +70011,11 @@ kBL
 qpM
 qpM
 qpM
-qpM
-rKb
-fTG
-mJG
-qpM
+uzQ
+qoO
+wsn
+nLw
+nFW
 qpM
 vfH
 qpM
@@ -66674,11 +70268,11 @@ dZQ
 kBL
 qpM
 qpM
-qpM
-mev
-rYO
-dhe
-xpk
+rBx
+rKb
+fTG
+mJG
+oBR
 qpM
 vfH
 qpM
@@ -66931,11 +70525,11 @@ oUy
 lCo
 dZQ
 kBL
-qpM
-qpM
-qpM
-qpM
-qpM
+cGl
+mev
+rYO
+dhe
+xpk
 qpM
 vfH
 qpM
@@ -71655,8 +75249,8 @@ dek
 dek
 dek
 wlK
-dek
-dek
+pWv
+cXC
 dek
 dek
 dek
@@ -71913,9 +75507,9 @@ mAl
 dek
 xvg
 dek
-wOP
+hWr
 wMA
-fZC
+cMi
 vNn
 dek
 wko
@@ -72171,7 +75765,7 @@ dek
 xks
 dek
 jHq
-uCr
+kYU
 fZC
 wnA
 dek
@@ -72427,13 +76021,13 @@ aDb
 dek
 aVy
 dek
-pZY
+cWg
 uCr
 jig
-arj
-okl
+xCt
+afC
 mia
-peS
+ePZ
 dek
 aKo
 sKX
@@ -72686,12 +76280,12 @@ wlK
 dek
 dek
 dek
-kwN
+dro
 dek
 dek
 dek
 dek
-dek
+pWv
 wlK
 sKX
 sKX
@@ -72931,7 +76525,7 @@ qCI
 tSE
 nKV
 tSE
-tSE
+jQo
 tSE
 tSE
 nKV
@@ -72943,7 +76537,7 @@ nKV
 tSE
 tSE
 nKV
-nKV
+ezj
 nKV
 pVL
 fNa
@@ -73032,7 +76626,7 @@ oPl
 oPl
 oPl
 oPl
-oPl
+jof
 oPl
 oPl
 oPl
@@ -73290,10 +76884,10 @@ ycq
 vmG
 deu
 oPl
-hvA
-dYt
-uXG
-rhU
+qdr
+pEf
+wES
+vin
 oPl
 rmc
 txG
@@ -73543,12 +77137,12 @@ faY
 cQD
 mTc
 oPl
-kLn
+vCS
 mEI
 vwC
 oPl
-hvA
-nvl
+lmd
+tyI
 oPl
 oPl
 oPl
@@ -73800,14 +77394,14 @@ faY
 wST
 uZp
 oPl
-dYt
-cNl
-aQV
-aQV
+aPj
+ubQ
+kpp
+xGO
 mJW
 iWG
-uzJ
-sDA
+dyo
+ifz
 oPl
 pnc
 txG
@@ -74058,13 +77652,13 @@ wST
 mTc
 oPl
 jRl
-xYQ
+uLU
 cWv
 sDZ
-vqH
+tcv
 xYQ
-uzJ
-iBG
+gbO
+vhe
 oPl
 vgh
 txG
@@ -74312,16 +77906,16 @@ xQJ
 vFZ
 faY
 cQD
-mTc
-qjS
-nvl
-xYQ
+afv
+wXy
+qcO
+qOi
 sCR
-ibQ
+klu
 mZH
-xYQ
-ivn
-ocQ
+vLq
+xbb
+uYj
 oPl
 rmc
 cyZ
@@ -74572,11 +78166,11 @@ cQD
 mTc
 oPl
 hRA
-xYQ
+jRB
 jda
-oOh
-ncJ
-qOi
+gpu
+wzM
+fBO
 oPl
 oPl
 oPl
@@ -74827,12 +78421,12 @@ vFZ
 faY
 wST
 ipp
+jof
 oPl
 oPl
 oPl
-oPl
-mLY
-mLY
+jnC
+tRh
 nbr
 oPl
 qtP
@@ -75085,12 +78679,12 @@ wwm
 wST
 kLZ
 oPl
-dkv
+cze
 huW
 oPl
 jRl
-hvb
-nvl
+tHj
+qcO
 oPl
 pen
 jAV
@@ -75343,11 +78937,11 @@ cQD
 uZp
 oPl
 pnQ
-ayY
-qjS
-dYt
-fKt
-ogw
+aLB
+wXy
+bXh
+iaH
+aPj
 oPl
 mhH
 igI
@@ -75599,13 +79193,13 @@ faY
 wST
 uZp
 oPl
-iuK
+bOX
 cww
 oPl
 oPl
-lce
+qeS
 oPl
-oPl
+jof
 egX
 jfV
 bFs
@@ -75856,12 +79450,12 @@ upm
 cQD
 mTc
 oPl
-bCJ
+nIX
 bCJ
 oPl
-tig
-tig
-tig
+mlU
+kFr
+yeD
 oPl
 dLy
 mlr
@@ -76118,7 +79712,7 @@ oPl
 oPl
 vOM
 uhX
-lBk
+xeG
 oPl
 dLy
 rbf
@@ -76375,7 +79969,7 @@ cGt
 oPl
 bem
 bem
-dvM
+oba
 oPl
 dLy
 mlr
@@ -76629,7 +80223,7 @@ arh
 dLy
 dps
 jzh
-oPl
+tdz
 oPl
 oPl
 oPl
@@ -76889,11 +80483,11 @@ hRY
 tHx
 aqw
 aqw
-phd
+tAW
 tHx
 mUu
 oPl
-dJB
+cSC
 ezy
 fAb
 oPl
@@ -77147,12 +80741,12 @@ oPl
 oPl
 oPl
 qlj
-oPl
-oPl
-oPl
-iuK
-qvX
 jof
+oPl
+oPl
+qqJ
+qvX
+fIx
 oPl
 bFs
 txG
@@ -77405,10 +80999,10 @@ gnz
 oPl
 qlj
 oPl
-pTO
+esq
 oPl
-nBO
-mtn
+kRF
+fnr
 iDy
 oPl
 vgh
@@ -77566,7 +81160,7 @@ dAg
 sRB
 gUk
 dek
-dek
+pWv
 dek
 dek
 dek
@@ -77662,12 +81256,12 @@ aMm
 oPl
 qlj
 oPl
-vYe
+umP
 oPl
 oPl
-pOO
+qsj
 oPl
-oPl
+jof
 pnc
 txG
 xQJ
@@ -77824,9 +81418,9 @@ dek
 ddB
 dek
 fOF
-ctF
-cQX
-rTs
+qfP
+fyg
+aUB
 dek
 vgh
 txG
@@ -77919,7 +81513,7 @@ oPl
 oPl
 gcC
 oPl
-aQV
+rZk
 hAQ
 fIl
 aRU
@@ -78082,7 +81676,7 @@ qFs
 dek
 dek
 dek
-cQX
+xXq
 foA
 dek
 vgh
@@ -78176,9 +81770,9 @@ sDA
 oPl
 qlj
 oPl
-sDZ
-vqH
-qOi
+ahM
+ldW
+fZe
 hvb
 rto
 oPl
@@ -78336,11 +81930,11 @@ swg
 hSV
 dek
 qFs
-dek
-iAc
-uCr
-cQX
-wnA
+pWv
+drz
+qfT
+eEa
+myv
 dek
 rmc
 sHi
@@ -78434,7 +82028,7 @@ oPl
 crO
 oPl
 dkk
-mZH
+dnD
 qOi
 fKt
 uun
@@ -78595,11 +82189,11 @@ dek
 qFs
 dek
 hTd
-uCr
+fZx
 lIX
-nEF
-okl
-bFs
+pAz
+afC
+oZu
 txG
 tGb
 faY
@@ -78690,9 +82284,9 @@ sEQ
 oPl
 crO
 oPl
-oOh
+vYk
 ncJ
-qOi
+qDM
 pnP
 tsT
 oPl
@@ -78854,7 +82448,7 @@ dek
 wOP
 xdt
 fZC
-fyF
+uCb
 dek
 rmc
 txG
@@ -78948,12 +82542,12 @@ oPl
 crO
 oPl
 tYN
-vRX
+sOx
 lSu
-aQV
+gNA
 aQV
 qjS
-bFs
+oZu
 txG
 xQJ
 faY
@@ -79110,7 +82704,7 @@ ddB
 dek
 dek
 dek
-kwN
+dro
 dek
 dek
 bFs
@@ -79205,9 +82799,9 @@ oPl
 crO
 oPl
 oPl
-wpO
+fwH
 oPl
-ovj
+nZv
 ovj
 oPl
 bFs
@@ -79367,7 +82961,7 @@ ddB
 dek
 tsp
 pzH
-fPJ
+smg
 oDJ
 dek
 bFs
@@ -79462,7 +83056,7 @@ oPl
 soF
 oPl
 hKL
-pqG
+seN
 oPl
 hfg
 xUZ
@@ -79719,10 +83313,10 @@ oPl
 qlj
 oPl
 bQK
-dvM
+iiQ
 oPl
 ivy
-iBG
+csy
 oPl
 pnc
 txG
@@ -79883,7 +83477,7 @@ dek
 dek
 dek
 dek
-dek
+pWv
 rmc
 txG
 tGb
@@ -79976,10 +83570,10 @@ oPl
 utw
 oPl
 aev
-dvM
+oba
 oPl
-qKn
-sDA
+kwl
+bnS
 oPl
 vgh
 sHi
@@ -80231,7 +83825,7 @@ wlK
 dLy
 dLy
 dLy
-oPl
+jof
 oPl
 oPl
 oPl
@@ -81150,7 +84744,7 @@ bkI
 sQG
 sQG
 sEa
-sEa
+oVD
 mgG
 sEa
 mgG
@@ -81166,7 +84760,7 @@ mgG
 sEa
 jVg
 jVg
-sEa
+oVD
 sEa
 mgG
 bap
@@ -81423,7 +85017,7 @@ wlK
 dek
 dek
 dek
-kwN
+dro
 dek
 dek
 bFs
@@ -81677,10 +85271,10 @@ xZl
 eAS
 eAS
 xZl
-dek
-pZY
+cXC
+ffQ
 wMA
-fZC
+auo
 cdw
 dek
 bFs
@@ -81779,7 +85373,7 @@ oPl
 oPl
 oPl
 oPl
-oPl
+jof
 bFs
 txG
 xQJ
@@ -81934,9 +85528,9 @@ qRE
 dek
 dek
 dek
-dek
-jHq
-uCr
+pWv
+lHy
+kjC
 fZC
 gll
 dek
@@ -81960,7 +85554,7 @@ dek
 dek
 dek
 dek
-kwN
+dro
 dek
 wlK
 wlK
@@ -81997,11 +85591,11 @@ tWK
 oLT
 lcu
 wpi
-oPl
+jof
 nyF
-uXG
-tuz
-scd
+qNB
+sXO
+eCu
 oPl
 rmc
 sHi
@@ -82032,11 +85626,11 @@ qpH
 oPl
 ail
 oPl
-tms
-uXG
-hvA
-ogw
-oPl
+nyF
+wES
+peS
+wQe
+ltx
 bFs
 txG
 xQJ
@@ -82192,10 +85786,10 @@ dek
 uTx
 jpR
 dek
-wOP
-bSG
-fZC
-wnA
+kiX
+hee
+fKw
+pQq
 dek
 rmc
 txG
@@ -82217,11 +85811,11 @@ dek
 khu
 rXS
 dek
-kQZ
+igL
 dek
 dek
 dek
-dek
+pWv
 xZl
 rmc
 txG
@@ -82257,7 +85851,7 @@ xZl
 oPl
 oPl
 oPl
-tuz
+cbb
 cgy
 oPl
 rmc
@@ -82291,8 +85885,8 @@ qlj
 oPl
 oPl
 oPl
-hvA
-nvl
+tJI
+cFD
 oPl
 bFs
 txG
@@ -82447,7 +86041,7 @@ dek
 qRE
 dek
 mRV
-sLn
+dpf
 dek
 dek
 sfH
@@ -82471,13 +86065,13 @@ dek
 dek
 wkK
 dek
-cqm
+dMX
 vSX
 dek
-kQZ
+hIs
 dtZ
-ctF
-cFD
+bQw
+jlg
 dek
 wpi
 vgh
@@ -82512,10 +86106,10 @@ thw
 rKs
 nHL
 oPl
-ocQ
+dgg
 ieC
-tuz
-hRA
+aRW
+cFD
 oPl
 rmc
 txG
@@ -82546,9 +86140,9 @@ sBI
 oPl
 qlj
 oPl
-sDA
-ieC
-tuz
+xEc
+uPy
+nNW
 nDu
 oPl
 rmc
@@ -82704,12 +86298,12 @@ dek
 gGV
 dek
 iCi
-wtU
-wtU
-okl
-axU
+nMb
+dfd
+afC
+rcc
 trt
-jSD
+tBY
 dek
 pnc
 txG
@@ -82728,7 +86322,7 @@ dek
 kus
 iUH
 dek
-kjC
+dWx
 dek
 dek
 kQZ
@@ -82769,11 +86363,11 @@ pzc
 rKs
 wlK
 oPl
-fGW
-cdh
+bnv
+fRH
 hLL
-mLY
-qjS
+jnC
+wXy
 bFs
 txG
 tGb
@@ -82806,9 +86400,9 @@ oPl
 aZM
 cdh
 rZf
-mLY
-qjS
-rmc
+siw
+wXy
+uoZ
 txG
 xQJ
 faY
@@ -82964,9 +86558,9 @@ lFK
 oRW
 uge
 dek
-axU
+tgk
 dek
-eWj
+ewG
 dek
 bFs
 txG
@@ -82985,13 +86579,13 @@ dek
 whb
 mPA
 dek
-fFr
-fFr
-fFr
+umg
+bgZ
+hkp
 iFJ
-qpx
-rBk
-wOP
+sur
+wpp
+dpW
 dek
 eAS
 rmc
@@ -83028,8 +86622,8 @@ wlK
 oPl
 pFD
 foy
-tuz
-cWv
+nNW
+rdg
 oPl
 bFs
 txG
@@ -83061,8 +86655,8 @@ oPl
 gZt
 oPl
 aYy
-foy
-tuz
+cqH
+aRW
 rdg
 oPl
 bFs
@@ -83218,12 +86812,12 @@ jfV
 qRE
 dek
 inD
-fWZ
+uJx
 pcE
 dek
-axU
+qAP
 dek
-iWB
+iwu
 dek
 bFs
 txG
@@ -83244,11 +86838,11 @@ lpO
 dek
 sSY
 oIS
-fhn
-qjz
+fly
+pPd
 qpx
-rBk
-svu
+sCi
+gsw
 dek
 wlK
 bFs
@@ -83284,7 +86878,7 @@ nbG
 nHL
 oPl
 dht
-yby
+aQa
 cuz
 xrd
 oPl
@@ -83307,7 +86901,7 @@ tGb
 vFZ
 faY
 cQD
-uZp
+jaC
 wXy
 sBs
 uaU
@@ -83317,9 +86911,9 @@ bbW
 oPl
 sMT
 oPl
-nvl
-nvl
-hvA
+cFD
+bmM
+jMh
 jJV
 oPl
 vgh
@@ -83473,15 +87067,15 @@ fwg
 fwg
 fNu
 tRw
+pWv
 dek
 dek
 dek
 dek
-dek
-kwN
-dek
+dro
 dek
 dek
+pWv
 bFs
 sHi
 tGb
@@ -83498,14 +87092,14 @@ hBk
 dek
 vct
 enP
-dek
-obn
+pWv
+oZK
 pVp
-cqm
-qjz
-qpx
+ejp
+bSj
+hGA
 xCr
-pZY
+lNz
 dek
 wlK
 bFs
@@ -83542,8 +87136,8 @@ wpi
 oPl
 gmT
 dyR
-xYQ
-jda
+faW
+iWB
 oPl
 vgh
 txG
@@ -83575,8 +87169,8 @@ oPl
 urt
 oPl
 tlM
-cGl
-hvA
+bzq
+lmd
 hvd
 oPl
 pnc
@@ -83735,7 +87329,7 @@ nHL
 wlK
 wlK
 nHL
-eAS
+ciK
 eAS
 wlK
 wlK
@@ -83755,7 +87349,7 @@ dek
 dek
 wlK
 wlK
-dek
+pWv
 dek
 dek
 dek
@@ -83801,7 +87395,7 @@ vZw
 oPl
 oPl
 oPl
-oPl
+jof
 bFs
 sHi
 tGb
@@ -83830,7 +87424,7 @@ oPl
 oPl
 oPl
 qlj
-oPl
+jof
 oPl
 hjW
 oPl
@@ -84056,7 +87650,7 @@ wpi
 oPl
 vLs
 awC
-dkv
+iOC
 oPl
 dkc
 bFs
@@ -84089,7 +87683,7 @@ oPl
 qlj
 oPl
 hzI
-ayY
+iIS
 pxp
 rEQ
 oPl
@@ -84311,9 +87905,9 @@ qvN
 nPA
 nHL
 oPl
-lzQ
-hvA
-cgy
+ptG
+krX
+olz
 oPl
 mgf
 rmc
@@ -84345,9 +87939,9 @@ oPl
 oPl
 qlj
 oPl
-teC
+uwt
 vmn
-pxp
+iQi
 mVX
 oPl
 rmc
@@ -84568,9 +88162,9 @@ mTc
 wlK
 nHL
 oPl
-bCJ
+mEA
 rhg
-mlU
+kcE
 oPl
 mgf
 bFs
@@ -84606,7 +88200,7 @@ oPl
 oPl
 oPl
 oPl
-oPl
+jof
 rmc
 txG
 xQJ
@@ -84824,7 +88418,7 @@ cQD
 uZp
 nPA
 nHL
-oPl
+jof
 oPl
 oPl
 oPl
@@ -87427,7 +91021,7 @@ oPl
 oPl
 oPl
 qlj
-oPl
+jof
 oPl
 oPl
 oPl
@@ -87684,12 +91278,12 @@ iwP
 qMm
 oPl
 gcC
-oPl
-sDA
+jof
+rTs
 uUp
-xYQ
+fEU
 bFX
-pbR
+klu
 oPl
 rmc
 txG
@@ -87942,10 +91536,10 @@ hBK
 oPl
 qlj
 oPl
-aZM
-cdh
-xYQ
-sCR
+gpv
+rMj
+yiW
+huW
 eeR
 oPl
 rmc
@@ -88200,10 +91794,10 @@ oPl
 crO
 oPl
 wlZ
-foy
-xYQ
-jda
-oOh
+kXH
+pbz
+gHB
+pXS
 oPl
 bFs
 txG
@@ -88459,10 +92053,10 @@ oPl
 gOf
 cNl
 mCo
-mLY
-mLY
-qjS
-bFs
+sSr
+rak
+wXy
+oZu
 txG
 xQJ
 faY
@@ -88713,11 +92307,11 @@ yby
 oPl
 crO
 oPl
-nvl
-tuz
-knK
+iaM
+fJC
+dui
 ahM
-qcO
+wbW
 oPl
 rmc
 txG
@@ -88970,7 +92564,7 @@ aIU
 oPl
 qlj
 oPl
-vYe
+pUY
 oPl
 oPl
 gRb
@@ -89227,11 +92821,11 @@ fGW
 oPl
 qGp
 oPl
-tZQ
+oqL
 oPl
-bih
-mtn
-ekr
+msl
+nqX
+nPG
 oPl
 vgh
 txG
@@ -89742,7 +93336,7 @@ oPl
 dLy
 dLy
 dLy
-oPl
+jof
 oPl
 oPl
 oPl
@@ -95131,7 +98725,7 @@ hfX
 pnO
 sEa
 sEa
-adS
+mVT
 oPl
 msl
 kvY
@@ -95374,14 +98968,14 @@ oPl
 oPl
 oPl
 xZl
+qbI
 wpi
-wpi
 oPl
 oPl
 oPl
 oPl
 oPl
-oPl
+jof
 txG
 jOp
 faY
@@ -95631,13 +99225,13 @@ oPl
 pTO
 oPl
 oPl
-wpO
+fwH
 oPl
 oPl
 jKk
 wlb
 eeU
-dvM
+fNv
 oPl
 txG
 jOp
@@ -95885,16 +99479,16 @@ eCu
 oPl
 wWU
 oPl
-vYe
+iLU
 oPl
 rSm
-nvl
-nvl
-hvA
-sXW
+eGX
+qcO
+jMh
+vpP
 gpu
-jMn
-dvM
+unX
+mjy
 oPl
 txG
 jOp
@@ -96142,15 +99736,15 @@ eCu
 oPl
 bNo
 oPl
-aRU
+qVL
 bXg
-vRX
-vRX
-vRX
+sOx
+wPs
+qsK
 kQI
 sAS
-aQV
-aQV
+kpp
+oaL
 nYN
 oPl
 txG
@@ -96400,14 +99994,14 @@ oPl
 bNo
 oPl
 qvM
-dvM
+hel
 oPl
 oPl
-gRb
+gQo
 oPl
 oPl
 fxF
-omZ
+gXn
 omZ
 oPl
 txG
@@ -96655,17 +100249,17 @@ cnK
 hOh
 oPl
 bNo
-oPl
-scd
-dvM
+kjG
+pKG
+oba
 oPl
 bih
-mtn
+tuK
 ekr
 oPl
 ocQ
-ecq
-sDA
+raD
+bnS
 oPl
 txG
 jOp
@@ -96914,11 +100508,11 @@ oPl
 bNo
 oPl
 oPl
-wpO
+fwH
 oPl
 jBO
-djs
-hUV
+igR
+hdh
 oPl
 oPl
 oPl
@@ -97172,7 +100766,7 @@ qaB
 fwg
 grK
 xQe
-oPl
+jof
 oPl
 oPl
 oPl
@@ -98172,7 +101766,7 @@ oPl
 oPl
 oPl
 oPl
-oPl
+jof
 wlK
 wlK
 apx
@@ -98181,7 +101775,7 @@ xZl
 wpi
 xZl
 wpi
-wpi
+qbI
 wpi
 wpi
 gGp
@@ -98212,7 +101806,7 @@ kmM
 bem
 bem
 xcH
-nvl
+iaM
 oPl
 xZl
 txG
@@ -98427,8 +102021,8 @@ rHp
 wlK
 oPl
 tms
-uXG
-qRn
+wES
+hKY
 oPl
 oPl
 oPl
@@ -98462,13 +102056,13 @@ cLo
 biu
 oPl
 qIW
-huo
+vnE
 xmP
 oPl
 gSy
 fBV
-fBV
-uMf
+wKM
+prf
 rML
 oPl
 xZl
@@ -98685,8 +102279,8 @@ nPA
 oPl
 oPl
 oPl
-hvA
-nvl
+peS
+cFD
 ogw
 oPl
 apx
@@ -98717,14 +102311,14 @@ jiz
 apx
 cLo
 biu
-oPl
-tJI
-mtn
-tJI
+kjG
+msl
+tuK
+rEQ
 oPl
 hdL
-kxy
-pqG
+nPE
+byP
 dKR
 aYN
 oPl
@@ -98942,9 +102536,9 @@ nHL
 oPl
 qSX
 ieC
-tuz
-cWv
-sDZ
+nNW
+aCO
+rLY
 oPl
 apx
 cLo
@@ -98976,15 +102570,15 @@ cLo
 biu
 oPl
 oPl
-pOO
+qsj
 oPl
 oPl
 oPl
-wpO
+fwH
 oPl
 oPl
 oPl
-oPl
+jof
 xZl
 txG
 jOp
@@ -99198,10 +102792,10 @@ jxu
 wpi
 oPl
 gnv
-cdh
-tuz
-sCR
-ibQ
+fRH
+fFT
+emu
+omQ
 oPl
 apx
 cLo
@@ -99230,16 +102824,16 @@ kNf
 kNf
 fhT
 cLo
-biu
-qjS
-aRU
-aRU
-dZx
+mRi
+wXy
+qLH
+sEX
+wEN
 xvj
 nXq
-hvA
-bFX
-pbR
+jMh
+jKk
+wLO
 oPl
 lqL
 xZl
@@ -99453,11 +103047,11 @@ mts
 wlK
 wlK
 wlK
-oPl
+ltx
 mTT
-foy
-tuz
-jda
+kXH
+oqS
+xvj
 oOh
 oPl
 apx
@@ -99489,14 +103083,14 @@ eKt
 vuu
 biu
 oPl
-nvl
-nvl
+qcO
+cFD
 iIs
-aQV
-aQV
-trh
-sCR
-eeR
+kpp
+mlq
+rxA
+hqU
+mJV
 oPl
 lqL
 xZl
@@ -99711,13 +103305,13 @@ jXd
 oPl
 oPl
 oPl
-oPl
+jof
 tfe
 njM
-mLY
+siw
 bIC
-qjS
-apx
+wXy
+gwQ
 cLo
 oPl
 oPl
@@ -99737,7 +103331,7 @@ cMa
 iJT
 iJT
 oPl
-oPl
+kjG
 oPl
 oPl
 oPl
@@ -99746,14 +103340,14 @@ iJT
 iJT
 vzC
 oPl
-vYe
+umP
 oPl
 rwU
-omZ
-hhD
-hvA
-fyf
-nBQ
+qzR
+hMQ
+qdr
+huW
+klu
 oPl
 bZa
 jEQ
@@ -99967,12 +103561,12 @@ mts
 gYu
 oPl
 dJB
-uuZ
+iSO
 oPl
 dZx
-nvl
-nvl
-nDu
+iOC
+guq
+pEf
 oPl
 apx
 cLo
@@ -99991,12 +103585,12 @@ jiz
 apx
 cLo
 biu
+jof
 oPl
 oPl
-oPl
-hzI
-huo
-rEQ
+kjK
+uTX
+uFR
 oPl
 thD
 thD
@@ -100006,7 +103600,7 @@ oPl
 tZQ
 oPl
 ocQ
-ecq
+jkw
 eII
 oPl
 oPl
@@ -100226,8 +103820,8 @@ oPl
 pTy
 iSW
 knQ
-hvA
-knK
+vxq
+rdg
 hqk
 byB
 oPl
@@ -100249,11 +103843,11 @@ apx
 cLo
 biu
 oPl
-pTO
+emi
 oPl
 teC
-mtn
-mVX
+tuK
+luE
 oPl
 lqL
 lqL
@@ -100261,7 +103855,7 @@ lqL
 lqL
 oPl
 oPl
-oPl
+jof
 oPl
 oPl
 oPl
@@ -100481,7 +104075,7 @@ mts
 gYu
 oPl
 nIX
-nIX
+mlU
 oPl
 lUm
 kov
@@ -100506,12 +104100,12 @@ apx
 cLo
 biu
 oPl
-vYe
+umP
 oPl
 oPl
-lce
+vdi
 oPl
-oPl
+jof
 lqL
 lqL
 lqL
@@ -100736,7 +104330,7 @@ orY
 coc
 mts
 lqL
-oPl
+jof
 oPl
 oPl
 oPl
@@ -100763,11 +104357,11 @@ fhT
 cLo
 biu
 oPl
-iSW
+bCW
 gro
-qOi
-nvl
-nvl
+fBO
+iOC
+vjh
 oPl
 oPl
 oPl
@@ -101003,7 +104597,7 @@ mkl
 lph
 wlK
 nZh
-eKt
+sPd
 eKt
 eKt
 eKt
@@ -101018,15 +104612,15 @@ eKt
 eKt
 eKt
 vuu
-biu
-qjS
-aQV
-aQV
+mRi
+wXy
+iXk
+nYa
 mZV
-aQV
+woW
 eyF
 kEb
-ocQ
+vKm
 oPl
 lqL
 xZl
@@ -101260,7 +104854,7 @@ lpE
 oPl
 oPl
 oPl
-wpO
+fwH
 oPl
 oPl
 oPl
@@ -101271,19 +104865,19 @@ oPl
 oPl
 oPl
 oPl
-oPl
+jof
 iJT
 iJT
 iJT
 vzC
 oPl
-hRA
+pQp
 gSO
-cWv
-vqH
-tuz
-uzJ
-iBG
+rdg
+ldW
+sXO
+gbO
+xxb
 oPl
 lqL
 xZl
@@ -101514,18 +105108,18 @@ pHc
 oPl
 oPl
 oPl
-oPl
+jof
 pMl
-noR
-seB
-dYt
-uXG
-rhU
+iFf
+fnG
+pEf
+wES
+lob
 oPl
 sLC
 oPl
-aTp
-sXW
+mEu
+uRV
 gpu
 wSX
 oPl
@@ -101537,9 +105131,9 @@ oPl
 oPl
 oPl
 xsL
-mZH
-tuz
-nBL
+nDi
+wAF
+mFq
 tEw
 oPl
 lqL
@@ -101769,35 +105363,35 @@ thD
 apD
 pHc
 oPl
-dJB
+mZC
 uuZ
 oPl
 cep
-noR
+yef
 cyi
-ogw
+aPj
 oPl
 oPl
 oPl
 wkK
-qjS
-bIC
-mLY
-mLY
+iWv
+pAt
+aQV
+rak
 tDH
 fac
-gnz
+jhV
 xoM
 oPl
 lqL
 lqL
 lqL
 oPl
-jda
-ncJ
+aGB
+glG
 clU
-yby
-yby
+mRC
+ggF
 oPl
 lqL
 xZl
@@ -102026,32 +105620,32 @@ thD
 apD
 pHc
 oPl
-pTy
+uHP
 eIc
 oPl
-ncJ
+gZl
 noR
-cyi
-hmp
+kXZ
+bxW
 omZ
 eKM
 oPl
 wkK
-oPl
-pWv
-nvl
-dYt
+ltx
+pEf
+hcJ
+gtr
 rtt
 oPl
 mlU
-aMm
+ipM
 oPl
 lqL
 lqL
 lqL
 oPl
 tig
-tig
+wcX
 sLI
 iOC
 scd
@@ -102284,20 +105878,20 @@ apD
 pHc
 oPl
 nBO
-ayY
-qjS
+jKk
+wXy
 aBC
 nhG
-seB
+uNT
 sxD
-ecq
-sDA
+jUJ
+bnS
 oPl
 wkK
 oPl
 fxF
-omZ
-hhD
+kHo
+anL
 lon
 oPl
 oPl
@@ -102312,7 +105906,7 @@ oPl
 oPl
 oPl
 oPl
-oPl
+jof
 lqL
 xZl
 xZl
@@ -102539,6 +106133,7 @@ thD
 thD
 apD
 lqL
+jof
 oPl
 oPl
 oPl
@@ -102548,15 +106143,14 @@ oPl
 oPl
 oPl
 oPl
-oPl
-oPl
+tdz
 wkK
 oPl
-sDA
-ecq
+ifz
+jkw
 xKS
-qRn
-uXG
+oEf
+wES
 rhU
 oPl
 lqL
