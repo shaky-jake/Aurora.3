@@ -145,7 +145,7 @@
 
 /area/new_blades/mudki/interiors/water_treatment
 	name = "Water Treatment Plant"
-	area_blurb = "Placeholder"
+	area_blurb = "Water Treatment Plant Placeholder"
 	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
 
