@@ -504,6 +504,10 @@
 	projectile_type = /obj/item/projectile/bullet/pistol/medium/ap
 	max_stack = 15
 
+/obj/item/ammo_casing/moghes_pistol/spent/Initialize()
+	. = ..()
+	expend()
+
 /obj/item/ammo_casing/moghes_rifle
 	desc = "A Moghesian rifle casing."
 	icon_state = "moghes_casing"
@@ -511,3 +515,7 @@
 	caliber = "5.8mm"
 	projectile_type = /obj/item/projectile/bullet/rifle/a556
 	max_stack = 7
+
+/obj/item/ammo_casing/moghes_rifle/spent/Initialize()
+	. = ..()
+	expend()
