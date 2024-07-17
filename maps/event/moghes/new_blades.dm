@@ -54,6 +54,10 @@
 	icon_state = "green"
 	area_blurb = "Alleys Placeholder"
 
+/area/new_blades/mudki/interiors/spaceport
+	name = "Mudki Spaceport"
+	area_blurb "Spaceport Interiors Placeholder"
+
 /area/new_blades/mudki/interiors/north_housing
 	name = "Northern Mudki Housing"
 	area_blurb = "Housing Placeholder"
