@@ -58,16 +58,32 @@
 	name = "Mudki Spaceport"
 	area_blurb = "Spaceport Interiors Placeholder"
 
+/area/new_blades/mudki/interiors/spaceport/checkpoint
+	name = "Spaceport Checkpoint"
+	holomap_color = HOLOMAP_AREACOLOR_SECURITY
+
+/area/new_blades/mudki/interiors/spaceport/warehouse
+	name = "Spaceport Warehouse"
+	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+
+/area/new_blades/mudki/interiors/spaceport/shuttle_maintenance
+	name = "Spaceport Shuttle Maintenance"
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+
+/area/new_blades/mudki/interiors/spaceport/customs
+	name = "Spaceport Administration"
+	holomap_color = HOLOMAP_AREACOLOR_COMMAND
+
 /area/new_blades/mudki/interiors/north_housing
 	name = "Northern Mudki Housing"
 	area_blurb = "Housing Placeholder"
 	requires_power = TRUE
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/south_housing
 	name = "Southern Mudki Housing"
 	area_blurb = "Housing Placeholder"
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/restaurant
 	name = "Restaurant"
@@ -119,7 +135,7 @@
 /area/new_blades/mudki/interiors/charging_station
 	name = "Vehicle Charging Station"
 	area_blurb = "Vehicle Charging Station Placeholder"
-	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/new_blades/mudki/interiors/abandoned_shop
 	name = "Abandoned Shop"
@@ -145,13 +161,13 @@
 	name = "Power Station"
 	area_blurb = "Power Station Placeholder"
 	requires_power = TRUE
-	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/new_blades/mudki/interiors/water_treatment
 	name = "Water Treatment Plant"
 	area_blurb = "Water Treatment Plant Placeholder"
 	requires_power = TRUE
-	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/new_blades/mudki/interiors/water_treatment/UV_room
 	name = "Water Treatment Plant - Disinfection"
