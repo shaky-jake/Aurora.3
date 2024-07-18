@@ -89,6 +89,11 @@
 	area_blurb = "Housing Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
+/area/new_blades/mudki/interiors/custodial
+	name = "Custodial Garage"
+	area_blurb = "Custodial Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
 /area/new_blades/mudki/interiors/restaurant
 	name = "Restaurant"
 	area_blurb = "Restaurant Placeholder"
