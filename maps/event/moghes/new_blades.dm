@@ -94,6 +94,11 @@
 	area_blurb = "Custodial Placeholder"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
+/area/new_blades/mudki/interiors/military_base
+	name = "Military Base"
+	area_blurb = "Military Base Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_SECURITY
+
 /area/new_blades/mudki/interiors/restaurant
 	name = "Restaurant"
 	area_blurb = "Restaurant Placeholder"
