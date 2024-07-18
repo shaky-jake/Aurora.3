@@ -49,6 +49,10 @@
 	area_blurb = "Interiors Placeholder"
 	is_outside = OUTSIDE_NO
 
+/area/new_blades/mudki/interiors/city_wall
+	name = "Mudki City Wall"
+	area_blurb = "Mudki City Walls Placeholder"
+
 /area/new_blades/mudki/interiors/alley
 	name = "Mudki Alleys"
 	icon_state = "green"
