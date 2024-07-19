@@ -134,6 +134,9 @@
 	grew close to bankruptcy, and was bought out by Hephaestus Industries, continuing to operate as a subsidiary of the human megacorporation."
 	worn_overlay = "junzielectric"
 
+/obj/item/clothing/accessory/poncho/unathimantle/junzi/brown
+	color = "#432504"
+
 /obj/item/clothing/accessory/poncho/unathimantle/bard
 	name = "bards' guild mantle"
 	desc = "The cured hide and skin of a large beast, dyed in the vibrant green of the Bards' Guild, also known as the Keepers of Heirlooms. \
@@ -153,6 +156,9 @@
 	the medical industry. This guild was bought out by Hephaestus in 2465, and now provides Hephaestus employees with medical care, as well as continuing to operate most of the Hegemony's medical \
 	industry."
 	worn_overlay = "houseofmedicine"
+
+/obj/item/clothing/accessory/poncho/unathimantle/med/brown
+	color = "#432504"
 
 /obj/item/clothing/accessory/poncho/unathimantle/construction
 	name = "construction coalition mantle"

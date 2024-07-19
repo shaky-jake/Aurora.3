@@ -177,6 +177,10 @@
 		list(mode_name="smite", projectile_type=/obj/item/projectile/beam/pistol/hegemony, modifystate="hegemony_pistol", fire_sound='sound/weapons/laser1.ogg')
 		)
 
+/obj/item/gun/energy/pistol/hegemony/selfcharge
+	self_recharge = TRUE
+	charge_failure_message = "'s charging socket was removed to make room for a recharger."
+
 /obj/item/gun/energy/pistol/goldendeep
 	name = "golden deep ornate energy pistol"
 	desc = "An intricate golden energy pistol, engraved with a quality unlike no other. If you had to describe this pistol in one word, it would be <b>expensive.</b>"
