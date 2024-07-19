@@ -426,7 +426,7 @@
 	. = ..()
 	M.gender = MALE
 	M.adjustBruteLoss(rand(100,300))
-	M.adjustBurnLoss(rand(50,200))
+	M.adjustFireLoss(rand(50,200))
 	var/cadaver_color = pick("Green","Red","Brown")
 	switch(cadaver_color)
 		if("Green")
@@ -450,7 +450,7 @@
 /obj/effect/landmark/corpse/izaku/do_extra_customization(mob/living/carbon/human/M)
 	. = ..()
 	M.gender = MALE
-	M.adjustBurnLoss(rand(100,400))
+	M.adjustFireLoss(rand(100,400))
 	M.adjustBruteLoss(rand(50,150))
 	var/cadaver_color = pick("Brown", "Black", "Grey")
 	switch(cadaver_color)
@@ -479,7 +479,7 @@
 /obj/effect/landmark/corpse/klax/do_extra_customization(mob/living/carbon/human/M)
 	. = ..()
 	M.adjustBruteLoss(rand(50,75))
-	M.adjustBurnLoss(rand(100,250))
+	M.adjustFireLoss(rand(100,250))
 	var/brood = pick("Vedhra","Zkaii","Tupii","Leto","Vetju")
 	switch(brood)
 		if("Vedhra")
@@ -497,12 +497,13 @@
 		if("Vetju")
 			M.change_skin_color(11, 84, 31)
 			M.change_hair_color(11, 84, 31)
-	replacetext(M.name, "Ka'", "Za'")
-	replacetext(M.name, "Ta'", "Za'")
-	replacetext(M.name, "Ra'", "Za'")
-	replacetext(M.name, "Viax","Akaix")
-	replacetext(M.name, " Zo'ra", " K'lax")
-	replacetext(M.name, " C'thur", " K'lax")
+	M.name = replacetext(M.name, "Ka'", "Za'")
+	M.name = replacetext(M.name, "Ta'", "Za'")
+	M.name = replacetext(M.name, "Ra'", "Za'")
+	M.name = replacetext(M.name, "Viax","Akaix")
+	M.name = replacetext(M.name, " Zo'ra", " K'lax")
+	M.name = replacetext(M.name, " C'thur", " K'lax")
+	M.real_name = M.name
 
 /obj/effect/landmark/corpse/kataphract
 	name = "Kataphract Warrior"
@@ -517,7 +518,7 @@
 	. = ..()
 	M.gender = MALE
 	M.adjustBruteLoss(rand(100,300))
-	M.adjustBurnLoss(rand(50,200))
+	M.adjustFireLoss(rand(50,200))
 	var/cadaver_color = pick("Green","Red","Brown")
 	switch(cadaver_color)
 		if("Green")
