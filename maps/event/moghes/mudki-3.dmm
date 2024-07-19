@@ -955,7 +955,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "amf" = (
 /obj/effect/decal/curb{
@@ -1106,7 +1106,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "aoi" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1684,7 +1684,10 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Operations Manager"
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "awt" = (
 /obj/effect/decal/cleanable/floor_damage/tiled_broken3,
@@ -1992,6 +1995,10 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"azU" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "azZ" = (
 /turf/simulated/floor/concrete{
 	temperature = 315.15
@@ -2909,6 +2916,22 @@
 	},
 /obj/effect/decal/cleanable/generic,
 /obj/random/dirt_75,
+/obj/effect/landmark/corpse/izaku,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -4016,10 +4039,7 @@
 	dir = 4
 	},
 /obj/machinery/light{
-	brightness_power = 0.5;
-	brightness_range = 3;
-	dir = 4;
-	name = "adjusted light fixture"
+	dir = 4
 	},
 /obj/item/auto_cpr,
 /obj/item/auto_cpr,
@@ -4027,11 +4047,27 @@
 /obj/item/auto_cpr,
 /obj/item/auto_cpr,
 /obj/item/auto_cpr,
-/obj/item/storage/box/gloves{
-	pixel_y = -16
+/obj/item/storage/belt/medical{
+	pixel_y = -13
 	},
-/obj/item/storage/box/gloves{
-	pixel_y = -16
+/obj/item/storage/belt/medical{
+	pixel_y = -13
+	},
+/obj/item/storage/belt/medical{
+	pixel_y = -13
+	},
+/obj/item/storage/belt/medical{
+	pixel_y = -13
+	},
+/obj/item/storage/belt/medical{
+	pixel_y = -13
+	},
+/obj/item/storage/belt/medical{
+	pixel_y = -13
+	},
+/obj/item/storage/box/freezer/organcooler{
+	pixel_x = -1;
+	pixel_y = 17
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
@@ -4121,6 +4157,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/bar)
+"aZr" = (
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "aZA" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -4405,6 +4450,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"bcM" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "bcU" = (
 /obj/structure/flora/grass/junglegrass/random,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -4964,7 +5018,6 @@
 /obj/item/clothing/head/welding,
 /obj/item/clothing/head/welding,
 /obj/item/clothing/head/welding,
-/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/clothing/gloves/yellow/specialu,
 /obj/item/clothing/gloves/yellow/specialu,
 /obj/item/clothing/gloves/yellow/specialu,
@@ -4992,7 +5045,8 @@
 /obj/item/device/geiger,
 /obj/item/device/geiger,
 /obj/item/device/geiger,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "bju" = (
 /obj/effect/decal/cleanable/blood/drip{
@@ -5462,8 +5516,8 @@
 /area/new_blades/mudki/interiors/spaceport/warehouse)
 "brN" = (
 /obj/machinery/vending/tool,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "brU" = (
 /obj/effect/decal/road_marking/no_pass{
@@ -5537,7 +5591,11 @@
 /obj/structure/bed/handrail{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/machinery/light/floor{
+	dir = 8;
+	pixel_y = 16
+	},
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "btW" = (
 /obj/effect/floor_decal/concrete/large{
@@ -5689,6 +5747,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/military_base)
+"bwo" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 1;
+	name = "Security Prep"
+	},
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/full,
+/area/shuttle/scc_evac)
 "bwx" = (
 /obj/structure/table/stone/marble,
 /obj/item/holomenu,
@@ -5724,10 +5792,7 @@
 "bwR" = (
 /obj/effect/floor_decal/spline/plain/green,
 /obj/effect/floor_decal/industrial/outline/security,
-/obj/machinery/light{
-	name = "adjusted light fixture";
-	pixel_x = 16
-	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "bxh" = (
@@ -6528,7 +6593,7 @@
 /obj/item/device/gps/mining,
 /obj/item/device/gps/mining,
 /obj/item/device/gps/mining,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "bIn" = (
 /obj/machinery/light/colored/decayed{
@@ -7137,7 +7202,7 @@
 /obj/item/reagent_containers/food/condiment/sugar,
 /obj/item/reagent_containers/food/condiment/sugar,
 /obj/item/reagent_containers/food/condiment/sugar,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "bQc" = (
 /obj/structure/platform{
@@ -7626,9 +7691,6 @@
 /area/new_blades)
 "bVu" = (
 /obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/bed/handrail{
-	dir = 1
-	},
 /turf/simulated/floor,
 /area/shuttle/scc_evac)
 "bVF" = (
@@ -7865,6 +7927,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"bYD" = (
+/obj/structure/sign/directions/civ{
+	pixel_y = 0;
+	dir = 4;
+	pixel_x = 32
+	},
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "bYP" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -7900,25 +7973,8 @@
 	},
 /area/new_blades/underground)
 "bZq" = (
-/obj/structure/closet/crate{
-	name = "autolathe crate"
-	},
-/obj/item/stack/cable_coil/yellow,
-/obj/item/stack/cable_coil/yellow,
-/obj/item/circuitboard/autolathe,
-/obj/item/circuitboard/autolathe,
-/obj/item/stock_parts/manipulator,
-/obj/item/stock_parts/manipulator,
-/obj/item/stock_parts/console_screen,
-/obj/item/stock_parts/console_screen,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/effect/floor_decal/industrial/outline/engineering,
-/turf/simulated/floor/shuttle/black,
+/obj/machinery/autolathe,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "bZw" = (
 /obj/effect/floor_decal/concrete{
@@ -8169,16 +8225,12 @@
 	},
 /area/new_blades/mudki/interiors/military_base)
 "ccY" = (
-/obj/effect/floor_decal/industrial/hatch_door/red,
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/industrial/hatch_door/yellow,
+/turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
 "cda" = (
-/obj/machinery/computer/shuttle_control/scc_evac{
-	locked = 1;
-	name = "SCCV Apollo control console";
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/dark_blue,
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "cdc" = (
 /obj/structure/flora/grass/desert,
@@ -8217,22 +8269,18 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "cdG" = (
-/obj/structure/bed/handrail,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/corner/diagonal{
+	color = "#efbf2f"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "cdL" = (
-/obj/machinery/door/blast/regular/open,
-/obj/structure/plasticflaps/airtight{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/hatch_door/red{
+/obj/effect/floor_decal/corner/black{
 	dir = 1
 	},
-/obj/machinery/door/airlock/multi_tile/glass{
-	dir = 1;
-	name = "external airlock"
-	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/corner/black,
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "cdU" = (
 /obj/effect/decal/fake_object/light_source/invisible{
@@ -8984,11 +9032,13 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "cnQ" = (
-/obj/machinery/light/floor{
-	dir = 4;
-	pixel_y = 16
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 4
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "cnV" = (
 /obj/effect/decal/road_marking,
@@ -9502,8 +9552,8 @@
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red,
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/industrial/hatch_door/yellow,
+/turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
 "cvD" = (
 /obj/effect/floor_decal/concrete{
@@ -9978,7 +10028,7 @@
 /obj/machinery/vending/dinnerware/bar{
 	anchored = 0
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "cAH" = (
 /obj/effect/floor_decal/concrete{
@@ -10951,7 +11001,7 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Captain"
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "cQm" = (
 /obj/effect/floor_decal/concrete{
@@ -11230,7 +11280,7 @@
 	req_access = null;
 	req_one_access = list(7,47)
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "cTP" = (
 /obj/effect/decal/fake_object/light_source/invisible{
@@ -11487,7 +11537,8 @@
 /area/new_blades/mudki/interiors/military_base)
 "cWW" = (
 /obj/machinery/door/airlock/freezer{
-	name = "Stall 1"
+	name = "Stall 1";
+	id_tag = "shuttle_stall_1"
 	},
 /turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
@@ -11581,6 +11632,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/pawn)
+"cYQ" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "cZx" = (
 /obj/structure/girder,
 /obj/random/dirt_75,
@@ -11767,6 +11827,20 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"dck" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "dcv" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb/corner{
@@ -12033,10 +12107,10 @@
 	dir = 4;
 	name = "Cryogenic Storage"
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red{
-	dir = 1
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
 "dgg" = (
 /obj/random/dirt_75,
@@ -12118,6 +12192,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"dib" = (
+/obj/structure/bed/handrail,
+/obj/effect/floor_decal/corner/green/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "diq" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -12217,7 +12298,22 @@
 /area/new_blades)
 "djm" = (
 /obj/structure/bed/handrail,
-/turf/simulated/floor/shuttle/dark_blue,
+/obj/structure/sign/directions/medical{
+	dir = 1;
+	pixel_y = 35
+	},
+/obj/structure/sign/directions/science{
+	pixel_y = 29;
+	dir = 1
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = 23;
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "djq" = (
 /obj/effect/floor_decal/concrete{
@@ -12440,6 +12536,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"dlK" = (
+/obj/structure/sign/directions/science{
+	dir = 4;
+	pixel_x = 32
+	},
+/obj/effect/floor_decal/spline/plain/mauve{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "dlT" = (
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -13793,7 +13899,7 @@
 /obj/item/clothing/accessory/armband/operations,
 /obj/item/clothing/accessory/armband/operations,
 /obj/item/clothing/accessory/armband/operations,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "dFn" = (
 /obj/effect/floor_decal/corner/grey{
@@ -14046,7 +14152,7 @@
 	name = "Bridge Blast Shield";
 	id = "shuttle_bridge_blast_doors"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "dJe" = (
 /obj/structure/platform{
@@ -14421,6 +14527,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"dNF" = (
+/obj/structure/bed/handrail{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "dNS" = (
 /obj/structure/reagent_dispensers/water_cooler{
 	pixel_x = 8
@@ -14826,6 +14938,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/military_base)
+"dTh" = (
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "dTy" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/machinery/light/colored/decayed{
@@ -15140,7 +15258,7 @@
 /obj/item/reagent_containers/food/drinks/waterbottle/large,
 /obj/item/reagent_containers/food/drinks/waterbottle/large,
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "dVo" = (
 /obj/effect/decal/road_marking{
@@ -15191,6 +15309,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"dVV" = (
+/obj/machinery/light/floor{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/diagonal{
+	color = "#efbf2f"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "dWx" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -15777,6 +15904,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"een" = (
+/obj/structure/sign/directions/cryo{
+	pixel_x = -32;
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/blue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "eeM" = (
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
@@ -16039,7 +16176,6 @@
 /obj/item/rfd_ammo,
 /obj/item/rfd_ammo,
 /obj/item/rfd_ammo,
-/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/device/paint_sprayer,
 /obj/item/device/paint_sprayer,
 /obj/item/device/paint_sprayer,
@@ -16048,7 +16184,8 @@
 /obj/item/taperoll/engineering,
 /obj/item/taperoll/engineering,
 /obj/item/taperoll/engineering,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "ejp" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -17047,6 +17184,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ewv" = (
+/obj/structure/sign/directions/engineering{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = 32
+	},
+/obj/effect/floor_decal/spline/plain{
+	dir = 4;
+	color = "#efbf2f"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "ewJ" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -17056,15 +17205,14 @@
 	},
 /area/new_blades)
 "ewT" = (
-/obj/machinery/door/blast/regular/open,
+/obj/machinery/door/blast/regular/open{
+	id = "shuttle_bridge_blast_doors"
+	},
 /obj/structure/plasticflaps/airtight{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red{
-	dir = 1
-	},
-/obj/machinery/door/airlock/multi_tile/glass{
-	dir = 1;
+/obj/machinery/door/airlock/multi_tile{
+	dir = 2;
 	name = "external airlock"
 	},
 /turf/simulated/floor/tiled/full,
@@ -17144,6 +17292,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"eyT" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 4;
+	color = "#efbf2f"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "ezy" = (
 /obj/structure/table/wood{
 	flipped = 1;
@@ -17288,7 +17443,7 @@
 	pixel_y = 6;
 	department = "SCCV Apollo"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "eBw" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -17987,7 +18142,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "eLL" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
@@ -18161,7 +18316,7 @@
 /obj/item/storage/box/samplebags,
 /obj/item/storage/box/samplebags,
 /obj/item/storage/box/beakers,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "eNP" = (
 /obj/machinery/body_scanconsole,
@@ -18209,14 +18364,40 @@
 /obj/structure/table/standard,
 /obj/item/storage/toolbox/mechanical{
 	pixel_x = 2;
-	pixel_y = 12
-	},
-/obj/item/storage/box/freezer/organcooler{
-	pixel_x = -1;
-	pixel_y = 3
+	pixel_y = -3
 	},
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 4
+	},
+/obj/item/roller{
+	pixel_y = 19
+	},
+/obj/item/roller{
+	pixel_y = 19
+	},
+/obj/item/roller{
+	pixel_y = 19
+	},
+/obj/item/roller{
+	pixel_y = 19
+	},
+/obj/item/roller{
+	pixel_y = 19
+	},
+/obj/item/roller{
+	pixel_y = 5
+	},
+/obj/item/roller{
+	pixel_y = 5
+	},
+/obj/item/roller{
+	pixel_y = 5
+	},
+/obj/item/roller{
+	pixel_y = 5
+	},
+/obj/item/roller{
+	pixel_y = 5
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
@@ -19638,6 +19819,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"fgB" = (
+/obj/machinery/light/floor{
+	dir = 4;
+	pixel_y = 16
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "fgD" = (
 /obj/structure/platform{
 	dir = 4
@@ -20282,9 +20470,6 @@
 	},
 /area/new_blades)
 "fpB" = (
-/obj/structure/closet/crate{
-	name = "tools and gear crate"
-	},
 /obj/item/storage/belt/utility/full,
 /obj/item/storage/belt/utility/full,
 /obj/item/storage/belt/utility/full,
@@ -20308,8 +20493,14 @@
 /obj/item/clothing/accessory/armband/operations,
 /obj/item/clothing/accessory/armband/operations,
 /obj/item/clothing/accessory/armband/operations,
-/obj/effect/floor_decal/industrial/outline/engineering,
-/turf/simulated/floor/shuttle/black,
+/obj/structure/closet/crate{
+	name = "machinist tools and gear crate"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
+"fpG" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "fpJ" = (
 /obj/effect/floor_decal/concrete{
@@ -20637,7 +20828,7 @@
 "fte" = (
 /obj/machinery/seed_extractor,
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "ftj" = (
 /obj/structure/platform,
@@ -20856,6 +21047,12 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/lino/diamond,
 /area/new_blades/mudki/interiors/south_housing)
+"fvI" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "fvT" = (
 /obj/effect/decal/curb,
 /obj/random/dirt_75,
@@ -21878,8 +22075,7 @@
 	},
 /obj/item/storage/box/fancy/tray/machinist,
 /obj/item/storage/box/fancy/tray/machinist,
-/obj/effect/floor_decal/industrial/outline/engineering,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "fJC" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -22218,7 +22414,10 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Executive Officer"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "fNu" = (
 /obj/effect/floor_decal/concrete{
@@ -22662,7 +22861,7 @@
 	dir = 1;
 	pixel_y = 28
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "fTc" = (
 /obj/effect/decal/curb/corner{
@@ -23317,6 +23516,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"gbM" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 1;
+	name = "Scientific Storage"
+	},
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/full,
+/area/shuttle/scc_evac)
 "gbO" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -23426,7 +23635,6 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/obj/machinery/recharge_station,
 /turf/simulated/floor,
 /area/shuttle/scc_evac)
 "gdg" = (
@@ -23790,6 +23998,7 @@
 	dries = 0;
 	name = "dried drips of blood"
 	},
+/obj/effect/landmark/corpse/izaku,
 /turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
@@ -24212,10 +24421,7 @@
 "glN" = (
 /obj/effect/floor_decal/industrial/outline/research,
 /obj/machinery/light,
-/obj/machinery/computer/terminal/scanner{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "glP" = (
 /turf/simulated/floor/sidewalk/flat{
@@ -24735,7 +24941,7 @@
 	pixel_y = 0;
 	pixel_x = 12
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "gtZ" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
@@ -24851,8 +25057,8 @@
 /obj/item/clothing/accessory/armband/engine,
 /obj/item/clothing/accessory/armband/engine,
 /obj/item/clothing/accessory/armband/engine,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "gvr" = (
 /obj/structure/platform,
@@ -25097,7 +25303,7 @@
 /obj/item/crowbar/red{
 	pixel_x = 6
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "gyv" = (
 /obj/random/dirt_75,
@@ -25331,6 +25537,21 @@
 /obj/item/clothing/accessory/armband/med,
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/item/bodybag/cryobag{
+	pixel_y = 20
+	},
+/obj/item/bodybag/cryobag{
+	pixel_y = 17
+	},
+/obj/item/bodybag/cryobag{
+	pixel_y = 14
+	},
+/obj/item/bodybag/cryobag{
+	pixel_y = 11
+	},
+/obj/item/bodybag/cryobag{
+	pixel_y = 11
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
@@ -25590,7 +25811,8 @@
 /obj/machinery/light/floor{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "gEQ" = (
 /obj/effect/floor_decal/concrete{
@@ -26021,8 +26243,8 @@
 	},
 /area/new_blades)
 "gKv" = (
-/obj/effect/decal/fake_object/light_source/invisible,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/corner/green/diagonal,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "gKx" = (
 /obj/effect/decal/curb{
@@ -26048,34 +26270,10 @@
 /area/new_blades)
 "gKN" = (
 /obj/structure/table/standard,
-/obj/item/device/radio{
-	pixel_x = -6;
-	pixel_y = 6
+/obj/item/storage/box/inhalers{
+	pixel_y = 16
 	},
-/obj/item/device/radio{
-	pixel_x = -6;
-	pixel_y = 6
-	},
-/obj/item/device/radio{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/device/radio{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/device/gps/medical{
-	pixel_x = -7
-	},
-/obj/item/device/gps/medical{
-	pixel_x = 5
-	},
-/obj/item/device/gps/medical{
-	pixel_x = -7
-	},
-/obj/item/device/gps/medical{
-	pixel_x = 5
-	},
+/obj/item/storage/box/inhalers_auto,
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
 	},
@@ -26146,7 +26344,7 @@
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "gMg" = (
 /obj/effect/floor_decal/concrete{
@@ -27327,7 +27525,7 @@
 /obj/machinery/vending/hydroseeds{
 	anchored = 0
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "gZe" = (
 /obj/effect/floor_decal/spline/fancy/wood/full,
@@ -27411,8 +27609,7 @@
 /obj/item/clothing/gloves/yellow/specialt,
 /obj/item/clothing/gloves/yellow/specialu,
 /obj/item/clothing/gloves/yellow/specialu,
-/obj/effect/floor_decal/industrial/outline/engineering,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "hav" = (
 /obj/effect/decal/road_marking/center{
@@ -27867,7 +28064,7 @@
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
 "hfI" = (
 /turf/simulated/wall/sandstone,
@@ -28179,6 +28376,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"hkc" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "hko" = (
 /obj/machinery/photocopier,
 /obj/effect/decal/curb{
@@ -29189,7 +29402,8 @@
 /obj/item/ammo_casing/peac,
 /obj/item/ammo_casing/peac/he,
 /obj/item/ammo_casing/peac/he,
-/turf/simulated/floor/shuttle/dark_red,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "hyR" = (
 /obj/effect/floor_decal/industrial/loading/yellow{
@@ -29343,11 +29557,10 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "hBf" = (
-/obj/effect/floor_decal/spline/plain/green,
-/obj/structure/bed/handrail{
-	dir = 1
+/obj/effect/floor_decal/corner/green{
+	dir = 6
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "hBg" = (
 /obj/effect/decal/curb/corner{
@@ -29990,7 +30203,7 @@
 /obj/item/modular_computer/console/preset/engineering/ce{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "hLU" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -30005,6 +30218,11 @@
 "hMa" = (
 /obj/machinery/door/urban,
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -30794,7 +31012,7 @@
 	dir = 8;
 	density = 0
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "hXz" = (
 /obj/structure/utility_pole/street/classic{
@@ -31869,6 +32087,20 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"imm" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "imu" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb/corner{
@@ -32083,7 +32315,7 @@
 	pixel_x = 8;
 	pixel_y = -2
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "ioG" = (
 /obj/structure/rod_railing{
@@ -32460,6 +32692,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"itx" = (
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/full,
+/area/shuttle/scc_evac)
 "ity" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -32506,7 +32744,7 @@
 /obj/item/stack/barbed_wire/full,
 /obj/item/stack/barbed_wire/full,
 /obj/item/stack/barbed_wire/full,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "iup" = (
 /obj/structure/shipping_container{
@@ -33992,7 +34230,7 @@
 	dir = 4;
 	pixel_x = 1
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "iON" = (
 /obj/structure/table,
@@ -34905,7 +35143,7 @@
 	},
 /area/new_blades/mudki/interiors/south_housing)
 "jfA" = (
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "jfD" = (
 /obj/effect/floor_decal/concrete{
@@ -35129,7 +35367,7 @@
 	},
 /area/new_blades)
 "jhG" = (
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "jhV" = (
 /obj/machinery/portable_atmospherics/canister/empty/hydrogen,
@@ -35421,9 +35659,9 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "jlA" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/autolathe,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "jmp" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -35434,6 +35672,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"jmv" = (
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/plain/corner/green{
+	dir = 2
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "jmy" = (
 /obj/effect/decal/road_marking/reflector{
 	dir = 1
@@ -35978,6 +36228,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/military_base)
+"jsA" = (
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/shuttle/scc_evac)
 "jsO" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/floor_decal/industrial/outline/engineering,
@@ -36776,7 +37032,7 @@
 /obj/machinery/light/floor{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "jDL" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -37140,7 +37396,8 @@
 /area/new_blades/mudki/interiors/spaceport/customs)
 "jIZ" = (
 /obj/machinery/door/airlock/freezer{
-	name = "Stall 2"
+	name = "Stall 2";
+	id_tag = "shuttle_stall_2"
 	},
 /turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
@@ -37634,10 +37891,11 @@
 	},
 /area/new_blades)
 "jNX" = (
-/obj/machinery/light{
-	name = "adjusted light fixture"
+/obj/structure/bed/handrail{
+	dir = 1
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor,
 /area/shuttle/scc_evac)
 "jOp" = (
 /obj/effect/decal/road_marking/thin,
@@ -37982,6 +38240,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"jTu" = (
+/obj/machinery/light/floor{
+	dir = 1;
+	pixel_x = 16
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "jTz" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -38292,7 +38557,7 @@
 /obj/machinery/status_display/supply_display{
 	pixel_x = 32
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "jXy" = (
 /obj/effect/decal/curb{
@@ -39246,44 +39511,20 @@
 /area/new_blades/mudki/interiors/north_housing)
 "klO" = (
 /obj/structure/table/standard,
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
-/obj/item/roller{
-	pixel_y = 4
-	},
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 4
+	},
+/obj/item/roller{
+	pixel_y = 4
+	},
+/obj/item/roller{
+	pixel_y = 4
+	},
+/obj/item/roller{
+	pixel_y = 4
+	},
+/obj/item/roller{
+	pixel_y = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
@@ -39621,7 +39862,7 @@
 /obj/item/modular_computer/console/preset/medical/cmo{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "ksp" = (
 /obj/effect/floor_decal/concrete{
@@ -39679,7 +39920,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "ktg" = (
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -40008,6 +40249,10 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"kyt" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "kzw" = (
 /obj/effect/decal/road_marking/reflector{
 	dir = 4
@@ -40708,7 +40953,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "kIH" = (
 /obj/effect/floor_decal/concrete{
@@ -40941,7 +41186,7 @@
 /obj/machinery/vending/boozeomat{
 	anchored = 0
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "kLZ" = (
 /obj/effect/floor_decal/concrete{
@@ -41398,7 +41643,18 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19);
+	name = "Command Staff defense locker"
+	},
+/obj/item/gun/energy/repeater/pistol,
+/obj/item/gun/energy/repeater/pistol,
+/obj/item/gun/energy/repeater/pistol,
+/obj/item/gun/energy/repeater/pistol,
+/obj/item/gun/energy/repeater/pistol,
+/obj/item/gun/energy/repeater/pistol,
+/obj/item/gun/energy/repeater/pistol,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "kQG" = (
 /obj/effect/decal/fake_object/light_source/invisible{
@@ -42601,7 +42857,7 @@
 /obj/item/modular_computer/console/preset/command{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "lfS" = (
 /obj/effect/decal/curb,
@@ -43104,6 +43360,19 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lmL" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 8
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "lmT" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -43267,7 +43536,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "loW" = (
 /obj/effect/decal/curb{
@@ -43297,7 +43566,10 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Head of Security"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "lps" = (
 /obj/structure/chainlink_fence{
@@ -43408,10 +43680,6 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/loading/security,
-/obj/structure/bed/handrail{
-	dir = 8;
-	pixel_x = 1
-	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "lqu" = (
@@ -43855,6 +44123,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lyk" = (
+/obj/random/dirt_75,
+/obj/effect/landmark/corpse/izaku,
+/turf/simulated/floor/tiled/full{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/military_base)
 "lyo" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
 /obj/effect/decal/cleanable/floor_damage/broken3,
@@ -43963,6 +44238,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lzl" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 1;
+	name = "Operations and Service Storage"
+	},
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/full,
+/area/shuttle/scc_evac)
 "lzn" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
@@ -44516,7 +44801,7 @@
 /obj/machinery/light/floor{
 	pixel_x = 16
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "lFi" = (
 /obj/effect/decal/road_marking/crosswalk,
@@ -44911,6 +45196,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"lLg" = (
+/obj/structure/sign/directions/security{
+	dir = 8;
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/spline/plain/blue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "lLi" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -45014,14 +45309,14 @@
 	pixel_y = 9;
 	pixel_x = 8
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/device/gps/engineering,
 /obj/item/device/gps/engineering,
 /obj/item/device/gps/engineering,
 /obj/item/device/gps/engineering,
 /obj/item/device/gps/engineering,
 /obj/item/device/gps/engineering,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "lLZ" = (
 /obj/effect/decal/road_marking{
@@ -45205,7 +45500,7 @@
 /obj/item/modular_computer/console/preset/supply{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "lOJ" = (
 /obj/structure/rod_railing{
@@ -45587,7 +45882,7 @@
 /obj/item/device/gps/science,
 /obj/item/device/geiger,
 /obj/item/device/geiger,
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "lUQ" = (
 /obj/effect/decal/curb{
@@ -45661,7 +45956,7 @@
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "lVn" = (
 /obj/effect/decal/curb{
@@ -46248,11 +46543,13 @@
 	},
 /area/new_blades/underground)
 "mce" = (
-/obj/machinery/atm{
-	pixel_y = -8
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/random/dirt_75,
+/obj/effect/landmark/corpse/izaku,
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
 	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
+/area/new_blades/mudki/interiors/military_base)
 "mcl" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
 /obj/effect/decal/cleanable/floor_damage/broken1,
@@ -46560,6 +46857,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"mfJ" = (
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "mfR" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -47085,7 +47388,8 @@
 	pixel_x = 10;
 	pixel_y = 28
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "mpT" = (
 /obj/effect/decal/curb/corner{
@@ -47652,7 +47956,7 @@
 "mxH" = (
 /obj/structure/closet/secure_closet/freezer/kois/spores,
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "mxL" = (
 /obj/structure/flora/grass/junglegrass/random,
@@ -48864,6 +49168,12 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/item/storage/box/gloves{
+	pixel_y = -16
+	},
+/obj/item/storage/box/gloves{
+	pixel_y = -16
+	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "mOU" = (
@@ -49028,7 +49338,7 @@
 /obj/item/reagent_containers/food/condiment/enzyme,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /obj/item/reagent_containers/food/condiment/enzyme,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "mRc" = (
 /obj/effect/decal/curb{
@@ -49318,7 +49628,7 @@
 /obj/item/clothing/suit/hazmat/anomaly,
 /obj/item/clothing/suit/hazmat/anomaly,
 /obj/item/clothing/suit/hazmat/anomaly,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "mUu" = (
 /obj/effect/decal/curb{
@@ -49475,7 +49785,7 @@
 /obj/item/reagent_containers/food/drinks/carton/milk,
 /obj/item/reagent_containers/food/drinks/carton/milk,
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "mWl" = (
 /obj/structure/chainlink_fence,
@@ -49687,54 +49997,6 @@
 /obj/structure/table/rack/retail_shelf{
 	name = "shelves"
 	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
-/obj/item/device/radio/off{
-	pixel_y = 5;
-	pixel_x = 7
-	},
 /obj/item/device/flashlight/maglight{
 	pixel_y = -9
 	},
@@ -49837,7 +50099,64 @@
 /obj/item/device/gps{
 	pixel_x = -3
 	},
-/turf/simulated/floor/shuttle/dark_red,
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/device/radio/sec{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "mYJ" = (
 /obj/effect/decal/cleanable/floor_damage/broken2,
@@ -49988,13 +50307,21 @@
 	},
 /area/new_blades/mudki/interiors/guildhouse)
 "naa" = (
-/obj/machinery/chemical_dispenser/ert,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/item/stack/material/phoron{
+	amount = 6;
+	pixel_y = 7
+	},
+/obj/item/stack/material/phoron{
+	amount = 6;
+	pixel_y = 7
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
@@ -50748,6 +51075,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"nlj" = (
+/obj/structure/sign/directions/medical{
+	dir = 8;
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "nlm" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -51051,7 +51388,7 @@
 	pixel_y = -3;
 	pixel_x = -9
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "noy" = (
 /obj/item/material/kitchen/rollingpin{
@@ -51335,7 +51672,10 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Research Director"
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "nsb" = (
 /obj/structure/table/reinforced/wood,
@@ -51675,7 +52015,7 @@
 /obj/machinery/door/airlock/multi_tile/glass{
 	name = "Medical Storage and Prep"
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red,
+/obj/effect/floor_decal/industrial/hatch_door/yellow,
 /turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
 "nxx" = (
@@ -51922,17 +52262,13 @@
 	dir = 8
 	},
 /obj/machinery/light{
-	brightness_power = 0.5;
-	brightness_range = 3;
-	dir = 1;
-	name = "adjusted light fixture";
-	pixel_x = 1
+	dir = 1
 	},
 /obj/effect/landmark/force_spawnpoint,
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "nAf" = (
 /obj/effect/decal/road_marking/reflector{
@@ -52810,7 +53146,7 @@
 /obj/item/stack/material/glass/full{
 	pixel_x = 8
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "nNh" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -53163,7 +53499,7 @@
 /obj/structure/closet/excavation,
 /obj/effect/floor_decal/industrial/outline/research,
 /obj/machinery/light,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "nRq" = (
 /obj/effect/decal/road_marking,
@@ -54415,11 +54751,16 @@
 	},
 /area/new_blades/mudki/interiors/north_housing)
 "oko" = (
-/obj/machinery/light/floor{
-	dir = 1;
-	pixel_x = 16
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/corner/blue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "okx" = (
 /obj/structure/rod_railing{
@@ -54527,7 +54868,8 @@
 /obj/item/ammo_magazine/c45m/rubber,
 /obj/item/ammo_magazine/c45m/rubber,
 /obj/item/ammo_magazine/c45m/rubber,
-/turf/simulated/floor/shuttle/dark_red,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "olI" = (
 /turf/simulated/wall/concrete,
@@ -55399,7 +55741,7 @@
 /obj/item/circuitboard/oven,
 /obj/item/circuitboard/fryer,
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "oAF" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -55447,10 +55789,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/black,
-/obj/structure/bed/handrail{
-	dir = 8;
-	pixel_x = 1
-	},
+/obj/machinery/recharge_station,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "oBr" = (
@@ -55659,7 +55998,7 @@
 /obj/machinery/status_display/supply_display{
 	pixel_y = -32
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "oEf" = (
 /obj/effect/floor_decal/concrete{
@@ -56660,6 +56999,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/clothing)
+"oTV" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 4
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "oUn" = (
 /obj/structure/table/steel,
 /obj/effect/floor_decal/industrial/outline_door/grey{
@@ -57759,9 +58111,13 @@
 	},
 /area/new_blades)
 "pkb" = (
-/obj/effect/floor_decal/industrial/hatch_door/red,
-/turf/simulated/floor/tiled/full,
-/area/shuttle/scc_evac)
+/obj/effect/decal/cleanable/floor_damage/broken1,
+/obj/random/dirt_75,
+/obj/effect/landmark/corpse/izaku,
+/turf/simulated/floor/plating{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/military_base)
 "pkg" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -58174,6 +58530,11 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"poY" = (
+/obj/effect/floor_decal/industrial/outline/service,
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "ppD" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -58504,7 +58865,7 @@
 	pixel_y = 0;
 	pixel_x = 8
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "puF" = (
 /obj/random/dirt_75,
@@ -58589,6 +58950,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/recharge_station,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "pvH" = (
@@ -58742,7 +59104,7 @@
 /obj/structure/closet/crate{
 	name = "gas masks"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "pxx" = (
 /obj/structure/table/stone/marble,
@@ -59368,7 +59730,7 @@
 /obj/item/device/encryptionkey/service_spare,
 /obj/item/device/encryptionkey/service_spare,
 /obj/item/device/encryptionkey/service_spare,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "pEr" = (
 /obj/effect/floor_decal/corner/red{
@@ -60263,6 +60625,13 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/spaceport/warehouse)
+"pSj" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/green,
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "pSv" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 1
@@ -60456,6 +60825,7 @@
 	dries = 0;
 	name = "dried drips of blood"
 	},
+/obj/effect/landmark/corpse/izaku,
 /turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
@@ -60708,6 +61078,9 @@
 /obj/item/gun/projectile/automatic/rifle/jingya,
 /obj/item/gun/projectile/automatic/rifle/jingya,
 /obj/item/gun/projectile/automatic/rifle/jingya,
+/obj/item/gun/projectile/automatic/rifle/jingya,
+/obj/item/gun/projectile/automatic/rifle/jingya,
+/obj/item/gun/energy/rifle,
 /obj/item/gun/energy/rifle,
 /obj/item/gun/energy/rifle,
 /obj/item/gun/energy/rifle,
@@ -60716,7 +61089,8 @@
 /obj/item/gun/energy/gun,
 /obj/item/gun/energy/gun,
 /obj/item/gun/energy/gun,
-/turf/simulated/floor/shuttle/dark_red,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "pYD" = (
 /obj/item/material/shard/shrapnel,
@@ -60808,7 +61182,7 @@
 "qad" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "qah" = (
 /obj/structure/table/stone/marble,
@@ -61182,6 +61556,24 @@
 	},
 /turf/simulated/open,
 /area/new_blades)
+"qel" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/obj/item/ammo_casing/moghes_rifle/spent,
+/obj/item/ammo_casing/moghes_rifle/spent,
+/obj/item/ammo_casing/moghes_rifle/spent,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/abandoned_shop/clothing)
 "qem" = (
 /obj/structure/rod_railing,
 /obj/effect/decal/fake_object{
@@ -61328,6 +61720,15 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qhr" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "qhx" = (
 /obj/effect/decal/cleanable/floor_damage/broken3,
 /obj/item/stack/rods{
@@ -62423,8 +62824,24 @@
 	},
 /area/new_blades)
 "qum" = (
-/obj/machinery/autolathe,
-/turf/simulated/floor/shuttle/black,
+/obj/structure/closet/crate{
+	name = "autolathe crate"
+	},
+/obj/item/stack/cable_coil/yellow,
+/obj/item/stack/cable_coil/yellow,
+/obj/item/circuitboard/autolathe,
+/obj/item/circuitboard/autolathe,
+/obj/item/stock_parts/manipulator,
+/obj/item/stock_parts/manipulator,
+/obj/item/stock_parts/console_screen,
+/obj/item/stock_parts/console_screen,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "quL" = (
 /obj/effect/decal/road_marking/thin,
@@ -62643,7 +63060,22 @@
 	pixel_x = 22;
 	pixel_y = 28
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
+"qye" = (
+/obj/effect/floor_decal/corner/black{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black,
+/obj/structure/sink{
+	pixel_y = 26
+	},
+/obj/structure/mirror{
+	pixel_y = 36
+	},
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "qyh" = (
 /obj/effect/map_effect/window_spawner/full/reinforced{
@@ -63627,7 +64059,10 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Chief Medical Officer"
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "qKG" = (
 /obj/machinery/appliance/cooker/stove,
@@ -63667,12 +64102,6 @@
 	},
 /obj/machinery/reagentgrinder{
 	pixel_y = 7
-	},
-/obj/item/stack/material/phoron{
-	amount = 6
-	},
-/obj/item/stack/material/phoron{
-	amount = 6
 	},
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 9
@@ -63915,7 +64344,10 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Chief Engineer"
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/spline/plain/paleblue{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "qOI" = (
 /obj/effect/floor_decal/concrete{
@@ -63992,7 +64424,7 @@
 "qPM" = (
 /obj/machinery/floodlight,
 /obj/effect/floor_decal/industrial/outline/research,
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "qPQ" = (
 /obj/effect/floor_decal/concrete{
@@ -64573,6 +65005,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
+"qYC" = (
+/obj/effect/floor_decal/corner/green/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "qYF" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -64793,6 +65231,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"rbC" = (
+/obj/effect/floor_decal/spline/plain/blue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "rbD" = (
 /obj/machinery/door/airlock/hatch{
 	dir = 8;
@@ -64819,18 +65263,23 @@
 	},
 /area/new_blades)
 "rbN" = (
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "556 ammo cabinet"
 	},
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/turf/simulated/floor/shuttle/dark_red,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "rbS" = (
 /obj/effect/floor_decal/concrete{
@@ -65004,6 +65453,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"rdF" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/effect/landmark/corpse/izaku,
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/city_wall)
 "rdJ" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -65045,10 +65501,6 @@
 "reu" = (
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 6
-	},
-/obj/structure/bed/handrail{
-	dir = 8;
-	pixel_x = 1
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
@@ -65220,13 +65672,15 @@
 /obj/machinery/light/floor{
 	dir = 4
 	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "rfS" = (
 /obj/item/modular_computer/console/preset/research{
 	dir = 1
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "rfU" = (
 /obj/structure/table/rack/retail_shelf,
@@ -65526,7 +65980,8 @@
 	},
 /area/new_blades)
 "rke" = (
-/turf/simulated/floor/shuttle/dark_red,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "rkk" = (
 /obj/random/dirt_75,
@@ -67269,6 +67724,12 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"rGp" = (
+/obj/effect/floor_decal/corner{
+	color = "#efbf2f"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "rGA" = (
 /obj/machinery/computer/ship/navigation/terminal,
 /obj/effect/floor_decal/industrial/outline_corner/grey,
@@ -68193,6 +68654,16 @@
 /obj/effect/decal/curb{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -68341,7 +68812,7 @@
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "rTF" = (
 /obj/effect/floor_decal/corner/red{
@@ -68359,6 +68830,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/military_base)
+"rTI" = (
+/obj/machinery/light/floor{
+	pixel_x = 16
+	},
+/obj/effect/floor_decal/spline/plain/blue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "rTO" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -69301,9 +69781,9 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "sfw" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/crate/solar,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "sfz" = (
 /obj/structure/railing/mapped,
@@ -69715,7 +70195,7 @@
 /obj/machinery/light/floor{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "skv" = (
 /obj/structure/platform{
@@ -69875,7 +70355,7 @@
 /obj/machinery/vending/dinnerware{
 	anchored = 0
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "smT" = (
 /obj/effect/decal/curb/corner,
@@ -70351,7 +70831,7 @@
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "sui" = (
 /obj/structure/filingcabinet/chestdrawer{
@@ -70698,8 +71178,8 @@
 /area/new_blades/mudki/interiors/military_base)
 "syW" = (
 /obj/machinery/vending/engineering,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "szg" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -72273,7 +72753,7 @@
 "sSt" = (
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "sSB" = (
 /obj/machinery/door/urban{
@@ -73218,7 +73698,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "tie" = (
 /obj/effect/floor_decal/corner/red{
@@ -73270,7 +73750,7 @@
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
 "tiE" = (
 /obj/effect/floor_decal/concrete{
@@ -73440,6 +73920,11 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"tkq" = (
+/obj/structure/bed/handrail,
+/obj/effect/floor_decal/corner/green/diagonal,
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "tkB" = (
 /obj/structure/rod_railing,
 /turf/simulated/open,
@@ -73500,8 +73985,8 @@
 /area/new_blades/underground)
 "tlC" = (
 /obj/machinery/vending/engivend,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline/engineering,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "tlM" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -74098,7 +74583,7 @@
 "ttP" = (
 /obj/structure/closet/excavation,
 /obj/effect/floor_decal/industrial/outline/research,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "ttR" = (
 /obj/structure/cash_register{
@@ -74171,6 +74656,8 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/item/reagent_containers/blood/sbs,
+/obj/item/reagent_containers/blood/sbs,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "tuv" = (
@@ -74213,7 +74700,8 @@
 /obj/item/gun/projectile/sec/lethal,
 /obj/item/gun/projectile/sec/lethal,
 /obj/item/gun/projectile/sec/lethal,
-/turf/simulated/floor/shuttle/dark_red,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "tuR" = (
 /obj/structure/konyang_cliff{
@@ -75064,8 +75552,7 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 5
 	},
-/obj/effect/floor_decal/industrial/outline/service,
-/obj/structure/bed/handrail,
+/obj/effect/floor_decal/industrial/outline/medical/dark_green,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "tHt" = (
@@ -75204,8 +75691,7 @@
 /obj/machinery/vending/robotics{
 	anchored = 0
 	},
-/obj/effect/floor_decal/industrial/outline/engineering,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "tID" = (
 /obj/effect/decal/road_marking/no_pass{
@@ -75360,12 +75846,12 @@
 "tLG" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 1;
-	name = "Medical Bay"
+	name = "Medical"
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red{
-	dir = 1
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
 "tLS" = (
 /obj/effect/decal/curb{
@@ -76089,7 +76575,8 @@
 /area/new_blades)
 "tVE" = (
 /obj/machinery/door/airlock/freezer{
-	name = "Stall 3"
+	name = "Stall 3";
+	id_tag = "shuttle_stall_3"
 	},
 /turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
@@ -76902,14 +77389,13 @@
 	},
 /area/new_blades/mudki/interiors/temple)
 "ugL" = (
-/obj/machinery/door/blast/regular/open,
+/obj/machinery/door/blast/regular/open{
+	id = "shuttle_bridge_blast_doors"
+	},
 /obj/structure/plasticflaps/airtight{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
 "ugN" = (
 /obj/effect/floor_decal/concrete{
@@ -77436,7 +77922,20 @@
 /obj/item/device/hand_labeler{
 	pixel_y = 14
 	},
-/turf/simulated/floor/shuttle/dark_red,
+/obj/item/storage/box/led_collars{
+	pixel_y = -6
+	},
+/obj/item/storage/box/led_collars{
+	pixel_y = -6
+	},
+/obj/item/storage/box/led_collars{
+	pixel_y = -6
+	},
+/obj/item/storage/box/led_collars{
+	pixel_y = -6
+	},
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "ung" = (
 /obj/structure/table/standard,
@@ -77588,17 +78087,13 @@
 	},
 /area/new_blades/mudki/road)
 "upG" = (
-/obj/effect/floor_decal/industrial/hatch_door/red{
-	dir = 1
-	},
-/obj/structure/plasticflaps/airtight{
-	dir = 4;
-	layer = 3
-	},
 /obj/machinery/door/blast/regular{
 	id = "shuttle_blast_doors"
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/structure/plasticflaps/airtight{
+	dir = 4
+	},
+/turf/simulated/floor,
 /area/shuttle/scc_evac)
 "uqa" = (
 /obj/effect/decal/road_marking/center{
@@ -77744,10 +78239,7 @@
 	dir = 9
 	},
 /obj/machinery/iv_drip,
-/obj/structure/bed/handrail{
-	dir = 4;
-	pixel_x = 1
-	},
+/obj/effect/floor_decal/industrial/outline/medical/dark_green,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "usl" = (
@@ -77950,8 +78442,7 @@
 /obj/machinery/door/blast/regular/open{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red,
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor,
 /area/shuttle/scc_evac)
 "uvw" = (
 /obj/structure/girder,
@@ -78052,7 +78543,7 @@
 	icon_state = "biogen-empty"
 	},
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "uvZ" = (
 /obj/machinery/door/urban,
@@ -78340,6 +78831,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"uAL" = (
+/obj/effect/map_effect/window_spawner/full/shuttle/scc{
+	spawn_firedoor = 1;
+	spawn_grille = 1
+	},
+/obj/machinery/door/blast/regular/open{
+	id = "shuttle_blast_doors"
+	},
+/turf/simulated/floor,
+/area/shuttle/scc_evac)
 "uAP" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -78485,9 +78986,6 @@
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
 /obj/structure/closet/walllocker/medical{
 	name = "Blood Locker";
 	pixel_x = -32
@@ -78496,6 +78994,8 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/item/reagent_containers/blood/sbs,
+/obj/item/reagent_containers/blood/sbs,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "uCd" = (
@@ -78564,17 +79064,13 @@
 	dir = 4
 	},
 /obj/machinery/light{
-	brightness_power = 0.5;
-	brightness_range = 3;
-	dir = 1;
-	name = "adjusted light fixture";
-	pixel_x = 1
+	dir = 1
 	},
 /obj/effect/landmark/force_spawnpoint,
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "uCP" = (
 /obj/structure/table/reinforced/glass,
@@ -78766,6 +79262,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"uEG" = (
+/obj/machinery/light/floor{
+	pixel_x = 16
+	},
+/obj/effect/floor_decal/spline/plain/green{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "uET" = (
 /obj/effect/decal/road_marking/no_pass,
 /obj/effect/decal/road_marking/no_pass{
@@ -79803,7 +80308,7 @@
 /obj/effect/landmark{
 	name = "Observer-Start"
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "uVg" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -80620,6 +81125,11 @@
 /obj/effect/decal/curb{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -80838,12 +81348,13 @@
 /area/new_blades)
 "viL" = (
 /obj/machinery/door/airlock/multi_tile/glass{
-	dir = 1
+	dir = 1;
+	name = "Engineering Prep"
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red{
-	dir = 1
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/full,
 /area/shuttle/scc_evac)
 "viM" = (
 /obj/effect/decal/road_marking/no_pass{
@@ -81429,14 +81940,20 @@
 	},
 /area/new_blades)
 "vrz" = (
-/obj/machinery/door/blast/regular/open,
-/obj/structure/plasticflaps/airtight{
+/obj/structure/bed/stool/chair/shuttle{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red{
-	dir = 1
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/full,
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "vrD" = (
 /obj/structure/chainlink_fence,
@@ -81462,6 +81979,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"vrX" = (
+/obj/machinery/light/floor{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/diagonal{
+	color = "#efbf2f"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "vrY" = (
 /obj/machinery/constructable_frame/temp_deco{
 	icon_state = "box_1"
@@ -81589,7 +82115,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/research,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "vtt" = (
 /obj/effect/decal/exterior_stairs/half/center{
@@ -82096,7 +82622,7 @@
 "vAb" = (
 /obj/structure/survey_probe,
 /obj/effect/floor_decal/industrial/outline/research,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "vAu" = (
 /obj/structure/filingcabinet/chestdrawer{
@@ -82403,7 +82929,7 @@
 /obj/structure/closet/crate{
 	name = "anomaly suits"
 	},
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "vDF" = (
 /obj/structure/shipping_container{
@@ -82479,6 +83005,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"vEq" = (
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "vEr" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 1
@@ -82552,36 +83087,37 @@
 /area/new_blades/mudki/interiors/convenience)
 "vFG" = (
 /obj/structure/table/standard,
-/obj/item/bodybag/cryobag{
-	pixel_x = -13;
-	pixel_y = 10
+/obj/item/device/radio{
+	pixel_x = -6;
+	pixel_y = 16
 	},
-/obj/item/bodybag/cryobag{
-	pixel_x = -13;
-	pixel_y = 8
+/obj/item/device/radio{
+	pixel_x = -6;
+	pixel_y = 16
 	},
-/obj/item/bodybag/cryobag{
-	pixel_x = -13;
-	pixel_y = 5
-	},
-/obj/item/bodybag/cryobag{
-	pixel_x = -13;
-	pixel_y = 2
-	},
-/obj/item/bodybag/cryobag{
-	pixel_x = -13;
-	pixel_y = 2
-	},
-/obj/item/bodybag/cryobag{
-	pixel_x = -13;
-	pixel_y = 2
-	},
-/obj/item/storage/box/inhalers{
+/obj/item/device/radio{
 	pixel_x = 5;
-	pixel_y = 11
+	pixel_y = 16
 	},
-/obj/item/storage/box/inhalers_auto{
-	pixel_x = 5
+/obj/item/device/radio{
+	pixel_x = 5;
+	pixel_y = 16
+	},
+/obj/item/device/gps/medical{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/device/gps/medical{
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/obj/item/device/gps/medical{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/device/gps/medical{
+	pixel_x = 5;
+	pixel_y = 0
 	},
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
@@ -83623,6 +84159,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
+"vWL" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/obj/effect/landmark/corpse/izaku,
+/turf/simulated/floor/sidewalk/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/military_base)
 "vWY" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -86441,12 +86992,6 @@
 /area/new_blades)
 "wKF" = (
 /obj/structure/table/standard,
-/obj/item/storage/belt/medical,
-/obj/item/storage/belt/medical,
-/obj/item/storage/belt/medical,
-/obj/item/storage/belt/medical,
-/obj/item/storage/belt/medical,
-/obj/item/storage/belt/medical,
 /obj/item/clothing/under/rank/medical/surgeon,
 /obj/item/clothing/under/rank/medical/surgeon,
 /obj/item/clothing/under/rank/medical/surgeon,
@@ -86456,10 +87001,21 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 4
 	},
-/obj/item/storage/belt/medical/paramedic,
-/obj/item/storage/belt/medical/paramedic,
-/obj/item/storage/belt/medical/paramedic,
-/obj/item/storage/belt/medical/paramedic,
+/obj/item/storage/belt/medical/paramedic{
+	pixel_y = 7
+	},
+/obj/item/storage/belt/medical/paramedic{
+	pixel_y = 7
+	},
+/obj/item/storage/belt/medical/paramedic{
+	pixel_y = 7
+	},
+/obj/item/storage/belt/medical/paramedic{
+	pixel_y = 7
+	},
+/obj/item/storage/belt/medical/paramedic{
+	pixel_y = 7
+	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "wKI" = (
@@ -87120,7 +87676,8 @@
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
 "wUi" = (
 /obj/structure/closet/wardrobe/red,
-/turf/simulated/floor/shuttle/dark_red,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "wUB" = (
 /obj/effect/decal/curb{
@@ -87200,7 +87757,7 @@
 "wUT" = (
 /obj/structure/closet/secure_closet/bridge_crew,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/shuttle/dark_blue,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "wVd" = (
 /obj/effect/decal/curb,
@@ -87366,10 +87923,12 @@
 	},
 /area/new_blades/mudki/interiors/military_base)
 "wWQ" = (
-/obj/machinery/chemical_dispenser/ert,
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
 	},
+/obj/structure/table/standard,
+/obj/item/storage/box/bodybags,
+/obj/item/storage/box/bodybags,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "wWW" = (
@@ -87529,7 +88088,8 @@
 /obj/item/clothing/suit/armor/carrier/officer,
 /obj/item/clothing/suit/armor/carrier/officer,
 /obj/item/clothing/suit/armor/carrier/officer,
-/turf/simulated/floor/shuttle/dark_red,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "wYo" = (
 /obj/structure/bed/stool/chair{
@@ -87585,6 +88145,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"wZk" = (
+/obj/structure/bed/handrail,
+/obj/structure/sign/directions/civ{
+	pixel_y = 32;
+	dir = 1
+	},
+/obj/structure/sign/directions/engineering{
+	pixel_y = 26;
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
+/area/shuttle/scc_evac)
 "wZx" = (
 /obj/structure/lattice,
 /obj/effect/decal/cleanable/floor_damage/broken1,
@@ -87965,7 +88540,13 @@
 /obj/item/sleeping_bag/mining,
 /obj/item/sleeping_bag/mining,
 /obj/item/sleeping_bag/mining,
-/turf/simulated/floor/shuttle/dark_blue,
+/obj/item/material/folding_table,
+/obj/item/material/folding_table,
+/obj/item/material/stool/chair/folding/camping,
+/obj/item/material/stool/chair/folding/camping,
+/obj/item/material/stool/chair/folding/camping,
+/obj/item/material/stool/chair/folding/camping,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "xff" = (
 /obj/structure/platform,
@@ -88011,6 +88592,8 @@
 	dir = 10
 	},
 /obj/effect/decal/cleanable/generic,
+/obj/item/ammo_casing/moghes_rifle/spent,
+/obj/item/ammo_casing/moghes_rifle/spent,
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -88037,7 +88620,8 @@
 /area/new_blades)
 "xgx" = (
 /obj/machinery/vending/security,
-/turf/simulated/floor/shuttle/dark_red,
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "xgA" = (
 /obj/structure/unathi_statue/robe,
@@ -88090,15 +88674,12 @@
 	},
 /area/new_blades/mudki/interiors/military_base)
 "xgQ" = (
+/obj/machinery/door/airlock/multi_tile,
 /obj/structure/plasticflaps/airtight,
 /obj/machinery/door/blast/regular/open{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/hatch_door/red,
-/obj/machinery/door/airlock/multi_tile/glass{
-	name = "external airlock"
-	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor,
 /area/shuttle/scc_evac)
 "xgR" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -88291,7 +88872,7 @@
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
 "xjo" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "xju" = (
 /obj/effect/floor_decal/industrial/outline_straight{
@@ -88678,6 +89259,12 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"xnG" = (
+/obj/effect/floor_decal/spline/plain/mauve{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/scc_evac)
 "xog" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/effect/decal/exterior_stairs/half/center{
@@ -89129,7 +89716,7 @@
 	anchored = 0
 	},
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "xtF" = (
 /obj/structure/table/wood,
@@ -90287,6 +90874,7 @@
 	dries = 0;
 	name = "dried drips of blood"
 	},
+/obj/effect/landmark/corpse/izaku,
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -90358,8 +90946,7 @@
 	dir = 1
 	},
 /obj/machinery/light{
-	dir = 1;
-	name = "adjusted light fixture"
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
@@ -90390,19 +90977,16 @@
 	},
 /area/new_blades)
 "xKM" = (
-/obj/machinery/light/floor{
-	dir = 8;
-	pixel_y = 16
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 8
 	},
-/obj/structure/bed/handrail{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
+/obj/effect/floor_decal/industrial/outline_segment/red,
+/turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "xKQ" = (
 /obj/structure/closet/secure_closet/freezer/chicken_and_fish,
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "xKS" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -91254,7 +91838,7 @@
 "xWT" = (
 /obj/structure/reagent_dispensers/cookingoil,
 /obj/effect/floor_decal/industrial/outline/service,
-/turf/simulated/floor/shuttle/black,
+/turf/simulated/floor/tiled,
 /area/shuttle/scc_evac)
 "xXe" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
@@ -91721,10 +92305,7 @@
 /obj/effect/floor_decal/spline/plain/green{
 	dir = 8
 	},
-/obj/structure/bed/handrail{
-	dir = 4;
-	pixel_x = 1
-	},
+/obj/effect/floor_decal/industrial/outline/medical/dark_green,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "ydB" = (
@@ -103541,19 +104122,19 @@ xcg
 xcg
 xcg
 xcg
+uAL
+uAL
+uAL
+uAL
 xcg
-xcg
-xcg
-xcg
-xcg
-vrz
+ugL
 ewT
 xcg
 xcg
 xcg
 xcg
-pzc
 iCk
+pzc
 xbL
 gGV
 bJH
@@ -103774,7 +104355,7 @@ wlK
 kML
 dAY
 jAj
-pzc
+iCk
 pzc
 xcg
 xcg
@@ -103802,8 +104383,8 @@ stV
 stV
 stV
 stV
-stV
-jfA
+oTV
+aZr
 xKM
 xcg
 aDd
@@ -104054,12 +104635,12 @@ uxN
 tUb
 bow
 xcg
-cdG
-jfA
-jfA
+tkq
 gKv
-jfA
-jfA
+gKv
+gKv
+gKv
+cYQ
 jfA
 btG
 xcg
@@ -104301,7 +104882,7 @@ tUb
 tUb
 tUb
 aiJ
-pkb
+ccY
 fzk
 tUb
 tUb
@@ -104311,13 +104892,13 @@ tUb
 gHI
 bwR
 xcg
-cdG
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
+tkq
+gKv
+gKv
+gKv
+gKv
+cYQ
+azU
 jNX
 xcg
 xcg
@@ -104570,14 +105151,14 @@ bow
 xcg
 uCL
 rTD
+imm
 rTD
 rTD
-rTD
-rTD
+hkc
 jfA
 jfA
 uZy
-jfA
+jhG
 iOF
 thW
 wUT
@@ -104830,13 +105411,13 @@ gLO
 gLO
 gLO
 gLO
-gLO
+vrz
 jfA
-mce
+jNX
 xcg
 gyn
-jfA
-jfA
+jhG
+jhG
 wUT
 xcg
 cpt
@@ -105082,17 +105663,17 @@ tUb
 tUb
 vWe
 xcg
-cdG
+dib
+qYC
+qYC
+qYC
+qYC
+qhr
 jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-btG
+jNX
 xcg
 nox
-jfA
+jhG
 alV
 wUT
 xcg
@@ -105325,10 +105906,10 @@ bVu
 xcg
 qxD
 gEP
-jfA
-jfA
+rke
+rke
 gEP
-btG
+rke
 xcg
 qKY
 naa
@@ -105339,14 +105920,14 @@ tUb
 tUb
 vWe
 xcg
-cdG
+dib
+qYC
+qYC
+qYC
+qYC
+qhr
 jfA
-jfA
-gKv
-jfA
-jfA
-jfA
-btG
+jNX
 xcg
 xcg
 kFF
@@ -105582,10 +106163,10 @@ bVu
 xcg
 mpP
 rfP
-jfA
-jfA
+rke
+rke
 rfP
-btG
+rke
 xcg
 gTh
 kzS
@@ -105594,16 +106175,16 @@ fzk
 tUb
 tUb
 tUb
-hBf
+aiJ
 xcg
 uCL
 rTD
+imm
 rTD
 rTD
-rTD
-rTD
+hkc
 jfA
-btG
+jNX
 xcg
 kIE
 jfA
@@ -105858,7 +106439,7 @@ gLO
 gLO
 gLO
 gLO
-gLO
+vrz
 jfA
 jfA
 cfr
@@ -106097,31 +106678,31 @@ xcg
 xcg
 xcg
 hfB
-viL
+bwo
 xcg
 xcg
 xcg
 xcg
 xcg
 xcg
-hfB
+itx
 tLG
 xcg
 xcg
 xcg
 xcg
 djm
-jhG
-jhG
-jhG
-jhG
-jhG
+hBf
+hBf
+hBf
+hBf
+bcM
 jfA
-btG
+jNX
 xcg
 fTa
 jfA
-jfA
+jsA
 eBu
 dvy
 xbL
@@ -106346,26 +106927,26 @@ scR
 tki
 xgQ
 oko
+jTu
+rbC
+rbC
+jfA
+een
+rbC
+rTI
 jfA
 jfA
-jfA
-lFc
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-lFc
+lLg
+rbC
+rbC
+uEG
+mfJ
+mfJ
 jfA
 jfA
-jfA
-jfA
-jfA
-jfA
-lFc
-jfA
-jfA
+nlj
+uEG
+mfJ
 cvy
 uVc
 jfA
@@ -106374,11 +106955,11 @@ jfA
 jfA
 jfA
 lFc
-btG
+dNF
 xcg
 cPR
 jfA
-jfA
+jsA
 dJd
 dvy
 rJn
@@ -106602,27 +107183,27 @@ kML
 kwF
 acV
 uvh
+jmv
+dTh
+dTh
+dTh
+dTh
+dTh
+dTh
+bYD
 jfA
 jfA
+dTh
+eyT
 jfA
 jfA
+ewv
+xnG
+xnG
+xnG
 jfA
 jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
+dlK
 ccY
 jfA
 jfA
@@ -106631,7 +107212,7 @@ jfA
 jfA
 jfA
 jfA
-btG
+dNF
 xcg
 hXx
 jfA
@@ -106867,28 +107448,28 @@ xcg
 xcg
 xcg
 xcg
-hfB
+itx
+lzl
+xcg
+xcg
+itx
 viL
 xcg
 xcg
-hfB
-viL
 xcg
 xcg
+itx
+gbM
 xcg
 xcg
-hfB
-viL
-xcg
-xcg
-djm
-jhG
-jhG
-jhG
-jhG
-jhG
+wZk
+fvI
+fvI
+fvI
+fvI
+pSj
 jfA
-btG
+jNX
 xcg
 pEo
 jfA
@@ -107129,7 +107710,7 @@ jfA
 oDX
 xcg
 cdG
-jfA
+cdG
 brN
 xcg
 loA
@@ -107143,7 +107724,7 @@ rTD
 rTD
 rTD
 rTD
-rTD
+hkc
 jfA
 jfA
 cfr
@@ -107376,17 +107957,17 @@ pYe
 xcg
 cAE
 sks
+fpG
 jhG
 jhG
 jhG
 jhG
-jhG
-jhG
+fpG
 sks
 sSt
 xcg
 cdG
-sks
+vrX
 tlC
 xcg
 mUj
@@ -107397,12 +107978,12 @@ ttP
 xcg
 nAd
 gLO
+dck
 gLO
 gLO
-gLO
-gLO
+vrz
 jfA
-btG
+jNX
 xcg
 kQy
 jXw
@@ -107634,16 +108215,16 @@ xcg
 dVl
 jhG
 gZa
-jfA
+jhG
 xtA
-jfA
+jhG
 qum
 dFh
 jhG
 sSt
 xcg
 cdG
-jhG
+cdG
 syW
 xcg
 vDB
@@ -107652,14 +108233,14 @@ jhG
 jhG
 ttP
 xcg
-cdG
-jfA
-jfA
+tkq
 gKv
+gKv
+gKv
+gKv
+cYQ
 jfA
-jfA
-jfA
-btG
+jNX
 xcg
 xcg
 xcg
@@ -107891,16 +108472,16 @@ xcg
 qad
 jhG
 uvX
-jfA
+jhG
 fte
-jfA
+jhG
 bZq
 bIh
 jhG
 sSt
 xcg
 cdG
-jhG
+cdG
 lLW
 xcg
 eNq
@@ -107909,14 +108490,14 @@ jhG
 jhG
 ttP
 xcg
-cdG
+tkq
+gKv
+gKv
+gKv
+gKv
+cYQ
 jfA
-jfA
-jfA
-jfA
-jfA
-jfA
-btG
+jNX
 xcg
 xMs
 let
@@ -108148,16 +108729,16 @@ xcg
 qad
 jhG
 bPM
-jfA
+jhG
 xKQ
-jfA
+jhG
 ioB
 itY
 jhG
 sSt
 xcg
 cdG
-jhG
+cdG
 jlA
 xcg
 ktd
@@ -108171,11 +108752,11 @@ rTD
 rTD
 rTD
 rTD
-rTD
+hkc
 jfA
-btG
+jNX
 xcg
-sXt
+qye
 iCG
 xcg
 xcg
@@ -108405,16 +108986,16 @@ xcg
 mxH
 jhG
 mWi
-jfA
-xKQ
-jfA
+jhG
+poY
+jhG
 gtV
 nMy
 jhG
 sSt
 xcg
 cdG
-jhG
+cdG
 sfw
 xcg
 vAb
@@ -108425,12 +109006,12 @@ cTC
 xcg
 nAd
 gLO
+dck
 gLO
 gLO
-gLO
-gLO
+vrz
 jfA
-btG
+jNX
 xcg
 sXt
 let
@@ -108662,16 +109243,16 @@ xcg
 mxH
 jhG
 oAv
-jfA
+jhG
 xWT
-jfA
+jhG
 puu
 nMy
 jhG
 sSt
 xcg
 cdG
-jhG
+cdG
 bjq
 xcg
 vAb
@@ -108680,13 +109261,13 @@ jhG
 jhG
 cTC
 xcg
-cdG
-jfA
-jfA
-jfA
-jfA
-jfA
-jfA
+dib
+qYC
+qYC
+qYC
+qYC
+qhr
+azU
 jNX
 xcg
 let
@@ -108918,17 +109499,17 @@ xcg
 xcg
 xcg
 jDI
+fpG
 jhG
 jhG
 jhG
 jhG
-jhG
-jhG
+fpG
 jDI
 sSt
 xcg
 cdG
-jDI
+dVV
 gvm
 xcg
 vAb
@@ -108937,16 +109518,16 @@ jhG
 jhG
 cTC
 xcg
-cdG
+dib
+qYC
+qYC
+qYC
+qYC
+qhr
 jfA
-jfA
-gKv
-jfA
-jfA
-jfA
-jfA
+fgB
 cLu
-let
+cdL
 let
 tVE
 tqb
@@ -109176,7 +109757,7 @@ pzc
 xcg
 xcg
 xjo
-xjo
+kyt
 aog
 aog
 aog
@@ -109184,8 +109765,8 @@ aog
 jfA
 jfA
 aaZ
-jfA
-jfA
+rGp
+cdG
 ejm
 xcg
 eLK
@@ -109199,8 +109780,8 @@ lVl
 lVl
 lVl
 lVl
-lVl
-jfA
+lmL
+vEq
 cnQ
 xcg
 pvB
@@ -109428,9 +110009,9 @@ wlK
 kML
 rYq
 buZ
-iCk
-iCk
 pzc
+iCk
+iCk
 xcg
 xcg
 xcg
@@ -109452,13 +110033,13 @@ upG
 xcg
 xcg
 xcg
-xcg
-xcg
-xcg
-xcg
+uAL
+uAL
+uAL
+uAL
 xcg
 ugL
-cdL
+ewT
 xcg
 xcg
 xcg
@@ -109685,7 +110266,7 @@ wlK
 kML
 bNo
 aEt
-jPG
+dIA
 viF
 bfU
 jUS
@@ -120346,7 +120927,7 @@ wWf
 aKh
 rRJ
 hMa
-rGY
+qel
 hQa
 pFu
 pmF
@@ -127250,7 +127831,7 @@ kEn
 aEz
 lWp
 bgY
-pJB
+mce
 gSB
 rdP
 wpi
@@ -127499,7 +128080,7 @@ wlK
 kHL
 rde
 rWB
-izC
+pkb
 syv
 rdP
 rdP
@@ -128017,7 +128598,7 @@ ubk
 pJB
 pJB
 yeK
-llv
+lyk
 izC
 qhx
 vPi
@@ -138800,7 +139381,7 @@ ljJ
 ljJ
 ljJ
 qqa
-qYF
+vWL
 wVZ
 rdP
 wpi
@@ -142672,7 +143253,7 @@ kel
 kel
 kel
 bSI
-bSI
+rdF
 bSI
 kel
 kel

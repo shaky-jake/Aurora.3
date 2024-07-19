@@ -173,7 +173,7 @@
 
 /area/new_blades/mudki/interiors/power_station
 	name = "Power Station"
-	area_blurb = "Power Station Placeholder"
+	// area_blurb = "Power Station Placeholder"
 	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
