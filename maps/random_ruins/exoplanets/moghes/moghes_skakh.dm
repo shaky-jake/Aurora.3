@@ -82,3 +82,9 @@
 	l_ear = null
 	back = /obj/item/storage/backpack/satchel/leather
 	r_pocket = /obj/item/storage/wallet/random
+	backpack_contents = list(
+		/obj/item/device/versebook/skakh = 1,
+		/obj/item/clothing/under/unathi/skakh/warrior = 1,
+		/obj/item/clothing/under/unathi/skakh/fisher = 1,
+		/obj/item/clothing/under/unathi/skakh/healer = 1
+	)

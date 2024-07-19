@@ -68,6 +68,10 @@
 	worn_overlay = "belt"
 	has_accents = TRUE
 
+/obj/item/clothing/under/unathi/zazali/white
+	color = "#e1dede"
+	accent_color = "#e1dede"
+
 /obj/item/clothing/under/unathi/huytai
 	name = "huytai outfit"
 	desc = "Typically worn by Unathi women who engage in a trade. Popular with fisherwomen especially!"

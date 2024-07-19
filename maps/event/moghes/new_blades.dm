@@ -49,6 +49,10 @@
 	area_blurb = "Interiors Placeholder"
 	is_outside = OUTSIDE_NO
 
+/area/new_blades/mudki/interiors/city_wall
+	name = "Mudki City Wall"
+	area_blurb = "Mudki City Walls Placeholder"
+
 /area/new_blades/mudki/interiors/alley
 	name = "Mudki Alleys"
 	icon_state = "green"
@@ -58,16 +62,42 @@
 	name = "Mudki Spaceport"
 	area_blurb = "Spaceport Interiors Placeholder"
 
+/area/new_blades/mudki/interiors/spaceport/checkpoint
+	name = "Spaceport Checkpoint"
+	holomap_color = HOLOMAP_AREACOLOR_SECURITY
+
+/area/new_blades/mudki/interiors/spaceport/warehouse
+	name = "Spaceport Warehouse"
+	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+
+/area/new_blades/mudki/interiors/spaceport/shuttle_maintenance
+	name = "Spaceport Shuttle Maintenance"
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+
+/area/new_blades/mudki/interiors/spaceport/customs
+	name = "Spaceport Administration"
+	holomap_color = HOLOMAP_AREACOLOR_COMMAND
+
 /area/new_blades/mudki/interiors/north_housing
 	name = "Northern Mudki Housing"
 	area_blurb = "Housing Placeholder"
 	requires_power = TRUE
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/south_housing
 	name = "Southern Mudki Housing"
 	area_blurb = "Housing Placeholder"
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
+/area/new_blades/mudki/interiors/custodial
+	name = "Custodial Garage"
+	area_blurb = "Custodial Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
+
+/area/new_blades/mudki/interiors/military_base
+	name = "Military Base"
+	area_blurb = "Military Base Placeholder"
+	holomap_color = HOLOMAP_AREACOLOR_SECURITY
 
 /area/new_blades/mudki/interiors/restaurant
 	name = "Restaurant"
@@ -119,7 +149,7 @@
 /area/new_blades/mudki/interiors/charging_station
 	name = "Vehicle Charging Station"
 	area_blurb = "Vehicle Charging Station Placeholder"
-	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/new_blades/mudki/interiors/abandoned_shop
 	name = "Abandoned Shop"
@@ -145,13 +175,13 @@
 	name = "Power Station"
 	area_blurb = "Power Station Placeholder"
 	requires_power = TRUE
-	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/new_blades/mudki/interiors/water_treatment
 	name = "Water Treatment Plant"
 	area_blurb = "Water Treatment Plant Placeholder"
 	requires_power = TRUE
-	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/new_blades/mudki/interiors/water_treatment/UV_room
 	name = "Water Treatment Plant - Disinfection"
@@ -223,67 +253,12 @@
 /obj/machinery/computer/shuttle_control/multi/lift/wall/guildhouse
 	shuttle_tag = "Abandoned Guildhouse Lift"
 
-// EVENT THREE AREAS
-/area/new_blades/underground/aquifer
-	name = "Aquifer"
-	area_blurb = "Cool, dark water laps around your feet. You have stepped into an underground lake - one that seems shallow enough to wade in, at least for now. You feel that you ought to tread carefully."
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_HIDE_FROM_HOLOMAP
-
-/area/new_blades/underground/deadskrellstorage
-	name = "Mass Grave"
-	area_blurb = "The stench of rotting meat hits you like a tidal wave."
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_HIDE_FROM_HOLOMAP
-
-/area/new_blades/interiors
-	name = "Wasteland Interiors"
-	icon_state = "blue"
-	lighting = FALSE
-	area_flags = AREA_FLAG_RAD_SHIELDED
-	area_blurb = "This building appears better preserved than most in the Wasteland - it could make for a useful shelter if needed."
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
-	is_outside = OUTSIDE_NO
-
-/area/new_blades/interiors/skrell_base
-	name = "Skrell Base"
-	area_blurb = "The vibrant colors and curves of skrell construction contrast sharply with the surrounding dusty wasteland, but that's not the only thing wrong with this picture."
-	holomap_color = HOLOMAP_AREACOLOR_SCIENCE
-
-/area/new_blades/interiors/ruins
-	name = "Wasteland Ruins"
-	requires_power = TRUE
-	area_blurb = "Though a ruined shell, this building appears somewhat intact. A potential shelter, should the weather turn."
-
-/area/new_blades/interiors/ruins/hegemony_spaceport
-	name = "Abandoned Spaceport"
-
-/area/new_blades/interiors/ruins/hegemony_base
-	name = "Abandoned Base"
-	area_blurb = "The buildings here are ancient and rusting - a monument to the war that left this world sundered and bleeding."
-
-/area/new_blades/interiors/ruins/bunker
-	name = "Abandoned Bunker"
-	area_blurb = "The quiet of the bunker is omnipresent - the drip of water and your footsteps on rusted concrete do nothing to quell it."
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_HIDE_FROM_HOLOMAP
-
-/area/new_blades/interiors/ruins/bunker/brig
-	name = "Abandoned Prison"
-	area_blurb = "A stale copper smell in the air. "
-
+//Shuttles
 /area/shuttle/scc_evac
 	name = "SCC Transport Shuttle"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	holomap_color = HOLOMAP_AREACOLOR_COMMAND
 	is_outside = OUTSIDE_NO
-
-/area/turbolift/hegemony_bunker_A
-	name = "Bunker Lift A"
-	requires_power = TRUE
-	station_area = FALSE
-
-/area/turbolift/hegemony_bunker_B
-	name = "Bunker Lift B"
-	requires_power = TRUE
-	station_area = FALSE
 
 /datum/shuttle/autodock/ferry/scc_evac
 	name = "SCCV Apollo"
@@ -348,169 +323,6 @@
 	base_area = /area/landing_pad
 
 
-// Bunker Lift A
-/datum/shuttle/autodock/multi/lift/bunker_A
-	name = "Bunker Lift A"
-	current_location = "nav_bunker_A_lift_upper"
-	shuttle_area = /area/turbolift/hegemony_bunker_A
-	destination_tags = list(
-		"nav_bunker_A_lift_lower",
-		"nav_bunker_A_lift_upper",
-		)
-
-/obj/effect/shuttle_landmark/lift/bunker_A_upper
-	name = "Bunker Lift A - Upper"
-	landmark_tag = "nav_bunker_A_lift_upper"
-	base_area = /area/new_blades/interiors/ruins/hegemony_base
-	base_turf = /turf/simulated/open
-
-/obj/effect/shuttle_landmark/lift/bunker_A_lower
-	name = "Bunker Lift A - Lower"
-	landmark_tag = "nav_bunker_A_lift_lower"
-	base_area = /area/new_blades/interiors/ruins/bunker
-	base_turf = /turf/simulated/floor/plating
-
-/obj/machinery/computer/shuttle_control/multi/lift/bunker_A
-	shuttle_tag = "Bunker Lift A"
-
-/obj/machinery/computer/shuttle_control/multi/lift/wall/bunker_A
-	shuttle_tag = "Bunker Lift A"
-
-// Bunker Lift B
-/datum/shuttle/autodock/multi/lift/bunker_B
-	name = "Bunker Lift B"
-	current_location = "nav_bunker_B_lift_upper"
-	shuttle_area = /area/turbolift/hegemony_bunker_B
-	destination_tags = list(
-		"nav_bunker_B_lift_lower",
-		"nav_bunker_B_lift_upper",
-		)
-
-/obj/effect/shuttle_landmark/lift/bunker_B_upper
-	name = "Bunker Lift B - Upper"
-	landmark_tag = "nav_bunker_B_lift_upper"
-	base_area = /area/new_blades/interiors/ruins/hegemony_base
-	base_turf = /turf/simulated/open
-
-/obj/effect/shuttle_landmark/lift/bunker_B_lower
-	name = "Bunker Lift B - Lower"
-	landmark_tag = "nav_bunker_B_lift_lower"
-	base_area = /area/new_blades/interiors/ruins/bunker
-	base_turf = /turf/simulated/floor/plating
-
-/obj/machinery/computer/shuttle_control/multi/lift/bunker_B
-	shuttle_tag = "Bunker Lift B"
-
-/obj/machinery/computer/shuttle_control/multi/lift/wall/bunker_B
-	shuttle_tag = "Bunker Lift B"
-
-
-//Corpses
-
-/obj/effect/landmark/corpse/nralakk
-	name = "Federation Humanitarian Worker"
-	corpseuniform = /obj/item/clothing/under/skrell/nralakk/oqi/med
-	corpsesuit = /obj/item/clothing/accessory/poncho/shouldercape/cloak/oqi
-	corpseshoes = /obj/item/clothing/shoes/jackboots/kala
-	corpseid = FALSE
-	species = SPECIES_SKRELL
-
-/obj/effect/landmark/corpse/nralakk/security
-	name = "Federation Security Worker"
-	corpseuniform = /obj/item/clothing/under/skrell/nralakk/oqi/security
-	corpsesuit = /obj/item/clothing/suit/storage/vest/kala
-	corpsehelmet = /obj/item/clothing/head/helmet/security/skrell
-	corpsebelt = /obj/item/gun/energy/fedpistol
-
-/obj/effect/landmark/corpse/nralakk/do_extra_customization(mob/living/carbon/human/M)
-	. = ..()
-	var/cadaver_color = pick("blue", "green", "yellow")
-	switch(cadaver_color)
-		if("blue")
-			M.change_hair_color(50, 151, 168)
-			M.change_skin_color(50, 151, 168)
-		if("green")
-			M.change_skin_color(31, 143, 56)
-			M.change_hair_color(31, 143, 56)
-		if("yellow")
-			M.change_skin_color(209, 203, 25)
-			M.change_hair_color(209, 203, 25)
-	M.change_facial_hair("Shaved")
-	M.adjustBruteLoss(rand(200,400))
-	M.dir = pick(GLOB.cardinal)
-
-/obj/effect/landmark/corpse/villager
-	name = "Unathi Villager"
-	corpseuniform = /obj/item/clothing/under/unathi/himation
-	corpseshoes = /obj/item/clothing/shoes/sandals/caligae
-	corpseid = FALSE
-	species = SPECIES_UNATHI
-
-/obj/effect/landmark/corpse/villager/do_extra_customization(mob/living/carbon/human/M)
-	. = ..()
-	if(M.w_uniform)
-		M.w_uniform.color = "#c3b6b6"
-		M.w_uniform.accent_color = "#c3b6b6"
-	var/obj/item/organ/internal/stomach/stomach = M.internal_organs_by_name[BP_STOMACH]
-	if(stomach)
-		stomach.ingested.add_reagent(/singleton/reagent/toxin/phoron, rand(1,5))
-		stomach.ingested.add_reagent(/singleton/reagent/water, rand(15,30))
-	M.apply_damage(rand(10,30), DAMAGE_RADIATION, damage_flags = DAMAGE_FLAG_DISPERSED)
-	M.faction = "deadguy"
-	var/cadaver_color = pick("Brown", "Black", "Grey")
-	switch(cadaver_color)
-		if("Brown")
-			M.change_skin_color(92,66,32)
-		if("Black")
-			M.change_skin_color(61,47,47)
-		if("Grey")
-			M.change_skin_color(98,84,65)
-	M.change_hair_color(133, 115, 88)
-	M.change_hair("Unathi Horns")
-	M.change_facial_hair("Shaved")
-
-/obj/effect/landmark/corpse/vaurca
-	name = "C'thur Worker"
-	mobname = "Ka'Akaix'Krez C'thur"
-	corpseuniform = /obj/item/clothing/under/skrell/nralakk/oqi/service
-	corpsesuit = /obj/item/clothing/accessory/poncho/shouldercape/cloak/oqi
-	corpseshoes = /obj/item/clothing/shoes/vaurca
-	corpsemask = /obj/item/clothing/mask/gas/vaurca/filter
-	corpseid = FALSE
-	species = SPECIES_VAURCA_WORKER
-
-/obj/effect/landmark/corpse/vaurca/do_extra_customization(mob/living/carbon/human/M)
-	. = ..()
-	M.name = mobname
-	M.real_name = mobname
-	M.change_skin_color(20,20,55) //Vytel
-	M.change_hair_color(20,20,55)
-	M.adjustBruteLoss(rand(200,400))
-	M.dir = pick(GLOB.cardinal)
-
-/obj/item/paper/fluff/new_blades_1
-	name = "To SCCV Horizon"
-	info = "SCCV Horizon crew. We have established a base camp to the east of this shuttle port and begun to administer aid to the locals. Sandstorms have been inhibiting radio communication, so we have chosen to leave this note for you to ensure smooth operations. We look forward to seeing you soon. -NFV Qrrixu"
-
-/obj/item/paper/fluff/skrell_report
-	name = "Preliminary Survey Results"
-	info = "Analysis of the region indicates severe degradation, yet I do not believe it is without hope. The aquifer is a vital resource for Izilukh, and if the Hegemony's plans for this area come to fruition it will be of immense importance in resettling the surrounding area. In addition, the eastern region was already an arid environment prior to the nuclear exchange, and there are several promising flora specimens which could be transplanted or crossbred with local species to restore the biosphere. My full analysis data has been copied to a disk, which I will send to headquarters at earliest convenience."
-	language = LANGUAGE_SKRELLIAN
-
-/obj/item/disk/mcguffin1
-	name = "\improper Nralakk survey data disk"
-	icon = 'icons/obj/cloning.dmi'
-	icon_state = "datadisk2"
-	item_state = "card-id"
-	w_class = ITEMSIZE_SMALL
-	desc = "An encrypted data disk, labeled in Nral'malic."
-	desc_info = "This data disk can be used at the Zeng-Hu Environmental Analysis Terminal for a large one-time boost to survey progress."
-
-/obj/item/disk/mcguffin1/get_examine_text(mob/user)
-	. = ..()
-	if(GLOB.all_languages[LANGUAGE_SKRELLIAN] in user.languages)
-		. += SPAN_NOTICE("The label reads 'Izilukh Region Research Data'.")
-
 /obj/item/disk/mcguffin2
 	name = "purifier operations data disk"
 	icon = 'icons/obj/cloning.dmi'
@@ -519,34 +331,6 @@
 	w_class = ITEMSIZE_SMALL
 	desc = "An encrypted data disk."
 	desc_info = "This data disk can be used at the Zeng-Hu Environmental Analysis Terminal for a large one-time boost to survey progress."
-
-/obj/item/paper/fluff/decryption
-	name = "decryption notes"
-	info = "I thought that I'd cracked the encryption, but everything in here is just more of what we've been told. Analysis, medical aid, food supplies - exactly what the prisoner told us. I'll bring the disk back to Mudki with me when we're through here, see if someone else can't have a go at it."
-	language = LANGUAGE_UNATHI
-
-/obj/item/paper/fluff/syslog
-	name = "operations log"
-	info = "Izilukh Silo 3 System Commands Log:<br>\
-	11/01/2451: All remaining payloads disarmed and removed.<br>\
-	24/02/2451: Base closure ordered. Personnel relieved of duty.<br>\
-	19/04/2451: Base power levels below operational. System shutdown engaged.<br>\
-	25/06/2466: Base power reactivated. User command received: Unknown Command.<br>\
-	30/06/2466: Base power deactivated. System shutdown engaged.<br>\
-	30/06/2466: Base power reactivated. User command received: Print Logs."
-	language = LANGUAGE_UNATHI
-
-/obj/machinery/computer/terminal/silo
-	name = "system log terminal"
-	icon_screen = "command"
-	icon_keyboard = "id_key"
-
-/obj/machinery/computer/terminal/silo/attack_hand(mob/user)
-	. = ..()
-	var/choice = tgui_alert(user, "System logs available. Display driver corrupted. Print system logs?", "System Logs", list("Print", "Cancel"))
-	if(choice == "Print")
-		var/obj/item/paper/P = new /obj/item/paper/fluff/syslog(get_turf(user))
-		user.put_in_hands(P)
 
 /obj/machinery/computer/terminal/purifier
 	name = "water purifier terminal"
@@ -598,3 +382,152 @@
 	if(choice == "Print")
 		var/obj/item/paper/P = new /obj/item/paper/fluff/water_treatment_log(get_turf(user))
 		user.put_in_hands(P)
+
+//Corpses
+/obj/effect/landmark/corpse/villager
+	name = "Unathi Villager"
+	corpseuniform = /obj/item/clothing/under/unathi/himation
+	corpseshoes = /obj/item/clothing/shoes/sandals/caligae
+	corpseid = FALSE
+	species = SPECIES_UNATHI
+
+/obj/effect/landmark/corpse/villager/do_extra_customization(mob/living/carbon/human/M)
+	. = ..()
+	if(M.w_uniform)
+		M.w_uniform.color = "#c3b6b6"
+		M.w_uniform.accent_color = "#c3b6b6"
+	M.apply_damage(rand(10,30), DAMAGE_RADIATION, damage_flags = DAMAGE_FLAG_DISPERSED)
+	M.adjustBruteLoss(rand(100,300))
+	M.faction = "deadguy"
+	var/cadaver_color = pick("Brown", "Black", "Grey")
+	switch(cadaver_color)
+		if("Brown")
+			M.change_skin_color(92,66,32)
+		if("Black")
+			M.change_skin_color(61,47,47)
+		if("Grey")
+			M.change_skin_color(98,84,65)
+	M.change_hair_color(133, 115, 88)
+	M.change_hair("Unathi Horns")
+	M.change_facial_hair("Shaved")
+
+/obj/effect/landmark/corpse/hegemony
+	name = "Izweski Soldier"
+	corpseuniform = /obj/item/clothing/under/unathi/izweski
+	corpsesuit = /obj/item/clothing/suit/armor/unathi/hegemony
+	corpsehelmet = /obj/item/clothing/head/helmet/unathi/hegemony
+	corpseshoes = /obj/item/clothing/shoes/sandals/caligae
+	corpseback = /obj/item/storage/backpack/satchel/hegemony
+	corpseid = TRUE
+	corpseidjob = "Izweski Warrior"
+	species = SPECIES_UNATHI
+
+/obj/effect/landmark/corpse/hegemony/do_extra_customization(mob/living/carbon/human/M)
+	. = ..()
+	M.gender = MALE
+	M.adjustBruteLoss(rand(100,300))
+	M.adjustBurnLoss(rand(50,200))
+	var/cadaver_color = pick("Green","Red","Brown")
+	switch(cadaver_color)
+		if("Green")
+			M.change_skin_color(31,95,31)
+		if("Red")
+			M.change_skin_color(160,44,44)
+		if("Brown")
+			M.change_skin_color(98,84,65)
+	M.change_hair_color(133, 115, 88)
+	M.change_hair("Unathi Horns")
+	M.change_facial_hair("Shaved")
+
+/obj/effect/landmark/corpse/izaku
+	name = "Izaku Warrior"
+	corpseuniform = /obj/item/clothing/under/unathi/zazali/white
+	corpsesuit = /obj/item/clothing/suit/armor/unathi
+	corpsehelmet = /obj/item/clothing/head/helmet/unathi
+	corpseshoes = /obj/item/clothing/shoes/sandals/caligae
+	species = SPECIES_UNATHI
+
+/obj/effect/landmark/corpse/izaku/do_extra_customization(mob/living/carbon/human/M)
+	. = ..()
+	M.gender = MALE
+	M.adjustBurnLoss(rand(100,400))
+	M.adjustBruteLoss(rand(50,150))
+	var/cadaver_color = pick("Brown", "Black", "Grey")
+	switch(cadaver_color)
+		if("Brown")
+			M.change_skin_color(92,66,32)
+		if("Black")
+			M.change_skin_color(61,47,47)
+		if("Grey")
+			M.change_skin_color(98,84,65)
+	M.change_hair_color(133, 115, 88)
+	M.change_hair("Unathi Horns")
+	M.change_facial_hair("Shaved")
+
+/obj/effect/landmark/corpse/klax
+	name = "K'lax Warrior"
+	corpseuniform = /obj/item/clothing/under/unathi/izweski
+	corpsesuit = /obj/item/clothing/suit/armor/unathi/klax
+	corpsehelmet = /obj/item/clothing/head/helmet/unathi/klax
+	corpseshoes = /obj/item/clothing/shoes/vaurca
+	corpseback = /obj/item/storage/backpack/cloak/klax
+	corpsemask = /obj/item/clothing/mask/gas/vaurca/tactical
+	corpseid = TRUE
+	corpseidjob = "Izweski Warrior"
+	species = SPECIES_VAURCA_WARRIOR
+
+/obj/effect/landmark/corpse/klax/do_extra_customization(mob/living/carbon/human/M)
+	. = ..()
+	M.adjustBruteLoss(rand(50,75))
+	M.adjustBurnLoss(rand(100,250))
+	var/brood = pick("Vedhra","Zkaii","Tupii","Leto","Vetju")
+	switch(brood)
+		if("Vedhra")
+			M.change_skin_color(130, 150, 20)
+			M.change_hair_color(130, 150, 20)
+		if("Zkaii")
+			M.change_skin_color(11, 43, 27)
+			M.change_hair_color(11, 43, 27)
+		if("Tupii")
+			M.change_skin_color(41, 150, 23)
+			M.change_hair_color(41, 150, 23)
+		if("Leto")
+			M.change_skin_color(0, 80, 60)
+			M.change_hair_color(0, 80, 60)
+		if("Vetju")
+			M.change_skin_color(11, 84, 31)
+			M.change_hair_color(11, 84, 31)
+	replacetext(M.name, "Ka'", "Za'")
+	replacetext(M.name, "Ta'", "Za'")
+	replacetext(M.name, "Ra'", "Za'")
+	replacetext(M.name, "Viax","Akaix")
+	replacetext(M.name, " Zo'ra", " K'lax")
+	replacetext(M.name, " C'thur", " K'lax")
+
+/obj/effect/landmark/corpse/kataphract
+	name = "Kataphract Warrior"
+	corpseuniform = /obj/item/clothing/under/unathi/zazali/white
+	corpseshoes = /obj/item/clothing/shoes/sandals/caligae
+	corpseback = /obj/item/rig/unathi/fancy/equipped
+	corpseid = TRUE
+	corpseidjob = "Kataphract Warrior"
+	species = SPECIES_UNATHI
+
+/obj/effect/landmark/corpse/kataphract/do_extra_customization(mob/living/carbon/human/M)
+	. = ..()
+	M.gender = MALE
+	M.adjustBruteLoss(rand(100,300))
+	M.adjustBurnLoss(rand(50,200))
+	var/cadaver_color = pick("Green","Red","Brown")
+	switch(cadaver_color)
+		if("Green")
+			M.change_skin_color(31,95,31)
+		if("Red")
+			M.change_skin_color(160,44,44)
+		if("Brown")
+			M.change_skin_color(98,84,65)
+	M.change_hair_color(133, 115, 88)
+	M.change_hair("Unathi Horns")
+	M.change_facial_hair("Shaved")
+	var/obj/item/rig/R = M.back
+	R.toggle_seals(M,TRUE)

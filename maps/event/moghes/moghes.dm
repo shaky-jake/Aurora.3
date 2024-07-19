@@ -33,8 +33,6 @@
 	map_shuttles = list(
 		/datum/shuttle/autodock/ferry/supply/moghes,
 		/datum/shuttle/autodock/ferry/scc_evac,
-		/datum/shuttle/autodock/multi/lift/bunker_A,
-		/datum/shuttle/autodock/multi/lift/bunker_B,
 		/datum/shuttle/autodock/multi/lift/mudki_hospital,
 		/datum/shuttle/autodock/multi/lift/guildhouse
 	)

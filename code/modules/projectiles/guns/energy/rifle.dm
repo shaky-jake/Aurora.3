@@ -258,3 +258,7 @@
 	origin_tech = list(TECH_COMBAT = 6, TECH_MAGNET = 4)
 	is_wieldable = TRUE
 	modifystate = "hegemonyrifle"
+
+/obj/item/gun/energy/rifle/hegemony/selfcharge
+	self_recharge = TRUE
+	charge_failure_message = "'s charging socket was removed to make room for a recharger."
