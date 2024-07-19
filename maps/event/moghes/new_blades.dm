@@ -58,6 +58,10 @@
 	icon_state = "green"
 	area_blurb = "A small alleyway, winding its way through the urban sprawl. The smell of smoke and rot drifts on the air."
 
+/area/new_blades/mudki/interiors/sewers
+	icon_state = "green"
+	area_blurb = "Sewers Placeholder"
+
 /area/new_blades/mudki/interiors/spaceport
 	name = "Mudki Spaceport"
 	area_blurb = "The spaceport is in surprisingly good condition, given the state of the wider city - though it seems to have gone unused for quite some time. Dust covers every available surface."
@@ -102,7 +106,7 @@
 /area/new_blades/mudki/interiors/restaurant
 	name = "Restaurant"
 	area_blurb = "This small restaurant seems to be in decent condition - though far from perfect condition. The floors and tables are dirty, yet the lights are still on, and the building seems to be sturdy. It seems this place was abandoned recently."
-	// requires_power = TRUE
+	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/hospital
@@ -129,6 +133,7 @@
 /area/new_blades/mudki/interiors/bar
 	name = "Bar"
 	area_blurb = "This building seems to be sturdy enough - whoever abandoned it did so recently. Whatever else this district may have lost over the years, at least they were still able to drink their way through it."
+	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/library
@@ -139,11 +144,13 @@
 /area/new_blades/mudki/interiors/pawn
 	name = "Pawn Shop"
 	area_blurb = "A small shop, but one that has survived the ruin of its city. The shelves are lined with assorted miscellany."
+	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/convenience
 	name = "Convenience Store"
 	area_blurb = "A mid-sized shop, shelves lined with food and other supplies. Perhaps crisis has forged an opportunity for profit."
+	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/charging_station
@@ -164,6 +171,7 @@
 
 /area/new_blades/mudki/interiors/abandoned_shop/appliance
 	name = "Abandoned Appliance Shop"
+	requires_power = TRUE
 
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle
 	name = "Abandoned Mechanic's Shop"
@@ -173,7 +181,7 @@
 
 /area/new_blades/mudki/interiors/power_station
 	name = "Power Station"
-	// area_blurb = "Power Station Placeholder"
+	area_blurb = "Power Station Placeholder"
 	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
