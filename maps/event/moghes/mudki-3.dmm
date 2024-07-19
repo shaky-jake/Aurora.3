@@ -14,24 +14,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"aag" = (
-/obj/effect/decal/road_marking/center,
-/obj/effect/decal/road_marking/reflector,
-/obj/effect/decal/road_marking/thin{
-	dir = 8
-	},
-/obj/effect/decal/road_marking/thin{
-	dir = 4
-	},
-/obj/effect/step_trigger/thrower{
-	icon_state = "dir_arrow";
-	tiles = 1;
-	dir = 1
-	},
-/turf/simulated/floor/asphalt{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/road)
 "aal" = (
 /obj/structure/crane,
 /obj/effect/decal/curb{
@@ -1003,6 +985,12 @@
 	tiles = 1;
 	dir = 1
 	},
+/obj/structure/barricade/plasteel/wired{
+	dir = 1;
+	closed = 0;
+	icon_state = "plasteel_0";
+	density = 1
+	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
@@ -1166,17 +1154,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
-"aoS" = (
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "aoU" = (
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "corner";
@@ -2014,7 +1991,7 @@
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "azZ" = (
 /turf/simulated/floor/concrete{
 	temperature = 315.15
@@ -2240,6 +2217,11 @@
 	},
 /obj/random/dirt_75,
 /obj/structure/barricade/metal/wired{
+	dir = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
 	dir = 1
 	},
 /turf/simulated/floor/sidewalk/flat{
@@ -2603,6 +2585,23 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"aFM" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "aGb" = (
 /obj/effect/decal/road_marking/crosswalk,
 /turf/simulated/floor/asphalt{
@@ -2728,7 +2727,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "aHE" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -4300,7 +4299,7 @@
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "bbq" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -5005,6 +5004,13 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"bjH" = (
+/obj/random/dirt_75,
+/obj/item/ammo_casing/moghes_rifle/spent,
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "bjJ" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -5222,7 +5228,7 @@
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "bmV" = (
 /obj/machinery/door/urban{
 	dir = 4
@@ -5662,6 +5668,11 @@
 	icon_state = "plasteel_0";
 	density = 1
 	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
@@ -5877,7 +5888,7 @@
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
 	tiles = 1;
-	dir = 5
+	dir = 1
 	},
 /turf/simulated/floor/tiled/freezer{
 	temperature = 315.15
@@ -6451,15 +6462,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"bGW" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 10
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/lino{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "bHj" = (
 /obj/machinery/door/urban{
 	dir = 4
@@ -7188,6 +7190,10 @@
 	},
 /obj/random/dirt_75,
 /obj/structure/barricade/metal/wired,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -7464,22 +7470,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/convenience)
-"bTu" = (
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/obj/machinery/light/colored/decayed{
-	dir = 8
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/north_housing)
 "bTx" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -8190,6 +8180,17 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"cdc" = (
+/obj/structure/flora/grass/desert,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cdh" = (
 /obj/effect/decal/cleanable/floor_damage/broken7,
 /obj/item/material/shard/shrapnel,
@@ -8717,6 +8718,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"cjz" = (
+/obj/random/dirt_75,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
 "cjD" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -8825,6 +8837,17 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades)
+"clr" = (
+/obj/structure/flora/grass/junglegrass/rocky/random,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -10483,19 +10506,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"cKf" = (
-/obj/effect/step_trigger/thrower{
-	icon_state = "dir_arrow";
-	tiles = 1;
-	dir = 1
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/underground)
 "cKg" = (
 /obj/effect/decal/cleanable/floor_damage/broken2,
 /turf/simulated/floor/plating{
@@ -10880,6 +10890,24 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"cOU" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "cPb" = (
 /obj/random/dirt_75,
 /obj/effect/decal/cleanable/blood/drip{
@@ -11626,23 +11654,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/temple)
-"dah" = (
-/obj/effect/decal/road_marking{
-	dir = 4
-	},
-/obj/effect/decal/curb{
-	dir = 8
-	},
-/obj/structure/barricade/plasteel/wired{
-	dir = 1;
-	closed = 0;
-	icon_state = "plasteel_0";
-	density = 1
-	},
-/turf/simulated/floor/asphalt{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/road)
 "dak" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -11701,7 +11712,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "daX" = (
 /obj/structure/closet/secure_closet,
 /obj/effect/decal/curb{
@@ -12390,14 +12401,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"dlm" = (
+"dlu" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
 /obj/random/dirt_75,
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
 	tiles = 1;
-	dir = 1
+	dir = 8
 	},
-/turf/simulated/floor/sidewalk{
+/turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -12653,14 +12667,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/clothing)
-"dpm" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 9
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "dps" = (
 /obj/effect/decal/curb,
 /obj/random/dirt_75,
@@ -13100,16 +13106,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
-"duw" = (
-/obj/effect/step_trigger/thrower{
-	icon_state = "dir_arrow";
-	tiles = 1;
-	dir = 1
-	},
-/turf/simulated/floor/asphalt{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/road)
 "duy" = (
 /obj/structure/table/standard,
 /obj/item/pen{
@@ -13132,6 +13128,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/library)
+"dva" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "dvo" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -14884,6 +14895,25 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"dTQ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = 0
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/turf/simulated/floor/lino{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "dTT" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -15175,6 +15205,10 @@
 /area/new_blades/mudki/interiors/north_housing)
 "dWy" = (
 /obj/structure/barricade/metal/wired,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1
+	},
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -15239,6 +15273,10 @@
 "dXx" = (
 /obj/random/dirt_75,
 /obj/structure/barricade/metal/wired,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1
+	},
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -16715,18 +16753,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"esm" = (
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "eso" = (
 /obj/effect/decal/road_marking/reflector{
 	dir = 1
@@ -18154,7 +18180,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "eOd" = (
 /obj/structure/flora/rock/konyang/small,
 /obj/effect/decal/cleanable/dirt,
@@ -18219,12 +18245,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"eOB" = (
-/obj/random/dirt_75,
-/turf/simulated/floor/concrete/square{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "eOL" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
@@ -18336,7 +18356,7 @@
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "ePG" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff-top1";
@@ -19454,6 +19474,23 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"feA" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "feE" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -20059,19 +20096,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/guildhouse)
-"fmc" = (
-/obj/effect/step_trigger/thrower{
-	icon_state = "dir_arrow";
-	tiles = 1;
-	dir = 1
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/underground)
 "fmp" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -20740,7 +20764,7 @@
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "fux" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -20771,7 +20795,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "fuJ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -22179,6 +22203,12 @@
 	tiles = 1;
 	dir = 1
 	},
+/obj/structure/barricade/plasteel/wired{
+	dir = 1;
+	closed = 0;
+	icon_state = "plasteel_0";
+	density = 1
+	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
@@ -22735,6 +22765,18 @@
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
 	dir = 4;
+	temperature = 315.15
+	},
+/area/new_blades)
+"fUO" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -24145,7 +24187,7 @@
 /obj/item/clipboard{
 	pixel_y = 5
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/full{
@@ -24240,18 +24282,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
-"gmN" = (
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/north_housing)
 "gmT" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -24914,6 +24944,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -24931,6 +24965,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"gwV" = (
+/obj/random/dirt_75,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "gwW" = (
 /obj/effect/decal/cleanable/floor_damage/broken1,
 /obj/item/material/shard/shrapnel{
@@ -25532,13 +25577,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"gEq" = (
-/obj/machinery/door/urban,
-/obj/random/dirt_75,
-/turf/simulated/floor/concrete{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "gEy" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -25657,7 +25695,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "gGF" = (
 /obj/structure/platform{
 	dir = 4
@@ -25819,19 +25857,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"gIx" = (
-/obj/effect/floor_decal/concrete,
-/obj/effect/floor_decal/concrete/large{
-	dir = 8
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/marble/dark{
-	temperature = 315.15
-	},
-/area/new_blades)
 "gIy" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -25879,6 +25904,28 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"gJh" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/barricade/plasteel/wired{
+	dir = 1;
+	closed = 0;
+	icon_state = "plasteel_0";
+	density = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "gJq" = (
 /obj/machinery/blackbox_recorder,
 /turf/unsimulated/floor,
@@ -26896,6 +26943,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/spaceport/customs)
+"gUh" = (
+/obj/structure/barricade/plasteel/wired{
+	dir = 1;
+	closed = 0;
+	icon_state = "plasteel_0";
+	density = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "gUk" = (
 /obj/effect/decal/curb/corner,
 /obj/effect/decal/curb{
@@ -27453,8 +27516,8 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/light/colored/decayed,
 /obj/random/dirt_75,
+/obj/machinery/light/broken,
 /turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
@@ -29820,16 +29883,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
-"hKv" = (
-/obj/effect/step_trigger/thrower{
-	icon_state = "dir_arrow";
-	tiles = 1;
-	dir = 1
-	},
-/turf/simulated/floor/sidewalk/detail{
-	temperature = 315.15
-	},
-/area/new_blades)
 "hKL" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -29894,16 +29947,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"hLB" = (
-/obj/random/dirt_75,
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/asphalt{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/road)
 "hLG" = (
 /obj/structure/rod_railing{
 	dir = 8;
@@ -31131,6 +31174,10 @@
 	icon_state = "plasteel_0";
 	density = 1
 	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1
+	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
@@ -31829,10 +31876,6 @@
 	},
 /obj/random/dirt_75,
 /obj/random/dirt_75,
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -32502,6 +32545,16 @@
 "iuw" = (
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/new_blades/mudki/interiors/spaceport/shuttle_maintenance)
+"iuA" = (
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "iuE" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -33319,9 +33372,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
-/obj/item/stack/material/steel{
-	amount = 25
-	},
+/obj/item/stack/material/steel,
 /obj/effect/decal/cleanable/floor_damage/broken4,
 /obj/random/dirt_75,
 /obj/effect/decal/cleanable/blood/drip{
@@ -33396,7 +33447,7 @@
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
-	light_power = 0.45;
+	light_power = 0.4;
 	light_range = 20
 	},
 /turf/simulated/floor/asphalt{
@@ -33727,21 +33778,11 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"iKK" = (
-/obj/random/dirt_75,
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/concrete{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/north_housing)
 "iKZ" = (
 /obj/random/dirt_75,
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
-	light_power = 0.45;
+	light_power = 0.4;
 	light_range = 12
 	},
 /obj/item/ammo_casing/moghes_rifle/spent,
@@ -34373,6 +34414,11 @@
 	pixel_y = 9
 	},
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -34849,21 +34895,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
-"jfs" = (
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/north_housing)
 "jfy" = (
 /obj/structure/lattice,
 /obj/effect/decal/cleanable/floor_damage/broken7,
@@ -34957,7 +34988,7 @@
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "jge" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
 /obj/item/material/shard/shrapnel,
@@ -36241,6 +36272,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"jxD" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "jxK" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -36350,6 +36393,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"jyW" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/item/clothing/head/cone,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "jyZ" = (
 /obj/effect/map_effect/window_spawner/full/reinforced{
 	color = "#B5A165";
@@ -36846,6 +36898,10 @@
 	dir = 9
 	},
 /obj/random/dirt_75,
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -37096,7 +37152,7 @@
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "jJn" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -37705,9 +37761,7 @@
 /obj/effect/decal/cleanable/floor_damage/burned3,
 /obj/structure/lattice,
 /obj/effect/decal/cleanable/floor_damage/broken3,
-/obj/item/stack/material/steel{
-	amount = 25
-	},
+/obj/item/stack/material/steel,
 /obj/random/dirt_75,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 315.15
@@ -37843,17 +37897,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"jSu" = (
-/obj/effect/decal/cleanable/floor_damage/burned3,
-/obj/structure/lattice,
-/obj/item/stack/material/steel{
-	amount = 25
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/exoplanet/grass/moghes/dirt{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/city_wall)
 "jSx" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
 /obj/random/dirt_75,
@@ -38406,6 +38449,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"kaI" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "kaY" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -38668,7 +38722,7 @@
 /area/new_blades/mudki/interiors/city_wall)
 "keT" = (
 /obj/structure/lattice/catwalk/indoor/urban,
-/obj/machinery/light/broken{
+/obj/machinery/light/colored/decayed{
 	dir = 4
 	},
 /turf/simulated/floor/asphalt{
@@ -38996,6 +39050,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"kje" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "kjj" = (
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 1
@@ -39063,17 +39132,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"kjY" = (
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "kjZ" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -39950,17 +40008,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"kyK" = (
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "kzw" = (
 /obj/effect/decal/road_marking/reflector{
 	dir = 4
@@ -40110,7 +40157,7 @@
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "kBH" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/random/dirt_75,
@@ -40585,20 +40632,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/military_base)
-"kHS" = (
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/obj/random/dirt_75,
-/obj/effect/step_trigger/thrower{
-	icon_state = "dir_arrow";
-	tiles = 1;
-	dir = 9
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades)
 "kHV" = (
 /obj/machinery/door/urban,
 /obj/structure/sign/urban/staff{
@@ -40788,7 +40821,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "kKC" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -40999,6 +41032,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"kNd" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "kNe" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -41936,6 +41984,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"kYm" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "kYn" = (
 /obj/structure/girder,
 /obj/effect/decal/fake_object/light_source/invisible{
@@ -42984,6 +43044,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"lme" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "lmg" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
@@ -43118,7 +43193,7 @@
 /obj/random/dirt_75,
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
-	light_power = 0.45;
+	light_power = 0.4;
 	light_range = 15
 	},
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -43440,17 +43515,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
-"lsg" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 10
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "lsT" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -43783,11 +43847,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"lxR" = (
-/turf/simulated/floor/concrete/square{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "lxW" = (
 /obj/structure/lattice,
 /obj/effect/decal/cleanable/floor_damage/broken6,
@@ -44031,6 +44090,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
+"lBr" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "lBu" = (
 /obj/effect/decal/curb{
 	dir = 5
@@ -45218,7 +45293,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "lQe" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -45569,6 +45644,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/spaceport/customs)
+"lVh" = (
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "lVl" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 8
@@ -46771,6 +46855,10 @@
 	dir = 6
 	},
 /obj/structure/barricade/metal/wired,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -47400,6 +47488,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"mvO" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "mvU" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -47574,9 +47673,7 @@
 /area/new_blades/mudki/interiors/military_base)
 "mys" = (
 /obj/structure/lattice/catwalk/indoor/urban,
-/obj/item/stack/material/steel{
-	amount = 25
-	},
+/obj/item/stack/material/steel,
 /obj/item/material/shard/shrapnel,
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt{
@@ -48311,7 +48408,8 @@
 	cover_set = 1;
 	light_power = 0;
 	light_range = 0;
-	stat = 1
+	stat = 1;
+	health = 0
 	},
 /obj/effect/decal/cleanable/floor_damage/broken1,
 /turf/simulated/floor/tiled/techfloor{
@@ -48672,11 +48770,11 @@
 	color = "#e1a750";
 	dir = 1
 	},
-/obj/machinery/door/blast/regular/open{
-	id = "city_inner_gate"
-	},
 /obj/effect/decal/cleanable/floor_damage/broken1,
 /obj/random/dirt_75,
+/obj/machinery/door/blast/regular{
+	id = "city_inner_gate"
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -48703,7 +48801,7 @@
 "mNR" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
-	light_power = 0.45;
+	light_power = 0.4;
 	light_range = 12
 	},
 /obj/effect/decal/cleanable/floor_damage/broken3,
@@ -48712,12 +48810,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/city_wall)
-"mNU" = (
-/obj/machinery/door/urban,
-/turf/simulated/floor/tiled/freezer{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "mNW" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -50430,7 +50522,7 @@
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "nhG" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -50451,19 +50543,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/vehicle)
-"nhQ" = (
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/obj/effect/step_trigger/thrower{
-	icon_state = "dir_arrow";
-	tiles = 1;
-	dir = 1
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades)
 "nhS" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
@@ -50472,10 +50551,6 @@
 	dir = 9
 	},
 /obj/random/dirt_75,
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -51180,6 +51255,28 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"nrz" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/barricade/plasteel/wired{
+	dir = 1;
+	closed = 0;
+	icon_state = "plasteel_0";
+	density = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "nrB" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -53141,13 +53238,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"nSm" = (
-/obj/machinery/appliance/cooker/oven,
-/obj/random/dirt_75,
-/turf/simulated/floor/lino/diamond{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "nSs" = (
 /obj/effect/floor_decal/industrial/loading/yellow{
 	dir = 8
@@ -53329,7 +53419,8 @@
 	cover_set = 1;
 	light_power = 0;
 	light_range = 0;
-	stat = 1
+	stat = 1;
+	health = 0
 	},
 /obj/effect/floor_decal/industrial/hatch{
 	color = "#aa5f61"
@@ -53791,7 +53882,7 @@
 /obj/effect/floor_decal/corner{
 	color = "#b19664"
 	},
-/obj/machinery/light/colored/decayed{
+/obj/machinery/light/broken{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor{
@@ -54344,6 +54435,30 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/light,
 /area/new_blades/mudki/interiors/restaurant)
+"okP" = (
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/desert{
+	temperature = 315.15
+	},
+/area/new_blades)
+"okR" = (
+/obj/random/dirt_75,
+/obj/structure/barricade/metal/wired{
+	dir = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "okW" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -56093,18 +56208,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"oLq" = (
-/obj/effect/floor_decal/spline/fancy/wood/cee{
-	dir = 8
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/convenience)
 "oLC" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -56432,7 +56535,7 @@
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "oRL" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/stack/medical/bruise_pack/full{
@@ -57228,7 +57331,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "pen" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -57277,6 +57380,10 @@
 	closed = 0;
 	icon_state = "plasteel_0";
 	density = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1
 	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
@@ -57841,6 +57948,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"pmU" = (
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "pmV" = (
 /obj/structure/automobile_filler,
 /turf/simulated/floor/asphalt,
@@ -59728,7 +59848,7 @@
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "pLu" = (
 /obj/structure/cash_register{
 	dir = 8;
@@ -60079,7 +60199,7 @@
 "pRB" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
-	light_power = 0.45;
+	light_power = 0.4;
 	light_range = 12
 	},
 /obj/effect/decal/cleanable/floor_damage/burned3,
@@ -60110,6 +60230,9 @@
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
 	tiles = 1;
+	dir = 1
+	},
+/obj/structure/barricade/metal/wired{
 	dir = 1
 	},
 /turf/simulated/floor/sidewalk{
@@ -60535,6 +60658,26 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/clothing)
+"pXM" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "pXO" = (
 /obj/effect/decal/cleanable/floor_damage/broken3,
 /obj/random/dirt_75,
@@ -60575,18 +60718,6 @@
 /obj/item/gun/energy/gun,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
-"pYx" = (
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/temple)
 "pYD" = (
 /obj/item/material/shard/shrapnel,
 /obj/effect/decal/fake_object/light_source/invisible{
@@ -60636,6 +60767,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/underground)
+"pZw" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	icon_state = "edge";
+	dir = 8;
+	temperature = 315.15
+	},
+/area/new_blades)
 "pZA" = (
 /obj/effect/floor_decal/concrete{
 	dir = 8
@@ -60791,6 +60935,18 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
+"qbk" = (
+/obj/effect/decal/curb,
+/obj/random/dirt_75,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -61222,26 +61378,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"qim" = (
-/obj/structure/table/wood,
-/obj/item/trash/bowl_small{
-	pixel_y = 8;
-	pixel_x = -3
-	},
-/obj/item/trash/wooden_platter{
-	pixel_y = -6
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot{
-	pixel_y = 3;
-	pixel_x = 7
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "qio" = (
 /obj/machinery/appliance/cooker/fryer{
 	stat = 4
@@ -61966,14 +62102,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"qqs" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "qqt" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
 /turf/simulated/floor/lino/diamond{
@@ -62231,7 +62359,7 @@
 "qtz" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
-	light_power = 0.45;
+	light_power = 0.4;
 	light_range = 12
 	},
 /obj/effect/decal/cleanable/floor_damage/burned3,
@@ -64346,6 +64474,18 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"qXE" = (
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/obj/item/clothing/head/cone,
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "qXR" = (
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
@@ -64913,13 +65053,13 @@
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "rey" = (
-/obj/machinery/light/colored/decayed,
 /obj/structure/lattice,
 /obj/effect/decal/cleanable/floor_damage/broken7,
 /obj/item/material/shard/shrapnel{
 	pixel_x = -4
 	},
 /obj/random/dirt_75,
+/obj/machinery/light/broken,
 /turf/simulated/floor/plating{
 	temperature = 315.15
 	},
@@ -65451,6 +65591,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"rlf" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "rlq" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -65555,7 +65708,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "rmq" = (
 /obj/item/stack/material/steel{
 	pixel_y = 5
@@ -65796,7 +65949,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "rqf" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -66365,21 +66518,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"rxo" = (
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/sidewalk/detail{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/north_housing)
 "rxq" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -66976,10 +67114,6 @@
 	pixel_x = 20;
 	pixel_y = 0
 	},
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
@@ -67367,18 +67501,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"rJv" = (
-/obj/structure/toilet{
-	pixel_y = 8
-	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/freezer{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "rJw" = (
 /obj/structure/chainlink_fence,
 /obj/effect/decal/curb{
@@ -67872,6 +67994,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"rPH" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "rPT" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -68383,7 +68521,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "rUR" = (
 /obj/structure/barricade/metal/wired{
 	dir = 4
@@ -68414,7 +68552,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "rVn" = (
 /obj/structure/tank_wall/carbon_dioxide{
 	icon_state = "co2-15"
@@ -68429,16 +68567,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/spaceport/shuttle_maintenance)
-"rVq" = (
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/north_housing)
 "rVB" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -68795,6 +68923,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"sag" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "sas" = (
 /obj/structure/shipping_container{
 	icon_state = "green3"
@@ -69912,6 +70055,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"soO" = (
+/obj/item/ammo_casing/moghes_rifle/spent,
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "soX" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/cleanable/dirt,
@@ -70869,6 +71022,11 @@
 	dir = 1
 	},
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -70928,7 +71086,7 @@
 /turf/simulated/floor/lino{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "sDT" = (
 /obj/structure/table/rack,
 /obj/item/toy/comic{
@@ -71250,6 +71408,10 @@
 	closed = 0;
 	icon_state = "plasteel_0";
 	density = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1
 	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
@@ -71789,7 +71951,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "sPs" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/light/broken{
@@ -72252,7 +72414,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "sUs" = (
 /obj/structure/sink{
 	dir = 4;
@@ -72305,6 +72467,11 @@
 	},
 /obj/effect/decal/cleanable/generic,
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -72495,14 +72662,14 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
 	},
-/obj/machinery/light/colored/decayed{
-	dir = 1
-	},
 /obj/random/dirt_75,
 /obj/effect/decal/cleanable/blood/drip{
 	basecolor = "#590000";
 	dries = 0;
 	name = "dried drips of blood"
+	},
+/obj/machinery/light/broken{
+	dir = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 315.15
@@ -73149,7 +73316,7 @@
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
-	light_power = 0.45;
+	light_power = 0.4;
 	light_range = 15
 	},
 /obj/random/dirt_75,
@@ -73237,15 +73404,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"tjU" = (
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/temple)
 "tka" = (
 /turf/simulated/floor/concrete{
 	temperature = 315.15
@@ -73279,18 +73437,6 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt{
-	temperature = 315.15
-	},
-/area/new_blades)
-"tkm" = (
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/obj/random/dirt_75,
-/obj/structure/barricade/metal/wired{
-	dir = 1
-	},
-/turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -73478,6 +73624,12 @@
 	icon_state = "dir_arrow";
 	tiles = 1;
 	dir = 1
+	},
+/obj/structure/barricade/plasteel/wired{
+	dir = 1;
+	closed = 0;
+	icon_state = "plasteel_0";
+	density = 1
 	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
@@ -73795,6 +73947,19 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"tsA" = (
+/obj/structure/barricade/metal/wired{
+	dir = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "tsL" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/curb,
@@ -74441,6 +74606,10 @@
 	icon_state = "plasteel_0";
 	density = 1
 	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1
+	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
@@ -74559,6 +74728,24 @@
 	dir = 8
 	},
 /obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"tCh" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/obj/structure/barricade/metal/wired{
+	dir = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -74946,6 +75133,23 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"tHP" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/obj/structure/barricade/metal/wired{
+	dir = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
 "tHV" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -75067,10 +75271,6 @@
 	},
 /obj/effect/decal/curb{
 	dir = 8
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "merchant";
-	name = "igs - merchant"
 	},
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
@@ -75877,7 +76077,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "tVj" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/effect/floor_decal/concrete{
@@ -76315,6 +76515,23 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"uaD" = (
+/obj/random/dirt_75,
+/obj/structure/barricade/plasteel/wired{
+	dir = 1;
+	closed = 0;
+	icon_state = "plasteel_0";
+	density = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "uaM" = (
 /obj/structure/girder,
 /obj/random/dirt_75,
@@ -76855,6 +77072,31 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/hospital)
+"uiF" = (
+/obj/effect/decal/road_marking/center,
+/obj/effect/decal/road_marking/reflector,
+/obj/effect/decal/road_marking/thin{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/thin{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/structure/barricade/plasteel/wired{
+	dir = 1;
+	closed = 0;
+	icon_state = "plasteel_0";
+	density = 1
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "uiJ" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/random/dirt_75,
@@ -77011,6 +77253,11 @@
 	},
 /obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -77570,6 +77817,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
+"utx" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "utC" = (
 /obj/machinery/button/remote/blast_door{
 	pixel_y = 29;
@@ -77920,29 +78182,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/alley)
-"uym" = (
-/obj/structure/table/stone/marble,
-/obj/item/reagent_containers/cooking_container/board,
-/obj/item/reagent_containers/glass/rag{
-	pixel_x = 9;
-	pixel_y = 13
-	},
-/obj/item/material/kitchen/utensil/knife{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/condiment/shaker/salt{
-	pixel_x = -10;
-	pixel_y = 12
-	},
-/obj/item/reagent_containers/food/condiment/shaker/peppermill{
-	pixel_x = -4;
-	pixel_y = 11
-	},
-/turf/simulated/floor/lino/diamond{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "uys" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -77959,7 +78198,7 @@
 "uyE" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
-	light_power = 0.45;
+	light_power = 0.4;
 	light_range = 20
 	},
 /obj/effect/decal/cleanable/floor_damage/burned3,
@@ -78682,6 +78921,17 @@
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
 	dir = 1;
+	temperature = 315.15
+	},
+/area/new_blades)
+"uGV" = (
+/obj/structure/flora/grass/desert/bush,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/desert{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -79491,6 +79741,17 @@
 	},
 /turf/simulated/floor/concrete,
 /area/new_blades/mudki/interiors/charging_station)
+"uUo" = (
+/obj/random/dirt_75,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "uUp" = (
 /obj/structure/sink/kitchen{
 	dir = 4;
@@ -79533,14 +79794,6 @@
 	temperature = 315.15
 	},
 /area/new_blades)
-"uUF" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 5
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "uUN" = (
 /turf/simulated/floor/plating/asteroid{
 	temperature = 315.15
@@ -80728,10 +80981,10 @@
 /obj/effect/floor_decal/industrial/outline_door{
 	color = "#e1a750"
 	},
-/obj/machinery/light/colored/decayed{
+/obj/random/dirt_75,
+/obj/machinery/light/broken{
 	dir = 4
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/dark{
 	temperature = 315.15
 	},
@@ -80996,6 +81249,24 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vnv" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/floor_damage/tiled_broken4,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "vnx" = (
 /obj/effect/decal/road_marking/no_pass,
 /obj/effect/decal/curb/corner,
@@ -81021,6 +81292,17 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vof" = (
+/obj/structure/flora/rock/konyang/small,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "voF" = (
 /obj/structure/bed/stool/chair/sofa/right/beige{
 	dir = 1
@@ -81031,7 +81313,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "voQ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -81118,11 +81400,6 @@
 "vre" = (
 /obj/effect/decal/cleanable/floor_damage/broken2,
 /obj/random/dirt_75,
-/obj/effect/decal/fake_object/light_source/invisible{
-	light_color = "#ffffff";
-	light_power = 0.45;
-	light_range = 15
-	},
 /turf/simulated/floor/concrete{
 	temperature = 315.15
 	},
@@ -81391,6 +81668,10 @@
 	pixel_y = 22
 	},
 /obj/random/dirt_75,
+/obj/effect/ghostspawpoint{
+	identifier = "merchant";
+	name = "igs - merchant"
+	},
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -81574,6 +81855,16 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"vwx" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/random/dirt_75,
+/obj/item/clothing/head/cone,
+/turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -82434,10 +82725,6 @@
 	dir = 4
 	},
 /obj/random/dirt_75,
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
@@ -82590,6 +82877,16 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"vLl" = (
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "vLs" = (
 /obj/structure/bonfire/fireplace{
 	pixel_x = 0;
@@ -82993,7 +83290,7 @@
 /turf/simulated/floor/sidewalk/detail{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "vRJ" = (
 /obj/effect/decal/curb/corner,
 /obj/effect/decal/curb/corner{
@@ -83782,19 +84079,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/city_wall)
-"wcd" = (
-/obj/effect/floor_decal/concrete{
-	dir = 4
-	},
-/obj/effect/step_trigger/thrower{
-	icon_state = "dir_arrow";
-	tiles = 1;
-	dir = 1
-	},
-/turf/simulated/floor/sidewalk{
-	temperature = 315.15
-	},
-/area/new_blades)
 "wce" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -84872,14 +85156,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
-"wsB" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors)
 "wsP" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/cleanable/floor_damage/tiled_broken4,
@@ -85107,22 +85383,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/restaurant)
-"wvU" = (
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/obj/effect/floor_decal/concrete/gutter/corner{
-	dir = 8
-	},
-/obj/effect/step_trigger/thrower{
-	icon_state = "dir_arrow";
-	tiles = 1;
-	dir = 1
-	},
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades)
 "wwa" = (
 /obj/machinery/media/jukebox/gramophone,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -85295,6 +85555,9 @@
 	tiles = 1;
 	dir = 1
 	},
+/obj/structure/barricade/metal/wired{
+	dir = 1
+	},
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -85390,7 +85653,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "wAj" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -85703,6 +85966,10 @@
 	dries = 0;
 	name = "dried drips of blood"
 	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
 /turf/simulated/floor/sidewalk{
 	temperature = 315.15
 	},
@@ -85997,6 +86264,10 @@
 	dir = 8
 	},
 /obj/random/dirt_75,
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -86113,6 +86384,27 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/new_blades)
+"wKc" = (
+/obj/effect/decal/road_marking/thin,
+/obj/effect/decal/road_marking/thin{
+	dir = 1
+	},
+/obj/effect/decal/road_marking/center{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/reflector{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "wKh" = (
 /obj/effect/decal/cleanable/floor_damage/burned3,
 /obj/structure/lattice,
@@ -86134,6 +86426,16 @@
 /obj/item/ammo_casing/moghes_rifle/spent,
 /obj/item/ammo_casing/moghes_rifle/spent,
 /turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades)
+"wKw" = (
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	temperature = 315.15
 	},
 /area/new_blades)
@@ -86462,10 +86764,10 @@
 	color = "#e1a750";
 	dir = 1
 	},
-/obj/machinery/door/blast/regular/open{
+/obj/random/dirt_75,
+/obj/machinery/door/blast/regular{
 	id = "city_inner_gate"
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -86587,6 +86889,8 @@
 	layer = 2.89
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
+/obj/item/ammo_casing/moghes_rifle/spent,
+/obj/item/ammo_casing/moghes_rifle/spent,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
 	icon_state = "edge";
 	dir = 6;
@@ -86775,21 +87079,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"wTg" = (
-/obj/structure/bed/padded,
-/obj/structure/curtain/open/bed,
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/obj/item/bedsheet/brown,
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
-/turf/simulated/floor/sidewalk/flat{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/north_housing)
 "wTh" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/simulated/floor/exoplanet/grass/moghes/dirt{
@@ -86861,7 +87150,7 @@
 /turf/simulated/floor/lino/diamond{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "wUH" = (
 /obj/structure/shipping_container{
 	icon_state = "green2"
@@ -86990,7 +87279,7 @@
 	pixel_x = 10
 	},
 /obj/structure/lattice/catwalk/indoor/urban,
-/obj/machinery/light/colored/decayed,
+/obj/machinery/light/broken,
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
@@ -87053,6 +87342,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"wWH" = (
+/obj/structure/flora/grass/junglegrass/random,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "wWI" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -87921,6 +88221,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/spaceport/shuttle_maintenance)
+"xip" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/utility_pole/street{
+	dir = 4;
+	pixel_x = -2
+	},
+/obj/item/clothing/head/cone,
+/turf/simulated/floor/asphalt{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/road)
 "xis" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -87928,10 +88244,6 @@
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
 /obj/item/bedsheet/brown,
-/obj/effect/ghostspawpoint{
-	identifier = "civ";
-	name = "igs - civ"
-	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -87977,9 +88289,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/appliance)
-"xjf" = (
-/turf/simulated/wall/sandstone,
-/area/new_blades/mudki/interiors)
 "xjo" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/shuttle/black,
@@ -88786,11 +89095,11 @@
 	color = "#e1a750";
 	dir = 1
 	},
-/obj/machinery/door/blast/regular/open{
-	id = "city_inner_gate"
-	},
 /obj/effect/decal/cleanable/floor_damage/broken4,
 /obj/random/dirt_75,
+/obj/machinery/door/blast/regular{
+	id = "city_inner_gate"
+	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -88947,6 +89256,10 @@
 	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
 	},
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
@@ -89110,6 +89423,15 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"xwX" = (
+/obj/random/dirt_75,
+/obj/item/ammo_casing/moghes_rifle/spent,
+/obj/item/ammo_casing/moghes_rifle/spent,
+/obj/item/ammo_casing/moghes_rifle/spent,
+/turf/simulated/floor/exoplanet/grass/moghes/dirt{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xxh" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -89466,7 +89788,7 @@
 /turf/simulated/floor/wood/maple{
 	temperature = 315.15
 	},
-/area/new_blades/mudki/interiors)
+/area/new_blades/mudki/interiors/south_housing)
 "xCn" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/random/dirt_75,
@@ -90166,7 +90488,7 @@
 	},
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#ffffff";
-	light_power = 0.45;
+	light_power = 0.4;
 	light_range = 15
 	},
 /obj/random/dirt_75,
@@ -90776,6 +91098,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/abandoned_shop/electronic)
+"xUJ" = (
+/obj/structure/flora/grass/junglegrass/rocky/random,
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/grass/moghes{
+	temperature = 315.15
+	},
+/area/new_blades)
 "xUN" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
@@ -91941,6 +92274,22 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"yjA" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/step_trigger/thrower{
+	icon_state = "dir_arrow";
+	tiles = 1;
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/blocks{
+	temperature = 315.15
+	},
+/area/new_blades)
 "yjD" = (
 /obj/structure/lattice,
 /turf/simulated/open,
@@ -99191,7 +99540,7 @@ nzr
 gKn
 oKn
 dIi
-tjU
+ouE
 ouE
 hrG
 all
@@ -99386,7 +99735,7 @@ dek
 ioA
 ioA
 dek
-fFr
+lme
 hkC
 hkC
 bcC
@@ -99903,7 +100252,7 @@ rcc
 qTm
 oIh
 eqd
-cQX
+utx
 tGX
 jJX
 dek
@@ -100213,7 +100562,7 @@ pDM
 all
 uMX
 syh
-pYx
+syh
 xMI
 nzr
 gKn
@@ -105040,7 +105389,7 @@ dek
 buo
 olu
 bSG
-jfs
+uyL
 iWo
 dek
 xDs
@@ -105566,7 +105915,7 @@ wzS
 wDs
 eSI
 dSU
-oLq
+czd
 vOB
 czd
 hBA
@@ -105809,7 +106158,7 @@ dek
 mAx
 aFw
 qjz
-iKK
+wPW
 xuP
 wXV
 czA
@@ -109215,7 +109564,7 @@ vFZ
 xyK
 oom
 faY
-wsU
+soO
 sBx
 eJI
 eJI
@@ -109267,12 +109616,12 @@ nPA
 oPl
 bzm
 rsd
-bdk
-bdk
-bdk
-rwB
-bdk
-xwP
+aMR
+aMR
+aMR
+oPl
+aMR
+aMR
 aMR
 oPl
 kbD
@@ -109400,9 +109749,9 @@ faY
 wST
 kLZ
 xZl
-tBc
-tBc
-tBc
+lqL
+lqL
+lqL
 lqL
 xZl
 iqv
@@ -109522,14 +109871,14 @@ wpi
 wpi
 wpi
 oPl
-oPl
+rdJ
 oPl
 oPl
 wpO
 oPl
 oPl
 oPl
-rdJ
+oPl
 oPl
 oPl
 gpY
@@ -109657,9 +110006,9 @@ wwm
 wST
 kLZ
 xZl
-tBc
-tBc
-tBc
+lqL
+lqL
+lqL
 lqL
 xZl
 iqv
@@ -109779,14 +110128,14 @@ kwQ
 lna
 bKm
 bZw
-roX
+tCh
 kpY
 bZw
 kpY
 kpY
 bZw
 oLp
-wvU
+oLp
 bZw
 kpY
 kpY
@@ -110035,15 +110384,15 @@ maN
 maN
 wST
 wST
-qCU
-wST
+qXE
+okR
 wST
 wST
 cQD
 wST
 cQD
 cQD
-dlm
+wST
 cQD
 wST
 cQD
@@ -110289,18 +110638,18 @@ iaZ
 xBG
 mUX
 xBG
-xBG
+vlZ
 xBG
 xBG
 iaZ
-xBG
+gJh
 xBG
 mUX
 xBG
 xBG
 xBG
 iaZ
-ami
+xBG
 mUX
 xBG
 xBG
@@ -110550,14 +110899,14 @@ vFZ
 vFZ
 oom
 oom
-oom
-oom
-vFZ
+uaD
 oom
 vFZ
+oom
 vFZ
 vFZ
-duw
+vFZ
+vFZ
 oom
 oom
 vFZ
@@ -110807,14 +111156,14 @@ fGS
 jFQ
 jFQ
 jFQ
-jFQ
+uiF
 fGS
 fGS
 fGS
 fGS
 fGS
 fGS
-aag
+fGS
 fGS
 jFQ
 fGS
@@ -111024,7 +111373,7 @@ oom
 oom
 vFZ
 vFZ
-vFZ
+lVh
 vFZ
 oom
 oom
@@ -111064,14 +111413,14 @@ vFZ
 vFZ
 vFZ
 vFZ
-vFZ
+gUh
 vFZ
 vFZ
 vFZ
 vFZ
 oom
 vFZ
-duw
+vFZ
 vFZ
 vFZ
 oom
@@ -111317,18 +111666,18 @@ fqB
 tbJ
 tbJ
 tbJ
-tbJ
+rRS
 tbJ
 gPR
 hFo
-tbJ
+nrz
 tbJ
 tbJ
 tbJ
 tbJ
 tbJ
 fqB
-tnD
+tbJ
 wmg
 vFZ
 psf
@@ -111577,15 +111926,15 @@ wST
 iXp
 cQD
 wST
+fjF
+tsA
+wST
+wST
+wST
 wST
 cQD
-wST
-wST
-wST
-wST
 cQD
-cQD
-hKv
+gbl
 bJe
 aGb
 hfX
@@ -111835,14 +112184,14 @@ qEY
 dqV
 dqV
 dqV
-dqV
+tHP
 bkI
 bkI
 fSr
 oaU
 dqV
 dqV
-wcd
+bap
 mJi
 jOp
 faY
@@ -112092,14 +112441,14 @@ oPl
 oPl
 oPl
 oPl
+rdJ
 oPl
 oPl
 oPl
 oPl
 oPl
 oPl
-oPl
-nhQ
+rmc
 txG
 jOp
 faY
@@ -112330,7 +112679,7 @@ ycq
 vmG
 deu
 oPl
-gNA
+vnv
 pEf
 wES
 vin
@@ -112349,14 +112698,14 @@ oPl
 kMv
 mMh
 mMh
-mMh
-mMh
-mMh
-mMh
-mMh
-mMh
-rPs
-kHS
+kMv
+aMR
+aMR
+aMR
+aMR
+aMR
+oPl
+bFs
 txG
 jOp
 faY
@@ -112587,7 +112936,7 @@ oKo
 mEI
 vwC
 oPl
-xph
+pXM
 tyI
 oPl
 oPl
@@ -113355,12 +113704,12 @@ rwy
 klG
 wXy
 iSL
-xYQ
+cOU
 sCR
 rQd
 nNh
 jAL
-xbb
+dTQ
 qds
 oPl
 rmc
@@ -113614,7 +113963,7 @@ oPl
 kCJ
 ruF
 kpU
-gpu
+dva
 nMs
 vmk
 oPl
@@ -113871,7 +114220,7 @@ dmA
 oPl
 oPl
 oPl
-jnC
+feA
 ukK
 nbr
 oPl
@@ -114122,7 +114471,7 @@ oom
 xQJ
 vFZ
 wwm
-wST
+qCU
 kLZ
 oPl
 mJJ
@@ -114284,7 +114633,7 @@ fcL
 wlK
 dek
 lgb
-rVq
+cqm
 jck
 uYG
 jSD
@@ -114323,7 +114672,7 @@ xCp
 dHV
 eXe
 xZl
-eQv
+kje
 fbj
 ibN
 bVX
@@ -114379,7 +114728,7 @@ oom
 wtL
 vFZ
 faY
-cQD
+bju
 uZp
 oPl
 pnQ
@@ -114541,7 +114890,7 @@ fcL
 wlK
 dek
 atE
-ieW
+kYm
 cDj
 dek
 dek
@@ -114579,7 +114928,7 @@ ilg
 sLR
 kSW
 eGr
-gIx
+rnt
 axB
 oxD
 ibN
@@ -114899,7 +115248,7 @@ oPl
 nIX
 iTp
 oPl
-mlU
+kNd
 sVj
 pRO
 oPl
@@ -115578,7 +115927,7 @@ neF
 jzh
 dek
 eYs
-pyO
+sag
 okl
 cQX
 oka
@@ -117115,7 +117464,7 @@ lUV
 coR
 dek
 xGY
-bTu
+phk
 ddW
 dek
 qFs
@@ -117372,8 +117721,8 @@ wpp
 llD
 dek
 axU
-swg
-gmN
+rlf
+hSV
 dek
 qFs
 jlc
@@ -118159,7 +118508,7 @@ tGb
 faY
 fcL
 dek
-wTg
+kOg
 kOg
 dek
 sgA
@@ -119545,7 +119894,7 @@ tSE
 tSE
 tSE
 nKV
-nKV
+jyW
 wyI
 pVL
 tSE
@@ -119799,7 +120148,7 @@ nUa
 xBG
 xBG
 xBG
-iaZ
+xip
 xBG
 xBG
 xBG
@@ -120004,7 +120353,7 @@ pmF
 mWS
 xhV
 qKX
-rmc
+fUO
 cyZ
 eCM
 cqn
@@ -120313,7 +120662,7 @@ psf
 gPR
 gPR
 gPR
-tbJ
+rRS
 tbJ
 tbJ
 tbJ
@@ -120473,7 +120822,7 @@ faY
 fcL
 afC
 ijA
-rvM
+rPH
 lpS
 eMy
 dek
@@ -120573,7 +120922,7 @@ sEa
 sEa
 mgG
 sEa
-sEa
+vwx
 pRM
 mgG
 sQG
@@ -121245,10 +121594,10 @@ rZi
 dek
 tjc
 baM
-rxo
+xVN
 wPW
 dek
-ieW
+kYm
 qjz
 wBU
 dek
@@ -128194,7 +128543,7 @@ dsZ
 nzG
 cQD
 cyZ
-hLB
+oom
 xyK
 oom
 lrt
@@ -128540,7 +128889,7 @@ nHL
 wlK
 wlK
 oPl
-oPl
+rdJ
 oPl
 oPl
 oPl
@@ -129050,11 +129399,11 @@ xQJ
 faY
 cQD
 cQD
-eHD
+cQD
 cQD
 cQD
 fjF
-lDD
+okR
 maN
 wST
 cQD
@@ -129062,7 +129411,7 @@ cQD
 wST
 wST
 mDs
-fmc
+gXJ
 gXJ
 gXJ
 gXJ
@@ -129307,19 +129656,19 @@ xQJ
 nUa
 mUX
 xBG
+vlZ
+iaZ
+xBG
+xBG
+gJh
+xBG
+xBG
 xBG
 iaZ
 xBG
 xBG
-avI
 xBG
 xBG
-xBG
-iaZ
-xBG
-xBG
-xBG
-ami
 xBG
 xBG
 iaZ
@@ -129576,7 +129925,7 @@ cqn
 sqc
 sqc
 sqc
-fNi
+cqn
 cqn
 cqn
 cqn
@@ -129821,11 +130170,11 @@ gPR
 gPR
 gPR
 tbJ
+rRS
 tbJ
 tbJ
 tbJ
-tbJ
-dah
+nrz
 gPR
 gPR
 tbJ
@@ -129833,7 +130182,7 @@ tbJ
 tbJ
 tbJ
 tbJ
-tnD
+tbJ
 tbJ
 tbJ
 tbJ
@@ -130078,11 +130427,11 @@ wST
 cQD
 cQD
 wST
-fjF
 cQD
 cQD
+cQD
 fjF
-lDD
+okR
 cQD
 cQD
 wST
@@ -130090,7 +130439,7 @@ wST
 wST
 uNN
 mgG
-cKf
+vAM
 vAM
 vAM
 vAM
@@ -130317,16 +130666,16 @@ txG
 xyK
 faY
 fcL
-xjf
-xjf
-xjf
-xjf
-xjf
-xjf
-xjf
-xjf
-xjf
-xjf
+oPl
+oPl
+oPl
+oPl
+oPl
+oPl
+oPl
+oPl
+oPl
+oPl
 vgw
 dqV
 dqV
@@ -130339,7 +130688,7 @@ dqV
 dqV
 dqV
 bkI
-tkm
+tHP
 bkI
 bkI
 fSr
@@ -130574,16 +130923,16 @@ txG
 xyK
 faY
 fcL
-xjf
-lxR
+oPl
+dYt
 fuI
-lsg
-kjY
-utN
+vqH
+hvA
+nvl
 sPo
 kKr
 tVg
-xjf
+oPl
 wNJ
 wNJ
 wNJ
@@ -130596,7 +130945,7 @@ sxr
 vDo
 vDo
 sxr
-sxr
+pmU
 vDo
 vDo
 vDo
@@ -130831,16 +131180,16 @@ aaF
 xyK
 faY
 fcL
-xjf
+oPl
 jJl
-qim
+owO
 gGv
 fun
-aoS
-aoS
+mLY
+mLY
 baT
 voF
-xjf
+oPl
 cOz
 ixS
 rPh
@@ -130853,7 +131202,7 @@ fUX
 gYu
 mJG
 eTg
-gPB
+pZw
 vPE
 vPE
 ien
@@ -131088,16 +131437,16 @@ txG
 tGb
 faY
 aoY
-xjf
-eOB
+oPl
+aPj
 rUL
 sUp
-kjY
-lxR
+hvA
+dYt
 azo
-kjY
+hvA
 bmS
-xjf
+oPl
 hlq
 kYV
 nix
@@ -131110,7 +131459,7 @@ uoz
 uoz
 uoz
 uoz
-ufG
+xUJ
 yaD
 itt
 yaD
@@ -131345,16 +131694,16 @@ txG
 xyK
 faY
 fcL
-gEq
-esm
-aoS
+wXy
+jnC
+mLY
 jgc
 nhx
-xjf
-xjf
-xjf
-xjf
-xjf
+oPl
+oPl
+oPl
+oPl
+oPl
 ixS
 eZd
 nix
@@ -131602,16 +131951,16 @@ txG
 xyK
 faY
 aoY
-xjf
+oPl
 aHu
 xCk
-kjY
-dpm
-xjf
+hvA
+knK
+oPl
 rpL
 rVk
 daW
-xjf
+oPl
 bMZ
 nix
 uoz
@@ -131859,16 +132208,16 @@ txG
 tGb
 lrt
 fcL
-xjf
-aoS
-aoS
+oPl
+mLY
+mLY
 pKU
-qqs
+ayY
 oRG
 lPS
 lPS
 wAh
-xjf
+oPl
 ttF
 kYV
 uoz
@@ -132116,16 +132465,16 @@ txG
 tGb
 lrt
 kTG
-xjf
-uym
-bGW
-kjY
-uUF
-xjf
-wsB
-wsB
+oPl
+nBD
+ovq
+hvA
+iqD
+oPl
+gnz
+gnz
 eNQ
-xjf
+oPl
 enX
 rPh
 uoz
@@ -132373,16 +132722,16 @@ txG
 tGb
 faY
 rZi
-xjf
+oPl
 wUG
 ePu
 vQR
-aoS
-xjf
+mLY
+oPl
 pdQ
 rme
-qqs
-xjf
+ayY
+oPl
 enX
 kYV
 uoz
@@ -132630,16 +132979,16 @@ sHi
 tGb
 faY
 aoY
-xjf
-nSm
+oPl
+bWT
 sDP
-kyK
-utN
-xjf
-xjf
-xjf
-xjf
-xjf
+tuz
+nvl
+oPl
+oPl
+oPl
+oPl
+oPl
 fwo
 uoz
 uoz
@@ -132887,12 +133236,12 @@ txG
 xyK
 faY
 fcL
-xjf
-xjf
-xjf
-kyK
-utN
-xjf
+oPl
+oPl
+oPl
+tuz
+nvl
+oPl
 wOj
 eZd
 eZd
@@ -133144,12 +133493,12 @@ txG
 xyK
 faY
 aoY
-xjf
-rJv
-mNU
+oPl
+gYZ
+uXG
 kBi
-utN
-xjf
+nvl
+oPl
 ttF
 eZd
 kYV
@@ -133401,12 +133750,12 @@ wkN
 xyK
 faY
 mfT
-xjf
-xjf
-xjf
-xjf
-xjf
-xjf
+oPl
+oPl
+oPl
+oPl
+oPl
+oPl
 enX
 rPh
 nix
@@ -139983,7 +140332,7 @@ uEf
 mJG
 mKL
 xGL
-mJG
+xwX
 rdP
 rdP
 rdP
@@ -140240,7 +140589,7 @@ qpM
 mJG
 mKL
 wQw
-mJG
+bjH
 jtD
 mJG
 mJG
@@ -142587,7 +142936,7 @@ kel
 lLS
 pfM
 pPY
-jSu
+mCy
 bsg
 lLS
 lLS
@@ -155406,60 +155755,60 @@ tBc
 tBc
 nwR
 nlx
-gxe
-gxe
-gxe
-gxe
-qpM
-qpM
-qpM
-qpM
-wRW
-uEf
-cOQ
-cOQ
-ufG
-cOQ
-yaD
-cOQ
-uEf
-uEf
-kna
-cOQ
-yaD
-kna
-qpM
-gxe
-gxe
-bys
-rzK
-obP
-bNo
-txG
-oom
-stb
-vFZ
-faY
-rYq
-syr
-dQN
-dQN
-qpM
-mJG
-rzK
-qpM
-qpM
-qpM
-yaD
-ufG
-cOQ
-uEf
-qpM
-gxe
-qpM
-qpM
-rzK
-rzK
+okP
+okP
+okP
+okP
+wKw
+wKw
+wKw
+wKw
+vof
+mvO
+iuA
+iuA
+clr
+iuA
+wWH
+iuA
+mvO
+mvO
+kaI
+iuA
+wWH
+kaI
+wKw
+okP
+okP
+uGV
+cdc
+dlu
+yjA
+jxD
+gwV
+wKc
+vLl
+lBr
+aFM
+qbk
+cjz
+cjz
+wKw
+uUo
+cdc
+wKw
+wKw
+wKw
+wWH
+clr
+iuA
+mvO
+wKw
+okP
+wKw
+wKw
+cdc
+cdc
 ogd
 rOp
 tBc
