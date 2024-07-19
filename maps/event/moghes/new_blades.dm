@@ -46,21 +46,21 @@
 	name = "Mudki Interiors"
 	lighting = FALSE
 	area_flags = AREA_FLAG_RAD_SHIELDED
-	area_blurb = "Interiors Placeholder"
+	area_blurb = "This building is poorly maintained, but makes for a welcome shelter from the heat nonetheless."
 	is_outside = OUTSIDE_NO
 
 /area/new_blades/mudki/interiors/city_wall
 	name = "Mudki City Wall"
-	area_blurb = "Mudki City Walls Placeholder"
+	area_blurb = "The walls of Mudki were renowned for centuries as unbreakable. Now, they stand sundered and broken, dust falling from some damaged stone and concrete above your head."
 
 /area/new_blades/mudki/interiors/alley
 	name = "Mudki Alleys"
 	icon_state = "green"
-	area_blurb = "Alleys Placeholder"
+	area_blurb = "A small alleyway, winding its way through the urban sprawl. The smell of smoke and rot drifts on the air."
 
 /area/new_blades/mudki/interiors/spaceport
 	name = "Mudki Spaceport"
-	area_blurb = "Spaceport Interiors Placeholder"
+	area_blurb = "The spaceport is in surprisingly good condition, given the state of the wider city - though it seems to have gone unused for quite some time. Dust covers every available surface."
 
 /area/new_blades/mudki/interiors/spaceport/checkpoint
 	name = "Spaceport Checkpoint"
@@ -80,80 +80,80 @@
 
 /area/new_blades/mudki/interiors/north_housing
 	name = "Northern Mudki Housing"
-	area_blurb = "Housing Placeholder"
+	area_blurb = "A home, still standing despite the ruin brought to Mudki. Small, yet still comfortable in its way, despite everything."
 	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/south_housing
 	name = "Southern Mudki Housing"
-	area_blurb = "Housing Placeholder"
+	area_blurb = "A home, still standing despite the ruin brought to Mudki. Small, yet still comfortable in its way, despite everything."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/custodial
 	name = "Custodial Garage"
-	area_blurb = "Custodial Placeholder"
+	area_blurb = "This place looks to have once been a storage facility for local street-cleaners. It seems well-supplied, though many of the cleaning products here seem to be well past their use-by date."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/military_base
 	name = "Military Base"
-	area_blurb = "Military Base Placeholder"
+	area_blurb = "Ruin has come to this building. Walls are torn apart from bombardment, glass and steel alike blasted to pieces. The smell of blood and smoke drifts on the mountain wind."
 	holomap_color = HOLOMAP_AREACOLOR_SECURITY
 
 /area/new_blades/mudki/interiors/restaurant
 	name = "Restaurant"
-	area_blurb = "Restaurant Placeholder"
+	area_blurb = "This small restaurant seems to be in decent condition - though far from perfect condition. The floors and tables are dirty, yet the lights are still on, and the building seems to be sturdy. It seems this place was abandoned recently."
 	// requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/hospital
 	name = "Hospital"
-	area_blurb = "Hospital Placeholder"
+	area_blurb = "Sterile and chemical scents in the air almost mask the faint coppery smell of blood. Harsh fluorescence blankets white floors."
 	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 
 /area/new_blades/mudki/interiors/guildhouse
 	name = "Merchant's Guildhouse"
-	area_blurb = "Guildhouse Placeholder"
+	area_blurb = "The signs of violence here are obvious. Blood stains the ground, and the lingering scent of burning meat hangs around you."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/temple
 	name = "Temple of Sk'akh"
-	area_blurb = "Temple Placeholder"
+	area_blurb = "Incense in the air. Clean floors and old sandstone walls. This place has not been scarred by the fighting that came to Mudki. Over the doors, a three-faced Unathi's visage is carved - the Three Faces of Sk'akh."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/inn
 	name = "Inn"
-	area_blurb = "Inn Placeholder"
+	area_blurb = "This place should have the warmth of a fire, the smells of cooking meat, the sound of lively music. There is no fire. There is no meat. There is no music. Only decay."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/bar
 	name = "Bar"
-	area_blurb = "Bar Placeholder"
+	area_blurb = "This building seems to be sturdy enough - whoever abandoned it did so recently. Whatever else this district may have lost over the years, at least they were still able to drink their way through it."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/library
 	name = "Library"
-	area_blurb = "Library Placeholder"
+	area_blurb = "Dust coats the floor here, the lights cracked and flickering. Mudki had many libraries, once - some funded by the Church, others funded by the former Lord himself. The place is old and crumbling, but the books remain. That, at least, is not yet lost."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/pawn
 	name = "Pawn Shop"
-	area_blurb = "Pawn Shop Placeholder"
+	area_blurb = "A small shop, but one that has survived the ruin of its city. The shelves are lined with assorted miscellany."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/convenience
 	name = "Convenience Store"
-	area_blurb = "Convenience Store Placeholder"
+	area_blurb = "A mid-sized shop, shelves lined with food and other supplies. Perhaps crisis has forged an opportunity for profit."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/charging_station
 	name = "Vehicle Charging Station"
-	area_blurb = "Vehicle Charging Station Placeholder"
+	area_blurb = "A recharging station for electric vehicles. Though the stone around them is well-weathered, the charging stations themselves seem to still work."
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/new_blades/mudki/interiors/abandoned_shop
 	name = "Abandoned Shop"
-	area_blurb = "Abandoned Shop Placeholder"
+	area_blurb = "This place seems to be what remains of a small store, now left to decay."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/abandoned_shop/clothing
@@ -179,13 +179,13 @@
 
 /area/new_blades/mudki/interiors/water_treatment
 	name = "Water Treatment Plant"
-	area_blurb = "Water Treatment Plant Placeholder"
+	area_blurb = "Once, this place would have brought clean water to thousands. Now it sits silent, water lapping at the motionless edges of great machines."
 	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/new_blades/mudki/interiors/water_treatment/UV_room
 	name = "Water Treatment Plant - Disinfection"
-	area_blurb = "Placeholder"
+	area_blurb = "Ultraviolet lights have gone dark here. Terminals sit coated in dust. No one has been here in a long, long time."
 
 /area/turbolift/mudki_hospital_lift
 	name = "Mudki Hospital Lift"
@@ -426,7 +426,7 @@
 	. = ..()
 	M.gender = MALE
 	M.adjustBruteLoss(rand(100,300))
-	M.adjustBurnLoss(rand(50,200))
+	M.adjustFireLoss(rand(50,200))
 	var/cadaver_color = pick("Green","Red","Brown")
 	switch(cadaver_color)
 		if("Green")
@@ -450,7 +450,7 @@
 /obj/effect/landmark/corpse/izaku/do_extra_customization(mob/living/carbon/human/M)
 	. = ..()
 	M.gender = MALE
-	M.adjustBurnLoss(rand(100,400))
+	M.adjustFireLoss(rand(100,400))
 	M.adjustBruteLoss(rand(50,150))
 	var/cadaver_color = pick("Brown", "Black", "Grey")
 	switch(cadaver_color)
@@ -479,7 +479,7 @@
 /obj/effect/landmark/corpse/klax/do_extra_customization(mob/living/carbon/human/M)
 	. = ..()
 	M.adjustBruteLoss(rand(50,75))
-	M.adjustBurnLoss(rand(100,250))
+	M.adjustFireLoss(rand(100,250))
 	var/brood = pick("Vedhra","Zkaii","Tupii","Leto","Vetju")
 	switch(brood)
 		if("Vedhra")
@@ -497,12 +497,13 @@
 		if("Vetju")
 			M.change_skin_color(11, 84, 31)
 			M.change_hair_color(11, 84, 31)
-	replacetext(M.name, "Ka'", "Za'")
-	replacetext(M.name, "Ta'", "Za'")
-	replacetext(M.name, "Ra'", "Za'")
-	replacetext(M.name, "Viax","Akaix")
-	replacetext(M.name, " Zo'ra", " K'lax")
-	replacetext(M.name, " C'thur", " K'lax")
+	M.name = replacetext(M.name, "Ka'", "Za'")
+	M.name = replacetext(M.name, "Ta'", "Za'")
+	M.name = replacetext(M.name, "Ra'", "Za'")
+	M.name = replacetext(M.name, "Viax","Akaix")
+	M.name = replacetext(M.name, " Zo'ra", " K'lax")
+	M.name = replacetext(M.name, " C'thur", " K'lax")
+	M.real_name = M.name
 
 /obj/effect/landmark/corpse/kataphract
 	name = "Kataphract Warrior"
@@ -517,7 +518,7 @@
 	. = ..()
 	M.gender = MALE
 	M.adjustBruteLoss(rand(100,300))
-	M.adjustBurnLoss(rand(50,200))
+	M.adjustFireLoss(rand(50,200))
 	var/cadaver_color = pick("Green","Red","Brown")
 	switch(cadaver_color)
 		if("Green")
