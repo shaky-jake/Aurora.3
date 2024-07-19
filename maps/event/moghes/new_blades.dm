@@ -6,7 +6,6 @@
 	no_light_control = FALSE
 	base_turf = /turf/simulated/floor/exoplanet/desert
 	ambience = AMBIENCE_DESERT
-	area_blurb = "The heat of the desert is not as brutal here, but it is still a constant presence, even this high in the mountains."
 	is_outside = OUTSIDE_YES
 	var/lighting = TRUE
 
