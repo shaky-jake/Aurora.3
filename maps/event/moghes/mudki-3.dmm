@@ -2297,7 +2297,10 @@
 	},
 /area/new_blades/mudki/interiors/military_base)
 "aCj" = (
-/obj/structure/barricade/metal/wired,
+/obj/structure/barricade/metal/wired{
+	icon_state = "metal_2";
+	damage_state = 2
+	},
 /obj/effect/floor_decal/concrete{
 	dir = 4
 	},
@@ -8633,8 +8636,9 @@
 	},
 /obj/structure/barricade/plasteel/wired{
 	closed = 0;
-	icon_state = "plasteel_0";
-	density = 1
+	icon_state = "plasteel_3";
+	density = 1;
+	damage_state = 3
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/concrete{
@@ -29958,12 +29962,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/spaceport/customs)
-"hrk" = (
-/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
-/turf/simulated/floor/wood/maple{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/south_housing)
 "hro" = (
 /obj/structure/flora/rock/konyang/small,
 /obj/effect/decal/curb{
@@ -35802,7 +35800,9 @@
 /area/new_blades/mudki/interiors/south_housing)
 "iSd" = (
 /obj/structure/barricade/metal/wired{
-	dir = 4
+	dir = 4;
+	icon_state = "metal_2";
+	damage_state = 2
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -63469,9 +63469,14 @@
 /area/new_blades)
 "pYN" = (
 /obj/structure/barricade/metal/wired{
-	dir = 4
+	dir = 4;
+	damage_state = 1;
+	icon_state = "metal_1"
 	},
-/obj/structure/barricade/metal/wired,
+/obj/structure/barricade/metal/wired{
+	icon_state = "metal_2";
+	damage_state = 2
+	},
 /obj/effect/floor_decal/concrete{
 	dir = 1
 	},
@@ -70442,16 +70447,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
-"rIV" = (
-/obj/random/dirt_75,
-/obj/item/trash/board{
-	pixel_x = -8;
-	pixel_y = 0
-	},
-/turf/simulated/floor/concrete{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/north_housing)
 "rJb" = (
 /obj/random/dirt_75,
 /obj/effect/decal/cleanable/floor_damage/tiled_broken4,
@@ -71522,7 +71517,9 @@
 /area/new_blades/mudki/interiors/south_housing)
 "rUR" = (
 /obj/structure/barricade/metal/wired{
-	dir = 4
+	dir = 4;
+	icon_state = "metal_1";
+	damage_state = 1
 	},
 /obj/effect/decal/cleanable/floor_damage/tiled_broken3,
 /obj/effect/floor_decal/concrete{
@@ -72184,6 +72181,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/military_base)
+"scF" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/structure/barricade/plasteel/wired{
+	closed = 0;
+	icon_state = "plasteel_2";
+	density = 1;
+	damage_state = 2
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "scQ" = (
 /obj/effect/decal/road_marking/center{
 	dir = 1
@@ -73870,7 +73882,10 @@
 	},
 /area/new_blades/mudki/interiors/alley)
 "sAe" = (
-/obj/structure/barricade/metal/wired,
+/obj/structure/barricade/metal/wired{
+	icon_state = "metal_3";
+	damage_state = 3
+	},
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
@@ -82745,6 +82760,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/inn)
+"uMR" = (
+/obj/random/dirt_75,
+/obj/item/trash/board{
+	pixel_x = -8;
+	pixel_y = 0
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "uMX" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
@@ -115227,7 +115252,7 @@ dek
 dek
 jQm
 qYz
-rIV
+uMR
 dek
 dek
 dek
@@ -128966,8 +128991,8 @@ oPl
 dQy
 kMv
 aMR
-hrk
-hrk
+aMR
+aMR
 aMR
 aMR
 aMR
@@ -129223,8 +129248,8 @@ oPl
 dQy
 aMR
 aMR
-hrk
-hrk
+aMR
+aMR
 aMR
 qKn
 qKn
@@ -139655,7 +139680,7 @@ nPA
 eAS
 iAp
 wlK
-cff
+scF
 bZb
 qao
 cyZ
