@@ -55929,16 +55929,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/south_housing)
-"nXx" = (
-/obj/random/dirt_75,
-/obj/item/trash/board{
-	pixel_x = -8;
-	pixel_y = 0
-	},
-/turf/simulated/floor/concrete{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/north_housing)
 "nXE" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 1
@@ -70452,6 +70442,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"rIV" = (
+/obj/random/dirt_75,
+/obj/item/trash/board{
+	pixel_x = -8;
+	pixel_y = 0
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/north_housing)
 "rJb" = (
 /obj/random/dirt_75,
 /obj/effect/decal/cleanable/floor_damage/tiled_broken4,
@@ -95962,7 +95962,9 @@
 /turf/unsimulated/floor,
 /area/new_blades/underground)
 "yeu" = (
-/obj/machinery/door/airlock/freezer,
+/obj/machinery/door/airlock/freezer{
+	insecure = 0
+	},
 /obj/effect/decal/exterior_stairs/half/center{
 	dir = 1
 	},
@@ -115225,7 +115227,7 @@ dek
 dek
 jQm
 qYz
-nXx
+rIV
 dek
 dek
 dek
