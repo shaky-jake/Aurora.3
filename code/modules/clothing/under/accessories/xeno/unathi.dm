@@ -12,6 +12,9 @@
 	var/up = TRUE
 	protects_against_weather = TRUE
 
+/obj/item/clothing/accessory/sinta_hood/colored
+	color = "#d4d3ab"
+
 /obj/item/clothing/accessory/sinta_hood/get_ear_examine_text(var/mob/user, var/ear_text = "left")
 	return "on [user.get_pronoun("his")] head"
 

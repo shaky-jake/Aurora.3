@@ -162,7 +162,7 @@
 	desc = "Part of the Nralakk Federation humanitarian team in Mudki."
 	tags = list("External")
 	max_count = 6
-	extra_languages = list(LANGUAGE_UNATHI, LANGUAGE_AZAZIBA)
+	extra_languages = list(LANGUAGE_SKRELLIAN)
 	spawnpoints = list("nralakk")
 	possible_species = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_BULWARK, SPECIES_DIONA, SPECIES_DIONA_COEUS)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
@@ -219,3 +219,37 @@
 	uniform = /obj/item/clothing/under/skrell/nralakk/oqi/security
 	accessory = /obj/item/clothing/accessory/holster/hip
 	accessory_contents = list(/obj/item/gun/energy/fedpistol = 1)
+
+/datum/ghostspawner/human/survivor
+	name = "Izaku Levy Survivor"
+	short_name = "survive"
+	desc = "A surviving warrior, conscripted to defend Mudki."
+	tags = list("External")
+	max_count = 1
+	extra_languages = list(LANGUAGE_UNATHI, LANGUAGE_AZAZIBA)
+	spawnpoints = list("survive")
+	possible_species = list(SPECIES_UNATHI)
+	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	outfit = /obj/outfit/admin/izaku
+
+	assigned_role = "Mudki Levy"
+	special_role = "Mudki Levy"
+	respawn_flag = null
+	uses_species_whitelist = FALSE
+
+/obj/outfit/admin/izaku
+	uniform = /obj/item/clothing/under/unathi/zazali/white
+	shoes = /obj/item/clothing/shoes/sandals/caligae
+	back = /obj/item/storage/backpack/satchel/leather
+	id = /obj/item/card/id
+	suit = /obj/item/clothing/suit/armor/unathi/hegemony
+	head = /obj/item/clothing/head/helmet/unathi/hegemony
+	belt = /obj/item/storage/belt/military
+	r_hand = /obj/item/material/sword/longsword
+	backpack_contents = list(
+		/obj/item/grenade/frag = 1,
+		/obj/item/stack/medical/bruise_pack/full = 2,
+		/obj/item/reagent_containers/pill/pouch_pill/inaprovaline = 1,
+		/obj/item/clothing/accessory/sinta_hood/colored = 1
+	)
+	accessory = /obj/item/clothing/accessory/holster/hip
