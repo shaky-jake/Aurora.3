@@ -152,3 +152,7 @@
 		"132.6 SkaldFM" = 'texts/lore_radio/uueoaesa/132.6_Skald_FM.txt',
 		"166.8 Discontinued Emergency Broadcast" = 'texts/lore_radio/uueoaesa/166.8_Azarak_Emergency_Broadcast.txt'
 	)
+
+	lobby_tracks = list(
+		'sound/music/lobby/moghes_lobby.ogg'
+	)

@@ -32,7 +32,7 @@
 
 /singleton/state_transition/weather/sandstorm
 	target = /singleton/state/weather/sandstorm
-	likelihood_weighting = 20
+	likelihood_weighting = 10
 
 //weather for planets
 

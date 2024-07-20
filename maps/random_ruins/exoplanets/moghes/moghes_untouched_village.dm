@@ -75,7 +75,10 @@
 	l_ear = null
 
 	id = null
-	backpack_contents = list(/obj/item/storage/wallet/random = 1)
+	backpack_contents = list(
+		/obj/item/storage/wallet/random = 1,
+		/obj/item/device/radio = 1
+	)
 
 /obj/outfit/admin/unathi_village/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(!H)
