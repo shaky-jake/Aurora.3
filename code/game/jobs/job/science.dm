@@ -59,6 +59,19 @@
 	dufflebag = /obj/item/storage/backpack/duffel/rd
 	messengerbag = /obj/item/storage/backpack/messenger/rd
 
+	accessory = /obj/item/clothing/accessory/holster/waist
+	accessory_contents = list(
+		/obj/item/gun/energy/disruptorpistol/magnum = 1
+	)
+	backpack_contents = list(
+		/obj/item/storage/box/survival = 1,
+		/obj/item/device/camera = 1,
+		/obj/item/device/camera_film = 2,
+		/obj/item/device/taperecorder = 1,
+		/obj/item/device/megaphone/sci = 1,
+		/obj/item/device/scanner = 1
+	)
+
 /datum/job/scientist
 	title = "Scientist"
 	flag = SCIENTIST

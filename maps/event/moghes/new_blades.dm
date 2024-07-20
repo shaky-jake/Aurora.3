@@ -58,8 +58,9 @@
 	area_blurb = "A small alleyway, winding its way through the urban sprawl. The smell of smoke and rot drifts on the air."
 
 /area/new_blades/mudki/interiors/sewers
+	name = "Mudki Sewers"
 	icon_state = "green"
-	area_blurb = "Sewers Placeholder"
+	area_blurb = "The stench of a sewer is unmistakable. It seems to be largely intact, howewver, and there is a merciful lack of overflow from any of the nearby drains."
 
 /area/new_blades/mudki/interiors/spaceport
 	name = "Mudki Spaceport"
@@ -126,7 +127,7 @@
 
 /area/new_blades/mudki/interiors/inn
 	name = "Inn"
-	area_blurb = "This place should have the warmth of a fire, the smells of cooking meat, the sound of lively music. There is no fire. There is no meat. There is no music. Only decay."
+	area_blurb = "This place should have the warmth of a fire, the smells of cooking meat, the sound of lively music. There is no fire. There is no meat. There is no music."
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/new_blades/mudki/interiors/bar
@@ -180,7 +181,7 @@
 
 /area/new_blades/mudki/interiors/power_station
 	name = "Power Station"
-	area_blurb = "Power Station Placeholder"
+	area_blurb = "Acrid smoke drifts on the wind, the smell of burning rubber prominent. The building iteslf seems to be standing, but it looks to have suffered a direct impact."
 	requires_power = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
@@ -280,7 +281,7 @@
 	knockdown = FALSE
 
 /obj/effect/shuttle_landmark/scc_evac/start
-	name = "Izilukh Landing Zone"
+	name = "Mudki Spaceport"
 	landmark_tag = "nav_scc_evac_start"
 	docking_controller = "scc_evac_station"
 	base_turf = /turf/simulated/floor/exoplanet/desert
@@ -330,6 +331,15 @@
 	base_area = /area/landing_pad
 
 
+/obj/item/disk/mcguffin1
+	name = "power station data disk"
+	icon = 'icons/obj/cloning.dmi'
+	icon_state = "datadisk2"
+	item_state = "card-id"
+	w_class = ITEMSIZE_SMALL
+	desc = "An encrypted data disk."
+	desc_info = "This data disk can be used at the Zeng-Hu Environmental Analysis Terminal for a large one-time boost to survey progress."
+
 /obj/item/disk/mcguffin2
 	name = "purifier operations data disk"
 	icon = 'icons/obj/cloning.dmi'
@@ -339,15 +349,95 @@
 	desc = "An encrypted data disk."
 	desc_info = "This data disk can be used at the Zeng-Hu Environmental Analysis Terminal for a large one-time boost to survey progress."
 
+/obj/item/disk/mcguffin3
+	name = "defense array data disk"
+	icon = 'icons/obj/cloning.dmi'
+	icon_state = "datadisk2"
+	item_state = "card-id"
+	w_class = ITEMSIZE_SMALL
+	desc = "An encrypted data disk."
+	desc_info = "This data disk can be used at the Zeng-Hu Environmental Analysis Terminal for a large one-time boost to survey progress."
+
+/obj/machinery/computer/terminal/defense
+	name = "defense system log terminal"
+	icon_screen = "engines"
+	icon_keyboard = "power_key"
+	icon_keyboard_emis = "power_key_mask"
+	var/has_disk = TRUE
+
+/obj/machinery/computer/terminal/defense/attack_hand(mob/user)
+	. = ..()
+	if(has_disk)
+		var/choice = tgui_alert(user, "Latest data backup saved to external storage device. Select user action:", "Defense System Monitoring", list("Eject Disk", "Cancel"))
+		if(choice == "Eject Disk")
+			to_chat(user, SPAN_NOTICE("\The [src] ejects a disk."))
+			has_disk = FALSE
+			var/obj/item/disk/D = new /obj/item/disk/mcguffin3(get_turf(user))
+			user.put_in_hands(D)
+
+/obj/machinery/computer/terminal/power_station
+	name = "system log terminal"
+	icon_screen = "engines"
+	icon_keyboard = "power_key"
+	icon_keyboard_emis = "power_key_mask"
+
+/obj/machinery/computer/terminal/power_station/attack_hand(mob/user)
+	. = ..()
+	var/choice = tgui_alert(user, "System logs available. Display driver corrupted. Print system logs?", "System Logs", list("Print", "Cancel"))
+	if(choice == "Print")
+		var/obj/item/paper/P = new /obj/item/paper/fluff/power_station_log(get_turf(user))
+		user.put_in_hands(P)
+
+/obj/item/paper/fluff/power_station_log
+	name = "power station log"
+	language = LANGUAGE_UNATHI
+	info = "Mudki Power Station 9 System Log:<br>\
+	13/05/2455: Logs cleared.<br>\
+	26/05/2458: Overheating detected in power storage units. Repairs carried out and logged.<br>\
+	03/06/2461: Maintenance request issued to Junzi Electric guildhall.<br>\
+	04/07/2461: Maintenance request timed out. Please try again.<br>\
+	05/06/2465: Station overdue for scheduled inspection. Contact authorised Junzi Electric personnel.<br>\
+	14/07/2466: Severe damage detected in all systems. Emergency shutdown engaged.<br>\
+	20/07/2466: Systems restored. User command received: Print Logs."
+
 /obj/machinery/computer/terminal/purifier
 	name = "water purifier terminal"
 	icon_screen = "turbinecomp"
 	icon_keyboard = "id_key"
 	var/has_disk = TRUE
+	var/used = FALSE
 
 /obj/machinery/computer/terminal/purifier/attack_hand(mob/user)
 	. = ..()
-	if(has_disk)
+	if(has_disk && !used)
+		var/choice = tgui_alert(user, "Purifier master control system operational. Select user action:", "Water Purifier Monitoring", list("Initialize Purification Cycle","Eject Disk", "Cancel"))
+		if(choice == "Initialize Purification Cycle")
+			to_chat(user, SPAN_NOTICE("Engaging emergency maintenance cycle. Power levels nominal. Please stand by."))
+			var/area/A = GLOB.areas_by_type[/area/new_blades/mudki/interiors/water_treatment]
+			for(var/obj/structure/disposalpipe/D in A)
+				if(D.dpdir == 0)
+					to_chat(user, SPAN_WARNING("Sewage line breaks detected within treatement plant. Initialization unable to continue. Please consult an authorised guildsman of the Construction Coalition for repairs."))
+					return
+
+			var/area/U = GLOB.areas_by_type[/area/new_blades/mudki/interiors/water_treatment/UV_room]
+			for(var/obj/machinery/light/floor/L in U)
+				if(L.stat == POWEROFF)
+					to_chat(user, SPAN_WARNING("Purification chamber UV lights must be engaged to activate purification cycle."))
+					return
+
+			to_chat(user, SPAN_NOTICE("Purifier systems activated. Systems are \[CANNOT_READ_DATA] days overdue for standard maintenance checkup. Please consult an authorised guildsman of the Construction Coalition for inspection as soon as possible, or your facility may be liable under the honorable urban planning regulations of the Izaku Clan."))
+			A.area_blurb = "The infrastructure of this place is still decayed, but it runs again. The floor vibrates beneath your feet, the heartbeat of great machines driving water through the veins of this city. It is not dead. Not yet."
+			U.area_blurb = "Ultraviolet lights flicker over the faded and burned screens of terminals. It will take further repair, but for now it is enough."
+			GLOB.water_purified = TRUE
+			used = TRUE
+
+		if(choice == "Eject Disk")
+			to_chat(user, SPAN_NOTICE("\The [src] ejects a disk."))
+			has_disk = FALSE
+			var/obj/item/disk/D = new /obj/item/disk/mcguffin2(get_turf(user))
+			user.put_in_hands(D)
+
+	if(has_disk && used)
 		var/choice = tgui_alert(user, "Latest data backup saved to external storage device. Select user action:", "Water Purifier Monitoring", list("Eject Disk", "Cancel"))
 		if(choice == "Eject Disk")
 			to_chat(user, SPAN_NOTICE("\The [src] ejects a disk."))
@@ -389,6 +479,29 @@
 	if(choice == "Print")
 		var/obj/item/paper/P = new /obj/item/paper/fluff/water_treatment_log(get_turf(user))
 		user.put_in_hands(P)
+
+
+/obj/item/fake_blueprints
+	name = "blueprints"
+	desc = "A set of blueprints for a large building, labeled in Sinta'Unathi."
+	icon = 'icons/obj/items.dmi'
+	icon_state = "blueprints"
+
+/obj/item/fake_blueprints/get_examine_text(mob/user, distance, is_adjacent, infix, suffix, get_extended)
+	. = ..()
+	if(GLOB.all_languages[LANGUAGE_UNATHI] in user.languages)
+		. += "These blueprints appear to be a map of the Izaku palace, located towards the center of the city. Several areas have been circled - guest quarters, it seems. One room in particular has been circled several times, labeled with a handwritten note as 'Heph. guild accomodation'."
+
+/obj/item/paper/fluff/champions
+	name = "message"
+	language = LANGUAGE_UNATHI
+	info = "Brothers, word has reached me that your business in Mudki proves unproductive. The threshbeast has gone to market too early, and the buyer approaches with vast sums. There is wisdom in knowing when investments are unprofitable, yet opportunity may still arise. If there are any in similar business, see if they hold similar histories as your own with the buyer and the guild that he serves. Perhaps we can find some place to invest here before the deal is done - but do not risk our capital for potential gains. Should the transaction close before you are ready, return to me when able.<br>"
+
+/obj/item/paper/fluff/manifesto
+	name = "statement of purpose"
+	desc = "A written message. It appears to be unfinished, as if the writer left in a hurry."
+	language = LANGUAGE_UNATHI
+	info = "The people of Mudki have suffered enough beneath the heel of a madman. They do not need to be sold to the grasping claws of an alien guild. When the Hegemon will not defend his nation from foreign greed, others must act as its Champions in his stead. The dishonor of this action is ours, and we shall pay our penance for-"
 
 //Corpses
 /obj/effect/landmark/corpse/villager

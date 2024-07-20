@@ -122,6 +122,7 @@
 		/obj/item/storage/firstaid/regular = 1,
 		/obj/item/storage/box/donkpockets = 1
 	)
+	l_ear = /obj/item/device/radio/headset/ert
 
 /obj/outfit/admin/mudki_hegemony/get_id_access()
 	return list(ACCESS_KATAPHRACT, ACCESS_KATAPHRACT_KNIGHT)
@@ -144,7 +145,6 @@
 	short_name = "commander"
 	desc = "Commander of a squad from the Hegemony occupation force."
 	max_count = 1
-	spawnpoints = list("command")
 	possible_species = list(SPECIES_UNATHI)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	outfit = /obj/outfit/admin/mudki_hegemony/officer
@@ -185,7 +185,7 @@
 	back = /obj/item/storage/backpack/kala
 	id = /obj/item/card/id
 	r_pocket = /obj/item/clothing/accessory/badge/passport/nralakk
-	l_ear = /obj/item/device/radio/headset
+	l_ear = /obj/item/device/radio/headset/ert
 
 /obj/outfit/admin/nralakk/post_equip(mob/living/carbon/human/H, visualsOnly)
 	. = ..()
@@ -208,7 +208,6 @@
 	name = "Nralakk Humanitarian Leader"
 	short_name = "nralakk_lead"
 	desc = "Lead the Federation humanitarian team."
-	spawnpoints = list("nralakk_lead")
 	max_count = 1
 	outfit = /obj/outfit/admin/nralakk/leader
 	possible_species = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)

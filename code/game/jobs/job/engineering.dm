@@ -59,6 +59,29 @@
 	dufflebag = /obj/item/storage/backpack/duffel/ce
 	messengerbag = /obj/item/storage/backpack/messenger/ce
 
+	glasses = /obj/item/clothing/glasses/welding/superior
+	gloves = /obj/item/clothing/gloves/yellow
+	species_gloves = list(
+		SPECIES_UNATHI = /obj/item/clothing/gloves/yellow/specialu,
+		SPECIES_TAJARA = /obj/item/clothing/gloves/yellow/specialt,
+		SPECIES_TAJARA_MSAI = /obj/item/clothing/gloves/yellow/specialt,
+		SPECIES_TAJARA_ZHAN = /obj/item/clothing/gloves/yellow/specialt,
+	)
+	belt_contents = list(
+		/obj/item/weldingtool/largetank = 1,
+		/obj/item/crowbar = 1,
+		/obj/item/wirecutters = 1,
+		/obj/item/stack/cable_coil/random = 1,
+		/obj/item/powerdrill = 1,
+		/obj/item/device/multitool = 1,
+		/obj/item/hammer = 1
+	)
+	backpack_contents = list(
+		/obj/item/device/megaphone/engi = 1,
+		/obj/item/gun/energy/disruptorpistol/magnum = 1,
+		/obj/item/crowbar/rescue_axe/red = 1
+	)
+
 /obj/outfit/job/chief_engineer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
 	if(istajara(H))

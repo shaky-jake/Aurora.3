@@ -1558,10 +1558,10 @@
 	dir = 4
 	},
 /obj/random/dirt_75,
-/obj/item/broken_bottle{
-	pixel_y = 8;
-	pixel_x = 8
-	},
+/obj/structure/closet/crate/secure/weapon,
+/obj/item/plastique,
+/obj/item/plastique,
+/obj/item/plastique,
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -4528,6 +4528,7 @@
 	},
 /obj/structure/closet/cabinet,
 /obj/random/dirt_75,
+/obj/item/paper/fluff/champions,
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -5453,6 +5454,7 @@
 "nN" = (
 /obj/effect/decal/cleanable/floor_damage/broken4,
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/greenglow/radioactive,
 /turf/simulated/floor/plating{
 	temperature = 315.15
 	},
@@ -6606,10 +6608,10 @@
 	},
 /area/new_blades/mudki/interiors/city_wall)
 "qu" = (
-/obj/machinery/computer/security/engineering/terminal{
+/obj/random/dirt_75,
+/obj/machinery/computer/terminal/power_station{
 	dir = 1
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -9342,6 +9344,12 @@
 	},
 /obj/effect/decal/cleanable/generic,
 /obj/random/dirt_75,
+/obj/structure/closet/crate/secure/weapon,
+/obj/item/gun/projectile/automatic/rifle/z8,
+/obj/item/gun/projectile/automatic/rifle/z8,
+/obj/item/gun/projectile/automatic/wt550/lethal,
+/obj/item/gun/projectile/automatic/wt550/lethal,
+/obj/item/gun/projectile/automatic/wt550/lethal,
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -12626,6 +12634,9 @@
 	flipped = 1
 	},
 /obj/random/dirt_75,
+/obj/item/fake_blueprints{
+	pixel_y = 7
+	},
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -13441,6 +13452,10 @@
 	dir = 5
 	},
 /obj/random/dirt_75,
+/obj/item/broken_bottle{
+	pixel_y = 8;
+	pixel_x = 8
+	},
 /turf/simulated/floor/marble/dark{
 	temperature = 315.15
 	},
@@ -14542,6 +14557,7 @@
 	pixel_y = -10
 	},
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/greenglow/radioactive,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
@@ -15716,6 +15732,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/inn)
+"MJ" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/table/rack,
+/obj/random/dirt_75,
+/obj/item/clothing/mask/balaclava,
+/obj/item/clothing/mask/balaclava,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "MK" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -17975,6 +18003,7 @@
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/decal/cleanable/floor_damage/tiled_broken4,
 /obj/random/dirt_75,
+/obj/effect/decal/cleanable/greenglow/radioactive,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 315.15
 	},
@@ -19239,6 +19268,17 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/water_treatment)
+"UP" = (
+/obj/effect/decal/curb,
+/obj/structure/table/wood{
+	flipped = 1
+	},
+/obj/random/dirt_75,
+/obj/item/material/knife/tacknife,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "UQ" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -48298,7 +48338,7 @@ Re
 xu
 Gx
 sj
-EK
+UP
 Re
 aw
 aw
@@ -49068,7 +49108,7 @@ aw
 Re
 BD
 ef
-oO
+MJ
 Sq
 Re
 aw

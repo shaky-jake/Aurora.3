@@ -8434,6 +8434,10 @@
 /area/shuttle/scc_evac)
 "cda" = (
 /obj/effect/decal/fake_object/light_source/invisible,
+/obj/machinery/computer/shuttle_control/scc_evac{
+	locked = 1;
+	dir = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/scc_evac)
 "cdc" = (
@@ -16757,6 +16761,22 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ekm" = (
+/obj/effect/decal/cleanable/floor_damage/tiled_broken3,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "hegemony";
+	name = "igs - hegemony"
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "ekr" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -18266,6 +18286,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/city_wall)
+"eGo" = (
+/obj/effect/floor_decal/corner/dark_green{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey{
+	dir = 1
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "nralakk";
+	name = "igs - nralakk"
+	},
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "eGr" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
@@ -24279,6 +24314,10 @@
 /obj/effect/decal/curb{
 	dir = 5
 	},
+/obj/effect/ghostspawpoint{
+	identifier = "hegemony";
+	name = "igs - hegemony"
+	},
 /turf/simulated/floor/asphalt{
 	temperature = 315.15
 	},
@@ -25305,6 +25344,9 @@
 "glN" = (
 /obj/effect/floor_decal/industrial/outline/research,
 /obj/machinery/light,
+/obj/machinery/computer/terminal/scanner{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/scc_evac)
 "glP" = (
@@ -30761,6 +30803,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/guildhouse)
+"hCu" = (
+/obj/structure/bed/padded,
+/obj/structure/curtain/open/bed,
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/item/bedsheet/brown,
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "hCF" = (
 /obj/effect/decal/curb{
 	dir = 5
@@ -32428,6 +32485,10 @@
 /area/new_blades)
 "iaF" = (
 /obj/structure/bed/stool/chair/office/dark,
+/obj/effect/ghostspawpoint{
+	identifier = "nralakk";
+	name = "igs - nralakk"
+	},
 /turf/simulated/floor/tiled/light{
 	temperature = 315.15
 	},
@@ -42703,14 +42764,14 @@
 	},
 /area/new_blades)
 "kJM" = (
-/obj/machinery/computer/ship/navigation/terminal{
-	dir = 4
-	},
 /obj/effect/floor_decal/industrial/outline_corner/grey{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline_door/grey{
 	dir = 8
+	},
+/obj/item/modular_computer/console/preset/supply{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
@@ -43448,6 +43509,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/military_base)
+"kRA" = (
+/obj/structure/bed/padded,
+/obj/structure/curtain/open/bed,
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/item/bedsheet/brown,
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "kRC" = (
 /obj/structure/table/stone/marble,
 /obj/item/holomenu{
@@ -43610,6 +43686,10 @@
 	},
 /obj/effect/decal/curb{
 	dir = 1
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "nralakk";
+	name = "igs - nralakk"
 	},
 /turf/simulated/floor/tiled/white{
 	temperature = 315.15
@@ -45812,6 +45892,27 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/road)
+"lvX" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood/drip{
+	basecolor = "#590000";
+	dries = 0;
+	name = "dried drips of blood"
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "hegemony";
+	name = "igs - hegemony"
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "lwb" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -48553,9 +48654,9 @@
 /obj/effect/floor_decal/industrial/outline_door/grey{
 	dir = 1
 	},
-/obj/machinery/computer/ship/targeting/terminal,
 /obj/effect/floor_decal/industrial/outline_corner/red,
 /obj/random/dirt_75,
+/obj/machinery/computer/terminal/defense,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -57200,6 +57301,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"ooR" = (
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood/cee{
+	dir = 4
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "nralakk";
+	name = "igs - nralakk"
+	},
+/turf/simulated/floor/wood/maple{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/hospital)
 "opK" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -60008,6 +60124,7 @@
 /area/new_blades)
 "peP" = (
 /obj/effect/decal/cleanable/floor_damage/broken3,
+/obj/item/disk/mcguffin1,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -68638,6 +68755,18 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/temple)
+"rmV" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/abstract/weather_marker/moghes,
+/turf/simulated/floor/marble/dark{
+	temperature = 315.15
+	},
+/area/new_blades)
 "rmX" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -70250,11 +70379,11 @@
 	},
 /area/new_blades)
 "rGA" = (
-/obj/machinery/computer/ship/navigation/terminal,
 /obj/effect/floor_decal/industrial/outline_corner/grey,
 /obj/effect/floor_decal/industrial/outline_door/grey{
 	dir = 1
 	},
+/obj/item/modular_computer/console/preset/supply,
 /turf/simulated/floor/tiled/full{
 	temperature = 315.15
 	},
@@ -75903,6 +76032,21 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/convenience)
+"sZt" = (
+/obj/structure/bed/padded,
+/obj/structure/curtain/open/bed,
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/item/bedsheet/brown,
+/obj/effect/ghostspawpoint{
+	identifier = "civ";
+	name = "igs - civ"
+	},
+/turf/simulated/floor/sidewalk/flat{
+	temperature = 315.15
+	},
+/area/new_blades/mudki/interiors/south_housing)
 "sZH" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -76967,6 +77111,16 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt,
+/area/new_blades)
+"top" = (
+/obj/item/ammo_casing/moghes_rifle/spent,
+/obj/effect/ghostspawpoint{
+	identifier = "hegemony";
+	name = "igs - hegemony"
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
 /area/new_blades)
 "toy" = (
 /obj/effect/decal/road_marking/no_pass{
@@ -90819,6 +90973,21 @@
 	temperature = 315.15
 	},
 /area/new_blades)
+"wQF" = (
+/obj/effect/floor_decal/concrete{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "hegemony";
+	name = "igs - hegemony"
+	},
+/turf/simulated/floor/sidewalk{
+	temperature = 315.15
+	},
+/area/new_blades)
 "wQN" = (
 /obj/machinery/mech_recharger/automobile,
 /obj/effect/floor_decal/industrial/outline{
@@ -91319,6 +91488,16 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
+"wWF" = (
+/obj/random/dirt_75,
+/obj/effect/ghostspawpoint{
+	identifier = "hegemony";
+	name = "igs - hegemony"
+	},
+/turf/simulated/floor/concrete{
+	temperature = 315.15
+	},
+/area/new_blades)
 "wWH" = (
 /obj/structure/flora/grass/junglegrass/random,
 /obj/effect/step_trigger/thrower{
@@ -94070,20 +94249,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/north_housing)
-"xEo" = (
-/obj/machinery/computer/ship/sensors/terminal{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline_corner/grey{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline_door/grey{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/full{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/spaceport/customs)
 "xEC" = (
 /obj/structure/table/stone,
 /obj/item/device/versebook/skakh{
@@ -95206,16 +95371,6 @@
 	temperature = 315.15
 	},
 /area/new_blades/mudki/interiors/temple)
-"xTL" = (
-/obj/machinery/computer/ship/sensors/terminal,
-/obj/effect/floor_decal/industrial/outline_corner/grey,
-/obj/effect/floor_decal/industrial/outline_door/grey{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/full{
-	temperature = 315.15
-	},
-/area/new_blades/mudki/interiors/spaceport/customs)
 "xTP" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/sharps{
@@ -106817,7 +106972,7 @@ qqA
 qqA
 jXf
 jgC
-ghn
+ooR
 qyh
 wlK
 aqk
@@ -109123,7 +109278,7 @@ sWe
 kTS
 kTS
 kgr
-ezU
+eGo
 eLu
 udS
 udS
@@ -116501,7 +116656,7 @@ rKs
 tUg
 iQp
 vca
-xEo
+kJM
 kJM
 cxl
 dmJ
@@ -117271,7 +117426,7 @@ iqv
 rKs
 tUg
 iQp
-xTL
+rGA
 poy
 xDW
 gUc
@@ -119924,7 +120079,7 @@ bTA
 jiz
 fKB
 yhU
-wXR
+rmV
 wpi
 sgU
 urc
@@ -123546,7 +123701,7 @@ wtL
 faY
 fcL
 oPl
-aMm
+hCu
 rKQ
 oPl
 oEf
@@ -125870,9 +126025,9 @@ xyK
 faY
 fcL
 oPl
-eeM
+kRA
 mtn
-hBK
+sZt
 oPl
 wlK
 aqk
@@ -145082,9 +145237,9 @@ aOW
 jmJ
 mmv
 mmk
-xzq
+top
 eoD
-wpi
+wWF
 wpi
 xZl
 xZl
@@ -145337,7 +145492,7 @@ xAa
 fMW
 cTe
 tZB
-wXq
+ekm
 dPX
 fgw
 fDg
@@ -145855,7 +146010,7 @@ gIm
 wlK
 lUo
 pIH
-xvK
+lvX
 xAa
 wJE
 cTe
@@ -146111,7 +146266,7 @@ jjI
 cyP
 wlK
 eAS
-vgo
+wQF
 cPb
 sgW
 gTk

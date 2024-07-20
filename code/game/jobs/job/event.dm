@@ -62,7 +62,7 @@
 	minimal_access = list(ACCESS_MEDICAL, ACCESS_MEDICAL_EQUIP, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_EVA, ACCESS_MAINT_TUNNELS, ACCESS_ENGINE, ACCESS_RESEARCH, ACCESS_SEC_DOORS, ACCESS_EXTERNAL_AIRLOCKS, ACCESS_PARAMEDIC)
 	outfit = /obj/outfit/job/med_tech/event
 
-	blacklisted_species = list(SPECIES_DIONA, SPECIES_DIONA_COEUS, SPECIES_IPC_G2, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
+	blacklisted_species = list(SPECIES_IPC_G2, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
 
 /obj/outfit/job/med_tech/event
 	name = "Medical Personnel"
@@ -162,7 +162,7 @@
 		/obj/item/device/camera = 1,
 		/obj/item/device/camera_film = 2,
 		/obj/item/device/taperecorder = 1,
-		//obj/item/device/scanner = 1
+		/obj/item/device/scanner = 1
 	)
 	belt = /obj/item/storage/belt/archaeology/full
 
